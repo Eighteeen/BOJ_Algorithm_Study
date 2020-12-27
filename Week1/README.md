@@ -5,6 +5,7 @@
 왜안되니 | 번호 | 문제 | 스터디원 답안
 --- | ------ | ------
 1 | 2523 | [별 찍기 - 13](https://www.acmicpc.net/problem/2523) | [진홍](Week1/bj2523_kjh.java)
-2 | 10988 | [팰린드롬인지 확인하기](https://www.acmicpc.net/problem/10988) |
-3 | 11721 | [열개씩 끊어 출력하기](https://www.acmicpc.net/problem/11721) |
-4 | 5565 | [영수증](https://www.acmicpc.net/problem/5565) |
+2 | 10988 | [팰린드롬인지 확인하기](https://www.acmicpc.net/problem/10988) | ㅁ
+3 | 11721 | [열개씩 끊어 출력하기](https://www.acmicpc.net/problem/11721) | ㅁ
+4 | 5565 | [영수증](https://www.acmicpc.net/problem/5565) | ㅁ
+
