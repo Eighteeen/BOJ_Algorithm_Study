@@ -9,7 +9,7 @@
 | 백준   | 2523  | [별 찍기 - 13](https://www.acmicpc.net/problem/2523)           | [진홍](bj2523_kjh.java) 승빈 예은 [회운](bj2523_jhw.java)   | 진홍 승빈 예은 회운 |
 | 백준   | 10988 | [팰린드롬인지 확인하기](https://www.acmicpc.net/problem/10988) | [진홍](bj10988_kjh.java) 승빈 예은 [회운](bj10988_jhw.java) | 진홍 승빈 예은 회운 |
 | 백준   | 11721 | [열개씩 끊어 출력하기](https://www.acmicpc.net/problem/11721)  | [진홍](bj11721_kjh.java) 승빈 예은 [회운](bj11721_jhw.java) | 진홍 승빈 예은 회운 |
-| 백준   | 5565  | [영수증](https://www.acmicpc.net/problem/5565)                 | 진홍 승빈 예은 [회운](bj5565_jhw.java)                      | 진홍 승빈 예은 회운 |
+| 백준   | 5565  | [영수증](https://www.acmicpc.net/problem/5565)                 | [진홍](bj5565_kjh.java) 승빈 예은 [회운](bj5565_jhw.java)                      | 진홍 승빈 예은 회운 |
 
 ## 2일차
 
