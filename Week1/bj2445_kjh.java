@@ -8,7 +8,7 @@ class Main {
     int width = 2 * N; // 출력할 결과의 너비
 
     StringBuilder sb = new StringBuilder();
-    for (int i = 0; i <= height; i++) {
+    for (int i = 0; i < height; i++) {
       int stars = calcStars(i, height);
       int spaces = width - (stars * 2);
       sb.append("*".repeat(stars));
@@ -19,12 +19,12 @@ class Main {
     System.out.print(sb);
   }
 
-  private static int calcStars(int i, int height) {
-    boolean earlyPhase = i < height / 2;
+  private static int calcStars(int currentIndex, int length) {
+    boolean earlyPhase = currentIndex < (length / 2);
     if (earlyPhase) {
-      return i + 1;
+      return currentIndex + 1;
     }
-    return height - i;
+    return length - currentIndex;
   }
 
   private static int inputInt() {
