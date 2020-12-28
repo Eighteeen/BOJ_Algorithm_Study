@@ -5,12 +5,14 @@ public class bj5565_jhw {
 	public static void main(String[] args) {
 	
 		Scanner sc = new Scanner(System.in);
+		//// 입력받을 때마다 바로바로 처리해내게 하면 사용 메모리와 시간 모두 줄어들 것 같아요.
 		int num[] = new int[10];
 		
 		for(int i =0;i<num.length;i++) {
 
             num[i] = sc.nextInt();
             
+			//// 입력값은 백준 문제에 써진 대로만 들어옵니다! 따로 예외 처리를 할 필요가 없어요
 			if(num[0] >10000) {
 
                 System.out.println("10000원이 넘었습니다");
@@ -18,6 +20,7 @@ public class bj5565_jhw {
 				return;
             }	
 		}
+		
         int num2 =num[0];
 
 		for(int i =1;i<num.length;i++) {
