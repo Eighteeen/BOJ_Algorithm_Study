@@ -19,10 +19,10 @@
 * 미팅 발표자는 각 주차별 주제에 따라 알고리즘 이론 발표를 준비한다.
   * 스터디원도 이론을 조사/정리하여 pdf로 올린다.
 * 사이트 이름, 문제번호와 본인의 이니셜로 소스파일 이름을 지정한다.
-  * [백준](https://www.acmicpc.net){:target="_blank"}
+  * [백준](https://www.acmicpc.net)
     * 기본 답안 : bj0000_hgd
     * 피드백 반영 답안 : bj0000_hgd_fb
-  * [프로그래머스](https://programmers.co.kr){:target="_blank"}
+  * [프로그래머스](https://programmers.co.kr)
     * 기본 답안 : pg0000_hgd
     * 피드백 반영 답안 : pg0000_hgd_fb
 ### 📌 기본 진행
