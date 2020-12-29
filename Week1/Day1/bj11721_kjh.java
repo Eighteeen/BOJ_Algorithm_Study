@@ -4,7 +4,7 @@ class Main {
   public static void main(String[] args) {
     final String WORD = inputString();
     int wordLength = WORD.length();
-
+          ////wordLength변수를 굳이 안만들어줬어도 될거같아요
     for(int i = 0; i < wordLength; i++) {
       char currentChar = WORD.charAt(i);
       System.out.print(currentChar);
