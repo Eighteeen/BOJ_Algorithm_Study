@@ -6,8 +6,8 @@ public class bj2445_jhw {
 
 	public static void main(String[] args) {
 	
-		Scanner sc = new Scanner(System.in);
-		int star = sc.nextInt();
+		Scanner scanner = new Scanner(System.in);
+		int star = scanner.nextInt();
 		
 		for(int i = 0; i<star;i++) {
 			for(int j =0;j<=i;j++) {
@@ -35,7 +35,7 @@ public class bj2445_jhw {
 			}
 			System.out.println();
         }
-        sc.close();
+        scanner.close();
 
 	}
 
