@@ -5,7 +5,7 @@ public class bj5565_jhw {
 	public static void main(String[] args) {
 	
 		Scanner sc = new Scanner(System.in);
-		//// 입력받을 때마다 바로바로 처리해내게 하면 사용 메모리와 시간 모두 줄어들 것 같아요.
+		//// 입력받을 때마다 바로바로 처리해내게 하면 사용 메모리와 시간 모두 줄어들 것 같아요.:22코드도 더 깔끔해질거 같아요
 		int num[] = new int[10];
 		
 		for(int i =0;i<num.length;i++) {

@@ -3,7 +3,7 @@ import java.util.Scanner;
 class Main {
   public static void main(String[] args) {
     final int N = inputInt();
-
+          //// 함수를 잘 활용한거 같아요. 이해하기 편하네요
     for (int stars = 1; stars < N; stars++) {
       printStarsAndReturn(stars);
     }
