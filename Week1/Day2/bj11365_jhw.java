@@ -7,25 +7,25 @@ public class bj11365_jhw {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		String str;
+		String st;
 	
 		while(true) {
 			
-			str = sc.nextLine();
+			st = sc.nextLine();
 			
-			for(int i =str.length()-1;i>=0;i--) {
+			for(int i =st.length()-1;i>=0;i--) {
 				
 				
-			 if(str.length()>500) {
+			 if(st.length()>500) {
 					
 					return;
 				}
 				
-			 if(str.equals("END")|| str.equals("end")) {
+			 if(st.equals("END")|| st.equals("end")) {
 				 
 				 return;
 			 }else {
-				 System.out.print(str.charAt(i));
+				 System.out.print(st.charAt(i));
 				 continue;
 			 }
 		
