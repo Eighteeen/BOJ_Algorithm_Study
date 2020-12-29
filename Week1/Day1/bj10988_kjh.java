@@ -8,7 +8,7 @@ class Main {
     for (int i = 0; i < (wordLength / 2); i++) {
       char farLeftChar = WORD.charAt(i);
       char farRightChar = WORD.charAt(wordLength - i - 1);
-
+        ////return을 잘 이용한거 같아요
       if (farLeftChar != farRightChar) {
         System.out.println("0");
         return;
