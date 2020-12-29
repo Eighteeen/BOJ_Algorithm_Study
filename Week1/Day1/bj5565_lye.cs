@@ -4,6 +4,7 @@ public class Test
 {
 	public static void Main()
 	{
+		//// 굳이 선언과 할당을 따로 할 필요 없다고 생각해요.
 		string input;
 		int total;
 		int sum = 0;

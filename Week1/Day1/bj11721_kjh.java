@@ -8,7 +8,7 @@ class Main {
     for(int i = 0; i < wordLength; i++) {
       char currentChar = WORD.charAt(i);
       System.out.print(currentChar);
-
+      //// 하나씩 print하게 되면 메모리 낭비가 될 것 같아요
       if (isMultiplesOfTen(i + 1)) {
         System.out.println();
       }

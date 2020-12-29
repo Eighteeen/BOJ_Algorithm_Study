@@ -20,7 +20,7 @@ public class bj5565_jhw {
 				return;
             }	
 		}
-		
+		//// 나중에 활용성을 생각한 풀이라고 생각해요. 멋져요!
         int num2 =num[0];
 
 		for(int i =1;i<num.length;i++) {

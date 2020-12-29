@@ -12,7 +12,7 @@ public class Test
 
 		for (int i = 0; i < l / 2; i++)
 		{
-			//// 한번이라도 서로 다를 때 바로 0을 출력하게 했다면 더 효율적이었을 것 같습니다.
+			//// 한번이라도 서로 다를 때 바로 0을 출력하게 했다면 더 효율적이었을 것 같습니다. : 22
 			if (input[i].ToString() == input[l - i - 1].ToString())
 			{
 				cnt++;
