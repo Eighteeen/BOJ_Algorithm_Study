@@ -6,7 +6,7 @@ class Main{
         Scanner sc = new Scanner(System.in);
         String str = sc.next();
         String strCompare;
-
+        ////코드가 굉장히 짧네요 대단해요
         strCompare = new StringBuffer(str).reverse().toString();
         System.out.print(str.equals(strCompare) ? 1 : 0);
     }
