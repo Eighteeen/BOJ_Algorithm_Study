@@ -1,11 +1,10 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.util.StringTokenizer;
 
 class Main {
-  private static final BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
   public static void main(String[] args) throws Exception{
-    final int N = inputInt();
+    final int N = Input.nextInt();
     int height = 2 * N - 1; // 출력할 결과의 높이
     int width = 2 * N; // 출력할 결과의 너비
 
@@ -19,8 +18,6 @@ class Main {
         .append("\n");
     }
     System.out.print(sb);
-
-    br.close();
   }
 
   private static int calcStars(int currentIndex, int length) {
@@ -30,13 +27,52 @@ class Main {
     }
     return length - currentIndex;
   }
+}
 
-  private static int inputInt() {
-    String strLine = null;
+class Input {
+  private static final BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+  private static StringTokenizer tokenizer;
+
+  public static String nextLine() {
+    return readLine();
+  }
+
+  public static int nextInt() {
+    String nextString = next();
+    return Integer.parseInt(nextString);
+  }
+  
+  public static String next() {
+    makeTokensIfNeed();
+    return tokenizer.nextToken();
+  }
+
+  private static void makeTokensIfNeed() {
+    makeTokensIfNotReadedYet();
+    makeTokensIfHasNoToken();
+  }
+
+  private static void makeTokensIfNotReadedYet() {
+    if (tokenizer == null) {
+      tokenizer = makeTokens();
+    }
+  }
+
+  private static void makeTokensIfHasNoToken() {
+    if (tokenizer.hasMoreTokens() == false) {
+      tokenizer = makeTokens();
+    }
+  }
+  
+  private static StringTokenizer makeTokens() {
+    return new StringTokenizer(readLine(), " ");
+  }
+
+  private static String readLine() {
     try {
-      strLine = br.readLine();
+      return br.readLine();
     } catch(Exception e) { }
-
-    return Integer.parseInt(strLine);
+    
+    return null;
   }
 }
