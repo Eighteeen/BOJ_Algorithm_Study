@@ -15,7 +15,7 @@ public class bj10988_jhw {
         
             sum+=str.charAt(i);
 		}
-	
+			//// 깔끔하게 잘한거 같아용ㅎㅎ
 		if(str.equals(sum)) {
 			System.out.println(1);
 		}else {
