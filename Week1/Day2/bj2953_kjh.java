@@ -1,7 +1,7 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
-
+    //// 코드를 재사용하기 쉽도록 만들었네요!
 class Main {
   public static void main(String[] args) throws Exception {
     final int PLAYER_AMOUNT = 5;
