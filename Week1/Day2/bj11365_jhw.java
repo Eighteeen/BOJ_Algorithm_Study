@@ -17,7 +17,7 @@ public class bj11365_jhw {
 				
 				
 			 if(st.length()>500) {
-					
+					//// 예외처리를 항상 하는 습관이 멋있네요. 하지만 백준 문제에서는 처리하지 않아도 좋아용
 					return;
 				}
 			
@@ -28,6 +28,7 @@ public class bj11365_jhw {
 				 return;
 			 }else {
 				 System.out.print(st.charAt(i));
+				 //// 프린트를 자주하는 문제라면 StringBuilder나 StringBuffer를 이용하면 좋을 것 같아요
 				 continue;
 			 }
 		

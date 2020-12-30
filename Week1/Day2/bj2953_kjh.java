@@ -6,6 +6,7 @@ class Main {
   public static void main(String[] args) throws Exception {
     final int PLAYER_AMOUNT = 5;
     final int SCORE_AMOUNT = 4;
+    //// 변수활용을 직관적으로 잘 하신 거 같아요
 
     int score = 0;
     int topPlayer = 0;

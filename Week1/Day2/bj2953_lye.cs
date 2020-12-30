@@ -10,6 +10,7 @@ public class Test
 		//// max_n이라는 이름으로는 어떤 역할을 하는 변수인지 예측하기가 힘들 것 같아요
 		int max_n = 0;
 
+		//// 전체적으로 깔끔하게 짜신 거 같아요
 		for (int i = 0; i < 5; i++)
 		{
 			int sum = 0;
