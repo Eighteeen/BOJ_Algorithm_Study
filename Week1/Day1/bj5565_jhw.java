@@ -6,6 +6,7 @@ public class bj5565_jhw {
 	
 		Scanner sc = new Scanner(System.in);
 		//// 입력받을 때마다 바로바로 처리해내게 하면 사용 메모리와 시간 모두 줄어들 것 같아요.:22코드도 더 깔끔해질거 같아요
+		////-> 이걸 어떻게 수정해야 될지 잘 모르겠습니다.		
 		int num[] = new int[10];
 		
 		for(int i =0;i<10;i++) {
