@@ -12,22 +12,23 @@ class Main {
 
       if (isValidFactor(num1, num2)) {
         sb.append("factor\n");
-        break;
+        continue;
       }
       if (isValidMultiple(num1, num2)) {
         sb.append("multiple\n");
-        break;
+        continue;
       }
-      sb.append("neither");
+      sb.append("neither\n");
     }
+    System.out.print(sb);
   }
 
   private static boolean isValidFactor(int factor, int num) {
     return ( (num % factor) == 0 );
   }
   
-  private static boolean isValidMultiple(int mutiple, int num) {
-    return ( (multiple))
+  private static boolean isValidMultiple(int multiple, int num) {
+    return ( (multiple % num) == 0 );
   }
 }
 
