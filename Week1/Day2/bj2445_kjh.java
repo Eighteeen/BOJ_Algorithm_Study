@@ -7,7 +7,7 @@ class Main {
     final int N = Input.nextInt();
     int height = 2 * N - 1; // 출력할 결과의 높이
     int width = 2 * N; // 출력할 결과의 너비
-
+      ////for문 쓰는거 보다 훨씬 효율적인 방법인거 같아요. 배워갑니다
     StringBuilder sb = new StringBuilder();
     for (int i = 0; i < height; i++) {
       int stars = calcStars(i, height);
