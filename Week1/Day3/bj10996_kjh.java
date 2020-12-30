@@ -9,9 +9,8 @@ class Main {
 
     StringBuilder sb = new StringBuilder();
     for(int i = 0; i < height; i++) {
-      int width = N;
       boolean starFirst = ( (i % 2) == 0 );
-      sb.append(buildWaterDots(width, starFirst))
+      sb.append(buildWaterDots(N, starFirst))
         .append('\n');
     }
     System.out.print(sb);
