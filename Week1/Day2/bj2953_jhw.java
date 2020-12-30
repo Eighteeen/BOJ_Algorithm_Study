@@ -1,12 +1,14 @@
+package firstDay;
 
 import java.util.Scanner;
 
 public class bj2953_jhw {
-		////코드가 약간 복잡한거 같아요.
+////코드가 약간 복잡한거 같아요.
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int num[][] = new int[5][4];
 		int max = 0;
+		//// n1, n2, n3, n4, n5가 배열로 만들어졌다면 if문을 쓸 필요 없었을 것 같습니다 
 		int n1= 0;
 		int n2= 0;
 		int n3= 0;
@@ -29,7 +31,10 @@ public class bj2953_jhw {
 					n4 += num[3][j];
 				}else if(i == 4) {
 					n5 += num[4][j];
-                }
+				}
+				
+				
+			
 			}
 			
 		}
@@ -48,7 +53,7 @@ public class bj2953_jhw {
 		}
 		
 
-		sc.close();
+		
 	
 	}
 
