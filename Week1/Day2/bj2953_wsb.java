@@ -7,6 +7,7 @@ class Main{
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st;
+        //// max로만 썼는데 high 네이밍 배워갑니다
         int highScore = 0, highNum = 0;
 
         for(int i = 1; i <= 5; i++){
