@@ -6,13 +6,12 @@
 
 > https://www.acmicpc.net/group/workbook/view/9797/28682
 
-<<<<<<< HEAD
-| 사이트 | 번호 | 문제 | 답안 | 피드백 반영 답안 |
-| ------ | ----- | -------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
-| 백준 | 2523 | [별 찍기 - 13](https://www.acmicpc.net/problem/2523) | [진홍](Day1/bj2523_kjh.java) [승빈](Day1/bj2523_wsb.java) [예은](Day1/bj2523_lye.cs) [회운](Day1/bj2523_jhw.java) | [진홍](Day1/bj2523_kjh_fb.java) 승빈 [예은](Day1/bj2523_lye_fb.cs) [회운](Day1/bj2523_jhw_fb.java) |
-| 백준 | 10988 | [팰린드롬인지 확인하기](https://www.acmicpc.net/problem/10988) | [진홍](Day1/bj10988_kjh.java) [승빈](Day1/bj10988_wsb.java) [예은](Day1/bj10988_lye.cs) [회운](Day1/bj10988_jhw.java) | [진홍](Day1/bj10988_kjh_fb.java) 승빈 [예은](Day1/bj10988_lye_fb.cs) [회운](Day1/bj10988_jhw_fb.java) |
-| 백준 | 11721 | [열개씩 끊어 출력하기](https://www.acmicpc.net/problem/11721) | [진홍](Day1/bj11721_kjh.java) [승빈](Day1/bj11721_wsb.java) [예은](Day1/bj11721_lye.cs) [회운](Day1/bj11721_jhw.java) | [진홍](Day1/bj11721_kjh_fb.java) 승빈 [예은](Day1/bj11721_lye_fb.cs) [회운](Day1/bj11721_jhw_fb.java) |
-| 백준 | 5565 | [영수증](https://www.acmicpc.net/problem/5565) | [진홍](Day1/bj5565_kjh.java) [승빈](Day1/bj5565_wsb.java) [예은](Day1/bj5565_lye.cs) [회운](Day1/bj5565_jhw.java) | [진홍](Day1/bj5565_kjh_fb.java) 승빈 [예은](Day1/bj5565_lye_fb.cs) [회운](Day1/bj5565_jhw_fb.java) |
+| 사이트 | 번호  | 문제                                                           | 답안                                                                                                                  | 피드백 반영 답안                                                                                      |
+| ------ | ----- | -------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| 백준   | 2523  | [별 찍기 - 13](https://www.acmicpc.net/problem/2523)           | [진홍](Day1/bj2523_kjh.java) [승빈](Day1/bj2523_wsb.java) [예은](Day1/bj2523_lye.cs) [회운](Day1/bj2523_jhw.java)     | [진홍](Day1/bj2523_kjh_fb.java) 승빈 [예은](Day1/bj2523_lye_fb.cs) [회운](Day1/bj2523_jhw_fb.java)    |
+| 백준   | 10988 | [팰린드롬인지 확인하기](https://www.acmicpc.net/problem/10988) | [진홍](Day1/bj10988_kjh.java) [승빈](Day1/bj10988_wsb.java) [예은](Day1/bj10988_lye.cs) [회운](Day1/bj10988_jhw.java) | [진홍](Day1/bj10988_kjh_fb.java) 승빈 [예은](Day1/bj10988_lye_fb.cs) [회운](Day1/bj10988_jhw_fb.java) |
+| 백준   | 11721 | [열개씩 끊어 출력하기](https://www.acmicpc.net/problem/11721)  | [진홍](Day1/bj11721_kjh.java) [승빈](Day1/bj11721_wsb.java) [예은](Day1/bj11721_lye.cs) [회운](Day1/bj11721_jhw.java) | [진홍](Day1/bj11721_kjh_fb.java) 승빈 [예은](Day1/bj11721_lye_fb.cs) [회운](Day1/bj11721_jhw_fb.java) |
+| 백준   | 5565  | [영수증](https://www.acmicpc.net/problem/5565)                 | [진홍](Day1/bj5565_kjh.java) [승빈](Day1/bj5565_wsb.java) [예은](Day1/bj5565_lye.cs) [회운](Day1/bj5565_jhw.java)     | [진홍](Day1/bj5565_kjh_fb.java) 승빈 [예은](Day1/bj5565_lye_fb.cs) [회운](Day1/bj5565_jhw_fb.java)    |
 
 ## [2일차](Day2)
 
