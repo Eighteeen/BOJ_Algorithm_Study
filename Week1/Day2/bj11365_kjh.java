@@ -7,7 +7,7 @@ class Main {
     StringBuilder sb = new StringBuilder();
     while (true) {
       String code = Input.nextLine();
-
+      ////자바의 기능들을 잘 사용하시는거 같아요
       if (code.equals("END")) break;
       sb.append(decrypt(code)).append("\n");
     }
