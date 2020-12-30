@@ -2,7 +2,7 @@
 import java.util.Scanner;
 
 public class bj2953_jhw {
-
+		////코드가 약간 복잡한거 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int num[][] = new int[5][4];
