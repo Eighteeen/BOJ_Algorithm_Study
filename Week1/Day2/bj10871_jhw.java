@@ -1,5 +1,5 @@
 
-//무난하게 잘 짜신거 같아요
+////무난하게 잘 짜신거 같아요
 import java.util.Scanner;
 
 public class bj10871_jhw {
