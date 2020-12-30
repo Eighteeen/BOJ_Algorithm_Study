@@ -15,6 +15,7 @@ public class bj5086_jhw {
 				return;
 			}
 
+			//// 깔끔하네요
 			if(num2%num1==0) {
 				System.out.println("factor");
 			}else if(num1%num2 ==0 ) {
@@ -23,6 +24,7 @@ public class bj5086_jhw {
 				System.out.println("neither");
 			}
 			sc.close();
+			//// 섬세하네요
 			}
 
 	}

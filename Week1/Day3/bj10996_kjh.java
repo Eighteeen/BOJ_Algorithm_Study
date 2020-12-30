@@ -16,6 +16,7 @@ class Main {
     System.out.print(sb);
   }
 
+  //// 굳이 하나하나씩 조건문을 돌릴 필요 없을 것 같아요. 좀 더 효율성 좋은 구현 방법이 있다고 생각합니다
   private static StringBuilder buildWaterDots(int width, boolean printStar) {
     StringBuilder sb = new StringBuilder();
     for (int i = 0; i < width; i++) {

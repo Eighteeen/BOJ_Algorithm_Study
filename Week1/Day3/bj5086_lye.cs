@@ -28,6 +28,7 @@ public class Test
 
 	public void Compare(int aa, int bb)
 	{
+		//// 조건문을 의미상으로 잘 묶으신 거 같아요. 하지만 조건문을 한번 더 돌려야 하는 게 조금 아쉽네요
 		if (aa % bb == 0 || bb % aa == 0)
 		{
 			if (aa > bb) { Console.WriteLine("multiple"); }

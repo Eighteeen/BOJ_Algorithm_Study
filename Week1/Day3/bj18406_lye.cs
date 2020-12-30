@@ -9,6 +9,7 @@ public class Test
 		int len = input.Length;
 		int sum1 = 0, sum2 = 0;
 
+		//// len / 2 값을 저장하고 쓰는 게 효율성에 더 좋을 것 같아요.
 		for (int i = 0; i < len / 2; i++)
 		{
 			sum1 += Convert.ToInt32(input[i]);
