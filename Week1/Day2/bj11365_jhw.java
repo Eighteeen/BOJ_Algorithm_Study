@@ -22,6 +22,7 @@ public class bj11365_jhw {
 				}
 			
 			//// 백준 문제를 풀 때는 예외처리가 필요없습니다. END로 주어진다고하면 END라고만 와요!
+			//// => 코드에 섬세함이 느껴져서 좋네요
 			 if(st.equals("END")|| st.equals("end")) {
 				 
 				 return;
