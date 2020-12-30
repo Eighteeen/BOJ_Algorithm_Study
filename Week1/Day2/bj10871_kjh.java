@@ -17,7 +17,7 @@ class Main {
     System.out.println(sb);
   }
 }
-
+    ////효율적인 코드를 만들기 위한 노력이 대단합니다
 class Input {
   private static final BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
   private static StringTokenizer tokenizer;

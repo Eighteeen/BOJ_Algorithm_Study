@@ -10,6 +10,7 @@ public class bj2445_jhw {
 		int star = scanner.nextInt();
 		
 		//// 입출력 함수를 계속 호출하는 오버헤드 때문에 실행시간이 612ms나 걸리고 있습니다.
+		//// 코드가 약간 비효율적일 수 있다는 생각이 들어요.
 		for(int i = 0; i<star;i++) {
 			for(int j =0;j<=i;j++) {
 				System.out.print("*");
