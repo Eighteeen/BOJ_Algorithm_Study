@@ -1,14 +1,12 @@
-package firstDay;
 
 import java.util.Scanner;
 
-public class bj2953_jhw {
-////코드가 약간 복잡한거 같아요.
+public class bj2953_jhw_fb {
+		////코드가 약간 복잡한거 같아요.
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int num[][] = new int[5][4];
 		int max = 0;
-		//// n1, n2, n3, n4, n5가 배열로 만들어졌다면 if문을 쓸 필요 없었을 것 같습니다 
 		int n1= 0;
 		int n2= 0;
 		int n3= 0;
@@ -18,25 +16,18 @@ public class bj2953_jhw {
 			for(int j = 0; j< num[i].length;j++) {
 				int num2 = sc.nextInt();
 				num[i][j] = num2;
-				if(i == 0) {
-					n1 += num[0][j];
-					
-				}else if( i == 1) {
-					n2 += num[1][j];
-				}else if(i==2) {
-					n3+=num[2][j];
-				}else if( i==3) {
-					n4 += num[3][j];
-				}else if(i == 4) {
-					n5 += num[4][j];
-				}
-				
-				
-			
-			}
-			
+				//// n1, n2, n3, n4, n5가 배열로 만들어졌다면 if문을 쓸 필요 없었을 것 같습니다 
+				////->수정했습니다.
+				n1 += num[0][j];
+				n2 += num[1][j];
+				n3+=num[2][j];
+				n4 += num[3][j];
+				n5 += num[4][j]; 
+			}		
 		}
 		//// 5개의 변수 일때"만" 사용할 수 있는 비효율적인 비교 코드..라고 생각합니다
+	////-> 이렇게 한 이유는 문제에서 5명만 나와있어 문제에 맞게 했습니다. 만약 이게 제가 잘못된 생각을 가지고 있는거면 말씀해주시기 바랍니다.
+
 		if(n1>n2 && n1>n3 && n1>n4 && n1>n5) {
 			System.out.println(1+" "+n1);
 		}else if(n2>n1 && n2>n3 && n2>n4 && n2>n5) {
@@ -51,7 +42,7 @@ public class bj2953_jhw {
 		}
 		
 
-		
+		sc.close();
 	
 	}
 
