@@ -7,6 +7,7 @@ public class Test
 		string input;
 		string[] arr = new string[4];
 		int max = 0;
+		//// max_n이라는 이름으로는 어떤 역할을 하는 변수인지 예측하기가 힘들 것 같아요
 		int max_n = 0;
 
 		for (int i = 0; i < 5; i++)

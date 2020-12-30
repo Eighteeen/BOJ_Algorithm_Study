@@ -16,6 +16,7 @@ public class bj2953_jhw {
 			for(int j = 0; j< num[i].length;j++) {
 				int num2 = sc.nextInt();
 				num[i][j] = num2;
+				//// n1, n2, n3, n4, n5가 배열로 만들어졌다면 if문을 쓸 필요 없었을 것 같습니다 
 				if(i == 0) {
 					n1 += num[0][j];
 					
@@ -31,6 +32,7 @@ public class bj2953_jhw {
 			}
 			
 		}
+		//// 5개의 변수 일때"만" 사용할 수 있는 비효율적인 비교 코드..라고 생각합니다
 		if(n1>n2 && n1>n3 && n1>n4 && n1>n5) {
 			System.out.println(1+" "+n1);
 		}else if(n2>n1 && n2>n3 && n2>n4 && n2>n5) {

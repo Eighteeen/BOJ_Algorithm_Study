@@ -8,7 +8,9 @@ class Main{
         StringBuilder sb = new StringBuilder();
         String str;
 
+        //// 조건식에서 대입/비교 한꺼번에 하는 거 배워갑니다
         while(!(str = br.readLine()).equals("END")){
+            //// 문자열 거꾸로 뒤집는게 문제의 핵심이라서, 라이브러리 사용하지 않고 직접 짜는게 더 좋았을 것 같아요
             sb.append(new StringBuffer(str).reverse().toString()).append("\n");
         }
         System.out.print(sb);

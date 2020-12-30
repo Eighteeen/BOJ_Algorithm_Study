@@ -20,7 +20,8 @@ public class bj11365_jhw {
 					
 					return;
 				}
-				
+			
+			//// 백준 문제를 풀 때는 예외처리가 필요없습니다. END로 주어진다고하면 END라고만 와요!
 			 if(st.equals("END")|| st.equals("end")) {
 				 
 				 return;
