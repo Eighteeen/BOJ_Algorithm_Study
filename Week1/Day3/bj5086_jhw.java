@@ -15,9 +15,9 @@ public class bj5086_jhw {
 				return;
 			}
 
-			if(num1%num2 !=0 && num2%num1==0) {
+			if(num2%num1==0) {
 				System.out.println("factor");
-			}else if(num1%num2 ==0 && num2%num1!=0) {
+			}else if(num1%num2 ==0 ) {
 				System.out.println("multiple");
 			}else {
 				System.out.println("neither");
