@@ -23,7 +23,7 @@ class Main {
     System.out.print(sb);
   }
 
-  //// 메소드 활용도 좋지만 너무 세부적으로 나눈 것 같아요. 오히려 주석 한줄이 더 나을 수도 있다는 생각입니다
+  //// 메소드 활용도 좋지만 너무 세부적으로 나눈 것 같아요. 오히려 주석 한줄이 더 나을 수도 있다는 생각입니다 :22 if문으로만 짜는게 더 보기 편할 
   private static boolean isValidFactor(int factor, int num) {
     return ( (num % factor) == 0 );
   }
