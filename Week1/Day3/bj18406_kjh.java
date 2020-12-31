@@ -3,6 +3,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 class Main {
+  ////깔끔해서 보기가 좋습니다.
   public static void main(String[] args) throws Exception {
     final String N = Input.next();
     int length = N.length();
