@@ -2,7 +2,7 @@ package Day3;
 
 import java.util.Scanner;
 
-//// 전체적으로 군더더기 없이 깔끔하네요!
+//// 전체적으로 군더더기 없이 깔끔하네요! : 22
 public class bj5086_jhw {
 
 	public static void main(String[] args) {
@@ -16,7 +16,7 @@ public class bj5086_jhw {
 				return;
 			}
 
-			//// 깔끔하네요
+			//// 깔끔하네요 : 22 깔끔해요~~
 			if(num2%num1==0) {
 				System.out.println("factor");
 			}else if(num1%num2 ==0 ) {
