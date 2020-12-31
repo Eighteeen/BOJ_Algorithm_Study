@@ -30,7 +30,7 @@ class Main {
     return sum;
   }
 
-  //// 가벼운 구현 문제에서 너무 작은 부분까지 메소드로 따로 빼셔서 오히려 보기에 힘들다는 생각이 듭니다
+  //// 가벼운 구현 문제에서 너무 작은 부분까지 메소드로 따로 빼셔서 오히려 보기에 힘들다는 생각이 듭니다 :22 동의합니다
   private static int charToInt(char ch) {
     return ch - '0';
   }
