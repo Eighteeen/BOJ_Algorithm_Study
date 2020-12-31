@@ -12,7 +12,7 @@ public class Test
 		{
 			ts.Print_star(jul + 1);
 			Console.Write("\n ");
-			//// 개행문자 바로 뒤에 띄어쓰기가 있어서 코드를 보고 ????? 어떻게 작동되는 거지?? 하고 당황해서 개인적으로 이부분이 조금 아쉬웠어요
+			//// 개행문자 바로 뒤에 띄어쓰기가 있어서 코드를 보고 ????? 어떻게 작동되는 거지?? 하고 당황해서 개인적으로 이부분이 조금 아쉬웠어요 :22
 			ts.Print_star(jul);
 			Console.WriteLine();
 		}
@@ -21,6 +21,7 @@ public class Test
 
 	public void Print_star(int n)
 	{
+		//// "* "를 통째로 출력하는 방법 배워갑니다!
 		for (int i = 0; i < n / 2; i++)
 		{
 			Console.Write("* ");

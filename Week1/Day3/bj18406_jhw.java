@@ -21,13 +21,14 @@ public class bj18406_jhw {
 		String[] arrFirst = first.split("");
 		String[] arrSecond = second.split("");
 		
+		//// 1/2보다 front/back, left/right 등으로 지었으면 더 직관적이었을 것 같아요
 		int sum1 = 0;
         int sum2 = 0;
         
 		for(int i = 0; i< arrFirst.length;i++) {
 			int firstInt = Integer.parseInt(arrFirst[i]);
 			sum1 += firstInt;		
-        }
+        } //// 이런 부분 탭정리가 조금 아쉽습니다 ㅠㅠ
         
 		for(int i = 0; i<arrSecond.length;i++) {
 			int secondInt = Integer.parseInt(arrSecond[i]);

@@ -2,6 +2,7 @@ package Day3;
 
 import java.util.Scanner;
 
+//// 전체적으로 군더더기 없이 깔끔하네요!
 public class bj5086_jhw {
 
 	public static void main(String[] args) {

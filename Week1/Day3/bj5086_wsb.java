@@ -10,6 +10,7 @@ class Main{
         StringTokenizer st;
         int num1, num2;
         
+        //// 군더더기 없는 깔-끔한 코드
         while(true){
             st = new StringTokenizer(br.readLine());
             num1 = Integer.parseInt(st.nextToken());
