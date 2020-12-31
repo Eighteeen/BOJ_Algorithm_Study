@@ -5,19 +5,19 @@ import java.util.StringTokenizer;
 class Main {
   public static void main(String[] args) throws Exception {
     final String[] MEMBER = {"Soongsil", "Korea", "Hanyang"};
-    final String input = Input.nextLine();
 
-    String[] points = input.split(" ");
+    int lessPoint = 101;
     int lessPointMemberIndex = 0;
     int sumOfPoints = 0;
     for(int i = 0; i < 3; i++) {
-      int point = Integer.parseInt(points[i]);
-      sumOfPoints += point;
-
-      int lessPoint = Integer.parseInt( points[lessPointMemberIndex] );
+      int point = Input.nextInt();
+      
       if (point < lessPoint) {
+        lessPoint = point;
         lessPointMemberIndex = i;
       }
+
+      sumOfPoints += point;
     }
 
     if (sumOfPoints >= 100) {
