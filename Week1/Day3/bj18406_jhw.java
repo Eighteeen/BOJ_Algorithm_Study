@@ -24,7 +24,7 @@ public class bj18406_jhw {
 		//// 1/2보다 front/back, left/right 등으로 지었으면 더 직관적이었을 것 같아요
 		int sum1 = 0;
         int sum2 = 0;
-        
+        		////양쪽 길이가 같으니까 for문 하나로도 할 수 있었을거 같아요!
 		for(int i = 0; i< arrFirst.length;i++) {
 			int firstInt = Integer.parseInt(arrFirst[i]);
 			sum1 += firstInt;		
