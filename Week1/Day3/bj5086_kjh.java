@@ -23,7 +23,9 @@ class Main {
     System.out.print(sb);
   }
 
-  //// 메소드 활용도 좋지만 너무 세부적으로 나눈 것 같아요. 오히려 주석 한줄이 더 나을 수도 있다는 생각입니다 :22 if문으로만 짜는게 더 보기 편할 
+  //// 메소드 활용도 좋지만 너무 세부적으로 나눈 것 같아요. 오히려 주석 한줄이 더 나을 수도 있다는 생각입니다 :22 if문으로만 짜는게 더 보기 편할
+  //// => 코드를 처음 보는 사람이 (num1 % num2 == 0)이라는 조건식이 "num1이 num2의 배수다"라는 의미라는걸 바로 알아볼 수 있을까요?
+  //// => isValidFactor라는 이름을 붙여 의도를 표현하는 쪽이 가독성이 높다고 생각합니다.
   private static boolean isValidFactor(int factor, int num) {
     return ( (num % factor) == 0 );
   }
