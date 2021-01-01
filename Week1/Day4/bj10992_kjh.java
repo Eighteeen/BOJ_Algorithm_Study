@@ -6,6 +6,7 @@ class Main {
   public static void main(String[] args) throws Exception {
     final int N = Input.nextInt();
     //// n-1값을 넣어주는게 더 좋았을 수도 있을거 같아요. : 22 lastStars도 따로있고 굳이 이 변수가 있는 이유를 잘 모르겠어요
+    //// => 마지막 한 줄은 for문에서 반복하지 않는다는걸 표현하기 위해 썼습니다.
     final int LAST_ONE_LINE = 1;
     StringBuilder sb = new StringBuilder();
     for(int i = 0; i < N - LAST_ONE_LINE; i++) {
