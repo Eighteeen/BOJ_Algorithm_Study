@@ -55,7 +55,7 @@
 | 백준   | 10804 | [카드 역배치](https://www.acmicpc.net/problem/10804)   | [진홍](Day5/bj10804_kjh.cs) 승빈 [예은](Day5/bj10804_lye.cs) 회운                         | 진홍 승빈 예은 회운 |
 | 백준   | 7568  | [덩치](https://www.acmicpc.net/problem/7568)           | 진홍 승빈 [예은](Day5/bj7568_lye.cs) 회운                         | 진홍 승빈 예은 회운 |
 | 백준   | 2562  | [최댓값](https://www.acmicpc.net/problem/2562)         | 진홍 승빈 [예은](Day5/bj2562_lye.cs) [회운](Day5/bj2562_jhw.java) | [진홍](bj2562_kjh.java) 승빈 예은 회운 |
-| 백준   | 10173 | [니모를 찾아서](https://www.acmicpc.net/problem/10173) | 진홍 승빈 [예은](Day5/bj10173_lye.cs) 회운                         | 진홍 승빈 예은 회운 |
+| 백준   | 10173 | [니모를 찾아서](https://www.acmicpc.net/problem/10173) | [진홍](Day5/bj10173_kjh.java) 승빈 [예은](Day5/bj10173_lye.cs) 회운                         | 진홍 승빈 예은 회운 |
 
 ## [6일차](Day6)
 
