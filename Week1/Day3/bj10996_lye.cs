@@ -13,6 +13,7 @@ public class Test
 			ts.Print_star(jul + 1);
 			Console.Write("\n ");
 			//// 개행문자 바로 뒤에 띄어쓰기가 있어서 코드를 보고 ????? 어떻게 작동되는 거지?? 하고 당황해서 개인적으로 이부분이 조금 아쉬웠어요 :22
+			////-> 두번째줄엔 항상 젤 첫칸이 띄어져 있어서 그부분을 표현한거에요
 			ts.Print_star(jul);
 			Console.WriteLine();
 		}

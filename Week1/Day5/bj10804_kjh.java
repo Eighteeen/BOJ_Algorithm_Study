@@ -1,29 +1,41 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
-    //// 무난하게 잘 짜신거 같아요 변수 이름들이 아주 인상깊네요
+import java.util.List;
+import java.util.Arrays;
+import java.util.stream.IntStream;
+import java.util.stream.Collectors;
+
 class Main {
   public static void main(String[] args) throws Exception {
-    final int N = Input.nextInt();
-    //// n-1값을 넣어주는게 더 좋았을 수도 있을거 같아요.
-    final int LAST_ONE_LINE = 1;
-    StringBuilder sb = new StringBuilder();
-    for(int i = 0; i < N - LAST_ONE_LINE; i++) {
-      int indentWidth = N - i - 1;
-      int spacesWidth = Math.max(2 * i - 1, 0);
-
-      String indent = " ".repeat(indentWidth);
-      String spaces = " ".repeat(spacesWidth);
-      String starButNotInFirst = (i == 0) ? ("") : ("*");
-      sb.append(indent)
-        .append('*').append(spaces).append(starButNotInFirst)
-        .append('\n');
+    int[] oneToTwenty = IntStream.range(1, 21).toArray();
+    
+    for (int i = 0; i < 10; i++) {
+      int startReverse = Input.nextInt() - 1;
+      int endReverse = Input.nextInt() - 1;
+      reverseArrayOrder(oneToTwenty, startReverse, endReverse);
     }
 
-    String lastStars = "*".repeat(2 * N - 1);
-    sb.append(lastStars);
-    
-    System.out.print(sb);
+    printArray(oneToTwenty);
+  }
+
+  private static void reverseArrayOrder(int[] array, int startReverse, int endReverse) {
+    int[] copiedTarget = Arrays.copyOfRange(array, startReverse, endReverse + 1);
+
+    int reverseCount = endReverse - startReverse + 1;
+    for(int i = 0; i < reverseCount; i++) {
+      int reversedOrder = copiedTarget.length - 1 - i;
+      array[startReverse + i] = copiedTarget[reversedOrder];
+    }
+  }
+
+  private static void printArray(int[] array) {
+    StringBuilder sb = new StringBuilder();
+    for(int i = 0; i < array.length; i++) {
+      sb.append(array[i])
+        .append(' ');
+    }
+    System.out.println(sb);
   }
 }
 
