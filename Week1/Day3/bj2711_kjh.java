@@ -18,6 +18,7 @@ class Main {
   }
 
   //// 구현 자체를 착실히 해내신 것 같아요
+  //// 이런 방법으로도 짤 수 있구나를 느끼고 가요
   private static String eraseOneLetter(String word, int index) {
     String beforeTarget = word.substring(0, index);
 
