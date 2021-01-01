@@ -5,7 +5,7 @@ import java.util.StringTokenizer;
 class Main {
   public static void main(String[] args) throws Exception {
     final int N = Input.nextInt();
-    //// n-1값을 넣어주는게 더 좋았을 수도 있을거 
+    //// n-1값을 넣어주는게 더 좋았을 수도 있을거 같아요.
     final int LAST_ONE_LINE = 1;
     StringBuilder sb = new StringBuilder();
     for(int i = 0; i < N - LAST_ONE_LINE; i++) {
