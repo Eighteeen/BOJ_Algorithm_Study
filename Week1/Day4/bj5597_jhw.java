@@ -9,6 +9,7 @@ public class bj5597_jhw {
 		////boolean활용해서 짜는건 생각하지 못했는데,,잘짜신거 같아요!
 		boolean [] arr= new boolean[30];
 		
+		//// 28명만 과제를 제출한 경우에만 미제출자를 구할 수 있는 코드라서 아쉬워요
 		for(int i = 0; i < 28; i++) {
 			int a = sc.nextInt();
             arr[a-1] = true;

@@ -5,7 +5,7 @@ import java.util.StringTokenizer;
 class Main {
   public static void main(String[] args) throws Exception {
     final int N = Input.nextInt();
-    //// n-1값을 넣어주는게 더 좋았을 수도 있을거 같아요.
+    //// n-1값을 넣어주는게 더 좋았을 수도 있을거 같아요. : 22 lastStars도 따로있고 굳이 이 변수가 있는 이유를 잘 모르겠어요
     final int LAST_ONE_LINE = 1;
     StringBuilder sb = new StringBuilder();
     for(int i = 0; i < N - LAST_ONE_LINE; i++) {
@@ -14,6 +14,7 @@ class Main {
 
       String indent = " ".repeat(indentWidth);
       String spaces = " ".repeat(spacesWidth);
+      //// 전체적으로 변수명명이 좋은데 여기는 굳이 But을 썼어야 했나 싶어요 But이 아예 없거나 Is로 넣는게 빠른 의미 전달이 될 것 같아요
       String starButNotInFirst = (i == 0) ? ("") : ("*");
       sb.append(indent)
         .append('*').append(spaces).append(starButNotInFirst)

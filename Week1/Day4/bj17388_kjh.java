@@ -4,6 +4,7 @@ import java.util.StringTokenizer;
     ////완전 효율적이네요 적은 값을 받으면서 비교해주고 100이 안넘으면 바로 출력,,,감탄했어요.
 class Main {
   public static void main(String[] args) throws Exception {
+    //// 활용성면에서 아주 좋은 코드라고 생각해요 굿
     final String[] MEMBER = {"Soongsil", "Korea", "Hanyang"};
 
     int lessPoint = 101;

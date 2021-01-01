@@ -3,6 +3,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 import java.util.Stack;
 
+//// 스택 활용 깔끔하네요
 class Main {
   public static void main(String[] args) throws Exception {
     final int K = Input.nextInt();

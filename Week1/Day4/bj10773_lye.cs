@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 
+//// 스택 활용 깔끔하네요
 public class Test
 {
 	public static void Main()
