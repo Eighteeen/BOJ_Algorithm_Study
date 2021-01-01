@@ -5,14 +5,13 @@ public class Test
 	public static void Main()
 	{
 		Test ts = new Test();
-		int jul;
-		jul = ts.Read_int();
+		int line = ts.Read_int();
 
-		for (int i = 0; i < jul; i++)
+		for (int i = 0; i < line; i++)
 		{
-			ts.Print_star(jul + 1);
+			ts.Print_star(line + 1);
 			Console.Write("\n ");
-			ts.Print_star(jul);
+			ts.Print_star(line);
 			Console.WriteLine();
 		}
 
