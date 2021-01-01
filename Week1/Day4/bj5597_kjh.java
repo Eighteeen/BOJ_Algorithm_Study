@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Arrays;
 import java.util.stream.IntStream;
 import java.util.stream.Collectors;
-
+    //// list에 저장해두고 하나씩 지우는 것도 좋은 방법인거 같네요!!
 class Main {
   public static void main(String[] args) throws Exception {
     int[] oneToThirty = IntStream.range(1, 31).toArray();
