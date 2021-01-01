@@ -1,5 +1,6 @@
 using System;
 
+//// 굳 되게 깔끔한 것 같습니다
 public class Test
 {
 	public static void Main()
@@ -25,6 +26,7 @@ public class Test
 
 	}
 
+	//// 나중에 다른 문제에서도 써먹을 수 있게 3개 이상도 불러올 수 있게하면 어떨까요
 	public static int[] Read_ints()
 	{
 		string input;

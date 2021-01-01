@@ -14,6 +14,7 @@ public class Test
 		for (int i = 0; i < jul; i++)
 		{
 			num = Read_int();
+			//// 나중에 계산하지 않고 입력받을때마다 빼고 더하는 방법도 있었네요. 배워갑니다!
 			if (num == 0)
 			{
 				sum -= Convert.ToInt32(st.Peek());

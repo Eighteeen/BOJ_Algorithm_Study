@@ -12,6 +12,7 @@ class Main{
         String strArr[] = br.readLine().split(" ");
         List<Integer> participation = Arrays.stream(strArr).map(Integer::valueOf).collect(Collectors.toList());
 
+        //// 저 mapToInt 이거 찾고있었는데.. 배워갑니다
         if(participation.stream().mapToInt(Integer::intValue).sum() >= 100){
             System.out.print("OK");
         }else{

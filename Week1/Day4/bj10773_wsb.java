@@ -10,7 +10,7 @@ class Main{
         int K = Integer.parseInt(br.readLine());
         List<Integer> money = new ArrayList<>();
         int sum = 0, now;
-            //// list사용해서 구현한게 좀 신박하네요.
+            //// list사용해서 구현한게 좀 신박하네요. :22 list로도 꽤 괜찮게 짜여진 것 같아요
         for(int i = 0; i < K; i++){
             now = Integer.parseInt(br.readLine());
             if(now != 0) {

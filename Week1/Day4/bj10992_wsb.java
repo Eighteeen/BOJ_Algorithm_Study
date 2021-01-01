@@ -7,6 +7,7 @@ class Main{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringBuilder sb = new StringBuilder();
         int N = Integer.parseInt(br.readLine());
+        //// 상수에 이름을 달아준건 되게 좋은거같아요! 근데 calN으로는 어떤 의미인지 알 수 없네요 ㅠㅠ
         int calN = N - 1;
 
         for(int i = 0; i < calN; i++){
