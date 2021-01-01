@@ -4,11 +4,11 @@ import java.util.Scanner;
 
 public class bj10992_jhw {
 
-    ////이거는 어려워서 찾아보면서 했습니다.(이해하면서 했습니다.)
+    ////이거는 어려워서 찾아보면서 했습니다.(이해하면서 했습니다.) :22 어려웠어요 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
         int star = sc.nextInt();
-        
+        		////무난하게 잘 짠거 같아요!
 		for(int i = 1; i <= star; i++) {
 			for(int j = 1; j <= star-i; j++) {
 				System.out.print(" ");
