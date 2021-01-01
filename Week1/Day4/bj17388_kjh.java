@@ -1,7 +1,7 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
-
+    ////완전 효율적이네요 적은 값을 받으면서 비교해주고 100이 안넘으면 바로 출력,,,감탄했어요.
 class Main {
   public static void main(String[] args) throws Exception {
     final String[] MEMBER = {"Soongsil", "Korea", "Hanyang"};

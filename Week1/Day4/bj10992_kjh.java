@@ -1,11 +1,11 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
-
+    //// 무난하게 잘 짜신거 같아요 변수 이름들이 아주 인상깊네요
 class Main {
   public static void main(String[] args) throws Exception {
     final int N = Input.nextInt();
-    
+    //// n-1값을 넣어주는게 더 좋았을 수도 있을거 같아요.
     final int LAST_ONE_LINE = 1;
     StringBuilder sb = new StringBuilder();
     for(int i = 0; i < N - LAST_ONE_LINE; i++) {
