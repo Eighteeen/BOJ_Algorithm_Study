@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.util.Stack;
 
 public class bj10773_jhw {
-
+		////stack쓰기 딱 좋은 문제답게 정석의 코드를 작성하신거 같아요.
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		Stack<Integer> st = new Stack<>();
