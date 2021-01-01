@@ -7,7 +7,7 @@ class Main {
   public static void main(String[] args) throws Exception {
     final int K = Input.nextInt();
     Stack<Integer> numbers = new Stack<>();
-
+    ////Continue활용 좋네요
     for(int i = 0; i < K; i++) {
       int number = Input.nextInt();
       if (number == 0) {
@@ -16,7 +16,7 @@ class Main {
       }
       numbers.add(number);
     }
-
+      ////int도 이렇게 더해서 사용할수 있군요 배워갑니다.
     int sum = 0;
     while( !numbers.empty() ) {
       sum += numbers.peek();
