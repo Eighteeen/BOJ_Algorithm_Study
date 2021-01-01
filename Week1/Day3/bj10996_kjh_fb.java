@@ -9,7 +9,7 @@ class Main {
 
     StringBuilder sb = new StringBuilder();
     for(int i = 0; i < height; i++) {
-      boolean starFirst = ( (i % 2) == 0 );
+      boolean starFirst = ( (i % 2) == 0 ); ////bool값이용해서 별 찍어주는게 참신하네요
       sb.append(buildWaterDots(N, starFirst))
         .append('\n');
     }
