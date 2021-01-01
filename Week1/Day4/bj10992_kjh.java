@@ -1,7 +1,7 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
-
+    //// 무난하게 잘 짜신거 같아요 변수 이름들이 아주 인상깊
 class Main {
   public static void main(String[] args) throws Exception {
     final int N = Input.nextInt();
