@@ -18,7 +18,7 @@ class Main {
 
     printArray(oneToTwenty);
   }
-
+    ////Reverse하는 메소드를 활용하면 더 간단하게 할 수도 있을거 같아요!
   private static void reverseArrayOrder(int[] array, int startReverse, int endReverse) {
     int[] copiedTarget = Arrays.copyOfRange(array, startReverse, endReverse + 1);
 
