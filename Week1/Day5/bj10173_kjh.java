@@ -1,7 +1,7 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
-
+    ////무난하게 잘 짜신거 같아요.
 class Main {
   public static void main(String[] args) throws Exception {
     String sentence;
@@ -19,7 +19,7 @@ class Main {
     }
     System.out.print(sb);
   }
-
+  
   // 문자열 검색까지 직접 구현하려했는데 귀찮아서 포기 ㅎㅎ
   private static boolean existsNemo(String sentence) {
     sentence = sentence.toLowerCase();
