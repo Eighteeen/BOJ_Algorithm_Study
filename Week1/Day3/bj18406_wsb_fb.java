@@ -7,6 +7,8 @@ class Main{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String strN = br.readLine();
         int halfLen = strN.length() / 2;
+        //// 1/2보다 left/right, front/back 등으로 지었으면 더 직관적이었을 것 같아요
+        //// -> 좋은 지적 감사해요
         String left = strN.substring(0, halfLen), right = strN.substring(halfLen);
         int leftSum = 0, rightSum = 0;
         
