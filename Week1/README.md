@@ -39,10 +39,10 @@
 
 | 사이트 | 번호  | 문제                                                        | 답안                                                                                                                  | 피드백 반영 답안                                                                                      |
 | ------ | ----- | ----------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
-| 백준   | 10992 | [별 찍기 - 17](https://www.acmicpc.net/problem/10992)       | [진홍](Day4/bj10992_kjh.java) [승빈](Day4/bj10992_wsb.java) [예은](Day4/bj10992_lye.cs) [회운](Day4/bj10992_jhw.java) | [진홍](Day4/bj10992_kjh_fb.java) 승빈 [예은](Day4/bj10992_lye_fb.cs) [회운](Day4/bj10992_jhw_fb.java) |
-| 백준   | 17388 | [와글와글 숭고한](https://www.acmicpc.net/problem/17388)    | [진홍](Day4/bj17388_kjh.java) [승빈](Day4/bj17388_wsb.java) [예은](Day4/bj17388_lye.cs) [회운](Day4/bj17388_jhw.java) | [진홍](Day4/bj17388_kjh.java) 승빈 [예은](Day4/bj17388_lye_fb.cs) [회운](Day4/bj17388_jhw_fb.java)    |
-| 백준   | 5597  | [과제 안 내신 분...?](https://www.acmicpc.net/problem/5597) | [진홍](Day4/bj5597_kjh.java) [승빈](Day4/bj5597_wsb.java) [예은](Day4/bj5597_lye.cs) [회운](Day4/bj5597_jhw.java)     | [진홍](Day4/bj5597_kjh_fb.java) 승빈 [예은](Day4/bj5597_lye_fb.cs) [회운](Day4/bj5597_jhw_fb.java)    |
-| 백준   | 10773 | [제로](https://www.acmicpc.net/problem/10773)               | [진홍](Day4/bj10773_kjh.java) [승빈](Day4/bj10773_wsb.java) [예은](Day4/bj10773_lye.cs) [회운](Day4/bj10773_jhw.java) | [진홍](Day4/bj10773_kjh.java) 승빈 [예은](Day4/bj10773_lye_fb.cs) [회운](Day4/bj10773_jhw_fb.java)    |
+| 백준   | 10992 | [별 찍기 - 17](https://www.acmicpc.net/problem/10992)       | [진홍](Day4/bj10992_kjh.java) [승빈](Day4/bj10992_wsb.java) [예은](Day4/bj10992_lye.cs) [회운](Day4/bj10992_jhw.java) | [진홍](Day4/bj10992_kjh_fb.java) [승빈](Day4/bj10992_wsb_fb.java) [예은](Day4/bj10992_lye_fb.cs) [회운](Day4/bj10992_jhw_fb.java) |
+| 백준   | 17388 | [와글와글 숭고한](https://www.acmicpc.net/problem/17388)    | [진홍](Day4/bj17388_kjh.java) [승빈](Day4/bj17388_wsb.java) [예은](Day4/bj17388_lye.cs) [회운](Day4/bj17388_jhw.java) | [진홍](Day4/bj17388_kjh.java) [승빈](Day4/bj17388_wsb.java) [예은](Day4/bj17388_lye_fb.cs) [회운](Day4/bj17388_jhw_fb.java)    |
+| 백준   | 5597  | [과제 안 내신 분...?](https://www.acmicpc.net/problem/5597) | [진홍](Day4/bj5597_kjh.java) [승빈](Day4/bj5597_wsb.java) [예은](Day4/bj5597_lye.cs) [회운](Day4/bj5597_jhw.java)     | [진홍](Day4/bj5597_kjh_fb.java) [승빈](Day4/bj5597_wsb_fb.java) [예은](Day4/bj5597_lye_fb.cs) [회운](Day4/bj5597_jhw_fb.java)    |
+| 백준   | 10773 | [제로](https://www.acmicpc.net/problem/10773)               | [진홍](Day4/bj10773_kjh.java) [승빈](Day4/bj10773_wsb.java) [예은](Day4/bj10773_lye.cs) [회운](Day4/bj10773_jhw.java) | [진홍](Day4/bj10773_kjh.java) [승빈](Day4/bj10773_wsb_fb.java) [예은](Day4/bj10773_lye_fb.cs) [회운](Day4/bj10773_jhw_fb.java)    |
 
 ## [5일차](Day5)
 
@@ -61,10 +61,10 @@
 
 | 사이트 | 번호  | 문제                                                         | 답안                                                                                      | 피드백 반영 답안    |
 | ------ | ----- | ------------------------------------------------------------ | ----------------------------------------------------------------------------------------- | ------------------- |
-| 백준   | 14720 | [우유 축제](https://www.acmicpc.net/problem/14720)           | [진홍](Day6/bj14720_kjh.java) 승빈 [예은](Day6/bj14720_lye.cs) 회운                       | 진홍 승빈 예은 회운 |
-| 백준   | 2204  | [도비의 난독증 테스트](https://www.acmicpc.net/problem/2204) | [진홍](Day6/bj2204_kjh.java) 승빈 [예은](Day6/bj2204_lye.cs) 회운                         | 진홍 승빈 예은 회운 |
-| 백준   | 2576  | [홀수](https://www.acmicpc.net/problem/2576)                 | [진홍](Day6/bj2576_kjh.java) 승빈 [예은](Day6/bj2576_lye.cs) [회운](Day6/bj2576_jhw.java) | 진홍 승빈 예은 회운 |
-| 백준   | 1152  | [단어의 개수](https://www.acmicpc.net/problem/1152)          | [진홍](Day6/bj1152_kjh.java) 승빈 [예은](Day6/bj1152_lye.cs) [회운](Day6/bj1152_jhw.java) | 진홍 승빈 예은 회운 |
+| 백준   | 14720 | [우유 축제](https://www.acmicpc.net/problem/14720)           | [진홍](Day6/bj14720_kjh.java) [승빈](Day6/bj14720_wsb.java) [예은](Day6/bj14720_lye.cs) 회운                       | 진홍 승빈 예은 회운 |
+| 백준   | 2204  | [도비의 난독증 테스트](https://www.acmicpc.net/problem/2204) | [진홍](Day6/bj2204_kjh.java) [승빈](Day6/bj2204_wsb.java) [예은](Day6/bj2204_lye.cs) 회운                         | 진홍 승빈 예은 회운 |
+| 백준   | 2576  | [홀수](https://www.acmicpc.net/problem/2576)                 | [진홍](Day6/bj2576_kjh.java) [승빈](Day6/bj2576_wsb.java) [예은](Day6/bj2576_lye.cs) [회운](Day6/bj2576_jhw.java) | 진홍 승빈 예은 회운 |
+| 백준   | 1152  | [단어의 개수](https://www.acmicpc.net/problem/1152)          | [진홍](Day6/bj1152_kjh.java) [승빈](Day6/bj1152_wsb.java) [예은](Day6/bj1152_lye.cs) [회운](Day6/bj1152_jhw.java) | 진홍 승빈 예은 회운 |
 
 ## [7일차](Day7)
 
@@ -74,5 +74,5 @@
 | ------ | ----- | --------------------------------------------------------------- | ------------------- | ------------------- |
 | 백준   | 13015 | [별 찍기 - 23](https://www.acmicpc.net/problem/13015)           | 진홍 승빈 예은 회운 | 진홍 승빈 예은 회운 |
 | 백준   | 17294 | [귀여운 수~ε٩(๑> ₃ <)۶з](https://www.acmicpc.net/problem/17294) | 진홍 승빈 예은 회운 | 진홍 승빈 예은 회운 |
-| 백준   | 0     | [네 수](https://www.acmicpc.net/problem/10824)                  | 진홍 승빈 예은 회운 | 진홍 승빈 예은 회운 |
-| 백준   | 0     | [문제이름](문제링크)                                            | 진홍 승빈 예은 회운 | 진홍 승빈 예은 회운 |
+| 백준   | 10824 | [네 수](https://www.acmicpc.net/problem/10824)                  | 진홍 승빈 예은 회운 | 진홍 승빈 예은 회운 |
+| 백준   | 1475 | [방 번호](https://www.acmicpc.net/problem/1475)   | 진홍 승빈 예은 회운 | 진홍 승빈 예은 회운 |
