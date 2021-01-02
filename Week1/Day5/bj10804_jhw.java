@@ -14,7 +14,7 @@ public class bj10804_jhw {
 		for(int i = 0 ; i < 10;i++) {
 			int  num1 = sc.nextInt();
 			int  num2 = sc.nextInt();
-			
+				////Reverse기능을 활용하면 더 편리할거같아요!
 			 for(int k = num1-1; k < num2; k++ ) {
 				 temp = arr[k];
 				 arr[k] = arr[num2-1];
