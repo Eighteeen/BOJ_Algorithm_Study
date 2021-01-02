@@ -1,5 +1,5 @@
 package firstDay;
-
+	////무난하게 잘 짠거 같아요
 import java.util.Scanner;
 
 class Person {
