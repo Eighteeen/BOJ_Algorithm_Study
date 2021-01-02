@@ -1,7 +1,7 @@
 package Day5;
 
 import java.util.Scanner;
-
+	//// 무난하게 잘 짜신거 같아요.
 public class bj2562_jhw {
 
 	public static void main(String[] args) {
