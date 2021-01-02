@@ -2,6 +2,8 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+//// 가독성이 좋고 문제도 쉬워서 10초만에 코드가 읽혔습니다.
+//// 효율성 면에서도 이 코드보다 더 효율적인건 생각나는게 없네요.
 class Main{
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

@@ -1,5 +1,6 @@
 using System;
 
+//// 굳 10초만에 읽혔습니다
 public class Test
 {
 	public static void Main()

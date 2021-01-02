@@ -7,6 +7,7 @@ public class Test
 		string input;
 		int index;
 
+		//// 군더더기 없이 깔끔하게 짜여진거 같아요! 술술 읽혀졌습니다.
 		while (true)
 		{
 			index = -1;

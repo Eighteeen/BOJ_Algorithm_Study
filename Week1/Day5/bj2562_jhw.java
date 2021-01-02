@@ -11,6 +11,7 @@ public class bj2562_jhw {
 		int max=0;
 		int index=0;
 		for(int i = 0; i < numArr.length; i++) {
+			//// 탭정리가 아직도 조금 아쉬워요 ㅠㅠ
 			 int str = sc.nextInt();
              numArr[i] = str;
              
