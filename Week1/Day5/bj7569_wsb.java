@@ -18,7 +18,7 @@ class Main{
             weight[i] = Integer.parseInt(st.nextToken());
             height[i] = Integer.parseInt(st.nextToken());
         }
-
+        ////rank가 하나씩 밀려나는 방법으로 짤수도 있군요 깔끔하고 좋네요.
         for(int i = 0; i < N; i++){
             rank = 1;
             for(int j = 0; j < N; j++){
