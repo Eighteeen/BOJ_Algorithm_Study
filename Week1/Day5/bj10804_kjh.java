@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 
 class Main {
   public static void main(String[] args) throws Exception {
-    ////이런 방법이있었네요 배워갑니다.
+    ////이런 방법이있었네요 배워갑니다. : 22 python에만 range를 사용했었는데 java도 이런 메소드가 있는지 몰랐네요. 배워갑니다!
     int[] oneToTwenty = IntStream.range(1, 21).toArray();
     
     for (int i = 0; i < 10; i++) {
@@ -19,8 +19,9 @@ class Main {
 
     printArray(oneToTwenty);
   }
-    ////Reverse하는 메소드를 활용하면 더 간단하게 할 수도 있을거 같아요!
+    ////Reverse하는 메소드를 활용하면 더 간단하게 할 수도 있을거 같아요! : 22
   private static void reverseArrayOrder(int[] array, int startReverse, int endReverse) {
+    //// copyOfRange() 메소드 배워갑니다 처음 봤어요
     int[] copiedTarget = Arrays.copyOfRange(array, startReverse, endReverse + 1);
 
     int reverseCount = endReverse - startReverse + 1;

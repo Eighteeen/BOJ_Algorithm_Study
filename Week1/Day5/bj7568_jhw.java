@@ -2,7 +2,7 @@ package firstDay;
 	////무난하게 잘 짠거 같아요
 import java.util.Scanner;
 
-//// 오 클래스 활용한거 너무 좋은거같아요! 객체지향 언어의 특성을 살리네요
+//// 오 클래스 활용한거 너무 좋은거같아요! 객체지향 언어의 특성을 살리네요 : 22
 class Person {
 	int weight;
 	int height;
@@ -19,6 +19,7 @@ public class bj7568_jhw {
 		Scanner sc = new Scanner(System.in);
 		int num = sc.nextInt();
 		Person[] p = new Person[num];
+		//// 여기 사이에는 개행이 있으면 한번에 쭉 읽기 더 좋을 것 같아요
 		for(int i = 0 ; i < p.length;i++) {
 			int weight = sc.nextInt();
 			int height = sc.nextInt();
@@ -38,7 +39,7 @@ public class bj7568_jhw {
 		for(int i = 0 ; i < p.length; i++) {
 			System.out.println(p[i].rank+" ");
 		}
-		//// 공백이나 줄바꿈같은게 아직 아쉽습니다
+		//// 공백이나 줄바꿈같은게 아직 아쉽습니다 : 222222222222222222222...
 		
 		
 	
