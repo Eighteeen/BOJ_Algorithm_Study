@@ -20,7 +20,7 @@ class Main{
                 maxIndex = index;
             }
         }
-
+        //보기 좋은거 같습니다.
         sb.append(max)
             .append("\n")
             .append(maxIndex);

@@ -8,6 +8,7 @@ import java.util.stream.Collectors;
 
 class Main {
   public static void main(String[] args) throws Exception {
+    ////이런 방법이있었네요 배워갑니다.
     int[] oneToTwenty = IntStream.range(1, 21).toArray();
     
     for (int i = 0; i < 10; i++) {

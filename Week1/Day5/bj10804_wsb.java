@@ -16,7 +16,7 @@ class Main{
 
         for(int i = 0; i < 10; i++){
             st = new StringTokenizer(br.readLine());
-            //// Collections.reverse()와 List<> subList() 배워갑니다. 이런거 활용을 되게 잘하시네요 :22
+            //// Collections.reverse()와 List<> subList() 배워갑니다. 이런거 활용을 되게 잘하시네요 :22:33
             Collections.reverse(card.subList(Integer.parseInt(st.nextToken()) - 1, Integer.parseInt(st.nextToken())));
         }
         for(int i = 0; i < 20; i++) sb.append(card.get(i)).append(" ");

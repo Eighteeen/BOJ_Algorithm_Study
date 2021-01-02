@@ -1,6 +1,7 @@
 using System;
 
 //// 굳 10초만에 읽혔습니다
+//// 깔끔하고 알아보기 쉽게 하신거 같아요.
 public class Test
 {
 	public static void Main()

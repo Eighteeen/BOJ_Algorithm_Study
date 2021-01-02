@@ -4,7 +4,7 @@ using System;
 public class Test
 {
 	public static void Main()
-	{
+	{	////제가 c를 잘 몰라서 그런데 int line = Read_ints(false)[0];이 부분은 무엇을 의미하는 건가요.
 		int line = Read_ints(false)[0];
 		int[] input = new int[2];
 		int[,] bulk = new int[line, 2];

@@ -1,7 +1,7 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
-    ////무난하게 잘 짜신거 같아요.
+    ////무난하게 잘 짜신거 같아요.:22
 class Main {
   public static void main(String[] args) throws Exception {
     int highScore = 0;

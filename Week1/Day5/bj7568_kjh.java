@@ -10,7 +10,7 @@ class Main {
     int[][] bodies = new int[N][2];
     int[] ranks = new int[N];
     Arrays.fill(ranks, 1);
-    //// 확실히 가독성이 좋아지네요 이런 변수선언이.
+    //// 확실히 가독성이 좋아지네요 이런 변수선언이.:22
     final int WEIGHT = 0;
     final int HEIGHT = 1;
     for(int i = 0; i < N; i++) {
