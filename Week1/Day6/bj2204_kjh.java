@@ -11,7 +11,7 @@ class Main {
       for(int i = 1; i < testCases; i++) {
         String word = Input.nextLine();
         
-        boolean isFrontWord = word.toLowerCase().compareTo(frontWord.toLowerCase()) == -1;
+        boolean isFrontWord = word.toLowerCase().compareTo(frontWord.toLowerCase()) < 0;
         if (isFrontWord) {
           frontWord = word;
         }
