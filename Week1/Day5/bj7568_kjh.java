@@ -16,7 +16,7 @@ class Main {
     for(int i = 0; i < N; i++) {
       bodies[i][WEIGHT] = Input.nextInt();
       bodies[i][HEIGHT] = Input.nextInt();
-
+    //// 입력받으면서 처리할 수 있는게 좋은거 같아요 이코드는.
       for(int j = 0; j < i; j++) {
         boolean biggerBody = (bodies[i][WEIGHT] > bodies[j][WEIGHT])
                               && (bodies[i][HEIGHT] > bodies[j][HEIGHT]);
