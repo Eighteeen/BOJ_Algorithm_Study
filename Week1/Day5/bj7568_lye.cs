@@ -5,6 +5,8 @@ public class Test
 {
 	public static void Main()
 	{	////제가 c를 잘 몰라서 그런데 int line = Read_ints(false)[0];이 부분은 무엇을 의미하는 건가요.
+		////-> line값에 받아온 값을 넣어줘야 하는데 제가 만든 함수인 Read_ints()가 입력받은 값을
+		////   int 배열로 반환해주기 때문에 한자리 수 입력받은 걸 넣어주기 위해 [0]이라는 인덱스를 지정해 준거에요
 		int line = Read_ints(false)[0];
 		int[] input = new int[2];
 		int[,] bulk = new int[line, 2];
