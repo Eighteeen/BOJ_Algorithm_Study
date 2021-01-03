@@ -15,6 +15,7 @@ class Main{
                 if (min > num) min = num;
             }
         }
+        //// if 대신 삼항연산자 쓰는것도 간결해서 좋네용
         System.out.print(sum == 0 ? -1 : sum + "\n" + min);
     }
 }

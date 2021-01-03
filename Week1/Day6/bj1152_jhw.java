@@ -11,6 +11,7 @@ public class bj1152_jhw {
 		String str = sc.nextLine();
 		StringTokenizer st = new StringTokenizer(str," ");
 		
+		//// Token 개수로 판단하는건 생각못했네요. 공백체크도 할 필요가 없어지고 오.. 굳굳
 		System.out.println(st.countTokens());
 		
 		

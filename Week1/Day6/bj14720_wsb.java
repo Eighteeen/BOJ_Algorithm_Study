@@ -4,6 +4,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 class Main{
+    //// enum 활용 배워가요!
     enum Milk {
         STRAWBERRY, CHOCO, BANANA
     }
@@ -12,6 +13,7 @@ class Main{
         int N = Integer.parseInt(br.readLine());
         StringTokenizer st = new StringTokenizer(br.readLine());
         int nextMilk = 0, drinkMilk = 0;
+        //// 종학이가 21억개의 우유를 쳐묵해도 처리할 수 있는 코드네요 굳
         int possibleMilk = Milk.values().length;
 
         for(int i = 0; i < N; i++){

@@ -13,10 +13,12 @@ class Main{
             minWord = br.readLine();
             for(int i = 1; i < n; i++){
                 nowWord = br.readLine();
+                //// 저번부터 느꼈지만 언어에 내장돼있는 기능을 잘 찾아 활용하시는 것 같습니다. 배워가요
                 if(minWord.compareToIgnoreCase(nowWord) > 0){
                     minWord = nowWord;
                 }
             }
+            //// StringBuilder 활용 굳굳!
             sb.append(minWord).append("\n");
         }
         System.out.print(sb);

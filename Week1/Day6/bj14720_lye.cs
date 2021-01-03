@@ -8,6 +8,7 @@ public class Test
 		int num = Read_int();
 		int cnt = 0;
 		int[] read = Set_queue();
+		//// 큐 활용 자체는 신선한데 가독성과 메모리 효율이 떨어지는 것 같아요
 		Queue numbers = new Queue();
 
 		for (int i = 0; i < read.Length; i++)
@@ -20,6 +21,7 @@ public class Test
 			if (Peek_int(numbers) == 0)
 			{
 				cnt++;
+				//// 팁: (3으로 나눈 나머지)를 구하면 3이 0이 돼요!
 				Set_state();
 				break;
 			}
