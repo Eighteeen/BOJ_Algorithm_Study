@@ -18,6 +18,7 @@ class Main {
 
   private static int calcCharCountFromString(char targetChar, String string) {
     int charCount = 0;
+    ////string.toCharArray() 배워갑니다!
     for(char ch : string.toCharArray()) {
       if (ch == targetChar) {
         charCount++;

@@ -1,11 +1,11 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
-  //// 깔끔하게 잘 짠거 같아요
+  //// 깔끔하게 잘 짠거 같아요:22
 class Main {
   public static void main(String[] args) throws Exception {
     final int N = Input.nextInt();
-    
+    ////배워갑니다
     int nextMilk = 0;
     int drinks = 0;
     for(int i = 0; i < N; i++) {
