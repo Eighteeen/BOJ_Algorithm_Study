@@ -1,11 +1,12 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
-  ////깔끔하게 잘 짠거 같습니다.:22
+  ////깔끔하게 잘 짠거 같습니다.:22 : 333
 class Main {
   public static void main(String[] args) throws Exception {
     int sum = 0;
     int min = 101;
+    //// 개행을 넣어주세요
     for(int i = 0; i < 7; i++) {
       int number = Input.nextInt();
       if (number % 2 == 1) {

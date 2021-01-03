@@ -1,7 +1,7 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
-  //// 깔끔하게 잘 짠거 같아요:22
+  //// 깔끔하게 잘 짠거 같아요:22 : 333
 class Main {
   public static void main(String[] args) throws Exception {
     final int N = Input.nextInt();
