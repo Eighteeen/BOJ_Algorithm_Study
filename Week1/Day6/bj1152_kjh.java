@@ -1,7 +1,7 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
-
+  ////약간 복잡해 보이지만 체계적인 코드인거 같습니다.
 class Main {
   public static void main(String[] args) throws Exception {
     String sentence = Input.nextLine();
