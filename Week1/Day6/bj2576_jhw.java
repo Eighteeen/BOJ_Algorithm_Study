@@ -11,7 +11,7 @@ public class bj2576_jhw {
 		boolean b = false;
 		for(int i = 0;i<odd.length;i++) {
 			int num = sc.nextInt();
-			//// 배열을 쓰지 않아도 됐을 것 같습니다. 이전 값을 기억하지 않아도 되니까요. kjh 코드에 그렇게 짰으니 참조해주세요!
+			//// 배열을 쓰지 않아도 됐을 것 같습니다. 이전 값을 기억하지 않아도 되니까요. kjh 코드에 그렇게 짰으니 참조해주세요! :22 배열 안써도 가능할거 같습니당
 			odd[i] = num;
 			
 			if(odd[i]%2 == 1) {
