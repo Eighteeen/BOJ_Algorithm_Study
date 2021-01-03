@@ -17,7 +17,7 @@ class Main {
       String spaces = " ".repeat(spacesWidth);
       //// 전체적으로 변수명명이 좋은데 여기는 굳이 But을 썼어야 했나 싶어요 But이 아예 없거나 Is로 넣는게 빠른 의미 전달이 될 것 같아요
       //// => 굳! But이 없어도 충분히 의미 전달이 되네요. 좋은 피드백 고마워요!
-      String starButNotInFirst = (i == 0) ? ("") : ("*");
+      String starNotInFirst = (i == 0) ? ("") : ("*");
       sb.append(indent)
         .append('*').append(spaces).append(starButNotInFirst)
         .append('\n');
