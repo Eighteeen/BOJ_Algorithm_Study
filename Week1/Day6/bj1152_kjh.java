@@ -16,6 +16,7 @@ class Main {
     System.out.print(wordCount);
   }
 
+  //// 활용성이 좋네요 굿
   private static int calcCharCountFromString(char targetChar, String string) {
     int charCount = 0;
     ////string.toCharArray() 배워갑니다!

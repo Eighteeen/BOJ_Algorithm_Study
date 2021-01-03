@@ -1,6 +1,6 @@
 using System;
 
-//// 군더더기 없는 코드라고 생각합니다!
+//// 군더더기 없는 코드라고 생각합니다! : 22
 public class Test
 {
 	public static void Main()

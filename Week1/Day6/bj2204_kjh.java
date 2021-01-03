@@ -1,11 +1,12 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
-  ////깔끔하게 잘 짠거 같슴니다.
+  ////깔끔하게 잘 짠거 같슴니다. : 22
 class Main {
   public static void main(String[] args) throws Exception {
     int testCases;
     StringBuilder sb = new StringBuilder();
+    //// 선언부와 구현부는 개행이 있어야 한번에 쭉 읽기 좋을 것 같아요
     while( (testCases = Input.nextInt()) != 0 ) {
       String frontWord = Input.nextLine();
       for(int i = 1; i < testCases; i++) {
