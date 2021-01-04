@@ -8,6 +8,7 @@ class Main{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int num[] = Arrays.stream(br.readLine().split("")).mapToInt(Integer::parseInt).toArray(); 
         int len = num.length;
+        //// seqSize 네이밍 좋네요 와우
         int seqSize = len > 1 ? num[0] - num[1] : 0;
         boolean isCute = true;
 
@@ -17,6 +18,7 @@ class Main{
                 break;
             }
         }
+        //// 확실히 요런건 삼항연산자가 깔끔한 것 같습니다. 배워갑니다
         System.out.print(isCute ? "◝(⑅•ᴗ•⑅)◜..°♡ 뀌요미!!" : "흥칫뿡!! <(￣ ﹌ ￣)>");
     }
 }
