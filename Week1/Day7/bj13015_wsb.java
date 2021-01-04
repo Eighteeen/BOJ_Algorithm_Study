@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 //// 꽤 어려운 문제임에도 네이밍이 좋아 잘 읽히는 것 같습니다.
+//// 깔끔해서 보기 좋았습니다.!
 class Main{
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

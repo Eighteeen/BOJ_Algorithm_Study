@@ -1,7 +1,7 @@
 using System;
 using System.Linq;
 
-//// 깔꼼하네요
+//// 깔꼼하네요:22
 public class Test
 {
 	public static void Main()

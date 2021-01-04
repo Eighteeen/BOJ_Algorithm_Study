@@ -7,10 +7,12 @@ class Main {
   public static void main(String[] args) throws Exception {
     final String N = Input.nextLine();
     int[] needNumbers = new int[9];
+    ////배워갑니다.
     Arrays.fill(needNumbers, 0);
 
     final int SIX_OR_NINE = 6;
     for(int i = 0; i < N.length(); i++) {
+      ////이것도 배워갑니다.
       int num = charToInt(N.charAt(i));
       int needNumberIndex = (num == 9) ? (SIX_OR_NINE) : (num);
       needNumbers[needNumberIndex] += 1;

@@ -2,6 +2,7 @@
 
 public class Test
 {
+	////깔끔하네요
 	public static void Main()
 	{
 		int[] numbers = Read_ints();

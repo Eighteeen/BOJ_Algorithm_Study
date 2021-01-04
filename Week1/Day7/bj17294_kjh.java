@@ -14,6 +14,7 @@ class Main {
     System.out.print("흥칫뿡!! <(￣ ﹌ ￣)>");
   }
 
+  ////메소드를 잘 활용하시는거 같아서 부럽습니다.
   private static boolean isCute(String strNum) {
     if (strNum.length() == 1) {
       return true;

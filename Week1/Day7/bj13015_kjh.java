@@ -3,6 +3,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 class Main {
+  ////배워갑니다.공백에 대한 변수명을 잘 지어내신거 같습니다.
   public static void main(String[] args) throws Exception {
     final int N = Input.nextInt();
     int height = 2 * N - 1;
