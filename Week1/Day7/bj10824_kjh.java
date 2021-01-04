@@ -3,7 +3,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 class Main {
-  ////깔끔하고 보기 좋습니다. : 22
+  ////깔끔하고 보기 좋습니다. : 22 :33
   public static void main(String[] args) throws Exception {
     String[] strNum = new String[4];
     for(int i = 0; i < 4; i++) {
