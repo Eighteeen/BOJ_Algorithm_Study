@@ -61,10 +61,10 @@
 
 | 사이트 | 번호  | 문제                                                         | 답안                                                                                                                  | 피드백 반영 답안                                                          |
 | ------ | ----- | ------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
-| 백준   | 14720 | [우유 축제](https://www.acmicpc.net/problem/14720)           | [진홍](Day6/bj14720_kjh.java) [승빈](Day6/bj14720_wsb.java) [예은](Day6/bj14720_lye.cs) [회운](Day6/bj14720_jhw.java) | [진홍](Day6/bj14720_kjh.java) [승빈](Day6/bj14720_wsb.java) 예은 [회운](Day6/bj14720_jhw_fb.java)  |
-| 백준   | 2204  | [도비의 난독증 테스트](https://www.acmicpc.net/problem/2204) | [진홍](Day6/bj2204_kjh.java) [승빈](Day6/bj2204_wsb.java) [예은](Day6/bj2204_lye.cs) [회운](Day6/bj2204_jhw.java)     | [진홍](Day6/bj2204_kjh_fb.java) [승빈](Day6/bj2204_wsb.java) 예은 [회운](Day6/bj2204_jhw.java)    |
-| 백준   | 2576  | [홀수](https://www.acmicpc.net/problem/2576)                 | [진홍](Day6/bj2576_kjh.java) [승빈](Day6/bj2576_wsb.java) [예은](Day6/bj2576_lye.cs) [회운](Day6/bj2576_jhw.java)     | [진홍](Day6/bj2576_kj_fb_.java) [승빈](Day6/bj2576_wsb.java) 예은 [회운](Day6/bj2576_jhw_fb.java) |
-| 백준   | 1152  | [단어의 개수](https://www.acmicpc.net/problem/1152)          | [진홍](Day6/bj1152_kjh.java) [승빈](Day6/bj1152_wsb.java) [예은](Day6/bj1152_lye.cs) [회운](Day6/bj1152_jhw.java)     | [진홍](Day6/bj1152_kjh.java) [승빈](Day6/bj1152_wsb.java) 예은 [회운](Day6/bj1152_jhw.java)       |
+| 백준   | 14720 | [우유 축제](https://www.acmicpc.net/problem/14720)           | [진홍](Day6/bj14720_kjh.java) [승빈](Day6/bj14720_wsb.java) [예은](Day6/bj14720_lye.cs) [회운](Day6/bj14720_jhw.java) | [진홍](Day6/bj14720_kjh.java) [승빈](Day6/bj14720_wsb.java) [예은](Day6/bj14720_lye_fb.cs) [회운](Day6/bj14720_jhw_fb.java)  |
+| 백준   | 2204  | [도비의 난독증 테스트](https://www.acmicpc.net/problem/2204) | [진홍](Day6/bj2204_kjh.java) [승빈](Day6/bj2204_wsb.java) [예은](Day6/bj2204_lye.cs) [회운](Day6/bj2204_jhw.java)     | [진홍](Day6/bj2204_kjh_fb.java) [승빈](Day6/bj2204_wsb.java) [예은](Day6/bj2204_lye_fb.cs) [회운](Day6/bj2204_jhw.java)    |
+| 백준   | 2576  | [홀수](https://www.acmicpc.net/problem/2576)                 | [진홍](Day6/bj2576_kjh.java) [승빈](Day6/bj2576_wsb.java) [예은](Day6/bj2576_lye.cs) [회운](Day6/bj2576_jhw.java)     | [진홍](Day6/bj2576_kj_fb_.java) [승빈](Day6/bj2576_wsb.java) [예은](Day6/bj2576_lye_fb.cs) [회운](Day6/bj2576_jhw_fb.java) |
+| 백준   | 1152  | [단어의 개수](https://www.acmicpc.net/problem/1152)          | [진홍](Day6/bj1152_kjh.java) [승빈](Day6/bj1152_wsb.java) [예은](Day6/bj1152_lye.cs) [회운](Day6/bj1152_jhw.java)     | [진홍](Day6/bj1152_kjh.java) [승빈](Day6/bj1152_wsb.java) [예은](Day6/bj1152_lye_fb.cs) [회운](Day6/bj1152_jhw.java)       |
 
 ## [7일차](Day7)
 
