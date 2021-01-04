@@ -18,6 +18,7 @@ public class bj17294_jhw {
 		}else {
 			d = Integer.parseInt(str[0])-Integer.parseInt(str[1]);
 			for(int i = 1; i <str.length;i++) {
+				////i값과 다음값의 차이가 d와 같은지 비교해주면 좀 더 간단할거 같아요
 				a =Integer.parseInt(str[0]) - Integer.parseInt(str[i]) == d*i;
 				if(a==false) {
 					str1 = "흥칫뿡!! <(￣ ﹌ ￣)>";

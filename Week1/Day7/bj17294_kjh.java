@@ -20,7 +20,7 @@ class Main {
     if (strNum.length() == 1) {
       return true;
     }
-
+    ////가독성이 좋아요
     int commonDifference = charToInt(strNum.charAt(0)) - charToInt(strNum.charAt(1));
     for(int i = 1; i < strNum.length() - 1; i++) {
       int current = charToInt(strNum.charAt(i));
