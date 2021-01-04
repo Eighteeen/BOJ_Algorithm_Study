@@ -6,9 +6,9 @@ public class bj17294_jhw {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		String st = sc.next();
-		//// st는 split되기 위해서만 사용되는데, 따로 변수를 만들어 줄 필요 있었을까 싶습니다.
+		//// st는 split되기 위해서만 사용되는데, 따로 변수를 만들어 줄 필요 있었을까 싶습니다. : 22
 		String []str = st.split("");
-		//// str보다 result 등의 의미 있는 이름을 사용했으면 좋았을 것 같습니다. 아래의 d와 a도 그렇고요
+		//// str보다 result 등의 의미 있는 이름을 사용했으면 좋았을 것 같습니다. 아래의 d와 a도 그렇고요 : 22
 		String str1 = null;
 		int d = 0;
 		boolean a = false;

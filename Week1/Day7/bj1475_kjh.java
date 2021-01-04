@@ -14,10 +14,13 @@ class Main {
     for(int i = 0; i < N.length(); i++) {
       ////이것도 배워갑니다.
       int num = charToInt(N.charAt(i));
+      //// 삼항연산자 하나하나마다 괄호를 넣은 이유가 뭔가요??
       int needNumberIndex = (num == 9) ? (SIX_OR_NINE) : (num);
       needNumbers[needNumberIndex] += 1;
     }
 
+    //// 구현 관점이 달라서 나타나는 문제지만 9일때도 6으로 들어가게 해서 나중에 2로 나누는 게 저는 좀 어색해보이네요 ㅜ
+    //// 하지만 이런 방법도 있구나 하고 배워가기도 합니다!
     needNumbers[SIX_OR_NINE] = (int) Math.ceil(needNumbers[SIX_OR_NINE] / 2.0);
 
     int needSet = calcMax(needNumbers);

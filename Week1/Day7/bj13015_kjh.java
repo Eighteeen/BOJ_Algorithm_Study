@@ -28,6 +28,7 @@ class Main {
     return sb;
   }
 
+  //// 루프 하나하나마다 아래와 같은 연산을 계속 해줘야 해서 효율성에서 좀 아쉬워 보이네요 ㅠ
   static StringBuilder buildBorder(int N, int i) {
     StringBuilder sb = new StringBuilder();
     int height = 2 * N - 1;
