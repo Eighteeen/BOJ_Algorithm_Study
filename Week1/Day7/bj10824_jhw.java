@@ -1,6 +1,7 @@
 package Day7;
 import java.util.Scanner;
 
+//// 무난하네요
 public class bj10824_jhw {
         public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
