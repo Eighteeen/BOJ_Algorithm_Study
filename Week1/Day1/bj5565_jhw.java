@@ -15,7 +15,6 @@ public class bj5565_jhw {
 		for(int i =0;i<num.length;i++) {
 			num[i] = sc.nextInt();
 			//// 입력값은 백준 문제에 써진 대로만 들어옵니다! 따로 예외 처리를 할 필요가 없어요
-			////->지웠습니다!
 			if(num[0] >10000) {
 				System.out.println("10000원이 넘었습니다");
 				return;

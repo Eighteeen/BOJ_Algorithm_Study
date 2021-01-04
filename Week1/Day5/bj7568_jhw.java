@@ -26,23 +26,20 @@ public class bj7568_jhw {
 			p[i] = new Person(weight,height);
 		
 			}
-		for(int i = 0; i< p.length;i++) {
-		    for(int j = 0; j < p.length;j++) {
+		for(int i = 0; i< p.length; i++) {
+		    for(int j = 0; j < p.length; j++) {
 			    if(i==j) {
-				    continue;
+					continue;
 			    }
-			    else if( p[j].weight >p[i].weight &&  p[j].height > p[i].height) {
+			    else if(p[j].weight > p[i].weight &&  p[j].height > p[i].height) {
 				    p[i].rank++;
 			    }
 		    }
 		}
 		for(int i = 0 ; i < p.length; i++) {
-			System.out.println(p[i].rank+" ");
+			System.out.println(p[i].rank + " ");
 		}
 		//// 공백이나 줄바꿈같은게 아직 아쉽습니다 : 222222222222222222222...
-		
-		
-	
 
 	}
 

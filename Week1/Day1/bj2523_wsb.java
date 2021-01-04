@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-//// String.repeat 배워갑니다 👍:22별출력이 for없이 가능하다니,,,!
+//// String.repeat 배워갑니다 👍:22별출력이 for없이 가능하다니,,,!:33 배워갑니다.
 class Main{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
