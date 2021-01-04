@@ -1,7 +1,7 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
-
+  //// 규칙들이 복잡해보이지 않아서 좋습니다. 
 class Main {
   ////배워갑니다.공백에 대한 변수명을 잘 지어내신거 같습니다.
   public static void main(String[] args) throws Exception {

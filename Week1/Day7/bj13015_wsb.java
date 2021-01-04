@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-//// 꽤 어려운 문제임에도 네이밍이 좋아 잘 읽히는 것 같습니다.
+//// 꽤 어려운 문제임에도 네이밍이 좋아 잘 읽히는 것 같습니다. : 가독성이 좋아요
 //// 깔끔해서 보기 좋았습니다.!
 class Main{
     public static void main(String[] args) throws IOException {
