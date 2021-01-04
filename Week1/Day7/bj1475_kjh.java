@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 import java.util.Arrays;
-
+  //무난하게 잘 짠거 같습니다.
 class Main {
   public static void main(String[] args) throws Exception {
     final String N = Input.nextLine();
