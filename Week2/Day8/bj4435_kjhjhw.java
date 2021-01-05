@@ -1,7 +1,7 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
-  ////깔끔하고 무난하게 잘 짰습니다.
+  ////깔끔하고 무난하게 잘 짰습니다. : 22 전체적으로 깔끔하고 쭉 읽혔어요
 class Main {
   public static void main(String[] args) throws Exception {
     final int[] gandalfUnitScores = { 1, 2, 3, 3, 4, 10 };
