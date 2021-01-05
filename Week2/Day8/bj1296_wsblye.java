@@ -4,10 +4,12 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 
 class Main{
+    //// 앵간히 까다로운 문제였는데 효율성, 가독성에서 놓친 부분이 없네요 짝짝짝
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String man = br.readLine();
         int womanN = Integer.parseInt(br.readLine());
+        //// 미리 세어두는 거 효율적으로 좋네요!
         int manLOVE[] = countLOVE(man);
         int womanLOVE[];
         int maxLOVE = -1, nowLOVE;
@@ -28,6 +30,7 @@ class Main{
         System.out.print(beMyWoman);
     }
 
+    //// 한꺼번에 세는 거 효율적으로 좋네요!
     static int[] countLOVE(String name){
         int numLOVE[] = new int[4];
         int len = name.length();
