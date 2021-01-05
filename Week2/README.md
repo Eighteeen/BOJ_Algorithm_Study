@@ -18,7 +18,7 @@
 | 백준   | 1453  | [피시방 알바](https://www.acmicpc.net/problem/1453) | [진홍](Day9/bj1453_kjh.java) 승빈 [예은](Day9/bj1453_lye.cs) 회운  | 진홍 승빈 예은 회운 |
 | 백준   | 17293 | [맥주99병](https://www.acmicpc.net/problem/17293)   | [진홍](Day9/bj17293_kjh.java) 승빈 [예은](Day9/bj17293_lye.cs) 회운 | 진홍 승빈 예은 회운 |
 | 백준   | 1296  | [데이트](https://www.acmicpc.net/problem/1296)      | [진홍](Day9/bj1296_kjh.java) 회운            | 진홍 회운           |
-| 백준   | 4435  | [중간계 전쟁](https://www.acmicpc.net/problem/4435) | 승빈 예은                                    | 승빈 [예은](Day9/bj4435_lye.cs)           |
+| 백준   | 4435  | [중간계 전쟁](https://www.acmicpc.net/problem/4435) | 승빈 [예은](Day9/bj4435_lye.cs)                                    | 승빈 예은           |
 
 ## [10일차](Day10)
 
