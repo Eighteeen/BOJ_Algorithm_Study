@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 
 class Main{
-    //// 앵간히 까다로운 문제였는데 효율성, 가독성에서 놓친 부분이 없네요 짝짝짝
+    //// 앵간히 까다로운 문제였는데 효율성, 가독성에서 놓친 부분이 없네요 👍👍
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String man = br.readLine();
