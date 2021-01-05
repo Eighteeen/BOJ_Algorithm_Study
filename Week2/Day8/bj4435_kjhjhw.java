@@ -1,7 +1,7 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
-
+  ////깔끔하고 무난하게 잘 짰습니다.
 class Main {
   public static void main(String[] args) throws Exception {
     final int[] gandalfUnitScores = { 1, 2, 3, 3, 4, 10 };
@@ -29,7 +29,7 @@ class Main {
     }
     System.out.print(sb);
   }
-
+    ////이부분도 따로 함수를 만들어줘서 위에서 가독성이 좋아진거 같아요.
   private static StringBuilder makeBattleMessage(int battleNum, String message) {
     StringBuilder sb = new StringBuilder();
     sb.append("Battle ")
