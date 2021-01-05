@@ -29,6 +29,8 @@ class Main {
   }
 
   //// 루프 하나하나마다 아래와 같은 연산을 계속 해줘야 해서 효율성에서 좀 아쉬워 보이네요 ㅠ
+  //// => 가독성이 떨어진다는 말씀일까요? 메모리/시간 효율은 Java 1위입니다!
+  //// => 가독성 개선법을 약 10분동안 고민해봤는데 획기적인 방법이 떠오르지 않아 그대로 둡니다 ㅠㅠ
   static StringBuilder buildBorder(int N, int i) {
     StringBuilder sb = new StringBuilder();
     int height = 2 * N - 1;
