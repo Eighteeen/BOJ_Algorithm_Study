@@ -5,6 +5,7 @@ import java.util.Arrays;
 
 class Main{
     //// 앵간히 까다로운 문제였는데 효율성, 가독성에서 놓친 부분이 없네요 👍👍
+    //// 변수명이 잘되어있어서 읽기 편했습니다.
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String man = br.readLine();
@@ -30,7 +31,7 @@ class Main{
         System.out.print(beMyWoman);
     }
 
-    //// 한꺼번에 세는 거 효율적으로 좋네요!
+    //// 한꺼번에 세는 거 효율적으로 좋네요!:22
     static int[] countLOVE(String name){
         int numLOVE[] = new int[4];
         int len = name.length();
@@ -54,7 +55,7 @@ class Main{
         }
         return numLOVE;
     }
-
+    
     static int calcLOVE(int L, int O, int V, int E){
         return (((L+O)*(L+V)*(L+E)*(O+V)*(O+E)*(V+E)) % 100);
     }
