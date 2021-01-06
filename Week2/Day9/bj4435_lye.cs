@@ -8,6 +8,7 @@ public class Test
 		int battleNum = Read_int();
 		int dalf,uron;
 		StringBuilder sb = new StringBuilder();
+		//// 이런 String 리터럴 활용은 좋네요!
 		string[] result = {"Evil eradicates all trace of Good","Good triumphs over Evil", "No victor on this battle field"};
 		for(int i=0; i<battleNum; i++)
 		{
@@ -15,6 +16,7 @@ public class Test
 			uron = Sum_Sauron(Read_ints());
 			sb.Append("Battle ").Append(i+1).Append(": ");
 			if(dalf==uron)
+				//// 0, 1, 2 대신 DALF_WIN, URON_WIN, DRAW이였다면 더 쉽게 읽혔을 것 같습니다.
 				sb.Append(result[2]);
 			else
 				sb.Append(dalf > uron ? result[1] : result[0]); 

@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.StringTokenizer;
 
+//// 깔끔해요!
 class Main{
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -15,6 +16,7 @@ class Main{
 
         for(int i = 0; i < N; i++){
             wantSeat = Integer.parseInt(st.nextToken());
+            //// reject 네이밍 배워갑니다
             if(sitSeat.contains(wantSeat)) cntReject++;
             else sitSeat.add(wantSeat);
         }

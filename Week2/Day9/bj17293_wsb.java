@@ -8,6 +8,7 @@ class Main{
         StringBuilder sb = new StringBuilder();
         int N = Integer.parseInt(br.readLine());
 
+        //// 함수 이름 작명이 탁월해서 main만 봐도 어떻게 짜여졌는지 알 것 같습니다
         if(N > 1){
             for(int i = N; i > 2; i--){
                 sb.append(msgBottle(i));
@@ -26,6 +27,7 @@ class Main{
     }
 
     static String msgTwoBottles(){
+        //// 문자열의 매 개행마다 코드도 다음 줄로 넘겨줘서 가독성이 좋네요
         String msg = "2 bottles of beer on the wall, 2 bottles of beer.\n"
             + "Take one down and pass it around, 1 bottle of beer on the wall.\n\n";
         return msg;

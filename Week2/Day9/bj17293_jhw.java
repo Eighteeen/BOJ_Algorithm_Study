@@ -10,10 +10,12 @@ public class bj17293_jhw {
 		int beerNum = sc.nextInt();
 		
 		for(int i = beerNum ; i  >= 0; i--) {
+			//// 백준에서 예외처리는 필요 없습니다!
 			if(beerNum > 99 || beerNum < 1) {
 				return;
 			}
 			if( i == 0)  {
+				//// 함수로 적절히 나눠주었다면 직관적으로 이해할 수 있었을 것 같습니다.
 				if(beerNum == 1) {
 					sb.append('\n')
 					   .append("No more bottles of beer on the wall, no more bottles of beer.")

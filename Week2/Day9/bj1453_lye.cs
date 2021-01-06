@@ -10,6 +10,7 @@ public class Test
 		for(int i=0; i<selectNums.Length; i++)
 		{
 			isNo = Array.IndexOf(selectNums, selectNums[i], 0 , i);
+			//// 부정(못 찾)의 부정(지 않음)은 읽기 어렵다고 생각합니다. isNo >= 0은 어떨까요?
 			if(isNo != -1) cnt++;
 		}
 		

@@ -4,6 +4,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 
 class Main{
+    //// enum 사용과 enum에 대한 sum 메소드까지.. 자바 기능을 정말 잘 이해하고 활용하시는 것 같아요. 저도 이렇게 바꿔야겠습니다. 배워가요
     enum Gandalf{
         HOBBIT(1), HUMAN(2), ELF(3), DWARVE(3), EAGLE(4), WIZARD(10);
         private final int value;
