@@ -3,6 +3,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 import java.util.Arrays;
 
+//// 무난하고 깔끔하네요
 class Main {
   public static void main(String[] args) throws Exception {
     boolean[] seats = new boolean[100];

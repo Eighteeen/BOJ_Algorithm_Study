@@ -3,7 +3,7 @@ package Day9;
 import java.util.Scanner;
 
 public class bj1453_jhw {
-	//// 깔끔하네요!
+	//// 깔끔하네요! : 22 전체적으로 깔끔하게 잘 짜신 것 같습니다
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int person = sc.nextInt();

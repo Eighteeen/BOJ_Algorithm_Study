@@ -1,6 +1,7 @@
 using System;
 using System.Text;
 
+//// 전체적으로 무난하게 잘 짜신 것 같습니다
 public class Test
 {
 	public static void Main()
@@ -16,7 +17,7 @@ public class Test
 			uron = Sum_Sauron(Read_ints());
 			sb.Append("Battle ").Append(i+1).Append(": ");
 			if(dalf==uron)
-				//// 0, 1, 2 대신 DALF_WIN, URON_WIN, DRAW이였다면 더 쉽게 읽혔을 것 같습니다.
+				//// 0, 1, 2 대신 DALF_WIN, URON_WIN, DRAW이였다면 더 쉽게 읽혔을 것 같습니다. : 22
 				sb.Append(result[2]);
 			else
 				sb.Append(dalf > uron ? result[1] : result[0]); 

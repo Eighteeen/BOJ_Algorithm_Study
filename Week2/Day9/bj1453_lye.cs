@@ -1,5 +1,6 @@
 using System;
 
+//// 무난하게 짜신 것 같습니다
 public class Test
 {
 	public static void Main()
