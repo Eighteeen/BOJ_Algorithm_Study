@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class bj9536_jhw {
-
+//// 탭과 공백 정리는 아예 손 놓으신건가요 ㅠㅠ
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		

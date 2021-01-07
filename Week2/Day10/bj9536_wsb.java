@@ -17,6 +17,7 @@ class Main{
         for(int i = 0; i < T; i++){
             recordList = new ArrayList<>(Arrays.asList(br.readLine().split(" ")));
             while(!(nowSound = br.readLine()).equals("what does the fox say?")){
+                //// removeIf 배워가요.. 있는 줄도 몰랐네
                 recordList.removeIf(r -> r.equals(getSound(nowSound)));
             }
             printFoxSound(recordList);

@@ -17,6 +17,7 @@ class Main{
         System.out.print(sb);
     }
 
+    //// 함수이름 보고 학점 계산해서 출력만 하는 줄 알았는데 코드보니 입력까지 받는다니까 배신당한 기부니에요
     static void printGPA(int len) throws IOException {
         String subjectInfo[];
         int credit, creditSum = 0;
