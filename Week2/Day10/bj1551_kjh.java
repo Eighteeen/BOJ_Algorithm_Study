@@ -30,8 +30,9 @@ class Main {
       sequences.remove(lastIndex);
     }
 
-    //// 허걱 한번에 출력하는 방법 엄청 찾았는데..! 완전 배워갑니다!!
+    //// 허걱 한번에 출력하는 방법 엄청 찾았는데..! 완전 배워갑니다!! : 22 한번에 출력하고 싶었는데,,,
     ////배워갑니다.
+    ////오 자바엔 이런 기능도 있네요!! C#에도 있는지 찾아봐야겠어요 
     String result = sequences.stream() // Stream을 사용할 준비
       .map(String::valueOf) // 각 요소에 대해 String으로 형 변환
       .collect(Collectors.joining(",")); // 요소 사이에 ","를 붙여 하나의 문자열로 합침
