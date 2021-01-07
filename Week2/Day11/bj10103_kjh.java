@@ -1,28 +1,22 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
-import java.util.List;
-import java.util.ArrayList;
 
 class Main {
   public static void main(String[] args) throws Exception {
-    StringBuilder sb = new StringBuilder();
-    int[] counts = new int[10000];
+    int leftScore = 100;
+    int rightScore = 100;
 
     final int N = Input.nextInt();
-    for (int i = 0; i < N; i++) {
-      int numberIndex = Input.nextInt() - 1;
-      counts[numberIndex] += 1;
+    for(int i = 0; i < N; i++) {
+      int leftDice = Input.nextInt();
+      int rightDice = Input.nextInt();
+
+      leftScore -= (leftDice < rightDice) ? (rightDice) : (0);
+      rightScore -= (rightDice < leftDice) ? (leftDice) : (0);
     }
 
-    for (int i = 0; i < 10000; i++) {
-      for(int j = 0; j < counts[i]; j++) {
-        int number = i + 1;
-        sb.append(number).append('\n');
-      }
-    }
-
-    System.out.print(sb);
+    System.out.print(leftScore+"\n"+rightScore);
   }
 }
 
