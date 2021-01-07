@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 class Main{
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     static StringBuilder sb = new StringBuilder();
-    ////깔끔하네요.
+    ////깔끔하네요. : 22 완전 깔꼼해용
     public static void main(String[] args) throws IOException {
         int semester = Integer.parseInt(br.readLine());
         int subjectNum;
