@@ -2,7 +2,7 @@ package Day10;
 
 import java.util.Scanner;
 
-//// 전체적으로 깔끔하게 짜신 것 같습니다
+//// 전체적으로 깔끔하게 짜신 것 같습니다: 22깔-끔
 public class bj10984_jhw {
 
 	public static void main(String[] args) {
