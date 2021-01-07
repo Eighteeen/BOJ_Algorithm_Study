@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-//// 전체적으로 깔끔하게 짠 거 같습니다:22
+//// 전체적으로 깔끔하게 짠 거 같습니다:22: 33 잘짰어요!!
 class Main {
   public static void main(String[] args) throws Exception {
     final int SEMESTERS = Input.nextInt();
