@@ -3,7 +3,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 //// 전체적으로 깔끔하고 딱 필요한 부분들만 보이도록 잘 짜신 것 같습니다
-////읽기가 편했습니다.
+////읽기가 편했습니다. : 22 와대박,,,진짜 깔끔해요,,,
 class Main {
   public static void main(String[] args) throws Exception {
     final int N = Input.nextInt();
