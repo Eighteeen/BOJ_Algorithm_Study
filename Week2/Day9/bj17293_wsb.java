@@ -8,7 +8,7 @@ class Main{
         StringBuilder sb = new StringBuilder();
         int N = Integer.parseInt(br.readLine());
 
-        //// 함수 이름 작명이 탁월해서 main만 봐도 어떻게 짜여졌는지 알 것 같습니다
+        //// 함수 이름 작명이 탁월해서 main만 봐도 어떻게 짜여졌는지 알 것 같습니다:22
         if(N > 1){
             for(int i = N; i > 2; i--){
                 sb.append(msgBottle(i));

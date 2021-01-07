@@ -40,6 +40,7 @@ class Main{
         int GandalfSum, SauronSum;
 
         for(int i = 1; i < T; i++){
+            ////이 부분은 입력값들을 split으로 분리하고 키와 value값을 받아와 배열로 만드는건가요??
             GandalfArmy = Arrays.stream(br.readLine().split(" ")).mapToInt(Integer::parseInt).toArray();
             SauronArmy = Arrays.stream(br.readLine().split(" ")).mapToInt(Integer::parseInt).toArray();
             GandalfSum = Gandalf.sumArmy(GandalfArmy);
