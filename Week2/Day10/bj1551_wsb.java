@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-//// 깔꼼!
+//// 깔꼼! : 22 깔끔해서 이해가 잘 됩니다!
 class Main{
     static StringBuilder sb = new StringBuilder();
     ////전체적으로 깔끔해서 읽기 편했습니다.
