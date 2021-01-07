@@ -9,7 +9,8 @@ public class Test
 		int battleNum = Read_int();
 		int dalf,uron;
 		StringBuilder sb = new StringBuilder();
-		//// 이런 String 리터럴 활용은 좋네요!
+		//// 이런 String 리터럴 활용은 좋네요!:22
+		//// 이런식으로 미리 저장해서 출력하는 방법도 있다는거 배워갑니다.
 		string[] result = {"Evil eradicates all trace of Good","Good triumphs over Evil", "No victor on this battle field"};
 		for(int i=0; i<battleNum; i++)
 		{
