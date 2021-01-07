@@ -8,6 +8,7 @@ class Main {
   public static void main(String[] args) throws Exception {
     boolean[] seats = new boolean[100];
     ////boolean 형으로 배열 선언하고 false로 초기화하는거 배워갑니다.
+    //// 오 자리 개수가 정해져있으니까 bool 배열 두는것도 좋은 방법인거 같아요!!
     Arrays.fill(seats, false);
 
     final int N = Input.nextInt();
