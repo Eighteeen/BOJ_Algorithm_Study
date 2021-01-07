@@ -1,7 +1,8 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-
+    //// 깔끔하게 잘 짠거 같습니다. 겹치는 부분을 더 나눠서 표현할 수 있지 않을까 싶었는데 그러면 너무 지저분할거 같아요.
+    //// 이정도가 딱 깔끔하고 가독성 좋네요
 class Main{
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
