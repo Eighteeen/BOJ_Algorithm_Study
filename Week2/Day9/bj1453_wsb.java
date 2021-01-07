@@ -10,6 +10,7 @@ class Main{
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(br.readLine());
+        ////피시방 자리를 String형으로 입력하고 StringTokenizer를 사용해서 쪼개는건 알겠는데 br.readLine()를 하면 무슨 기준으로 쪼개는건가요?
         StringTokenizer st = new StringTokenizer(br.readLine());
         List<Integer> sitSeat = new ArrayList<>();
         int wantSeat = 0, cntReject = 0;
