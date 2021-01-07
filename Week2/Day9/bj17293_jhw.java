@@ -15,7 +15,7 @@ public class bj17293_jhw {
 				return;
 			}
 			if( i == 0)  {
-				//// 함수로 적절히 나눠주었다면 직관적으로 이해할 수 있었을 것 같습니다. : 22
+				//// 함수로 적절히 나눠주었다면 직관적으로 이해할 수 있었을 것 같습니다. : 22 : 33 동의합니다만 그래도 제 코드보단 깔끔하네요!
 				if(beerNum == 1) {
 					sb.append('\n')
 					   .append("No more bottles of beer on the wall, no more bottles of beer.")
