@@ -7,13 +7,13 @@ import java.util.Arrays;
 class Main {
   public static void main(String[] args) throws Exception {
     boolean[] seats = new boolean[100];
-    ////이 부분은 seat의 배열에 false로 초기화를 다 시키는거 같습니다.
+    ////boolean 형으로 배열 선언하고 false로 초기화하는거 배워갑니다.
     Arrays.fill(seats, false);
 
     final int N = Input.nextInt();
     int refused = 0;
-    ////이 for문은 seats[index]가 false면 자리가 없다고 판단하여 seats[index]를 true로 합니다
-    //// if (seats[seatNum - 1] == false) { 이부분이 false되면 자리가 있다고 판단하여 거절한 수를 +1씩 증가 시키는거 같습니다.
+  
+    
     for(int i = 0; i < N; i++) {
       int seatNum = Input.nextInt();
       if (seats[seatNum - 1] == false) {

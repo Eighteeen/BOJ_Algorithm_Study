@@ -13,14 +13,13 @@ class Main {
     for(int i = 0; i < N; i++) {
       String herName = Input.nextLine();
       //// HIS_NAME은 계속 쓰이니 따로 저장하는 게 효율성면으로 좋을 것 같습니다!
-      ////밑에 메소드의 매개변수ch를 각각 LOVE를 넣고 str부분에는 첫번째 입력값을 넣고 + 두번째 이름값을 넣습니다
-      ////메소드 안에 if문이 true가 되면 LOVE의 두 입력값의 count가 증가하는 for문 같습니다. 
+     
       int l = countCharFromString('L', HIS_NAME) + countCharFromString('L', herName);
       int o = countCharFromString('O', HIS_NAME) + countCharFromString('O', herName);
       int v = countCharFromString('V', HIS_NAME) + countCharFromString('V', herName);
       int e = countCharFromString('E', HIS_NAME) + countCharFromString('E', herName);
       int love = ((l+o)*(l+v)*(l+e)*(o+v)*(o+e)*(v+e)) % 100;
-      
+
       if (love > maxLove) {
         maxLove = love;
         lover = herName;
@@ -33,8 +32,7 @@ class Main {
   }
   
   //// 깔끔하네요
-  ////이 메소드는 매개 변수를 ch와 str을 받아서 for-each 문을 사용해 str을 char형으로 쪼개서 partOfStr에 담고
-  ////그 담은거랑 매개변수 ch가 같으면 count를1씩 증가시키는 메소드 같습니다.
+  
   private static int countCharFromString(char ch, String str) {
     int count = 0;
     for(char partOfStr : str.toCharArray()) {
