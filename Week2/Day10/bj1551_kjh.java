@@ -31,6 +31,7 @@ class Main {
     }
 
     //// 허걱 한번에 출력하는 방법 엄청 찾았는데..! 완전 배워갑니다!!
+    ////배워갑니다.
     String result = sequences.stream() // Stream을 사용할 준비
       .map(String::valueOf) // 각 요소에 대해 String으로 형 변환
       .collect(Collectors.joining(",")); // 요소 사이에 ","를 붙여 하나의 문자열로 합침

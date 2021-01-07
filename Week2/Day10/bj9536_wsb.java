@@ -8,7 +8,7 @@ import java.util.List;
 class Main{
     static StringBuilder sb = new StringBuilder();
     static String nowSound;
-    
+    ////깔끔하네요.
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int T = Integer.parseInt(br.readLine());
@@ -17,7 +17,7 @@ class Main{
         for(int i = 0; i < T; i++){
             recordList = new ArrayList<>(Arrays.asList(br.readLine().split(" ")));
             while(!(nowSound = br.readLine()).equals("what does the fox say?")){
-                //// removeIf 배워가요.. 있는 줄도 몰랐네
+                //// removeIf 배워가요.. 있는 줄도 몰랐네:22
                 recordList.removeIf(r -> r.equals(getSound(nowSound)));
             }
             printFoxSound(recordList);

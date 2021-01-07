@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 //// 깔꼼!
 class Main{
     static StringBuilder sb = new StringBuilder();
-    
+    ////전체적으로 깔끔해서 읽기 편했습니다.
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String seqInfo[] = br.readLine().split(" ");
