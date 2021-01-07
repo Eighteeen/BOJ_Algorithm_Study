@@ -1,7 +1,7 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
-
+   //// 굉장히 어려운 문제라 느껴졌는데 이렇게 깔끔하고 효율적으로 짜다니 대단하요!
 class Main {
   ////변수명 덕분에 읽기가 편했습니다.
   public static void main(String[] args) throws Exception {
