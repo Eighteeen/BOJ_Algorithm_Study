@@ -12,7 +12,8 @@ public class bj1551_jhw {
 		
 		String number = sc.next();
         String[] numberArr = number.split(",");
-        
+		
+		//// 루프를 줄이기 위해서 받으면서 바로 변형하는 작업을 해도 좋을 것 같아요!
 		for(int i = 0 ; i < N; i++) {
 			numArr[i] = Integer.parseInt(numberArr[i]);	
         }
