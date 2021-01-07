@@ -2,6 +2,7 @@ package Day10;
 
 import java.util.Scanner;
 
+//// 전체적으로 깔끔하게 짜신 것 같습니다
 public class bj10984_jhw {
 
 	public static void main(String[] args) {
@@ -13,6 +14,7 @@ public class bj10984_jhw {
             float scoreSum = 0;
 			
             for(int j = 0; j < subjectNum; j++) {
+                //// Jeom이라는 변수명보다 차라리 Num이라는 게 한번에 읽히기 좋을 것 같아요. 꼭 Num이 아니라 읽히기 좋은 변수로 변경하면 좋을 것 같습니다
                 int subjectJeom = sc.nextInt();
                 double subjectScore = sc.nextDouble();
                 gradeSum += subjectJeom;

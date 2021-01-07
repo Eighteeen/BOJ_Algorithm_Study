@@ -31,6 +31,7 @@ class Main {
     return animalGoesCrying.substring(cryingIndex);
   }
 
+  //// 구현을 꼼꼼하게 잘 하신 거 같아요
   private static StringBuilder excludeKnownCryings(String record, List<String> knownCryings) {
     StringBuilder excludedKnownCryings = new StringBuilder();
     StringTokenizer cryings = new StringTokenizer(record, " ");
