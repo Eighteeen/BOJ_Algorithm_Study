@@ -27,6 +27,7 @@ public class bj9536_jhw {
 				String animal = sc.nextLine();
 				String[] animalArr =animal.split(" ");
 				
+				//// 구현이 깔끔하게 잘 된 것 같습니다
 				for(int j = 0 ; j < recordArr.length; j++) {
 					if(animalArr[animalArr.length-1].equals(recordArr[j])) {
 						list.remove(recordArr[j]);
