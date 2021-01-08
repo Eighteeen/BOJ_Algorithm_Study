@@ -26,9 +26,9 @@
 
 | 사이트 | 번호  | 문제                                                        | 답안                                                                                                                      | 피드백 반영 답안    |
 | ------ | ----- | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | ------------------- |
-| 백준   | 9536  | [여우는 어떻게 울지?](https://www.acmicpc.net/problem/9536) | [진홍](Day10/bj9536_kjh.java) [승빈](Day10/bj9536_wsb.java) 예은 [회운](Day10/bj9536_jhw.java)                            | 진홍 승빈 예은 회운 |
-| 백준   | 1551  | [수열의 변화](https://www.acmicpc.net/problem/1551)         | [진홍](Day10/bj1551_kjh.java) [승빈](Day10/bj1551_wsb.java) [예은](Day10/bj1551_lye.cs) [회운](Day10/bj1551_jhw.java)     | 진홍 승빈 예은 회운 |
-| 백준   | 10984 | [내 학점을 구해줘](https://www.acmicpc.net/problem/10984)   | [진홍](Day10/bj10984_kjh.java) [승빈](Day10/bj10984_wsb.java) [예은](Day10/bj10984_lye.cs) [회운](Day10/bj10984_jhw.java) | 진홍 승빈 예은 회운 |
+| 백준   | 9536  | [여우는 어떻게 울지?](https://www.acmicpc.net/problem/9536) | [진홍](Day10/bj9536_kjh.java) [승빈](Day10/bj9536_wsb.java) 예은 [회운](Day10/bj9536_jhw.java)                            | [진홍](Day10/bj9536_kjh.java) 승빈 예은 회운 |
+| 백준   | 1551  | [수열의 변화](https://www.acmicpc.net/problem/1551)         | [진홍](Day10/bj1551_kjh.java) [승빈](Day10/bj1551_wsb.java) [예은](Day10/bj1551_lye.cs) [회운](Day10/bj1551_jhw.java)     | [진홍](Day10/bj1551_kjh.java 승빈 예은 회운 |
+| 백준   | 10984 | [내 학점을 구해줘](https://www.acmicpc.net/problem/10984)   | [진홍](Day10/bj10984_kjh.java) [승빈](Day10/bj10984_wsb.java) [예은](Day10/bj10984_lye.cs) [회운](Day10/bj10984_jhw.java) | [진홍](Day10/bj10984_kjh.java) 승빈 예은 회운 |
 
 ## [11일차](Day11)
 
