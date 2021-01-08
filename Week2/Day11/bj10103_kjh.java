@@ -13,7 +13,7 @@ class Main {
       int leftDice = Input.nextInt();
       int rightDice = Input.nextInt();
 
-      //// 오호 삼항연산자를 이렇게도 사용할 수 있군요! 배워갑니다
+      //// 오호 삼항연산자를 이렇게도 사용할 수 있군요! 배워갑니다:22
       leftScore -= (leftDice < rightDice) ? (rightDice) : (0);
       rightScore -= (rightDice < leftDice) ? (leftDice) : (0);
     }
