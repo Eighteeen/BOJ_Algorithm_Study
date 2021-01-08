@@ -3,13 +3,7 @@ package Day11;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-
 import java.util.Arrays;
-
-
-
-
-
 
 public class bj10989_jhw {
 
