@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 
 
 //// 탭 정리가 아직도 아쉽지만
-//// 로직은 깔꼼하네요 : 22 깔끔해요
+//// 로직은 깔꼼하네요 : 22 깔끔해요 :33 깔끔하게 잘 짰어요!
 public class bj10103_jhw {
 
 	public static void main(String[] args) throws NumberFormatException, IOException  {
