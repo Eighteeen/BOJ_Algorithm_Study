@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+//// 깔꼼쓰
 class Main{
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -30,6 +31,7 @@ class Main{
         System.out.print(sb);
     }
     
+    //// enum이나 상수를 반환했으면 더 좋았을 것 같아요
     static String whatResult(int challengerNum, int opponentNum){
         if(challengerNum > opponentNum) return "win";
         else if(challengerNum < opponentNum) return "lose";

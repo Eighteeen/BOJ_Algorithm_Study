@@ -5,6 +5,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 
+//// 탭 정리가 아직도 아쉽지만
+//// 로직은 깔꼼하네요
 public class bj10103_jhw {
 
 	public static void main(String[] args) throws NumberFormatException, IOException  {
