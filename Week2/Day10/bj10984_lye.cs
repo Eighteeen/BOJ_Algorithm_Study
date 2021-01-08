@@ -1,11 +1,13 @@
 using System;
 using System.Text;
 
+//// 전체적으로 깔끔합니다
 public class Test
 {
 	public static void Main()
 	{
 		int caseNum = Read_int();
+		//// major이라는 단어는 전공이라는 뜻 때문에 변수 오해의 소지가 있어보여요
 		int scoreNum, sumMajor;
 		double multiValue, major, score;
 		StringBuilder sb = new StringBuilder();
