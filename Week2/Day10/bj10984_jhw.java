@@ -16,10 +16,11 @@ public class bj10984_jhw {
             for(int j = 0; j < subjectNum; j++) {
                 //// Jeom이라는 변수명보다 차라리 Num이라는 게 한번에 읽히기 좋을 것 같아요. 꼭 Num이 아니라 읽히기 좋은 변수로 변경하면 좋을 것 같습니다
                 //// Jeom 대신 Score 등으로 했으면 좋았을 것 같아요.
-                int subjectJeom = sc.nextInt();
+                //// -> 수정했습니다.
+                int score = sc.nextInt();
                 double subjectScore = sc.nextDouble();
-                gradeSum += subjectJeom;
-                scoreSum += subjectJeom * subjectScore;
+                gradeSum += score;
+                scoreSum += score * subjectScore;
             }
             System.out.println(gradeSum + " " + Math.round(scoreSum*10 / gradeSum) /10.0);
         }
