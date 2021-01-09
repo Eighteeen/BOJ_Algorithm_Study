@@ -4,7 +4,7 @@ import java.util.StringTokenizer;
 import java.util.Arrays;
 
 class Main {
-  ////깔끔합니다. :22 읽기도 쉽고 효율성도 
+  ////깔끔합니다. :22 읽기도 쉽고 효율성도 갖춘거 같아요.
   public static void main(String[] args) throws Exception {
     final int N = Input.nextInt();
     final int M = Input.nextInt();
