@@ -18,7 +18,7 @@ public class Test
       cnt = 0;
       for (int j = 0; j < col; j++)
       {
-        //// check 변수명만으로는 어떤 역할을 하는지 알 수 없네요
+        //// check 변수명만으로는 어떤 역할을 하는지 알 수 없네요 : 22
         check = howManyNine(toAdd[j]);
         if (check > 0)
         {
@@ -27,7 +27,7 @@ public class Test
         }
         bingo[i, j] = toAdd[j];
       }
-      //// 오호 입력받을때 행 최대값 미리 세두는거 효율적이네요! 배워가용
+      //// 오호 입력받을때 행 최대값 미리 세두는거 효율적이네요! 배워가용 : 22 오호 이 방법도 좋네요!
       if (cnt > rowmax)
         rowmax = cnt;
     }

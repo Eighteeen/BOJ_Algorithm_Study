@@ -3,7 +3,7 @@ package Day12;
 
 import java.util.Scanner;
 
-//// 깔꼼깔꼼 :22 꼼깔꼼깔
+//// 깔꼼깔꼼 :22 꼼깔꼼깔 : 333 깔끔해요!!
 public class bj1547_jhw {
 
 	public static void main(String[] args) {
