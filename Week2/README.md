@@ -36,8 +36,8 @@
 
 | 사이트 | 번호  | 문제                                                   | 답안                                                                                                                      | 피드백 반영 답안                                                           |
 | ------ | ----- | ------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| 백준   | 10989 | [수 정렬하기 3](https://www.acmicpc.net/problem/10989) | [진홍](Day11/bj10989_kjh.java) [승빈](Day11/bj10989_wsb.java) *[예은](Day11/bj10989_lye.cs)* [회운](Day11/bj10989_jhw.java)                         | [진홍](Day11/bj10989_kjh_fb.java) 승빈 *[예은](Day11/bj10989_lye_fb.cs)* [회운](Day11/bj10989_jhw.java) |
-| 백준   | 10103 | [주사위 게임](https://www.acmicpc.net/problem/10103)   | [진홍](Day11/bj10103_kjh.java) [승빈](Day11/bj10103_wsb.java) [예은](Day11/bj10103_lye.cs) [회운](Day11/bj10103_jhw.java) | [진홍](Day11/bj10103_kjh.java) 승빈 예은 [회운](Day11/bj10103_jhw.java)    |
+| 백준   | 10989 | [수 정렬하기 3](https://www.acmicpc.net/problem/10989) | [진홍](Day11/bj10989_kjh.java) [승빈](Day11/bj10989_wsb.java) *[예은](Day11/bj10989_lye.cs)* [회운](Day11/bj10989_jhw.java)                         | [진홍](Day11/bj10989_kjh_fb.java) [승빈](Day11/bj10989_wsb.java) *[예은](Day11/bj10989_lye_fb.cs)* [회운](Day11/bj10989_jhw.java) |
+| 백준   | 10103 | [주사위 게임](https://www.acmicpc.net/problem/10103)   | [진홍](Day11/bj10103_kjh.java) [승빈](Day11/bj10103_wsb.java) [예은](Day11/bj10103_lye.cs) [회운](Day11/bj10103_jhw.java) | [진홍](Day11/bj10103_kjh.java) [승빈](Day11/bj10103_wsb_fb.java) 예은 [회운](Day11/bj10103_jhw.java)    |
 
 ## [12일차](Day12)
 
