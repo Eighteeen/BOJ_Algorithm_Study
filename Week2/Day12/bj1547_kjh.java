@@ -14,7 +14,7 @@ class Main {
 
       boolean ballInCupX = ballInCup[cupXIndex];
       boolean ballInCupY = ballInCup[cupYIndex];
-
+        ////오 bool 이어서 이렇게 그냥 상태만 바꿔주면 되는거네요!  
       if (ballInCup[cupXIndex] != ballInCup[cupYIndex]) {
         ballInCup[cupXIndex] = !ballInCup[cupXIndex];
         ballInCup[cupYIndex] = !ballInCup[cupYIndex];
