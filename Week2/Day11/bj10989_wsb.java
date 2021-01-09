@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 
 //// 저 이 문제 푸느라 퀵정렬, 병합정렬 별 삽질 다 하다가 1~10000만 들어온다는 힌트 보고 풀었는데..
 //// 수가 1~10000로만 들어온다는걸 바로 캐치하셨네요 와우..
-////깔끔하네요.
+////깔끔하네요. : 22 깔끔 그 
 class Main{
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
