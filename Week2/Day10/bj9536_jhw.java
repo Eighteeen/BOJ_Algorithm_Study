@@ -3,7 +3,7 @@ package Day10;
 
 import java.util.ArrayList;
 import java.util.Scanner;
-
+//// 깔끔하게 잘 짜여진거 같습니다.
 public class bj9536_jhw {
 //// 탭과 공백 정리는 아예 손 놓으신건가요 ㅠㅠ
 ////->수정했습니다
