@@ -3,7 +3,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 import java.util.ArrayList;
 import java.util.List;
-
+    ////군더더기 없는 코드라고 생각합니다.
 class Main {
   public static void main(String[] args) throws Exception {
     final int T = Input.nextInt();
