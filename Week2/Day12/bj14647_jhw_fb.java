@@ -12,12 +12,15 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
+
+//제가 문제 실패한이유는 n*m크기만큼은 만들었는데 열과 행에 있는 9를 어떻게 구해서 어떻게 열에 9가 몇개 포함되는지 나타내서
+// 가장 많이 포함되어있는 열 or 행을 삭제하는 법을 어떻게 접근해야될지 몰라서 실패하였습니다. 이런 이유였습니다.
+//이 코드를 보고 열을 삭제하기보다는 열,행 배열을 따로 만들고 정수대신 문자열을 입력하고 분리해서 9가 포함되어있으면 +를 하고
+//line이랑 row중 큰값을 cntAll에서 빼서 맞는 값이 나오게 한거 같습니다
 class Main{
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        //int형으로 값을 안집어넣고 String형으로 공백을 만들고 split를 사용해 배열에 집어넣는다.
         String bingoInfo[] = br.readLine().split(" ");
-        //그리고 그 값들은 line,row에 집어넣고 배열을 만들어서 행의 크기와 열의 크기를 만든다
         int line = Integer.parseInt(bingoInfo[0]), row = Integer.parseInt(bingoInfo[1]);
         String nowLineInfo[];
         int lineSum[] = new int[line], rowSum[] = new int[row];
@@ -25,20 +28,15 @@ class Main{
 
         
         for(int i = 0; i < line; i++){
-            //3 4 2 9가 입력됐다고 치면 nowLineInfo{3,4,2,9}가 들어가게된다.
             nowLineInfo = br.readLine().split(" ");
             for(int j = 0; j < row; j++){
-                // cntNow =cntChar(nowLineInfo[0], '9'); noewLineInfo[0] =3 cntNow = 0
-                //lineSum[0] = 0, rowSum[0] = 0
-                //cntAll=0
-                
                 cntNow = cntChar(nowLineInfo[j], '9');
                 lineSum[i] += cntNow;
                 rowSum[j] += cntNow;
                 cntAll += cntNow;
             }
         }
-        //열과 행값들을 배열로 만들어 열 배열,행 배열에 넣어서 가장 큰값들을 구하고 행과 열중 큰값을 cntAll값을뺀다
+  
         List<Integer> lineSumList = IntStream.of(lineSum).boxed().colleoct(Collectors.toList());
         List<Integer> rowSumList = IntStream.of(rowSum).boxed().collect(Collectors.toList());
         int lineMax = Collections.max(lineSumList), rowMax = Collections.max(rowSumList);
@@ -47,9 +45,6 @@ class Main{
         System.out.print(cntAll);
     }
 
-    
-    //String형의 매개변수의 크기를 int형에 저장해서 반복문을 돌리고 String형을 문자하나하나씩 쪼개어  매개변수
-    //ch와 같으면 cnt값을 증가
     static int cntChar(String str, char ch){
         int cnt = 0;
         int len = str.length();

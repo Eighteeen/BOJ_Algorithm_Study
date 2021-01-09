@@ -2,6 +2,7 @@ using System;
 
 public class Test
 {
+	////깔끔하네요
 	public static void Main()
 	{
 		bool[] isBall = { true, false, false };

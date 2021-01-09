@@ -2,6 +2,7 @@ using System;
 
 public class Test
 {
+  ////깔끔하네요
   public static void Main()
   {
     int[] lines = Read_numArr();
@@ -46,7 +47,7 @@ public class Test
       if (cnt > colmax)
         colmax = cnt;
     }
-
+    ////삼항연산자를 좋아하시는거 같네요.
     Console.Write(rowmax > colmax ? allcnt - rowmax : allcnt - colmax);
 
   }
