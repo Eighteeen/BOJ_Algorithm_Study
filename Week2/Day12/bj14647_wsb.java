@@ -25,9 +25,12 @@ class Main{
             }
         }
 
+        //// Arrays.stream(lineSum).max().getAsInt();
+        //// 요렇게 하면 바로 최대값 구할 수 있어요
         List<Integer> lineSumList = IntStream.of(lineSum).boxed().collect(Collectors.toList());
         List<Integer> rowSumList = IntStream.of(rowSum).boxed().collect(Collectors.toList());
         int lineMax = Collections.max(lineSumList), rowMax = Collections.max(rowSumList);
+        //// Math.max 배워갑니당.. 전 삼항연산자로 했음 ㅎㅎ;
         cntAll -= Math.max(lineMax, rowMax);
 
         System.out.print(cntAll);

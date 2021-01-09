@@ -3,6 +3,7 @@ package Day12;
 
 import java.util.Scanner;
 
+//// 깔꼼깔꼼
 public class bj1547_jhw {
 
 	public static void main(String[] args) {

@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
+//// 깔꼼쓰
 class Main{
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -12,6 +13,7 @@ class Main{
         int X, Y;
         int indexX, indexY;
 
+        //// 전 야바위로 해석하고 풀었는데 정석으론 이렇게 짜면 됐군요
         for(int i = 0; i < M; i++){
             cupPositionInfo = br.readLine().split(" ");
             X = Integer.parseInt(cupPositionInfo[0]);
