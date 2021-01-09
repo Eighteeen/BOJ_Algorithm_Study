@@ -54,8 +54,8 @@
 
 | 사이트 | 번호 | 문제                                                  | 답안                                                                  | 피드백 반영 답안    |
 | ------ | ---- | ----------------------------------------------------- | --------------------------------------------------------------------- | ------------------- |
-| 백준   | 2798 | [블랙잭](https://www.acmicpc.net/problem/2798)        | [진홍](Day13/bj2798_kjh.java) 승빈 [예은](Day13/bj2798_lye.cs) [회운](Day13/bj2798_jhw.java) | 진홍 승빈 예은 회운 |
-| 백준   | 2163 | [초콜릿 자르기](https://www.acmicpc.net/problem/2163) | [진홍](Day13/bj2163_kjh.java) 승빈 [예은](Day13/bj2163_lye.cs) [회운](Day13/bj2163_jhw.java) | 진홍 승빈 예은 회운 |
+| 백준   | 2798 | [블랙잭](https://www.acmicpc.net/problem/2798)        | [진홍](Day13/bj2798_kjh.java) [승빈](Day13/bj2798_wsb.java) [예은](Day13/bj2798_lye.cs) [회운](Day13/bj2798_jhw.java) | 진홍 승빈 예은 회운 |
+| 백준   | 2163 | [초콜릿 자르기](https://www.acmicpc.net/problem/2163) | [진홍](Day13/bj2163_kjh.java) [승빈](Day13/bj2163_wsb.java) [예은](Day13/bj2163_lye.cs) [회운](Day13/bj2163_jhw.java) | 진홍 승빈 예은 회운 |
 
 ## [14일차](Day14)
 
