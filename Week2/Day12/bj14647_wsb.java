@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
-
+    ////무난하게 잘 짜신거 같아요.
 class Main{
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -30,7 +30,7 @@ class Main{
         List<Integer> lineSumList = IntStream.of(lineSum).boxed().collect(Collectors.toList());
         List<Integer> rowSumList = IntStream.of(rowSum).boxed().collect(Collectors.toList());
         int lineMax = Collections.max(lineSumList), rowMax = Collections.max(rowSumList);
-        //// Math.max 배워갑니당.. 전 삼항연산자로 했음 ㅎㅎ;
+        //// Math.max 배워갑니당.. 전 삼항연산자로 했음 ㅎㅎ; :22 오 이렇게 해도 되는군요.
         cntAll -= Math.max(lineMax, rowMax);
 
         System.out.print(cntAll);
