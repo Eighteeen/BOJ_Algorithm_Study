@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
-
+    ////깔끔합니다~
 class Main{
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -16,6 +16,7 @@ class Main{
             for(int j = i + 1; j < N; j++){
                 for(int k = j + 1; k < N; k++){
                     nowSum = cards[i] + cards[j] + cards[k];
+                    //// 목표값과 같을때 바로 출력하고 종료해 주는건 시간효율을 위해서인가요??
                     if(nowSum == M){
                         System.out.print(nowSum);
                         return;
