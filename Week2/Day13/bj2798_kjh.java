@@ -19,7 +19,7 @@ class Main {
   private static int findSumOfBestCombination(int[] cards, int GOAL) {
     int bestSum = 0;
     int bestDifference = GOAL;
-    
+    ////i랑j랑k랑 크기를 다르게 두면 좋을거 같습니다!
     for (int i = 0; i < cards.length; i++) {
       for (int j = i + 1; j < cards.length; j++) {
         for (int k = j + 1; k < cards.length; k++) {
