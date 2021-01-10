@@ -6,8 +6,8 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    | Pair Programming                   |
 | ------ | ---- | -------------------- | ------------------- | ------------------- | ---------------------------------- |
-| 백준   | 19945 | [새로운 언어 CC](https://www.acmicpc.net/problem/19945) | 진홍회운 승빈예은 | 진홍회운 승빈예은 | Driver 🚗 예은 & Navigator 🧭 승빈 / Driver 🚗 ㅇㅇ & Navigator 🧭 ㅇㅇ |
-| 백준   | 0    | [문제이름](문제링크) | 진홍회운 승빈예은 | 진홍회운 승빈예은 | Driver 🚗 ㅇㅇ & Navigator 🧭 ㅇㅇ /  |
+| 백준   | 19945 | [새로운 언어 CC](https://www.acmicpc.net/problem/19945) | 진홍회운 승빈예은 | 진홍회운 승빈예은 | Driver 🚗 예은 & Navigator 🧭 승빈 / Driver 🚗 회운 & Navigator 🧭 진홍 |
+| 백준   | 2839    | [설탕 배달](https://www.acmicpc.net/problem/2839) | 진홍회운 승빈예은 | 진홍회운 승빈예은 | Driver 🚗 회운 & Navigator 🧭 진홍 / Driver 🚗 예은 & Navigator 🧭 승빈 |
 
 ## [16일차](Day16)
 
