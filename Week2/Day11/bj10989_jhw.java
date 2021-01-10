@@ -17,7 +17,8 @@ public class bj10989_jhw {
 		for(int i = 0; i < N; i++) {
 			Narr[i] = Integer.parseInt(bf.readLine());
         }
-        
+		
+		//// 메소드 활용도 좋자만 카톡으로 소통했다싶이 구현을 하는 문제라서 직접 구현해봤으면 좋겠어요..!
 		Arrays.sort(Narr);
 		
 		for(int i = 0 ; i < N; i++) {

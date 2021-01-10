@@ -1,5 +1,6 @@
 using System;
 
+//// 깔끔합니다!
 public class Test
 {
 	public static void Main()
