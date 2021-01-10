@@ -5,6 +5,7 @@ import java.util.Arrays;
 
 class Main {
   ////깔끔합니다. :22 읽기도 쉽고 효율성도 갖춘거 같아요. : 333 낄끔!!
+  ////=>만장일치로 칭찬받으니까 기부니가 좋네요
   public static void main(String[] args) throws Exception {
     final int N = Input.nextInt();
     final int M = Input.nextInt();

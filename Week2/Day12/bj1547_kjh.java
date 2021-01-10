@@ -4,6 +4,7 @@ import java.util.StringTokenizer;
 
 class Main {
   ////깔끔하고 boolean형으로 짜신거 배워갑니다. : 22 공의 위치에 따라 초기 true값을 설정하면 공의 위치도 코드로 바로 알고 활용도도 높아보이네요
+  ////=> 구체적인 칭찬 넘나 황송한 것
   public static void main(String[] args) throws Exception {
     boolean[] ballInCup = { true, false, false };
     final int M = Input.nextInt();
@@ -15,6 +16,7 @@ class Main {
       boolean ballInCupX = ballInCup[cupXIndex];
       boolean ballInCupY = ballInCup[cupYIndex];
         ////오 bool 이어서 이렇게 그냥 상태만 바꿔주면 되는거네요!  
+        ////=> 네에 두가지의 상태밖에 없으니까요
       if (ballInCup[cupXIndex] != ballInCup[cupYIndex]) {
         ballInCup[cupXIndex] = !ballInCup[cupXIndex];
         ballInCup[cupYIndex] = !ballInCup[cupYIndex];
