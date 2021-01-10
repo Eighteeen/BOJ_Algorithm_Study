@@ -2,7 +2,7 @@ using System;
 
 public class Test
 {
-	////깔끔하네요! : 22
+	////깔끔하네요! : 22 :33
 	public static void Main()
 	{
 		int sum, gap, result = 0;
@@ -19,6 +19,7 @@ public class Test
 				for (int k = j + 1; k < len; k++)
 				{
 					sum = numArr[i] + numArr[j] + numArr[k];
+					//// 변수 이름 작명에 신경 쓰시는게 느껴지네요
 					gap = goal - sum;
 					if ((gap > 0 || gap == 0) && gap < min)
 					{

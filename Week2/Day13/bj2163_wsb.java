@@ -1,7 +1,7 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-    //// 깔끔합니다 굿굿~:22
+    //// 깔끔합니다 굿굿~:22 :33 쪼꼬인포 변수이름 왠지모르게 귀엽다
 class Main{
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
