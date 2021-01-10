@@ -26,6 +26,7 @@ class Main {
           int sum = cards[i] + cards[j] + cards[k];
           if (sum > GOAL) continue;
 
+          //// bestSum과 sum이 이미 따로 있어서 difference, bestDifference를 따로 만들어서 비교할 필요가 없어보여요
           int difference = GOAL - sum;
           if (difference < bestDifference) {
             bestSum = sum;

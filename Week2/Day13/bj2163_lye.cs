@@ -2,7 +2,7 @@ using System;
 
 public class Test
 {
-	////깔끔하네요!
+	////깔끔하네요! : 22
 	public static void Main()
 	{
 		int[] chocolate = Read_ints();

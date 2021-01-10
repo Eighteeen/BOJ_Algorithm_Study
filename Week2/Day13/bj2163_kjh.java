@@ -9,7 +9,7 @@ class Main {
 
     System.out.print(cutChocolate(N, M));
   }
-    ////계산 식이 더 간단해질 수 있을 거 같아요!
+    ////계산 식이 더 간단해질 수 있을 거 같아요! : 22 굳이 풀어 쓸 필요없을 것 같아요
   private static int cutChocolate(int N, int M) {
     if (N + M == 2) return 0;
     

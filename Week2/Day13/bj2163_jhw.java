@@ -1,6 +1,6 @@
 package Day13;
 
-////우와 짱깔끔해요 굿굿!
+////우와 짱깔끔해요 굿굿! : 22
 import java.util.Scanner;
 
 public class bj2163_jhw {
