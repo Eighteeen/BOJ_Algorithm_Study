@@ -2,6 +2,7 @@ package Day14;
 
 import java.util.Scanner;
 
+//// 깔끔하네요!
 public class bj10797_jhw {
 
 	public static void main(String[] args) {

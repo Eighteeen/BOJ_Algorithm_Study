@@ -17,6 +17,7 @@ public class Test
 			customerNum = toFindInfo[2];
 			cnt = 0;
 
+			//// 규칙을 잘 파악하시면 삼중 for문을 쓸 필요가 없을 거예요!
 			for (int j = 1; j < W; j++)
 			{
 				for (int k = 1; k < H; k++)
