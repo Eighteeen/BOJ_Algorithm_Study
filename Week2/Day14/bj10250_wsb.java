@@ -1,7 +1,7 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-    ////와우 완전 깔끔해요,,,!
+    ////와우 완전 깔끔해요,,,!:22
 class Main{
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -24,7 +24,7 @@ class Main{
                 distanceNum += 1;
                 sb.append(floorNum);
             }
-            //// 삼항연산자 활용 잘하시네요..
+            //// 삼항연산자 활용 잘하시네요..:22
             sb.append(distanceNum < 10 ? "0" + distanceNum : distanceNum).append("\n");
         }
 

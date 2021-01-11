@@ -1,6 +1,6 @@
 using System;
 
-//// 깔끔하네요! :22 깔꼼
+//// 깔끔하네요! :22 깔꼼:33
 public class Test
 {
 	public static void Main()

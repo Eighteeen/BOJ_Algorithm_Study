@@ -3,6 +3,7 @@ using System.Text;
 
 public class Test
 {
+	
 	public static void Main()
 	{
 		int repeat = Read_int();
@@ -18,6 +19,7 @@ public class Test
 			cnt = 0;
 
 			//// 규칙을 잘 파악하시면 삼중 for문을 쓸 필요가 없을 거예요! :22 효율성은 떨어지지만 요런 방식은 생각도 못해봐서 참신하네요
+			//// if문쪽이 새롭게 와닿았습니다.
 			for (int j = 1; j < W; j++)
 			{
 				for (int k = 1; k < H; k++)
