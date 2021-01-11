@@ -20,6 +20,8 @@ class Main {
     int bestSum = 0;
     int bestDifference = GOAL;
     ////i랑j랑k랑 크기를 다르게 두면 좋을거 같습니다!
+    ////=> 현 코드가 더 효율적이라고 생각합니다
+    ////=> -1, -2를 하게되면 의도와 달라 '틀렸습니다'가 나와 그대로 뒀습니다
     for (int i = 0; i < cards.length; i++) {
       for (int j = i + 1; j < cards.length; j++) {
         for (int k = j + 1; k < cards.length; k++) {
@@ -27,6 +29,7 @@ class Main {
           if (sum > GOAL) continue;
 
           //// bestSum과 sum이 이미 따로 있어서 difference, bestDifference를 따로 만들어서 비교할 필요가 없어보여요
+          //// => 메모리 효율성보단 가독성을 추구했습니다!
           int difference = GOAL - sum;
           if (difference < bestDifference) {
             bestSum = sum;
