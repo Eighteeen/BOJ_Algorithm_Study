@@ -2,7 +2,7 @@ package Day14;
 
 import java.util.Scanner;
 
-//// 깔끔하네요! :22 깔끔합니다~~
+//// 깔끔하네요! :22 깔끔합니다~~ :33
 public class bj10797_jhw {
 
 	public static void main(String[] args) {

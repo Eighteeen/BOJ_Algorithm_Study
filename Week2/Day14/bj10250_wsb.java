@@ -24,6 +24,7 @@ class Main{
                 distanceNum += 1;
                 sb.append(floorNum);
             }
+            //// 삼항연산자 활용 잘하시네요..
             sb.append(distanceNum < 10 ? "0" + distanceNum : distanceNum).append("\n");
         }
 
