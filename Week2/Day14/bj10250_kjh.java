@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-//// 깔끔합니다!
+//// 깔끔합니다! :22 간단하게 잘 짜셨어요
 class Main {
   public static void main(String[] args) throws Exception {
     final int T = Input.nextInt();
@@ -12,7 +12,7 @@ class Main {
       int floors = Input.nextInt();
       int rooms = Input.nextInt();
       int nthGuest = Input.nextInt();
-
+        ////오와 이렇게 하면 되는군요
       int guestFloor = ((nthGuest - 1) % floors) + 1;
       int guestRoom = nthGuest / floors;
       guestRoom += (nthGuest % floors > 0) ? (1) : (0);
