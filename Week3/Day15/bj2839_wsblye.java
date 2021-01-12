@@ -13,9 +13,8 @@ class Main{
     //// 5-2. 이도저도 아니면 -1
 
     //// 우선 규칙을 찾아낸 집념에 박수드립니다.. 대단하십니다 정말
-    //// 위와 같이 풀어 정리해봤는데도 워낙 복잡하다보니 어떤 원리로 걸러내지는지는 잘 모르겠네요
-    
-    //// 일단 대강 짜고, 반례 하나씩 찾아서 기워붙인 느낌입니다. 가독성면에서는 아쉬운 것 같아요.
+    //// 위와 같이 풀어 정리해봤는데도 워낙 복잡하다보니 어떤 원리로 걸러내지는지는 잘 모르겠네요.
+    //// 일단 대강 짜고, 반례 하나씩 찾아서 기워붙인 느낌입니다. 가독성면에서는 좀 아쉬운 것 같아요.
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int sugarKg = Integer.parseInt(br.readLine());
