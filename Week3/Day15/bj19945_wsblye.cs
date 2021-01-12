@@ -3,7 +3,8 @@ using System.IO;
 
 public class Test
 {
-	
+
+//// 허탈할 정도로 짧고 깔끔합니다	
 	public static void Main()
 	{
 		int numOfDecimal = Read_int();
