@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+//// 페어프로그래밍 할 때 완전 쥐어짜 가면서 한 거 같은데 짧고 간결한 코드를 보니 현타가 옵니다... 깔끔깔끔
 class Main {
   public static void main(String[] args) throws Exception {
     final int N = Input.nextInt();

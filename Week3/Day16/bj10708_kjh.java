@@ -3,6 +3,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 import java.util.Arrays;
 
+//// 깔꼼~
 class Main {
   public static void main(String[] args) throws Exception {
     final int FRIENDS = Input.nextInt();
@@ -13,6 +14,7 @@ class Main {
     Arrays.fill(points, 0);
 
     for (int i = 0; i < GAMES; i++) {
+      //// 종이에 적어서 papers ㅋㅋㅋㅋㅋㅋ 되게 현실 친화적?이네여
       int[] papers = Arrays.stream(Input.nextLine().split(" ")).mapToInt(Integer::parseInt).toArray();
       for(int j = 0; j < FRIENDS; j++) {
         if (papers[j] != targets[i]) {

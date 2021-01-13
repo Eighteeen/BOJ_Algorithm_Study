@@ -15,7 +15,7 @@ public class Test
 
 		for (int i = 0; i < persons; i++)
 		{
-			//// 함수 이름에 성의 "첫 글자"를 읽어온다는 게 표현됐으면 좋겠습니다.
+			//// 함수 이름에 성의 "첫 글자"를 읽어온다는 게 표현됐으면 좋겠습니다. : 22
 			//// Read_lastname이라길래 성 문자열을 읽어오는 줄 알고 '왜 List<char>에 성을 넣지? char 리스트에 String을 넣으면 알아서 첫 글자만 추가되나?' 이러고 있었어요
 			nowName = Read_lastName();
 			isFind = playerList.IndexOf(nowName);

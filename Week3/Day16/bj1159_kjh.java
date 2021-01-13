@@ -7,6 +7,7 @@ class Main {
   public static void main(String[] args) throws Exception {
     StringBuilder sb = new StringBuilder();
 
+    //// 오호 알파벳 소문자만 이루어져 있다는 조건을 잘 활용하신 거 같아요!
     int numberOfAlphabets = 'z' - 'a' + 1;
     int[] firstLettersCount = new int[numberOfAlphabets];
     Arrays.fill(firstLettersCount, 0);
