@@ -2,6 +2,7 @@ using System;
 
 public class Test
 {
+	//// 깔꼬미
 	public static void Main()
 	{
 		int howManyFriends = Read_int();
