@@ -13,6 +13,7 @@ class Main{
         int N = Integer.parseInt(br.readLine());
         String firstChr;
         //// 성의 첫 글자는 a~z 범위 안에 있으므로 HashMap이 아닌 int[26]로 첫 글자의 수를 구했다면 더 효율적이었을 것 같습니다. 이렇게 하면 정렬이 필요없거든요.
+        //// HashMap사용은 처음봐요 한번 찾아봐야겠어요 다양한 기능이 많이 쓰였네요 ContainsKey기능 신기해요
         HashMap<String, Integer> firstChrMap = new HashMap<>();
         List<String> selectFirstChrList = new ArrayList<>();
 
