@@ -8,6 +8,7 @@ class Main {
     StringBuilder sb = new StringBuilder();
 
     //// 오호 알파벳 소문자만 이루어져 있다는 조건을 잘 활용하신 거 같아요!
+    //// 굉장히 간결한 코드네요!! 그런데 저는 numOfAlphabets선언부랑 'a' 써주는 부분 약간 이해가 
     int numberOfAlphabets = 'z' - 'a' + 1;
     int[] firstLettersCount = new int[numberOfAlphabets];
     Arrays.fill(firstLettersCount, 0);
