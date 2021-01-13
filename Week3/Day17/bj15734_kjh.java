@@ -15,7 +15,7 @@ class Main {
       
       int difference = Math.abs(leftPlayer - rightPlayer);
       int remainPlayer = (LEFT + RIGHT + ALL) - difference;
-      maxRemainPlayer = (remainPlayer > maxRemainPlayer) ? (remainPlayer) : (maxRemainPlayer);
+      if (remainPlayer > maxRemainPlayer) maxRemainPlayer = remainPlayer;
     }
 
     System.out.print(maxRemainPlayer);
