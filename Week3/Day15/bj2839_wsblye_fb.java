@@ -29,7 +29,7 @@ class Main{
 
     //// -> 저희가 처음에 최소공배수 얘기가 나오고 거기에 집중하고 loop를 안 쓰고 할 수 있다는 것에 집중해서 가독성을 많이 놓친 거 같아요 ㅠㅠ
     //// -> kjh 코드를 보면 loop를 쓰셨는데 가독성도 좋고 효율성도 별 차이가 안 나서 저희가 많이 허탈했습니다..
-    //// -> 자세한 피드백 감사합니다! 다시 페어프로그래밍을 통해 피드백 반영해보았습니다!
+    //// -> 자세한 피드백 감사합니다! 다시 페어프로그래밍을 통해 알고리즘을 짜보았습니다.
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int sugarKg = Integer.parseInt(br.readLine());
