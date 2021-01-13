@@ -3,7 +3,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 import java.util.Arrays;
 
-//// 깔꼼~
+//// 깔꼼~ : 22 잘짰어유~
 class Main {
   public static void main(String[] args) throws Exception {
     final int FRIENDS = Input.nextInt();
