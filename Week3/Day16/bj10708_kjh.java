@@ -15,6 +15,7 @@ class Main {
 
     for (int i = 0; i < GAMES; i++) {
       //// 종이에 적어서 papers ㅋㅋㅋㅋㅋㅋ 되게 현실 친화적?이네여
+      //// => ㅋㅋㅋㅋ 직관적이면서 글자수도 더 적은 것 같아서 택했어요!
       int[] papers = Arrays.stream(Input.nextLine().split(" ")).mapToInt(Integer::parseInt).toArray();
       for(int j = 0; j < FRIENDS; j++) {
         if (papers[j] != targets[i]) {

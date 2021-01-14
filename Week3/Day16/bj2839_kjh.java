@@ -3,6 +3,8 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 //// 페어프로그래밍 할 때 완전 쥐어짜 가면서 한 거 같은데 짧고 간결한 코드를 보니 현타가 옵니다... 깔끔깔끔:22 혖ㄴ타 매우 옵니다,,,대체 어떻게 저렇게 생각해내죠?
+//// => 규칙 찾을 엄두가 안나서 무식하게 푸는 방법을 고민했습니다. 컴퓨터는 빠르니까요
+//// => 규칙 찾아내신 근성이 저는 정말 대단하게 느껴집니다..
 class Main {
   public static void main(String[] args) throws Exception {
     final int N = Input.nextInt();
