@@ -41,6 +41,7 @@ class Main {
         boolean isEvenForBothIndicies = ( (i - startRowIndex) + (j - startColumnIndex) ) % 2 == 0;
         boolean isEqualToStandard = chessBoard[i][j] == standardTile;
         
+        //// 오호 ^는 XOR 비트연산자 이군요 배워갑니다!
         // 타일이 다시 칠해져야 할 때는 '인덱스가 짝수(true)인데 기준과 다른(false) 경우'와 '인덱스가 홀수(false)인데 기준과 같은(true) 경우'
         boolean isNeedRepaint = isEvenForBothIndicies ^ isEqualToStandard;
         if (isNeedRepaint) needRepaints++;

@@ -1,6 +1,7 @@
 using System;
 using System.Linq;
 
+//// 전체적으로 깔끔한 것 같아요
 public class Test
 {
 	public static void Main()
@@ -20,7 +21,7 @@ public class Test
 		{
 			if (lessMems == moreMems)
 			{
-				//// 2로 나눠놓고 다시 2를 곱하면 같지 않나요?
+				//// 2로 나눠놓고 다시 2를 곱하면 같지 않나요? : 22
 				Console.Write(lessMems * 2 + bothFootMems / 2 * 2);
 				return;
 			}
