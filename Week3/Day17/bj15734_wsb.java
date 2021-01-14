@@ -11,6 +11,8 @@ class Main{
         int A = Integer.parseInt(playerInfo[2]);
         int diffrent = Math.abs(L - R);
 
+        //// 규칙을 끝끝내 찾아내신 것에 증말 리스펙합니다.. 엄두도 못 냈는데
+        //// 문제 푸는 시간 효율면에서 보자면 무차별 대입으로 푸는 것도 좋은 것 같습니다. (물론 시간초과가 안 나는 시간복잡도와 입력일 때에만)
         if(diffrent <= A){
             A -= diffrent;
             if(L < R) L += diffrent;

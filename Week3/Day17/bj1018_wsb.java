@@ -24,6 +24,7 @@ class Main{
                 for(int i = 0; i < 8; i += 2){
                     checkBoard = boardColor[l + i].substring(r, r + 8) + boardColor[l + i + 1].substring(r, r + 8);
                     nowPaint = checkChessPaint(checkBoard);
+                    //// 0, 1 대신 FIRST_BLACK FIRST_WHITE 상수로 표현했다면 더 가독성 좋았을 것 같아요!
                     needPaint[0] += nowPaint[0];
                     needPaint[1] += nowPaint[1];
                 }
@@ -40,6 +41,7 @@ class Main{
     }
 
     static int[] checkChessPaint(String board){
+        //// 오 한줄마다 비교하는 방법도 있네요
         String firstBlackPattern = "BWBWBWBWWBWBWBWB";
         String firstWhitePattern = "WBWBWBWBBWBWBWBW";
         int paintCnt[] = new int[2];
