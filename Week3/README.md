@@ -15,8 +15,8 @@
 
 | 사이트 | 번호  | 문제                                                     | 답안                                                                                            | 피드백 반영 답안    |
 | ------ | ----- | -------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ------------------- |
-| 백준   | 1159  | [농구 경기](https://www.acmicpc.net/problem/1159)        | [진홍](Day16/bj1159_kjh.java) [승빈](Day16/bj1159_wsb.java) [예은](Day16/bj1159_lye.cs)     | [진홍](Day16/bj1159_kjh_fb.java) 승빈 [예은](Day16/bj1159_lye_fb.cs) |
-| 백준   | 10708 | [크리스마스 파티](https://www.acmicpc.net/problem/10708) | [진홍](Day16/bj10708_kjh.java) [승빈](Day16/bj10708_wsb.java) [예은](Day16/bj10708_lye.cs) | [진홍](Day16/bj10708_kjh.java) 승빈 [예은](Day16/bj10708_lye_fb.cs) |
+| 백준   | 1159  | [농구 경기](https://www.acmicpc.net/problem/1159)        | [진홍](Day16/bj1159_kjh.java) [승빈](Day16/bj1159_wsb.java) [예은](Day16/bj1159_lye.cs)     | [진홍](Day16/bj1159_kjh_fb.java) [승빈](Day16/bj1159_wsb_fb.java) [예은](Day16/bj1159_lye_fb.cs) |
+| 백준   | 10708 | [크리스마스 파티](https://www.acmicpc.net/problem/10708) | [진홍](Day16/bj10708_kjh.java) [승빈](Day16/bj10708_wsb.java) [예은](Day16/bj10708_lye.cs) | [진홍](Day16/bj10708_kjh.java) [승빈](Day16/bj10708_wsb.java) [예은](Day16/bj10708_lye_fb.cs) |
 | 백준   | 2839  | [설탕 배달](https://www.acmicpc.net/problem/2839)        | [진홍](Day16/bj2839_kjh.java) [회운](Day16/bj2839_jhw.java)                                     | [진홍](Day16/bj2839_kjh.java)           |
 
 ## [17일차](Day17)
