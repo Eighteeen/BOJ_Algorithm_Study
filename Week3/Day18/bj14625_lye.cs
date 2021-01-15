@@ -15,6 +15,7 @@ public class Test
 		string findMinute = Console.ReadLine();
 		int cnt = 0;
 
+		//// for문 두개로도 괜찮은 문제였군요.. 이 생각을 왜 못했지
 		for (int i = startHour; i < endHour + 1; i++)
 		{
 			int start = (i == startHour) ? startMinute : 0;

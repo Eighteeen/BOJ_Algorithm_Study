@@ -11,6 +11,7 @@ class Main{
         int wantNum = Integer.parseInt(br.readLine());
         int numCnt = 0;
 
+        //// 함수로 분리하고 함수 이름으로 의도를 표현해줬다면 더 가독성있게 읽혔을 것 같습니다
         if(startTime[0] == endTime[0]){
             if(containWantNum(startTime[0], wantNum)) numCnt += endTime[1] - startTime[1] + 1;
             else{

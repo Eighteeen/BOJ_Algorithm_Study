@@ -1,5 +1,5 @@
 using System;
-//Àç»ç¿ë °í·ÁÇÏÁö ¾Ê°í ÀÌ ¹®Á¦¿¡ ÃÖÀûÈ­µÇ°Ô Â®½À´Ï´Ù.
+//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ê°ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½È­ï¿½Ç°ï¿½ Â®ï¿½ï¿½ï¿½Ï´ï¿½.
 public class Test
 {
 	public static void Main()
@@ -9,6 +9,7 @@ public class Test
 		int cnt;
 		for (int i = 0; i < studentsCnt; i++)
 		{
+			//// ë‹µì— ë„ì–´ì“°ê¸°ë¥¼ í¬í•¨í–ˆë‹¤ë©´ Replaceí•´ì£¼ì§€ ì•Šì•„ë„ ëì„ ê²ƒ ê°™ì•„ìš”!
 			string input = Console.ReadLine().Replace(" ", "");
 			cnt = 0;
 
