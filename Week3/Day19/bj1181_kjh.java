@@ -5,7 +5,6 @@ import java.util.List;
 import java.util.ArrayList;
 import java.util.Comparator;
 
-// Stream에 익숙해지고 싶어서 활용 좀 해봤읍니다
 class Main {
   public static void main(String[] args) throws Exception {
     StringBuilder sb = new StringBuilder();
@@ -19,7 +18,7 @@ class Main {
     words.stream()
       .distinct() // 중복 제거
       .sorted(Comparator.comparing(String::length).thenComparing(Comparator.naturalOrder())) // 길이로 정렬한 후 오름차순 정렬
-      .forEach(word -> sb.append(word).append('\n')); // StringBuilder에 줄바꿈을 붙여 각각 삽입
+      .forEach(word -> sb.append(word).append('\n')); // 각각 StringBuilder에 줄바꿈을 붙여 삽입
 
     System.out.print(sb);
   }
