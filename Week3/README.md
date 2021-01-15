@@ -25,8 +25,8 @@
 
 | 사이트 | 번호  | 문제                                                       | 답안                | 피드백 반영 답안    |
 | ------ | ----- | ---------------------------------------------------------- | ------------------- | ------------------- |
-| 백준   | 1018  | [체스판 다시 칠하기](https://www.acmicpc.net/problem/1018) | [진홍](Day17/bj1018_kjh.java) [승빈](Day17/bj1018_wsb.java) 예은 | [진홍](Day17/bj1018_kjh.java) 승빈 예은 |
-| 백준   | 15734 | [명장 남정훈](https://www.acmicpc.net/problem/15734)       | [진홍](Day17/bj15734_kjh.java) [승빈](Day17/bj15734_wsb.java) [예은](Day17/bj15734_lye.cs) | [진홍](Day17/bj15734_kjh.java) 승빈 예은 |
+| 백준   | 1018  | [체스판 다시 칠하기](https://www.acmicpc.net/problem/1018) | [진홍](Day17/bj1018_kjh.java) [승빈](Day17/bj1018_wsb.java) 예은 | [진홍](Day17/bj1018_kjh.java) [승빈](Day17/bj1018_wsb_fb.java) 예은 |
+| 백준   | 15734 | [명장 남정훈](https://www.acmicpc.net/problem/15734)       | [진홍](Day17/bj15734_kjh.java) [승빈](Day17/bj15734_wsb.java) [예은](Day17/bj15734_lye.cs) | [진홍](Day17/bj15734_kjh.java) [승빈](Day17/bj15734_wsb_fb.java) 예은 |
 
 ## [18일차](Day18)
 
@@ -43,8 +43,8 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 1181    | [단어 정렬](https://www.acmicpc.net/problem/1181) | [진홍](Day19/bj1181_kjh.java) 승빈 예은 | 진홍 승빈 예은 |
-| 백준   | 17202    | [핸드폰 번호 궁합](https://www.acmicpc.net/problem/17202) | [진홍](Day19/bj17202_kjh.java) 승빈 예은 | 진홍 승빈 예은 |
+| 백준   | 1181    | [단어 정렬](https://www.acmicpc.net/problem/1181) | [진홍](Day19/bj1181_kjh.java) [승빈](Day19/bj1181_wsb.java) 예은 | 진홍 승빈 예은 |
+| 백준   | 17202    | [핸드폰 번호 궁합](https://www.acmicpc.net/problem/17202) | [진홍](Day19/bj17202_kjh.java) [승빈](Day19/bj17202_wsb.java) 예은 | 진홍 승빈 예은 |
 
 ## [20일차](Day20)
 
