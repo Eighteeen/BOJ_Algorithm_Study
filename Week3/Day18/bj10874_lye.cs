@@ -9,7 +9,7 @@ public class Test
 		int cnt;
 		for (int i = 0; i < studentsCnt; i++)
 		{
-			//// 답에 띄어쓰기를 포함했다면 Replace해주지 않아도 됐을 것 같아요!
+			//// 답에 띄어쓰기를 포함했다면 Replace해주지 않아도 됐을 것 같아요! : 22
 			string input = Console.ReadLine().Replace(" ", "");
 			cnt = 0;
 

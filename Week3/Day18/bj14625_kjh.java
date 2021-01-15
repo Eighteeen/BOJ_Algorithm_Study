@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+//// 까다로운 문제답게 함수 활용이 눈에 띄었습니다. 굿!
 class Main {
   public static void main(String[] args) throws Exception {
     int startHour = Input.nextInt();
@@ -25,6 +26,7 @@ class Main {
   }
 
   private static boolean isAppear(int doubleDigits, int target) {
+    //// 0일때 처리 따로 안 해도 밑에 return 식으로 똑같은 결과가 나와요
     if (target == 0) {
       return (doubleDigits < 10) || (doubleDigits % 10 == 0);
     }
@@ -45,6 +47,7 @@ class Main {
 
   private static int calcCountOfHours(int hourFrom, int hourTo, int target) {
     int count = 0;
+    //// 아 이렇게 미리 세어놓으면 되는 걸 왜 계속 연산했을까요..? 피드백 반영하면서 미리 세어놔야 겠어요!
     int countOfAnHour = calcCountOfAnHour(target);
 
     for (int i = hourFrom; i <= hourTo; i++) {

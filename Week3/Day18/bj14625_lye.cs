@@ -15,7 +15,7 @@ public class Test
 		string findMinute = Console.ReadLine();
 		int cnt = 0;
 
-		//// for문 두개로도 괜찮은 문제였군요.. 이 생각을 왜 못했지
+		//// for문 두개로도 괜찮은 문제였군요.. 이 생각을 왜 못했지 : 22 훨씬 깔끔하네요..
 		for (int i = startHour; i < endHour + 1; i++)
 		{
 			int start = (i == startHour) ? startMinute : 0;
@@ -25,6 +25,7 @@ public class Test
 				string iToCompare = i > 10 ? i.ToString() : "0" + i.ToString();
 				string jToCompare = j > 10 ? j.ToString() : "0" + j.ToString();
 				string compare = iToCompare + jToCompare;
+				//// indexOf를 활용한 풀이도 괜찮네요! 굿굿
 				if (compare.IndexOf(findMinute) > -1) cnt++;
 			}
 		}

@@ -6,6 +6,7 @@ import java.util.Arrays;
 class Main {
   public static void main(String[] args) throws Exception {
     StringBuilder sb = new StringBuilder();
+    //// 어짜피 입력과 규격이 정해져 있는 문제라 int배열로 선언할 필요 없어보여요..!
     final int[] ANSWERS = { 1, 2, 3, 4, 5, 1, 2, 3, 4, 5 };
     
     final int STUDENTS = Input.nextInt();
