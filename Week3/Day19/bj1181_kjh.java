@@ -4,7 +4,7 @@ import java.util.StringTokenizer;
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Comparator;
-
+////깔끔합니다
 class Main {
   public static void main(String[] args) throws Exception {
     StringBuilder sb = new StringBuilder();
@@ -14,7 +14,7 @@ class Main {
     for (int i = 0; i < N; i++) {
       words.add(Input.nextLine());
     }
-
+  //// 길이순으로 정렬하고 사전순으로 정렬하는게 한번에 될거라곤 상상도 못했네요.
     words.stream()
       .distinct() // 중복 제거
       .sorted(Comparator.comparing(String::length).thenComparing(Comparator.naturalOrder())) // 길이로 정렬한 후 오름차순 정렬
