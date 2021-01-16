@@ -3,7 +3,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 //// 까다로운 문제답게 함수 활용이 눈에 띄었습니다. 굿!
-//// 구현이 아주 구체적이에요!! 함수활용을 잘하셔서 메인이 되게 
+//// 구현이 아주 구체적이에요!! 함수활용을 잘하셔서 메인이 되게 깔끔하네용
 class Main {
   public static void main(String[] args) throws Exception {
     int startHour = Input.nextInt();
