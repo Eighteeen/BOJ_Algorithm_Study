@@ -24,6 +24,8 @@ public class Test
 				if (wordLengths[i] == min)
 				{
 					minWords.Add(words[i]);
+					//// 개인적으로 이부분에서 왜 51을 저장해주는지 알기 어려워 아쉬웠습니다.
+					//// 더이상 min 검사를 원치 않는다거나 탐색이 끝났다라는 의미의 변수가 있었으면 가독성면에서 좋을 것 같아요
 					wordLengths[i] = 51;
 				}
 			}
@@ -37,7 +39,7 @@ public class Test
 		Console.Write(sb);
 	}
 
-	//// read_strings가 적절했을 것 같습니다
+	//// read_strings가 적절했을 것 같습니다 : 22
 	static string[] read_string(int n)
 	{
 		string[] strings = new string[n];

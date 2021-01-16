@@ -1,7 +1,7 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
-  ////변수명 짓기 대회 1등하실거 같아요! 전체적으로 깔끔하고 가독성이 좋습니다.
+  ////변수명 짓기 대회 1등하실거 같아요! 전체적으로 깔끔하고 가독성이 좋습니다. : 22 변수명 짓기 대회 ㅋㅋㅋㅋㅋ 대상 예약인가요
 class Main {
   public static void main(String[] args) throws Exception {
     final String myPhone = Input.nextLine();
@@ -17,6 +17,7 @@ class Main {
     StringBuilder mixedNumber = new StringBuilder();
 
     for (int i = 0; i < 8; i++) {
+      //// 오호 StringBuilder 활용이 좋네요
       mixedNumber.append(phoneA.charAt(i))
         .append(phoneB.charAt(i));
     }
