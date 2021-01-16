@@ -15,6 +15,7 @@ class Main{
         Set<String> strSet[] = new Set[51];
 
         //// 오.. 문자열의 길이 제약 조건을 이용해 시간 최적화하는 로직 좋네요
+        //// TreeSet기능 처음보는데 검색정렬에 효율적인거라고 나오네요! 역시 자바기능을 잘 활용하십니당.
         for(int i = 0; i < N; i++){
             nowStr = br.readLine();
             strLen = nowStr.length();
