@@ -52,8 +52,8 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 1920    | [수 찾기](https://www.acmicpc.net/problem/1920) | 진홍 승빈 [예은](Day20/bj1920_lye.cs) | 진홍 승빈 예은 |
-| 백준   | 1157    | [단어 공부](https://www.acmicpc.net/problem/1157) | 진홍 승빈 [예은](Day20/bj1157_lye.cs) | 진홍 승빈 예은 |
+| 백준   | 1920    | [수 찾기](https://www.acmicpc.net/problem/1920) | 진홍 [진홍](Day20/bj1920_kjh.java) [예은](Day20/bj1920_lye.cs) | 진홍 승빈 예은 |
+| 백준   | 1157    | [단어 공부](https://www.acmicpc.net/problem/1157) | [진홍](Day20/bj1157_kjh.java) 승빈 [예은](Day20/bj1157_lye.cs) | 진홍 승빈 예은 |
 
 ## [21일차](Day21)
 
