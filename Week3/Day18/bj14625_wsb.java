@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
-
+//// 경우의 수를 생각해서 섬세하게 나눠주었지만 조건문이 많아 조금은 복잡해 보여요.
 class Main{
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -11,7 +11,7 @@ class Main{
         int wantNum = Integer.parseInt(br.readLine());
         int numCnt = 0;
 
-        //// 함수로 분리하고 함수 이름으로 의도를 표현해줬다면 더 가독성있게 읽혔을 것 같습니다
+        //// 함수로 분리하고 함수 이름으로 의도를 표현해줬다면 더 가독성있게 읽혔을 것 같습니다 :22
         if(startTime[0] == endTime[0]){
             if(containWantNum(startTime[0], wantNum)) numCnt += endTime[1] - startTime[1] + 1;
             else{
