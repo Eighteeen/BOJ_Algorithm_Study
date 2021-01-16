@@ -34,8 +34,8 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 14625 | [냉동식품](https://www.acmicpc.net/problem/14625) | [진홍](Day18/bj14625_kjh.java) [승빈](Day18/bj14625_wsb.java) [예은](Day18/bj14625_lye.cs) | [진홍](Day18/bj14625_kjh_fb.java) 승빈 예은 |
-| 백준   | 10874    | [이교수님의 시험](https://www.acmicpc.net/problem/10874) | [진홍](Day18/bj10874_kjh.java) [승빈](Day18/bj10874_wsb.java) [예은](Day18/bj10874_lye.cs) | [진홍](Day18/bj10874_kjh_fb.java) 승빈 예은 |
+| 백준   | 14625 | [냉동식품](https://www.acmicpc.net/problem/14625) | [진홍](Day18/bj14625_kjh.java) [승빈](Day18/bj14625_wsb.java) [예은](Day18/bj14625_lye.cs) | [진홍](Day18/bj14625_kjh_fb.java) 승빈 [예은](Day18/bj14625_lye_fb.cs) |
+| 백준   | 10874    | [이교수님의 시험](https://www.acmicpc.net/problem/10874) | [진홍](Day18/bj10874_kjh.java) [승빈](Day18/bj10874_wsb.java) [예은](Day18/bj10874_lye.cs) | [진홍](Day18/bj10874_kjh_fb.java) 승빈 [예은](Day18/bj10874_lye_fb.cs) |
 
 ## [19일차](Day19)
 
@@ -52,8 +52,8 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 1920    | [수 찾기](https://www.acmicpc.net/problem/1920) | 진홍 승빈 예은 | 진홍 승빈 예은 |
-| 백준   | 1157    | [단어 공부](https://www.acmicpc.net/problem/1157) | 진홍 승빈 예은 | 진홍 승빈 예은 |
+| 백준   | 1920    | [수 찾기](https://www.acmicpc.net/problem/1920) | 진홍 승빈 [예은](Day20/bj1920_lye.cs) | 진홍 승빈 예은 |
+| 백준   | 1157    | [단어 공부](https://www.acmicpc.net/problem/1157) | 진홍 승빈 [예은](Day20/bj1157_lye.cs) | 진홍 승빈 예은 |
 
 ## [21일차](Day21)
 
