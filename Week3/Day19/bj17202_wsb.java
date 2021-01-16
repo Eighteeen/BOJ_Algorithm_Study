@@ -3,13 +3,14 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
-//// 섞는 로직도 궁합보는 로직도 깔꼼합니다
+//// 섞는 로직도 궁합보는 로직도 깔꼼합니다 :22 완전 
 class Main{
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String ANum = br.readLine();
         String BNum = br.readLine();
         int compatiNum[] = new int[16];
+        //// 이런방법이 있었군요,,,!
         for(int i = 0; i < 8; i++){
             int index = i * 2;
             compatiNum[index] = ANum.charAt(i) - '0';
