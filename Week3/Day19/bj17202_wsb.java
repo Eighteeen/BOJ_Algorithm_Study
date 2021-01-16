@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
-//// 섞는 로직도 궁합보는 로직도 깔꼼합니다 :22 완전 
+//// 섞는 로직도 궁합보는 로직도 깔꼼합니다 :22 완전 깔꼼쓰
 class Main{
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
