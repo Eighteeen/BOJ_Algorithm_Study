@@ -14,6 +14,7 @@ public class Test
 		List<string> sortedWords = new List<string>();
 		StringBuilder sb = new StringBuilder();
 
+		//// 길이가 50 이하인걸 이용한 방법 좋네용
 		while (min != 51)
 		{
 			List<string> minWords = new List<string>();
@@ -36,6 +37,7 @@ public class Test
 		Console.Write(sb);
 	}
 
+	//// read_strings가 적절했을 것 같습니다
 	static string[] read_string(int n)
 	{
 		string[] strings = new string[n];
