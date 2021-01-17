@@ -14,6 +14,7 @@ public class Test
 		bool[] isExist = new bool[inputCnt];
 		StringBuilder sb = new StringBuilder();
 
+		//// 어 저도 처음에 이렇게 했더니 시간초과 나던데.. 채점기록 보니까 여러번 시간초과 후에 성공하신거 같은데 시간을 단축한 비결이 있나요?
 		for (int i = 0; i < inputCnt; i++)
 		{
 			if (compare.Contains(input[i]))

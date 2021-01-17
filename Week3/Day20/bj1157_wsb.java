@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
+//// 깔꼼하네용
 class Main{
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -16,6 +17,7 @@ class Main{
             else cntAlphabet[chr - 'A']++;
         }
 
+        //// 한 함수에서 두 가지 일을 하는 점이 조금 아쉽습니다
         int checkMax = checkMaxAlphabet(cntAlphabet);
         if(checkMax > -1) bw.write(checkMax + 'A');
         else bw.write('?');

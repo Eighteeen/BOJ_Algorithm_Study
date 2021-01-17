@@ -5,6 +5,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.Arrays;
 
+//// 깔꽇맙니다
 class Main{
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -16,6 +17,7 @@ class Main{
         int fistHigh = N - 1;
         Arrays.sort(A);
 
+        //// 찾기에 최적화된 이진탐색을 사용하셨군요
         for(int target : targets){
             if(binarySearch(A, 0, fistHigh, target)) bw.write(1 + "\n");
             else bw.write(0 + "\n");
@@ -26,6 +28,7 @@ class Main{
         bw.close();
     }
 
+    //// 이진탐색 직접 구현하신거 멋쪄요
     static boolean binarySearch(int A[], int low, int high, int target){
         if(low > high) return false;
         int mid = (low + high) / 2;
