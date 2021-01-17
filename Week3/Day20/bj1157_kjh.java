@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 import java.util.Arrays;
-
+  ////군더더기 없는코드네요 잘 짜신거 같아요.
 class Main {
   public static void main(String[] args) throws Exception {
     final String WORD = Input.nextLine();
