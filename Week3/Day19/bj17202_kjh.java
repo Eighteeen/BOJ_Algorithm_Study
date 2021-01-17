@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
   ////변수명 짓기 대회 1등하실거 같아요! 전체적으로 깔끔하고 가독성이 좋습니다. : 22 변수명 짓기 대회 ㅋㅋㅋㅋㅋ 대상 예약인가요
+  //// => ㅎㅎㅎㅎ 과찬이십니다.. 감사합니다!
 class Main {
   public static void main(String[] args) throws Exception {
     final String myPhone = Input.nextLine();

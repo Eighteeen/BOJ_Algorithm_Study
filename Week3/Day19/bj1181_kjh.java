@@ -15,6 +15,7 @@ class Main {
       words.add(Input.nextLine());
     }
   //// 길이순으로 정렬하고 사전순으로 정렬하는게 한번에 될거라곤 상상도 못했네요. : 22 출력까지 한번에... stream 활용을 정말 잘 하신 거 같아요
+  //// => stream이 정말 좋더라구요
     words.stream()
       .distinct() // 중복 제거
       .sorted(Comparator.comparing(String::length).thenComparing(Comparator.naturalOrder())) // 길이로 정렬한 후 오름차순 정렬

@@ -43,8 +43,8 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 1181    | [단어 정렬](https://www.acmicpc.net/problem/1181) | [진홍](Day19/bj1181_kjh.java) [승빈](Day19/bj1181_wsb.java) [예은](Day19/bj1181_lye.cs) | 진홍 승빈 예은 |
-| 백준   | 17202    | [핸드폰 번호 궁합](https://www.acmicpc.net/problem/17202) | [진홍](Day19/bj17202_kjh.java) [승빈](Day19/bj17202_wsb.java) [예은](Day19/bj17202_lye.cs) | 진홍 승빈 예은 |
+| 백준   | 1181    | [단어 정렬](https://www.acmicpc.net/problem/1181) | [진홍](Day19/bj1181_kjh.java) [승빈](Day19/bj1181_wsb.java) [예은](Day19/bj1181_lye.cs) | [진홍](Day19/bj1181_kjh.java) 승빈 예은 |
+| 백준   | 17202    | [핸드폰 번호 궁합](https://www.acmicpc.net/problem/17202) | [진홍](Day19/bj17202_kjh.java) [승빈](Day19/bj17202_wsb.java) [예은](Day19/bj17202_lye.cs) | [진홍](Day19/bj17202_kjh.java) 승빈 예은 |
 
 ## [20일차](Day20)
 
