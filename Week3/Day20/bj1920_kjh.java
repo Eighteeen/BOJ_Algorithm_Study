@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.stream.Collectors;
 import java.util.Set;
 import java.util.HashSet;
-
+//// 깔끔한거 같슴다 굿굿~
 class Main {
   public static void main(String[] args) throws Exception {
     final int N = Input.nextInt();
