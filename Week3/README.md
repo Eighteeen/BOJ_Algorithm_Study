@@ -61,5 +61,5 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 12981    | [공 포장하기](https://www.acmicpc.net/problem/12981) | [진홍](Day21/bj12981_kjh.java) 승빈 예은 | 진홍 승빈 예은 |
-| 백준   | 9946 | [단어 퍼즐](https://www.acmicpc.net/problem/9946) | [진홍](Day21/bj9946_kjh.java) 승빈 예은 | 진홍 승빈 예은 |
+| 백준   | 12981    | [공 포장하기](https://www.acmicpc.net/problem/12981) | [진홍](Day21/bj12981_kjh.java) 승빈 [예은](Day21/bj12981_lye.cs) | 진홍 승빈 예은 |
+| 백준   | 9946 | [단어 퍼즐](https://www.acmicpc.net/problem/9946) | [진홍](Day21/bj9946_kjh.java) 승빈 [예은](Day21/bj9946_lye.cs) | 진홍 승빈 예은 |
