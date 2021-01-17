@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.Arrays;
 
-//// 깔꽇맙니다
+//// 깔꽇맙니다 : 22 
 class Main{
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -28,7 +28,7 @@ class Main{
         bw.close();
     }
 
-    //// 이진탐색 직접 구현하신거 멋쪄요
+    //// 이진탐색 직접 구현하신거 멋쪄요 :22 원래 있는 기능 사용하신 줄 알았어요.
     static boolean binarySearch(int A[], int low, int high, int target){
         if(low > high) return false;
         int mid = (low + high) / 2;
