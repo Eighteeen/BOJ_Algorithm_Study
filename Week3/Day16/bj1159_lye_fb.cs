@@ -6,8 +6,7 @@ public class Test
 	public static void Main()
 	{
 		int persons = Read_int();
-		List<char> playerList = new List<char>();
-		int[] howManyName = new int[persons];
+		int[] howManyName = new int[26];
 		char nowName;
 		int isFind;
 		string result = "";
@@ -15,21 +14,15 @@ public class Test
 		for (int i = 0; i < persons; i++)
 		{
 			nowName = Read_NameOfFirst();
-			isFind = playerList.IndexOf(nowName);
-			if (isFind == -1)
-			{
-				playerList.Add(nowName);
-				isFind = playerList.IndexOf(nowName);
-			}
-			howManyName[isFind] += 1;
+			howManyName[nowName - 'a'] += 1;
 		}
 		for (int i = 0; i < howManyName.Length; i++)
 		{
 			if (howManyName[i] > 4)
-				result += playerList[i];
+				result += Convert.ToChar(i + 97);
 		}
 		if (result == "") Console.Write("PREDAJA");
-		else Console.Write(Sort_result(result));
+		else Console.Write(result);
 	}
 
 	static int Read_int()
@@ -42,16 +35,5 @@ public class Test
 		string input = Console.ReadLine();
 		return input[0];
 	}
-	static string Sort_result(string res)
-	{
-		int len = res.Length;
-		char[] tmp = new char[len];
-		for (int i = 0; i < len; i++)
-			tmp[i] = res[i];
-		Array.Sort(tmp);
-		res = "";
-		for (int i = 0; i < len; i++)
-			res += tmp[i];
-		return res;
-	}
+
 }
