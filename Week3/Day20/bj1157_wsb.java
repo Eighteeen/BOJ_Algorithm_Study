@@ -10,6 +10,7 @@ class Main{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         String str = br.readLine();
+        //// 이 문제에서도 알파벳별로 비교해줄 수 있었군요 생각지 못했습니다.
         int cntAlphabet[] = new int[26];
 
         for(Character chr : str.toCharArray()){
