@@ -10,7 +10,7 @@ public class Test
 		int blue = balls[2];
 		int boxCnt = 0, packed, left;
 
-		//// 같은 코드가 14~16줄, 18~20줄, 22~24줄로 반복됩니다.
+		//// 같은 코드가 14~16줄, 18~20줄, 22~24줄로 반복됩니다. : 22 loop 혹은 함수 이용이 좋을 것 같아요
 		//// -> 혹시 좋은 방법 있을까요 오히려 함수로 묶으려고 하면 더 복잡해질거 같아서 이렇게 짰어요ㅠ
 		packed = Packing_OneColor(red);
 		red -= packed * 3;

@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 import java.util.Arrays;
-//// 구현이 섬세하네요 메인은 짧아졌지만 함수가 좀 길어진 느낌이 있어요.
+//// 구현이 섬세하네요 메인은 짧아졌지만 함수가 좀 길어진 느낌이 있어요. : 22 문제에 비해서 구현 코드가 긴 느낌이 있네요
 class Main {
   public static void main(String[] args) throws Exception {
     int[] colors = Arrays.stream(Input.nextLine().split(" ")).mapToInt(Integer::parseInt).toArray();
