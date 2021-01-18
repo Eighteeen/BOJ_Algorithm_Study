@@ -10,6 +10,7 @@ public class Test
 		int blue = balls[2];
 		int boxCnt = 0, packed, left;
 
+		//// 같은 코드가 14~16줄, 18~20줄, 22~24줄로 반복됩니다.
 		packed = Packing_OneColor(red);
 		red -= packed * 3;
 		boxCnt += packed;
@@ -45,6 +46,7 @@ public class Test
 			nums[i] = Convert.ToInt32(strArr[i]);
 		return nums;
 	}
+
 	static int Packing_OneColor(int ball)
 	{
 		int cnt = 0;
