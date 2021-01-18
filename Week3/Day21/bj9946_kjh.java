@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 import java.util.Arrays;
-
+//// 잘 짜신거 같아요!!
 class Main {
   public static void main(String[] args) throws Exception {
     StringBuilder sb = new StringBuilder();
@@ -22,7 +22,7 @@ class Main {
 
     System.out.print(sb);
   }
-
+  ////우와 알파벳 나오는 횟수로 비교해주는건 생각도 못했네요 
   static boolean isSameCombinationOfAlphabets(String word1, String word2) {
     int[] frequency1 = getFrequencyOfAlphabets(word1);
     int[] frequency2 = getFrequencyOfAlphabets(word2);
