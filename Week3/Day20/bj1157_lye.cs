@@ -8,6 +8,7 @@ public class Test
 		string word = Console.ReadLine().ToUpper();
 		int len = word.Length;
 		string alphabets = "";
+		//// 26 크기의 배열로 만들 수 있는데 1,000,000 크기로 만들어질 수도 있다는 점이 아쉬워요.
 		int[] findCnt = new int[len];
 		int cnt = 0, findIndex, max, res = 0;
 

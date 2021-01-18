@@ -20,6 +20,7 @@ class Main {
     StringBuilder sb = new StringBuilder();
     for (int i = 0; i < M; i++) {
       Long target = Input.nextLong();
+      //// Set의 특성을 이용해 깔끔하게 짜신 것 같아요 굿
       int result = set.contains(target) ? (1) : (0);
       sb.append(result).append('\n');
     }
