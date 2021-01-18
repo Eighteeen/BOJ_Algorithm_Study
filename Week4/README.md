@@ -6,7 +6,7 @@
 
 ## [22일차](Day22) : Pairing Day
 
-> [해석이 필요한 문제 활용](https://www.acmicpc.net/group/workbook/view/9797/29302)
+> [해석이 필요한 문제](https://www.acmicpc.net/group/workbook/view/9797/29302)
 
 | 사이트 | 번호 | 문제                 | 답안                | Pair Programming    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
