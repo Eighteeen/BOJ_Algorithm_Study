@@ -2,7 +2,7 @@
 
 * [발표자료 정리](reference/kjh.pdf)
 * 정리자료 링크
-  > [승빈](eference/wsb.pdf) 예은
+  > [승빈](reference/wsb.pdf) 예은
 
 ## [22일차](Day22)
 
