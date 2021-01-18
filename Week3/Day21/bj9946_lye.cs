@@ -1,6 +1,7 @@
 using System;
 using System.Text;
 
+//// 무난한거같습니다
 public class Test
 {
 	public static void Main()
