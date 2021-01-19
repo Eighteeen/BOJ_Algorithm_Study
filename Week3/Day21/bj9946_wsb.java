@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.Arrays;
-
+    ////진짜 깰꼼 그 자체임둥,,,정렬해서 비교할까 생각은 했는데 equals생각 못해내서 포기했는데,,,굳 
 class Main{
     static int cntCase = 0;
     public static void main(String[] args) throws IOException {
