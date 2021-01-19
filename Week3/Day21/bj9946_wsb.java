@@ -16,6 +16,7 @@ class Main{
         while(!(lineStr = br.readLine()).equals("END")){
             word = lineStr.toCharArray();
             puzzle = br.readLine().toCharArray();
+            //둘다 정렬해버리는거 아이디어 괜찮다 
             Arrays.sort(word);
             Arrays.sort(puzzle);
             bw.write(makePuzzleResult(Arrays.equals(word, puzzle)));
@@ -26,6 +27,7 @@ class Main{
         bw.close();
     }
 
+    //// makePuzzleResult 함수 따로 만든것도 되게 좋은거같아
     static String makePuzzleResult(boolean collection){
         if(collection) return "Case " + ++cntCase + ": same\n";
         return "Case " + ++cntCase + ": different\n";

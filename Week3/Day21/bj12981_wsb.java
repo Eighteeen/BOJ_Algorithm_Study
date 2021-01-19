@@ -20,6 +20,7 @@ class Main{
             if(leftMaxBall < ball) leftMaxBall = ball;
         }
         
+        //// 001 011 012 021 022 처리가 이 두줄로 이루어질 수 있다는게 신기하네요. 효율적인 로직 굳!
         if(leftSumBall == 2) cntBox++;
         else cntBox += leftMaxBall;
 
