@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-//// 구현 간단 깔끔합니다 :22 주석있으니 
+//// 구현 간단 깔끔합니다 :22 주석있으니 이해쉽네요.
 class Main {
   public static void main(String[] args) throws Exception {
     final int T = Input.nextInt();
