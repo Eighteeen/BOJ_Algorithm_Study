@@ -9,11 +9,7 @@ class Main {
     StringBuilder sb = new StringBuilder();
     final int N = Input.nextInt();
 
-    // Reflection 사용을 위한 준비
-    Class cls = Class.forName("Stack"); // Class 특정
-    Constructor constructor = cls.getConstructor(int.class); // 생성자 특정
-    Stack stack = (Stack) constructor.newInstance(10000); // 생성자로 객체 생성
-
+    Stack stack = new Stack(10000);
     for (int i = 0; i < N; i++) {
       String methodName = Input.next();
 
@@ -22,7 +18,7 @@ class Main {
         continue;
       }
       // Reflection을 활용해 메소드 이름으로 메소드 호출
-      Method method = cls.getMethod(methodName); // 메소드 이름으로 메소드 특정
+      Method method = Class.forName("Stack").getMethod(methodName); // 메소드 이름으로 메소드 특정
       int returnValue = (int) method.invoke(stack); // stack 객체에게 메소드를 실행하게 함
       
       sb.append(returnValue).append('\n');

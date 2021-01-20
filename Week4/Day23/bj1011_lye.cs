@@ -2,6 +2,7 @@ using System;
 using System.Text;
 
 //// 전체적으로 깔끔하게 잘 짜신 것 같습니다!
+//// 무난쓰합니다
 public class Test
 {
 	public static void Main()
