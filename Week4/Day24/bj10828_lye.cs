@@ -15,6 +15,7 @@ public class Test
 		{
 			string[] input = Read_ints();
 
+			//// C# 언어 공부할 겸 Relfection이랑 Class 활용해보는거 어때요?
 			if (input[0] == "push")
 			{
 				top++;
