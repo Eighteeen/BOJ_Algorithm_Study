@@ -14,6 +14,7 @@ class Main{
 
         for(int i = 0; i < N; i++){
             command = br.readLine().split(" ");
+            //// 모든 명령이 한줄만으로 처리돼서 깔끔하네용
             if(command[0].equals("push")) stack.push(Integer.parseInt(command[1]));
             else if(command[0].equals("pop")) bw.write(stack.pop());
             else if(command[0].equals("size")) bw.write(stack.size());
@@ -42,6 +43,7 @@ class Main{
             container[top] = x;
         }
     
+        //// \n을 붙여 String으로 반환하는게 조금 부자연스럽게 느껴집니다
         public String pop() {
             if(isSizeZero()) return "-1\n";
             else{

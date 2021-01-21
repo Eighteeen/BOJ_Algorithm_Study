@@ -1,7 +1,7 @@
 using System;
 using System.Text;
 
-//// 정직하고 깔끔하게 구현하신 거 같습니다!
+//// 정직하고 깔끔하게 구현하신 거 같습니다! :22
 public class Test
 {
 	public static void Main()
