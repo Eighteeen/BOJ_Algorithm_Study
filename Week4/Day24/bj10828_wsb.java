@@ -3,7 +3,7 @@ import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
-
+    //// main이 깔끔합니다!
 class Main{
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -26,7 +26,7 @@ class Main{
         br.close();
         bw.close();
     }
-
+    ////top이랑 size를 따로두니 가독성이 좋습니다만 둘다 따로 처리해야 하는건 조금 번거로울 수 있겠네요!
     static class WsbStack {
         int container[];
         int top, size;

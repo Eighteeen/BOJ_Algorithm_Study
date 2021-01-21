@@ -3,7 +3,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 import java.lang.reflect.Method;
 import java.lang.reflect.Constructor;
-
+//// 클래스 깔끔하네요 굿입니다!
 class Main {
   public static void main(String[] args) throws Exception {
     StringBuilder sb = new StringBuilder();
@@ -17,7 +17,7 @@ class Main {
         stack.push(Input.nextInt());
         continue;
       }
-      //// 와우 이런 기능이 있을 줄은 몰랐어요!! 다음에 써먹어봐야겠어요 배워갑니다!!
+      //// 와우 이런 기능이 있을 줄은 몰랐어요!! 다음에 써먹어봐야겠어요 배워갑니다!! :22오 이거 쩌는데요
       // Reflection을 활용해 메소드 이름으로 메소드 호출
       Method method = Class.forName("Stack").getMethod(methodName); // 메소드 이름으로 메소드 특정
       int returnValue = (int) method.invoke(stack); // stack 객체에게 메소드를 실행하게 함
