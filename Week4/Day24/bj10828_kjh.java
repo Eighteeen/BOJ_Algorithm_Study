@@ -17,6 +17,7 @@ class Main {
         stack.push(Input.nextInt());
         continue;
       }
+      //// 와우 이런 기능이 있을 줄은 몰랐어요!! 다음에 써먹어봐야겠어요 배워갑니다!!
       // Reflection을 활용해 메소드 이름으로 메소드 호출
       Method method = Class.forName("Stack").getMethod(methodName); // 메소드 이름으로 메소드 특정
       int returnValue = (int) method.invoke(stack); // stack 객체에게 메소드를 실행하게 함
@@ -28,6 +29,7 @@ class Main {
   }
 }
 
+//// 아주 깔끔하게 잘 구현하신 거 같습니다
 class Stack {
   public int[] elements;
   private int index = -1;
