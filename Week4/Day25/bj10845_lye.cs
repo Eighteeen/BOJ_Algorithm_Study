@@ -8,6 +8,7 @@ public class Test
   {
     int line = Convert.ToInt32(Console.ReadLine());
     //// 스택은 배열로 구현하셨지 않나요? 배열로는 구현을 못해서 List를 쓰신건가요..?
+    //// -> List가 더 편할거 같아서 List로 구현했씁니다. 
     List<string> queue = new List<string>();
     StringBuilder sb = new StringBuilder();
 
