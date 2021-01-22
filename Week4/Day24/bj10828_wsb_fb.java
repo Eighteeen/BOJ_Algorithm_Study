@@ -61,13 +61,11 @@ class Main{
         }
     
         public int empty() {
-            if(isSizeZero()) return 1;
-            else return 0;
+            return (isSizeZero() ? 1 : 0);
         }
     
         public int top() {
-            if(isSizeZero()) return -1;
-            else return container[top];
+            return (isSizeZero() ? -1 : container[top]);
         }
 
         private boolean isSizeZero(){
