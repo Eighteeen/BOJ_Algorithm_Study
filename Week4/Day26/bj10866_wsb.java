@@ -36,7 +36,7 @@ class Main{
         public WsbDeque(int size){
             frontEndIndex = size / 2;
             container_front = new int[frontEndIndex];
-            container_back = new int[frontEndIndex + 1];
+            container_back = new int[size % 2 == 0 ? frontEndIndex : frontEndIndex + 1];
             front = frontEndIndex--;
             back = -1;
             backStartIndex = size = 0;
@@ -81,18 +81,15 @@ class Main{
         }
     
         public int empty() {
-            if(isSizeZero()) return 1;
-            else return 0;
+            return (isSizeZero() ? 1 : 0);
         }
 
         public int front(){
-            if(isNotSizeZeroOfFront()) return wantNum(container_front, front);
-            else return wantNum(container_back, backStartIndex);
+            return (isNotSizeZeroOfFront() ? wantNum(container_front, front) : wantNum(container_back, backStartIndex));
         }
 
         public int back(){
-            if(isNotSizeZeroOfBack()) return wantNum(container_back, back);
-            else return wantNum(container_front, frontEndIndex);
+            return (isNotSizeZeroOfBack() ? wantNum(container_back, back) : wantNum(container_front, frontEndIndex));
         }
 
         private int pop(int container[], int index){
@@ -106,8 +103,7 @@ class Main{
         }
 
         private int wantNum(int container[], int index){
-            if(isSizeZero()) return -1;
-            else return container[index];
+            return (isSizeZero() ? -1 : container[index]);
         }
 
         private boolean isSizeZero(){
