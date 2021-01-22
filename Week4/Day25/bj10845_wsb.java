@@ -12,6 +12,7 @@ class Main{
         WsbQueue queue = new WsbQueue(N);
         String command[];
 
+        //// 깔꼼깔꼼
         for(int i = 0; i < N; i++){
             command = br.readLine().split(" ");
             if(command[0].equals("push")) queue.push(Integer.parseInt(command[1]));
