@@ -12,7 +12,7 @@ public class Test
     List<string> queue = new List<string>();
     StringBuilder sb = new StringBuilder();
 
-    //// Select Case문, 함수, 클래스, 클래스+Reflection 등 코드를 정돈할 방법은 많습니다
+    //// Select Case문, 함수, 클래스, 클래스+Reflection 등 코드를 정돈할 방법은 많습니다 : 22 어느저도 정돈이 필요해보여요!
     for (int i = 0; i < line; i++)
     {
       string[] input = Read_ints();

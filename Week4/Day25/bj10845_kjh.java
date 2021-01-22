@@ -28,6 +28,8 @@ class Main {
 }
 
 class CircularQueue {
+  //// 밑에 메소드 코드를 보고 도대체 나머지를 왜 구할까 봤는데 명령이 10000개가 넘어도 순환되게 하신 거군요 활용성이 좋네요.
+  //// 근데 front와 rear 초기화를 -1로 하면 생성자에서 elementsSize에 + 1을 안 해도 되지 않을까요?
   public int[] elements;
   private int elementsSize;
   private int front = 0;
