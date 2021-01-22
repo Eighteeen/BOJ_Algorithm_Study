@@ -7,11 +7,11 @@ public class Test
   public static void Main()
   {
     int line = Convert.ToInt32(Console.ReadLine());
+    //// 스택은 배열로 구현하셨지 않나요? 배열로는 구현을 못해서 List를 쓰신건가요..?
     List<string> queue = new List<string>();
     StringBuilder sb = new StringBuilder();
 
     //// Select Case문, 함수, 클래스, 클래스+Reflection 등 코드를 정돈할 방법은 많습니다
-    //// 구현 능력은 충분하신 것 같으니 좋은 코드를 만드는 데에도 노력을 기울여보셨으면 합니다
     for (int i = 0; i < line; i++)
     {
       string[] input = Read_ints();
