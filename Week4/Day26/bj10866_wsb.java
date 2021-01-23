@@ -13,6 +13,7 @@ class Main{
         Method method;
         String command[];
 
+        //// Reflection 적용 굳굳!
         for(int i = 0; i < N; i++){
             command = br.readLine().split(" ");
             if(command[0].equals("push_front")) deque.push_front(Integer.parseInt(command[1]));
@@ -29,6 +30,7 @@ class Main{
     }
 
     static class WsbDeque {
+        //// 원형 큐 구현 원리를 이용하면 배열 하나로도 구현할 수 있습니다!
         private int container_front[], container_back[];
         private int frontEndIndex, backStartIndex;
         private int front, back, size;
@@ -54,6 +56,7 @@ class Main{
 
         public int pop_front(){
             int num;
+            //// 2개의 배열에 담는 방식으로 구현하느라 부가적인 처리가 필요하게 된 점이 아쉽습니다
             if(isNotSizeZeroOfFront()){
                 num =  pop(container_front, front);
                 if(isNotMinusOne(num)) front++;
