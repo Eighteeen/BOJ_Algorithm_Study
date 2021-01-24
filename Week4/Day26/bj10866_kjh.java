@@ -4,7 +4,7 @@ import java.util.StringTokenizer;
 import java.lang.reflect.Method;
 import java.lang.reflect.Constructor;
 
-//// 전체적으로 아주 깔끔하게 잘 구현하신 것 같습니다
+//// 전체적으로 아주 깔끔하게 잘 구현하신 것 같습니다 :22 배열 하나로도 구현이 가능한 거였궁요,,,
 class Main {
   public static void main(String[] args) throws Exception {
     StringBuilder sb = new StringBuilder();
