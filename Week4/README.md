@@ -42,7 +42,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 10866 | [덱](https://www.acmicpc.net/problem/10866) | [진홍](Day26/bj10866_kjh.java) [승빈](Day26/bj10866_wsb.java) 예은 | 진홍 승빈 예은 |
+| 백준   | 10866 | [덱](https://www.acmicpc.net/problem/10866) | [진홍](Day26/bj10866_kjh.java) [승빈](Day26/bj10866_wsb.java) [예은](Day26/bj10866_lye.cs) | 진홍 승빈 예은 |
 
 ## [27일차](Day27)
 
@@ -50,8 +50,8 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 17608 | [막대기](https://www.acmicpc.net/problem/17608) | [진홍](Day27/bj17608_kjh.java) [승빈](Day27/bj17608_wsb.java) 예은 | 진홍 승빈 예은 |
-| 백준   | 1158 | [요세푸스 문제](https://www.acmicpc.net/problem/1158) | [진홍](Day27/bj1158_kjh.java) [승빈](Day27/bj1158_wsb.java) 예은 | 진홍 승빈 예은 |
+| 백준   | 17608 | [막대기](https://www.acmicpc.net/problem/17608) | [진홍](Day27/bj17608_kjh.java) [승빈](Day27/bj17608_wsb.java) [예은](Day27/bj17608_lye.cs) | 진홍 승빈 예은 |
+| 백준   | 1158 | [요세푸스 문제](https://www.acmicpc.net/problem/1158) | [진홍](Day27/bj1158_kjh.java) [승빈](Day27/bj1158_wsb.java) [예은](Day27/bj1158_lye.cs) | 진홍 승빈 예은 |
 
 ## [28일차](Day28)
 
