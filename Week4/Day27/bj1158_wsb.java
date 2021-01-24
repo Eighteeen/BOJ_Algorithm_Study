@@ -6,7 +6,7 @@ import java.io.OutputStreamWriter;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
-
+//// 오우 괸장히 깔끔하네요!!
 //// 깔꼼깔꼼하고 출제자의 의도대로 로직도 잘 짜신 것 같습니당
 class Main{
     public static void main(String[] args) throws IOException {

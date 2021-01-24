@@ -7,13 +7,13 @@ import java.util.List;
 import java.util.Arrays;
 import java.util.stream.IntStream;
 import java.util.stream.Collectors;
-
+  ////굉장히 깔끔하네요
 class Main {
   public static void main(String[] args) throws Exception {
     final int NUMBER_OF_PEOPLE = Input.nextInt();
     final int REMOVE_NTH_PERSON = Input.nextInt();
-
-    List<Integer> peopleList = IntStream.range(1, NUMBER_OF_PEOPLE + 1) // 파이썬의 Range처럼 동작함
+    //// 이 기능 쓰고 싶었는데,,,못찾았어요 굿굿!
+    List<Integer> peopleList = IntStream.range(1, NUMBER_OF_PEOPLE + 1) // 파이썬의 Range처럼 동작함 
       .boxed() // int -> Integer로 박싱
       .collect(Collectors.toList()); // List로 collect
 
