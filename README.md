@@ -1,5 +1,5 @@
 
-# 💻 BCU_Algorithm_Study 💻
+# 💻 BCU Algorithm Study 💻
 
 ## 👨‍💻 스터디원 👩‍💻
 <table>
