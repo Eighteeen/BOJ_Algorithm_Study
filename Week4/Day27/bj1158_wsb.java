@@ -7,6 +7,7 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 
+//// 깔꼼깔꼼하고 출제자의 의도대로 로직도 잘 짜신 것 같습니당
 class Main{
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -19,6 +20,7 @@ class Main{
         }
 
         bw.write("<");
+        //// 맥락상 !=가 아닌 <를 사용했으면 더 좋았을 것 같아요!
         while(personQueue.size() != 1){
             for(int i = 1; i < orders[1]; i++){
                 personQueue.add(personQueue.remove());
