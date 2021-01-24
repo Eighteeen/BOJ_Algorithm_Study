@@ -3,6 +3,7 @@ using System.Linq;
 using System.Text;
 using System.Collections;
 
+//// 무난하게 잘 짜신 것 같습니다 큐 활용이 좋네용
 public class Test
 {
 	public static void Main()
@@ -16,7 +17,7 @@ public class Test
 
 		for (int i = 0; i < numCnt; i++)
 		{
-			//// for문의 초기화식과 조건식을 i = 1; i <= numCnt로 하면 덧셈연산은 추가로 하지 않아도 괜찮습니다
+			//// for문의 초기화식과 조건식을 i = 1; i <= numCnt로 하면 덧셈연산은 추가로 하지 않아도 괜찮습니다 : 22
 			queue.Enqueue(i + 1);
 		}
 		while (queue.Count != 0)

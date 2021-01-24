@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Arrays;
 import java.util.stream.IntStream;
 import java.util.stream.Collectors;
-  ////굉장히 깔끔하네요
+  ////굉장히 깔끔하네요 : 22
 class Main {
   public static void main(String[] args) throws Exception {
     final int NUMBER_OF_PEOPLE = Input.nextInt();
@@ -20,10 +20,13 @@ class Main {
     Queue<Integer> queue = new LinkedList<>();
     int removeIndex = 0;
     for (int i = 0; i < NUMBER_OF_PEOPLE; i++) {
+      //// 오호 순서대로 지워서 큐에 넣는다.. 생각못한 접근법이네요 깔끔해용 하지만 큐 활용성은 낮아보여서 좀 아쉽습니다
+      //// 이 풀이법 자체로 보면 큐를 쓸 필요가 딱히 없어서 좀 아쉽네요.. 저희가 자료구조를 공부해 문제를 푸는 상황에서는 공부한 자료구조 활용을 최대한 하는 풀이도 좋을 것 같아요!
       removeIndex = (removeIndex + REMOVE_NTH_PERSON - 1) % peopleList.size();
       queue.add(peopleList.remove(removeIndex));
     }
     
+    //// stream 활용성이 좋네용
     System.out.print(
       queue.stream()
         .map(String::valueOf) // join 해주기 위해 String으로 변환

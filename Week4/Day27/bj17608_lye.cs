@@ -3,10 +3,10 @@ using System.Collections;
 
 public class Test
 {
-	//// 전체적으로 효율적이네용 굳
+	//// 전체적으로 효율적이네용 굳 : 22 깔끔하게 하셨네요
 	public static void Main()
 	{
-		//// Main 함수에 줄바꿈이 없네요. 사이사이에 줄바꿈을 적절히 삽입하면 더 보기 좋은 코드가 될 것 같습니다.
+		//// Main 함수에 줄바꿈이 없네요. 사이사이에 줄바꿈을 적절히 삽입하면 더 보기 좋은 코드가 될 것 같습니다. : 22
 		int line = Read_int();
 		int cnt = 1;
 		Stack stick = new Stack();
