@@ -3,6 +3,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 import java.util.Stack;
 
+//// 전체적으로도 깔끔하고 객체지향을 잘 살리셔서 좋은 풀이같습니다
 class Main {
   public static void main(String[] args) throws Exception {
     Tasks tasks = new Tasks();
@@ -47,6 +48,7 @@ class Tasks {
   }
 }
 
+//// 오호 되게 괜찮은 방법이네요 객체지향을 잘 살리셔서 좋아요
 class Task {
   private final int score;
   private int requiredTime;
