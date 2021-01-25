@@ -26,7 +26,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 10828 | [스택](https://www.acmicpc.net/problem/10828) | [진홍](Day24/bj10828_kjh.java) [승빈](Day24/bj10828_wsb.java) [예은](Day24/bj10828_lye.cs) | [진홍](Day24/bj10828_kjh.java) [승빈](Day24/bj10828_wsb_fb.java) 예은 |
+| 백준   | 10828 | [스택](https://www.acmicpc.net/problem/10828) | [진홍](Day24/bj10828_kjh.java) [승빈](Day24/bj10828_wsb.java) [예은](Day24/bj10828_lye.cs) | [진홍](Day24/bj10828_kjh.java) [승빈](Day24/bj10828_wsb_fb.java) [예은](Day24/bj10828_lye_fb.cs) |
 
 ## [25일차](Day25)
 
@@ -34,7 +34,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 10845 | [큐](https://www.acmicpc.net/problem/10845) | [진홍](Day25/bj10845_kjh.java) [승빈](Day25/bj10845_wsb.java) [예은](Day25/bj10845_lye.cs) | [진홍](Day25/bj10845_kjh_fb.java) [승빈](Day25/bj10845_wsb_fb.java) 예은 |
+| 백준   | 10845 | [큐](https://www.acmicpc.net/problem/10845) | [진홍](Day25/bj10845_kjh.java) [승빈](Day25/bj10845_wsb.java) [예은](Day25/bj10845_lye.cs) | [진홍](Day25/bj10845_kjh_fb.java) [승빈](Day25/bj10845_wsb_fb.java) [예은](Day25/bj10845_lye_fb.cs) |
 
 ## [26일차](Day26)
 
