@@ -3,7 +3,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 import java.util.Stack;
 
-//// 전체적으로도 깔끔하고 객체지향을 잘 살리셔서 좋은 풀이같습니다
+//// 전체적으로도 깔끔하고 객체지향을 잘 살리셔서 좋은 풀이같습니다 :22 클래스 활용을 잘하셨어요!
 class Main {
   public static void main(String[] args) throws Exception {
     Tasks tasks = new Tasks();
