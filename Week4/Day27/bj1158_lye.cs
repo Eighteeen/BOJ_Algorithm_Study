@@ -30,7 +30,7 @@ public class Test
 			{
 				//// StringBuilder를 사용했다면 더 효율적이였을 것 같아요. 문자열과 문자열을 연결하는 + 연산은 오버헤드가 꽤 있다고 합니다.
 				res += nowPop;
-				//// while의 조건문을 'queue의 아이템수가 1개보다 많을때'로 했다면 if문을 추가로 쓰지 않아도 괜찮습니다
+				//// while의 조건식과 같네요. 저 조건이 true일때만 실행되므로 불필요한 if문입니다
 				if (queue.Count != 0) res += ", ";
 				cnt = 0;
 			}
