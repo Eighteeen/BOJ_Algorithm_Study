@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.Stack;
 
-//// 읽기 쉽고 알고리즘도 효율적인 것 같습니다
+//// 읽기 쉽고 알고리즘도 효율적인 것 같습니다 :22 잘짜셨어요!!
 class Main{
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
