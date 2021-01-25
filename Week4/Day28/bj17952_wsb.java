@@ -4,6 +4,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.Stack;
 
+//// 읽기 쉽고 알고리즘도 효율적인 것 같습니다
 class Main{
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -15,10 +16,13 @@ class Main{
 
         for(int i = 0; i < N; i++){
             assignment = br.readLine().split(" ");
+            //// 0, 1, 2 상수에 대해 이름을 붙여줬다면 더 읽기 편했을 것 같읍니다
             if(assignment[0].equals("1")){
                 scoreStack.push(Integer.parseInt(assignment[1]));
                 timeStack.push(Integer.parseInt(assignment[2]) - 1);
                 totalScore += getScore(scoreStack, timeStack);
+                //// 여기에 continue문을 삽입하면 else문을 안 써도 됩니다.
+                //// 클린코드를 지향하는 개발자들 다수가 깨끗한 코드를 위해 else문을 지양한다고 합니다. 한번 고려해보시면 좋을 것 같습니다. (한 예로, '객체지향 생활체조' 9원칙 중 2번째가 'else 예약어 금지'입니다)
             }
             else{
                 if(!timeStack.empty()){
