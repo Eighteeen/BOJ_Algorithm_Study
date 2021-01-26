@@ -13,7 +13,7 @@ class Main {
     final int REMOVE_NTH_PERSON = Input.nextInt();
     final int REVERSE_EVERY_NTH = Input.nextInt();
     
-    Josephus josephus = new Josephus(NUMBER_OF_PEOPLE, REVERSE_EVERY_NTH);
+    Josephus josephus = new Josephus(NUMBER_OF_PEOPLE);
 
     for (int i = 1; i <= NUMBER_OF_PEOPLE; i++) {
       sb.append(josephus.popNth(REMOVE_NTH_PERSON))
@@ -34,15 +34,13 @@ class Josephus {
   
   private boolean isNaturalOrder = true;
   private int numberOfPeople;
-  private int reverseEveryNth;
 
-  public Josephus(int numberOfPeople, int reverseEveryNth) {
+  public Josephus(int numberOfPeople) {
     IntStream.range(1, numberOfPeople + 1)
       .boxed()
       .forEach(item -> sequence.add(item));
     
     this.numberOfPeople = numberOfPeople;
-    this.reverseEveryNth = reverseEveryNth;
   }
 
   public int popNth(int n) {
