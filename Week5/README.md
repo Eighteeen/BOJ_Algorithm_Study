@@ -14,8 +14,8 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 12605 | [단어순서 뒤집기](https://www.acmicpc.net/problem/12605) | [진홍](Day30/bj12605_kjh.java) 승빈 [예은](Day30/bj12605_lye.cs) | 진홍 승빈 예은 |
-| 백준   | 20301 | [반전 요세푸스](https://www.acmicpc.net/problem/20301) | [진홍](Day30/bj20301_kjh.java) 승빈 예은 | 진홍 승빈 예은 |
+| 백준   | 12605 | [단어순서 뒤집기](https://www.acmicpc.net/problem/12605) | [진홍](Day30/bj12605_kjh.java) [승빈](Day30/bj12605_wsb.java) [예은](Day30/bj12605_lye.cs) | 진홍 승빈 예은 |
+| 백준   | 20301 | [반전 요세푸스](https://www.acmicpc.net/problem/20301) | [진홍](Day30/bj20301_kjh.java) [승빈](Day30/bj20301_wsb.java) 예은 | 진홍 승빈 예은 |
 
 ## [31일차](Day31)
 
