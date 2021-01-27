@@ -7,7 +7,7 @@ import java.util.ArrayDeque;
 import java.util.Arrays;
 import java.util.Deque;
 
-//// 읽기도 편하고 효율적이네요
+//// 읽기도 편하고 효율적이네요 :22 옭 진짜 효율 
 class Main{
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
