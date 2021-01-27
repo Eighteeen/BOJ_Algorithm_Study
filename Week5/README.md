@@ -10,7 +10,7 @@
 
 ## [30일차](Day30)
 
-> [스텍/큐/덱을 이용한 문제 활용](문제집링크)
+> [스텍/큐/덱을 이용한 문제 활용](https://www.acmicpc.net/group/workbook/view/9797/29665)
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
@@ -19,11 +19,11 @@
 
 ## [31일차](Day31)
 
-> [문제집 설명](https://www.acmicpc.net/group/workbook/view/9797/29665)
+> [스텍/큐/덱을 활용한 문제](https://www.acmicpc.net/group/workbook/view/9797/29725)
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 5430    | [AC](https://www.acmicpc.net/problem/5430) | [진홍](Day31/bj5430_kjh.java) [승빈](Day31/bj5430_wsb.java) [예은](Day31/bj5430_lye.cs) | 진홍 승빈 예은 |
+| 백준   | 5430 | [AC](https://www.acmicpc.net/problem/5430) | [진홍](Day31/bj5430_kjh.java) [승빈](Day31/bj5430_wsb.java) [예은](Day31/bj5430_lye.cs) | 진홍 승빈 예은 |
 
 ## [32일차](Day32)
 
