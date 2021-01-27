@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
+//// 전체적으로 잘 구현하신 것 같습니다!
 public class Test
 {
 	public static void Main()
@@ -64,6 +65,7 @@ public class Test
 	}
 }
 
+//// 직접 덱을 구현해서 그걸 활용하셨네요..짱짱 고생하셨습니다!!
 public class Dequeue
 {
 	int[] dequeue;

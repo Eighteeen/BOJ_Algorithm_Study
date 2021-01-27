@@ -4,7 +4,7 @@ import java.util.StringTokenizer;
 import java.util.Deque;
 import java.util.ArrayDeque;
 import java.util.stream.IntStream;
-//// 코드가 아주 깔꼼해요 클래스효과인가봐요 굿굿!
+//// 코드가 아주 깔꼼해요 클래스효과인가봐요 굿굿! : 22 진짜 깔-끔하고 효율도 좋네용
 class Main {
   public static void main(String[] args) throws Exception {
     StringBuilder sb = new StringBuilder();
