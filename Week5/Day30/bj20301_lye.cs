@@ -15,6 +15,7 @@ public class Test
 		Dequeue deque = new Dequeue(len);
 		StringBuilder sb = new StringBuilder();
 
+		//// Fill이 더 맥락에 맞았을 것 같아요
 		SetRange(len, deque);
 
 		while (deque.size() != 0)

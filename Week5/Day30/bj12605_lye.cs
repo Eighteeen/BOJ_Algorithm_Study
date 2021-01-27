@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Text;
 
+//// 깔끔효율
 public class Test
 {
 	public static void Main()
