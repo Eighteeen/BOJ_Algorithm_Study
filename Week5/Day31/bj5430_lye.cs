@@ -35,6 +35,9 @@ public class Test
 						deque.pop_front();
 				}
 			}
+			//// 탭을 4번이나 할 정도로 코드가 깊습니다. 조금 더 정돈되면 좋을 것 같아요 
+				//// 예를 들자면 if (isBreak) continue;를 하고 그 아래에 43~53줄을 적었다면 약간 더 간단해질 수 있었습니다
+				//// 그 외에도 클래스, 함수 등으로 정돈하면 더 좋을 것 같아용
 			if (isBreak == false)
 			{
 				sb.Append("[");
@@ -57,6 +60,8 @@ public class Test
 	{
 		return Convert.ToInt32(Console.ReadLine());
 	}
+	//// InsertValue라는 이름으로는 '값을 삽입하는 함수' 정도의 정보만 줄 수 있습니다
+	//// stringArrayToDeque 등으로 이름을 지어 정보를 더 주었다면 더 직관적이었을 것 같아요!
 	static void InsertValue(Dequeue deque, int n)
 	{
 		string[] strArr = Console.ReadLine().Replace("[", "").Replace("]", "").Split(',');
@@ -66,6 +71,8 @@ public class Test
 		}
 	}
 }
+
+//// 직접 만든 클래스로 작업하는거 멋쪄요
 public class Dequeue
 {
 	int[] dequeue;

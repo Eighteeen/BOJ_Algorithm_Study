@@ -9,6 +9,7 @@ import java.util.stream.Collectors;
 class Main{
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     static StringBuilder sb = new StringBuilder();
+    //// reverse의 반의어로 advance는 대개 쓰지 않는 것 같습니다
     static int ERROR = -1, ADVANCE = 0, REVERSE = 1;
     public static void main(String[] args) throws IOException {
         int T = Integer.parseInt(br.readLine());
@@ -26,6 +27,7 @@ class Main{
                 continue;
             }
 
+            //// 오 스트림 활용 굳굳
             arrDeque = new ArrayDeque<>(Arrays.stream(arrInfo.substring(1, arrInfo.length() - 1).split(","))
                             .map(Integer::valueOf).collect(Collectors.toList()));
 
@@ -38,6 +40,7 @@ class Main{
         br.close();
     }
 
+    //// 무려 4개의 함수가 매개변수로 Deque 객체에 의존하네요. Deque을 멤버변수로 가지는 클래스를 만들면 더 좋았을 것 같습니다
     static int getResultAfterCommand(String command, Deque<Integer> arrDeque){
         int result = 0;
 
