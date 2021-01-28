@@ -7,7 +7,7 @@ import java.util.ArrayDeque;
 import java.util.Collections;
 import java.util.stream.Collectors;
 import java.util.stream.Collector;
-
+//// 클래스 활용 좋습니다 깔끔해요!
 class Main {
   public static void main(String[] args) throws Exception {
     StringBuilder sb = new StringBuilder();
@@ -89,7 +89,7 @@ class AC {
     }
     return isError;
   }
-
+//// 오버라이딩까지 활용하시다니 대단해요,,,!
   @Override
   public String toString() {
     if (isError) return "error";
