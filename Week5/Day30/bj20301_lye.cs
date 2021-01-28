@@ -17,7 +17,7 @@ public class Test
 		StringBuilder sb = new StringBuilder();
 
 		//// Fill이 더 맥락에 맞았을 것 같아요
-		SetRange(len, deque);
+		FillRange(len, deque);
 
 		while (deque.size() != 0)
 		{
@@ -56,7 +56,7 @@ public class Test
 			numArr[i] = Convert.ToInt32(input[i]);
 		return numArr;
 	}
-	static void SetRange(int n, Dequeue deque)
+	static void FillRange(int n, Dequeue deque)
 	{
 		for (int i = 1; i <= n; i++)
 		{
