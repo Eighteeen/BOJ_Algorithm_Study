@@ -7,7 +7,7 @@ import java.util.ArrayDeque;
 import java.util.Collections;
 import java.util.stream.Collectors;
 import java.util.stream.Collector;
-//// 클래스 활용 좋습니다 깔끔해요!
+//// 클래스 활용 좋습니다 깔끔해요! : 22!
 class Main {
   public static void main(String[] args) throws Exception {
     StringBuilder sb = new StringBuilder();
@@ -41,6 +41,7 @@ class Main {
   }
 }
 
+//// 함수활용이 정말 좋네요 선영이가 이런식으로 만들었을까? 하는 느낌으로 본 것 같아요 (물론 자바로 구현한 거긴 하지만요) 굿굿
 class AC {
   private Deque<Integer> deque;
   private boolean isError = false;
@@ -89,7 +90,7 @@ class AC {
     }
     return isError;
   }
-//// 오버라이딩까지 활용하시다니 대단해요,,,!
+//// 오버라이딩까지 활용하시다니 대단해요,,,! : 22 멋있슴돠!
   @Override
   public String toString() {
     if (isError) return "error";
@@ -104,6 +105,7 @@ class AC {
       );
     }
 
+    //// Collectors.joining 사용으로 어떻게 출력되는지 한번에 보여서 정말 좋네요 많이 배워갑니다!
     return deque.stream()
       .map(String::valueOf)
       .collect(Collectors.joining(",", "[", "]"));
