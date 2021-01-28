@@ -5,7 +5,7 @@ import java.util.ArrayDeque;
 import java.util.Arrays;
 import java.util.Deque;
 import java.util.stream.Collectors;
-
+//// 함수 활용을 잘하십니다! 
 class Main{
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     static StringBuilder sb = new StringBuilder();
@@ -27,7 +27,7 @@ class Main{
                 continue;
             }
 
-            //// 오 스트림 활용 굳굳
+            //// 오 스트림 활용 굳굳 : 22 오 이런방법도 있네요 굳!
             arrDeque = new ArrayDeque<>(Arrays.stream(arrInfo.substring(1, arrInfo.length() - 1).split(","))
                             .map(Integer::valueOf).collect(Collectors.toList()));
 
