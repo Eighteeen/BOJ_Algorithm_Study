@@ -66,6 +66,7 @@ public class Test
 }
 
 //// 직접 덱을 구현해서 그걸 활용하셨네요..짱짱 고생하셨습니다!!
+//// 감사합니다 칭찬은 절 춤추게해요 \^0^/
 public class Dequeue
 {
 	int[] dequeue;
