@@ -30,29 +30,23 @@ public class Test
 						isBreak = true;
 						break;
 					}
-					if (reverse)
-						deque.pop_back();
-					else
-						deque.pop_front();
+					deque.ChoiceBF(reverse);
 				}
 			}
 			//// 탭을 4번이나 할 정도로 코드가 깊습니다. 조금 더 정돈되면 좋을 것 같아요 
 				//// 예를 들자면 if (isBreak) continue;를 하고 그 아래에 43~53줄을 적었다면 약간 더 간단해질 수 있었습니다
 				//// 그 외에도 클래스, 함수 등으로 정돈하면 더 좋을 것 같아용 : 22
-			if (isBreak == false)
+			if (isBreak) continue;
+			
+			sb.Append("[");
+			int limit = deque.size();
+			for (int k = 0; k < limit; k++)
 			{
-				sb.Append("[");
-				int limit = deque.size();
-				for (int k = 0; k < limit; k++)
-				{
-					if (reverse)
-						sb.Append(deque.pop_back());
-					else
-						sb.Append(deque.pop_front());
-					if (k != limit - 1) sb.Append(",");
-				}
-				sb.Append("]\n");
+				sb.Append(deque.ChoiceBF(reverse));
+				if (k != limit - 1) sb.Append(",");
 			}
+			sb.Append("]\n");
+			
 
 		}
 		Console.Write(sb);
@@ -84,7 +78,13 @@ public class Dequeue
 		dequeue = new int[n + 1];
 		dequeSize = n + 1;
 	}
-
+	public int ChoiceBF(bool rev)
+	{
+		if(rev)
+			return pop_back();
+		else
+			return pop_front();
+	}
 	public void push_front(int input)
 	{
 		dequeue[front] = input;
