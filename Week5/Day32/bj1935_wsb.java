@@ -9,11 +9,13 @@ class Main{
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     public static void main(String[] args) throws IOException {
         int N = Integer.parseInt(br.readLine());
+        //// 와우 formula, operand, calcStack까지 작명 좋네요
         char formula[] = br.readLine().toCharArray();
         int operand[] = getOperand(N);
         Stack<Double> calcStack = new Stack<>();
 
         for(char f : formula){
+            //// current라는 작명은 어떤가요? now는 시간의 '현재'를 나타내는 느낌이 더 있으니까요
             double now = 0;
 
             if(f >= 'A') now = (double)operand[f - 'A'];
