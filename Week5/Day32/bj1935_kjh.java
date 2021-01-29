@@ -4,7 +4,7 @@ import java.util.StringTokenizer;
 import java.util.Stack;
 import java.util.List;
 import java.util.ArrayList;
-  //// 깔꼼합니다!!!!
+  //// 깔꼼합니다!!!! : 22
 class Main {
   public static void main(String[] args) throws Exception {
     final int N = Input.nextInt();
@@ -33,6 +33,7 @@ class Main {
   }
 
   public static double calculate(char operation, double x, double y) {
+    //// !!!! 저는 case마다 바로 return할 생각을 못 했네요. 코드도 짧게 바로바로 읽히고 좋네요. 피드백 반영시에 이것도 반영해보려고요! 굿굿
     switch (operation) {
       case '+':
         return x + y;

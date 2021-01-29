@@ -1,6 +1,8 @@
 using System;
 using System.Collections;
 
+//// 전체적으로 깔끔하게 잘 짜신 것 같아요
+
 //// 함수 작명이 대체로 추상적이어서 이게 어떤 일을 하는 함수일지 이름만으론 유추하기 힘든 부분이 있어요 ㅠㅠ
 //// 예은님의 의도가 더 잘 드러나는 함수명을 더 고민해보시면 좋을 것 같아요!
 public class Test
@@ -32,6 +34,7 @@ public class Test
 		return numArr;
 	}
 
+	//// char형 변수명이 N인 건 조금 어색하게 느껴지네요
 	static int FindNumValue(int[] numArr, char N)
 	{
 		int index = N - 'A';
