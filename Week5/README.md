@@ -23,7 +23,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 5430 | [AC](https://www.acmicpc.net/problem/5430) | [진홍](Day31/bj5430_kjh.java) [승빈](Day31/bj5430_wsb.java) [예은](Day31/bj5430_lye.cs) | [진홍](Day31/bj5430_kjh.java) 승빈 [예은](Day31/bj5430_lye.cs) |
+| 백준   | 5430 | [AC](https://www.acmicpc.net/problem/5430) | [진홍](Day31/bj5430_kjh.java) [승빈](Day31/bj5430_wsb.java) [예은](Day31/bj5430_lye.cs) | [진홍](Day31/bj5430_kjh.java) [승빈](Day31/bj5430_wsb_fb.java) [예은](Day31/bj5430_lye.cs) |
 
 ## [32일차](Day32)
 
