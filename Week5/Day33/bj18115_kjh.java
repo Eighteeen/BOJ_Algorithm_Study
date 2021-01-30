@@ -4,7 +4,7 @@ import java.util.StringTokenizer;
 import java.util.Deque;
 import java.util.ArrayDeque;
 import java.util.Stack;
-
+//// 우왁 깔끔해요!!
 class Main {
   public static void main(String[] args) throws Exception {
     final int PUT_FIRST = 1, PUT_SECOND = 2, PUT_LAST = 3;
