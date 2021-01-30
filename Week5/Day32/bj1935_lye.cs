@@ -12,13 +12,13 @@ public class Test
 		int numCnt = Convert.ToInt32(Console.ReadLine());
 		string postfix = Console.ReadLine();
 		//// value는 너무 포괄적인 것 같아요! numberArr나 numArr는 어때요?
-		int[] valueArr = FillArray(numCnt);
+		int[] numArr = FillArray(numCnt);
 		Stack stack = new Stack();
 
 		for (int i = 0; i < postfix.Length; i++)
 		{
 			if (IsAlphabet(postfix[i]))
-				stack.Push(FindNumValue(valueArr, postfix[i]));
+				stack.Push(FindNumValue(numArr, postfix[i]));
 
 			else
 				stack.Push(Calc(stack, postfix[i]));
@@ -35,34 +35,32 @@ public class Test
 	}
 
 	//// char형 변수명이 N인 건 조금 어색하게 느껴지네요
-	static int FindNumValue(int[] numArr, char N)
+	static int FindNumValue(int[] numArr, char C)
 	{
-		int index = N - 'A';
+		int index = C - 'A';
 		return numArr[index];
 	}
 
 	//// 함수활용 조씁니다
-	static bool IsAlphabet(char N)
+	static bool IsAlphabet(char C)
 	{
 		//// 조건식을 그대로 return하면 if문과 else문이 필요 없어요!
-		if (N >= 'A' && N <= 'Z')
-			return true;
-		else
-			return false;
+		//// -> 오,,,몰랐던 방법이에요 감사함당!!
+		return C >= 'A' && C <= 'Z';
 	}
 
-	static double Calc(Stack stack, char N)
+	static double Calc(Stack stack, char C)
 	{
 		double sec = Convert.ToDouble(stack.Pop());
 		double fir = Convert.ToDouble(stack.Pop());
 
-		if (N == '+')
+		if (C == '+')
 			return fir + sec;
 
-		else if (N == '-')
+		else if (C == '-')
 			return fir - sec;
 
-		else if (N == '*')
+		else if (C == '*')
 			return fir * sec;
 
 		return fir / sec;
