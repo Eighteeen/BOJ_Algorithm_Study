@@ -4,6 +4,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
+//// 깔꼼하고 효율적이에요
 class Main{
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -14,6 +15,7 @@ class Main{
         Deque<Integer> cardDeque = new ArrayDeque<>();
         int num = 1;
 
+        //// tech : techs 이름은 어때요
         for(char t : tech){
             switch(t){
                 case '1':
@@ -30,6 +32,7 @@ class Main{
             }
         }
 
+        //// forEach 활용 굳굳
         cardDeque.forEach(c -> sb.append(c + " "));
 
         System.out.print(sb);

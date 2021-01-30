@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
+//// 효율적이고 읽을만합니당
 public class Test
 {
 	public static void Main()
