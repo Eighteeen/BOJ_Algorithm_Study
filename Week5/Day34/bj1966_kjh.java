@@ -32,7 +32,7 @@ class Main {
     System.out.print(sb);
   }
 }
-
+//// LinkedList 활용 신기해요!
 class PrinterQueue {
   private Queue<Integer> queue;
   private Queue<Integer> priorities;
