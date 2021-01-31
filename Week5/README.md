@@ -39,7 +39,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 18115 | [카드 놓기](https://www.acmicpc.net/problem/18115) | [진홍](Day33/bj18115_kjh.java) [승빈](Day33/bj18115_wsb.java) [예은](Day33/bj18115_lye.cs) | [진홍](Day33/bj18115_kjh.java) [승빈](Day33/bj18115_wsb_fb.java) 예은 |
+| 백준   | 18115 | [카드 놓기](https://www.acmicpc.net/problem/18115) | [진홍](Day33/bj18115_kjh.java) [승빈](Day33/bj18115_wsb.java) [예은](Day33/bj18115_lye.cs) | [진홍](Day33/bj18115_kjh.java) [승빈](Day33/bj18115_wsb_fb.java) [예은](Day33/bj18115_lye.cs) |
 
 ## [34일차](Day34)
 
@@ -47,7 +47,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 1966    | [프린터 큐](https://www.acmicpc.net/problem/1966) | [진홍](Day34/bj1966_kjh.java) 승빈 [예은](Day34/bj1966_lye.cs) | 진홍 승빈 예은 |
+| 백준   | 1966    | [프린터 큐](https://www.acmicpc.net/problem/1966) | [진홍](Day34/bj1966_kjh.java) [승빈](Day34/bj1966_wsb.java) [예은](Day34/bj1966_lye.cs) | 진홍 승빈 예은 |
 
 ## [35일차](Day35)
 
@@ -55,4 +55,4 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 1021    | [회전하는 큐](https://www.acmicpc.net/problem/1021) | [진홍](Day35/bj1021_kjh.java) [승빈](Day35/bj1021_wsb.java) 예은 | 진홍 승빈 예은 |
+| 백준   | 1021    | [회전하는 큐](https://www.acmicpc.net/problem/1021) | [진홍](Day35/bj1021_kjh.java) [승빈](Day35/bj1021_wsb.java) [예은](Day35/bj1021_lye.cs) | 진홍 승빈 예은 |
