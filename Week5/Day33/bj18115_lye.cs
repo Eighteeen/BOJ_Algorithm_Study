@@ -16,19 +16,22 @@ public class Test
 		{
 			//// 이 문제같은 경우에는 nowSkill의 경우 1, 2, 3에 따라서만 코드가 진행되니 switch case문이 읽고 이해하기에 좀 더 편할 것 같아요!
 			int nowSkill = skillArr[i];
-			if (nowSkill == 1)
+			switch(nowSkill)
 			{
+				case 1:
 				deque.push_front(numCnt - i);
-				continue;
-			}
-			else if (nowSkill == 2)
-			{
+				break;
+				
+				case 2:
 				int nowPop = deque.pop_front();
 				deque.push_front(numCnt - i);
 				deque.push_front(nowPop);
-				continue;
+				break;
+				
+				case 3:
+				deque.push_back(numCnt - i);
+				break;
 			}
-			deque.push_back(numCnt - i);
 		}
 		deque.PrintNumbers();
 	}
