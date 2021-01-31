@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 
 //// 효율적이고 읽을만합니당
+//// 전체적으로 무난하게 잘 짜신 것 같습니다.
 public class Test
 {
 	public static void Main()
@@ -13,6 +14,7 @@ public class Test
 
 		for (int i = numCnt - 1; i >= 0; i--)
 		{
+			//// 이 문제같은 경우에는 nowSkill의 경우 1, 2, 3에 따라서만 코드가 진행되니 switch case문이 읽고 이해하기에 좀 더 편할 것 같아요!
 			int nowSkill = skillArr[i];
 			if (nowSkill == 1)
 			{
