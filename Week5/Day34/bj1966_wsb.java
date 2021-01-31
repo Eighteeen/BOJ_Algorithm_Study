@@ -8,7 +8,7 @@ import java.util.Collections;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.stream.Collectors;
-
+//// 깔끔합니다!! LinkedList활용 신기해요
 class Main{
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -17,7 +17,7 @@ class Main{
         int T = Integer.parseInt(br.readLine());
         for(int i = 0; i < T; i++){
             int M = Integer.parseInt(br.readLine().split(" ")[1]);
-            //// Stream 활용 ㅗㅜㅑ
+            //// Stream 활용 ㅗㅜㅑ :22
             Queue<Integer> printerQueue = new LinkedList<>(Arrays.stream(br.readLine().split(" "))
                                             .map(Integer::valueOf).collect(Collectors.toList()));
 
