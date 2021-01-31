@@ -39,7 +39,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 18115 | [카드 놓기](https://www.acmicpc.net/problem/18115) | [진홍](Day33/bj18115_kjh.java) [승빈](Day33/bj18115_wsb.java) [예은](Day33/bj18115_lye.cs) | 진홍 [승빈](Day33/bj18115_wsb_fb.java) 예은 |
+| 백준   | 18115 | [카드 놓기](https://www.acmicpc.net/problem/18115) | [진홍](Day33/bj18115_kjh.java) [승빈](Day33/bj18115_wsb.java) [예은](Day33/bj18115_lye.cs) | [진홍](Day33/bj18115_kjh.java) [승빈](Day33/bj18115_wsb_fb.java) 예은 |
 
 ## [34일차](Day34)
 
