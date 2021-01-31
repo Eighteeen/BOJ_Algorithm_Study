@@ -17,6 +17,7 @@ class Main{
         int T = Integer.parseInt(br.readLine());
         for(int i = 0; i < T; i++){
             int M = Integer.parseInt(br.readLine().split(" ")[1]);
+            //// Stream 활용 ㅗㅜㅑ
             Queue<Integer> printerQueue = new LinkedList<>(Arrays.stream(br.readLine().split(" "))
                                             .map(Integer::valueOf).collect(Collectors.toList()));
 

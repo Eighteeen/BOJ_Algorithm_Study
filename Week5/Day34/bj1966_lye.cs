@@ -3,7 +3,7 @@ using System.Collections;
 using System.Text;
 using System.Linq;
 using System.Collections.Generic;
-//// 전체적으로 무난하게 잘 짜신 것 같습니다!
+//// 전체적으로 무난하게 잘 짜신 것 같습니다! :22
 public class Test
 {
 	public static void Main()
