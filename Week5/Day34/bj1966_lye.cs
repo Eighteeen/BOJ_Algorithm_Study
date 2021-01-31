@@ -3,6 +3,7 @@ using System.Collections;
 using System.Text;
 using System.Linq;
 using System.Collections.Generic;
+//// 전체적으로 무난하게 잘 짜신 것 같습니다!
 public class Test
 {
 	public static void Main()
@@ -35,6 +36,7 @@ public class Test
 public class PrinterQueue
 {
 	Queue printerQ = new Queue();
+	//// indexQ에 index를 사용해서 직관적으로 알 수 있는 게 좋네요!
 	Queue indexQ = new Queue();
 
 	public void FillQueue(int[] numArr)
@@ -63,6 +65,7 @@ public class PrinterQueue
 			int nowPop = Convert.ToInt32(printerQ.Dequeue());
 			int nowIndex = Convert.ToInt32(indexQ.Dequeue());
 
+			//// Dequeue를 할 때마다가 아니라 nowIndex == find 일 때마다 max값을 구해주면 연산횟수가 줄어들 것 같아요
 			if (IsMax(nowPop))
 			{
 				if (nowIndex == find)

@@ -7,6 +7,7 @@ import java.util.stream.IntStream;
 import java.util.Arrays;
 import java.util.Collections;
 
+//// 전체적으로 무난하게 짤 짜신 것 같습니다!
 class Main {
   public static void main(String[] args) throws Exception {
     StringBuilder sb = new StringBuilder();
@@ -37,6 +38,7 @@ class PrinterQueue {
   private Queue<Integer> priorities;
 
   public PrinterQueue(int numberOfDocs, String strPriorities) {
+    //// queue에 index를 사용해서 직관적으로 알 수 있는 게 좋네요!
     queue = new LinkedList<>();
     IntStream.range(0, numberOfDocs)
       .boxed()
@@ -50,6 +52,7 @@ class PrinterQueue {
 
   public int print() {
     while (queue.size() > 0) {
+      //// 돌릴 때 마다가 아니라 priority == highestPriority 일 때마다 getHighestPriority()를 해주면 연산횟수가 줄어들 것 같아요
       int highestPriority = getHighestPriority();
       
       int dequeued = queue.remove();
