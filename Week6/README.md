@@ -2,11 +2,11 @@
 
 ## [36일차](Day36) : Pairing Day
 
-> [문제집 설명](문제집링크)
+> [스택/큐/덱을 활용한 문제 심화](https://www.acmicpc.net/group/workbook/view/9797/29887)
 
 | 사이트 | 번호 | 문제                 | 답안                | Pair Programming    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 0 | [문제이름](문제링크) | [진홍승빈예은]() | Driver 🚗 예은 & Navigator 🧭 진홍, 승빈 |
+| 백준   | 4889 | [안정적인 문자열](https://www.acmicpc.net/problem/4889) | 진홍승빈예은 | Driver 🚗 예은 & Navigator 🧭 진홍, 승빈 |
 
 ## [37일차](Day37)
 
