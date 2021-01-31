@@ -7,7 +7,7 @@ import java.util.stream.IntStream;
 import java.util.Arrays;
 import java.util.Collections;
 
-//// 전체적으로 무난하게 짤 짜신 것 같습니다!
+//// 전체적으로 무난하게 짤 짜신 것 같습니다! :22 깔끔합니당!
 class Main {
   public static void main(String[] args) throws Exception {
     StringBuilder sb = new StringBuilder();
