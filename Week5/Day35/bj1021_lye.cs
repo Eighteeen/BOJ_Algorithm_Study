@@ -1,8 +1,10 @@
 using System;
 using System.Collections.Generic;
 
+//// 전체적으로 깔끔하고 효율적인 것 같습니다
 public class Test
 {
+	//// 와우 클래스 활용으로 main이 정말 깔끔하네요
 	public static void Main()
 	{
 		int[] condition = ReadInt();
@@ -20,6 +22,7 @@ public class Test
 
 			while (nowNum != deque.front())
 			{
+				//// 활용성이 좋네요
 				deque.GetType().GetMethod(toInvokeMethod).Invoke(deque, null);
 				cnt++;
 			}
@@ -84,6 +87,7 @@ public class Dequeue
 	{
 		return dequeue.IndexOf(num);
 	}
+	//// 효율적인 것 같습니다
 	public string ChooseFrontOrBack(int num)
 	{
 		int fgap = Math.Abs(FindIndex(num) - frontIndex);
