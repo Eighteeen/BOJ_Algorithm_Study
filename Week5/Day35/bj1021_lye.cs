@@ -22,7 +22,7 @@ public class Test
 
 			while (nowNum != deque.front())
 			{
-				//// 활용성이 좋네요
+				//// 활용성이 좋네요 :22 좋은 시도인거같습니다 깔끔한 코드를 위해 신경쓰신게 눈에 띄네요!
 				deque.GetType().GetMethod(toInvokeMethod).Invoke(deque, null);
 				cnt++;
 			}

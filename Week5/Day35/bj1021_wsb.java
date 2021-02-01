@@ -7,6 +7,7 @@ import java.util.Deque;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
+//// 이보다 더 가독성이 좋을 수 없을 것 같습니다!
 class Main{
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -33,6 +34,7 @@ class Main{
     }
 }
 
+//// 자바 국룰: 클래스명은 대문자로 시작해요!
 class moveQueue{
     Deque<Integer> deque;
 
@@ -57,6 +59,7 @@ class moveQueue{
         deque.removeFirst();
     }
 
+    ///
     public int cntMoveFirst(int wonder){
         Deque<Integer> copyDeque = new ArrayDeque<>(deque);
         int cnt = 0;
