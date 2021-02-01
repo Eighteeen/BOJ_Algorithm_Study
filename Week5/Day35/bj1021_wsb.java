@@ -7,7 +7,7 @@ import java.util.Deque;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-//// 이보다 더 가독성이 좋을 수 없을 것 같습니다!
+//// 이보다 더 가독성이 좋을 수 없을 것 같습니다! : 22 메인 읽는데 아 뭘 하려는 거구나 하고 바로 이해할수 있어요!
 class Main{
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -59,7 +59,7 @@ class moveQueue{
         deque.removeFirst();
     }
 
-    //// 덱을 복제해서 실제로 시도하는 점이 메모리 사용과 시간 효율면에서 조금 아쉽습니당
+    //// 덱을 복제해서 실제로 시도하는 점이 메모리 사용과 시간 효율면에서 조금 아쉽습니당 :22
     public int cntMoveFirst(int wonder){
         Deque<Integer> copyDeque = new ArrayDeque<>(deque);
         int cnt = 0;
