@@ -65,7 +65,8 @@ public class PrinterQueue
 			int nowPop = Convert.ToInt32(printerQ.Dequeue());
 			int nowIndex = Convert.ToInt32(indexQ.Dequeue());
 
-			//// Dequeue를 할 때마다가 아니라 nowIndex == find 일 때마다 max값을 구해주면 연산횟수가 줄어들 것 같아요
+			//// Dequeue를 할 때마다가 아니라 nowPop이 max일 때마다 max값을 구해주면 연산횟수가 줄어들 것 같아요
+			//// 혹은 nowIndex == find일 때마다 nowPop과 max값을 비교해줘도 연산횟수가 줄어들 것 같습니다!
 			if (IsMax(nowPop))
 			{
 				if (nowIndex == find)
