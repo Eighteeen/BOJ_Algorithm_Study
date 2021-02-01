@@ -59,7 +59,7 @@ class moveQueue{
         deque.removeFirst();
     }
 
-    ///
+    //// 덱을 복제해서 실제로 시도하는 점이 메모리 사용과 시간 효율면에서 조금 아쉽습니당
     public int cntMoveFirst(int wonder){
         Deque<Integer> copyDeque = new ArrayDeque<>(deque);
         int cnt = 0;
