@@ -6,7 +6,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | Pair Programming    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 4889 | [안정적인 문자열](https://www.acmicpc.net/problem/4889) | 진홍승빈예은 | Driver 🚗 예은 & Navigator 🧭 진홍, 승빈 |
+| 백준   | 4889 | [안정적인 문자열](https://www.acmicpc.net/problem/4889) | [진홍승빈예은](Day36/bj4889_kjhwsblye.cs) | Driver 🚗 예은 & Navigator 🧭 진홍, 승빈 |
 
 ## [37일차](Day37)
 
