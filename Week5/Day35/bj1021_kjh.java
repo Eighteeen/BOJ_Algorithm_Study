@@ -6,7 +6,7 @@ import java.util.ArrayDeque;
 import java.util.Arrays;
 import java.util.stream.IntStream;
 
-//// 전체적으로 깔끔하고 효율적이에요!
+//// 전체적으로 깔끔하고 효율적이에요! :22
 class Main {
   public static void main(String[] args) throws Exception {
     Deque<Integer> deque = new ArrayDeque<>();
@@ -28,7 +28,7 @@ class Main {
         countToTarget++; 
       }
 
-      //// 효율적인 방법을 찾으셨네요 굿굿!!
+      //// 효율적인 방법을 찾으셨네요 굿굿!! :22 좋은 방법인거 같아요!
       if (countToTarget > (deque.size() + 1) / 2) {
         countsToTarget += (deque.size() + 1) - countToTarget;
         continue;
