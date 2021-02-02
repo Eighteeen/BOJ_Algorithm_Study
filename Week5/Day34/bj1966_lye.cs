@@ -47,7 +47,7 @@ public class PrinterQueue
 			indexQ.Enqueue(i);
 		}
 	}
-	public bool IsMax(int now)
+	public int getMax()
 	{
 		int max = 0;
 		for (int i = 0; i < printerQ.Count; i++)
@@ -56,10 +56,12 @@ public class PrinterQueue
 			if (nowPop > max) max = nowPop;
 			printerQ.Enqueue(nowPop);
 		}
-		return max <= now;
+		return max;
 	}
 	public int FindPrintNum(int numCnt, int find)
 	{
+		int max = getMax();
+		
 		while (printerQ.Count != 0)
 		{
 			int nowPop = Convert.ToInt32(printerQ.Dequeue());
@@ -67,8 +69,9 @@ public class PrinterQueue
 
 			//// Dequeue를 할 때마다가 아니라 nowPop이 max일 때마다 max값을 구해주면 연산횟수가 줄어들 것 같아요
 			//// 혹은 nowIndex == find일 때마다 nowPop과 max값을 비교해줘도 연산횟수가 줄어들 것 같습니다!
-			if (IsMax(nowPop))
+			if (max == nowPop)
 			{
+				max = getMax();
 				if (nowIndex == find)
 					return numCnt - printerQ.Count;
 				continue;
