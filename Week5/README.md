@@ -47,7 +47,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 1966    | [프린터 큐](https://www.acmicpc.net/problem/1966) | [진홍](Day34/bj1966_kjh.java) [승빈](Day34/bj1966_wsb.java) [예은](Day34/bj1966_lye.cs) | [진홍](Day34/bj1966_kjh_fb.java) [승빈](Day34/bj1966_wsb.java) [예은](Day34/bj1966_lye.cs) |
+| 백준   | 1966    | [프린터 큐](https://www.acmicpc.net/problem/1966) | [진홍](Day34/bj1966_kjh.java) [승빈](Day34/bj1966_wsb.java) [예은](Day34/bj1966_lye.cs) | [진홍](Day34/bj1996_kjh_fb.java) [승빈](Day34/bj1966_wsb.java) [예은](Day34/bj1966_lye.cs) |
 
 ## [35일차](Day35)
 
@@ -55,4 +55,4 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 1021    | [회전하는 큐](https://www.acmicpc.net/problem/1021) | [진홍](Day35/bj1021_kjh.java) [승빈](Day35/bj1021_wsb.java) [예은](Day35/bj1021_lye.cs) | 진홍 [승빈](Day35/bj1021_wsb_fb.java) 예은 |
+| 백준   | 1021    | [회전하는 큐](https://www.acmicpc.net/problem/1021) | [진홍](Day35/bj1021_kjh.java) [승빈](Day35/bj1021_wsb.java) [예은](Day35/bj1021_lye.cs) | [진홍](Day35/bj1021_kjh.java) [승빈](Day35/bj1021_wsb_fb.java) 예은 |
