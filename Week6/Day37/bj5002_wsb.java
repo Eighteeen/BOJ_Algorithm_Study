@@ -25,7 +25,6 @@ class Main{
 
             if(peopleStack.size() > possibleSize) break;
         }
-        //// 함수의 이름을 함수 내용을 봐도 어떤 역할을 하는 코드인지 잘 모르겠습니다 ㅠㅠ 어떤 예외처리를 하는거 같긴한데..
         cntPeople += cntOnlyEnterClub(peopleStack, X, possibleSize);
 
         System.out.print(cntPeople);
