@@ -14,7 +14,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 5002    | [도어맨](https://www.acmicpc.net/problem/5002) | [진홍](Day37/bj5002_kjh.java) [승빈](Day37/bj5002_wsb.java) [예은](Day37/bj5002_lye.cs) | 진홍 승빈 예은 |
+| 백준   | 5002    | [도어맨](https://www.acmicpc.net/problem/5002) | [진홍](Day37/bj5002_kjh.java) [승빈](Day37/bj5002_wsb.java) [예은](Day37/bj5002_lye.cs) | [진홍](Day37/bj5002_kjh_fb.java) 승빈 예은 |
 
 ## [38일차](Day38)
 
