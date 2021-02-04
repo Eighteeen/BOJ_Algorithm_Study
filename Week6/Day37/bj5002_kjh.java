@@ -11,6 +11,7 @@ class Main {
 
     Queue<Character> queue = new LinkedList<>();
     for (char gender : Input.nextLine().toCharArray()) {
+      //// gender에 저장한 값으로 루프를 돌면서 조건들을 처리한다면 모든 성별리스트를 큐에 저장할 필요가 없을 것 같아 메모리면에서 살짝 아쉽습니다.
       queue.offer(gender);
     }
 
@@ -46,6 +47,7 @@ class Club {
   }
 
   public boolean isAbleToEnter(char gender) {
+    //// Math.abs(men - women) < maxDiff 으로 코드를 한 줄로 줄일 수 있을 것 같습니다!
     if (gender == 'M') {
       return (men - women) < maxDiff;
     }
