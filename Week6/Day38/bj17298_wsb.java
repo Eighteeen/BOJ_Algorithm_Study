@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.Stack;
 
-//// 배워갑니다 센세이
+//// 배워갑니다 센세이 :22깔끔합니다 굿!!
 class Main{
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
