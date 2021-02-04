@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.Stack;
-
+    //// 전체적으로 깔끔한거 같습니다.
 class Main{
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -30,7 +30,7 @@ class Main{
         System.out.print(cntPeople);
         br.close();
     }
-
+    ////신선한 방법이에요
     static int cntPairEnterClub(Stack<Character> peopleStack, char gender){
         if(peopleStack.peek() != gender){
             peopleStack.pop();
