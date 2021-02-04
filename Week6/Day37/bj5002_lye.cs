@@ -17,20 +17,20 @@ public class Test
 			if (i == 0 || i == customerCnt - 1)
 			{
 				//// 'DoorMan'으로 추상화하였으니 push처럼 너무 구체적인 이름보다는 'enter'등이 더 어울릴 것 같습니다 : 22
-				dm.push(now);
+				dm.enter(now);
 			}
 			else
 			{
 				char next = customers[i + 1];
-
+				bool coupleOrSameChangeOrNot = dm.peek() != now || (dm.peek() == now && now == next);
 				//// 어떤 의도의 조건인지 boolean 변수나 함수로 이름을 붙여줬다면 더 읽기 쉬웠을 것 같습니다 : 22
-				if (dm.peek() != now || (dm.peek() == now && now == next))
+				if (coupleOrSameChangeOrNot)
 				{
-					dm.push(now);
+					dm.enter(now);
 				}
 				else
 				{
-					dm.push(next);
+					dm.enter(next);
 					customers[i + 1] = now;
 				}
 			}
@@ -61,7 +61,7 @@ public class DoorMan
 	Stack stack = new Stack();
 	int wCnt = 0, mCnt = 0;
 
-	public void push(char c)
+	public void enter(char c)
 	{
 		stack.Push(c);
 		if (c == 'W') wCnt++;
