@@ -3,6 +3,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 import java.util.Stack;
 
+//// 전체적으로 무난하게 잘 짜신 것 같습니다!
 class Main {
   public static void main(String[] args) throws Exception {
     Stack<Integer> waitingStack = new Stack<>();
@@ -17,6 +18,7 @@ class Main {
         continue;
       }
 
+      //// !stack.empty() 혹은 !stack.isEmpty() 가 좀 더 코드도 짧고 직관적이라고 생각하는데 stack.size() > 0 로 하신 이유가 있을까요?
       while (waitingStack.size() > 0 && waitingStack.peek() == currentOrder) {
         waitingStack.pop();
         currentOrder++;

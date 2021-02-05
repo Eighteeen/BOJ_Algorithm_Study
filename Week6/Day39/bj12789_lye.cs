@@ -1,9 +1,10 @@
 using System;
 using System.Collections;
 
-//// 클래스 활용해보려고 연습하시는거 굳굳
+//// 클래스 활용해보려고 연습하시는거 굳굳 : 22
 public class Test
 {
+	//// 메인이 아주아주 깔끔하네요!!
 	public static void Main()
 	{
 		int cnt = Convert.ToInt32(Console.ReadLine());
