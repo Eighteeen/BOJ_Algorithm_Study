@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 
+//// 클래스 활용해보려고 연습하시는거 굳굳
 public class Test
 {
 	public static void Main()
@@ -52,6 +53,8 @@ public class SnackLineUp
 		{
 			while (true)
 			{
+				//// FindStudent는 어때요? 같은 것을 한쪽에서는 student로 칭하고, 한쪽에서는 num으로 칭하고 있는 거 같아요
+				//// 그리고 이왕 함수로 추상화하는거 큐가 비어있는지 확인하는 것도 FindNumInQueue가 확인하게했으면 더 깔끔했을 것 같아요!
 				if (que.Count != 0 && FindNumInQue(i))
 				{
 					que.Dequeue();
