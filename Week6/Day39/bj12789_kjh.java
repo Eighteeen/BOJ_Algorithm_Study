@@ -19,6 +19,7 @@ class Main {
       }
 
       //// !stack.empty() 혹은 !stack.isEmpty() 가 좀 더 코드도 짧고 직관적이라고 생각하는데 stack.size() > 0 로 하신 이유가 있을까요?
+      //// => 비어있지 않다. 부정의 부정으로 표현하는게 직관적이지 못한 것 같다는 생각이 들어 이렇게 썼습니다!
       while (waitingStack.size() > 0 && waitingStack.peek() == currentOrder) {
         waitingStack.pop();
         currentOrder++;
