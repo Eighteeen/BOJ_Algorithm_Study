@@ -22,7 +22,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 17298    | [오큰수](https://www.acmicpc.net/problem/17298) | _[진홍](Day38/bj17298_kjh.java)_ [승빈](Day38/bj17298_wsb.java) [예은](Day38/bj17298_lye.cs) | _[진홍](Day38/bj17298_kjh_fb.java)_ [승빈](Day38/bj17298_wsb.java) 예은 |
+| 백준   | 17298    | [오큰수](https://www.acmicpc.net/problem/17298) | _[진홍](Day38/bj17298_kjh.java)_ [승빈](Day38/bj17298_wsb.java) [예은](Day38/bj17298_lye.cs) | _[진홍](Day38/bj17298_kjh_fb.java)_ [승빈](Day38/bj17298_wsb.java) [예은](Day38/bj17298_lye.cs) |
 
 ## [39일차](Day39)
 
