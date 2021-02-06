@@ -4,6 +4,7 @@ import java.io.InputStreamReader;
 import java.util.LinkedList;
 import java.util.Queue;
 
+//// 무난무난쓰합니다
 class Main{
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -16,6 +17,7 @@ class Main{
             for(String s : strArr) strQueue[i].offer(s);
         }
         String L[] = br.readLine().split(" ");
+        //// 플래그 변수 두는거 갠춘하네요
         boolean isPossible = true;
 
         for(String word : L){
