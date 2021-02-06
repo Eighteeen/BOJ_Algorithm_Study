@@ -7,6 +7,7 @@ import java.util.List;
 import java.util.ArrayList;
 import java.util.Arrays;
 
+//// 전체적으로 무난하게 잘 짜신 것 같습니다
 class Main {
   private static List<Queue<String>> parrots;
 
@@ -22,8 +23,11 @@ class Main {
       parrots.add(parrot);
     }
 
+    //// mixedWords 자체를 배열로 만드는 게 더 자연스러울 것 같아요
     String mixedWords = Input.nextLine();
     for (String word : mixedWords.split(" ")) {
+      //// 반환값이 함수명을 보고 충분히 예상이 가는데도 ! 연산자를 쓰지 않고 == 연산자를 쓰신 이유가 있나요?
+      //// == false 로 사용하시면 끝까지 코드를 읽어야 하는데 비해 ! 연산자를 사용하면 직관적이고 간결하다고 생각합니다!
       if (canParrotSay(word) == false) {
         System.out.print("Impossible");
         return;
