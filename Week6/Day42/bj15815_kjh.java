@@ -22,7 +22,7 @@ class Main {
     System.out.print(numbers.pop());
   }
 
-  public static int calculate(char operation, int x, int y) {
+  public static int calculate(char operator, int x, int y) {
     switch (operation) {
       case '+':
         return x + y;
