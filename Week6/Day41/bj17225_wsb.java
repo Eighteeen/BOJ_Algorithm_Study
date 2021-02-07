@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.Deque;
 import java.util.List;
 
+//// 랭크에 있던 가독성 낮은 코드 보다가 이 코드보니 눈이 정화됩니다
 class Main{
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -14,7 +15,7 @@ class Main{
         int A = Integer.parseInt(todayShopInfo[0]);
         int B = Integer.parseInt(todayShopInfo[1]);
         int N = Integer.parseInt(todayShopInfo[2]);
-        //// secondsToStartPacking 식으로 더 상세하게 표현됐으면 이름이 더 길더라도 변수 이름만 보고 이해할 수 있었을 것 같아요!
+        //// secondsToStartPacking, initSecondsToStartPacking 식으로 더 상세하게 표현됐으면 이름이 더 길더라도 변수 이름만 보고 이해할 수 있었을 것 같아요!
         //// '청색포장시작', '포장시작을 추가' 정도로만 표현돼있으니 의도를 알기 힘들었습니다 ㅠㅠ
         Deque<Integer> BPackStart = new ArrayDeque();
         Deque<Integer> RPackStart = new ArrayDeque();
