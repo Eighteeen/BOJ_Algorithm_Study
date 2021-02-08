@@ -2,7 +2,7 @@ using System;
 using System.Text;
 using System.Collections;
 using System.Collections.Generic;
-
+// 뭐가 문제인지 모르겠는데 자꾸 틀렸다고 나옵니다,,, 
 public class Test
 {
 	public static void Main()
