@@ -1,12 +1,12 @@
 # Week7
 
-## [43일차](Day43)
+## [43일차](Day43) : Pairing Day
 
 > [스택/큐/덱 심화 문제 활용](https://www.acmicpc.net/group/workbook/view/9797/30226)
 
-| 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
+| 사이트 | 번호 | 문제                 | 답안                | Pair Programming    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 3190    | [뱀](https://www.acmicpc.net/problem/3190) | 진홍 승빈 예은 | 진홍 승빈 예은 |
+| 백준   | 3190    | [뱀](https://www.acmicpc.net/problem/3190) | 진홍승빈예은 | Driver 🚗 예은 & Navigator 🧭 진홍, 승빈 |
 
 ## [44일차](Day44)
 
