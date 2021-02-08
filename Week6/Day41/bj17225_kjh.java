@@ -4,6 +4,8 @@ import java.util.StringTokenizer;
 import java.util.Queue;
 import java.util.LinkedList;
 
+//// 클래스 분류로 메인이 정말 깔끔해지고 의미를 알아보기 쉽네요 객체지향 활용 굿굿!!
+//// 전체적으로 활용성이 좋은 프로그램을 구현하신 것 같습니다 굿굿굿
 class Main {
   public static void main(String[] args) throws Exception {
     final int BLUE_REQUIRED_SECONDS = Input.nextInt();
@@ -39,6 +41,7 @@ class Shop {
     redWorker.employedBy(this);
   }
 
+  //// class Order의 사용이 매우 좋네요
   public void giveAnOrder(Order order) {
     orders.offer(order);
   }
@@ -102,6 +105,7 @@ class Worker {
 
     if (requiredSeconds == 0) {
       for (int i = 0; i < amount; i++) {
+        //// 이 부분보고 활용성 정말 좋다고 생각했습니다. 작은 부분이지만 객체지향 제대로 활용하시네요
         works.offer(shop.numbering());
       }
       amount = 0;
