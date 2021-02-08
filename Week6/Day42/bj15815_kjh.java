@@ -3,6 +3,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 import java.util.Stack;
 
+//// 무난하고 깔끔합니다
 class Main {
   public static void main(String[] args) throws Exception {
     final String expression = Input.nextLine();
@@ -23,6 +24,7 @@ class Main {
   }
 
   public static int calculate(char operator, int x, int y) {
+    //// operation 변수가 어디로 가버렸나
     switch (operation) {
       case '+':
         return x + y;

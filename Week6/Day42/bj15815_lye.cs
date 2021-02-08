@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 
+//// 전체적으로 깔끔합니다
 public class Test
 {
 	public static void Main()
@@ -19,10 +20,12 @@ public class Test
 		}
 		Console.Write(st.Pop());
 	}
+	//// 의도도 분명하고 해당 함수 활용이 좋네요
 	static bool IsNum(char ch)
 	{
 		return (ch >= '0' && ch <= '9');
 	}
+	//// stack이 아니라 피연산자 자체를 받는 함수였다면 stack뿐만 아니라 여러 방면에서 쓰일 수 있는 함수가 될 수 있을 것 같습니다
 	static int Calc(Stack st, char ch)
 	{
 		int second = Convert.ToInt32(st.Pop());
