@@ -1,7 +1,7 @@
 using System;
 using System.Collections;
 
-//// 전체적으로 깔끔합니다
+//// 전체적으로 깔끔합니다 :22
 public class Test
 {
 	public static void Main()
@@ -25,7 +25,7 @@ public class Test
 	{
 		return (ch >= '0' && ch <= '9');
 	}
-	//// stack이 아니라 피연산자 자체를 받는 함수였다면 stack뿐만 아니라 여러 방면에서 쓰일 수 있는 함수가 될 수 있을 것 같습니다
+	//// stack이 아니라 피연산자 자체를 받는 함수였다면 stack뿐만 아니라 여러 방면에서 쓰일 수 있는 함수가 될 수 있을 것 같습니다 :22 동감입니당
 	static int Calc(Stack st, char ch)
 	{
 		int second = Convert.ToInt32(st.Pop());
