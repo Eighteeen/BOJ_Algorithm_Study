@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-//// 전체적으로 무난하게 잘 짜신 것 같습니다
+//// 전체적으로 무난하게 잘 짜신 것 같습니다 : 22 깔끔합니다!!
 class Main {
   private static List<Queue<String>> parrots;
 
