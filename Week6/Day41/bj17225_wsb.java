@@ -6,7 +6,8 @@ import java.util.ArrayList;
 import java.util.Deque;
 import java.util.List;
 
-//// 랭크에 있던 가독성 낮은 코드 보다가 이 코드보니 눈이 정화됩니다
+//// 랭크에 있던 가독성 낮은 코드 보다가 이 코드보니 눈이 정화됩니다 :22 가독성이 좋아요!
+//// 덱과 리스트로 구현할 수 있는 코드였군요,,,
 class Main{
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
