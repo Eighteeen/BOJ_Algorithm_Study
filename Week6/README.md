@@ -54,4 +54,4 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 15815 | [천재 수학자 성필](https://www.acmicpc.net/group/workbook/view/9797/30171) | [진홍](Day42/bj15815_kjh.java) [승빈](Day42/bj15815_wsb.java) [예은](Day42/bj15815_lye.cs) | [진홍](Day42/bj15815_kjh.java) 승빈 예은 |
+| 백준   | 15815 | [천재 수학자 성필](https://www.acmicpc.net/group/workbook/view/9797/30171) | [진홍](Day42/bj15815_kjh.java) [승빈](Day42/bj15815_wsb.java) [예은](Day42/bj15815_lye.cs) | [진홍](Day42/bj15815_kjh.java) [승빈](Day42/bj15815_wsb.java) 예은 |
