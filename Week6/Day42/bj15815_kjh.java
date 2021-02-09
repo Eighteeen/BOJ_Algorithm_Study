@@ -23,8 +23,9 @@ class Main {
     System.out.print(numbers.pop());
   }
 
-  public static int calculate(char operator, int x, int y) {
+  public static int calculate(char operation, int x, int y) {
     //// operation 변수가 어디로 가버렸나
+    //// => ㅎㅎ! ㅋㅋ!
     switch (operation) {
       case '+':
         return x + y;
