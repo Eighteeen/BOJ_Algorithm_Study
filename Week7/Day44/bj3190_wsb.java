@@ -17,7 +17,7 @@ class Main{
         Queue<Character> directionQueue= new LinkedList<>();
         getChangeSkill(secondQueue, directionQueue);
 
-        Snake snake = new Snake(N);
+        Animal snake = new Animal(N);
         int currentSecond = 0;
         while(true){
             currentSecond++;
@@ -62,12 +62,12 @@ enum Direction{
     static int len = values().length;
 }
 
-class Snake{
+class Animal{
     private boolean[][] isBody;
     private Direction direction = Direction.RIGHT;
     private Deque<Point> bodyDeque = new ArrayDeque<>();
 
-    public Snake(int boardSize){
+    public Animal(int boardSize){
         isBody = new boolean[boardSize][boardSize];
         isBody[0][0] = true;
         bodyDeque.addFirst(new Point(0, 0));
