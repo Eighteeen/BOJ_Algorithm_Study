@@ -30,7 +30,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 12789 | [도키도키 간식드리미](https://www.acmicpc.net/problem/12789) | [진홍](Day39/bj12789_kjh.java) [승빈](Day39/bj12789_wsb.java) [예은](Day39/bj12789_lye.cs) | [진홍](Day39/bj12789_kjh.java) [승빈](Day39/bj12789_wsb_fb.java) 예은 |
+| 백준   | 12789 | [도키도키 간식드리미](https://www.acmicpc.net/problem/12789) | [진홍](Day39/bj12789_kjh.java) [승빈](Day39/bj12789_wsb.java) [예은](Day39/bj12789_lye.cs) | [진홍](Day39/bj12789_kjh.java) [승빈](Day39/bj12789_wsb_fb.java) [예은](Day39/bj12789_lye.cs) |
 
 ## [40일차](Day40)
 
