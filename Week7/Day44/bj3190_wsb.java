@@ -10,6 +10,8 @@ import java.util.Queue;
 
 class Main{
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    //// 클래스 및 함수로 적절하게 추상화되어 그런지
+    //// main 함수의 처음부터 끝까지 막힘없이 읽혀졌어요
     public static void main(String[] args) throws IOException {
         int N = Integer.parseInt(br.readLine());
         List<Point> appleList = getItemPointList();
@@ -63,6 +65,7 @@ enum Direction{
 }
 
 class Animal{
+    //// 오.. Clone 하는 것 외에도 효율적인 방법이 있었네요. 배워갑니다
     private boolean[][] isBody;
     private Direction direction = Direction.RIGHT;
     private Deque<Point> bodyDeque = new ArrayDeque<>();
