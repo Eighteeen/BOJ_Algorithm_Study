@@ -40,13 +40,13 @@ public class SnackLineUp
 		que = new Queue(tickets);
 		studentCnt = cnt;
 	}
-	public bool FindNumInQue(int n)
+	public bool FindStudentInQue(int n)
 	{
-		return Convert.ToInt32(que.Peek()) == n;
+		return que.Count != 0 && Convert.ToInt32(que.Peek()) == n;
 	}
-	public bool FindNumInSt(int n)
+	public bool FindStudentInSt(int n)
 	{
-		return Convert.ToInt32(st.Peek()) == n;
+		return st.Count != 0 && Convert.ToInt32(st.Peek()) == n;
 	}
 	public void LineCheck()
 	{
@@ -56,12 +56,12 @@ public class SnackLineUp
 			{
 				//// FindStudent는 어때요? 같은 것을 한쪽에서는 student로 칭하고, 한쪽에서는 num으로 칭하고 있는 거 같아요
 				//// 그리고 이왕 함수로 추상화하는거 큐가 비어있는지 확인하는 것도 FindNumInQueue가 확인하게했으면 더 깔끔했을 것 같아요!
-				if (que.Count != 0 && FindNumInQue(i))
+				if (FindStudentInQue(i))
 				{
 					que.Dequeue();
 					break;
 				}
-				if (st.Count != 0 && FindNumInSt(i))
+				if (FindStudentInSt(i))
 				{
 					st.Pop();
 					break;
