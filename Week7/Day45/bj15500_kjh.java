@@ -5,7 +5,7 @@ import java.util.Stack;
 import java.util.List;
 import java.util.ArrayList;
 
-// 소문과 달리 음주코딩은 클린코드에 좋지 않은 것 같다
+// 소문과 달리 음주코딩은 클린코드에 좋지 못한 것 같다
 class Main {
   public static void main(String[] args) throws Exception {
     StringBuilder sb = new StringBuilder();
