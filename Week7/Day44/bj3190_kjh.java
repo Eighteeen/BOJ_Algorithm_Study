@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.Queue;
 import java.util.LinkedList;
 
+//// 전체적으로 무난하고 깔끔하게 잘 짜신 것 같습니다
 class Main {
   public static void main(String[] args) throws Exception {
     final int BOARD_SIZE = Input.nextInt();
@@ -49,6 +50,7 @@ class Main {
   }
 }
 
+//// Snake 클래스가 내장된 클래스라면 Board라는 작명보단 Game이라는 작명이 더 자연스러울 것 같아요
 class Board {
   private int boardSize;
   private List<Tile> appleTiles;
