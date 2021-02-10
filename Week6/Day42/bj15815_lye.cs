@@ -16,7 +16,9 @@ public class Test
 				st.Push(input[i] - '0');
 				continue;
 			}
-			st.Push(Calc(st, input[i]));
+			int second = Convert.ToInt32(st.Pop());
+			int first = Convert.ToInt32(st.Pop());
+			st.Push(Calc(first, second, input[i]));
 		}
 		Console.Write(st.Pop());
 	}
@@ -26,10 +28,8 @@ public class Test
 		return (ch >= '0' && ch <= '9');
 	}
 	//// stack이 아니라 피연산자 자체를 받는 함수였다면 stack뿐만 아니라 여러 방면에서 쓰일 수 있는 함수가 될 수 있을 것 같습니다 :22 동감입니당
-	static int Calc(Stack st, char ch)
+	static int Calc(int first, int second, char ch)
 	{
-		int second = Convert.ToInt32(st.Pop());
-		int first = Convert.ToInt32(st.Pop());
 		int res = 0;
 
 		switch (ch)
