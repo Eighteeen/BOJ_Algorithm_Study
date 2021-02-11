@@ -51,7 +51,7 @@ class Main {
 }
 
 //// Snake 클래스가 내장된 클래스라면 Board라는 작명보단 Game이라는 작명이 더 자연스러울 것 같아요
-//// => Tile의 상위 개념이라 Board라는 이름을 택했어요! 절충해서 GameBoard로 바꿨습니다 ㅎㅋ
+//// => Tile의 상위 개념이기도 해서 Board라는 이름을 택했어요! 절충해서 GameBoard로 바꿨습니다 ㅎㅋ
 class GameBoard {
   private int boardSize;
   private List<Tile> appleTiles;
