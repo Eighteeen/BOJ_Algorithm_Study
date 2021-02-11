@@ -1,0 +1,146 @@
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
+import java.util.Deque;
+import java.util.ArrayDeque;
+import java.util.Arrays;
+import java.util.stream.IntStream;
+
+class Main {
+  public static void main(String[] args) throws Exception {
+    StringBuilder sb = new StringBuilder();
+    final int BALLOONS = Input.nextInt();
+    
+    String[] papersInBalloons = Input.nextLine().split(" ");
+    Balloons balloons = new Balloons(papersInBalloons);
+
+    for (int i = 0; i < BALLOONS; i++) {
+      sb.append(balloons.nextBalloon())
+        .append(' ');
+    }
+
+    System.out.print(sb);
+  }
+}
+
+class Balloons {
+  private Deque<Balloon> balloons = new ArrayDeque<>();
+
+  public Balloons(String[] papersInBalloons) {
+    for (int i = 0; i < papersInBalloons.length; i++) {
+      int number = i + 1;
+      int paper = Integer.parseInt(papersInBalloons[i]);
+      balloons.offerLast(new Balloon(number, paper));
+    }
+  }
+
+  public int nextBalloon() {
+    Balloon burstedBalloon = balloons.pollFirst();
+    if (balloons.isEmpty()) return burstedBalloon.getNumber();
+
+    int paper = burstedBalloon.getPaper();
+    if (paper > 0) {
+      int nextPlace = (paper - 1) % balloons.size();
+      nextNth(nextPlace);
+    } else {
+      int nextPlace = -paper % balloons.size();
+      previousNth(nextPlace);
+    }
+
+    return burstedBalloon.getNumber();
+  }
+
+  private void nextNth(int n) {
+    for (int i = 0; i < n; i++) {
+      balloons.offerLast(balloons.pollFirst());
+    }
+  }
+  
+  private void previousNth(int n) {
+    for (int i = 0; i < n; i++) {
+      balloons.offerFirst(balloons.pollLast());
+    }
+  }
+}
+
+class Balloon {
+  private int number;
+  private int paper;
+
+  public Balloon(int number, int paper) {
+    this.number = number;
+    this.paper = paper;
+  }
+
+  public int getNumber() {
+    return number;
+  }
+
+  public int getPaper() {
+    return paper;
+  }
+
+  @Override
+  public String toString() {
+    return "{" + number + "번 " + paper + "}";
+  }
+}
+
+class Input {
+  private static final BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+  private static StringTokenizer tokenizer;
+
+  public static String nextLine() {
+    try {
+      return br.readLine();
+    } catch(Exception e) { }
+    
+    return null;
+  }
+
+  public static int nextInt() {
+    String nextString = next();
+    return Integer.parseInt(nextString);
+  }
+
+  public static double nextDouble() {
+    String nextString = next();
+    return Double.parseDouble(nextString);
+  }
+
+  public static long nextLong() {
+    String nextString = next();
+    return Long.parseLong(nextString);
+  }
+
+  public static char nextChar() {
+    String nextString = next();
+    return nextString.charAt(0);
+  }
+  
+  public static String next() {
+    makeTokensIfNeed();
+    return tokenizer.nextToken();
+  }
+
+  private static void makeTokensIfNeed() {
+    makeTokensIfNotReadedYet();
+    makeTokensIfHasNoToken();
+  }
+
+  private static void makeTokensIfNotReadedYet() {
+    if (tokenizer == null) {
+      tokenizer = makeTokens();
+    }
+  }
+
+  private static void makeTokensIfHasNoToken() {
+    if (tokenizer.hasMoreTokens() == false) {
+      tokenizer = makeTokens();
+    }
+  }
+  
+  private static StringTokenizer makeTokens() {
+    return new StringTokenizer(nextLine(), " ");
+  }
+}
