@@ -14,7 +14,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 3190    | [뱀](https://www.acmicpc.net/problem/3190) | [진홍](Day44/bj3190_kjh.java) [승빈](Day44/bj3190_wsb.java) 예은 | [진홍](Day44/bj3190_kjh_fb.java) 승빈 예은 |
+| 백준   | 3190    | [뱀](https://www.acmicpc.net/problem/3190) | [진홍](Day44/bj3190_kjh.java) [승빈](Day44/bj3190_wsb.java) 예은 | [진홍](Day44/bj3190_kjh_fb.java) [승빈](Day44/bj3190_wsb.java) 예은 |
 
 ## [45일차](Day45)
 
