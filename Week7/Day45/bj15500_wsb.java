@@ -18,6 +18,7 @@ class Main{
         for(int i = 1; i < 3; i++) rods[i] = new Stack<>();
         //// Arrays.stream로 만든 stream을 이용하여 바로 스택에 추가할 수 있어요!
         //// Arrays.stream(...).forEach(item -> rods[1].push(item)); 이러면 됩니다
+        //// -> 효율성면이나 가독성면에서 크게 다를 게 없어서 유지하겠습니다! 다른 방법 피드백도 감사해요~
         rods[1].addAll(Arrays.stream(br.readLine().split(" ")).map(Integer::valueOf).collect(Collectors.toList()));
 
         final int SHOULD_TO_ROD = 3;
