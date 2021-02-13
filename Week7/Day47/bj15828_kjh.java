@@ -4,6 +4,7 @@ import java.util.StringTokenizer;
 import java.util.Queue;
 import java.util.LinkedList;
 
+//// 무난하게 잘 짜신 것 같습니다
 class Main {
   public static void main(String[] args) throws Exception {
     Queue<Integer> buffer = new LinkedList<>();
