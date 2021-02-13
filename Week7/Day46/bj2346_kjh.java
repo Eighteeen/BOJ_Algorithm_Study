@@ -6,6 +6,7 @@ import java.util.ArrayDeque;
 import java.util.Arrays;
 import java.util.stream.IntStream;
 
+//// 무난하게 잘 짜신 것 같습니다
 class Main {
   public static void main(String[] args) throws Exception {
     StringBuilder sb = new StringBuilder();
@@ -34,6 +35,7 @@ class Balloons {
     }
   }
 
+  //// 지금 풍선의 순서를 반환하는데 next보다는 current, now등이 더 자연스러울 것 같아요
   public int nextBalloon() {
     Balloon burstedBalloon = balloons.pollFirst();
     if (balloons.isEmpty()) return burstedBalloon.getNumber();
