@@ -3,6 +3,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 import java.util.Stack;
 
+//// 무난하고 깔끔하게 잘 짜신 것 같습니다
 class Main {
   public static void main(String[] args) throws Exception {
     Stack<Character> stack;
@@ -22,6 +23,7 @@ class Main {
         stack.push(ch);
       }
 
+      //// isGoodWord로 의도는 알겠으나 이도 empty인 것을 알아야 하니 if에 한번에 쓰는 것도 나쁘지 않을 것 같습니다
       boolean isGoodWord = stack.isEmpty();
       if (isGoodWord) goodWordCount++;
     }
