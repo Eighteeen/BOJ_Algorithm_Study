@@ -1,10 +1,10 @@
-@@ -1,30 +0,0 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.LinkedList;
 import java.util.Queue;
 
+//// 깔꼬미 효율쓰
 class Main{
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -25,6 +25,7 @@ class Main{
         }
         router.forEach(r -> sb.append(r).append(" "));
 
+        //// 맞다 이렇게 할수있었지~
         System.out.print(sb.length() == 0 ? "empty" : sb);
         br.close();
     }

@@ -5,6 +5,7 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 import java.util.StringTokenizer;
 
+//// 전체적으로 깔꼬미 효율쓰
 class Main{
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -66,6 +67,7 @@ class Balloon{
         this.paperNum = paperNum;
     }
 
+    //// 클래스명이 어챂 Balloon이니 burst() 해버리는거 어때요?
     public int burstBalloon(){
         return paperNum;
     }
