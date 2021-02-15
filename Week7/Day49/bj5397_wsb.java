@@ -4,6 +4,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
+//// 무난무난 효율쓰
 class Main{
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -29,6 +30,7 @@ class Main{
                 continue;
             }
 
+            //// if (password.isEmpty()) continue; 해버리는거 어때요
             if(!password.isEmpty()){
                 if(c == '-' && cursor != 0){
                     password.removeLast();
