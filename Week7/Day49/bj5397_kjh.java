@@ -4,6 +4,7 @@ import java.util.StringTokenizer;
 import java.util.Deque;
 import java.util.ArrayDeque;
 
+//// 무난하게 잘 짜신 것 같습니다
 class Main {
   public static void main(String[] args) throws Exception {
     StringBuilder sb = new StringBuilder();
@@ -28,6 +29,7 @@ class KeyLogger {
   private int cursor = 0;
 
   public void log(char ch) {
+    //// switch case문이지만 함수라서 break대신 return을 쓰면 뒤 처리가 없구나 하고 이해하기 더 쉬웠을 것 같아요
     switch (ch) {
       case '<':
         if (cursor == 0) break;
