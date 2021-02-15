@@ -33,10 +33,6 @@ class Main {
 
     System.out.print(count);
   }
-
-  static int sumOneToN(int n) {
-    return n * (n + 1) / 2;
-  }
 }
 
 class Building {
