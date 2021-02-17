@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+//// 깔꼼쓰합니다!
 class Main{
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -15,6 +16,7 @@ class Main{
     static StringBuilder whatIsRecursion(int n, int cnt, StringBuilder sb){
         if(n < 0) return new StringBuilder();
         if(cnt == 0) sb.append("어느 한 컴퓨터공학과 학생이 유명한 교수님을 찾아가 물었다.\n");
+        //// 변수명이 원어민스럽군요
         String underscore = "____".repeat(cnt);
 
         sb.append(underscore).append("\"재귀함수가 뭔가요?\"\n");
