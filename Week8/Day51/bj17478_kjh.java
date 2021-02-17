@@ -2,12 +2,14 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+//// 전체적으로 깔끔합니다
 class Main {
   static StringBuilder sb = new StringBuilder();
 
   public static void main(String[] args) throws Exception {
     final int N = Input.nextInt();
 
+    //// 해당 문장도 함수가 시작될 때 나와야 하는 문장이라서 main에 따로 있는 게 아쉽습니다 (예를 들어 N의 범위가 0까지 확대된다면 main을 고쳐야 해서 아쉽네요)
     sb.append("어느 한 컴퓨터공학과 학생이 유명한 교수님을 찾아가 물었다.\n");
     whatIsRecursiveFunction(0, N);
 
