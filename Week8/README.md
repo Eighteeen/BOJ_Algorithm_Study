@@ -17,7 +17,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 17478    | [재귀함수가 뭔가요?](https://www.acmicpc.net/problem/17478) | [진홍](Day51/bj17478_kjh.java) [승빈](Day51/bj17478_wsb.java) | [진홍](Day51/bj17478_kjh.java) 승빈 |
+| 백준   | 17478    | [재귀함수가 뭔가요?](https://www.acmicpc.net/problem/17478) | [진홍](Day51/bj17478_kjh.java) [승빈](Day51/bj17478_wsb.java) | [진홍](Day51/bj17478_kjh.java) [승빈](Day51/bj17478_wsb.java) |
 
 ## [52일차](Day52)
 
