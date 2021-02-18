@@ -11,7 +11,10 @@ class Main{
         br.close();
     }
 
+    //// type은 long이고 이름은 binary이길래 10101010 이런 숫자로 직접 저장을 하신건가? 했는데 아녔네요
+    //// notConverted, converted 와 같은 작명은 어떨까요?
     static StringBuilder convertToBinary(long num, long binary){
+        //// 오호 저도 이렇게 하려다가 이러면 재귀호출마다 새 객체 만들게돼서 비효율적인거 아닐까? 했는데 랭킹 1위시네요 ㄷㄷ
         StringBuilder sb = new StringBuilder();
         if(binary == 0){
             if(num == 0) return sb;
@@ -28,6 +31,7 @@ class Main{
         return sb.append(convertToBinary(num, binary / 2));
     }
 
+    //// 함수의 이름이 어떤걸 표현하는건지 알기 어려웠어요 ㅠㅠ
     static long closeSquared(long num, long root){
         long squared = 1;
         while(squared <= num) squared *= root;
