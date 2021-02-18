@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+//// 완전 깔끔해요
 class Main {
   public static void main(String[] args) throws Exception {
     final long N = Input.nextLong();
@@ -10,6 +11,7 @@ class Main {
 
   static String decimalToBinary(long num) {
     if (num <= 1) return digitToString(num);
+    //// 오호 이런식으로도 구현이 가능하군요! 다른 방법도 알아가요
     return decimalToBinary(num / 2)
       + digitToString(num % 2); 
   }
