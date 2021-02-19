@@ -3,22 +3,19 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 //// 완전 깔끔해요
+//// => 피드백 주시진 않았찌만 StringBuilder를 반환하게 하는 방식 맘에 들어서 반영했슴다 ㅎ
 class Main {
   public static void main(String[] args) throws Exception {
     final long N = Input.nextLong();
     System.out.print(decimalToBinary(N));
   }
 
-  static String decimalToBinary(long num) {
-    if (num <= 1) return digitToString(num);
+  static StringBuilder decimalToBinary(long num) {
+    StringBuilder sb = new StringBuilder();
+    if (num <= 1) return sb.append(num);
     //// 오호 이런식으로도 구현이 가능하군요! 다른 방법도 알아가요
-    return decimalToBinary(num / 2)
-      + digitToString(num % 2); 
-  }
-  
-  static String digitToString(long digit) {
-    if (digit == 1) return "1";
-    return "0";
+    return sb.append(decimalToBinary(num / 2))
+      .append(num % 2); 
   }
 }
 
