@@ -1,7 +1,7 @@
 # Week4
 > 스택, 큐, 덱
-* 발표자료 정리 [진홍](reference/kjh.pdf)
-* 정리자료 링크 [승빈](reference/wsb.pdf) [예은](reference/lye.pdf)
+* 발표자료 [진홍](reference/kjh.pdf)
+* 정리자료 [승빈](reference/wsb.pdf) [예은](reference/lye.pdf)
 
 ## [22일차](Day22) : Pairing Day
 
