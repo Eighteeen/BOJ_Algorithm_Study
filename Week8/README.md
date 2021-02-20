@@ -1,7 +1,7 @@
 # Week8
-
-* 발표자료 [위승빈](reference/wsb.pdf)
-* 정리자료 [김진홍](reference/kjh.pdf)
+> 재귀함수
+* 발표자료 [승빈](reference/wsb.pdf)
+* 정리자료 [진홍](reference/kjh.pdf)
 
 ## [50일차](Day50) : Pairing Day
 

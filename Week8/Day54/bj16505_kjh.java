@@ -3,6 +3,9 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 import java.util.Arrays;
 
+//// 전체적으로 깔끔하지만 2차원 배열 사용으로 루프를 많이 도는 게 아쉽습니다
+//// 지금과 비슷한 구현방식으로는 String 일차원 배열로도 구현이 가능할 것 같습니다
+  //// 예를 들어 copyArray()에서 to[0][toStartY - 1] == '*'이면 blank를 채운다는 식으로 변형이 가능할 것 같습니다!
 class Main {
   public static void main(String[] args) throws Exception {
     StringBuilder sb = new StringBuilder();
@@ -12,6 +15,7 @@ class Main {
     int square = (int) Math.pow(2, N);
     for (int i = 0; i < square; i++) {
       for (int j = 0; j < (square - i); j++) {
+        //// 오호 char형에서는 null 대신 '\u0000' 이라는 값을 사용하군요 배워갑니다
         sb.append(stars[i][j] == '\u0000' ? ' ' : stars[i][j]);
       }
       sb.append('\n');
@@ -31,6 +35,7 @@ class Main {
 
     char[][] previousStars = makeStars(size - 1);
     int previousSquare = (int) Math.pow(2, size - 1);
+    //// 쌓인 걸 사용하는 방법이 있을 것 같은데 모두 하나하나씩 카피하는 게 아쉽습니다
     copyArray(previousStars, stars, 0, 0);
     copyArray(previousStars, stars, previousSquare, 0);
     copyArray(previousStars, stars, 0, previousSquare);
@@ -45,6 +50,8 @@ class Main {
         to[toX][toY++] = from[i][j];
       }
       toX++;
+      //// 물론 쓰신 문장이 의미가 잘 통하고 꼭 피드백처럼 할 필요는 없지만
+      //// toY -= from[0].length 처리를 한다면 굳이 변수를 복제하지 않아도 될 것 같습니다
       toY = toStartY;
     }
   }
