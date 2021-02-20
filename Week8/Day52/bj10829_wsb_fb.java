@@ -19,7 +19,7 @@ class Main{
         StringBuilder sb = new StringBuilder();
         if(checkNum == 0){
             if(num == 0) return sb;
-            checkNum = RootPowerNCloseToNum(num, 2);
+            checkNum = rootPowerNCloseToNum(num, 2);
         }
 
         num -= checkNum;
@@ -34,7 +34,7 @@ class Main{
 
     //// 함수의 이름이 어떤걸 표현하는건지 알기 어려웠어요 ㅠㅠ
     //// -> 바꿔봤어요!
-    static long RootPowerNCloseToNum(long num, long root){
+    static long rootPowerNCloseToNum(long num, long root){
         long squared = 1;
         while(squared <= num) squared *= root;
         squared /= root;
