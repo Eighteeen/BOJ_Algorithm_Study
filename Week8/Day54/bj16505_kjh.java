@@ -35,7 +35,7 @@ class Main {
 
     char[][] previousStars = makeStars(size - 1);
     int previousSquare = (int) Math.pow(2, size - 1);
-    //// 쌓인 걸 사용하는 방법이 있을 것 같은데 모두 카피하는 게 아쉽습니다
+    //// 쌓인 걸 사용하는 방법이 있을 것 같은데 모두 하나하나씩 카피하는 게 아쉽습니다
     copyArray(previousStars, stars, 0, 0);
     copyArray(previousStars, stars, previousSquare, 0);
     copyArray(previousStars, stars, 0, previousSquare);
