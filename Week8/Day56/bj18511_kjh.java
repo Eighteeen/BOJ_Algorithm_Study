@@ -12,7 +12,7 @@ class Main {
 
     int digits = String.valueOf(N).length();
     TreeSet<Integer> combinationsOneLessDigit = makeCombinations(boundDigits, digits - 1);
-    TreeSet<Integer> combinations = mixDigit(combinationsOneLessDigit, boundDigits);
+    TreeSet<Integer> combinations = combineDigit(combinationsOneLessDigit, boundDigits);
     combinations.addAll(combinationsOneLessDigit);
 
     for (Integer combination : combinations.descendingSet()) {
@@ -34,10 +34,10 @@ class Main {
 
     TreeSet<Integer> combinationsOneLessDigit = makeCombinations(boundDigits, digits - 1);
 
-    return mixDigit(combinationsOneLessDigit, boundDigits);
+    return combineDigit(combinationsOneLessDigit, boundDigits);
   }
 
-  static TreeSet<Integer> mixDigit(TreeSet<Integer> oldCombinations, String[] boundDigits) {
+  static TreeSet<Integer> combineDigit(TreeSet<Integer> oldCombinations, String[] boundDigits) {
     TreeSet<Integer> combinations = new TreeSet<>();
     for (String boundDigit : boundDigits) {  
       for (Integer oldCombination : oldCombinations) {
