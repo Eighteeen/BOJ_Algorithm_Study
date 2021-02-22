@@ -13,8 +13,9 @@ class Main{
         System.out.print(maxNearOfCanMake(numInfo[0], stringArrToCharacterArr(numArr)));
         br.close();
     }
-
+    //// purpose(목적)은 뭔가 너무 포괄적인 느낌인데 target은 어때요
     static int maxNearOfCanMake(String purpose, Character[] materials){
+        //// Arrays.sort 활용 배워갑니다
         Arrays.sort(materials, Collections.reverseOrder());
         String maxNums = String.valueOf(materials[0]).repeat(purpose.length() - 2);
         return getMaxNear(Integer.parseInt(purpose), materials, maxNums, null);
@@ -34,6 +35,8 @@ class Main{
         char firstPurpose = String.valueOf(purpose).charAt(0);
         for(char c : materials){
             if(firstPurpose >= c){
+                //// 26~30줄이 이쪽에 있는 일반함수를 억지로 재귀함수로 만든 것 같습니다.
+                //// 이쪽으로 26~30줄을 옮겨본 코드입니다: https://pastebin.com/m29NrNkm
                 result = getMaxNear(purpose, materials, maxNums, String.valueOf(c));
                 if(result != 0) return result;
             }
