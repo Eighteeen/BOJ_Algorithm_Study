@@ -33,14 +33,13 @@ class Main{
 
         int result = 0;
         char firstPurpose = purpose.charAt(0);
-        int len = purpose.length();
         for(char c : materials){
             if(firstPurpose >= c){
                 result = getMaxNear(purpose, materials, maxNums, String.valueOf(c));
-                if(String.valueOf(result).length() == len) break;
+                if(result != 0) return result;
             }
         }
-        if(result == 0) result = Integer.parseInt(materials[0] + maxNums);
+        result = Integer.parseInt(materials[0] + maxNums);
 
         return result;
     }
