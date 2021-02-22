@@ -17,27 +17,23 @@ class Main{
     static int maxNearOfCanMake(String purpose, Character[] materials){
         Arrays.sort(materials, Collections.reverseOrder());
         String maxNums = String.valueOf(materials[0]).repeat(purpose.length() - 2);
-        return getMaxNear(purpose, materials, maxNums, null);
+        return getMaxNear(Integer.parseInt(purpose), materials, maxNums, null);
     }
 
-    static int getMaxNear(String purpose, Character[] materials, String maxNums, String first){
+    static int getMaxNear(int purpose, Character[] materials, String maxNums, String first){
         if(first != null){
-            int purposeInt = Integer.parseInt(purpose);
             for(char c : materials){
                 StringBuilder sb = new StringBuilder(first);
                 int compare = Integer.parseInt(sb.append(c).append(maxNums).toString());
-                if(purposeInt >= compare) return compare;
+                if(purpose >= compare) return compare;
             }
             return 0;
         }
 
         int result = 0;
-        char firstPurpose = purpose.charAt(0);
         for(char c : materials){
-            if(firstPurpose >= c){
-                result = getMaxNear(purpose, materials, maxNums, String.valueOf(c));
-                if(result != 0) return result;
-            }
+            result = getMaxNear(purpose, materials, maxNums, String.valueOf(c));
+            if(result != 0) return result;
         }
         result = Integer.parseInt(materials[0] + maxNums);
 
