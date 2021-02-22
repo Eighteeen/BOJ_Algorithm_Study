@@ -31,9 +31,12 @@ class Main{
         }
 
         int result = 0;
+        char firstPurpose = String.valueOf(purpose).charAt(0);
         for(char c : materials){
-            result = getMaxNear(purpose, materials, maxNums, String.valueOf(c));
-            if(result != 0) return result;
+            if(firstPurpose >= c){
+                result = getMaxNear(purpose, materials, maxNums, String.valueOf(c));
+                if(result != 0) return result;
+            }
         }
         result = Integer.parseInt(materials[0] + maxNums);
 
