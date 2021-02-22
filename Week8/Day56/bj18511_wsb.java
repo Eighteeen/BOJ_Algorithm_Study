@@ -35,8 +35,10 @@ class Main{
         char firstPurpose = String.valueOf(purpose).charAt(0);
         for(char c : materials){
             if(firstPurpose >= c){
-                //// 26~30줄이 이쪽에 있는 일반함수를 억지로 재귀함수로 만든 것 같습니다.
-                //// 이쪽으로 26~30줄을 옮겨본 코드입니다: https://pastebin.com/m29NrNkm
+                //// 26~30줄이 이쪽 라인에 있을 일반함수를 억지로 재귀함수로 만든 것 같습니다.
+                //// 이쪽 라인으로 26~30줄을 옮겨본 코드입니다: https://pastebin.com/mjVjyk0i
+                //// '억지로'라고 한 이유는 재귀호출 함으로써 잃는 것만 있다는 점 때문에 그렇습니다. (매개변수가 불필요하게 하나 늘어나고 프로그램 흐름이 복잡해짐)
+                //// 이런 말 드리기 조심스럽지만 함수를 새로 다시 짜는게 좋을 것 같습니다,,
                 result = getMaxNear(purpose, materials, maxNums, String.valueOf(c));
                 if(result != 0) return result;
             }
