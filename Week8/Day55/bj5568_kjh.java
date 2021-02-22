@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.ArrayList;
 import static java.util.stream.Collectors.toList;
 
+//// 전체적으로 깔끔하고 간략하네요
 class Main {
   public static void main(String[] args) throws Exception {
     final int N = Input.nextInt();
@@ -23,6 +24,7 @@ class Main {
   static List<String> getMixByK(List<Integer> cards, int K) {
     if (K == 1) return cards.stream().map(String::valueOf).collect(toList());
 
+    //// list가 아니라 set을 이용하면 밑에서 contains 체크를 힐 필요가 없을 것 같습니다!
     List<String> mixByK = new ArrayList<>();
     for (int i = 0; i < cards.size(); i++) {
       Integer card = cards.remove(0);
