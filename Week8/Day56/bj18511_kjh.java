@@ -4,6 +4,7 @@ import java.util.StringTokenizer;
 import java.util.TreeSet;
 import static java.util.stream.Collectors.toList;
 
+//// 전체적으로 깔끔합니다
 class Main {
   public static void main(String[] args) throws Exception {
     final int N = Input.nextInt();
@@ -25,6 +26,7 @@ class Main {
 
   static TreeSet<Integer> makeCombinations(String[] boundDigits, int digits) {
     if (digits == 1) {
+      //// 그냥 방식의 차이지만 stream으로 한번에 set으로 바꿔도 괜찮을 것 같아요
       TreeSet<Integer> combinations = new TreeSet<>();
       for (String boundDigit : boundDigits) {
         combinations.add(Integer.parseInt(boundDigit));
