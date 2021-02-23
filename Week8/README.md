@@ -41,7 +41,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 16505 | [별](https://www.acmicpc.net/problem/16505) | [진홍](Day54/bj16505_kjh.java) [승빈](Day54/bj16505_wsb.java) | [진홍](Day54/bj16505_kjh_fb.java) 승빈 |
+| 백준   | 16505 | [별](https://www.acmicpc.net/problem/16505) | [진홍](Day54/bj16505_kjh.java) [승빈](Day54/bj16505_wsb.java) | [진홍](Day54/bj16505_kjh_fb.java) [승빈](Day54/bj16505_wsb.java) |
 
 ## [55일차](Day55)
 
