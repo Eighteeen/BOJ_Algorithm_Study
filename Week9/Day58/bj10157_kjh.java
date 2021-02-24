@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+//// 구동방식이 직관적으로 보이는 점이 좋아요
 class Main {
   static int[][] sittingList;
   static int waitingNumber;
@@ -21,6 +22,8 @@ class Main {
     sittingList = new int[ROW_SIZE + 1][COL_SIZE + 1];
     fillSittingList(ROW_SIZE, COL_SIZE, 1, 1);
 
+    //// 문제 자체로는 번호가 하나만 주어지니 상관없지만 계속해서 번호를 추출할 수 있는 sittingList 배열을 이용하시니,
+    //// 대기 번호 자리를 추출하는 함수를 따로 만든다면 메인도 깔끔해지고 더욱 확장성있는 프로그램이 될 것 같습니다!
     for (int i = 1; i <= ROW_SIZE; i++) {
       for (int j = 1; j <= COL_SIZE; j++) {
         if (sittingList[i][j] == K) {
@@ -32,6 +35,7 @@ class Main {
     }
   }
 
+  //// 무조건 모든 번호를 저장하기 위해서 모든 루프를 돌아야 하는 게 아쉽게 느껴지기도 하지만 한번 구해놓으면 해당 배열을 계속 사용할 수 있다는 장점이 있네요!
   static void fillSittingList(int rowSize, int colSize, int rowToBeMade, int colToBeMade) {
     if (rowSize <= 0 || colSize <= 0) return;
 
