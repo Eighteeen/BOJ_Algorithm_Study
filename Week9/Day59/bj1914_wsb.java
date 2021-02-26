@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.math.BigInteger;
 
+//// 깔꼼합니다!
 class Main{
     static StringBuilder process = new StringBuilder();
     public static void main(String[] args) throws IOException {
@@ -30,6 +31,7 @@ class Main{
         }
     }
 
+    //// 적절한 함수 분리와 작명 굳굳..
     static void moveDisc(int from, int to){
         process.append(from).append(" ").append(to).append("\n");
     }
