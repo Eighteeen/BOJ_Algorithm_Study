@@ -2,11 +2,13 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+//// 전체적으로 깔끔합니다!
 class Main {
   public static void main(String[] args) throws Exception {
     final int num1 = Input.nextInt();
     final int num2 = Input.nextInt();
     
+    //// 쉬어가는 문제였지만, 최대공약수를 재귀함수로 구하는 방법도 유명하더라구요! '유클리드 호제법' 보시고 그 방법으로 적용해봐도 좋을 것 같아요!
     int less = Math.min(num1, num2);
     int gcd = 0;
     for (int i = less; i >= 1; i--) {
