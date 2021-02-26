@@ -23,7 +23,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 1914    | [하노이 탑](https://www.acmicpc.net/problem/1914) | [진홍](Day59/bj1914_kjh.java) [승빈](Day59/bj1914_wsb.java) | [진홍](Day59/bj1914_kjh.java) 승빈 |
+| 백준   | 1914    | [하노이 탑](https://www.acmicpc.net/problem/1914) | [진홍](Day59/bj1914_kjh.java) [승빈](Day59/bj1914_wsb.java) | [진홍](Day59/bj1914_kjh.java) [승빈](Day59/bj1914_wsb.java) |
 
 ## [60일차](Day60)
 
