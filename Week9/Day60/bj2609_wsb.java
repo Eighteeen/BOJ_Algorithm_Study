@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+//// 깔-끔 효-율
 class Main{
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -18,6 +19,7 @@ class Main{
         br.close();
     }
 
+    //// 유클리드 호제법 + 재귀함수 활용 ㄷㄷ
     static int GCD(int num1, int num2){
         if(num2 == 0) return num1;
         return GCD(num2, num1 % num2);
