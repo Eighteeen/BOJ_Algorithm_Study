@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+//// 무난하게 잘 짜신 것 같습니다!
 class Main {
   static boolean[][] stars;
 
