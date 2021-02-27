@@ -26,7 +26,6 @@ class Main{
         
         List<StringBuilder> doorTopList = makeStarDoorTop(horizontal);
         doorTopList.forEach(d -> sb.append(d).append("\n"));
-        System.out.println(sb);
 
         StringBuilder doorBottom = new StringBuilder(sb).reverse();
         sb.append("* ".repeat(horizontal / 2)).append("*");
