@@ -27,11 +27,10 @@ class Main{
     static String getPermutation(List<Character> charList, int wonderIdx){
         if(charList.size() == 1) return String.valueOf(charList.get(0));
         
-        int lastIdx = charList.size() - 1;
-        int possibleCombination = factorial(lastIdx);
+        int possibleCombination = factorial(charList.size() - 1);
         char element = charList.get(wonderIdx / possibleCombination);
-        
         StringBuilder sb = new StringBuilder();
+        
         sb.append(element)
             .append(getPermutation(processedList(charList, element), wonderIdx % possibleCombination));
 
