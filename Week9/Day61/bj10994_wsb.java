@@ -4,6 +4,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
+//// 전체적으로 깔꼼합니다
 class Main{
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -14,15 +15,18 @@ class Main{
         br.close();
     }
 
+    //// 수직으로도 수평으로도 사이즈는 같은데 sizeOfStarDoor은 어때요
     static int horizontalOfStarDoor(int n){
         return 4 * (n - 1) + 1;
     }
 
+    //// 위의 절반, 가운데 만들고 위의 절반을 재활용하는 방식이군요. 참신하네요
     static StringBuilder printStarDoor(int horizontal){
         StringBuilder sb = new StringBuilder();
         
         List<StringBuilder> doorTopList = makeStarDoorTop(horizontal);
         doorTopList.forEach(d -> sb.append(d).append("\n"));
+        System.out.println(sb);
 
         StringBuilder doorBottom = new StringBuilder(sb).reverse();
         sb.append("* ".repeat(horizontal / 2)).append("*");
@@ -31,6 +35,7 @@ class Main{
         return sb;
     }
 
+    //// 재귀함수에 대해 감을 확실히 잡으신 것 같네요!
     static List makeStarDoorTop(int horizontal){
         List<StringBuilder> doorList = new ArrayList<>();
         if(horizontal == 1) return doorList;
