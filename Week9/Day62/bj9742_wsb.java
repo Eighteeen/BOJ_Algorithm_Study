@@ -15,8 +15,9 @@ class Main{
             List<Character> charList = stringToCharacterList(TC[0]);
             int wonder = Integer.parseInt(TC[1]);
 
-            sb.append(input).append(" = ")
-                .append(getPermutation(charList, wonder - 1)).append("\n");
+            sb.append(input).append(" = ");
+            if(wonder > factorial(charList.size())) sb.append("No permutation\n");
+            else sb.append(getPermutation(charList, wonder - 1)).append("\n");
         }
 
         System.out.print(sb);
@@ -28,10 +29,8 @@ class Main{
         
         int lastIdx = charList.size() - 1;
         int possibleCombination = factorial(lastIdx);
-        int getIdx = wonderIdx / possibleCombination;
-        if(getIdx > lastIdx) return "No permutation";
-
-        char element = charList.get(getIdx);
+        char element = charList.get(wonderIdx / possibleCombination);
+        
         StringBuilder sb = new StringBuilder();
         sb.append(element)
             .append(getPermutation(processedList(charList, element), wonderIdx % possibleCombination));
