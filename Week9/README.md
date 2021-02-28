@@ -39,7 +39,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 10994    | [별 찍기 - 19](https://www.acmicpc.net/problem/10994) | [진홍](Day61/bj10994_kjh.java) [승빈](Day61/bj10994_wsb.java) | [진홍](Day61/bj10994_kjh.java) 승빈 |
+| 백준   | 10994    | [별 찍기 - 19](https://www.acmicpc.net/problem/10994) | [진홍](Day61/bj10994_kjh.java) [승빈](Day61/bj10994_wsb.java) | [진홍](Day61/bj10994_kjh.java) [승빈](Day61/bj10994_wsb_fb.java) |
 
 ## [62일차](Day62)
 
