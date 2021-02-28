@@ -5,7 +5,9 @@ import java.util.List;
 import java.util.ArrayList;
 import java.util.Arrays;
 
+//// 전체적으로 무난하게 잘 짜신 것 같습니다!
 // 네이밍 개어렵네요.. 추천 네이밍 떠오르는거 있으면 적어주시면 감사하겠읍니다
+//// 딱히 엄청 거슬린다 싶은 네이밍은 없어서 지금도 충분한 것 같습니다!
 class Main {
   public static void main(String[] args) throws Exception {
     StringBuilder sb = new StringBuilder();
