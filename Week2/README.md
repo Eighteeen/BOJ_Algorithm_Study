@@ -1,6 +1,6 @@
 # Week2
 
-## [8일차](Day8) : Pairing Day
+## [8일차](Day08) : Pairing Day
 
 > [입출력이 정직한 기초적인 구현 활용 문제](https://www.acmicpc.net/group/workbook/view/9797/28820)
 
@@ -9,7 +9,7 @@
 | 백준   | 1296 | [데이트](https://www.acmicpc.net/problem/1296)      | [승빈예은](Day08/bj1296_wsblye.java) | [승빈예은](Day08/bj1296_wsblye.java) | Driver 🚗 승빈 & Navigator 🧭 예은 |
 | 백준   | 4435 | [중간계 전쟁](https://www.acmicpc.net/problem/4435) | [진홍회운](Day08/bj4435_kjhjhw.java) | [진홍회운](Day08/bj4435_kjhjhw.java) | Driver 🚗 진홍 & Navigator 🧭 회운 |
 
-## [9일차](Day9)
+## [9일차](Day09)
 
 > [기초적이지만 해석이 다소 필요한 문제](https://www.acmicpc.net/group/workbook/view/9797/28871)
 
