@@ -1,4 +1,4 @@
-# Week3
+# Week03
 
 ## [15일차](Day15) : Pairing Day
 

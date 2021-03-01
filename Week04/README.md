@@ -1,4 +1,4 @@
-# Week4
+# Week04
 > 스택, 큐, 덱
 * 발표자료 [진홍](reference/kjh.pdf)
 * 정리자료 [승빈](reference/wsb.pdf) [예은](reference/lye.pdf)

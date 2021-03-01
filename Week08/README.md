@@ -1,4 +1,4 @@
-# Week8
+# Week08
 > 재귀함수
 * 발표자료 [승빈](reference/wsb.pdf)
 * 정리자료 [진홍](reference/kjh.pdf)

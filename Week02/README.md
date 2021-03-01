@@ -1,4 +1,4 @@
-# Week2
+# Week02
 
 ## [8일차](Day08) : Pairing Day
 

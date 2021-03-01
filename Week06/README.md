@@ -1,4 +1,4 @@
-# Week6
+# Week06
 
 ## [36일차](Day36) : Pairing Day
 

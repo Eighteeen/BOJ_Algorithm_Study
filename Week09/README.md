@@ -1,5 +1,4 @@
-# WeekN
-> 재귀함수
+# Week09
 
 ## [57일차](Day57) : Pairing Day
 

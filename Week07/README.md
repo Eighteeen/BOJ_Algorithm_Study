@@ -1,4 +1,4 @@
-# Week7
+# Week07
 
 ## [43일차](Day43) : Pairing Day
 
