@@ -6,8 +6,8 @@
 
 | 사이트 | 번호 | 문제                                                | 답안                                | 피드백 반영 답안                    | Pair Programming                   |
 | ------ | ---- | --------------------------------------------------- | ----------------------------------- | ----------------------------------- | ---------------------------------- |
-| 백준   | 1296 | [데이트](https://www.acmicpc.net/problem/1296)      | [승빈예은](Day8/bj1296_wsblye.java) | [승빈예은](Day8/bj1296_wsblye.java) | Driver 🚗 승빈 & Navigator 🧭 예은 |
-| 백준   | 4435 | [중간계 전쟁](https://www.acmicpc.net/problem/4435) | [진홍회운](Day8/bj4435_kjhjhw.java) | [진홍회운](Day8/bj4435_kjhjhw.java) | Driver 🚗 진홍 & Navigator 🧭 회운 |
+| 백준   | 1296 | [데이트](https://www.acmicpc.net/problem/1296)      | [승빈예은](Day08/bj1296_wsblye.java) | [승빈예은](Day08/bj1296_wsblye.java) | Driver 🚗 승빈 & Navigator 🧭 예은 |
+| 백준   | 4435 | [중간계 전쟁](https://www.acmicpc.net/problem/4435) | [진홍회운](Day08/bj4435_kjhjhw.java) | [진홍회운](Day08/bj4435_kjhjhw.java) | Driver 🚗 진홍 & Navigator 🧭 회운 |
 
 ## [9일차](Day9)
 
@@ -15,10 +15,10 @@
 
 | 사이트 | 번호  | 문제                                                | 답안                                                                                                                  | 피드백 반영 답안                                                                                                            |
 | ------ | ----- | --------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| 백준   | 1453  | [피시방 알바](https://www.acmicpc.net/problem/1453) | [진홍](Day9/bj1453_kjh.java) [승빈](Day9/bj1453_wsb.java) [예은](Day9/bj1453_lye.cs) [회운](Day9/bj1453_jhw.java)     | [진홍](Day9/bj1453_kjh.java) [승빈](Day9/bj1453_wsb.java) [예은](Day9/bj1453_lye_fb.cs) [회운](Day9/bj1453_jhw.java)        |
-| 백준   | 17293 | [맥주99병](https://www.acmicpc.net/problem/17293)   | [진홍](Day9/bj17293_kjh.java) [승빈](Day9/bj17293_wsb.java) [예은](Day9/bj17293_lye.cs) [회운](Day9/bj17293_jhw.java) | [진홍](Day9/bj17293_kjh.java) [승빈](Day9/bj17293_wsb.java) [예은](Day9/bj17293_lye_fb.cs) [회운](Day9/bj17293_jhw_fb.java) |
-| 백준   | 1296  | [데이트](https://www.acmicpc.net/problem/1296)      | [진홍](Day9/bj1296_kjh.java) 회운                                                                                     | [진홍](Day9/bj1296_kjh_fb.java) 회운                                                                                        |
-| 백준   | 4435  | [중간계 전쟁](https://www.acmicpc.net/problem/4435) | [승빈](Day9/bj4435_wsb.java) [예은](Day9/bj4435_lye.cs)                                                               | [승빈](Day9/bj4435_wsb.java) [예은](Day9/bj4435_lye_fb.cs)                                                                  |
+| 백준   | 1453  | [피시방 알바](https://www.acmicpc.net/problem/1453) | [진홍](Day09/bj1453_kjh.java) [승빈](Day09/bj1453_wsb.java) [예은](Day09/bj1453_lye.cs) [회운](Day09/bj1453_jhw.java)     | [진홍](Day09/bj1453_kjh.java) [승빈](Day09/bj1453_wsb.java) [예은](Day09/bj1453_lye_fb.cs) [회운](Day09/bj1453_jhw.java) |
+| 백준   | 17293 | [맥주99병](https://www.acmicpc.net/problem/17293) | [진홍](Day09/bj17293_kjh.java) [승빈](Day09/bj17293_wsb.java) [예은](Day09/bj17293_lye.cs) [회운](Day09/bj17293_jhw.java) | [진홍](Day09/bj17293_kjh.java) [승빈](Day09/bj17293_wsb.java) [예은](Day09/bj17293_lye_fb.cs) [회운](Day09/bj17293_jhw_fb.java) |
+| 백준   | 1296  | [데이트](https://www.acmicpc.net/problem/1296)      | [진홍](Day09/bj1296_kjh.java) _회운_ | [진홍](Day09/bj1296_kjh_fb.java) _회운_ |
+| 백준   | 4435  | [중간계 전쟁](https://www.acmicpc.net/problem/4435) | [승빈](Day09/bj4435_wsb.java) [예은](Day09/bj4435_lye.cs) | [승빈](Day09/bj4435_wsb.java) [예은](Day09/bj4435_lye_fb.cs) |
 
 ## [10일차](Day10)
 
