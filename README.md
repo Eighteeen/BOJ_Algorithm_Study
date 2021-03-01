@@ -76,7 +76,7 @@
 * 해석이 필요한 문제
 
 ### [4주차](Week04)
-> 이론 : [스택, 큐, 덱](Week4/reference/kjh.pdf)  
+> 이론 : [스택, 큐, 덱](Week04/reference/kjh.pdf)  
 > 발표자 : [🐮 김진홍(kjh)](https://github.com/deepredk)
 * 해석이 필요한 문제
 * 해석이 필요한 문제 활용
@@ -95,7 +95,7 @@
 * 스택/큐/덱 심화 문제 활용
 
 ### [8주차](Week08)
-> 이론 : [재귀함수](Week8/reference/wsb.pdf)  
+> 이론 : [재귀함수](Week08/reference/wsb.pdf)  
 > 발표자 : [🐯 위승빈(wsb)](https://github.com/wsb0722)
 * 스택/큐/덱 심화 문제 활용
 * 재귀함수 문제
