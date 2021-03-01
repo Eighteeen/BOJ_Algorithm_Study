@@ -14,6 +14,8 @@ class Main{
         br.close();
     }
 
+    //// asssets, period 변수 작명 정말 기막히게 하신 것 같아요
+    //// 생각도 못한 재귀호출 활용법입니다.. 배워갑니다!
     static int resultInvest(int assets, int period){
         if(period == 0) return assets;
 
