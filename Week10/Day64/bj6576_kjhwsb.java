@@ -53,6 +53,7 @@
     }
 
     static void makePixels(int size, int row, int col) {
+      int half = size / 2;
       for (int i = 0; i < 4; i++) {
         if (idx >= quadtreeLastIdx) return;
 
@@ -73,7 +74,7 @@
         }
 
         if (checkLetter == 'Q') {
-          makePixels(size / 2, checkRow, checkCol);
+          makePixels(half, checkRow, checkCol);
         }
         else if (checkLetter == 'B') {
           fillBlack(checkRow, checkCol, size);
