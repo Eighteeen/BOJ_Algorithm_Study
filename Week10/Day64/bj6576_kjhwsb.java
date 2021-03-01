@@ -6,6 +6,7 @@
     static boolean[][] quadtreeBits;
     static String quadtree;
     static int idx;
+    static int quadtreeLastIdx;
 
     public static void main(String[] args) throws Exception {
       StringBuilder sb = new StringBuilder();
@@ -20,7 +21,8 @@
       quadtreeBits = new boolean[N][N];
       idx = 0;
       quadtree = ENCRYPTED;
-      func(N, 0, 0);
+      quadtreeLastIdx = quadtree.length() - 1;
+      makePixels(N, 0, 0);
       
       for (int i = 0; i < N; i++) {
         sb.append(convertBinaryToHex(quadtreeBits[i])).append('\n');
@@ -50,41 +52,44 @@
       return hex.toString();
     }
 
-    static void func(int size, int row, int col) {
+    static void makePixels(int size, int row, int col) {
       for (int i = 0; i < 4; i++) {
-        if (idx >= quadtree.length() - 1) return;
+        if (idx >= quadtreeLastIdx) return;
 
-        int half = size / 2;
-        char first = quadtree.charAt(idx++);
-
-        int realRow = row, realCol = col;
+        char checkLetter = quadtree.charAt(idx++);
+        int checkRow = row, checkCol = col;
 
         switch (i) {
           case 1:
-            realCol = col + size;
+            checkCol += size;
             break;
           case 2:
-            realRow = row + size;
+            checkRow += size;
             break;
           case 3:
-            realRow = row + size;
-            realCol = col + size;
+            checkRow += size;
+            checkCol += size;
             break;
         }
 
-        if (first == 'Q') {
-          func(half, realRow, realCol);
+        if (checkLetter == 'Q') {
+          makePixels(size / 2, checkRow, checkCol);
         }
-        else if (first == 'B') {
-          for (int j = realRow; j < realRow + size; j++) {
-            for (int k = realCol; k < realCol + size; k++) {
-              quadtreeBits[j][k] = true;
-            }
-          }
+        else if (checkLetter == 'B') {
+          fillBlack(checkRow, checkCol, size);
+        }
+      }
+    }
+
+    static void fillBlack(int row, int col, int range){
+      for (int j = row; j < row + range; j++) {
+        for (int k = col; k < col + range; k++) {
+          quadtreeBits[j][k] = true;
         }
       }
     }
   }
+    
 
   class Input {
     private static final BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
