@@ -82,9 +82,9 @@
     }
 
     static void fillBlack(int row, int col, int range){
-      for (int j = row; j < row + range; j++) {
-        for (int k = col; k < col + range; k++) {
-          quadtreeBits[j][k] = true;
+      for (int i = row; i < row + range; i++) {
+        for (int j = col; j < col + range; j++) {
+          quadtreeBits[i][j] = true;
         }
       }
     }
