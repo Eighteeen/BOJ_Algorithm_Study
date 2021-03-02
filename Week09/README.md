@@ -54,4 +54,4 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 19947    | [투자의 귀재 배주형](https://www.acmicpc.net/problem/19947) | *[진홍](Day63/bj19947_kjh.java)* [승빈](Day63/bj19947_wsb.java) | *[진홍](Day63/bj19947_kjh_fb.java)* 승빈 |
+| 백준   | 19947    | [투자의 귀재 배주형](https://www.acmicpc.net/problem/19947) | *[진홍](Day63/bj19947_kjh.java)* [승빈](Day63/bj19947_wsb.java) | *[진홍](Day63/bj19947_kjh_fb.java)* [승빈](Day63/bj19947_wsb.java) |
