@@ -12,7 +12,7 @@ class Main {
       return;
     }
 
-    //// 위에서 N == 1이면 리턴하는데 밑에 그냥 4 * (N - 1) + 3 해주시면 되지 않나요?
+    //// 위에서 N == 1이면 리턴하는데 밑에 그냥 4 * (N - 1) + 3 해주면 되지 않나요?
     int rowSize = (N == 1) ? (1) : (4 * (N - 1) + 3);
     int colSize = 4 * (N - 1) + 1;
     stars = new boolean[rowSize][colSize];
