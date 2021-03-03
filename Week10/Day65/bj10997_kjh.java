@@ -37,7 +37,7 @@ class Main {
       stars[row+i][col] = true;
       stars[row+i][lastCol] = true;
     }
-    //// 위쪽 for문에서 first col과 last col 처리를 해줘서 1 ~ colSize - 1보다 작을 때 까지만 루프 도는 게 중복이 없어 더 깔끔할 것 같습니다
+    //// 위쪽 for문에서 first col과 last col 처리를 해줘서 1 ~ colSize - 1보다 작을 때까지만 루프 도는 게 중복이 없어 더 깔끔할 것 같습니다
     for (int i = 0; i < colSize; i++) {
       stars[row][col+i] = true;
       stars[lastRow][col+i] = true;
@@ -66,7 +66,7 @@ class Main {
 
     stars[row+2][col+3] = true;
     //// 위 코드까지는 사실상 makeSnailStars 와 같은 기능을 하고 아래 부분만 다른 점인데, 따로 함수를 만들어 진행된다는 점이 아쉽습니다.
-    //// 위쪽은 재귀 함수 내에서 활용하고, 밑에 내용만 따로 진행하는 게 어떤가요?
+    //// 위쪽은 재귀 함수 내에서 활용하고, 밑에 내용만 따로 진행하는 게 어떨까요?
     for (int i = 0; i < 3; i++) {
       stars[row+2+i][col+2] = true;
     }
