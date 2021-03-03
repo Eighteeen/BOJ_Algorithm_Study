@@ -4,6 +4,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
+//// 굳!
 class Main{
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -36,6 +37,7 @@ class Main{
     }
 
     static List makeStarSnail(int horizontal){
+        //// 별 패턴 문제에 List<StringBuilder>를 즐겨 쓰시는군요. 신기해요
         List<StringBuilder> snailBody = new ArrayList<>();
         String topBottomOfSnail = "*".repeat(horizontal);
 
