@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
+//// 깔꼼~
 class Main{
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -14,6 +15,7 @@ class Main{
         br.close();
     }
 
+    //// 제곱근까지만 구해도 괜찮습니다! (에라토스테네스의 접근)
     static int cntPrimeNum(int[] numArr){
         int cnt = 0;
         for(int n : numArr){
