@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
+//// 굳굳!
 class Main{
     static int N;
     public static void main(String[] args) throws IOException {
@@ -12,6 +13,7 @@ class Main{
         N = Integer.parseInt(br.readLine());
         int[] numArr = new int[N];
         for(int i = 0; i < N; i++) numArr[i] = Integer.parseInt(br.readLine());
+        //// 오! Median때문에 정렬할거 처음부터 정렬하는거 좋네요
         Arrays.sort(numArr);
 
         sb.append(getMean(numArr)).append("\n")
@@ -40,7 +42,8 @@ class Main{
         int maxOrSecondMax = sortedNumArr[0], checkNum = sortedNumArr[0];
         boolean isSecond = false;
 
-        for(int i = 1; i < N; i++){
+        //// 최대빈도를 구하는 것과 그에 대한 숫자 둘을 효율적인 코드네요
+        for(int i = 1; i < N; i++) {
             if(checkNum != sortedNumArr[i]){
                 if(maxCnt < checkCnt){
                     maxCnt = checkCnt;
