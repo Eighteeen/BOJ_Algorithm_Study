@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 
-//// 무난하게 잘 짜신 것 같습니다
+//// 무난무난 합니다!
 class Main {
   public static void main(String[] args) throws Exception {
     final int N = Input.nextInt();
