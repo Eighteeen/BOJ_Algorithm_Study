@@ -17,12 +17,14 @@ class Main{
         br.close();
     }
 
+    //// 와 감탄했어요 개깔끔간결멋짐
     static Queue placeCard(int N){
         Queue cards = new LinkedList<>(IntStream.rangeClosed(1, N).boxed().collect(Collectors.toList()));
         return cards;
     }
 
     static Integer lastCardNumAfterAction(Queue<Integer> cards){
+        //// 애초에 1개 초과로 체크하면 if를 또 할 필요 없었군요 배워갑니다
         while(cards.size() > 1){
             cards.poll();
             cards.offer(cards.poll());
