@@ -16,6 +16,7 @@ class Main{
     }
 
     //// 제곱근까지만 구해도 괜찮습니다! (에라토스테네스의 접근)
+    //// -> 제곱근까지만 구하는데 로직을 잘못 보신 것 같아요 ㅠ
     static int cntPrimeNum(int[] numArr){
         int cnt = 0;
         for(int n : numArr){
