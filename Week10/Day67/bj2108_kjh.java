@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 
+//// 무난하게 잘 짜신 것 같습니다
 class Main {
   public static void main(String[] args) throws Exception {
     final int N = Input.nextInt();
@@ -59,9 +60,11 @@ class Main {
     
     List<Integer> maxFrequentList = new ArrayList<>();
     for (int i = 0; i < 8001; i++) {
+      //// 해당 조건문에서 size가 2면 break 혹은 return 하도록 조건을 추가하면 좀 더 최적화될 것 같습니다
       if (frequents[i] == maxFrequent) maxFrequentList.add(i - 4000);
     }
 
+    //// 위 루프에서 순서대로 진행되니 이미 정렬되어 있는 리스트 아닌가요?
     Collections.sort(maxFrequentList);
 
     int mode = (maxFrequentList.size() == 1) ? maxFrequentList.get(0) : maxFrequentList.get(1);
