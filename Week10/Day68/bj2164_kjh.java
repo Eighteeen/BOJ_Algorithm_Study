@@ -14,6 +14,7 @@ class Main {
     }
 
     int card = 0;
+    //// 이미 피드백 남기셨는데 while의 조건문을 size가 1이 아닐때로 체크하시면 더욱 간결하고 조건문 체크가 줄어들어 조건문을 바꿔보시면 좋을 것 같습니다!
     while (!cards.isEmpty()) {
       card = cards.poll();
       if (cards.isEmpty()) break;
