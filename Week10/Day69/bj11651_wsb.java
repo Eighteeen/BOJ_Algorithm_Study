@@ -16,7 +16,7 @@ class Main{
         }
 
         Arrays.sort(points);
-        Arrays.stream(points).forEach(p -> sb.append(p.x).append(" ").append(p.y).append("\n"));
+        Arrays.stream(points).forEach(p -> sb.append(p.toString()).append("\n"));
 
         System.out.print(sb);
         br.close();
@@ -40,5 +40,12 @@ class Point implements Comparable<Point>{
             else if(this.x == p.x) return 0;
         }
         return -1;
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append(x).append(" ").append(y);
+        return sb.toString();
     }
 }
