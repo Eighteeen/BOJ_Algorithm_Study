@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.ArrayList;
 import java.util.Comparator;
 
+//// 깔-끔
 class Main {
   public static void main(String[] args) {
     Points points = new Points();
@@ -32,6 +33,7 @@ class Points {
     points.add(new Point(x, y));
   }
 
+  //// 오호 이런 방법도 있군요 배워갑니다!
   public void sort() {
     points.sort(
       Comparator
