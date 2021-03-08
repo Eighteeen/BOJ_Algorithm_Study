@@ -3,8 +3,10 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 import java.util.Arrays;
 
+//// 전체적으로 무난 깔끔합니다
 class Main {
   public static void main(String[] args) {
+    //// 해당 상수를 선언만 하고 사용하지 않은 이유가 뭘까요..? 아마 선언만 하고 까먹으신 거겠죠..?
     final int CARD_NUMBER_RANGE =  20000001;
     final int MAX_CARD_NUMBER = 10000000;
 
