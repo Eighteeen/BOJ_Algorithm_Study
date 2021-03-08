@@ -15,6 +15,8 @@ class Main{
         int M = Integer.parseInt(br.readLine());
         int[] wonderCards = Arrays.stream(br.readLine().split(" ")).mapToInt(Integer::parseInt).toArray();
 
+        //// '카드를 정리한다(organize)'만으로는 어떤 일을 하는건지 알기 어려웠어요 ㅠㅠ
+        //// '각각의 카드를 센다' 정도로 구체적으로 주어진다면 더 좋았을 것 같습니다! countOfEachCard = countEachCard();
         Map<Integer, Integer> cardOrganized = organizeCards(cards);
         for(int wonder : wonderCards){
             if(cardOrganized.containsKey(wonder)) sb.append(cardOrganized.get(wonder));
