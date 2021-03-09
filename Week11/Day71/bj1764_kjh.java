@@ -6,8 +6,10 @@ import java.util.ArrayList;
 import java.util.Set;
 import java.util.HashSet;
 
+//// 깔끔하고 빠릅니다
 class Main {
   public static void main(String[] args) throws Exception {
+    //// 풀이상으로는 상관없지만 unseen이랑 unheard 변수 위치가 바뀐 것 같네요 (듣도 못한 사람 먼저)
     final int unseen = Input.nextInt();
     final int unheard = Input.nextInt();
 
