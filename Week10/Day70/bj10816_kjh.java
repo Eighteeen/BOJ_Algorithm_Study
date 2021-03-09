@@ -7,10 +7,11 @@ import java.util.Arrays;
 class Main {
   public static void main(String[] args) {
     //// 해당 상수를 선언만 하고 사용하지 않은 이유가 뭘까요..? 아마 선언만 하고 까먹으신 거겠죠..?
+    //// => 들킴
     final int CARD_NUMBER_RANGE =  20000001;
     final int MAX_CARD_NUMBER = 10000000;
 
-    int[] havingCardsCount = new int[20000001];
+    int[] havingCardsCount = new int[CARD_NUMBER_RANGE];
     Arrays.fill(havingCardsCount, 0);
 
     final int N = Input.nextInt();

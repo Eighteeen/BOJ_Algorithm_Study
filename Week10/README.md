@@ -54,4 +54,4 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 10816 | [숫자 카드 2](https://www.acmicpc.net/problem/10816) | [진홍](Day70/bj10816_kjh.java) [승빈](Day70/bj10816_wsb.java) | 진홍 [승빈](Day70/bj10816_wsb_fb.java) |
+| 백준   | 10816 | [숫자 카드 2](https://www.acmicpc.net/problem/10816) | [진홍](Day70/bj10816_kjh.java) [승빈](Day70/bj10816_wsb.java) | [진홍](Day70/bj10816_kjh.java) [승빈](Day70/bj10816_wsb_fb.java) |
