@@ -16,9 +16,9 @@ class Main{
         String[] people = new String[peopleNum];
         for(int i = 0; i < peopleNum; i++) people[i] = br.readLine();
 
-        List<String> unHeardUnSeedList = overlapList(people);
-        sb.append(unHeardUnSeedList.size()).append("\n");
-        unHeardUnSeedList.forEach(u -> sb.append(u).append("\n"));
+        List<String> unHeardUnSeenList = overlapList(people);
+        sb.append(unHeardUnSeenList.size()).append("\n");
+        unHeardUnSeenList.forEach(u -> sb.append(u).append("\n"));
 
         System.out.print(sb);
         br.close();
