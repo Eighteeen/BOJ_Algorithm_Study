@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+//// 효율 깔끔
 class Main {
   public static void main(String[] args) {
     final int N = Input.nextInt();
@@ -22,6 +23,7 @@ class Main {
     return number;
   }
   
+  //// 오호 이렇게하면 효율적으로 하나씩 비교할 수 있군요 배워갑니다!!
   static boolean isSixSixSix(int number) {
     int strike = 0;
     while (number > 0) {
