@@ -4,6 +4,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
+//// 굳!
 class Main {
     static StringBuilder sb;
     static final int MAX_SIZE = 10, BASE_SIZE = 1;
@@ -25,6 +26,7 @@ class Main {
         br.close();
     }
 
+    //// 한번 만들어두면 계속 사용가능한 점이 좋은 것 같습니다 굳굳
     static void makeTriangle(int size) {
         if (triangles[size] != null) return;
 
