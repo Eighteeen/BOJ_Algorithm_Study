@@ -25,7 +25,6 @@ class Main {
         N = Integer.parseInt(classInfo[0]);
         int M = Integer.parseInt(classInfo[1]);
 
-        isPairedArr = new boolean[N + 1];
         friendsMap = new HashMap<>();
         // 입력 왼쪽에 나오는 놈 친구들을 HashMap<Integer, List<Integer>>에 담음
         for (int i = 0; i < M; i++) {
@@ -36,6 +35,7 @@ class Main {
             friendsMap.get(student1).add(student2);
         }
 
+        isPairedArr = new boolean[N + 1];
         int cntPair = maxPairFriends(1, 0);
         System.out.println(cntPair < N ? cntPair + 1 : N);
 
@@ -43,15 +43,15 @@ class Main {
     }
 
     static int maxPairFriends(int checkNum, int cnt) {
-        // 없는 놈을 탐색하고 있거나 이미 다 무대에 나갔으면 재귀호출 종료
-        if (checkNum > N || friendsMap.isEmpty()) return cnt;
+        // 이미 다 무대에 나갔으면 재귀호출 종료
+        if (checkNum > N) return cnt;
 
         int nextNum = checkNum + 1;
+        // 이놈이 짝을 못 맺는다고 가정하고 최대 짝 수를 계산해 maxPair(최대 짝 수)에 일단 넣어둠
+        int maxPair = maxPairFriends(nextNum, cnt);
         // 이놈이 친구가 없거나 이미 짝이 있다면 다음 놈 탐색
         if (!friendsMap.containsKey(checkNum) || isPairedArr[checkNum]) return maxPairFriends(nextNum, cnt);
 
-        // 이놈이 짝을 못 맺는다고 가정하고 최대 짝 수를 계산해 maxPair(최대 짝 수)에 일단 넣어둠
-        int maxPair = maxPairFriends(nextNum, cnt);
         List<Integer> friendList = friendsMap.get(checkNum);
         for (int fNum : friendList) {
             // 이놈의 친구들이랑 엮어서 짝 몇명나오나 견적내서 많이 나오는쪽을 maxPair에 담음
