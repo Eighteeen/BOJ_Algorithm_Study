@@ -38,9 +38,9 @@ class Main {
         if (checkNum > N || friendsMap.isEmpty()) return cnt;
 
         int nextNum = checkNum + 1;
-        if (!friendsMap.containsKey(checkNum) || isPairedArr[checkNum]) return maxPairFriends(nextNum, cnt);
-
         int maxPair = maxPairFriends(nextNum, cnt);
+        if (!friendsMap.containsKey(checkNum) || isPairedArr[checkNum]) return maxPair;
+
         List<Integer> friendList = friendsMap.get(checkNum);
         for (int fNum : friendList) {
             if (!isPairedArr[fNum]) {
