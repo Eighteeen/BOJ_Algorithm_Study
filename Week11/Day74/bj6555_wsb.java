@@ -25,10 +25,6 @@ class Main {
         br.close();
     }
 
-    static int verticalOfTriangle(int size) {
-        return (int) Math.pow(2, size);
-    }
-
     static void makeTriangle(int size) {
         if (triangles[size] != null) return;
 
@@ -37,14 +33,14 @@ class Main {
 
         List<StringBuilder> triangle = triangles[size] = new ArrayList<>();
         List<StringBuilder> prevTriangle = triangles[prevSize];
-        int blankNum = verticalOfTriangle(prevSize);
-        for (StringBuilder prev : prevTriangle) {
-            StringBuilder current = new StringBuilder(" ".repeat(blankNum)).append(prev);
-            triangle.add(current);
-        }
-        for (StringBuilder prev : prevTriangle) {
-            StringBuilder current = new StringBuilder(prev).append(" ".repeat(--blankNum)).append(prev);
-            triangle.add(current);
+        int cntLine = 0;
+        int frontBlankNum, midBlankNum;
+        frontBlankNum = midBlankNum = prevTriangle.size();
+        for (StringBuilder line : prevTriangle) {
+            StringBuilder top = new StringBuilder(" ".repeat(frontBlankNum)).append(line);
+            StringBuilder bottom = new StringBuilder(line).append(" ".repeat(--midBlankNum)).append(line);
+            triangle.add(cntLine++, top);
+            triangle.add(bottom);
         }
     }
 
