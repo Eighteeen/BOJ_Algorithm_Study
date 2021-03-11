@@ -4,7 +4,7 @@
 
 > [쉬어가는 문제](https://www.acmicpc.net/group/workbook/view/9797/31277)
 
-| 사이트 | 번호 | 문제                 | 답안                | Pair Programming    |
+| 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
 | 백준   | 1764    | [듣보잡](https://www.acmicpc.net/problem/1764) | [진홍](Day71/bj1764_kjh.java) [승빈](Day71/bj1764_wsb.java) | [진홍](Day71/bj1764_kjh_fb.java) [승빈](Day71/bj1764_wsb.java) |
 
