@@ -35,7 +35,7 @@ class Main {
     }
 
     static int maxPairFriends(int checkNum, int cnt) {
-        if (checkNum > N || friendsMap.isEmpty()) return cnt;
+        if (checkNum > N) return cnt;
 
         int nextNum = checkNum + 1;
         int maxPair = maxPairFriends(nextNum, cnt);
