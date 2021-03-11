@@ -18,7 +18,6 @@ class Main {
         N = Integer.parseInt(classInfo[0]);
         int M = Integer.parseInt(classInfo[1]);
 
-        isPairedArr = new boolean[N + 1];
         friendsMap = new HashMap<>();
         for (int i = 0; i < M; i++) {
             String[] friendsInfo = br.readLine().split(" ");
@@ -28,14 +27,15 @@ class Main {
             friendsMap.get(student1).add(student2);
         }
 
-        int cntPair = maxPairFriends(1, 0);
-        System.out.println(cntPair < N ? cntPair + 1 : N);
+        isPairedArr = new boolean[N + 1];
+        int maxPair = maxPairFriends(1, 0);
+        System.out.println(maxPair < N ? maxPair + 1 : N);
 
         br.close();
     }
 
     static int maxPairFriends(int checkNum, int cnt) {
-        if (checkNum > N || friendsMap.isEmpty()) return cnt;
+        if (checkNum > N) return cnt;
 
         int nextNum = checkNum + 1;
         int maxPair = maxPairFriends(nextNum, cnt);
