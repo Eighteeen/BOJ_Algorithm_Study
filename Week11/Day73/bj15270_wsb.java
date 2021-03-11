@@ -28,8 +28,8 @@ class Main {
         }
 
         isPairedArr = new boolean[N + 1];
-        int cntPair = maxPairFriends(1, 0);
-        System.out.println(cntPair < N ? cntPair + 1 : N);
+        int maxPair = maxPairFriends(1, 0);
+        System.out.println(maxPair < N ? maxPair + 1 : N);
 
         br.close();
     }
