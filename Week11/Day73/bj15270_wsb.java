@@ -6,6 +6,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+//// 짱이에요.....
 class Main {
     static int N;
     static Map<Integer, List<Integer>> friendsMap;
