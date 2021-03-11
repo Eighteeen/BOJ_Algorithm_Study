@@ -14,8 +14,8 @@ class Main {
         sb = new StringBuilder();
 
         triangles = new ArrayList[MAX_SIZE + 1];
-        int TC;
         makeBaseTriangle();
+        int TC;
         while ((TC = Integer.parseInt(br.readLine())) != 0) {
             makeTriangle(TC);
             printTriangle(TC);
