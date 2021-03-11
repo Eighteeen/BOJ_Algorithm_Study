@@ -14,7 +14,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 1436 | [영화감독 숌](https://www.acmicpc.net/problem/1436) | [진홍](Day72/bj1436_kjh.java) [승빈](Day72/bj1436_wsb.java) | [진홍](Day72/bj1436_kjh.java) 승빈 |
+| 백준   | 1436 | [영화감독 숌](https://www.acmicpc.net/problem/1436) | [진홍](Day72/bj1436_kjh.java) [승빈](Day72/bj1436_wsb.java) | [진홍](Day72/bj1436_kjh.java) [승빈](Day72/bj1436_wsb.java) |
 
 ## [73일차](Day73)
 
