@@ -5,6 +5,10 @@ import java.util.List;
 import java.util.ArrayList;
 import static java.util.stream.Collectors.joining;
 
+//// triangle 배열을 리스트형태로 만들거나(쉽지만 메모리가 많이 쓰이는 방법),
+//// 배열의 max(input이 10일 때)값에서 각 input의 시작과 끝지점을 계산하여 활용하는 등
+//// 전에 만들었던 삼각형을 활용할 수 있을 것 같은데 이미 만들었던 것도 다시 만들기 시작하는 점이 아쉽습니다.
+  //// makeTriangle 함수에서는 이미 글자가 있나 확인하는 식으로 로직을 추가하시면 이미 만든 삼각형을 재사용할 수 있을 것 같습니다.
 class Main {
   private static char[][] triangle;
 
@@ -43,11 +47,13 @@ class Main {
 
     int lowDepthSize = (int) Math.pow(2, depth - 1);
 
+    //// 재귀함수를 멋지게 활용하셨네요
     makeTriangle(depth - 1, row, col + lowDepthSize);
     makeTriangle(depth - 1, row + lowDepthSize, col);
     makeTriangle(depth - 1, row + lowDepthSize, col + lowDepthSize * 2);
   }
 
+  //// 현재 프로그램 상으로만 봤을 땐 쓰이고자 하는 배열이 전역변수랑 매개변수 변수명도 같은데 매개변수로 받는 이유가 있을까요?
   static StringBuilder drawTriangle(char[][] triangle) {
     StringBuilder sb = new StringBuilder();
 
