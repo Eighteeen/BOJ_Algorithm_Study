@@ -53,7 +53,6 @@ class Main {
     makeTriangle(depth - 1, row + lowDepthSize, col + lowDepthSize * 2);
   }
 
-  //// 현재 프로그램 상으로만 봤을 땐 쓰이고자 하는 배열이 전역변수랑 매개변수 변수명도 같은데 매개변수로 받는 이유가 있을까요?
   static StringBuilder drawTriangle(char[][] triangle) {
     StringBuilder sb = new StringBuilder();
 
