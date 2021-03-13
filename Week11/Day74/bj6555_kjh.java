@@ -15,11 +15,12 @@ import static java.util.stream.Collectors.joining;
     //// 하나의 배열로만 하는건 아예 불가능합니다. 원본이 중간에 덮어씌워질 수 밖에 없거든요
   //// => 이전 depth 배열만 저장하기
     //// 이건 효율성에 큰 차이가 없습니다
+    //// https://github.com/deepredk/BCU_Algorithm_Study/blob/main/Week08/Day54/bj16505_kjh.java
+    //// 요거랑 같은 방식이네요. 가독성이 좀 덜 합니다
   //// => 모든 depth에 대해 저장하기
     //// 이래야 효율성에 유의미한 차이가 생기는데
-    //// 이렇게하면 이전 depth에 있는 것을 세번 복사하는 형태입니다
-    //// https://github.com/deepredk/BCU_Algorithm_Study/blob/main/Week08/Day54/bj16505_kjh.java
-    //// 요것처럼 하되 이전 결과들을 모두 저장만 한다는건데
+    //// 이렇게하면 이전 depth에 있는 것을 세번 복사하는 형태일 것 같습니다
+    //// 아까 위의 링크처럼 하고 + 이전 결과들을 '모두' 저장 한다는건데
     //// void copyArray(int toDepth, int fromStartX, int fromStartY, int toStartX, int toStartY)
     //// 그럼 이런 기괴한 형태의 copyArray가 필요하게 됩니다
     //// 비록 비효율적이지만, 훨씬 가독성 좋은 현재 형태가 좋다고 생각해서 이대로 두겠습니다!
