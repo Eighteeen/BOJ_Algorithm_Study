@@ -24,7 +24,7 @@ import static java.util.stream.Collectors.joining;
     //// void copyArray(int toDepth, int fromStartX, int fromStartY, int toStartX, int toStartY)
     //// 그럼 이런 기괴한 형태의 copyArray가 필요하게 됩니다
     //// 비록 비효율적이지만, 가독성 좋은 현재 형태가 좋다고 생각해서 이대로 두겠습니다!
-    //// 저 하나의 기저사례로 모든 char들이 매꿔지는게 너무 아름다워서 바꾸기 너무 아쉬워요
+    //// 지금 재귀함수 형태가, 하나의 기저사례로 모든 char들이 매꿔지는 점이 너무 아름다워서 바꾸기 너무 아쉬워요
 class Main {
   private static char[][] triangle;
 
