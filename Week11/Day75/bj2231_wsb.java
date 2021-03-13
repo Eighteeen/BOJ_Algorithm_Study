@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
+//// 깔꼼쓰요
 class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -11,6 +12,7 @@ class Main {
     }
 
     static int getConstructor(int num) {
+        //// log(int) 해도 log10으로 알아듣는군요
         int len = (int) (Math.log(num) + 1);
         int minCandidate = num - 9 * len, maxCandidate = num - 1 * len;
         minCandidate = (minCandidate < 0 ? 1 : minCandidate);
