@@ -9,6 +9,19 @@ import static java.util.stream.Collectors.joining;
 //// 배열의 max(input이 10일 때)값에서 각 input의 시작과 끝지점을 계산하여 활용하는 등
 //// 전에 만들었던 삼각형을 활용할 수 있을 것 같은데 이미 만들었던 것도 다시 만들기 시작하는 점이 아쉽습니다.
   //// makeTriangle 함수에서는 이미 글자가 있나 확인하는 식으로 로직을 추가하시면 이미 만든 삼각형을 재사용할 수 있을 것 같습니다.
+//// => 이전 depth의 위치를 찾아내 복사하는 것
+  //// 이전 depth의 것이 다음에는 다른 위치에 존재해서
+  //// 하나의 배열로만 하는건 아예 불가능합니다. 원본이 중간에 깨질 수 밖에 없어요
+  //// => 이전 depth 배열만 저장하기?
+    //// 이건 효율성에 큰 차이가 없고
+  //// => 모든 depth에 대해 저장하기
+    //// 이래야 효율성에 유의미한 차이가 생기는데
+    //// 이렇게하면 이전 depth에 있는 것을 세번 복사하는 형태입니다
+    //// https://github.com/deepredk/BCU_Algorithm_Study/blob/main/Week08/Day54/bj16505_kjh.java
+    //// 요것처럼 하되 이전 결과들을 모두 저장만 한다는건데
+    //// void copyArray(int toDepth, int fromStartX, int fromStartY, int toStartX, int toStartY)
+    //// 그럼 이런 기괴한 형태의 copyArray가 필요하게 됩니다
+    //// 비록 비효율적이지만, 훨씬 가독성 좋은 현재 형태가 좋다고 생각해서 이대로 두겠습니다!
 class Main {
   private static char[][] triangle;
 
