@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+//// 전체적으로 무난 깔끔합니다!
 class Main {
   public static void main(String[] args) throws Exception {
     final int N = Input.nextInt();
@@ -11,6 +12,7 @@ class Main {
   static int calcLeastConstructor(int number) {
     int digits = (int) Math.log10(number) + 1;
 
+    //// number - 1 * digits 까지만 확인하면 되는데, 큰 숫자일 수록 number까지 루프를 더 많이 돌게돼서 아쉽습니다.
     for (int i = (number - 9 * digits); i < number; i++) {
       if (calcAngrySum(i) == number) {
         return i;
