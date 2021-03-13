@@ -46,7 +46,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | Pair Programming    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 2630 | [색종이 만들기](https://www.acmicpc.net/problem/2630) | 진홍승빈 | Driver 🚗 이름 & Navigator 🧭 이름 |
+| 백준   | 2630 | [색종이 만들기](https://www.acmicpc.net/problem/2630) | 진홍승빈 | Driver 🚗 진홍 & Navigator 🧭 승빈 |
 
 ## [77일차](Day77)
 
