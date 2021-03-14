@@ -4,6 +4,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
+//// 효율적입니다!
 class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -18,9 +19,11 @@ class Main {
     }
 
     static List<StringBuilder> makeStarTriangle(int size) {
+        //// size가 1, 2로 들어올 가능성은 없지아너요?
         if (size <= 3) return makeBaseStarTriangle();
 
         int prevSize = size / 2;
+        //// 재귀활용 굳
         List<StringBuilder> prevStarTriangle = makeStarTriangle(prevSize);
         List<StringBuilder> starTriangle = new ArrayList<>();
 
