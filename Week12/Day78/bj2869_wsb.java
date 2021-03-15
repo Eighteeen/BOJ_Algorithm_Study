@@ -8,6 +8,7 @@ class Main {
 
         String[] heightInfo = br.readLine().split(" ");
         int A = Integer.parseInt(heightInfo[0]), B = Integer.parseInt(heightInfo[1]), V = Integer.parseInt(heightInfo[2]);
+        //// 변수명 작명이 좋네용 쉽게 읽혔어요
         int heightExceptLastDay = V - A;
         int heightOfOneDay = A - B;
         
