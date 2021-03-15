@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+//// 깔끔합니다!
 class Main {
   static boolean[][] triangle;
 
@@ -21,6 +22,7 @@ class Main {
       return;
     }
 
+    //// 깔끔하고 멋진 재귀 활용~
     makeTriangle(height / 2, row, col + (height / 2));
     makeTriangle(height / 2, (row + height / 2), col);
     makeTriangle(height / 2, (row + height / 2), col + height);
