@@ -20,6 +20,7 @@ class Main {
 
     static List<StringBuilder> makeStarTriangle(int size) {
         //// size가 1, 2로 들어올 가능성은 없지아너요?
+        //// -> 넵 메인 프로그램 상으로만 본다면 그럴 가능성은 없지만, 현재 함수 자체로 봤을 때는 3이하의 수는 신경쓰지 않아도 된다는 느낌으로 작성했습니다!
         if (size <= 3) return makeBaseStarTriangle();
 
         int prevSize = size / 2;
