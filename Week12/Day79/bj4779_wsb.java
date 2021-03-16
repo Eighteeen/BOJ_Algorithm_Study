@@ -5,6 +5,7 @@ import java.io.InputStreamReader;
 class Main {
     static final int MAX_SIZE = 12;
     static final int BASE_SIZE = 0;
+    //// 하긴 걍 String[]로 해도 됐네요
     static String[] cantorSets;
 
     public static void main(String[] args) throws IOException {
@@ -23,6 +24,7 @@ class Main {
         br.close();
     }
 
+    //// 효율깔끔굳
     static void makeCantorSet(int size) {
         if (cantorSets[size] != null) return;
         if (size == 0) {
