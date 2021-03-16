@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+//// 깔끔합니다.
 class Main {
   public static void main(String[] args) throws Exception {
     int climb = Input.nextInt();
