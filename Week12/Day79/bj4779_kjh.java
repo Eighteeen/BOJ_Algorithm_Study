@@ -4,6 +4,7 @@ import java.util.StringTokenizer;
 import java.util.List;
 import java.util.ArrayList;
 
+//// 깔끔합니다.
 class Main {
   static List<StringBuilder> cantors;
 
@@ -22,6 +23,7 @@ class Main {
   }
 
   // 승빈씨 재활용 본받아 작업했더니 랭킹 1위 등극
+  //// 그거 제가 다시 가져갔습니다. ㅎㅎ ㅋㅋㅋㅋ 서로 배우는 모습이 너무 좋네요!
   static void makeCantor(int size) {
     if (cantors.size() > size) return;
     if (size == 0) {
