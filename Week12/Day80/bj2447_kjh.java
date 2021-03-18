@@ -13,12 +13,14 @@ class Main {
     printStars(stars);
   }
 
+  //// 와우 이렇게 많은 호출은 처음 봅니다. 정말 깔끔해졌지만 만약 문제의 3^k에서 k 범위가 높아진다면 오버플로우가 일어나진 않을까 살짝 걱정됩니다.
   static void makeStars(int size, int y, int x) {
     if (size == 1) {
       stars[y][x] = true;
       return;
     }
 
+    //// prevSize * 2 연산이 많이 쓰이는데 변수 저장 후 사용은 어때요?
     int prevSize = size / 3;
     makeStars(prevSize, y, x);
     makeStars(prevSize, y, x + prevSize);
