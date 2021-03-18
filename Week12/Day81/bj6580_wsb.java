@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+//// 깔꼼쓰
 class Main {
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     static boolean[][] photoPixels;
@@ -27,6 +28,7 @@ class Main {
         photoPixels = new boolean[size][size];
         
         for (int i = 0; i < size; i++) {
+            //// 입력은 main에서 받아 매개변수로 보내는게 더 활용성 좋았을 것 같아요!
             pixelInfo = br.readLine().split(",");
             for (int j = 0; j < convertedSize; j++) {
                 makePixels(convertHexToBinary(pixelInfo[j]), i, j * 8);
