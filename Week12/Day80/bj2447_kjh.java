@@ -14,6 +14,7 @@ class Main {
   }
 
   //// 와우 이렇게 많은 호출은 처음 봅니다. 정말 깔끔해졌지만 만약 문제의 3^k에서 k 범위가 높아진다면 오버플로우가 일어나진 않을까 살짝 걱정됩니다.
+  //// => 많아보이지만 호출횟수는 O(N^2)로 N<=10000까지는 충분히 감당가능한 알고리즘입니당
   static void makeStars(int size, int y, int x) {
     if (size == 1) {
       stars[y][x] = true;
@@ -21,6 +22,7 @@ class Main {
     }
 
     //// prevSize * 2 연산이 많이 쓰이는데 변수 저장 후 사용은 어때요?
+    //// => 피드백 감사합니다! 한번 적용해봤는데 개인적으로 느끼기에 가독성이 살짝 떨어지게 되는 것 같아 이대로 유지하려 합니다!
     int prevSize = size / 3;
     makeStars(prevSize, y, x);
     makeStars(prevSize, y, x + prevSize);
@@ -29,7 +31,7 @@ class Main {
     makeStars(prevSize, y + prevSize, x);
     makeStars(prevSize, y + prevSize, x + prevSize * 2);
     
-    makeStars(prevSize, y + prevSize * 2, x);
+    makeStars(prevSize, y + prevSize, x);
     makeStars(prevSize, y + prevSize * 2, x + prevSize);
     makeStars(prevSize, y + prevSize * 2, x + prevSize * 2);
   }
