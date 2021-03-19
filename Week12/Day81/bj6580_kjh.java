@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-//// 깔끔하니다.
+//// 깔끔합니다.
 class Main {
   static boolean[][] pixels;
 
