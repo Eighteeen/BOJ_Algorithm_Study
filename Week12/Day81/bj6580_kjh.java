@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+//// 깔끔하니다.
 class Main {
   static boolean[][] pixels;
 
@@ -30,6 +31,7 @@ class Main {
       for (int j = 0; j < 8; j++) {
         if (decimal == 0) break;
 
+        //// i * 8 연산을 for i 루프에서 저장 후 사용은 어떤가요?
         pixels[y][(i * 8) + j] = ((decimal % 2) == 1);
         decimal /= 2;
       }
