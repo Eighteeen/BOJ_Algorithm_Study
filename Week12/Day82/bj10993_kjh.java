@@ -13,14 +13,6 @@ class Main {
     stars = new boolean[rowSize][colSize];
 
     makeStars(N, 0, 0);
-
-    for (int i = 0; i < rowSize; i++) {
-      for (int j = 0; j < colSize; j++) {
-        System.out.print(stars[i][j] ? '*' : ' ');
-      }
-      System.out.println();
-    }
-
     printStars(N);
   }
 
@@ -48,7 +40,6 @@ class Main {
 
     if ((size % 2) == 0) {
       makeStars(size - 1, row + rowPrev, col + colPrev);
-      System.out.printf("makeStars(%d, %d, %d);\n", size - 1, row + rowPrev, col + colPrev);
 
       for (int i = 0; i < colSize; i++) {
         stars[row][col+i] = true; // 윗 부분
@@ -62,7 +53,6 @@ class Main {
     }
 
     rowPrev = colPrev - 1;
-    System.out.printf("makeStars(%d, %d, %d);\n", size - 1, row + rowPrev, col + colPrev);
     makeStars(size - 1, row + rowPrev, col + colPrev);
 
     for (int i = 0; i < colSize; i++) {
@@ -71,7 +61,7 @@ class Main {
     
     for (int i = 0; i < rowSize - 1; i++) {
       stars[row+i][col+rowSize-1-i] = true; // 왼쪽 대각선 테두리
-      stars[row+i][col+colSize-rowSize+i+1] = true; // 오른쪽 대각선 테두리
+      stars[row+i][col+colSize-rowSize+i] = true; // 오른쪽 대각선 테두리
     }
   }
 
@@ -97,7 +87,7 @@ class Main {
     }
 
     for (int i = 0; i < rowSize; i++) {
-      for (int j = 0; j < colSize - rowSize + i; j++) {
+      for (int j = 0; j < colSize - rowSize + i + 1; j++) {
         sb.append(stars[i][j] ? '*' : ' ');
       }
       sb.append('\n');
