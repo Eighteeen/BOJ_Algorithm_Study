@@ -30,7 +30,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 6580    | [쿼드 트리](https://www.acmicpc.net/problem/6580) | [진홍](Day81/bj6580_kjh.java) [승빈](Day81/bj6580_wsb.java) | 진홍 [승빈](Day81/bj6580_wsb_fb.java) |
+| 백준   | 6580    | [쿼드 트리](https://www.acmicpc.net/problem/6580) | [진홍](Day81/bj6580_kjh.java) [승빈](Day81/bj6580_wsb.java) | [진홍](Day81/bj6580_kjh_fb.java) [승빈](Day81/bj6580_wsb_fb.java) |
 
 ## [82일차](Day82)
 
