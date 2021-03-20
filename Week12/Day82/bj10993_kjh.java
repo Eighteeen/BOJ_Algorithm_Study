@@ -16,6 +16,7 @@ class Main {
     printStars(N);
   }
 
+  //// 사이즈까지 재귀함수라니! 활용을 많이 하셨네요.
   public static int calcRowSize(int size) {
     if (size == 1) return 1;
     return calcRowSize(size - 1) + (int) Math.pow(2, size - 1);
@@ -26,6 +27,7 @@ class Main {
     return calcColSize(size - 1) + (int) Math.pow(2, size);
   }
 
+  //// 복잡해보이기는 하지만 많은 고민을 하신 게 느껴집니다!
   public static void makeStars(int size, int row, int col) {
     if (size == 1) {
       stars[row][col] = true;
