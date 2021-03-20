@@ -18,6 +18,7 @@ class Main {
         br.close();
     }
 
+    //// 조올라 깔끔..
     static List<StringBuilder> makeStarTriangleMark(int size) {
         if (size == 1) return makeBaseStarList();
 
