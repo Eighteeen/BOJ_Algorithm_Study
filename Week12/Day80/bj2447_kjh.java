@@ -31,7 +31,7 @@ class Main {
     makeStars(prevSize, y + prevSize, x);
     makeStars(prevSize, y + prevSize, x + prevSize * 2);
     
-    makeStars(prevSize, y + prevSize, x);
+    makeStars(prevSize, y + prevSize * 2, x);
     makeStars(prevSize, y + prevSize * 2, x + prevSize);
     makeStars(prevSize, y + prevSize * 2, x + prevSize * 2);
   }
