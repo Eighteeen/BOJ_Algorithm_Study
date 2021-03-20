@@ -20,7 +20,7 @@ class Main {
             }
 
             lottoList = new ArrayList<>();
-            selectedPossibleBalls(new Lotto(), numList, 6);
+            selectedPossibleBalls(new Lotto(), numList);
             lottoList.forEach(l -> sb.append(l.toString()).append("\n"));
             sb.append("\n");
         }
@@ -29,8 +29,8 @@ class Main {
         br.close();
     }
 
-    static void selectedPossibleBalls(Lotto lotto, List<Integer> balls, int toSelect) {
-        if (toSelect == 0) {
+    static void selectedPossibleBalls(Lotto lotto, List<Integer> balls) {
+        if (lotto.isFull()) {
             lottoList.add(lotto);
             return;
         }
@@ -40,7 +40,7 @@ class Main {
             Lotto currentLotto = new Lotto(lotto);
             currentLotto.addBall(ball);
             copyBalls.remove(ball);
-            selectedPossibleBalls(currentLotto, copyBalls, toSelect - 1);
+            selectedPossibleBalls(currentLotto, copyBalls);
         }
     }
 }
@@ -67,6 +67,10 @@ class Lotto {
 
     public void addBall(int ball) {
         balls[pointer++] = ball;
+    }
+
+    public boolean isFull() {
+        return pointer == MAX_SELECT;
     }
 
     @Override
