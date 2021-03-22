@@ -1,0 +1,280 @@
+AAA
+
+CAA 1
+ moveDisc(A, C);
+
+CBA 2
+ moveDisc(A, C); CAA 1
+ moveDisc(A, B); CBA 2
+
+BBA 3
+ moveDiscs(2, A, B);
+  moveDisc(A, C); CAA 1
+  moveDisc(A, B); CBA 2
+  moveDisc(C, B); BBA 3
+
+ABA 4
+ moveDiscs(2, A, B);
+  moveDisc(A, C); CAA 1
+  moveDisc(A, B); CBA 2
+  moveDisc(C, B); BBA 3
+ moveDisc(B, A); ABA 4
+
+===========================
+
+BAA 1
+ moveDisc(A, B);
+
+BCA 2
+ moveDisc(A, B); BAA 1
+ moveDisc(A, C); BCA 2
+
+ACA 3
+ moveDisc(A, B); BAA 1
+ moveDisc(A, C); BCA 2
+ moveDisc(B, A); ACA 3
+
+CCA 3
+ moveDiscs(2, A, C);
+  moveDisc(A, B); BAA 1
+  moveDisc(A, C); BCA 2
+  moveDisc(B, C); CCA 3
+
+CCB 4
+ moveDiscs(2, A, C);
+  moveDisc(A, B); BAA 1
+  moveDisc(A, C); BCA 2
+  moveDisc(B, C); CCA 3
+ moveDisc(A, B); CCB 4
+
+BCB 5
+ moveDiscs(2, A, C);
+  moveDisc(A, B); BAA 1
+  moveDisc(A, C); BCA 2
+  moveDisc(B, C); CCA 3
+ moveDisc(A, B); CCB 4
+ moveDisc(C, B); BCB 5
+
+BAB 6
+ moveDiscs(2, A, C);
+  moveDisc(A, B); BAA 1
+  moveDisc(A, C); BCA 2
+  moveDisc(B, C); CCA 3
+ moveDisc(A, B); CCB 4
+ moveDisc(C, B); BCB 5
+ moveDisc(C, A); BAB 6
+
+AAB 7
+ moveDiscs(2, A, C); 
+  moveDisc(A, B); BAA 1
+  moveDisc(A, C); BCA 2
+  moveDisc(B, C); CCA 3
+ moveDisc(A, B); CCB 4
+ moveDiscs(2, C, A); 
+  moveDisc(C, B); BCB 5
+  moveDisc(C, A); BAB 6
+  moveDisc(B, A); AAB 7
+
+CAB 8
+ moveDiscs(2, A, C);
+  moveDisc(A, B); BAA 1
+  moveDisc(A, C); BCA 2
+  moveDisc(B, C); CCA 3
+ moveDisc(A, B); CCB 4
+ moveDiscs(2, C, A);
+  moveDisc(C, B); BCB 5
+  moveDisc(C, A); BAB 6
+  moveDisc(B, A); AAB 7
+ moveDisc(A, C); CAB 8
+
+===========================
+BAA 1
+ moveDisc(A, B);
+
+BCA 2
+ moveDisc(A, B); BAA 1
+ moveDisc(A, C); BCA 2
+
+ACA 3
+ moveDisc(A, B); BAA 1
+ moveDisc(A, C); BCA 2
+ moveDisc(B, A); ACA 3
+
+CCA 3
+ moveDiscs(2, A, C);
+  moveDisc(A, B); BAA 1
+  moveDisc(A, C); BCA 2
+  moveDisc(B, C); CCA 3
+
+CCB 4
+ moveDiscs(2, A, C);
+  moveDisc(A, B); BAA 1
+  moveDisc(A, C); BCA 2
+  moveDisc(B, C); CCA 3
+ moveDisc(A, B); CCB 4
+
+ACB 5
+ moveDiscs(2, A, C);
+  moveDisc(A, B); BAA 1
+  moveDisc(A, C); BCA 2
+  moveDisc(B, C); CCA 3
+ moveDisc(A, B); CCB 4
+ moveDisc(C, A); ACB 5
+
+ABB 6
+ moveDiscs(3, A, B);
+  moveDiscs(2, A, C);
+   moveDisc(A, B); BAA 1
+   moveDisc(A, C); BCA 2
+   moveDisc(B, C); CCA 3
+  moveDisc(A, B); CCB 4
+  moveDisc(C, A); ACB 5
+  moveDisc(C, B); ABB 6
+
+BBB 7
+ moveDiscs(3, A, B);
+  moveDiscs(2, A, C);
+   moveDisc(A, B); BAA 1
+   moveDisc(A, C); BCA 2
+   moveDisc(B, C); CCA 3
+  moveDisc(A, B); CCB 4
+  moveDiscs(2, C, B);
+   moveDisc(C, A); ACB 5
+   moveDisc(C, B); ABB 6
+   moveDisc(A, B); BBB 7
+
+CBB 8
+ moveDiscs(3, A, B);
+  moveDiscs(2, A, C);
+   moveDisc(A, B); BAA 1
+   moveDisc(A, C); BCA 2
+   moveDisc(B, C); CCA 3
+  moveDisc(A, B); CCB 4
+  moveDiscs(2, C, B);
+   moveDisc(C, A); ACB 5
+   moveDisc(C, B); ABB 6
+   moveDisc(A, B); BBB 7
+ moveDisc(B, C): CBB 8
+
+===========================
+CAA 1
+ moveDisc(A, C);
+
+CBA 2
+ moveDisc(A, C); CAA 1
+ moveDisc(A, B); CBA 2
+
+BBA 3
+ moveDiscs(2, A, B);
+  moveDisc(A, C); CAA 1
+  moveDisc(A, B); CBA 2
+  moveDisc(C, B); BBA 3
+
+BBC 4
+ moveDiscs(2, A, B); 
+  moveDisc(A, C); CAA 1 
+  moveDisc(A, B); CBA 2
+  moveDisc(C, B); BBA 3
+ moveDisc(A, C); BBC 4
+
+ABC 5
+ moveDiscs(2, A, B);
+  moveDisc(A, C); CAA 1
+  moveDisc(A, B); CBA 2
+  moveDisc(C, B); BBA 3
+ moveDisc(A, C); BBC 4
+ moveDisc(B, A); ABC 5
+
+AAC 6
+ moveDiscs(2, A, B);
+  moveDisc(A, C); CAA 1
+  moveDisc(A, B); CBA 2
+  moveDisc(C, B); BBA 3
+ moveDisc(A, C); BBC 4
+ moveDisc(B, A); ABC 5
+ moveDisc(A, B); AAC 6
+
+BAC 7
+ moveDiscs(2, A, B);
+  moveDisc(A, C); CAA 1
+  moveDisc(A, B); CBA 2
+  moveDisc(C, B); BBA 3
+ moveDisc(A, C); BBC 4
+ moveDisc(B, A); ABC 5
+ moveDisc(A, B); AAC 6
+ moveDisc(A, B); BAC 7
+
+CAC 7
+ moveDiscs(2, A, B);
+  moveDisc(A, C); CAA 1
+  moveDisc(A, B); CBA 2
+  moveDisc(C, B); BBA 3
+ moveDisc(A, C); BBC 4
+ moveDisc(B, A); ABC 5
+ moveDisc(A, B); AAC 6
+ moveDisc(A, C); CAC 7
+
+===========================
+CAA 1
+ moveDisc(A, C);
+
+CBA 2
+ moveDisc(A, C); CAA 1
+ moveDisc(A, B); CBA 2
+
+BBA 3
+ moveDiscs(2, A, B);
+  moveDisc(A, C); CAA 1
+  moveDisc(A, B); CBA 2
+  moveDisc(C, B); BBA 3
+
+BBC 4
+ moveDiscs(2, A, B); 
+  moveDisc(A, C); CAA 1 
+  moveDisc(A, B); CBA 2
+  moveDisc(C, B); BBA 3
+ moveDisc(A, C); BBC 4
+
+CBC 5
+ moveDiscs(3, A, C);
+  moveDiscs(2, A, B);
+   moveDisc(A, C); CAA 1
+   moveDisc(A, B); CBA 2
+   moveDisc(C, B); BBA 3
+  moveDisc(A, C); BBC 4
+ moveDisc(B, C): CBC 5
+
+ACC 6
+ moveDiscs(3, A, C);
+  moveDiscs(2, A, B);
+   moveDisc(A, C); CAA 1
+   moveDisc(A, B); CBA 2
+   moveDisc(C, B); BBA 3
+  moveDisc(A, C); BBC 4
+  moveDisc(B, A); ABC 5
+  moveDisc(B, C); ACC 6
+
+CCC 7
+ moveDiscs(3, A, C);
+  moveDiscs(2, A, B);
+   moveDisc(A, C); CAA 1
+   moveDisc(A, B); CBA 2
+   moveDisc(C, B); BBA 3
+  moveDisc(A, C); BBC 4
+  moveDiscs(2, B, C); 
+   moveDisc(B, A); ABC 5
+   moveDisc(B, C); ACC 6
+   moveDisc(A, C); CCC 7
+
+BCC 8
+ moveDiscs(3, A, C);
+  moveDiscs(2, A, B);
+   moveDisc(A, C); CAA 1
+   moveDisc(A, B); CBA 2
+   moveDisc(C, B); BBA 3
+  moveDisc(A, C); BBC 4
+  moveDiscs(2, B, C);
+   moveDisc(B, A); ABC 5
+   moveDisc(B, C); ACC 6
+   moveDisc(A, C); CCC 7
+ moveDisc(C, B): BCC 8

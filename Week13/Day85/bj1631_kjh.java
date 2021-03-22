@@ -3,6 +3,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 import java.util.Stack;
 
+//// 문제 풀이 실패: 어떤 상태가 와도 다 최소이동으로 접근하는 패턴을 찾을 수 없었음
 class Main {
   static final int TARGET_MOVE_INDEX;
   static int moveIndex = 0;
@@ -22,26 +23,36 @@ class Main {
       rodsLocation[i - 1] = 'A';
     }
     
-    // AAA -> CBA 등 특정상태로 이동
+    
   }
 
-  static void moveDiscs(int amount, char from, char tmp, char to) {
+  static void moveDiscs(int amount, char from, char to) {
     if (moveIndex > TARGET_MOVE_INDEX) return;
     if (amount == 1) {
-      int disc = rods[from - 'A'].pop();
-      rods[to - 'A'].push(disc);
-      discLocations[disc - 1] = to;
-
-      if (moveIndex == TARGET_MOVE_INDEX) {
-        printDiscs();
-      }
-      moveIndex++;
+      moveDisc(from, to);
       return;
     } 
 
-    moveDiscs(amount - 1, from, to, tmp);
-    movesInfo.append(from).append(' ').append(to).append('\n');
-    moveDiscs(amount - 1, tmp, from, to);
+    moveDiscs(amount - 1, from, to, anotherRod(from, to));
+    moveDisc(from, to);
+    moveDiscs(amount - 1, anotherRod(from, to), from, to);
+  }
+
+  static void moveDisc(char from, char to) {
+    if (moveIndex > TARGET_MOVE_INDEX) return;
+
+    int disc = rods[from - 'A'].pop();
+    rods[to - 'A'].push(disc);
+    discLocations[disc - 1] = to;
+
+    if (moveIndex == TARGET_MOVE_INDEX) {
+      printDiscs();
+    }
+    moveIndex++;
+  }
+
+  static char anotherRod(char from, char to) {
+    return 3 - (from - 'A') + (to - 'A') + 'A';
   }
 
   static void printDiscs() {
