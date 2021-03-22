@@ -3,6 +3,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 import java.util.Arrays;
 
+//// 전체적으로 깔끔합니다.
 class Main {
   public static void main(String[] args) throws Exception {
     StringBuilder sb = new StringBuilder();
@@ -20,6 +21,7 @@ class Main {
         continue;
       }
       
+      //// 이 밑에 있는 조건문에는 continue를 사용하지 않은 이유가 뭔가요?
       int x = Input.nextInt();
       if (methodName.equals("add")) {
         set.add(x);
