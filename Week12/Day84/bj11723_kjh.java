@@ -22,6 +22,8 @@ class Main {
       }
       
       //// 이 밑에 있는 조건문에는 continue를 사용하지 않은 이유가 뭔가요?
+      //// => methodName이 add이면서 remove일 가능성은 없으니까요!
+      //// => 위에서 continue를 쓴건 nextInt()를 하지 않게 하기 위해섭니다
       int x = Input.nextInt();
       if (methodName.equals("add")) {
         set.add(x);
