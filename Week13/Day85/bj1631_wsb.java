@@ -8,7 +8,6 @@ import java.util.List;
 class Main {
     static int N, M;
     static char[] discBars, wantBars;
-    static int checkDiscIdx;
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -20,20 +19,18 @@ class Main {
         discBars = new char[N];
         Arrays.fill(discBars, 'A');
         wantBars = br.readLine().toCharArray();
-        checkDiscIdx = N - 1;
         removeDontNeedDisc();
 
-        if (N > 0) moveTowerOfHanoi(N, 'A', getTempBar('A', wantBars[checkDiscIdx]), wantBars[checkDiscIdx]);
+        if (N > 0) moveTowerOfHanoi(N, 'A', getTempBar('A', wantBars[N - 1]), wantBars[N - 1]);
         printDiscBars();
 
         br.close();
     }
 
     static void removeDontNeedDisc() {
-        for (int i = checkDiscIdx; i >= 0; i--) {
+        for (int i = N - 1; i >= 0; i--) {
             if (discBars[i] != wantBars[i]) return;
             N--;
-            checkDiscIdx--;
         }
     }
 
@@ -56,7 +53,7 @@ class Main {
             removeDontNeedDisc();
             if (N <= aboveDisc) {
                 from = tmp;
-                to = wantBars[checkDiscIdx];
+                to = wantBars[N - 1];
                 tmp = getTempBar(from, to);
                 moveTowerOfHanoi(N, from, tmp, to);
             } else {
