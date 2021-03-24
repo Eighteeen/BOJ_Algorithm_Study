@@ -5,9 +5,7 @@ import java.util.Arrays;
 
 class Main {
     static int[][] parpers;
-    static final int ONE_LINE_CUT = 3;
-    static final int[] PAPER_CASE_ARR = {-1, 0, 1};
-    static int[] cntPapers = new int[ONE_LINE_CUT];
+    static int[] cntPapers = new int[3];
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -27,7 +25,7 @@ class Main {
 
     static void cutPaper(int size, int row, int col) {
         if (isSamePapers(size, row, col)) {
-            cntPaper(parpers[row][col]);
+            cntPapers[parpers[row][col] + 1]++;
             return;
         }
 
@@ -48,14 +46,5 @@ class Main {
             }
         }
         return true;
-    }
-
-    static void cntPaper(int paperNum) {
-        for (int i = 0; i < ONE_LINE_CUT; i++) {
-            if (PAPER_CASE_ARR[i] == paperNum) {
-                cntPapers[i]++;
-                return;
-            }
-        }
     }
 }
