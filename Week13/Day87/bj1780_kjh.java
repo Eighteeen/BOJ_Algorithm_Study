@@ -29,6 +29,7 @@ class PaperCutter {
     this.papers = papers;
 
     amount = new int[3];
+    //// 0으로 초기화 하는 건 명확히 나타내기 위해서 인가요?
     amount[0] = amount[1] = amount[2] = 0;
   }
 
@@ -36,6 +37,7 @@ class PaperCutter {
     cut(papers.length, 0, 0);
   }
 
+  //// cut()이 따로 있길래 밑에 메소드는 private이겠거니 했는데 public이네요..? 골라쓸 수 있도록 제공해주는 건가요?
   public void cut(int size, int y, int x) {
     if (areAllEqual(size, y, x)) {
       amount[papers[y][x] + 1] += 1;
@@ -45,6 +47,7 @@ class PaperCutter {
     int nextSize = size / 3;
     for (int i = 0; i < 3; i++) {
       for (int j = 0; j < 3; j++) {
+        //// nextSize * i 연산은 i loop에서 하는 건 어떤가요?
         cut(nextSize, ( y + (nextSize * i) ), ( x + (nextSize * j) ));
       }
     }
