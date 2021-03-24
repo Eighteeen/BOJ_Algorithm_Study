@@ -17,6 +17,7 @@ class Main {
         br.close();
     }
 
+    //// StringBuilder 사용하는게 여러면에서 좋네용
     static boolean canMake(String material, char toAdd) {
         String reverseMaterial = new StringBuilder(material).reverse().toString();
         if (!toMake.contains(material) && !toMake.contains(reverseMaterial)) return false;
