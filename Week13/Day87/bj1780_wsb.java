@@ -4,6 +4,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 
 class Main {
+    //// parper은 무엇의 합성어인가요
     static int[][] parpers;
     static int[] cntPapers = new int[3];
 
@@ -30,6 +31,7 @@ class Main {
         }
 
         int cutSize = size / 3;
+        //// i랑 j 자체를 더할 값으로 하는게 훨씬 깔끔해보이네요
         for (int i = 0; i < size; i += cutSize) {
             for (int j = 0; j < size; j += cutSize) {
                 cutPaper(cutSize, row + i, col + j);
