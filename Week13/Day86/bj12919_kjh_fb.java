@@ -35,7 +35,7 @@ class Main {
   
 
   //// 아래 방식처럼 reverse를 해도 성능면에서는 별 차이가 없지만, StringBuilder를 이용하시니 reverse()를 사용하는 것이 가독성면에서 좋을 것 같습니다.
-  //// 그르네요 으챂 sb쓰는거 내부함수 쓰는걸로 바꿨습니다
+  //// => 그르네요 으챂 sb쓰는거 내부함수 쓰는걸로 바꿨습니다
   static String reverseStr(String S) {
     return new StringBuilder(S).reverse().toString();
   }
