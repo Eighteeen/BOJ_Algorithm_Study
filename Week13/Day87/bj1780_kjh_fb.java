@@ -1,4 +1,3 @@
-  
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
@@ -31,6 +30,7 @@ class PaperCutter {
 
     amount = new int[3];
     //// 0으로 초기화 하는 건 명확히 나타내기 위해서 인가요?
+    //// => static 아닌건 자동 0 초기화가 안되는걸로 알아서 수동 초기화해줬습니다
     amount[0] = amount[1] = amount[2] = 0;
   }
 
@@ -39,17 +39,19 @@ class PaperCutter {
   }
 
   //// cut()이 따로 있길래 밑에 메소드는 private이겠거니 했는데 public이네요..? 골라쓸 수 있도록 제공해주는 건가요?
-  public void cut(int size, int y, int x) {
+  //// => 아뇨 ㅌㅋㅋㅋ 그게 의도된 부분이었는데 무의식적으로 이렇게 했어요 감사합니다!
+  private void cut(int size, int y, int x) {
     if (areAllEqual(size, y, x)) {
       amount[papers[y][x] + 1] += 1;
       return;
     }
 
+    //// nextSize * i 연산은 i loop에서 하는 건 어떤가요?
+    //// => 넹 그게 훨씬 가독성 좋은거같아요! 반영했습니다
     int nextSize = size / 3;
-    for (int i = 0; i < 3; i++) {
-      for (int j = 0; j < 3; j++) {
-        //// nextSize * i 연산은 i loop에서 하는 건 어떤가요?
-        cut(nextSize, ( y + (nextSize * i) ), ( x + (nextSize * j) ));
+    for (int ySize = 0; ySize < nextSize * 3; ySize += nextSize) {
+      for (int xSize = 0; xSize < nextSize * 3; xSize += nextSize) {
+        cut(nextSize, y + ySize, x + xSize);
       }
     }
   }
