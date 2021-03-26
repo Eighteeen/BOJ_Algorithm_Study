@@ -20,6 +20,7 @@ class Main {
     }
 
     static int calcBrakets() {
+        //// 사소한 디테일이지만 isAllChecked 어떤가요
         if (isAllCheck()) return 0;
 
         int calc = 1;
@@ -60,6 +61,8 @@ class Main {
         return checkIdx == brackets.length();
     }
 
+    //// 함수 이름만 봤을땐 Item을 pop만 한다면서요! 같은지 비교도 하네요
+    //// pop만 충실히 해주고 pop한 값을 반환해주는 함수로 쓰는건 어때요?
     static boolean popItem(char item, Stack<Character> stack) {
         if (stack.isEmpty() || stack.peek() != item) return false;
         stack.pop();
