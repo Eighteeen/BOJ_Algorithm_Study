@@ -42,11 +42,11 @@
 
 ## [90일차](Day90) : Pairing Day
 
-> [문제집 설명](문제집링크)
+> [재귀함수 활용 문제](https://www.acmicpc.net/group/workbook/view/9797/32147)
 
 | 사이트 | 번호 | 문제                 | 답안                | Pair Programming    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 0    | [문제이름](문제링크) | 진홍승빈 | Driver 🚗 진홍 & Navigator 🧭 승빈 |
+| 백준   | 5904 | [Moo 게임](https://www.acmicpc.net/problem/5904) | 진홍승빈 | Driver 🚗 진홍 & Navigator 🧭 승빈 |
 
 ## [91일차](Day91)
 
