@@ -3,6 +3,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 import java.util.Stack;
 
+//// 무난하게 짜신 것 같습니다.
 class Main {
   public static void main(String[] args) throws Exception {
     final String BRACKETS = Input.nextLine();
