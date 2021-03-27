@@ -9,6 +9,7 @@ class Main {
     static final int MIN_RESULT = 1, MAX_RESULT = (int) Math.pow(2, MAX_NUM);
     static int[][][] resultArr;
 
+    //// main 깔꼼해요~
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringBuilder sb = new StringBuilder();
