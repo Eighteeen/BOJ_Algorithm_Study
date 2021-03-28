@@ -38,7 +38,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 9184    | [신나는 함수 실행](https://www.acmicpc.net/problem/9184) | [진홍](Day89/bj9184_kjh.java) [승빈](Day89/bj9184_wsb.java) | 진홍 승빈 |
+| 백준   | 9184    | [신나는 함수 실행](https://www.acmicpc.net/problem/9184) | [진홍](Day89/bj9184_kjh.java) [승빈](Day89/bj9184_wsb.java) | [진홍](Day89/bj9184_kjh.java) 승빈 |
 
 ## [90일차](Day90) : Pairing Day
 
