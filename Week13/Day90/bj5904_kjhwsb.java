@@ -15,8 +15,6 @@ class Main {
   }
 
   static boolean isM(int n) {
-    System.out.printf("isM(%d);", n);
-
     if (n == N) return true;
     if (n > N) return false;
 
