@@ -11,24 +11,24 @@ class Main {
             System.out.println(-1);
         } else {
             StringBuilder sb = new StringBuilder();
-            for (int buttonPress : minButtonsPress(T)) sb.append(buttonPress).append(" ");
+            for (int pressNum : minPressButtons(T)) sb.append(pressNum).append(" ");
             System.out.println(sb);
         }
 
         br.close();
     }
 
-    static int[] minButtonsPress(int cookingTime) {
-        int[] buttonsPress = new int[3];
+    static int[] minPressButtons(int cookingTime) {
+        int[] pressNums = new int[3];
         
-        buttonsPress[0] = cookingTime / 300;
-        cookingTime -= buttonsPress[0] * 300;
+        pressNums[0] = cookingTime / 300;
+        cookingTime -= pressNums[0] * 300;
 
-        buttonsPress[1] = cookingTime / 60;
-        cookingTime -= buttonsPress[1] * 60;
+        pressNums[1] = cookingTime / 60;
+        cookingTime -= pressNums[1] * 60;
 
-        buttonsPress[2] = cookingTime / 10;
+        pressNums[2] = cookingTime / 10;
 
-        return buttonsPress;
+        return pressNums;
     }
 }
