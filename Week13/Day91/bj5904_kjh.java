@@ -8,6 +8,9 @@ class Main {
   public static void main(String[] args) throws Exception {
     final int N = Input.nextInt();
 
+    //// 아예 수를 계산하여 변수 설정을 해야하는 점이 아쉽습니다.
+    //// 특히 MAX_RANGE_END 변수의 경우에 정확히 수를 계산해야하고 문제없이 코드만 봤을 때 무슨 수인지 쉽게 유추할 수 없다는 점이 아쉽습니다.
+    //// 미리 한계치를 계산하지 않는 방법으로도 풀이해보시면 좋을 것 같습니다.
     final int MAX_STEP = 27;
     final int MAX_RANGE_START = 1;
     final int MAX_RANGE_END = 1073741792;
@@ -17,6 +20,7 @@ class Main {
   static char searchNthMoo(int target, int step, int rangeStart, int rangeEnd) {
     int numberOfChars = rangeEnd - rangeStart + 1;
     
+    //// 해당 조건문 없이 솔브됩니다.
     if (numberOfChars == 3) {
       return (rangeStart == target) ? 'm' : 'o';
     }
