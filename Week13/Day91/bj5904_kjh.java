@@ -20,7 +20,7 @@ class Main {
   static char searchNthMoo(int target, int step, int rangeStart, int rangeEnd) {
     int numberOfChars = rangeEnd - rangeStart + 1;
     
-    //// 해당 조건문 없이 솔브됩니다.
+    //// 해당 조건문이 없어도 솔브됩니다.
     if (numberOfChars == 3) {
       return (rangeStart == target) ? 'm' : 'o';
     }
