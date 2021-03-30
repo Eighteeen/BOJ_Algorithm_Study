@@ -20,9 +20,8 @@ class Main {
   }
 
   static String compress(int size, int row, int col) {
-    boolean head = pixels[row][col];
     if (areAllEqual(size, row, col)) {
-      return head ? "1" : "0";
+      return pixels[row][col] ? "1" : "0";
     }
 
     StringBuilder sb = new StringBuilder();
