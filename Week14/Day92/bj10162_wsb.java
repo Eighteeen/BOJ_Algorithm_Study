@@ -9,6 +9,7 @@ class Main {
         int T = Integer.parseInt(br.readLine());
         if (T % 10 != 0) {
             System.out.println(-1);
+            //// 여기다가 return 넣어주고 else문 없애서 더 깔끔하게 하는건 어때요
         } else {
             StringBuilder sb = new StringBuilder();
             for (int pressNum : minPressButtons(T)) sb.append(pressNum).append(" ");
@@ -18,6 +19,7 @@ class Main {
         br.close();
     }
 
+    //// 훨씬 깔끔하네요 ㄷㄷ 굳
     static int[] minPressButtons(int cookingTime) {
         int[] pressNums = new int[3];
         
