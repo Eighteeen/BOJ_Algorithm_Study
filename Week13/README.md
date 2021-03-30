@@ -54,4 +54,4 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 5904    | [Moo 게임](https://www.acmicpc.net/problem/5904) | [진홍](Day91/bj5904_kjh.java) [승빈](Day91/bj5904_wsb.java) | 진홍 승빈 |
+| 백준   | 5904    | [Moo 게임](https://www.acmicpc.net/problem/5904) | [진홍](Day91/bj5904_kjh.java) [승빈](Day91/bj5904_wsb.java) | [진홍](Day91/bj5904_kjh_fb.java) 승빈 |
