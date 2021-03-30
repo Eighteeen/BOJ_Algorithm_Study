@@ -41,15 +41,11 @@ class Main {
 
   static boolean areAllEqual(int size, int row, int col) {
     boolean head = pixels[row][col];
-
     for (int i = row; i < row + size; i++) {
       for (int j = col; j < col + size; j++) {
-        if (pixels[i][j] != head) {
-          return false;
-        }
+        if (pixels[i][j] != head) return false;
       }
     }
-
     return true;
   }
 }
