@@ -4,6 +4,7 @@ import java.util.StringTokenizer;
 import java.util.List;
 import java.util.ArrayList;
 
+//// 무난합니다.
 class Main {
   public static void main(String[] args) throws Exception {
     int T = Input.nextInt();
