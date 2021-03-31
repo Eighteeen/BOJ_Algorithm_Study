@@ -2,9 +2,11 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+//// 전체적으로 가독성이 정말 좋은 것 같습니다
 class Main {
     static boolean[][] videoPixels;
     
+    //// main 깔꼼해요~
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
