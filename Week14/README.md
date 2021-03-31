@@ -30,7 +30,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 1662    | <img src="https://d2gd6pc034wcta.cloudfront.net/tier/11.svg" style="width: 1em; height: 1em; display: inline;">[압축](https://www.acmicpc.net/problem/1662) | 진홍 승빈 | 진홍 승빈 |
+| 백준   | 1662    | <img src="https://d2gd6pc034wcta.cloudfront.net/tier/11.svg" width="1em" height="1em">[압축](https://www.acmicpc.net/problem/1662) | 진홍 승빈 | 진홍 승빈 |
 
 ## [96일차](Day96)
 
