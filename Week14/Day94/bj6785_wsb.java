@@ -37,7 +37,7 @@ class Main {
         return false;
     }
 
-    //// CrystalPostion과 CrystalInImage의 작명만 보고서는 어떤 점이 다른건지 쉽게 알기 어려워쓰요 ㅠ
+    //// CrystalPostion과 CrystalInImage의 작명만 보고서는 둘이 어떤 점이 다른건지 쉽게 알기 어려워쓰요 ㅠ
     //// isInLargerSquare이라던가 하는식으로 더 구체적인 작명이었으면 좋았을 것 같아요!
     static boolean isCrystalPosition(int gridSize, int x, int y) {
         //// 오 piece 작명 되게 좋은거같아요
