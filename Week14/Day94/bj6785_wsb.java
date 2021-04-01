@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
+//// 진짜 항상 효율면에서는 태클걸 게 없네요
 class Main {
     static final int BASIC_GRID = 5;
 
