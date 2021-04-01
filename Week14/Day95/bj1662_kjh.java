@@ -4,8 +4,6 @@ import java.util.StringTokenizer;
 import java.util.Stack;
 
 class Main {
-  static int idx = 0;
-
   public static void main(String[] args) throws Exception {
     final String COMPRESSED = Input.nextLine();
 
