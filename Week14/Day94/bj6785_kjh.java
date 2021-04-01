@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+//// 전체적으로 깔끔합니다.
 class Main {
   public static void main(String[] args) throws Exception {
     final int TEST_CASE = Input.nextInt();
@@ -24,12 +25,14 @@ class Main {
 
     int prevSize = (int) Math.pow(5, level - 1);
 
+    //// row >= prevSize 조건은 체크할 필요가 없네요.
     boolean isInLargerSquare = (col >= prevSize && col < prevSize * 4 && row < prevSize)
       || (col >= prevSize * 2 && col < prevSize * 3 && row >= prevSize && row < prevSize * 2);
     
     if (isInLargerSquare) return true;
     if (level == 1) return false;
 
+    //// 사소하지만 첫번째 호출문에서는 level - 1 로 작성하시고 두번째, 세번째 호출문에서는 level -1 이렇게 작성하셨네요. (불-편 ㅋㅋ)
     boolean isInPrevRepeat = isCrystal(level - 1, row - prevSize, col - prevSize) ||
       isCrystal(level -1, row - prevSize * 2, col - prevSize * 2) ||
       isCrystal(level -1, row - prevSize, col - prevSize * 3);
