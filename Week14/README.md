@@ -14,7 +14,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 1992    | [쿼드트리](https://www.acmicpc.net/problem/1992) | [진홍](Day93/bj1992_kjh.java) [승빈](Day93/bj1992_wsb.java) | [진홍](Day93/bj1992_kjh.java) 승빈 |
+| 백준   | 1992    | [쿼드트리](https://www.acmicpc.net/problem/1992) | [진홍](Day93/bj1992_kjh.java) [승빈](Day93/bj1992_wsb.java) | [진홍](Day93/bj1992_kjh.java) [승빈](Day93/bj1992_wsb.java) |
 
 ## [94일차](Day94)
 
