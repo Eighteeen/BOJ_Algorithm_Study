@@ -42,11 +42,11 @@
 
 ## [97일차](Day97) : Pairing Day
 
-> [문제집 설명](문제집링크)
+> [재귀함수 활용 문제](https://www.acmicpc.net/group/workbook/view/9797/32420)
 
 | 사이트 | 번호 | 문제                 | 답안                | Pair Programming    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 0    | [문제이름](문제링크) | 진홍승빈 | Driver 🚗 승빈 & Navigator 🧭 진홍 |
+| 백준   | 20164    | [홀수 홀릭 보석](https://www.acmicpc.net/problem/20164) | 진홍승빈 | Driver 🚗 승빈 & Navigator 🧭 진홍 |
 
 ## [98일차](Day98)
 
