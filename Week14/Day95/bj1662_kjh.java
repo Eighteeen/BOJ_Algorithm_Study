@@ -30,19 +30,24 @@ class Decompressor {
     return length;
   }
 
+  //// isNumeric 조건문에서 next를 구하고 그 후에 다시 메소드에 들어오면 또 그 문자를 확인하고,
+  //// isOpening 조건문에서 이미 확인했던 문자를 다시 확인하는 부분에서 알고리즘이 깔끔하게 느껴지지 않아 아쉬웠습니다.
   private int calcLengthOfABunch() {
     if (idx >= compressed.length()) return 0;
     
+    //// 어떤 문자이든 idx++ 연산을 해주니 current 부분에서 ++ 연산을 하고 previous 부분에서 - 2를 해주는 게 깔끔할 것 같습니다.
     char current = compressed.charAt(idx);
     if (isNumeric(current)) {
       idx++;
       if (idx == compressed.length()) return 1;
       char next = compressed.charAt(idx);
+      //// 최대 세가지 조건문을 거칠 필요 없이 isOpening에 대해 return 0을 하고 밑에 return 1을 해주면 더 깔끔할 것 같아요.
       if (isNumeric(next) || isClosing(next)) return 1;
       if (isOpening(next)) return 0;
     }
 
     if (isOpening(current)) {
+      //// 변수 설정 부분에서 int형 변수로 toInt를 사용하는 게 더 깔끔할 것 같아요.
       char previous = compressed.charAt(idx - 1);
       idx++;
       stack.push('(');
