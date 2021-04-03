@@ -48,7 +48,7 @@ class Decompressor {
       if (idx == compressed.length()) return 1;
       char next = compressed.charAt(idx);
       //// 최대 세가지 조건문을 거칠 필요 없이 isOpening에 대해 return 0을 하고 밑에 return 1을 해주면 더 깔끔할 것 같아요.
-      //// => 요것도 메서드명을 달리한것에 사고가 갇혀서 미처 짚지 못했네요
+      //// => 요것도 메서드명을 달리한 것 때문에 (의 반대는 )인걸 마처 짚지 못했네요
       if (isOpening(next)) return 0;
       if (isNumeric(next)) return 1;
     }
