@@ -52,6 +52,7 @@ class Balance {
         if (cntOpen == 0) return checkLen;
 
         isCheckMaterials[row][col] = true;
+        //// 바로 57줄 내용 대입해도 무방합니다!
         int maxLen = 0;
         maxLen = Math.max(maxLen, maxPerfectlyBalanceLen(row - 1, col, checkLen, cntOpen));
         maxLen = Math.max(maxLen, maxPerfectlyBalanceLen(row + 1, col, checkLen, cntOpen));
