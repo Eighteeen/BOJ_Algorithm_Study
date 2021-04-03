@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+//// 깔끔합니다.
 class Main {
   public static void main(String[] args) throws Exception {
     final int SHOES_BOARD_SIZE = Input.nextInt();
@@ -20,6 +21,8 @@ class ShoesBoard {
   private final boolean OPEN = true;
   private final boolean CLOSE = false;
 
+  //// isOpening, isClosing과 함께 할 때에 뜻을 알아보긴 하지만 shoes 자체 변수명을 보고 무엇을 저장하는지 한번에 알기 어려웠어요.
+  //// open을 기준으로 true값을 저장하니 단순히 shoes보다는 openShoes, isLeftShoes 등으로 정의하면 알아보기 더 편할 것 같습니다.
   private boolean[][] shoes;
   private int size;
 
