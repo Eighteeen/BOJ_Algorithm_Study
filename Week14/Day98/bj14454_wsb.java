@@ -22,7 +22,7 @@ class Main {
         
         long nthRotated = nthRotated(nthLetter);
         if (nthLetter == nthRotated) return nthLetterInCode(nthLetter - 1);
-        else return nthLetterInCode(nthLetter - nthRotated);
+        return nthLetterInCode(nthLetter - nthRotated);
     }
 
     static long nthRotated(long nthLetter) {
