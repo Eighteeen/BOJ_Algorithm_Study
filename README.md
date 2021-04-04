@@ -66,7 +66,7 @@
 > [BCU_Algorithm_Study 문제집](https://www.acmicpc.net/group/workbook/list/9797)
 
 <details>
-  <summary>단순 구현 (1주차 ~ 3주차)</summary>
+  <summary><strong>단순 구현</strong> (1주차 ~ 3주차)</summary>
   
   ### [1주차](Week01)
   * 입출력이 정직한 기초적인 구현 문제
@@ -80,7 +80,7 @@
   * 해석이 필요한 문제
 </details>
 <details>
-  <summary>스택, 큐, 덱 (4주차 ~ 7주차)</summary>
+  <summary><strong>스택, 큐, 덱</strong> (4주차 ~ 7주차)</summary>
 
   ### [4주차](Week04)
   > 이론 : [스택, 큐, 덱](Week04/reference/kjh.pdf)  
@@ -103,7 +103,7 @@
 
 </details>
 <details>
-  <summary>재귀 (8주차 ~)</summary>
+  <summary><strong>재귀</strong> (8주차 ~)</summary>
   
   ### [8주차](Week08)
   > 이론 : [재귀함수](Week08/reference/wsb.pdf)  
