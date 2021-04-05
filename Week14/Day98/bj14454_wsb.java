@@ -33,7 +33,7 @@ class Main {
         return (long) (Math.pow(2, repetition(nthLetter) - 1) * baseLen) + 1; //// 누구보다 수학을 사랑하시는 승빈씨..
     }
 
-    //// nthLetter를 어떻게 반복하는거고 왜 int로 반환되는지 이름만으로 알기 어려운 것 같아요
+    //// nthLetter를 어떻게 반복(repetition)하는거고 왜 int로 반환되는지 이름만으로 알기 어려운 것 같아요
     static int repetition(long nthLetter) {
         return (int) Math.ceil(Math.log(nthLetter / baseLen) / Math.log(2));
     }
