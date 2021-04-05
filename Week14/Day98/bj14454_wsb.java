@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 //// 전체적으로 코드가 깔끔해서 좋았습니다
+//// Math Math Math가 난무해서 제 머리로는 어떤 원리로 돌아가는지는 이해할 수 없었읍니다..
 class Main {
     static float baseLen;
 
