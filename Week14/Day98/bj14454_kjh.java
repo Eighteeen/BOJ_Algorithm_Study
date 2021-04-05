@@ -10,8 +10,11 @@ class Main {
     System.out.print(nthOfCode(BASE_CODE, N, 0));
   }
 
+  //// baseCode가 함수 안에서 가공되는 게 아니라서 static 변수로 len을 사용하는 것도 좋을 것 같습니다.
+  //// 하지만 함수 인자로 code를 받는 것 자체를 의도했다면 이것도 좋을 것 같아요.
   static char nthOfCode(String baseCode, long n, int step) {
     int len = baseCode.length();
+    //// step == 0 조건을 지워도 정상 작동 됩니다.
     if (step == 0 && n <= len) {
       return baseCode.charAt((int) n - 1);
     }
@@ -26,6 +29,7 @@ class Main {
 
     n -= prevSize;
     if (n == 1) return nthOfCode(baseCode, prevSize, step - 1);
+    //// n == 2 조건문 없이도 똑같이 작동합니다.
     if (n == 2) return nthOfCode(baseCode, 1, step - 1);
     return nthOfCode(baseCode, n - 1, step - 1);
   }
