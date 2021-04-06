@@ -12,6 +12,7 @@ class Main {
         br.close();
     }
 
+    //// 재귀 ㅋㅋ 굿
     static int getNumInFibonacci(int wonderIdx, int firstNum, int sencondNum) {
         if (wonderIdx == 0) return firstNum;
         return getNumInFibonacci(wonderIdx - 1, sencondNum, firstNum + sencondNum);
