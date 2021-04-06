@@ -1,11 +1,16 @@
+//// 문제풀이 실패 : 메모리 초과 해결방안을 찾지 못함
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 import java.util.Stack;
 import java.util.List;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Set;
 import java.util.TreeSet;
+import java.lang.Comparable;
+import java.util.Comparator;
 
 class Main {
   public static void main(String[] args) throws Exception {
@@ -21,16 +26,16 @@ class Expression {
   private String expression;
   private List<Bracket> havingBrackets;
 
-  private List<List<Bracket>> combinationsOfExcepting;
+  private Set<String> combinationsOfRemovingBrackets;
 
   public Expression(String expression) {
     this.expression = expression;
 
     havingBrackets = new ArrayList<>();
     initializeHavingBrackets();
-    sortBrackets();
+    Collections.sort(havingBrackets, Comparator.reverseOrder());
     
-    combinationsOfExcepting = new ArrayList<>();
+    combinationsOfRemovingBrackets = new TreeSet<String>();
   }
 
   private void initializeHavingBrackets() {
@@ -47,58 +52,57 @@ class Expression {
     }
   }
 
-  private void sortBrackets() {
-    List<Bracket> sortedBrackets = new ArrayList<>();
-
-    for (int i = 0; i < expression.length(); i++) {
-      char letter = expression.charAt(i);
-      if (letter != '(' && letter != ')') continue; 
-
-      for (Bracket bracket : havingBrackets) {
-        if (bracket.includes(i) && !sortedBrackets.contains(bracket)) {
-          sortedBrackets.add(0, bracket);
-          break;
-        }
-      }
-    }
-
-    havingBrackets = sortedBrackets;
-  }
-
   public void makeCombinations() {
     for (int i = 1; i <= havingBrackets.size(); i++) {
-      makeCombinations(i, new ArrayList<Bracket>(), 0);
-    }
-  }
-
-  public void makeCombinations(int toExcept, List<Bracket> excepted, int exceptFrom) {
-    if (toExcept == excepted.size()) {
-      combinationsOfExcepting.add(excepted);
-      return;
-    }
-
-    int leftExcepting = toExcept - excepted.size();
-    for (int i = exceptFrom; i <= havingBrackets.size() - leftExcepting; i++) {
-      Bracket toExceptBracket = havingBrackets.get(i);
-
-      excepted.add(toExceptBracket);
-      makeCombinations(toExcept - 1, excepted, i + 1);
-      excepted.remove(toExceptBracket);
+      makeCombinationsOfRemovingBrackets(i, new ArrayList<Bracket>());
     }
   }
 
   public void printCombinations() {
     StringBuilder sb = new StringBuilder();
 
-    combinationsOfExcepting.stream()
+    combinationsOfRemovingBrackets.stream()
       .forEach(combination -> sb.append(combination).append('\n'));
 
     System.out.print(sb);
   }
 
+  private void makeCombinationsOfRemovingBrackets(int toExcept, List<Bracket> bracketsToExcept) {
+    if (toExcept == bracketsToExcept.size()) {
+      combinationsOfRemovingBrackets.add(exceptBrackets(bracketsToExcept));
+      return;
+    }
+
+    for (int i = 0; i < havingBrackets.size(); i++) {
+      Bracket toExceptBracket = havingBrackets.get(i);
+      if (bracketsToExcept.contains(toExceptBracket)) continue;
+
+      bracketsToExcept.add(toExceptBracket);
+      makeCombinationsOfRemovingBrackets(toExcept, bracketsToExcept);
+      bracketsToExcept.remove(bracketsToExcept.size() - 1);
+    }
+  } 
+
+  private String exceptBrackets(List<Bracket> brackets) {
+    List<Integer> exceptIndicies = new ArrayList<>();
+
+    for (Bracket bracket : brackets) {
+      exceptIndicies.add(bracket.getStartIndex());
+      exceptIndicies.add(bracket.getEndIndex());
+    }
+
+    StringBuilder exceptedExpression = new StringBuilder();
+    String expression = this.expression;
+    for (int i = 0; i < expression.length(); i++) {
+      if (exceptIndicies.contains(i)) continue;
+      exceptedExpression.append(expression.charAt(i));
+    }
+
+    return exceptedExpression.toString();
+  }
 }
 
-class Bracket {
+class Bracket implements Comparable<Bracket> {
   private int openIndex;
   private int closeIndex;
 
@@ -107,21 +111,21 @@ class Bracket {
     this.closeIndex = closeIndex;
   }
 
-  public int getOpenIndex() {
+  public int getStartIndex() {
     return openIndex;
   }
 
-  public int getCloseIndex() {
+  public int getEndIndex() {
     return closeIndex;
   }
 
-  public boolean includes(int index) {
-    return openIndex == index || closeIndex == index;
+  public int sumIndicies() {
+    return openIndex + closeIndex;
   }
 
   @Override
-  public boolean equals(Object o) {
-    return ((Bracket) o).getOpenIndex() == openIndex && ((Bracket) o).getCloseIndex() == closeIndex;
+  public int compareTo(Bracket bracket) {
+    return this.sumIndicies() - bracket.sumIndicies();
   }
 }
 
