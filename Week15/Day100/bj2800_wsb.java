@@ -60,10 +60,10 @@ class Main {
         return formulaSet;
     }
 
-    static Set<String> combineStringSet(Set<String> set, String toAddStr) {
+    static Set<String> combineStringSet(Set<String> set, String toAdd) {
         Set<String> resultSet = new HashSet<>();
         for (String str : set) {
-            resultSet.add(new StringBuilder(str).append(toAddStr).toString());
+            resultSet.add(new StringBuilder(str).append(toAdd).toString());
         }
         return resultSet;
     }
