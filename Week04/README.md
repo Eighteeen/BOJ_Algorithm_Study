@@ -1,7 +1,4 @@
 # Week04
-> 스택, 큐, 덱
-* 발표자료 [진홍](reference/kjh.pdf)
-* 정리자료 [승빈](reference/wsb.pdf) [예은](reference/lye.pdf)
 
 ## [22일차](Day22) : Pairing Day
 
@@ -10,6 +7,10 @@
 | 사이트 | 번호 | 문제                 | 답안                | Pair Programming    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
 | 백준   | 8958    | [OX퀴즈](https://www.acmicpc.net/problem/8958) | [진홍승빈예은](Day22/bj8958_kjhwsblye.java) | Driver 🚗 승빈 & Navigator 🧭 진홍, 예은 |
+
+> 스택, 큐, 덱
+* 발표자료 [진홍](reference/kjh.pdf)
+* 정리자료 [승빈](reference/wsb.pdf) [예은](reference/lye.pdf)
 
 ## [23일차](Day23)
 
