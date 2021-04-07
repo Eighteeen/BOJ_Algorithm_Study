@@ -30,6 +30,7 @@ class Main {
         br.close();
     }
 
+    //// 함수이름으로 getFormulaSetCanBeMade은 어때요
     static Set<String> canMakeFormulaSet() {
         Set<String> formulaSet = new HashSet<>();
         StringBuilder sb = new StringBuilder();
