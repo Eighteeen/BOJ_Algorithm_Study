@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+//// 무난 깔끔합니다.
 class Main {
   static int totalDistanceMoved;
 
@@ -46,6 +47,7 @@ class Main {
   static void skew(int[] items, int beginIdx, int middleIdx, int endIdx) {
     int eachPartitionSize = endIdx - middleIdx;
 
+    //// 해당 조건문을 상단에 올리는 건 어때요? 해당 조건문 통과면 eachPartitionSize를 구할 필요없으니까요.
     if (items[beginIdx] < items[middleIdx + 1]) return;
 
     for (int i = 0; i < eachPartitionSize; i++) {
