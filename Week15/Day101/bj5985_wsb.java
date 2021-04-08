@@ -26,6 +26,7 @@ class Main {
         br.close();
     }
 
+    //// 자바 유틸 사용해서 씸플하게 잘 구현하신 것 같습니다
     static int[] skewedSortArr(int[] arr) {
         int len = arr.length;
         if (len == 1) return arr;
@@ -39,6 +40,7 @@ class Main {
         return mergeArr(secondArr, firstArr);
     }
 
+    //// IntStream 이렇게도 쓸 수 있군요
     static int[] mergeArr(int[] firstArr, int[] secondArr) {
         return IntStream.concat(IntStream.of(firstArr), IntStream.of(secondArr)).toArray();
     }
