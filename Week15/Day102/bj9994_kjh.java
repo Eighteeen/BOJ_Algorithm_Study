@@ -13,6 +13,7 @@ class Main {
     String[] decrypted = decrypt(encrypted);
     if (decrypted[0].equals("") && decrypted[1].equals("")) return 0;
 
+    //// decrypt 함수 내에서 체크를 한 후 똑같은 작업을 또 하게되는 점이 아쉽게 느껴집니다.
     int countIfCodeInLeft = countEncryptionWayFromDecryptedToEncrypted(decrypted[0], encrypted);
     int countIfCodeInRight = countEncryptionWayFromDecryptedToEncrypted(decrypted[1], encrypted);
 
@@ -20,6 +21,7 @@ class Main {
       countIfCodeInRight * (1 + countEncryptionWay(decrypted[1]));
   }
 
+  //// 정말 최선의 함수 이름이었나요...? 매개변수도 다르고 매개변수 이름으로도 충분히 의미가 전달된다고 보여서 countEncryptionWay 오버로딩으로 사용해도 좋을 것 같습니다.
   static int countEncryptionWayFromDecryptedToEncrypted(String decrypted, String encrypted) {
     if (decrypted.equals("")) return 0;
 
