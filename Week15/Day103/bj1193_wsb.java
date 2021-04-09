@@ -7,7 +7,7 @@ class Main {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         int X = Integer.parseInt(br.readLine());
-        int molecule = 1, denominator = 1;
+        int numerator = 1, denominator = 1;
         int leftNth = 1, downNth = 1;
 
         while (X > leftNth && X > downNth) {
@@ -15,26 +15,26 @@ class Main {
             else leftNth++;
             denominator++;
 
-            if (molecule % 2 == 1) downNth += molecule * 2;
+            if (numerator % 2 == 1) downNth += numerator * 2;
             else downNth++;
-            molecule++;
+            numerator++;
         }
 
         if (leftNth < downNth) {
-            molecule = 1;
+            numerator = 1;
             for (int i = leftNth; i < X; i++) {
-                molecule++;
+                numerator++;
                 denominator--;
             }
         } else {
             denominator = 1;
             for (int i = downNth; i < X; i++) {
                 denominator++;
-                molecule--;
+                numerator--;
             }
         }
 
-        System.out.printf("%d/%d\n", molecule, denominator);
+        System.out.printf("%d/%d\n", numerator, denominator);
         br.close();
     }
 }
