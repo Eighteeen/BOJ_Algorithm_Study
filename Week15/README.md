@@ -30,7 +30,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 9994 | [Secret Code](https://www.acmicpc.net/problem/9994) | [진홍](Day102/bj9994_kjh.java) [승빈](Day102/bj9994_wsb.java) | 진홍 [승빈](Day102/bj9994_wsb.java) |
+| 백준   | 9994 | [Secret Code](https://www.acmicpc.net/problem/9994) | [진홍](Day102/bj9994_kjh.java) [승빈](Day102/bj9994_wsb.java) | [진홍](Day102/bj9994_kjh_fb.java) [승빈](Day102/bj9994_wsb.java) |
 
 ## [103일차](Day103)
 
