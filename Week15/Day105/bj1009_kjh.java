@@ -18,6 +18,8 @@ class Main {
     System.out.print(sb);
   }
 
+  //// 무난하고 간단하게 짜신 것 같습니다.
+  //// 하지만 어느지점 부터는 일의 자리수가 반복된다는 점을 이용하면 시간적 측면에서 훨씬 효율적으로 바꿀 수 있어 이점을 이용해보시면 좋을 것 같습니다!
   static int getLastComputer(int a, int b) {
     int lastComputer = 1;
 
