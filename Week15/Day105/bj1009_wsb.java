@@ -10,6 +10,7 @@ import java.util.List;
 
 //// 근데 개인적으로 좀 읽기 어려웠어요 ㅠㅠ
 //// List는 왜 쓰는건지, 왜 size 8 배열을 만드는지, [base-2]로 접근하는 이유는 뭔지, 오버로딩된 함수(List<>, int)가 하는 역할이 원 함수와 조금 다르다는 사실을 알기까지 꽤 걸린 것 같습니다..
+//// 여기에 대해서 변수명과 함수명으로 어떤 힌트가 있었으면 좋겠어요!
 class Main {
     static List<Integer>[] lastProcessListArr;
 
