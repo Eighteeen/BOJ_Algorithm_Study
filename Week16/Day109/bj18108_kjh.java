@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+//// クリーン
 class Main {
   public static void main(String[] args) throws Exception {
     final int THAI_YEAR = Input.nextInt();
