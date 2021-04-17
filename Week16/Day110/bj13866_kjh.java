@@ -9,6 +9,9 @@ class Main {
     int totalLevel = sumIntArray(levels);
     
     int minDifference = 10000;
+    //// 사람 수에 맞춰서 확장성을 고려한 거라면 지금 풀이도 좋지만
+    //// 4명만을 생각한 풀이라면 totalLevel을 구하거나 for문으로 하나씩 비교하지 않고
+    //// 그저 제일 차이가 큰 레벨을 한 팀으로 만들고 나머지를 구하면 되기 때문에 이 방법도 고려해보면 좋을 것 같아요!
     for (int i = 1; i < levels.length; i++) {
         int teamLevel = levels[0] + levels[i];
         int anotherTeamLevel = totalLevel - teamLevel;
