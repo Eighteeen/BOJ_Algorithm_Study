@@ -13,7 +13,7 @@ class Main {
     //// 4명만을 생각한 풀이라면 totalLevel을 구하거나 for문으로 하나씩 비교하지 않고
     //// 그저 제일 차이가 큰 레벨을 한 팀으로 만들고 나머지를 구하면 되기 때문에 이 방법도 고려해보면 좋을 것 같아요!
     //// => 시간복잡도로 보면 정렬은 O(NlogN)이고, 저는 O(N) 이여서 이게 더 낫지아너요?
-    //// => 라이브러리 함수를 사용해서 코드가 더 짧아졌다는 것 말고는 메리트를 못 느끼겠어요
+    //// => 라이브러리 함수를 사용해서 코드가 더 짧다는 점 말고는 정렬을 사용할 메리트는 잘 모르겠어요
     for (int i = 1; i < levels.length; i++) {
         int teamLevel = levels[0] + levels[i];
         int anotherTeamLevel = totalLevel - teamLevel;
