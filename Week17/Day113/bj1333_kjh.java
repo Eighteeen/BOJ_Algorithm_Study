@@ -20,8 +20,7 @@ class Main {
       }
     }
 
-    while (true) {
-      if (seconds % BELL_CYCLE == 0) break;
+    while (seconds % BELL_CYCLE != 0) {
       seconds++;
     }
     
