@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+//// 클-린
 //// 시험 잘보십셔
 class Main {
     public static void main(String[] args) throws IOException {
