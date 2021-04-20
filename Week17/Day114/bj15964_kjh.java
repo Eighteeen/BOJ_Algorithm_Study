@@ -8,7 +8,7 @@ class Main {
     final BigInteger A = new BigInteger(Input.next());
     final BigInteger B = new BigInteger(Input.next());
 
-    BigInteger AatB = (A.add(B)).multiply(A.subtract(B));
+    BigInteger AatB = (A.add(B)) .multiply (A.subtract(B));
 
     System.out.print(AatB);
   }
