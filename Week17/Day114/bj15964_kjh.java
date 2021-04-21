@@ -3,6 +3,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 import java.math.BigInteger;
 
+//// BigInteger 쓸 필요는 없었지만 클린
 class Main {
   public static void main(String[] args) throws Exception {
     final BigInteger A = new BigInteger(Input.next());
