@@ -42,11 +42,11 @@
 
 ## [118일차](Day118) : Pairing Day
 
-> [문제집 설명](문제집링크)
+> [재귀함수 활용 문제](https://www.acmicpc.net/group/workbook/view/9797/32968)
 
 | 사이트 | 번호 | 문제                 | 답안                | Pair Programming    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 0    | [문제이름](문제링크) | 진홍승빈 | Driver 🚗 진홍 & Navigator 🧭 승빈 |
+| 백준   | 14601 | [샤워실 바닥 깔기 (Large)](https://www.acmicpc.net/problem/14601) | 진홍승빈 | Driver 🚗 진홍 & Navigator 🧭 승빈 |
 
 > 비트마스크
 * 발표자료 [진홍](reference/kjh.pdf)
