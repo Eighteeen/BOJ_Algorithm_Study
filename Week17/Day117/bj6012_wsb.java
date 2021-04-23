@@ -17,15 +17,9 @@ class Main {
         if (endCow - startCow == 1) return startCow * endCow;
 
         int danceSum = 0;
-        int range = endCow - startCow + 1;
-        int middleCow = startCow + range / 2 - 1;
-        if (range % 2 == 0) {
-            danceSum += danceSum(startCow, middleCow);
-            danceSum += danceSum(middleCow + 1, endCow);
-        } else {
-            danceSum += danceSum(startCow, middleCow + 1);
-            danceSum += danceSum(middleCow + 2, endCow);
-        }
+        int middleCow = (startCow + endCow) / 2;
+        danceSum += danceSum(startCow, middleCow);
+        danceSum += danceSum(middleCow + 1, endCow);
 
         return danceSum;
     }
