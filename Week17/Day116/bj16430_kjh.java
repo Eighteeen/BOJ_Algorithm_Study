@@ -9,6 +9,7 @@ class Main {
 
     numerator = denominator - numerator;
 
+    //// 피드백 남긴 것처럼 서로소이기 때문에 이 부분은 처리 할 필요 없지만 깔끔합니다!
     for (int i = 2; i <= 9; i++) {
       if (numerator % i == 0 && denominator % i == 0) {
         numerator /= i;
