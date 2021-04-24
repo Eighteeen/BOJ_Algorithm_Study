@@ -46,7 +46,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | Pair Programming    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 14601 | [샤워실 바닥 깔기 (Large)](https://www.acmicpc.net/problem/14601) | 진홍승빈 | Driver 🚗 진홍 & Navigator 🧭 승빈 |
+| 백준   | 14601 | [샤워실 바닥 깔기 (Large)](https://www.acmicpc.net/problem/14601) | [진홍승빈](Day118/bj14601_kjhwsb.java) | Driver 🚗 진홍 & Navigator 🧭 승빈 |
 
 > 비트마스크
 * 발표자료 [진홍](reference/kjh.pdf)
