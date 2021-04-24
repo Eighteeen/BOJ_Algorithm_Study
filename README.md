@@ -103,7 +103,7 @@
 
 </details>
 <details>
-  <summary><strong>재귀</strong> (8주차 ~)</summary>
+  <summary><strong>재귀</strong> (8주차 ~ 17주차)</summary>
   
   ### [8주차](Week08)
   > 이론 : [재귀함수](Week08/reference/wsb.pdf)  
@@ -131,4 +131,21 @@
 
   ### [15주차](Week15)
   * 재귀함수 활용 문제
+
+  ### [16주차](Week16)
+  * 쉬어가는 문제
+
+  ### [17주차](Week17)
+  * 재귀함수 활용 문제
+</details>
+
+<details>
+  <summary><strong>비트마스크</strong> (17주차 ~)</summary>
+  
+  ### [17주차](Week17)
+  > 이론 : [재귀함수](Week17/reference/kjh.pdf)  
+  > 발표자 : [🐮 김진홍(kjh)](https://github.com/deepredk)
+  * 재귀함수 활용 문제
+  * 비트마스크 활용 문제
+
 </details>
