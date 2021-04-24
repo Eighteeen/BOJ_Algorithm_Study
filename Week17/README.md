@@ -50,7 +50,7 @@
 
 > 비트마스크
 * 발표자료 [진홍](reference/kjh.pdf)
-* 정리자료 [승빈](reference/이름.pdf)
+* 정리자료 [승빈](reference/wsb.pdf)
 
 ## [119일차](Day119)
 
