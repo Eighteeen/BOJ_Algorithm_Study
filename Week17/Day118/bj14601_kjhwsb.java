@@ -73,11 +73,9 @@ class Main {
 
   static void printTiles() {
     StringBuilder sb = new StringBuilder();
-    for (int i = 0; i < tiles.length; i++) {
-      for (int j = 0; j < tiles[0].length; j++) {
-        sb.append(tiles[i][j]).append(' ');
-      }
-      sb.append('\n');
+    for (int[] tileLine : tiles) {
+        for (int tile : tileLine) sb.append(tile).append(' ');
+        sb.append('\n');
     }
     System.out.print(sb);
   }
