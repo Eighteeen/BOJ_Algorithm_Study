@@ -38,7 +38,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 6012    | [The Big Dance](https://www.acmicpc.net/problem/6012) | [진홍](Day117/bj6012_kjh.java) [승빈](Day117/bj6012_wsb.java) | [진홍](Day117/bj6012_kjh.java) 승빈 |
+| 백준   | 6012    | [The Big Dance](https://www.acmicpc.net/problem/6012) | [진홍](Day117/bj6012_kjh.java) [승빈](Day117/bj6012_wsb.java) | [진홍](Day117/bj6012_kjh.java) [승빈](Day117/bj6012_wsb.java) |
 
 ## [118일차](Day118) : Pairing Day
 
