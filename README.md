@@ -146,6 +146,6 @@
   > 이론 : [비트마스크](Week17/reference/kjh.pdf)  
   > 발표자 : [🐮 김진홍(kjh)](https://github.com/deepredk)
   * 재귀함수 활용 문제
-  * 비트마스크 활용 문제
+  * 비트마스킹 익히기
 
 </details>
