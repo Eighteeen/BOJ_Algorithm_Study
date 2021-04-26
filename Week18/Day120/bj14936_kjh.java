@@ -29,20 +29,20 @@ class Main {
         if ((operSubset & oper) > 0) {
           switch (oper) {
             case OPER_ALL:
-              theCase = theCase ^ (1+2+4+8);
+              theCase ^= (1+2+4+8);
               curMinutes += floors;
               break;
             case OPER_EVEN:
-              theCase = theCase ^ (2+8);
+              theCase ^= (2+8);
               curMinutes += floors / 2;
               break;
             case OPER_ODD:
-              theCase = theCase ^ (1+4);
+              theCase ^= (1+4);
               curMinutes += floors / 2;
               curMinutes += floors % 2;
               break;
             case OPER_3K_1:
-              theCase = theCase ^ (1+8);
+              theCase ^= (1+8);
               curMinutes += (floors - 1) / 3 + 1;
           }
         }
