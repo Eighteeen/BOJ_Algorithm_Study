@@ -16,7 +16,6 @@ class Main {
             System.out.println(1);
             return;
         }
-
         if (N == 1) {
             System.out.println(2);
             return;
