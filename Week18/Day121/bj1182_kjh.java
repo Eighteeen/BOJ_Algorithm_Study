@@ -15,7 +15,7 @@ class Main {
     int cases = 0;
 
     long set = (1 << NUMBER_OF_INTEGER) - 1;
-    for (long subset = set; subset > 0; subset = (subset - 1) & set) {
+    for (long subset = set; subset > 0; subset--) {
       int sum = 0;
       for (int i = 0; i < NUMBER_OF_INTEGER; i++) {
         if ((subset & (1 << i)) == 0) continue;
