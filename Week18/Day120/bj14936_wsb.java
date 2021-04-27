@@ -10,6 +10,7 @@ class Main {
         int N = Integer.parseInt(elevatorInfo[0]), m = Integer.parseInt(elevatorInfo[1]);
 
         int buttonStateBit = 0;
+        //// buttonStateBit = 1 과 사실상 동일한 결과가 나오는데 무얼 의도하신건가요?
         buttonStateBit |= (1 << 0);
 
         if (m == 0) {
@@ -34,6 +35,7 @@ class Main {
         };
 
         for (int i = 0; i < 4; i++) {
+            //// m 대신 PRANK_TIME_LIMIT 등으로 이름을 붙여줬다면 더 읽기 편했을 것 같습니다!
             if (prankTimeArr[i] <= m) buttonStateBit |= (1 << i + 1);
         }
 
