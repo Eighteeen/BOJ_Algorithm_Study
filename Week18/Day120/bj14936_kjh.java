@@ -22,12 +22,15 @@ class Main {
     casesSet.add(0);
 
     int operSet = OPER_ALL + OPER_EVEN + OPER_ODD + OPER_3K_1;
+    //// operSubset-- 으로 간단하게 나타낼 수 있는데 operSubset = (operSubset - 1) & operSet 은 복잡해보여요.
     for (int operSubset = operSet; operSubset > 0; operSubset = (operSubset - 1) & operSet) {
       int theCase = 0;
       int curMinutes = 0;
       for (int oper = OPER_ALL; oper >= OPER_3K_1; oper >>= 1) {
         if ((operSubset & oper) == 0) continue;
         
+        //// 왜 switch문의 theCase 계산에서는 OPER_ALL, OPER_EVEN, OPER_ODD, OPER_3K_1 상수를 사용하지 않으셨는지 궁금해요.
+        //// 의미전달면에서 선언하신 상수를 사용하는 게 좋았을 것 같아요.
         switch (oper) {
           case OPER_ALL:
             theCase ^= (1+2+4+8);
@@ -49,6 +52,7 @@ class Main {
       }
       if (curMinutes > minutes) continue;
       
+      //// floors < 3 하셔도 돼요.
       if (floors < 4) theCase %= 1 << floors;
       casesSet.add(theCase);
     }
