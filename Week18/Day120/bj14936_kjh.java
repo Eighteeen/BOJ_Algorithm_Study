@@ -26,25 +26,25 @@ class Main {
       int theCase = 0;
       int curMinutes = 0;
       for (int oper = OPER_ALL; oper >= OPER_3K_1; oper >>= 1) {
-        if ((operSubset & oper) > 0) {
-          switch (oper) {
-            case OPER_ALL:
-              theCase ^= (1+2+4+8);
-              curMinutes += floors;
-              break;
-            case OPER_EVEN:
-              theCase ^= (2+8);
-              curMinutes += floors / 2;
-              break;
-            case OPER_ODD:
-              theCase ^= (1+4);
-              curMinutes += floors / 2;
-              curMinutes += floors % 2;
-              break;
-            case OPER_3K_1:
-              theCase ^= (1+8);
-              curMinutes += (floors - 1) / 3 + 1;
-          }
+        if ((operSubset & oper) == 0) continue;
+        
+        switch (oper) {
+          case OPER_ALL:
+            theCase ^= (1+2+4+8);
+            curMinutes += floors;
+            break;
+          case OPER_EVEN:
+            theCase ^= (2+8);
+            curMinutes += floors / 2;
+            break;
+          case OPER_ODD:
+            theCase ^= (1+4);
+            curMinutes += floors / 2;
+            curMinutes += floors % 2;
+            break;
+          case OPER_3K_1:
+            theCase ^= (1+8);
+            curMinutes += (floors - 1) / 3 + 1;
         }
       }
       if (curMinutes > minutes) continue;
