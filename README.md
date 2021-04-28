@@ -121,6 +121,7 @@
 
 <details>
   <summary><strong>비트마스크</strong> (17주차 ~)</summary>
+  
   ### [17주차](Week17)
   > 이론 : [비트마스크](Week17/reference/kjh.pdf)  
   > 발표자 : [🐮 김진홍(kjh)](https://github.com/deepredk)
