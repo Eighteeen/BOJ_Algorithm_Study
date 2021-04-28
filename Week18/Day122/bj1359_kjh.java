@@ -32,7 +32,7 @@ class Main {
       }
     }
 
-    System.out.printf("%.12f", (double) luckyCases / allCases);
+    System.out.printf("%.9f", (double) luckyCases / allCases);
   }
 }
 
