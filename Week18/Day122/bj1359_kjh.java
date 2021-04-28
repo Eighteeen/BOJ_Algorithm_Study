@@ -13,7 +13,6 @@ class Main {
     int allCases = 0;
     int luckyCases = 0;
 
-    outer:
     for (int i = 1; i <= allNumberPicked; i++) {
       if (Integer.bitCount(i) != AMOUNT_PICKING) {
         continue;
