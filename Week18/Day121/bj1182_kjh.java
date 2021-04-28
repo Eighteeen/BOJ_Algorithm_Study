@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+//// 깔끔합니다.
 class Main {
   public static void main(String[] args) throws Exception {
     final int NUMBER_OF_INTEGER = Input.nextInt();
@@ -14,6 +15,7 @@ class Main {
 
     int cases = 0;
 
+    //// 범위가 충분히 남는데 long을 사용하신 이유가 뭔가요?
     long set = (1 << NUMBER_OF_INTEGER) - 1;
     for (long subset = set; subset > 0; subset--) {
       int sum = 0;
