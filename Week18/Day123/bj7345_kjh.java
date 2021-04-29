@@ -1,3 +1,5 @@
+// 문제 풀이 실패 : 나머지의 정의는 대체 무엇..?
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
@@ -52,12 +54,20 @@ class Bitmask {
     bits[n / 8] &= (1 << (n % 8)) - 1;
   }
 
+  private Bitmask add(Bitmask bitmask) {
+    bitmask.getBits()
+  }
+
   public Bitmask mutiply(Bitmask bitmask) {
 
   }
 
   public Bitmask modulo(Bitmask bitmask) {
 
+  }
+
+  public byte[] getBits() {
+    return bits;
   }
 }
 
