@@ -49,7 +49,6 @@ class Main {
 
             fxMaxDgree = Integer.toBinaryString(remainderBit).length() - 1;
         }
-        System.out.println(remainderBit);
 
         return Integer.toBinaryString(remainderBit);
     }
