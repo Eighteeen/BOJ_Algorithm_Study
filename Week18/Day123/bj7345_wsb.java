@@ -19,7 +19,7 @@ class Main {
             String[] hxInfo = br.readLine().split(" ");
             String hx = convertStringArrToString(Arrays.copyOfRange(hxInfo, 1, hxInfo.length));
 
-            String resultBitString = bitStringOfFxMofHx(bitStingOfFxMultiplyGx(fx, gx), hx);
+            String resultBitString = bitStringOfFxModHx(bitStingOfFxMultiplyGx(fx, gx), hx);
             sb.append(resultBitString.length());
             for (char bit : resultBitString.toCharArray()) {
                 sb.append(" ").append(bit);
@@ -31,7 +31,7 @@ class Main {
         br.close();
     }
 
-    static String bitStringOfFxMofHx(String fx, String hx) {
+    static String bitStringOfFxModHx(String fx, String hx) {
         if (hx.equals("0")) return fx;
         if (hx.equals("1")) return "0";
 
