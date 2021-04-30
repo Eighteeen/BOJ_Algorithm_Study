@@ -36,58 +36,71 @@ class Main {
         if (hx.equals("1")) return "0";
 
         int fxMaxDgree = fx.length() - 1, hxMaxDgree = hx.length()- 1;
-        int remainderBit = convertBitStringToInt(fx);
         List<Integer> divisionDgreeList = digitListOfBitString(hx);
 
+        boolean[] bitBoolArr = convertBitStringToBoolArr(fx);
         while (fxMaxDgree >= hxMaxDgree) {
             int quotientDgree = fxMaxDgree - hxMaxDgree;
-
-            for (int divisionDgree : divisionDgreeList) {
-                int calcDgree = divisionDgree + quotientDgree;
-                remainderBit ^= (1 << calcDgree);
-            }
-
-            fxMaxDgree = Integer.toBinaryString(remainderBit).length() - 1;
+            multiplyBitArr(bitBoolArr, divisionDgreeList, quotientDgree);
+            fxMaxDgree = maxDigit(bitBoolArr);
         }
 
-        return Integer.toBinaryString(remainderBit);
+        return convertBitBoolArrToString(bitBoolArr);
     }
 
     static String bitStingOfFxMultiplyGx(String fx, String gx) {
         List<Integer> fxDgreeList = digitListOfBitString(fx);
         List<Integer> gxDgreeList = digitListOfBitString(gx);
 
-        int multiplyBit = 0;
+        boolean[] bitBoolArr = new boolean[fx.length() + gx.length() - 1];
         for (int fxDgree : fxDgreeList) {
-            for (int gxDgree : gxDgreeList) {
-                int calcDgree = fxDgree + gxDgree;
-                multiplyBit ^= (1 << calcDgree);
-            }
+            multiplyBitArr(bitBoolArr, gxDgreeList, fxDgree);
         }
-        
-        return Integer.toBinaryString(multiplyBit);
+
+        return convertBitBoolArrToString(bitBoolArr);
     }
-    
+
+    static void multiplyBitArr(boolean[] bitArr, List<Integer> multiplyDgreeList, int multiplyDgree) {
+        for (int dgree : multiplyDgreeList) {
+            int calcDgree = dgree + multiplyDgree;
+            bitArr[calcDgree] = !bitArr[calcDgree];
+        }
+    }
+
     static List<Integer> digitListOfBitString(String bitString) {
         List<Integer> digitList = new ArrayList<>();
-        int digit = bitString.length();
-        for (char bit : bitString.toCharArray()) {
-            --digit;
-            if (bit == '0') continue;
-            digitList.add(digit);
+        int maxDigit = bitString.length() - 1;
+        for (int i = 0; i <= maxDigit; i++) {
+            if (bitString.charAt(i) == '1') digitList.add(maxDigit - i);
         }
         return digitList;
     }
 
-    static int convertBitStringToInt(String bitString) {
-        int bitMask = 0;
-        int digit = bitString.length();
-        for (char bit : bitString.toCharArray()) {
-            --digit;
-            if (bit == '0') continue;
-            bitMask |= (1 << digit);
+    static int maxDigit(boolean[] bitArr) {
+        int maxDigit = bitArr.length - 1;
+        for (; maxDigit > 0; maxDigit--) {
+            if (bitArr[maxDigit]) break;
         }
-        return bitMask;
+        return maxDigit;
+    }
+
+    static boolean[] convertBitStringToBoolArr(String bitString) {
+        int maxDigit = bitString.length() - 1;
+        boolean[] bitBoolArr = new boolean[maxDigit + 1];
+        for (int i = 0; i <= maxDigit; i++) {
+            if (bitString.charAt(i) == '1') bitBoolArr[maxDigit - i] = true;
+        }
+        return bitBoolArr;
+    }
+
+    static String convertBitBoolArrToString(boolean[] bitArr) {
+        bitArr = Arrays.copyOf(bitArr, maxDigit(bitArr) + 1);
+
+        StringBuilder sb = new StringBuilder();
+        for (boolean bit : bitArr) {
+            sb.append(bit ? "1" : "0");
+        }
+        return sb.reverse().toString();
     }
 
     static String convertStringArrToString(String[] strArr) {
