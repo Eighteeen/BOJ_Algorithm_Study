@@ -22,7 +22,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 1359 | [복권](https://www.acmicpc.net/problem/1359) | [진홍](Day122/bj1359_kjh.java) [승빈](Day122/bj1359_wsb.java) | [진홍](Day122/bj1359_kjh.java) 승빈 |
+| 백준   | 1359 | [복권](https://www.acmicpc.net/problem/1359) | [진홍](Day122/bj1359_kjh.java) [승빈](Day122/bj1359_wsb.java) | [진홍](Day122/bj1359_kjh.java) [승빈](Day122/bj1359_wsb.java) |
 
 ## [123일차](Day123)
 
