@@ -127,4 +127,7 @@
   > 발표자 : [🐮 김진홍(kjh)](https://github.com/deepredk)
   * 재귀함수 활용 문제
   * 비트마스킹 익히기
+
+  ### [18주차](Week18)
+  * 비트마스킹 익히기
 </details>
