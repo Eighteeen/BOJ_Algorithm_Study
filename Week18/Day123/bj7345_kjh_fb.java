@@ -1,4 +1,5 @@
 // 문제 풀이 실패 : 모범답안
+// 월요일에 할 예정
 
 import java.io.BufferedReader;
 import java.io.IOException;
