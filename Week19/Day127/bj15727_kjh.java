@@ -2,6 +2,7 @@
   import java.io.InputStreamReader;
   import java.util.StringTokenizer;
 
+//// 깔끔~
   class Main {
     public static void main(String[] args) throws Exception {
       final int DISTANCE = Input.nextInt();
