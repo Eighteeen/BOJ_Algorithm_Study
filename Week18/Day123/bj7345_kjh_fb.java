@@ -22,10 +22,10 @@ class Main {
             String[] hxInfo = br.readLine().split(" ");
             String hx = convertStringArrToString(Arrays.copyOfRange(hxInfo, 1, hxInfo.length));
 
-            String resultBitString = bitStringOfFxModHx(bitStingOfFxMultiplyGx(fx, gx), hx);
-            sb.append(resultBitString.length());
+            String resultBitString = bitStringOfFxModHx(bitStingOfFxMultiplyGx(fx, gx), hx); // 곱하고 나눔
+            sb.append(resultBitString.length()); // 길이
             for (char bit : resultBitString.toCharArray()) {
-                sb.append(" ").append(bit);
+                sb.append(" ").append(bit); // 각 비트
             }
             sb.append("\n");
         }
@@ -48,7 +48,7 @@ class Main {
             fxMaxDgree = maxDigit(bitBoolArr);
         }
 
-        return convertBitBoolArrToString(bitBoolArr);
+        return convertBitBoolArrToString(bitBoolArr);   
     }
 
     static String bitStingOfFxMultiplyGx(String fx, String gx) {
@@ -86,6 +86,7 @@ class Main {
         }
         return maxDigit;
     }
+
 
     static boolean[] convertBitStringToBoolArr(String bitString) {
         int maxDigit = bitString.length() - 1;
