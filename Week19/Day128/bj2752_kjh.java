@@ -3,6 +3,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 import java.util.Arrays;
 
+//// 완전 깔끔하네요.
 class Main {
   public static void main(String[] args) throws Exception {
     Arrays.stream(Input.nextLine().split(" "))
