@@ -17,11 +17,11 @@ class Main {
 
     BigInteger sigma = BigInteger.ZERO;
     int sumOfBackOperands = totalSum;
-    
+
     for (int i = 0; i < N - 1; i++) {
       int frontOperand = xi[i];
       sumOfBackOperands -= frontOperand;
-      sigma = sigma.add(BigInteger.valueOf(xi[i] * sumOfBackOperands));
+      sigma = sigma.add(BigInteger.valueOf(frontOperand * sumOfBackOperands));
     }
 
     System.out.print(sigma);
