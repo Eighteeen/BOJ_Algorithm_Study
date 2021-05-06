@@ -3,6 +3,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 import java.math.BigInteger;
 
+//// 이런 방법도 있군요!
 class Main {
   public static void main(String[] args) throws Exception {
     final int N = Input.nextInt();
@@ -15,6 +16,7 @@ class Main {
       totalSum += xi[i];
     }
 
+    //// long으로도 가능하니 long으로 하시면 좋을 것 같아요!
     BigInteger sigma = BigInteger.ZERO;
     int sumOfBackOperands = totalSum;
 
