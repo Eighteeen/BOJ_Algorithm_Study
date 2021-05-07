@@ -18,12 +18,12 @@ class Main {
     //// NthLetter를 객체처럼 대문자 시작으로 이름 지은 이유가 있나요?
     //// -> 대문자로 안 하면 nTh로 해야한다고 생각해서 너무 어색해보여 Nth로 작명했는데, 다시 생각해보니 그냥 nth로 많이 쓰네요 nth로 변경했어요!
     static boolean isMOfMooGame(int seqOrder, int sideLen, int nthLetter) {
-        if (NthLetter < sideLen) return isMOfMooGame(seqOrder - 1, getPrevSideLen(seqOrder, sideLen, 2), nthLetter);
+        if (nthLetter < sideLen) return isMOfMooGame(seqOrder - 1, getPrevSideLen(seqOrder, sideLen, 2), nthLetter);
 
         nthLetter -= sideLen;
         if (nthLetter == 1) return true;
         int mooLen = seqOrder + 3;
-        if (NthLetter <= mooLen) return false;
+        if (nthLetter <= mooLen) return false;
 
         nthLetter -= mooLen;
         if (nthLetter > sideLen) return isMOfMooGame(seqOrder + 1, getNextSideLen(sideLen, mooLen), N);
