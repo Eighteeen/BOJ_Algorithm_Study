@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+//// 깔끄으음~
 class Main {
   public static void main(String[] args) throws Exception {
     final int BUSINESS_COL_SIZE = Input.nextInt();
