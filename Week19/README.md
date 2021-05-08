@@ -22,7 +22,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 14929    | [귀찮아 (SIB)](https://www.acmicpc.net/problem/14929) | [진홍](Day129/bj14929_kjh.java) [승빈](Day129/bj14929_wsb.java) | 진홍 [승빈](Day129/bj14929_wsb.java) |
+| 백준   | 14929    | [귀찮아 (SIB)](https://www.acmicpc.net/problem/14929) | [진홍](Day129/bj14929_kjh.java) [승빈](Day129/bj14929_wsb.java) | [진홍](Day129/bj14929_kjh_fb.java) [승빈](Day129/bj14929_wsb.java) |
 
 ## [130일차](Day130)
 
@@ -30,7 +30,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 8370 | [Plane](https://www.acmicpc.net/problem/8370) | [진홍](Day130/bj8370_kjh.java) [승빈](Day130/bj8370_wsb.java) | [진홍](Day130/bj8370_kjh_fb.java) [승빈](Day130/bj8370_wsb.java) |
+| 백준   | 8370 | [Plane](https://www.acmicpc.net/problem/8370) | [진홍](Day130/bj8370_kjh.java) [승빈](Day130/bj8370_wsb.java) | [진홍](Day130/bj8370_kjh.java) [승빈](Day130/bj8370_wsb.java) |
 
 ## [131일차](Day131)
 
