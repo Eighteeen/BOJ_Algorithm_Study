@@ -22,7 +22,8 @@ class Main {
             sumAngle += angle;
             if (standardAngle == angle) sameStandardAngles++;
         }
-
+        
+        //// 굳굳
         if (sumAngle != 180) return "Error";
         if (sameStandardAngles == 3) return "Equilateral";
         if (sameStandardAngles == 2 || angleArr[1] == angleArr[2]) return "Isosceles";
