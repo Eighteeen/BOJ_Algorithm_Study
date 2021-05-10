@@ -6,7 +6,7 @@ class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        System.out.println("고려대학교");
+        System.out.println("고려대학교"); ////는 사랑입니다
 
         br.close();
     }
