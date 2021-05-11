@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+//// 오호 과목을 분류해서 변수 명명한 게 좋네요.
 class Main {
   public static void main(String[] args) throws Exception {
     int scienceScoresSum = 0;
