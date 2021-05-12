@@ -3,21 +3,22 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 //// 오호 과목을 분류해서 변수 명명한 게 좋네요.
+//// => 데헷
 class Main {
   public static void main(String[] args) throws Exception {
-    int scienceScoresSum = 0;
-    int scienceScoresMin = 100; 
+    int sumOfScienceScores = 0;
+    int minOfScienceScores = 100; 
     for (int i = 0; i < 4; i++) {
       int scienceScore = Input.nextInt();
-      scienceScoresSum += scienceScore;
-      if (scienceScore < scienceScoresMin) scienceScoresMin = scienceScore;
+      sumOfScienceScores += scienceScore;
+      if (scienceScore < minOfScienceScores) minOfScienceScores = scienceScore;
     }
 
     int historyScore = Input.nextInt();
     int geographyScore = Input.nextInt();
 
     int bestScore;
-    bestScore = scienceScoresSum - scienceScoresMin;
+    bestScore = sumOfScienceScores - minOfScienceScores;
     bestScore += Math.max(historyScore, geographyScore);
 
     System.out.print(bestScore);
