@@ -38,8 +38,8 @@ class Main {
 }
 
 class Set {
-  private int bitmask;
   private static final int SET_SIZE = 20;  
+  private int bitmask;
 
   public Set() {
     bitmask = 0;
