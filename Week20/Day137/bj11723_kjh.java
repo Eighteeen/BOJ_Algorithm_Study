@@ -11,29 +11,33 @@ class Main {
 
     Set set = new Set();
     for (int i = 0; i < N; i++) {
-      String operation = Input.next();
-      switch (operation) {
-        case "add":
-          set.add(Input.nextInt());
-          break;
-        case "remove":
-          set.remove(Input.nextInt());
-          break;
-        case "check":
-          sb.append(set.check(Input.nextInt())).append('\n');
-          break;
-        case "toggle":
-          set.toggle(Input.nextInt());
-          break;
-        case "all":
-          set.all();
-          break;
-        case "empty":
-          set.empty();
+      String methodName = Input.next();
+
+      Method method = getMethod(methodName);
+      if (method.getParameters().length == 0) {
+        method.invoke(set);
+        continue;
+      }
+      
+      Object returnValue = method.invoke(set, new Object[] { Input.nextInt() });
+      if (returnValue != null) {
+        sb.append(returnValue).append('\n');
       }
     }
     
     System.out.print(sb);
+  }
+
+  private static Method getMethod(String methodName) throws Exception {
+    Method method = null;
+
+    try {
+      method = Class.forName("Set").getDeclaredMethod(methodName);
+    } catch (NoSuchMethodException e) {
+      method = Class.forName("Set").getDeclaredMethod(methodName, int.class);    
+    }
+
+    return method;
   }
 }
 
