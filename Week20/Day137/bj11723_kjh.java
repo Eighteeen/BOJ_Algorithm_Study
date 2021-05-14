@@ -4,6 +4,7 @@ import java.util.StringTokenizer;
 import java.lang.reflect.Method;
 import java.lang.reflect.Constructor;
 
+//// 무난 깔끔
 class Main {
   public static void main(String[] args) throws Exception {
     StringBuilder sb = new StringBuilder();
