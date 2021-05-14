@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+//// 무난쓰합니다
 class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -66,6 +67,7 @@ class Set {
     }
 
     public void all() {
+        //// (참고) << 연산자로도 구현 가능합니다!
         bitmask = (int) Math.pow(2, size) * 2 - 1;
     }
 
