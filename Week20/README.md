@@ -38,7 +38,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 11322 | [Numbers are Easy](https://www.acmicpc.net/problem/11322) | 진홍 승빈 | 진홍 승빈 |
+| 백준   | 11322 | [Numbers are Easy](https://www.acmicpc.net/problem/11322) | [진홍](Day138/bj11322_kjh.java) 승빈 | 진홍 승빈 |
 
 ## [139일차](Day139) : Pairing Day
 
