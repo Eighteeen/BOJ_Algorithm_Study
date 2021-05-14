@@ -42,11 +42,11 @@
 
 ## [139일차](Day139) : Pairing Day
 
-> [문제집 설명](문제집링크)
+> [비트마스킹 활용](https://www.acmicpc.net/group/workbook/view/9797/33603)
 
 | 사이트 | 번호 | 문제                 | 답안                | Pair Programming    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 0    | [문제이름](문제링크) | 진홍승빈 | Driver 🚗 이름 & Navigator 🧭 이름 |
+| 백준   | 1052    | [물병](https://www.acmicpc.net/problem/1052) | 진홍승빈 | Driver 🚗 승빈 & Navigator 🧭 진홍 |
 
 ## [140일차](Day140)
 
