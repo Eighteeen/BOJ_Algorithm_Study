@@ -22,7 +22,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 15680 | [연세대학교](https://www.acmicpc.net/problem/15680) | [진홍](Day136/bj15680_kjh.java) [승빈](Day136/bj15680_wsb.java) | [진홍](Day136/bj15680_kjh.java) 승빈 |
+| 백준   | 15680 | [연세대학교](https://www.acmicpc.net/problem/15680) | [진홍](Day136/bj15680_kjh.java) [승빈](Day136/bj15680_wsb.java) | [진홍](Day136/bj15680_kjh.java) [승빈](Day136/bj15680_wsb.java) |
 
 ## [137일차](Day137)
 
