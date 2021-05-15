@@ -21,6 +21,7 @@ class Main {
     long _01Number;
     while (true) {
       _01Number = binaryTo01Number(bitmask);
+      //// while 문을 이용하셨으니 if break 문을 while의 조건으로 두면 더 깔끔할 것 같아요.
       if (_01Number % N == 0) {
         break;
       }
