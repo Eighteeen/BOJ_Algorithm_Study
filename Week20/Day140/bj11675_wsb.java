@@ -19,6 +19,7 @@ class Main {
         br.close();
     }
 
+    //// 형용사 형태(복호화된 바이트 메시지)보다는 동사 형태(바이트 메시지를 복호화한다)가 더 좋을 것 같습니다!
     static int unscrambledByteMessage(int byteMessage) {
         int unscrambledNum = 0;
 
