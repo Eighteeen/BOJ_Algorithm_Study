@@ -10,7 +10,7 @@
 </table>
 
 <details>
-<summary>👊</summary>
+<summary>🤝</summary>
   <table>
     <tr>
       <td align="center"><a href="https://github.com/jjklunicc"><img src="https://avatars2.githubusercontent.com/u/55953594?s=460&v=4" width="100px;" alt=""/><br /><sub><b>🐉 이예은(lye)</b></sub></a><br />C#<br/>Day01 ~ Day43</td>
