@@ -3,6 +3,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 import java.util.Arrays;
 
+//// 무난 깔끔합니다.
 class Main {
   static int[] seatsBitmask;
 
