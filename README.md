@@ -5,9 +5,9 @@
   <tr>
     <td align="center"><a href="https://github.com/deepredk"><img src="https://avatars2.githubusercontent.com/u/33937365?s=460&v=4" width="100px;" alt=""/><br /><sub><b>🐮 김진홍(kjh)</b></sub></a><br />Java<br/>Day01 ~</td>
     <td align="center"><a href="https://github.com/Winning-Bean"><img src="https://avatars1.githubusercontent.com/u/53260922?s=460&u=a545901c7f460295a11c779629201a81947f3fe4&v=4" width="100px;" alt=""/><br /><sub><b>🐯 위승빈(wsb)</b></sub></a><br />Java<br/>Day01 ~</td>
-    <td align="center"><a href="https://github.com/sukyeongh"><img src="https://avatars.githubusercontent.com/u/50071076?v=4" width="100px;" alt=""/><br /><sub><b>🐮 황수경(hsk)</b></sub></a><br />node.js<br/>Day145 ~ </td>
-    <td align="center"><a href="https://github.com/jjklunicc"><img src="https://avatars2.githubusercontent.com/u/55953594?s=460&v=4" width="100px;" alt=""/><br /><sub><b>🐉 이예은(lye)</b></sub></a><br />C#<br/>Day01 ~ Day43</td>
-    <td align="center"><a href="https://github.com/cousim46"><img src="https://avatars3.githubusercontent.com/u/67584874?s=460&v=4" width="100px;" alt=""/><br /><sub><b>🐯 정회운(jhw)</b></sub></a><br />Java<br/>Day01 ~ Day16</td>
+    <td align="center"><a href="https://github.com/sukyeongh"><img src="https://avatars.githubusercontent.com/u/50071076?v=4" width="100px;" alt=""/><br /><sub><b>🐮 황수경(hsk)</b></sub></a><br />node.js<br/>Day146 ~ </td>
+    <td align="center" background="#AAAAAA"><a href="https://github.com/jjklunicc"><img src="https://avatars2.githubusercontent.com/u/55953594?s=460&v=4" width="100px;" alt=""/><br /><sub><b>🐉 이예은(lye)</b></sub></a><br />C#<br/>Day01 ~ Day43</td>
+    <td align="center" background="#AAAAAA"><a href="https://github.com/cousim46"><img src="https://avatars3.githubusercontent.com/u/67584874?s=460&v=4" width="100px;" alt=""/><br /><sub><b>🐯 정회운(jhw)</b></sub></a><br />Java<br/>Day01 ~ Day16</td>
   </tr>
 </table>
 
