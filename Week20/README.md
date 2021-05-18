@@ -54,4 +54,4 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 11675 | [Jumbled Communication](https://www.acmicpc.net/problem/11675) | [진홍](Day140/bj11675_kjh.java) [승빈](Day140/bj11675_wsb.java) | 진홍 승빈 |
+| 백준   | 11675 | [Jumbled Communication](https://www.acmicpc.net/problem/11675) | [진홍](Day140/bj11675_kjh.java) [승빈](Day140/bj11675_wsb.java) | [진홍](Day140/bj11675_kjh.java) 승빈 |
