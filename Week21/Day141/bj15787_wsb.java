@@ -40,11 +40,13 @@ class Main {
         br.close();
     }
 
+    //// [참고] Arrays.stream(trains).distinct().count()로도 가능함다
     static int cntTrainsCanCrossGalaxy(Train[] trains) {
       return new HashSet<>(Arrays.asList(trains)).size();
     }
 }
 
+//// 객체지향 활용 굳굳
 class Train {
   private int seatSize;
   private int bitmaskRange;
