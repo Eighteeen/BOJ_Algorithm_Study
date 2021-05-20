@@ -22,7 +22,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 1780    | [종이의 개수](https://www.acmicpc.net/problem/1780) | [진홍](Day87/bj1780_kjh.java) [승빈](Day87/bj1780_wsb.java) | [진홍](Day87/bj1780_kjh_fb.java) [승빈](Day87/bj1780_wsb_fb.java) |
+| 백준   | 1780    | [종이의 개수](https://www.acmicpc.net/problem/1780) | [진홍](Day87/bj1780_kjh.java) [승빈](Day87/bj1780_wsb.java) [수경](https://github.com/sukyeongh/Algorithm/blob/master/20210508/bj1780_hsk.js) | [진홍](Day87/bj1780_kjh_fb.java) [승빈](Day87/bj1780_wsb_fb.java) |
 
 ## [88일차](Day88)
 
@@ -30,7 +30,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 2504 | [괄호의 값](https://www.acmicpc.net/problem/2504) | [진홍](Day88/bj2504_kjh.java) [승빈](Day88/bj2504_wsb.java) | [진홍](Day88/bj2504_kjh.java) [승빈](Day88/bj2504_wsb_fb.java) |
+| 백준   | 2504 | [괄호의 값](https://www.acmicpc.net/problem/2504) | [진홍](Day88/bj2504_kjh.java) [승빈](Day88/bj2504_wsb.java) [수경](https://github.com/sukyeongh/Algorithm/blob/master/20210506/bj2504_hsk.js) | [진홍](Day88/bj2504_kjh.java) [승빈](Day88/bj2504_wsb_fb.java) |
 
 ## [89일차](Day89)
 
@@ -54,4 +54,4 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 5904    | [Moo 게임](https://www.acmicpc.net/problem/5904) | [진홍](Day91/bj5904_kjh.java) [승빈](Day91/bj5904_wsb.java) | [진홍](Day91/bj5904_kjh_fb.java) [승빈](Day91/bj5904_wsb_fb.java) |
+| 백준   | 5904    | [Moo 게임](https://www.acmicpc.net/problem/5904) | [진홍](Day91/bj5904_kjh.java) [승빈](Day91/bj5904_wsb.java) [수경](https://github.com/sukyeongh/Algorithm/blob/master/20210507/bj5904_hsk.js) | [진홍](Day91/bj5904_kjh_fb.java) [승빈](Day91/bj5904_wsb_fb.java) |
