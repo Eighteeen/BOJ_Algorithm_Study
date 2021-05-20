@@ -106,7 +106,7 @@
 <details>
   <summary><strong>재귀</strong> (8주차 ~ 17주차)</summary>
   
-  ### [8주차](Week08)
+  ### [8주차](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study3:%20Recursion/Week08)
   > 이론 : [재귀함수](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study3:%20Recursion/Week08/reference/wsb.pdf)  
   > 발표자 : [🐯 위승빈(wsb)](https://github.com/Winning-Bean)
   * 스택/큐/덱 심화 문제 활용
