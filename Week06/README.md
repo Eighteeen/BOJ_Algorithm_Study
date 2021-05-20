@@ -6,7 +6,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | Pair Programming    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 4889 | [안정적인 문자열](https://www.acmicpc.net/problem/4889) | [진홍승빈예은](Day36/bj4889_kjhwsblye.cs) | Driver 🚗 예은 & Navigator 🧭 진홍, 승빈 |
+| 백준   | 4889 | [안정적인 문자열](https://www.acmicpc.net/problem/4889) | [진홍승빈예은](Day36/bj4889_kjhwsblye.cs) [수경](https://github.com/sukyeongh/Algorithm/blob/master/20210419/bj4889_hsk.js) | Driver 🚗 예은 & Navigator 🧭 진홍, 승빈 |
 
 ## [37일차](Day37)
 
@@ -22,7 +22,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 17298    | [오큰수](https://www.acmicpc.net/problem/17298) | _[진홍](Day38/bj17298_kjh.java)_ [승빈](Day38/bj17298_wsb.java) [예은](Day38/bj17298_lye.cs) | _[진홍](Day38/bj17298_kjh_fb.java)_ [승빈](Day38/bj17298_wsb.java) [예은](Day38/bj17298_lye.cs) |
+| 백준   | 17298    | [오큰수](https://www.acmicpc.net/problem/17298) | _[진홍](Day38/bj17298_kjh.java)_ [승빈](Day38/bj17298_wsb.java) [예은](Day38/bj17298_lye.cs) [수경](https://github.com/sukyeongh/Algorithm/blob/master/20210420/bj17298_hsk.js)| _[진홍](Day38/bj17298_kjh_fb.java)_ [승빈](Day38/bj17298_wsb.java) [예은](Day38/bj17298_lye.cs) |
 
 ## [39일차](Day39)
 
