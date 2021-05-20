@@ -69,86 +69,86 @@
 <details>
   <summary><strong>단순 구현</strong> (1주차 ~ 3주차)</summary>
   
-  ### [1주차](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study1:%20Implementation/Week01)
+  ### [1주차](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study1%20-%20Implementation/Week01)
   * 입출력이 정직한 기초적인 구현 문제
 
-  ### [2주차](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study1:%20Implementation/Week02)
+  ### [2주차](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study1%20-%20Implementation/Week02)
   * 입출력이 정직한 기초적인 구현 활용 문제
   * 기초적이지만 해석이 다소 필요한 문제
 
-  ### [3주차](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study1:%20Implementation/Week03)
+  ### [3주차](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study1%20-%20Implementation/Week03)
   * 기초적이지만 해석이 다소 필요한 문제 활용
   * 해석이 필요한 문제
 </details>
 <details>
   <summary><strong>스택, 큐, 덱</strong> (4주차 ~ 7주차)</summary>
 
-  ### [4주차](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study2:%20Stack%2C%20Queue%2C%20Deque/Week04)
-  > 이론 : [스택, 큐, 덱](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study2:%20Stack%2C%20Queue%2C%20Deque/Week04/reference/kjh.pdf)  
+  ### [4주차](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study2%20-%20Stack%2C%20Queue%2C%20Deque/Week04)
+  > 이론 : [스택, 큐, 덱](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study2%20-%20Stack%2C%20Queue%2C%20Deque/Week04/reference/kjh.pdf)  
   > 발표자 : [🐮 김진홍(kjh)](https://github.com/deepredk)
   * 해석이 필요한 문제
   * 해석이 필요한 문제 활용
   * 스택/큐/덱 기초 구현 문제
   * 스택/큐/덱을 이용한 문제
 
-  ### [5주차](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study2:%20Stack%2C%20Queue%2C%20Deque/Week05)
+  ### [5주차](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study2%20-%20Stack%2C%20Queue%2C%20Deque/Week05)
   * 스택/큐/덱을 이용한 문제 활용
   * 스택/큐/덱을 활용한 문제
 
-  ### [6주차](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study2:%20Stack%2C%20Queue%2C%20Deque/Week06)
+  ### [6주차](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study2%20-%20Stack%2C%20Queue%2C%20Deque/Week06)
   * 스택/큐/덱을 활용한 문제 심화
   * 스택/큐/덱 심화 문제
 
-  ### [7주차](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study2:%20Stack%2C%20Queue%2C%20Deque/Week07)
+  ### [7주차](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study2%20-%20Stack%2C%20Queue%2C%20Deque/Week07)
   * 스택/큐/덱 심화 문제 활용
 
 </details>
 <details>
   <summary><strong>재귀</strong> (8주차 ~ 17주차)</summary>
   
-  ### [8주차](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study3:%20Recursion/Week08)
-  > 이론 : [재귀함수](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study3:%20Recursion/Week08/reference/wsb.pdf)  
+  ### [8주차](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study3%20-%20Recursion/Week08)
+  > 이론 : [재귀함수](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study3%20-%20Recursion/Week08/reference/wsb.pdf)  
   > 발표자 : [🐯 위승빈(wsb)](https://github.com/Winning-Bean)
   * 스택/큐/덱 심화 문제 활용
   * 재귀함수 문제
 
-  ### [9주차](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study3:%20Recursion/Week09)
+  ### [9주차](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study3%20-%20Recursion/Week09)
   * 재귀함수 활용 문제
 
-  ### [10주차](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study3:%20Recursion/Week10)
+  ### [10주차](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study3%20-%20Recursion/Week10)
   * 재귀함수 활용 문제
 
-  ### [11주차](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study3:%20Recursion/Week11)
+  ### [11주차](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study3%20-%20Recursion/Week11)
   * 재귀함수 활용 문제
 
-  ### [12주차](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study3:%20Recursion/Week12)
+  ### [12주차](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study3%20-%20Recursion/Week12)
   * 재귀함수 활용 문제
 
-  ### [13주차](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study3:%20Recursion/Week13)
+  ### [13주차](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study3%20-%20Recursion/Week13)
   * 재귀함수 활용 문제
 
-  ### [14주차](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study3:%20Recursion/Week14)
+  ### [14주차](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study3%20-%20Recursion/Week14)
   * 재귀함수 활용 문제
 
-  ### [15주차](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study3:%20Recursion/Week15)
+  ### [15주차](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study3%20-%20Recursion/Week15)
   * 재귀함수 활용 문제
 
-  ### [16주차](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study3:%20Recursion/Week16)
+  ### [16주차](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study3%20-%20Recursion/Week16)
   * 쉬어가는 문제
 
-  ### [17주차](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study3:%20Recursion/Week17)
+  ### [17주차](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study3%20-%20Recursion/Week17)
   * 재귀함수 활용 문제
 </details>
 
 <details>
   <summary><strong>비트마스크</strong> (17주차 ~)</summary>
   
-  ### [17주차](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study3:%20Recursion/Week17)
-  > 이론 : [비트마스크](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study4:%20Bitmask/Week17/reference/kjh.pdf)  
+  ### [17주차](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study3%20-%20Recursion/Week17)
+  > 이론 : [비트마스크](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study4%20-%20Bitmask/Week17/reference/kjh.pdf)  
   > 발표자 : [🐮 김진홍(kjh)](https://github.com/deepredk)
   * 재귀함수 활용 문제
   * 비트마스킹 익히기
 
-  ### [18주차](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study4:%20Bitmask/Week18)
+  ### [18주차](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study4%20-%20Bitmask/Week18)
   * 비트마스킹 익히기
 </details>
