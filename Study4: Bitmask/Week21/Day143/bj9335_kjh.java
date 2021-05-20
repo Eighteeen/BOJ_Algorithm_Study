@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+//// 무난 깔끔
 class Main {
   public static void main(String[] args) throws Exception {
     StringBuilder sb = new StringBuilder();
@@ -27,6 +28,7 @@ class Main {
     System.out.print(sb);
   }
 
+  //// 이런 방법도 있군요!
   static int calcLeastAds(int numberOfUsers, int[] exposureBitmask) {
     final int EXPOSED_TO_ALL = (1 << numberOfUsers) - 1;
 
