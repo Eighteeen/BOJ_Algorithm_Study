@@ -14,7 +14,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 1182    | [부분수열의 합](https://www.acmicpc.net/problem/1182) | [진홍](Day121/bj1182_kjh.java) [승빈](Day121/bj1182_wsb.java) | [진홍](Day121/bj1182_kjh_fb.java) [승빈](Day121/bj1182_wsb.java) |
+| 백준   | 1182    | [부분수열의 합](https://www.acmicpc.net/problem/1182) | [진홍](Day121/bj1182_kjh.java) [승빈](Day121/bj1182_wsb.java) [수경](https://github.com/sukyeongh/Algorithm/blob/master/20210520/bj1182_hsk.js) | [진홍](Day121/bj1182_kjh_fb.java) [승빈](Day121/bj1182_wsb.java) |
 
 ## [122일차](Day122)
 
