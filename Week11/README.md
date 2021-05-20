@@ -22,7 +22,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 15270    | [친구 팰린드롬](https://www.acmicpc.net/problem/15270) | *[진홍](Day73/bj15270_kjh.java)* [승빈](Day73/bj15270_wsb.java) | *[진홍](Day73/bj15270_kjh_fb.java)* [승빈](Day73/bj15270_wsb.java) |
+| 백준   | 15270    | [친구 팰린드롬](https://www.acmicpc.net/problem/15270) | *[진홍](Day73/bj15270_kjh.java)* [승빈](Day73/bj15270_wsb.java) *[수경](https://github.com/sukyeongh/Algorithm/blob/master/20210428/bj15270_hsk.js)* | *[진홍](Day73/bj15270_kjh_fb.java)* [승빈](Day73/bj15270_wsb.java) |
 
 ## [74일차](Day74)
 
@@ -54,4 +54,4 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 2448    | [별 찍기 - 11](https://www.acmicpc.net/problem/2448) | [진홍](Day77/bj2448_kjh.java) [승빈](Day77/bj2448_wsb.java) | [진홍](Day77/bj2448_kjh.java) [승빈](Day77/bj2448_wsb.java) |
+| 백준   | 2448    | [별 찍기 - 11](https://www.acmicpc.net/problem/2448) | [진홍](Day77/bj2448_kjh.java) [승빈](Day77/bj2448_wsb.java) [수경](https://github.com/sukyeongh/Algorithm/blob/master/20210426/bj2448_hsk.js)| [진홍](Day77/bj2448_kjh.java) [승빈](Day77/bj2448_wsb.java) [수경](https://github.com/sukyeongh/Algorithm/blob/master/20210426/bj2448_hsk_fb.js) |
