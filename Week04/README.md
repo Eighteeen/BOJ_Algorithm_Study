@@ -51,7 +51,7 @@
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
 | 백준   | 17608 | [막대기](https://www.acmicpc.net/problem/17608) | [진홍](Day27/bj17608_kjh.java) [승빈](Day27/bj17608_wsb.java) [예은](Day27/bj17608_lye.cs) [수경](https://github.com/sukyeongh/Algorithm/blob/master/20210416/bj17608_hsk_used_fs.js) | [진홍](Day27/bj17608_kjh.java) [승빈](Day27/bj17608_wsb.java) [예은](Day27/bj17608_lye.cs) |
-| 백준   | 1158 | [요세푸스 문제](https://www.acmicpc.net/problem/1158) | [진홍](Day27/bj1158_kjh.java) [승빈](Day27/bj1158_wsb.java) [예은](Day27/bj1158_lye.cs) | [진홍](Day27/bj1158_kjh_fb.java) [승빈](Day27/bj1158_wsb_fb.java) [예은](Day27/bj1158_lye.cs) |
+| 백준   | 1158 | [요세푸스 문제](https://www.acmicpc.net/problem/1158) | [진홍](Day27/bj1158_kjh.java) [승빈](Day27/bj1158_wsb.java) [예은](Day27/bj1158_lye.cs) [수경](https://github.com/sukyeongh/Algorithm/blob/master/20210417/bj1158_hsk.js) | [진홍](Day27/bj1158_kjh_fb.java) [승빈](Day27/bj1158_wsb_fb.java) [예은](Day27/bj1158_lye.cs) |
 
 ## [28일차](Day28)
 
