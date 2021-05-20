@@ -6,7 +6,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 10162 | [전자레인지](https://www.acmicpc.net/problem/10162) | [진홍](Day92/bj10162_kjh.java) [승빈](Day92/bj10162_wsb.java) | [진홍](Day92/bj10162_kjh.java) [승빈](Day92/bj10162_wsb_fb.java) |
+| 백준   | 10162 | [전자레인지](https://www.acmicpc.net/problem/10162) | [진홍](Day92/bj10162_kjh.java) [승빈](Day92/bj10162_wsb.java) [수경](https://github.com/sukyeongh/Algorithm/blob/master/20210501/bj10162_hsk.js)| [진홍](Day92/bj10162_kjh.java) [승빈](Day92/bj10162_wsb_fb.java) |
 
 ## [93일차](Day93)
 
@@ -14,7 +14,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 1992    | [쿼드트리](https://www.acmicpc.net/problem/1992) | [진홍](Day93/bj1992_kjh.java) [승빈](Day93/bj1992_wsb.java) | [진홍](Day93/bj1992_kjh.java) [승빈](Day93/bj1992_wsb.java) |
+| 백준   | 1992    | [쿼드트리](https://www.acmicpc.net/problem/1992) | [진홍](Day93/bj1992_kjh.java) [승빈](Day93/bj1992_wsb.java) [수경](https://github.com/sukyeongh/Algorithm/blob/master/20210513/bj1992_hsk.js) | [진홍](Day93/bj1992_kjh.java) [승빈](Day93/bj1992_wsb.java) [수경](https://github.com/sukyeongh/Algorithm/blob/master/20210513/bj1992_hsk%20_fb.js) |
 
 ## [94일차](Day94)
 
@@ -38,7 +38,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 5876 | [Horseshoes](https://www.acmicpc.net/problem/5876) | [진홍](Day96/bj5876_kjh.java) [승빈](Day96/bj5876_wsb.java) | [진홍](Day96/bj5876_kjh_fb.java) [승빈](Day96/bj5876_wsb_fb.java) |
+| 백준   | 5876 | [Horseshoes](https://www.acmicpc.net/problem/5876) | [진홍](Day96/bj5876_kjh.java) [승빈](Day96/bj5876_wsb.java) [수경](https://github.com/sukyeongh/Algorithm/blob/master/20210430/bj5876_2_hsk.js) | [진홍](Day96/bj5876_kjh_fb.java) [승빈](Day96/bj5876_wsb_fb.java) |
 
 ## [97일차](Day97) : Pairing Day
 
@@ -54,4 +54,4 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 14454 | [Secret Cow Code](https://www.acmicpc.net/problem/14454) | [진홍](Day98/bj14454_kjh.java) [승빈](Day98/bj14454_wsb.java) | [진홍](Day98/bj14454_kjh.java) [승빈](Day98/bj14454_wsb_fb.java) |
+| 백준   | 14454 | [Secret Cow Code](https://www.acmicpc.net/problem/14454) | [진홍](Day98/bj14454_kjh.java) [승빈](Day98/bj14454_wsb.java) [수경](https://github.com/sukyeongh/Algorithm/blob/master/20210515/bj14454_hsk.js) | [진홍](Day98/bj14454_kjh.java) [승빈](Day98/bj14454_wsb_fb.java) |
