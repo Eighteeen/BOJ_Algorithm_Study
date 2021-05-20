@@ -69,14 +69,14 @@
 <details>
   <summary><strong>단순 구현</strong> (1주차 ~ 3주차)</summary>
   
-  ### [1주차](Study1:+Implementation/Week01)
+  ### [1주차](Study1:%20Implementation/Week01)
   * 입출력이 정직한 기초적인 구현 문제
 
-  ### [2주차](Study1:+Implementation/Week02)
+  ### [2주차](Study1:%20Implementation/Week02)
   * 입출력이 정직한 기초적인 구현 활용 문제
   * 기초적이지만 해석이 다소 필요한 문제
 
-  ### [3주차](Study1:+Implementation/Week03)
+  ### [3주차](Study1:%20Implementation/Week03)
   * 기초적이지만 해석이 다소 필요한 문제 활용
   * 해석이 필요한 문제
 </details>
