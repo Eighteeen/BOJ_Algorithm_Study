@@ -83,7 +83,7 @@
 <details>
   <summary><strong>스택, 큐, 덱</strong> (4주차 ~ 7주차)</summary>
 
-  ### [4주차](Week04)
+  ### [4주차](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study2:%20Stack%2C%20Queue%2C%20Deque/Week04)
   > 이론 : [스택, 큐, 덱](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study2:%20Stack%2C%20Queue%2C%20Deque/Week04/reference/kjh.pdf)  
   > 발표자 : [🐮 김진홍(kjh)](https://github.com/deepredk)
   * 해석이 필요한 문제
