@@ -16,8 +16,10 @@ class Main {
           for (int j = 0; j < n; j++) {
             int[] friendsInfo = Arrays.stream(br.readLine().split(" ")).mapToInt(Integer::parseInt).toArray();
             int d = friendsInfo[0];
-            friendsBitArr[i] = bitmaskOfNumArrAllAdd(Arrays.copyOfRange(friendsInfo, 1, d));
+            friendsBitArr[j] = bitmaskOfNumArrAllAdd(Arrays.copyOfRange(friendsInfo, 1, d + 1)) | (1 << (j + 1));
           }
+
+          sb.append(minimumAds(friendsBitArr)).append("\n");
         }
 
         System.out.println(sb);
@@ -26,13 +28,28 @@ class Main {
 
     static int minimumAds(int[] friendsArr) {
       int friendNum = friendsArr.length;
-      return 0;
+      int minimumAds = friendNum;
+
+      int range = (1 << friendNum);
+      for (int i = 1; i < range; i++) {
+        int currentSeen = 0, needAds = 0;
+        for (int j = 0; j < friendNum; j++) {
+          if ((i & (1 << j)) == 0) continue;
+          currentSeen |= friendsArr[j];
+          needAds++;
+        }
+        if (Integer.bitCount(currentSeen) != friendNum) continue;
+        if (needAds == 1) return 1;
+        minimumAds = Math.min(minimumAds, needAds);
+      }
+
+      return minimumAds;
     }
 
     static int bitmaskOfNumArrAllAdd(int[] numArr) {
       int bitmask = 0;
       for (int num : numArr) {
-          bitmask |= (1 << num);
+        bitmask |= (1 << num);
       }
       return bitmask;
   }
