@@ -50,7 +50,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 5568    | [카드 놓기](https://www.acmicpc.net/problem/5568) | [진홍](Day55/bj5568_kjh.java) [승빈](Day55/bj5568_wsb.java) | [진홍](Day55/bj5568_kjh_fb.java) [승빈](Day55/bj5568_wsb_fb.java) |
+| 백준   | 5568    | [카드 놓기](https://www.acmicpc.net/problem/5568) | [진홍](Day55/bj5568_kjh.java) [승빈](Day55/bj5568_wsb.java) [수경](https://github.com/sukyeongh/Algorithm/blob/master/20210427/bj5568_hsk.js) | [진홍](Day55/bj5568_kjh_fb.java) [승빈](Day55/bj5568_wsb_fb.java) |
 
 ## [56일차](Day56)
 
