@@ -30,7 +30,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 9819 | [Color Change of Go Game Pieces](https://www.acmicpc.net/problem/9819) | 진홍 승빈 | 진홍 승빈 |
+| 백준   | 9819 | [Color Change of Go Game Pieces](https://www.acmicpc.net/problem/9819) | [진홍](Day144/bj9819_kjh.py) 승빈 | 진홍 승빈 |
 
 ## [145일차](Day145)
 
