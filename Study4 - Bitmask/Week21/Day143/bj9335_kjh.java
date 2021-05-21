@@ -29,6 +29,7 @@ class Main {
   }
 
   //// 이런 방법도 있군요!
+  //// => 저랑 같은 방법으로 푸셨는디요?
   static int calcLeastAds(int numberOfUsers, int[] exposureBitmask) {
     final int EXPOSED_TO_ALL = (1 << numberOfUsers) - 1;
 
