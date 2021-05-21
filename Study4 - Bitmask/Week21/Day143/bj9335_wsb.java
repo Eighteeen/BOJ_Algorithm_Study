@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
+//// 깔꼼~
 class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -39,7 +40,7 @@ class Main {
           needAds++;
         }
         if (Integer.bitCount(currentSeen) != friendNum) continue;
-        if (needAds == 1) return 1;
+        if (needAds == 1) return 1; //// 최적화 굳굳
         minimumAds = Math.min(minimumAds, needAds);
       }
 
