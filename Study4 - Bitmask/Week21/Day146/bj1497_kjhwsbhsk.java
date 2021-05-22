@@ -12,7 +12,7 @@ class Main {
       String uselessName = Input.next();
       char[] songsCanPlay = Input.next().toCharArray();
 
-      for (int songNumber = 0; songNumber < songsCanPlay.length; songNumber++) {
+      for (int songNumber = 0; songNumber < NUMBER_OF_SONGS; songNumber++) {
         if (songsCanPlay[songNumber] == 'N') continue;
         guitarsSpecBitmask[i] |= 1L << songNumber;
       }
