@@ -1,5 +1,8 @@
 import sys
 
+## 무난 깔끔합니다.
+## 문제 해석 굿굿 ㅎㅎ
+
 def bit_count(num):
     count = 0
     while num:
