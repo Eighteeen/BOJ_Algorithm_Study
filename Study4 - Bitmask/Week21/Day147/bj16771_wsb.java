@@ -23,6 +23,7 @@ class Main {
         int numOfBucket = firstBarnBucketUnits.length;
         int range = (1 << numOfBucket);
         for (int firstBarnBuckets = 1; firstBarnBuckets < range; firstBarnBuckets++) {
+            //// 비트마스킹을 사용했다는 점에서 의미있는 것 같습니다 굳
             int numOfFirstBucket = Integer.bitCount(firstBarnBuckets);
             if (numOfFirstBucket > 2) continue;
 

@@ -11,6 +11,8 @@ const input = (() => {
   return () => stdin[line++];
 })();
 
+//// true false를 반환하게 하고, 35줄쪽에서 삼항연산자로 1 또는 -1 연산하게 하는건 어떨까요
+//// boolean을 반환하게 생긴 함수가 1 또는 -1를 반환하는 게 조금 걸리네용
 const isOddDay = (day) => {
   if (day) return 1;
   return -1;
@@ -27,10 +29,12 @@ const backAndForth = (first_barn_amount_milk, day) => {
   let barn_location = day & 1;
 
   for (let i = 0; i < 10; i++) {
+    //// js에선 boolean 배열을 다룰 수 없나요??
     if (is_used_buckets[barn_location][i] === 0) {
       is_used_buckets[barn_location][i] = 1;
 
       let change_barn_amount = buckets[barn_location][i] * isOddDay(barn_location);
+      //// 첫 헛간 우유만 다루는 방법도 있네요. 배워갑니다
       backAndForth(first_barn_amount_milk + change_barn_amount, day + 1);
 
       is_used_buckets[barn_location][i] = 0;
