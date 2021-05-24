@@ -6,6 +6,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.ArrayList;
 
+//깔끔합니다.
 class Main {
   static Set<Integer> possibleCase = new HashSet<>();
   static final int FIRST = 0;
