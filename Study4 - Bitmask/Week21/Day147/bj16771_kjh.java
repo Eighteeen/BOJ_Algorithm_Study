@@ -6,7 +6,8 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.ArrayList;
 
-//깔끔합니다.
+//// 깔끔합니다.
+//// 비트마스킹의 특징을 이용한 부분을 찾아볼 수 없었어요 ㅠ 제가 못 찾는 걸까요? 진행 주제 풀이 특징을 찾을 수 없어서 아쉽습니다.
 class Main {
   static Set<Integer> possibleCase = new HashSet<>();
   static final int FIRST = 0;
@@ -55,6 +56,7 @@ class Barn {
   public Barn(String strBuckets) {
     milk = 1000;
 
+    //// buckets를 list로 하신다면 확장성있게 arrBuckets의 length를 이용하면 좋을 것 같아요. 
     String[] arrBuckets = strBuckets.split(" ");
     buckets = new ArrayList<>();
     for (int i = 0; i < 10; i++) {
