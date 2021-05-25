@@ -24,6 +24,7 @@ for (let i = 0; i < 3; i++) {
   dot_list.y.push(parseInt(location[1]));
 }
 
+//// 제한 사항을 잘 이용한 풀이네요. 깔끔~
 dot_list.x.map((item, index) => {
   if (dot_list.x.indexOf(item) !== index) {
     dot_list.x.splice(index, 1);
