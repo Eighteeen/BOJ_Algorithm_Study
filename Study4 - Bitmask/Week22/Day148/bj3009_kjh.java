@@ -10,6 +10,7 @@ class Main {
     List<Integer> yList = new ArrayList<>();
 
     for (int i = 0; i < 3; i++) {
+      ////좌표가 존재하면 제거하는 방법 멋지네요!      
       Integer x = Input.nextInt();
       if (xList.contains(x)) {
         xList.remove(x);

@@ -16,7 +16,8 @@ class Main {
             String[] numInfo = br.readLine().split(" ");
             Integer x = Integer.valueOf(numInfo[0]);
             Integer y = Integer.valueOf(numInfo[1]);
-
+            
+            ////좌표가 존재하면 제거하는 방법 멋지네요!
             if (xPossible.contains(x)) xPossible.remove(x);
             else xPossible.add(x);
             if (yPossible.contains(y)) yPossible.remove(y);
