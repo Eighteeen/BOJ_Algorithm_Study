@@ -17,6 +17,7 @@ let dot_list = {
   y: [],
 };
 
+//// 일단 다 입력받은 뒤 유일한 애만 걸러내는 방식이네요. 무난하고 좋은 것 같습니다
 for (let i = 0; i < 3; i++) {
   const location = input().split(` `);
   dot_list.x.push(parseInt(location[0]));
