@@ -57,10 +57,11 @@ class Barn {
   public Barn(String strBuckets) {
     milk = 1000;
 
-    //// buckets를 list로 하신다면 확장성있게 arrBuckets의 length를 이용하면 좋을 것 같아요. 
+    //// buckets를 list로 하신다면 확장성있게 arrBuckets의 length를 이용하면 좋을 것 같아요.
+    //// => 피드백 감삼다! 
     String[] arrBuckets = strBuckets.split(" ");
     buckets = new ArrayList<>();
-    for (int i = 0; i < 10; i++) {
+    for (int i = 0; i < arrBuckets.length; i++) {
       int bucket = Integer.parseInt(arrBuckets[i]);
       buckets.add(bucket);
     }
