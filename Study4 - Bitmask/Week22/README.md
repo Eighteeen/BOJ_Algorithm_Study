@@ -14,7 +14,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 13136 | [Do Not Touch Anything](https://www.acmicpc.net/problem/13136) | [진홍](Day149/bj13136_kjh.java) [승빈](Day149/bj13136_wsb.java) [수경](Day149/bj13136_hsk.js) | 진홍 [승빈](Day149/bj13136_wsb.java) 수경 |
+| 백준   | 13136 | [Do Not Touch Anything](https://www.acmicpc.net/problem/13136) | [진홍](Day149/bj13136_kjh.java) [승빈](Day149/bj13136_wsb.java) [수경](Day149/bj13136_hsk.js) | [진홍](Day149/bj13136_kjh.java) [승빈](Day149/bj13136_wsb.java) 수경 |
 
 ## [150일차](Day150)
 
