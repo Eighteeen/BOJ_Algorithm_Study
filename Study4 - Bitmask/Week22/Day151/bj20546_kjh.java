@@ -1,30 +1,30 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
+import java.util.Arrays;
 
 class Main {
   public static void main(String[] args) throws Exception {
     final int CASH = Input.nextInt();
     
-    BNPStrategy bnp = new BNPStrategy(CASH);
-    TimingStrategy timing = new TimingStrategy(CASH);
+    Strategy bnpStrategy = new BNPStrategy(CASH);
+    Strategy timingStrategy = new TimingStrategy(CASH);
 
     int todayPrice = 0;
     for (int i = 0; i < 14; i++) {
       todayPrice = Input.nextInt();
-
-      bnp.run(todayPrice);
-      timing.run(todayPrice);
+      
+      bnpStrategy.run(todayPrice);
+      timingStrategy.run(todayPrice);
     }
 
-    String result = getResult(todayPrice, bnp, timing);
-
+    String result = getResult(todayPrice, bnpStrategy, timingStrategy);
     System.out.print(result);
   }
 
-  static String getResult(int todayPrice, BNPStrategy bnp, TimingStrategy timing) {
-    int assetsForBNP = bnp.calcAssets(todayPrice);
-    int assetsForTiming = timing.calcAssets(todayPrice);
+  static String getResult(int todayPrice, Strategy bnpStrategy, Strategy timingStrategy) {
+    int assetsForBNP = bnpStrategy.calcAssets(todayPrice);
+    int assetsForTiming = timingStrategy.calcAssets(todayPrice);
 
     if (assetsForBNP > assetsForTiming) {
       return "BNP";
@@ -38,37 +38,28 @@ class Main {
   }
 }
 
-class BNPStrategy {
-  private int stocks;
-  private int cash;
-
+class BNPStrategy extends Strategy{
   public BNPStrategy(int initialCash) {
     cash = initialCash;
   }
 
+  @Override
   public void run(int todayPrice) {
     stocks += cash / todayPrice;
     cash %= todayPrice;
   }
-
-  public int calcAssets(int todayPrice) {
-    return (stocks * todayPrice) + cash;
-  }
 }
 
-class TimingStrategy {
-  private int stocks;
-  private int cash;
-  
-  private int yesterdayStock;
+class TimingStrategy extends Strategy {
+  private int yesterdayStock = -1;
   private int upStrike;
   private int downStrike;
 
   public TimingStrategy(int initialCash) {
     cash = initialCash;
-    yesterdayStock = -1;
   }
 
+  @Override
   public void run(int todayPrice) {
     updateStrikes(todayPrice);
     
@@ -101,6 +92,13 @@ class TimingStrategy {
       downStrike = 0;
     }
   }
+}
+
+abstract class Strategy {
+  protected int stocks;
+  protected int cash;
+
+  abstract void run(int todayPrice);
 
   public int calcAssets(int todayPrice) {
     return (stocks * todayPrice) + cash;
