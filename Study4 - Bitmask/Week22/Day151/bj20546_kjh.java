@@ -37,7 +37,7 @@ class Main {
   }
 }
 
-class BNPStrategy extends Strategy{
+class BNPStrategy extends Strategy {
   public BNPStrategy(int initialCash) {
     cash = initialCash;
   }
