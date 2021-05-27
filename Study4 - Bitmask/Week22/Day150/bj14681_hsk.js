@@ -4,7 +4,7 @@ const rl = readline.createInterface({
   output: process.stdout,
 });
 
-//// ㄲㄲ
+//// ㄲㄲ :22
 const input = [];
 
 rl.on('line', (line) => {
