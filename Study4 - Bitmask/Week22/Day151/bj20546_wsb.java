@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
-////깔끔해요:-D
+////깔끔해요:-D :22
 class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -14,6 +14,7 @@ class Main {
         int BNPAssets = getAssetsAfterBNPWay(foundationMoney, stockPrices);
         int TimingAssets = getAssetsAfterTimingWay(foundationMoney, stockPrices);
 
+        //// 미리 SAMESAME 초기화 두는거 좋네요
         String result = "SAMESAME";
         if (BNPAssets < TimingAssets) result = "TIMING";
         else if (BNPAssets > TimingAssets) result = "BNP";
