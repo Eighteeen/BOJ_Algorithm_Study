@@ -9,7 +9,7 @@ class Main {
     final int PRICE = Input.nextInt();
 
     long result = -1;
-    if (variable < price) {
+    if (VARIABLE < PRICE) {
       result = FIXED / (PRICE - VARIABLE) + 1;
     }
     System.out.print(result);
