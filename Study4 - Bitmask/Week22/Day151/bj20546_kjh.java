@@ -4,6 +4,7 @@ import java.util.StringTokenizer;
 
 //// 무난깔끔해요:-D
 //// 객체지향적으로 깔끔하게 잘 푸신 것 같습니다.
+//// => 알아봐주셔서 감삼다 ㅎㅎ
 class Main {
   public static void main(String[] args) throws Exception {
     final int CASH = Input.nextInt();
