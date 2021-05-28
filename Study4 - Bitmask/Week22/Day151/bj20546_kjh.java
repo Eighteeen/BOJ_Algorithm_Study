@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+//무난깔끔해요:-D
 class Main {
   public static void main(String[] args) throws Exception {
     final int CASH = Input.nextInt();
