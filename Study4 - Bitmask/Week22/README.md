@@ -22,7 +22,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 14681 | [사분면 고르기](https://www.acmicpc.net/problem/14681) | [진홍](Day150/bj14681_kjh.java) [승빈](Day150/bj14681_wsb.java) [수경](Day150/bj14681_hsk.js) | 진홍 승빈[수경](Day150/bj14681_hsk.js) |
+| 백준   | 14681 | [사분면 고르기](https://www.acmicpc.net/problem/14681) | [진홍](Day150/bj14681_kjh.java) [승빈](Day150/bj14681_wsb.java) [수경](Day150/bj14681_hsk.js) | [진홍](Day150/bj14681_kjh.java) 승빈[수경](Day150/bj14681_hsk.js) |
 
 ## [151일차](Day151)
 
