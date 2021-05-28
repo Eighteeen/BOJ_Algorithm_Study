@@ -6,6 +6,7 @@ const input = (
 20 20 33 98 15 6 4 1 1 1 2 3 6 14`
 ).split('\n');
 
+//// 전체적으로 무난합니다.
 const company_stock = input[1].split(' ').map((value) => parseInt(value));
 
 let assets = {
@@ -13,6 +14,7 @@ let assets = {
   stock: 0,
 };
 
+//// 무엇을 반환하는지 함수명으로 어느정도 나타나 있으면 좋을 것 같아요.
 const bnpStrategy = (assets, company_stock) => {
   for (let item of company_stock) {
     if (assets.cash < item) continue;

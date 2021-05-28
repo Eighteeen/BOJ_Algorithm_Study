@@ -2,11 +2,13 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-//무난깔끔해요:-D
+//// 무난깔끔해요:-D
+//// 객체지향적으로 깔끔하게 잘 푸신 것 같습니다.
 class Main {
   public static void main(String[] args) throws Exception {
     final int CASH = Input.nextInt();
     
+    //// 오호 추상클래스와 자식 클래스를 매우 잘 활용했네요
     Strategy bnpStrategy = new BNPStrategy(CASH);
     Strategy timingStrategy = new TimingStrategy(CASH);
 
@@ -94,6 +96,7 @@ class TimingStrategy extends Strategy {
   }
 }
 
+//// 와우 추상 클래스까지!
 abstract class Strategy {
   protected int stocks;
   protected int cash;
