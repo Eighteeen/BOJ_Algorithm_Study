@@ -1,5 +1,6 @@
 const fs = require('fs');
 const input = (process.platform === 'linux' ? fs.readFileSync('/dev/stdin').toString().trim() : `32 16 8`).split(' ');
+//// 무난 깔끔
 
 const A = parseInt(input[0]);
 const B = parseInt(input[1]);
