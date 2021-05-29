@@ -15,7 +15,7 @@ let assets = {
 };
 
 //// 무엇을 반환하는지 함수명으로 어느정도 나타나 있으면 좋을 것 같아요.
-//~ 오호 좋은 조언이네요! 변경하였습니다.
+//// => ~ 오호 좋은 조언이네요! 변경하였습니다.
 const getAssetsBNPStrategy = (assets, company_stock) => {
   for (let item of company_stock) {
     if (assets.cash < item) continue;
@@ -29,7 +29,7 @@ const getAssetsBNPStrategy = (assets, company_stock) => {
 };
 
 //// 요 줄 지워도 똑같아요!(...복사 제거)
-// => 알려주셔서 감사합니다~
+//// => 알려주셔서 감사합니다~
 const getAssetsTimingStrategy = (assets, company_stock) => {
   for (let i = 0; i < company_stock.length - 3; i++) {
     if (company_stock[i] > company_stock[i + 1] && company_stock[i + 1] > company_stock[i + 2]) {
