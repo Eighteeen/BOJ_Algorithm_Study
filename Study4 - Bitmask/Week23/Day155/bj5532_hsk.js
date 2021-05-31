@@ -9,11 +9,7 @@ const input = (
 8`
 ).split('\n');
 
-const L = parseInt(input[0]);
-const A = parseInt(input[1]);
-const B = parseInt(input[2]);
-const C = parseInt(input[3]);
-const D = parseInt(input[4]);
+const [L, A, B, C, D] = input.map((value) => Number(value));
 
 const solve_korean = parseInt(A / C) + (A % C !== 0 ? 1 : 0);
 const solve_math = parseInt(B / D) + (B % D !== 0 ? 1 : 0);
