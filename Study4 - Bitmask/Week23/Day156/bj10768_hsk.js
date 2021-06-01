@@ -9,6 +9,7 @@ const input = (
 const month = parseInt(input[0]);
 const day = parseInt(input[1]);
 
+//// 깔꼼~
 if (month === 1 || (month === 2 && day < 18)) {
   console.log('Before');
 } else if (month === 2 && day === 18) {
