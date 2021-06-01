@@ -8,6 +8,7 @@ const input = (
 6
 8`
 ).split('\n');
+//// 무난 깔끔~
 
 const [L, A, B, C, D] = input.map((value) => Number(value));
 

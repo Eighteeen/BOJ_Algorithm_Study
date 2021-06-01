@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-////깔끔해요
+////깔끔해요 : 22 무난 깔끔
 class Main {
   public static void main(String[] args) throws Exception {
     final int VACATION_DAYS = Input.nextInt();
