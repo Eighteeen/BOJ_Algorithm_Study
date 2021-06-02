@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+//// good~
 class Main {
   public static void main(String[] args) throws Exception {
     int month = Input.nextInt();
