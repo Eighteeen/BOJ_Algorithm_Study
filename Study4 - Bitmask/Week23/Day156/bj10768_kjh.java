@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-//// good~
+//// good~ : 22 무난~
 class Main {
   public static void main(String[] args) throws Exception {
     int month = Input.nextInt();
