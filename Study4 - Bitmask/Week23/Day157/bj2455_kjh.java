@@ -9,6 +9,8 @@ class Main {
     int currentPassengers = 0;
 
     //// 오호 마지막에는 내리기만 하니까 3번만~ 문제 조건을 잘 활용하셨네요!
+    //// => 어 그러게요 노리고한거같은데 왜 노렸던 기억이 안나지..? ㅋㅋㅋ
+    //// => 긍정적 피드백 땡큐요!
     for (int i = 0; i < 3; i++) {
       int getOut = Input.nextInt();
       int getIn = Input.nextInt();
