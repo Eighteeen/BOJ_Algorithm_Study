@@ -2,12 +2,13 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-// perfect~
+//// perfect~
 class Main {
   public static void main(String[] args) throws Exception {
     int maxPassengers = 0;
     int currentPassengers = 0;
 
+    //// 오호 마지막에는 내리기만 하니까 3번만~ 문제 조건을 잘 활용하셨네요!
     for (int i = 0; i < 3; i++) {
       int getOut = Input.nextInt();
       int getIn = Input.nextInt();

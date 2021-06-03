@@ -12,7 +12,7 @@ let currentPassenger = 0;
 let maxPassenger = 0;
 
 
-//// 깔꼼
+//// 깔꼼 : 22
 for (let i = 0; i < 4; i++) {
   const [getOffPassenger, getOnPassenger] = input[i].split(' ').map((item) => parseInt(item));
   currentPassenger += getOnPassenger;
