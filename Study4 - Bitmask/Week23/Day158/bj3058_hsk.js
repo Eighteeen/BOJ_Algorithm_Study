@@ -18,6 +18,7 @@ for (let i = 0; i < N; i++) {
     .split(' ')
     .map((item) => parseInt(item));
 
+  //// map reduce filter 등을 적극활용하셨군요
   const evenNumArr = numArr.filter((item) => item % 2 === 0);
   const evenSum = evenNumArr.reduce((sum, currValue) => {
     return sum + currValue;
