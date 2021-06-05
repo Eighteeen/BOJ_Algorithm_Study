@@ -30,7 +30,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안           | 피드백 반영 답안 |
 | ------ | ---- | -------------------- | -------------- | ---------------- |
-| 백준   | 3058 | [짝수를 찾아라](https://www.acmicpc.net/problem/3058) | [진홍](Day158/bj3058_kjh.java) [승빈](Day158/bj3058_wsb.java) [수경](Day158/bj3058_hsk.js) | [진홍](Day158/bj3058_kjh.java) 승빈 [수경](Day158/bj3058_hsk.js)   |
+| 백준   | 3058 | [짝수를 찾아라](https://www.acmicpc.net/problem/3058) | [진홍](Day158/bj3058_kjh.java) [승빈](Day158/bj3058_wsb.java) [수경](Day158/bj3058_hsk.js) | [진홍](Day158/bj3058_kjh.java) [승빈](Day158/bj3058_wsb.java) [수경](Day158/bj3058_hsk.js)   |
 
 ## [159일차](Day159)
 
