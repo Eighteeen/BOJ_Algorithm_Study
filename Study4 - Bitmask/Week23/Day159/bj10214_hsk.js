@@ -14,6 +14,7 @@ const stdin = (
 0 0`
 ).split('\n');
 
+//// 깔끔
 const input = (() => {
   let line = 0;
   return () => stdin[line++];
