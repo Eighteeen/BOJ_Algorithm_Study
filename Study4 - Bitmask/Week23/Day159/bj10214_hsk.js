@@ -20,6 +20,7 @@ const input = (() => {
   return () => stdin[line++];
 })();
 
+//// 함수로 뺐다면 team1, team2 등 추상화하면 더 좋을 것 같아요!
 const getGameResult = (yonsei, korea) => {
   if (yonsei > korea) return 'Yonsei';
   else if (korea > yonsei) return 'Korea';

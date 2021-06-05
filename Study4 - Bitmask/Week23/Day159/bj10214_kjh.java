@@ -23,6 +23,7 @@ class Main {
     System.out.print(sb);
   }
 
+  //// 함수로 뺐다면 team1, team2 등 추상화하면 더 좋을 것 같아요!
   static String judge(int yonsei, int korea) {
     if (yonsei > korea) {
       return "Yonsei";
