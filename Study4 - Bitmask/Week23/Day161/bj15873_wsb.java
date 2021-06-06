@@ -9,6 +9,7 @@ class Main {
         String[] numStrArr = br.readLine().split("");
         int arrLen = numStrArr.length;
 
+        //// 미리 초기화해서 계산이 하나 줄어서 좋은 것 같아요!
         int result = 20;
         int num1, num2;
         if (arrLen == 3) {
