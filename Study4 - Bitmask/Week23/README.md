@@ -38,7 +38,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안           | 피드백 반영 답안 |
 | ------ | ---- | -------------------- | -------------- | ---------------- |
-| 백준   | 10214 | [Baseball](https://www.acmicpc.net/problem/10214) | [진홍](Day159/bj10214_kjh.java) [승빈](Day159/bj10214_wsb.java) [수경](Day159/bj10214_hsk.js) | 진홍 [승빈](Day159/bj10214_wsb.java) 수경   |
+| 백준   | 10214 | [Baseball](https://www.acmicpc.net/problem/10214) | [진홍](Day159/bj10214_kjh.java) [승빈](Day159/bj10214_wsb.java) [수경](Day159/bj10214_hsk.js) | 진홍 [승빈](Day159/bj10214_wsb.java) [수경](Day159/bj10214_hsk_fb.js)   |
 
 ## [160일차](Day160)
 
@@ -54,4 +54,4 @@
 
 | 사이트 | 번호 | 문제                 | 답안           | 피드백 반영 답안 |
 | ------ | ---- | -------------------- | -------------- | ---------------- |
-| 백준   | 15873 | [공백 없는 A+B](https://www.acmicpc.net/problem/15873) | 진홍 [승빈](Day160/bj15873_wsb.java) 수경 | 진홍 승빈 수경   |
+| 백준   | 15873 | [공백 없는 A+B](https://www.acmicpc.net/problem/15873) | 진홍 [승빈](Day160/bj15873_wsb.java) [수경](Day160/bj15873_hsk.js) | 진홍 승빈 수경   |
