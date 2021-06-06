@@ -24,7 +24,7 @@ class Main {
   }
 
   //// 함수로 뺐다면 team1, team2 등 추상화하면 더 좋을 것 같아요!
-  //// => 반환 값이 변수명에 종속적인 만큼 매개변수명은 그대로 두고싶습니다!
+  //// => 반환 값이 매개변수명에 종속적인 만큼 변수명은 그대로 두고싶습니다!
   static String judge(int yonsei, int korea) {
     if (yonsei > korea) {
       return "Yonsei";
