@@ -3,7 +3,7 @@ const [N, K] = (process.platform === 'linux' ? fs.readFileSync('/dev/stdin').toS
   .split(' ')
   .map((item) => parseInt(item));
 
-//// 깔끔
+//// 깔끔 :22
 let maxResult = 0;
 for (let i = 1; i <= K; i++) {
   const currResult = (N * i).toString().split('');
