@@ -54,4 +54,4 @@
 
 | 사이트 | 번호 | 문제                 | 답안           | 피드백 반영 답안 |
 | ------ | ---- | -------------------- | -------------- | ---------------- |
-| 백준   | 15873 | [공백 없는 A+B](https://www.acmicpc.net/problem/15873) | [진홍](Day161/bj15873_kjh.java) [승빈](Day161/bj15873_wsb.java) [수경](Day161/bj15873_hsk.js) | 진홍 승빈 수경   |
+| 백준   | 15873 | [공백 없는 A+B](https://www.acmicpc.net/problem/15873) | [진홍](Day161/bj15873_kjh.java) [승빈](Day161/bj15873_wsb.java) [수경](Day161/bj15873_hsk.js) | 진홍 승빈 [수경](Day161/bj15873_hsk.js)   |
