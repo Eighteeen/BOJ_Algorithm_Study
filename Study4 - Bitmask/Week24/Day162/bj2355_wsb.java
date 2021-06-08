@@ -16,6 +16,7 @@ class Main {
         br.close();
     }
 
+    ////절댓값으로 계산하여 크기 비교를 안해도 되는게 좋아요~
     static long getAllSumBetweenTwoNums(long num1, long num2) {
         return (num1 + num2) * (Math.abs(num1 - num2) + 1) / 2;
     }
