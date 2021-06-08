@@ -14,7 +14,7 @@ class Main {
       startSum = endSum;
       endSum = tmp;
     }
-    ////java igInteger 메서드 활용 좋아요~
+    ////java BigInteger 메서드 배워가네요~
     BigInteger amountOfNumbers = endSum.subtract(startSum).add(BigInteger.ONE);
 
     System.out.print(amountOfNumbers.multiply(startSum.add(endSum)).divide(BigInteger.TWO));
