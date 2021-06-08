@@ -6,6 +6,8 @@ class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         
+        //// 에엥 Long으로도 됐네요? 0~21억 합 구할때 오버플로우 나던데 뭐지
+        //// 아무튼 long 쓰니 더 깔끔하네요!
         String[] numStrArr = br.readLine().split(" ");
         long A = Long.parseLong(numStrArr[0]);
         long B = Long.parseLong(numStrArr[1]);
