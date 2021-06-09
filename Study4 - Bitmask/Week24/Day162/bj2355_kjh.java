@@ -4,6 +4,7 @@ import java.util.StringTokenizer;
 import java.math.BigInteger;
 
 //// 무난~ 하지만 피드백 남기신 것 처럼 long으로 가능해서 BigInteger 쓴 게 아쉽긴 하네요. 무난무난!
+//// => ㅎㅎㅋ 이상하다.. 1~21억 long으로 구할때 오버플로우 나던데..
 class Main {
   public static void main(String[] args) throws Exception {
     BigInteger startSum = BigInteger.valueOf(Input.nextInt());
