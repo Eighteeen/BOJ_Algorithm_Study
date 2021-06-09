@@ -5,6 +5,7 @@ import java.util.Date;
 import java.util.Locale;
 import java.text.SimpleDateFormat;
 
+//// 무난 깔끔
 class Main {
   public static void main(String[] args) throws Exception {
     int month = Input.nextInt() - 1;
