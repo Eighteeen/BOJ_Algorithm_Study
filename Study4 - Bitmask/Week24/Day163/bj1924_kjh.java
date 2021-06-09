@@ -10,6 +10,7 @@ class Main {
     int month = Input.nextInt() - 1;
     int day = Input.nextInt() - 1;
 
+    //// Date로 할 수도 있네요~ 깔끔!
     Date date = new Date(2007, month, day);
     SimpleDateFormat formatTime = new SimpleDateFormat("EEE", Locale.ENGLISH);
     String dayOfTheWeek = formatTime.format(date).toUpperCase();

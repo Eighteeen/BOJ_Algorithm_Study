@@ -11,6 +11,7 @@ class Main {
         final int year = 2007;
 
         //// 해당 날짜 date 구하는 방법이 독특하네요
+        //// Date로 할 수도 있네요~ 깔끔!
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyyM dd");
         Date date = dateFormat.parse(year + br.readLine());
 
