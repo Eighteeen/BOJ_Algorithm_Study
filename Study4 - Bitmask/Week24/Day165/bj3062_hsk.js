@@ -9,6 +9,7 @@ let stdin = (
 5056`
 ).split('\n');
 
+//// 무난 깔끔!
 const input = (() => {
   let line = 0;
   return () => stdin[line++];
