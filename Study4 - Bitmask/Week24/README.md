@@ -22,7 +22,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안           | 피드백 반영 답안 |
 | ------ | ---- | -------------------- | -------------- | ---------------- |
-| 백준   | 15963 | [CASIO](https://www.acmicpc.net/problem/15963) | [진홍](Day164/bj15963_kjh.java) [승빈](Day164/bj15963_wsb.java) [수경](Day164/bj15963_hsk.js) | 진홍 승빈 수경   |
+| 백준   | 15963 | [CASIO](https://www.acmicpc.net/problem/15963) | [진홍](Day164/bj15963_kjh.java) [승빈](Day164/bj15963_wsb.java) [수경](Day164/bj15963_hsk.js) | 진홍 [승빈](Day164/bj15963_wsb.java) 수경   |
 
 ## [165일차](Day165)
 
