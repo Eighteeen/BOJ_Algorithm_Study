@@ -22,6 +22,7 @@ class Main {
         int reverseNum = Integer.parseInt(new StringBuilder(numStr).reverse().toString());
 
         String sumNumStr = String.valueOf(num + reverseNum);
+        //// 신박하네요~ 멋져요~
         return sumNumStr.equals(new StringBuilder(sumNumStr).reverse().toString());
     }
 }
