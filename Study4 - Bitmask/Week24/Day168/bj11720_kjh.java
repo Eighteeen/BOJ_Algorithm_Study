@@ -8,6 +8,7 @@ class Main {
     final String NUMBERS = Input.nextLine();
 
     int sum = 0;
+    ////getNumericValue 사용 good
     for (int i = 0; i < NUMBERS.length(); i++) {
       int number = Character.getNumericValue(NUMBERS.charAt(i));
       sum += number;
