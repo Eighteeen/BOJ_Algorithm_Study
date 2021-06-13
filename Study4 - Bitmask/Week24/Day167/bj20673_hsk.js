@@ -8,6 +8,7 @@ let [p, q] = (
   .split('\n')
   .map((item) => parseInt(item));
 
+//// 깔끔합니다
 if (p <= 50 && q <= 10) console.log('White');
 else if (q <= 30) console.log('Yellow');
 else console.log('Red');
