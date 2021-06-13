@@ -3,6 +3,9 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 //// 깔끔해요
+//// 일단 통과된 풀이이지만 문제의 조건으로 봤을 때 NEW의 조건을 체크하지 않아서
+////    White와 Yellow의 결과가 맞지 않다고 생각합니다.
+////    (데이터 추가에 대한 문의 답변이 나와야 확실해지겠지만요.)
 class Main {
   public static void main(String[] args) throws Exception {
     final int NEW = Input.nextInt();
