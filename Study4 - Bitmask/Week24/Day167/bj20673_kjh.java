@@ -6,12 +6,13 @@ import java.util.StringTokenizer;
 //// 일단 통과된 풀이이지만 문제의 조건으로 봤을 때 NEW의 조건을 체크하지 않아서
 ////    White와 Yellow의 결과가 맞지 않다고 생각합니다.
 ////    (데이터 추가에 대한 문의 답변이 나와야 확실해지겠지만요.)
+//// => 피드백 고마워용!
 class Main {
   public static void main(String[] args) throws Exception {
     final int NEW = Input.nextInt();
     final int LIP_ONE = Input.nextInt();
 
-    if (LIP_ONE <= 10) {
+    if (NEW <= 50 && IP_ONE <= 10) {
       System.out.print("White");
     } else if (LIP_ONE >= 30) {
       System.out.print("Red");
