@@ -6,7 +6,7 @@ let [N, numStr] = (
 54321`
 ).split('\n');
 
-//// 깔끔!
+//// 깔끔! : 22
 const numArr = numStr.split('').map((item) => Number(item));
 const sumNum = numArr.reduce((sum, currValue) => {
   return sum + currValue;

@@ -2,13 +2,14 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+//// 깔끔
 class Main {
   public static void main(String[] args) throws Exception {
     final int N = Input.nextInt();
     final String NUMBERS = Input.nextLine();
 
     int sum = 0;
-    ////getNumericValue 사용 good
+    ////getNumericValue 사용 good : 22
     for (int i = 0; i < NUMBERS.length(); i++) {
       int number = Character.getNumericValue(NUMBERS.charAt(i));
       sum += number;
