@@ -3,6 +3,7 @@ let [N, W, H, L] = (process.platform === 'linux' ? fs.readFileSync('/dev/stdin')
   .split(' ')
   .map((item) => parseInt(item));
 
+  //// 깔껌
 const cowCount = parseInt(W / L) * parseInt(H / L);
 const maxCowCount = Math.min(N, cowCount);
 console.log(maxCowCount);
