@@ -30,7 +30,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 10718    | [We love kriii](https://www.acmicpc.net/problem/10718) | [진홍](Day172/bj10718_kjh.java) 승빈 [수경](Day172/bj10718_hsk.js) | 진홍 승빈 수경 |
+| 백준   | 10718    | [We love kriii](https://www.acmicpc.net/problem/10718) | [진홍](Day172/bj10718_kjh.java) [승빈](Day172/bj10718_wsb.java) [수경](Day172/bj10718_hsk.js) | 진홍 승빈 수경 |
 
 ## [173일차](Day173)
 
