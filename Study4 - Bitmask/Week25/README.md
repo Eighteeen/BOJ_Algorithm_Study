@@ -49,7 +49,7 @@
 | 백준   | 11811 | [데스스타](https://www.acmicpc.net/problem/11811) | 진홍승빈수경 | Driver 🚗 승빈 & Navigator 🧭 진홍수경 |
 
 > 
-* 발표자료 [수경](reference/이름.pdf)
+* 발표자료 [수경](reference/hsk.pdf)
 * 정리자료 [진홍](reference/kjh.pdf)
 * 정리자료 [승빈](reference/이름.pdf)
 
