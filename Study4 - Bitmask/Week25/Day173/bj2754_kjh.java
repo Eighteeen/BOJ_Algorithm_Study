@@ -4,6 +4,7 @@ import java.util.StringTokenizer;
 import java.util.HashMap;
 import java.util.Map;
 
+//// 깔끔
 class Main {
   public static void main(String[] args) throws Exception {
     Map<String, String> grades = new HashMap<>(){{

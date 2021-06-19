@@ -1,7 +1,7 @@
 const fs = require('fs');
 const input = process.platform === 'linux' ? fs.readFileSync('/dev/stdin').toString().trim() : `F`;
 
-//// 깔끔
+//// 깔끔 : 22 js 문자 인식이 신기해요
 const grades = {
   'A+': 4.3,
   A0: 4.0,
