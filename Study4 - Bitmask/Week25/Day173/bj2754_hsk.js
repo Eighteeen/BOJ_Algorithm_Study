@@ -1,6 +1,7 @@
 const fs = require('fs');
 const input = process.platform === 'linux' ? fs.readFileSync('/dev/stdin').toString().trim() : `F`;
 
+//// 깔끔
 const grades = {
   'A+': 4.3,
   A0: 4.0,
