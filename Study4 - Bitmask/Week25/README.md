@@ -38,7 +38,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 2754 | [학점계산](https://www.acmicpc.net/problem/2754) | [진홍](Day173/bj2754_kjh.java) [승빈](Day173/bj2754_wsb.java) [수경](Day173/bj2754_hsk.js) | [진홍](Day173/bj2754_kjh.java) 승빈 [수경](Day173/bj2754_hsk.js) |
+| 백준   | 2754 | [학점계산](https://www.acmicpc.net/problem/2754) | [진홍](Day173/bj2754_kjh.java) [승빈](Day173/bj2754_wsb.java) [수경](Day173/bj2754_hsk.js) | [진홍](Day173/bj2754_kjh.java) [승빈](Day173/bj2754_wsb.java) [수경](Day173/bj2754_hsk.js) |
 
 ## [174일차](Day174) : Pairing Day
 
