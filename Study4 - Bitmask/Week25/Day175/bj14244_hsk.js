@@ -3,11 +3,12 @@ let [nodeCnt, leafCnt] = (process.platform === 'linux' ? fs.readFileSync('/dev/s
   .split(' ')
   .map((item) => parseInt(item));
 
-let nodeNum = 0;
-for (let i = 0; i < nodeCnt - leafCnt; i++) {
+let saveNodeNum = 0;
+let breakNodePoint = nodeCnt - leafCnt;
+for (let i = 0; i < breakNodePoint; i++) {
   console.log(`${i} ${i + 1}`);
-  nodeNum = i + 1;
+  saveNodeNum = i + 1;
 }
-for (let j = nodeCnt - leafCnt; j < nodeCnt - 1; j++) {
-  console.log(`${nodeNum} ${j + 1}`);
+for (let j = breakNodePoint; j < nodeCnt - 1; j++) {
+  console.log(`${saveNodeNum} ${j + 1}`);
 }
