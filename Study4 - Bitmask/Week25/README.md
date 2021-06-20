@@ -48,7 +48,7 @@
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
 | 백준   | 11811 | [데스스타](https://www.acmicpc.net/problem/11811) | [진홍승빈수경](Day174/bj11811_kjhwsbhsk.java) | Driver 🚗 승빈 & Navigator 🧭 진홍수경 |
 
-> 
+> 트리
 * 발표자료 [수경](reference/hsk.pdf)
 * 정리자료 [진홍](reference/kjh.pdf)
 * 정리자료 [승빈](reference/wsb.pdf)
