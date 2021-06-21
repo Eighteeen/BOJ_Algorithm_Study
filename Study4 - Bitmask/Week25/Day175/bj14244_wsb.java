@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 //// 요렇게 풀려다가 트리를 억지로라도 써봤는데 이게 훨 깔끔하네요 굳
+//// 깔끔
 class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
