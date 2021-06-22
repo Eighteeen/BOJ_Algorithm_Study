@@ -5,6 +5,7 @@ let [A, B] = (process.platform === 'linux' ? fs.readFileSync('/dev/stdin').toStr
 
 
 //// 깔꼬미요 저랑 똑같네요
+//// 깔끔
 let leftCnt = 0;
 let rightCnt = 0;
 while (1) {
