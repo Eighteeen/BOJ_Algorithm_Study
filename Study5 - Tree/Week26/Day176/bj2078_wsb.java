@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+//// 깔끔
 class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -10,7 +11,7 @@ class Main {
         String[] nodeInfo = br.readLine().split(" ");
         int A = Integer.parseInt(nodeInfo[0]), B = Integer.parseInt(nodeInfo[1]);
 
-        //// 구체적으로 구현하시려다보니 코드가 복잡해진 감이 있는 것 같습니다
+        //// 구체적으로 구현하시려다보니 코드가 복잡해진 감이 있는 것 같습니다 : 22
         PairNode rootNode = new PairNode(1, 1);
         PairNode targetNode = new PairNode(A, B);
 
