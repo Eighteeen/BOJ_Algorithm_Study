@@ -66,8 +66,8 @@
 ## 📝 스터디 내용 📝
 > [BCU_Algorithm_Study 문제집](https://www.acmicpc.net/group/workbook/list/9797)
 
-### [단순 구현](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study1%20-%20Implementation)
-### [스택, 큐, 덱](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study2%20-%20Stack%2C%20Queue%2C%20Deque)
-### [재귀](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study3%20-%20Recursion)
-### [비트마스킹](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study4%20-%20Bitmask)
-### [트리](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study5%20-%20Tree)
+#### [구현](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study1%20-%20Implementation)
+#### [스택, 큐, 덱](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study2%20-%20Stack%2C%20Queue%2C%20Deque)
+#### [재귀](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study3%20-%20Recursion)
+#### [비트마스킹](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study4%20-%20Bitmask)
+#### [트리](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study5%20-%20Tree)
