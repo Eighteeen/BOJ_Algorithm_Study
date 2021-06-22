@@ -3,6 +3,8 @@ let [A, B] = (process.platform === 'linux' ? fs.readFileSync('/dev/stdin').toStr
   .split(' ')
   .map((item) => parseInt(item));
 
+
+//// 깔꼬미요 저랑 똑같네요
 let leftCnt = 0;
 let rightCnt = 0;
 while (1) {
