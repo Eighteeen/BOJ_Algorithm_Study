@@ -11,6 +11,7 @@ class Main {
 
     int nodeNum = 0;
     //// Node 객체를 사용한게 인상깊네요 : 22 형상화가 잘 되네요
+    //// => 좋게 봐주셔서 고맙읍니다
     Node root = new Node(nodeNum++);
     Node leaf = root;
     for (int i = 0; i < NODES - LEAVES; i++) {
