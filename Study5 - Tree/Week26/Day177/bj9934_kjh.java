@@ -4,7 +4,7 @@ import java.util.StringTokenizer;
 import java.util.List;
 import java.util.ArrayList;
 
-////깔끔해요
+////깔끔해요 : 22
 class Main {
   public static void main(String[] args) throws Exception {
     final int DEPTH = Input.nextInt();

@@ -10,7 +10,8 @@ const K = parseInt(stdin[0]);
 const buildingsByInOrder = stdin[1].split(' ').map((item) => parseInt(item));
 const buildingsTree = Array.from(Array(K), () => Array().fill());
 
-//// 깔끔합니다
+//// 깔끔합니다 : 22
+//// 비슷한 풀이를 했는데 더 효율적인 거 같아요 굿
 const makeBuildingTree = (tree, idx) => {
   const rootNodeIndex = parseInt(tree.length / 2);
   buildingsTree[idx].push(tree[rootNodeIndex]);
