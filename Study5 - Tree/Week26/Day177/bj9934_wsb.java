@@ -25,7 +25,7 @@ class Main {
         br.close();
     }
 
-    //// 깔끔합니다
+    //// 깔끔합니다 : 22
     static void setTreeInfo(int[] nodes, int depth) {
         int len = nodes.length;
         if (len == 1) {
