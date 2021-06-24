@@ -4,6 +4,7 @@ import java.util.StringTokenizer;
 import java.util.Map;
 import java.util.HashMap;
 
+//// 깔끔
 class Main {
   static Map<Character, Node> nodeMap;
 
