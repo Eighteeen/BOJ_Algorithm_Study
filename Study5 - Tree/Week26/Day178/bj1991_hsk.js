@@ -51,7 +51,7 @@ let treeList = {
   postOrder: [],
 };
 
-//// 깔꼼합니다~
+//// 깔꼼합니다~ : 22
 for (let i = 0; i < N; i++) {
   const [root, leftNode, rightNode] = input().split(' ');
   tree[root] = new Node(root, leftNode, rightNode);
