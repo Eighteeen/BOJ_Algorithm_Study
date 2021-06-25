@@ -25,7 +25,7 @@ class Main {
     }
 
     Node root = nodeMap.get(1);
-    defineParents(root);
+    defineRelation(root);
 
     StringBuilder sb = new StringBuilder();
     for (int i = 2; i <= NODES; i++) {
@@ -48,11 +48,11 @@ class Main {
     return node;
   }
 
-  static void defineParents(Node root) {
+  static void defineRelation(Node root) {
     for (Node child : root.connected) {
       child.parent = root;
       child.disconnect(root);
-      defineParents(child);
+      defineRelation(child);
     }
   }
 }
