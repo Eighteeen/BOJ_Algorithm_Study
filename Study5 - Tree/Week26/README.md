@@ -42,11 +42,11 @@
 
 ## [181일차](Day181) : Pairing Day
 
-> [문제집 설명](문제집링크)
+> [트리 활용](https://www.acmicpc.net/group/workbook/view/9797/34594)
 
 | 사이트 | 번호 | 문제                 | 답안                | Pair Programming    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 0    | [문제이름](문제링크) | 진홍승빈수경 | Driver 🚗 이름 & Navigator 🧭 이름이름 |
+| 백준   | 1068    | [트리](https://www.acmicpc.net/problem/1068) | 진홍승빈수경 | Driver 🚗 이름 & Navigator 🧭 이름이름 |
 
 ## [182일차](Day182)
 
