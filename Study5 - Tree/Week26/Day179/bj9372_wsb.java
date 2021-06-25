@@ -7,7 +7,7 @@ class Main {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringBuilder sb = new StringBuilder();
 
-        //// 풀이까지 굳굳
+        //// 풀이까지 굳굳 : 22 와우
         /*
         < 문제가 쉽게 풀려서 풀이 추가 >
         비행기 수는 모든 국가 노드가 연결되었을 때 간선의 수이다.

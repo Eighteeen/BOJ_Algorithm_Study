@@ -7,6 +7,7 @@ class Main {
     int T = Input.nextInt();
     
     StringBuilder sb = new StringBuilder();
+    //// T--; T>0; 우왕 amazing~
     while (T --> 0) {
       int N = Input.nextInt();
       int M = Input.nextInt();
