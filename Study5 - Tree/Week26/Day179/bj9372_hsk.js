@@ -19,6 +19,7 @@ const input = (() => {
   return () => stdin[line++];
 })();
 
+//// 깔껌해요~
 const T = parseInt(input());
 for (let i = 0; i < T; i++) {
   const [N, M] = input()
