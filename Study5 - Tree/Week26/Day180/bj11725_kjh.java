@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Map;
 import java.util.HashMap;
 
-//// 깔끔해용
+//// 깔끔해용 : 22
 class Main {
   static Map<Integer, Node> nodeMap;
 
