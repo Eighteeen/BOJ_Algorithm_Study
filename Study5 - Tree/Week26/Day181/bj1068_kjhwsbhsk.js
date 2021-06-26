@@ -41,5 +41,5 @@ const solve = () => {
   }
   return getCntLeafNode(rootIndex);
 };
-``;
+
 console.log(solve());
