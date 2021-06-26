@@ -6,6 +6,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+//// 깔끔합니다!
 class Main {
     static Map<Integer, Node> nodeMap = new HashMap<>();
     static int[] parentNodes;

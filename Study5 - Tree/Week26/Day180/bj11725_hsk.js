@@ -20,6 +20,7 @@ const N = parseInt(input());
 const connectedNodeList = Array.from(Array(N + 1), () => Array());
 const parentsNodeList = new Array(N + 1).fill(false);
 
+//// 함수가 하는 일을 함수 이름이 좀 더 설명해줬으면 좋겠어요! 지금은 함수 이름이 dfs인데 반해 깊이 우선 탐색'만'하고있지는 않은 것 같아요
 const dfs = (root, connectedNodeList, parentsNodeList) => {
   let nodeList = [root];
   while (nodeList.length > 0) {
