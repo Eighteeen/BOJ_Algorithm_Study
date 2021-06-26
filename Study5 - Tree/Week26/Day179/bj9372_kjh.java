@@ -8,6 +8,7 @@ class Main {
     
     StringBuilder sb = new StringBuilder();
     //// T--; T>0; 우왕 amazing~ : 22 처음봤어요 배워갑니다!
+    //// => 저처럼 '어? --> 연산자가 있나?' 낚여서 찾아보라고 일부러 -->로 쓴거였는데 (T-- > 0)인걸 바로 알아보시네요 아깝다
     while (T --> 0) {
       int N = Input.nextInt();
       int M = Input.nextInt();

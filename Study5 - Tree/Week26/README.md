@@ -30,7 +30,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 9372 | [상근이의 여행](https://www.acmicpc.net/problem/9372) | [진홍](Day179/bj9372_kjh.java) [승빈](Day179/bj9372_wsb.java) [수경](Day179/bj9372_hsk.js) | 진홍 [승빈](Day179/bj9372_wsb.java) [수경](Day179/bj9372_hsk.js) |
+| 백준   | 9372 | [상근이의 여행](https://www.acmicpc.net/problem/9372) | [진홍](Day179/bj9372_kjh.java) [승빈](Day179/bj9372_wsb.java) [수경](Day179/bj9372_hsk.js) | [진홍](Day179/bj9372_kjh.java) [승빈](Day179/bj9372_wsb.java) [수경](Day179/bj9372_hsk.js) |
 
 ## [180일차](Day180)
 
