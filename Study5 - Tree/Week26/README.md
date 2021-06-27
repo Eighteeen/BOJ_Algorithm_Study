@@ -38,7 +38,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 11725 | [트리의 부모 찾기](https://www.acmicpc.net/problem/11725) | [진홍](Day180/bj11725_kjh.java) [승빈](Day180/bj11725_wsb.java) [수경](Day180/bj11725_hsk.js) | [진홍](Day180/bj11725_kjh.java) 승빈 [수경](Day180/bj11725_hs.js) |
+| 백준   | 11725 | [트리의 부모 찾기](https://www.acmicpc.net/problem/11725) | [진홍](Day180/bj11725_kjh.java) [승빈](Day180/bj11725_wsb.java) [수경](Day180/bj11725_hsk.js) | [진홍](Day180/bj11725_kjh.java) [승빈](Day180/bj11725_wsb.java) [수경](Day180/bj11725_hs.js) |
 
 ## [181일차](Day181) : Pairing Day
 
