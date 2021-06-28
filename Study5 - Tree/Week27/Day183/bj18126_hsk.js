@@ -1,12 +1,14 @@
-//// 문제풀이 실패
 const fs = require('fs');
 let stdin = (
   process.platform === 'linux'
     ? fs.readFileSync('/dev/stdin').toString().trim()
-    : `4
+    : `7
 1 2 3
 2 3 2
-4 2 4
+1 4 9
+1 5 10
+4 6 20
+4 7 10
 `
 ).split('\n');
 
@@ -28,7 +30,11 @@ const findLongLengthStreet = (nodeNum) => {
     if (visitedNode[node.connectedNode]) continue;
     visitedNode[node.connectedNode] = true;
 
-    maxLength = Math.max(maxLength, node.length + findLongLengthStreet(node.connectedNode));
+    let length = 0;
+    length = node.length + findLongLengthStreet(node.connectedNode);
+    maxLength = Math.max(maxLength, length);
+
+    visitedNode[node.connectedNode] = false;
   }
 
   return maxLength;
@@ -47,4 +53,6 @@ for (let i = 1; i < N; i++) {
   tree[B].push({ connectedNode: A, length: C });
 }
 
+//실패원인 : 1번 노드를 방문한 것으로 표현하지 않아서 계속 실패함!
+visitedNode[1] = true;
 console.log(findLongLengthStreet(1));
