@@ -1,5 +1,5 @@
 const fs = require('fs');
-const preOrderList = (
+const stdin = (
   process.platform === 'linux'
     ? fs.readFileSync('/dev/stdin').toString().trim()
     : `50
@@ -11,29 +11,53 @@ const preOrderList = (
 98
 52
 60`
-)
-  .split('\n')
-  .map((value) => Number(value));
+).split('\n');
 
-const getPostOrderList = (left, right) => {
-  if (left > right) return;
+const input = (() => {
+  let line = 0;
+  return () => stdin[line++];
+})();
 
-  let root = preOrderList[left];
-  let dividedPoint = right + 1;
-
-  for (let i = left + 1; i <= right; i++) {
-    if (preOrderList[i] < root) continue;
-    dividedPoint = i;
-    break;
+class Node {
+  constructor(data) {
+    this.data = data;
+    this.leftNode = null;
+    this.rightNode = null;
   }
 
-  getPostOrderList(left + 1, dividedPoint - 1);
-  getPostOrderList(dividedPoint, right);
+  setLeftNode(data) {
+    this.leftNode = new Node(data);
+  }
 
-  postPorderList.push(root);
+  setRightNode(data) {
+    this.rightNode = new Node(data);
+  }
+
+  insert(num) {
+    if (num < this.data) {
+      if (this.leftNode === null) this.setLeftNode(num);
+      else this.leftNode.insert(num);
+    } else {
+      if (this.rightNode === null) this.setRightNode(num);
+      else this.rightNode.insert(num);
+    }
+  }
+}
+
+const getPostOrder = (node) => {
+  if (node === null) return;
+
+  getPostOrder(node.leftNode);
+  getPostOrder(node.rightNode);
+  postOrder.push(node.data);
 };
 
-const postPorderList = [];
-getPostOrderList(0, preOrderList.length - 1);
+let postOrder = [];
+let root = new Node(parseInt(input()));
 
-console.log(postPorderList.join('\n'));
+for (let i = 1; i < stdin.length; i++) {
+  root.insert(parseInt(input()));
+}
+
+getPostOrder(root);
+console.log(postOrder.join('\n'));
