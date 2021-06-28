@@ -19,6 +19,7 @@ const findParentNode = (node) => {
   return parseInt(node / 2);
 };
 
+//// 깔끔하고 효율적입니다
 for (let i = 0; i < T; i++) {
   let [A, B] = input()
     .split(' ')
