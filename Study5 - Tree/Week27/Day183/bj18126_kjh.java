@@ -21,11 +21,11 @@ class Main {
       Node nodeB = getOrCreateNode(nodeMap, Input.nextInt());
       int distance = Input.nextInt();
 
-      Edge aToB = new Edge(nodeB, distance);
-      nodeA.addEdge(aToB);
+      Edge toB = new Edge(nodeB, distance);
+      nodeA.addEdge(toB);
 
-      Edge bToA = new Edge(nodeA, distance);
-      nodeB.addEdge(bToA);
+      Edge toA = new Edge(nodeA, distance);
+      nodeB.addEdge(toA);
     }
 
     Node root = nodeMap.get(1);
