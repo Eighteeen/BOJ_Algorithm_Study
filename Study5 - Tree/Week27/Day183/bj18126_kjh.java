@@ -101,11 +101,6 @@ class Edge {
     this.connectedNode = connectedNode;
     this.distance = distance;
   }
-
-  @Override
-  public String toString() {
-    return connectedNode.data + "(" + distance + ")";
-  }
 }
 
 class Input {
