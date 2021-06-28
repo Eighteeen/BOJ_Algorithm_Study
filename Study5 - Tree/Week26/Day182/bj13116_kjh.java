@@ -4,6 +4,7 @@ import java.util.StringTokenizer;
 import java.util.Set;
 import java.util.HashSet;
 
+//// Good
 class Main {
   public static void main(String[] args) throws Exception {
     final int T = Input.nextInt();
