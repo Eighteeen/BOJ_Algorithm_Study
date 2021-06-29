@@ -29,6 +29,8 @@ class Main {
   }
 
   //// 최적화 부분에서 살짝 아쉽지만 신박한 방법이네요.
+  //// => 정보를 단계적으로 가공하는 과정이 아름답지 않나요?
+  //// => 최적화 부분은 저도 wsbhsk 보고 배웠습니다 👍
   static Set<Integer> getCommonAncestors(int nodeA, int nodeB) {
     Set<Integer> aAncestors = getAncestors(nodeA);
     Set<Integer> bAncestors = getAncestors(nodeB);
