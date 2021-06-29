@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 import java.util.HashMap;
 import java.util.Map;
 
-//// 깔끔해요!
+//// 깔끔해요! : 22
 class Main {
     static Map<Integer, Node> nodeMap = new HashMap<>();
 
@@ -23,7 +23,7 @@ class Main {
             int roomB = Integer.parseInt(adjacentNodeInfo[1]);
             int distance = Integer.parseInt(adjacentNodeInfo[2]);
 
-            //// setNodes 메소드로 분리하니 깔끔하네요
+            //// setNodes 메소드로 분리하니 깔끔하네요 : 22
             setNodes(roomA, roomB, distance);
         }
 

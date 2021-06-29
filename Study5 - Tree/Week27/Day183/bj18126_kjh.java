@@ -6,6 +6,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.ArrayList;
 
+//// 기능마다 메소드가 구분되어서 이해하기 좋았어요
 class Main {
   public static void main(String[] args) throws Exception {
     final int ROOMS = Input.nextInt();
