@@ -12,6 +12,7 @@ let stdin = (
 `
 ).split('\n');
 
+//// 깔꼼합니다!
 const input = (() => {
   let line = 0;
   return () => stdin[line++];
@@ -21,6 +22,8 @@ const N = parseInt(input());
 const tree = Array.from(Array(N + 1), () => Array());
 const visitedNode = new Array(N + 1).fill(false);
 
+//// visited가 kjh, wsb 코드의 '자식에게서 부모와의 연결을 끊는 부분'과 중복된 방문을 막는다는 점에서 비슷한 역할을 하는 것 같은데
+//// 제가 생각해낼 수 없는 방식으로 구현한 코드를 보니 신기하네요.
 const findLongLengthStreet = (nodeNum) => {
   let connectedNodeList = tree[nodeNum];
   if (connectedNodeList.length < 1) return 0;

@@ -4,6 +4,7 @@ import java.io.InputStreamReader;
 import java.util.HashMap;
 import java.util.Map;
 
+//// 깔끔해요!
 class Main {
     static Map<Integer, Node> nodeMap = new HashMap<>();
 
@@ -22,6 +23,7 @@ class Main {
             int roomB = Integer.parseInt(adjacentNodeInfo[1]);
             int distance = Integer.parseInt(adjacentNodeInfo[2]);
 
+            //// setNodes 메소드로 분리하니 깔끔하네요
             setNodes(roomA, roomB, distance);
         }
 
@@ -30,6 +32,7 @@ class Main {
         br.close();
     }
 
+    //// 갱신되는 최대값은 return되는 값으로 충분히 받을 수 있으니 untilDistance 매개변수는 없어도 괜찮을 것 같습니다
     static long getMaxDistance(Node fromNode, long untilDistance) {
         long maxDistance = untilDistance;
 
