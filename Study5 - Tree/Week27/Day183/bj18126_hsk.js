@@ -12,7 +12,7 @@ let stdin = (
 `
 ).split('\n');
 
-//// 깔꼼합니다!
+//// 깔꼼합니다! : 22
 const input = (() => {
   let line = 0;
   return () => stdin[line++];

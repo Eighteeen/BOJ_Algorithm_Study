@@ -17,6 +17,7 @@ class Main {
 
     Map<Integer, Node> nodeMap = new HashMap<>();
 
+    //// Edge 클래스로 직관적으로 보이는 점이 좋네요
     for (int i = 0; i < ROOMS - 1; i++) {
       Node nodeA = getOrCreateNode(nodeMap, Input.nextInt());
       Node nodeB = getOrCreateNode(nodeMap, Input.nextInt());
