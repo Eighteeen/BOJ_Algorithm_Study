@@ -18,6 +18,7 @@ const input = (() => {
   return () => stdin[line++];
 })();
 
+//// 오랜만의 클래스 활용 + 멋진insert 메소드 굳굳 멋집니다
 class Node {
   constructor(data) {
     this.data = data;

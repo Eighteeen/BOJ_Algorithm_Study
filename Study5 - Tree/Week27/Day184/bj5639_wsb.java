@@ -21,6 +21,7 @@ class Main {
         br.close();
     }
     
+    //// 변환과 동시에 결과값 만들 수도 있네요. 배워갑니다
     static StringBuilder convertTraversalPreorderToPostorder(List<Integer> nodeList) {
         StringBuilder sb = new StringBuilder();
 
