@@ -5,21 +5,14 @@ let stdin = (
     : `6 4
 2
 5
-4
-3`
+6
+5`
 ).split('\n');
 
 const input = (() => {
   let line = 0;
   return () => stdin[line++];
 })();
-
-const getVisitedNodeNum = (nodeNum) => {
-  if (nodeNum < 2) return 0;
-  if (visitedNodeList.has(nodeNum)) return nodeNum;
-
-  return getVisitedNodeNum(parseInt(nodeNum / 2));
-};
 
 const [node, ducks] = input()
   .split(' ')
@@ -30,10 +23,15 @@ let result = [];
 for (let i = 0; i < ducks; i++) {
   const wantNodeNum = parseInt(input());
 
-  let visitedNodeNum = getVisitedNodeNum(wantNodeNum);
-  visitedNodeList.add(wantNodeNum);
+  let isVisitedNum = 0;
+  let nodeNum = wantNodeNum;
+  while (nodeNum > 1) {
+    if (visitedNodeList.has(nodeNum)) isVisitedNum = nodeNum;
+    nodeNum = parseInt(nodeNum / 2);
+  }
 
-  result.push(visitedNodeNum);
+  visitedNodeList.add(wantNodeNum);
+  result.push(isVisitedNum);
 }
 
 console.log(result.join('\n'));
