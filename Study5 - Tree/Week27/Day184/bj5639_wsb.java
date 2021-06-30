@@ -4,6 +4,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
+//// 깔끔해요
 class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -19,7 +20,7 @@ class Main {
         System.out.print(convertTraversalPreorderToPostorder(nodeList));
         br.close();
     }
-
+    
     static StringBuilder convertTraversalPreorderToPostorder(List<Integer> nodeList) {
         StringBuilder sb = new StringBuilder();
 
