@@ -39,6 +39,8 @@ class Main {
     return takenNumber;
   }
 
+  //// 로직상 연결되어 있는 노드들을 관리하는 코드는 없어서 문제 자체에서 Node를 쓸 필요가 있나 싶어요. (활용성이 적어보임)
+  //// 위 내용과 연결되는 내용으로 아래 함수는 실질적인 문제를 푸는데에 꼭 필요한 흐름은 아닌 것 같아요.
   static Node makeDuckVillage(int start, int end) {
     if (start > end) return null;
 

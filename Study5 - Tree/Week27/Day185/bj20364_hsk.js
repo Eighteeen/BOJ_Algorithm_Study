@@ -20,6 +20,7 @@ const [node, ducks] = input()
 const visitedNodeList = new Set();
 let result = [];
 
+//// Set만으로도 풀이가 가능하군요. 배워갑니다.
 for (let i = 0; i < ducks; i++) {
   const wantNodeNum = parseInt(input());
 
