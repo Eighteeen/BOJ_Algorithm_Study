@@ -24,8 +24,8 @@ class Main {
         br.close();
     }
 
-    static int getOccupiedLandNum(int wantNum) {
-        int checkNum = wantNum, occupiedNum = wantNum;
+    static int getOccupiedLandNum(int wantLandNum) {
+        int checkNum = wantLandNum, occupiedNum = wantLandNum;
         boolean isOccupied = false;
 
         while (checkNum > 0) {
@@ -36,7 +36,7 @@ class Main {
             checkNum /= 2;
         }
 
-        landMap.put(wantNum, occupiedNum);
+        landMap.put(wantLandNum, occupiedNum);
         return (isOccupied ? occupiedNum : 0);
     }
 }
