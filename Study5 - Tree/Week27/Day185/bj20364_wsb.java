@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.HashMap;
 
 class Main {
-    static Map<Integer, Land> landMap = new HashMap<>();
+    static Map<Integer, Integer> landMap = new HashMap<>();
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -17,7 +17,6 @@ class Main {
 
         for (int i = 0; i < Q; i++) {
             int wantLandNum = Integer.parseInt(br.readLine());
-            getLand(wantLandNum).occupy();
             sb.append(getOccupiedLandNum(wantLandNum)).append("\n");
         }
 
@@ -25,65 +24,19 @@ class Main {
         br.close();
     }
 
-    static int getOccupiedLandNum(int num) {
-        if (num == 0) return 0;
+    static int getOccupiedLandNum(int wantNum) {
+        int checkNum = wantNum, occupiedNum = wantNum;
+        boolean isOccupied = false;
 
-        Land land = getLand(num);
-        int occupiedLandNum = getOccupiedLandNum(num / 2);
-
-        Land occupiedAncestorLand = land.getOccupiedAncestorLand();
-        if (occupiedAncestorLand != null) {
-            int currentOccupiedLandNum = occupiedAncestorLand.getNum();
-            return (occupiedLandNum == 0 ? currentOccupiedLandNum : occupiedLandNum);
+        while (checkNum > 0) {
+            if (landMap.containsKey(checkNum)) {
+                isOccupied = true;
+                occupiedNum = landMap.get(checkNum);
+            }
+            checkNum /= 2;
         }
 
-        if (occupiedLandNum == 0 && land.isOccupied()) {
-            land.setOccupiedAncestorLand(land);
-            return 0;
-        }
-
-        land.setOccupiedAncestorLand(landMap.get(occupiedLandNum));
-        return occupiedLandNum;
-    }
-
-    static Land getLand(int num) {
-        Land land;
-        if (landMap.containsKey(num)) {
-            land = landMap.get(num);
-        } else {
-            land = new Land(num);
-            landMap.put(num, land);
-        }
-        return land;
-    }
-}
-
-class Land {
-    private int num;
-    private boolean isOccupied = false;
-    private Land occupiedAncestorLand;
-
-    public Land(int num) {
-        this.num = num;
-    }
-
-    public int getNum() {
-        return num;
-    }
-
-    public boolean isOccupied() {
-        return isOccupied;
-    }
-    
-    public Land getOccupiedAncestorLand() {
-        return occupiedAncestorLand;
-    }
-
-    public void occupy() {
-        isOccupied = true;
-    }
-
-    public void setOccupiedAncestorLand(Land land) {
-        occupiedAncestorLand = land;
+        landMap.put(wantNum, occupiedNum);
+        return (isOccupied ? occupiedNum : 0);
     }
 }
