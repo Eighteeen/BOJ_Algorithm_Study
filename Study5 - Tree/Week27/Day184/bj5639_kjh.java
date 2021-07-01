@@ -18,6 +18,7 @@ class Main {
     System.out.print(traversePostorder(root));
   }
 
+  //// 저는 root보다 큰 부분을 찾아서 그 기준으로 자식을 나눴는데 이렇게 순차적으로 체크할 수도 있군요. 다양한 방법 알아갑니다.
   static Node makeTree(List<Integer> preorder, int biggerThan, int smallerThan) {
     if (preorder.size() == 0) return null;
     

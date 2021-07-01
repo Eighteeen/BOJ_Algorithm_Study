@@ -13,12 +13,13 @@ const stdin = (
 60`
 ).split('\n');
 
+//// 전체적으로 가독성 좋아서 이해가 빠르게 됐습니다. 굿굿
 const input = (() => {
   let line = 0;
   return () => stdin[line++];
 })();
 
-//// 오랜만의 클래스 활용 + 멋진insert 메소드 굳굳 멋집니다
+//// 오랜만의 클래스 활용 + 멋진insert 메소드 굳굳 멋집니다 : 22 insert 메서드 활용이 좋네요
 class Node {
   constructor(data) {
     this.data = data;
