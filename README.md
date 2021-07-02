@@ -1,4 +1,4 @@
-# 💻 BCU Algorithm Study 💻
+# 💻 Algorithm Study 💻
 
 ## 👨‍💻 스터디원 👩‍💻
 <table>
