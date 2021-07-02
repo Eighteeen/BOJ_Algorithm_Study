@@ -1,3 +1,4 @@
+//// 문제 실패 : RangeError: Maximum call stack size exceeded 에러가 나오지만 원인을 찾지 못함
 const fs = require('fs');
 let stdin = (
   process.platform === 'linux'
