@@ -24,7 +24,7 @@ class Main {
         br.close();
     }
 
-    //// 깔끔해요
+    //// 깔끔해요 :22
     static int getOccupiedLandNum(int wantLandNum) {
         int checkNum = wantLandNum, occupiedNum = wantLandNum;
         boolean isOccupied = false;
