@@ -18,16 +18,18 @@ const input = (() => {
 })();
 
 const calcDepthFromRoot = (nodeNum, depth) => {
-  visitedNode[nodeNum] = true;
-
   let connectedNodeList = tree[nodeNum];
-  connectedNodeList.forEach((node) => {
-    if (!visitedNode[node]) calcDepthFromRoot(node, depth + 1);
-  });
-
   if (connectedNodeList.length === 1 && nodeNum !== 1) {
     sumDepthFromRoot += depth;
     return;
+  }
+
+  for (let node of connectedNodeList) {
+    if (!visitedNode[nodeNum]) {
+      visitedNode[nodeNum] = true;
+      calcDepthFromRoot(node, depth + 1);
+      visitedNode[nodeNum] = false;
+    }
   }
 };
 
