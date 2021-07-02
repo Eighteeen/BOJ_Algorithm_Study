@@ -27,7 +27,7 @@
 3. 그저께 코드에 달린 피드백을 반영하여 피드백 반영 답안에 링크를 연결한다.
 4. 내일 풀 문제를 정한다.
     * 내일자 표에 사이트, 문제번호, 문제이름을 표시하고 링크를 연결한다.
-    * 백준 Algorithm_Study 그룹의 문제집에 DayN 문제집을 만들고 문제를 추가한다.
+    * 백준 Eighteen 그룹의 문제집에 DayN 문제집을 만들고 문제를 추가한다.
 
 ### 📌 매주 토요일
 > 오전 10시 ~ 12시 30분
@@ -64,7 +64,7 @@
 </details>
 
 ## 📝 스터디 내용 📝
-> [Algorithm_Study 문제집](https://www.acmicpc.net/group/workbook/list/9797)
+> [Eighteen 문제집](https://www.acmicpc.net/group/workbook/list/9797)
 
 ### [구현](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study1%20-%20Implementation)
 ### [스택, 큐, 덱](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study2%20-%20Stack%2C%20Queue%2C%20Deque)
