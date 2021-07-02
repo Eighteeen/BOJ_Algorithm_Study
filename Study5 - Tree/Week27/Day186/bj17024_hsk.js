@@ -16,7 +16,7 @@ const input = (() => {
 const N = parseInt(input());
 const edgeCntInNode = new Array(N + 1).fill(0);
 
-//// 깔끔합니다
+//// 깔끔합니다 : 22
 for (let i = 1; i < N; i++) {
   let [nodeNumA, nodeNumB] = input()
     .split(' ')

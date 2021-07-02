@@ -6,9 +6,10 @@ import java.util.ArrayList;
 import java.util.Map;
 import java.util.HashMap;
 
-//// 무난해요
+//// 무난해요 : 22
 class Main {
   static Map<Integer, Node> nodeMap;
+  //// grass는 어디에 쓰이나!
   static int grass = 1;
 
   public static void main(String[] args) throws Exception {
