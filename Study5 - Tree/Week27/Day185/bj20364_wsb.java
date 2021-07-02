@@ -24,6 +24,7 @@ class Main {
         br.close();
     }
 
+    //// 깔끔해요
     static int getOccupiedLandNum(int wantLandNum) {
         int checkNum = wantLandNum, occupiedNum = wantLandNum;
         boolean isOccupied = false;
