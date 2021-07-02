@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.Map;
 import java.util.HashMap;
 
+//// 무난해요
 class Main {
   static Map<Integer, Node> nodeMap;
   static int grass = 1;
