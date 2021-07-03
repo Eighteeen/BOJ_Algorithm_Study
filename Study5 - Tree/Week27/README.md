@@ -22,7 +22,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안           | 피드백 반영 답안 |
 | ------ | ---- | -------------------- | -------------- | ---------------- |
-| 백준   | 20364 | [부동산 다툼](https://www.acmicpc.net/problem/20364) | [진홍](Day185/bj20364_kjh.java) [승빈](Day185/bj20364_wsb.java) [수경](Day185/bj20364_hsk.js) | [진홍](Day185/bj20364_kjh_fb.java) [승빈](Day185/bj20364_wsb.java) 수경   |
+| 백준   | 20364 | [부동산 다툼](https://www.acmicpc.net/problem/20364) | [진홍](Day185/bj20364_kjh.java) [승빈](Day185/bj20364_wsb.java) [수경](Day185/bj20364_hsk.js) | [진홍](Day185/bj20364_kjh_fb.java) [승빈](Day185/bj20364_wsb.java) [수경](Day185/bj20364_hsk.js)   |
 
 ## [186일차](Day186)
 
