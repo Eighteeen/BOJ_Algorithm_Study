@@ -6,6 +6,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+////깔끔해요
 class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -27,6 +28,7 @@ class Main {
         br.close();
     }
     
+    //// 홀수개일때만 구할 수도 있네요~ 배워가요~
     static int getCntTreeOddDepth(Node root, int untilDepth) {
         if (root.isLeafNode()) return (untilDepth % 2 == 1 ? 1 : 0);
         untilDepth++;
