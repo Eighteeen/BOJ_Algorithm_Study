@@ -30,7 +30,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안           | 피드백 반영 답안 |
 | ------ | ---- | -------------------- | -------------- | ---------------- |
-| 백준   | 17024 | [Grass Planting](https://www.acmicpc.net/problem/17024) | [진홍](Day186/bj17024_kjh.java) [승빈](Day186/bj17024_wsb.java) [수경](Day186/bj17024_hsk.js) | 진홍 승빈 수경   |
+| 백준   | 17024 | [Grass Planting](https://www.acmicpc.net/problem/17024) | [진홍](Day186/bj17024_kjh.java) [승빈](Day186/bj17024_wsb.java) [수경](Day186/bj17024_hsk.js) | 진홍 승빈 [수경](Day186/bj17024_hsk.js)   |
 
 ## [187일차](Day187)
 
