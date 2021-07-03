@@ -26,6 +26,7 @@ while nodeAndDepthArr:
         if visitedNode[node] == 0:
             nodeAndDepthArr.append([node, depth + 1])
 
+## 모두 구하는 방법으로도 가능하군요! 다른 방법도 알아갑니다.
 sumDepth = sum(depthFromRootList)
 
 if sumDepth % 2:

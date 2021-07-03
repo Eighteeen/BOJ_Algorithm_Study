@@ -26,6 +26,7 @@ class Main {
     Node root = nodeMap.get(1);
     root.depth = 0;
     
+    //// 모두 구하는 방법으로도 가능하군요! 다른 방법도 알아갑니다.
     int leafDepths = getLeafDepths(root);
     System.out.print((leafDepths % 2) == 1 ? "Yes" : "No");
   }
