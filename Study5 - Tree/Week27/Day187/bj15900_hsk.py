@@ -1,3 +1,4 @@
+# nodejs 에서 시간초과와 재귀오류를 해결하지 못하여 python으로 풀었음
 import sys
 
 
