@@ -2,16 +2,8 @@ const fs = require('fs');
 let stdin = (
   process.platform === 'linux'
     ? fs.readFileSync('/dev/stdin').toString().trim()
-    : `10
-8 1
-1 4
-7 4
-6 4
-6 5
-1 3
-2 3
-5 9
-5 10`
+    : `2
+2 1`
 ).split('\n');
 
 const input = (() => {
@@ -19,38 +11,47 @@ const input = (() => {
   return () => stdin[line++];
 })();
 
-const calcDepthFromRoot = (nodeNum, depth) => {
-  let connectedNodeList = tree[nodeNum];
-  if (connectedNodeList.length === 1 && nodeNum !== 1) return depth;
+const calcDepthFromRoot = (nodeAndDepthArr) => {
+  while (nodeAndDepthArr.length > 0) {
+    let [nodeNum, depth] = nodeAndDepthArr.pop();
+    visitedNode[nodeNum] = true;
 
-  let sumDepthFromRoot = 0;
-  for (let node of connectedNodeList) {
-    if (visitedNode[node]) continue;
+    let connectedNodeList = tree[nodeNum];
+    if (connectedNodeList.length === 1 && nodeNum !== 1) {
+      depthFromRootList.push(depth);
+      continue;
+    }
 
-    visitedNode[node] = true;
-    sumDepthFromRoot += calcDepthFromRoot(node, depth + 1);
+    connectedNodeList.forEach((node) => {
+      if (!visitedNode[node]) nodeAndDepthArr.push([node, depth + 1]);
+    });
   }
+};
 
-  return sumDepthFromRoot;
+const sumDepthFromRoot = (depthArr) => {
+  return depthArr.reduce((sum, curr) => sum + curr, 0);
 };
 
 const isWinGame = (num) => {
-  if (num % 2 === 0) return false;
-  return true;
+  if (num % 2 !== 0) return true;
+  return false;
 };
 
 const N = parseInt(input());
 const tree = Array.from(Array(N + 1), () => Array());
 const visitedNode = new Array(N + 1).fill(false);
+let depthFromRootList = [];
+let nodeAndDepthArr = [[1, 0]];
 
 for (let i = 1; i < N; i++) {
   const [nodeA, nodeB] = input()
     .split(' ')
-    .map((nodeNum) => parseInt(nodeNum));
+    .map((value) => parseInt(value));
   tree[nodeA].push(nodeB);
   tree[nodeB].push(nodeA);
 }
 
-visitedNode[1] = true;
-let sumDepth = calcDepthFromRoot(1, 0);
+calcDepthFromRoot(nodeAndDepthArr);
+
+let sumDepth = sumDepthFromRoot(depthFromRootList);
 console.log(isWinGame(sumDepth) ? 'Yes' : 'No');
