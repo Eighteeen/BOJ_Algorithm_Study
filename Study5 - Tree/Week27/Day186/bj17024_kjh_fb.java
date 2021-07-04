@@ -56,7 +56,6 @@ class Node {
   public int data;
   public List<Node> connected;
   public Node parent;
-  public int grass;
 
   public Node(int data) {
     this.data = data;
