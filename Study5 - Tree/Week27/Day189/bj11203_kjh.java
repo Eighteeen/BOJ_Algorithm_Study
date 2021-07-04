@@ -9,25 +9,13 @@ class Main {
     int height = Integer.parseInt(treeInfo[0]);
     String path = treeInfo.length == 2 ? treeInfo[1] : "";
 
-    int[] tree = makeTree(height);
-    int nodeAtEndOfPath = getNodeAtEndOfPath(tree, path);
+    long nodeAtEndOfPath = getNodeAtEndOfPath(height, path);
 
     System.out.print(nodeAtEndOfPath);
   }
 
-  static int[] makeTree(int height) {
-    int nodes = (int) Math.pow(2, height + 1) - 1;
-    int[] tree = new int[nodes];
-
-    for (int i = 0; i < nodes; i++) {
-      tree[i] = nodes - i;
-    }
-
-    return tree;
-  }
-
-  static int getNodeAtEndOfPath(int[] tree, String path) {
-    int nodeLocation = 1;
+  static long getNodeAtEndOfPath(int height, String path) {
+    long nodeLocation = 1;
     
     for (char direction : path.toCharArray()) {
       if (direction == 'L') {
@@ -37,7 +25,10 @@ class Main {
       }
     }
 
-    return tree[nodeLocation - 1];
+    long amountOfNodes = (long) Math.pow(2, height + 1) - 1;
+    long nodeValue = amountOfNodes - nodeLocation + 1;
+
+    return nodeValue;
   }
 }
 
