@@ -38,7 +38,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안           | 피드백 반영 답안 |
 | ------ | ---- | -------------------- | -------------- | ---------------- |
-| 백준   | 15900    | [나무 탈출](https://www.acmicpc.net/problem/15900) | [진홍](Day187/bj15900_kjh.java) [승빈](Day187/bj15900_wsb.java) [수경](Day187/bj15900_hsk.py) | 진홍 [승빈](Day187/bj15900_wsb.java) 수경 |
+| 백준   | 15900    | [나무 탈출](https://www.acmicpc.net/problem/15900) | [진홍](Day187/bj15900_kjh.java) [승빈](Day187/bj15900_wsb.java) [수경](Day187/bj15900_hsk.py) | 진홍 [승빈](Day187/bj15900_wsb.java) [수경](Day187/bj15900_hsk.py) |
 
 ## [188일차](Day188) : Pairing Day
 
