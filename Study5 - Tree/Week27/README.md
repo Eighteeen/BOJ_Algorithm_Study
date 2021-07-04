@@ -54,4 +54,4 @@
 
 | 사이트 | 번호 | 문제                 | 답안           | 피드백 반영 답안 |
 | ------ | ---- | -------------------- | -------------- | ---------------- |
-| 백준   | 11203 | [Numbers On a Tree](https://www.acmicpc.net/problem/11203) | 진홍 승빈 수경 | 진홍 승빈 수경   |
+| 백준   | 11203 | [Numbers On a Tree](https://www.acmicpc.net/problem/11203) | [진홍](Day189/bj11203_kjh.java) 승빈 수경 | 진홍 승빈 수경   |
