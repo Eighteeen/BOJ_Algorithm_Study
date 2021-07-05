@@ -15,6 +15,7 @@ class Main {
     System.out.print(nodeAtEndOfPath);
   }
 
+  //// long을 쓰지 않아도 되는데 long이 전반적으로 쓰여서 아쉽습니다.
   static long getNodeAtEndOfPath(int height, String path) {
     long nodeLocation = 1;
     
