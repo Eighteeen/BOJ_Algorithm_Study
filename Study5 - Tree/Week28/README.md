@@ -6,7 +6,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 10897    | [Inherited disease](https://www.acmicpc.net/problem/10897) | [진홍](Day190/bj10897_kjh.java) 승빈 수경 | 진홍 승빈 수경 |
+| 백준   | 10897    | [Inherited disease](https://www.acmicpc.net/problem/10897) | [진홍](Day190/bj10897_kjh.java) 승빈 [수경](Day190/bj10897_hsk.js) | 진홍 승빈 수경 |
 
 ## [191일차](Day191)
 
