@@ -25,12 +25,12 @@ class Main {
     static int getNodeIdxAfterLoad(int numToLoad, int numOfSibling, int firstIdx, int loopStep) {
         if (numToLoad == 1) return firstIdx;
         
-        int halfnumOfSibling = numOfSibling / 2;
-        if (halfnumOfSibling < numToLoad) {
-            numToLoad -= halfnumOfSibling;
+        int halfNumOfSibling = numOfSibling / 2;
+        if (halfNumOfSibling < numToLoad) {
+            numToLoad -= halfNumOfSibling;
             firstIdx += (int) Math.pow(2, loopStep);
         }
         
-        return getNodeIdxAfterLoad(numToLoad, halfnumOfSibling, firstIdx, loopStep + 1);
+        return getNodeIdxAfterLoad(numToLoad, halfNumOfSibling, firstIdx, loopStep + 1);
     }
 }
