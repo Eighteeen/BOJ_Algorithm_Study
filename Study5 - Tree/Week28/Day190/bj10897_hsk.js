@@ -17,6 +17,7 @@ let prevChildNodeIdx = BigInt(1);
 let remainderAccumulateNode = 0;
 let findNodeNumResult = [];
 
+//// 짧은 영어단어의 나열로도 충분히 의미를 전달할 수 있는 것 같네요. 영문법을 꽤 많이 신경써왔었던 저로서 느끼는 점이 있었습니다
 for (let i = 1; i <= D; i++) {
   let generationAllNodeCnt = prevGenerationNodeCnt * BigInt(i);
   let generation = generationAllNodeCnt / prevGenerationNodeCnt;
