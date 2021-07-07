@@ -26,12 +26,12 @@ class Main {
     static StringBuilder getCheckListOfJMPABU(int[] checkChildren) {
         StringBuilder sb = new StringBuilder();
 
-        int nodeNum = 0;
+        long nodeNum = 0;
         int generation = 0;
 
-        int nthNode = 1;
-        int prevSiblingNode = 1;
-        int prevLastNodeNum = 0;
+        long nthNode = 1;
+        long prevSiblingNode = 1;
+        long prevLastNodeNum = 0;
 
         for (int checkChild : checkChildren) {
             nthNode = ((nthNode - 1) * ++generation + checkChild) % MOD_NUM;
