@@ -21,7 +21,7 @@ class Main {
     //// 진짜 수학 자신없다 하시지만 누구보다 수학에 진심이신 것 같습니다. 배워갑니다
     
     //// 궁금한게 하나 있는데, 나머지를 10억으로 때리니 int형 안에서 충분히 값이 나오지 않나요?
-    //// 혹시 어떤 부분이 int 범위를 초과하는건가요??
+    //// 혹시 어떤 부분이 int 범위를 초과하는건지 아시나요??
     static StringBuilder getCheckListOfJMPABU(int[] checkChildren) {
         StringBuilder sb = new StringBuilder();
 
