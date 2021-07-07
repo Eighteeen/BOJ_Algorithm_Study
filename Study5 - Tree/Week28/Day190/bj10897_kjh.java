@@ -5,6 +5,8 @@ import java.math.BigInteger;
 
 // 최대한 이름 직관적으로 지어서 최대한 로직 이해 쉽도록 신경써봤는데
 // 이 부분에 대해서 솔직한 피드백 주시면 감사하겠습니다 (__)
+
+//// 저는 저랑 비슷한 풀이여서 이름보고 이해가 잘 됐어요~ 깔끔해요!
 class Main {
   public static void main(String[] args) throws Exception {
     final BigInteger GEN = BigInteger.valueOf(Input.nextInt());

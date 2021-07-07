@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
+//// 깔끔해요~ 풀이 배워가요!
 class Main {
     static final int MOD_NUM = 1000000007;
 
