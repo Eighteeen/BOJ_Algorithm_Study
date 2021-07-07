@@ -15,22 +15,22 @@ class Main {
     }
 
     static int getNodeIdxAfterLoadIntoBinaryTree(int numToLoad, int depth) {
-        int numOfSibling = (int) Math.pow(2, depth);
-        numToLoad %= numOfSibling;
-        if (numToLoad == 0) numToLoad = numOfSibling;
+        int numOfDepthNode = (int) Math.pow(2, depth);
+        numToLoad %= numOfDepthNode;
+        if (numToLoad == 0) numToLoad = numOfDepthNode;
 
-        return getNodeIdxAfterLoad(numToLoad, numOfSibling, 0, 0);
+        return getNodeIdxAfterLoad(numToLoad, numOfDepthNode, 0, 0);
     }
 
-    static int getNodeIdxAfterLoad(int numToLoad, int numOfSibling, int firstIdx, int loopStep) {
+    static int getNodeIdxAfterLoad(int numToLoad, int numOfDepthNode, int firstIdx, int loopStep) {
         if (numToLoad == 1) return firstIdx;
         
-        int halfNumOfSibling = numOfSibling / 2;
-        if (halfNumOfSibling < numToLoad) {
-            numToLoad -= halfNumOfSibling;
+        int halfNumOfDepthNode = numOfDepthNode / 2;
+        if (halfNumOfDepthNode < numToLoad) {
+            numToLoad -= halfNumOfDepthNode;
             firstIdx += (int) Math.pow(2, loopStep);
         }
         
-        return getNodeIdxAfterLoad(numToLoad, halfNumOfSibling, firstIdx, loopStep + 1);
+        return getNodeIdxAfterLoad(numToLoad, halfNumOfDepthNode, firstIdx, loopStep + 1);
     }
 }
