@@ -16,4 +16,4 @@ class Main {
     System.out.print(starwars);
   }
 }
-//// 깔쌈
+//// 깔쌈 : 22
