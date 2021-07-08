@@ -1,7 +1,3 @@
-public class bj10897_kjh_fb {
-  
-}
-
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
