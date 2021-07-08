@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 class Main {
+    //// 로직을 이해하기 힘들었지만 전반적으로 깔끔한 것 같습니다!
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
