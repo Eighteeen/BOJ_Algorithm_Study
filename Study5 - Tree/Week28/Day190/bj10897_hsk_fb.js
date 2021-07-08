@@ -27,6 +27,7 @@ let findNodeNumResult = [];
 //// 짧은 영어단어의 나열로도 충분히 의미를 전달할 수 있는 것 같네요. 영문법을 꽤 많이 신경써왔었던 저로서 느끼는 점이 있었습니다
 for (let i = 1; i <= D; i++) {
   let generationAllNodeCnt = prevGenerationNodeCnt * i;
+  //// generation = i 인데 필요없는 연산과 변수같습니다. => 반영했습니다
 
   let childIdx = childIdxArray[i - 1];
   //// prev1stChildNodeIndex가 prevChildNodeIdx에 저장되지만
