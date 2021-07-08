@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+//// 깔끔해요 설명없이도 이해가 쏙쏙 되는 코드였어요~
 class Main {
   public static void main(String[] args) throws Exception {
     final int NTH_BALL = Input.nextInt();

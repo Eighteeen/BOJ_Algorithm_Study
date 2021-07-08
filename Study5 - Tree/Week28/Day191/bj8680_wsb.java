@@ -4,6 +4,7 @@ import java.io.InputStreamReader;
 
 class Main {
     //// 로직을 완전히 이해할 수 없었지만 전반적으로 깔끔한 것 같습니다!
+    //// 깔끔해요
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
