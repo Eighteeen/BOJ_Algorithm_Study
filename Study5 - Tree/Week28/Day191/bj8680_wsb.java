@@ -19,6 +19,7 @@ class Main {
         3. 재귀적으로 단계를 줄여갑니다.
         4. numToLoad가 1이라면 적재해야 합니다. 이때의 firstIdx가 적재해야할 idx입니다.
      */
+    //// =>=> 대략적으로 이해가 되었습니다!
     //// 깔끔해요
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
