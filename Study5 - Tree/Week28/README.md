@@ -14,7 +14,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 8680 | [Drzewko](https://www.acmicpc.net/problem/8680) | [진홍](Day191/bj8680_kjh.java) [승빈](Day191/bj8680_wsb.java) [수경](Day191/bj8680_hsk.js) | [진홍](Day191/bj8680_kjh.java) [승빈](Day191/bj8680_wsb.java) 수경 |
+| 백준   | 8680 | [Drzewko](https://www.acmicpc.net/problem/8680) | [진홍](Day191/bj8680_kjh.java) [승빈](Day191/bj8680_wsb.java) [수경](Day191/bj8680_hsk.js) | [진홍](Day191/bj8680_kjh.java) [승빈](Day191/bj8680_wsb.java) [수경](Day191/bj8680_hsk.js) |
 
 ## [192일차](Day192)
 
