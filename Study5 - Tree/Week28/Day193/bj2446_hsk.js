@@ -14,4 +14,4 @@ for (let i = 2; i <= N; i++) {
   console.log(drawStar(N - i, 2 * i - 1));
 }
 
-//// 깔끔~
+//// 깔끔~ :22
