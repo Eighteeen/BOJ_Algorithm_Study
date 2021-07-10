@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 //// Ggal Ggeum
+//// 깔끔해요
 class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -20,3 +21,5 @@ class Main {
         br.close();
     }
 }
+
+
