@@ -6,7 +6,7 @@ class Main {
   public static void main(String[] args) throws Exception {
     final int N = Input.nextInt();
 
-    //// 이런 방법도 있네요~매우 똑똑하시네요 
+    //// 이런 방법도 있네요~매우 똑똑하시네요  : 22 새로운 방법 알고갑니다!
     int[] result = new int[] { 0, 1, 0, 2 };
     int resultIndex = (N - 1) % 4;
 

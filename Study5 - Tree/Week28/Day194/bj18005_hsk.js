@@ -4,7 +4,7 @@ let stdin = (process.platform === 'linux' ? fs.readFileSync('/dev/stdin').toStri
 const N = parseInt(stdin[0]);
 let result = 1;
 
-//// Clean
+//// Clean : 22
 if (N % 2 === 1) result = 0;
 else if (parseInt(N / 2) % 2 === 0) result = 2;
 
