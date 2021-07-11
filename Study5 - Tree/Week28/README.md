@@ -38,7 +38,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 18005 | [Even or Odd?](https://www.acmicpc.net/problem/18005) | [진홍](Day194/bj18005_kjh.java) [승빈](Day194/bj18005_wsb.java) [수경](Day194/bj18005_hsk.js) | [진홍](Day194/bj18005_kjh) 승빈 수경 |
+| 백준   | 18005 | [Even or Odd?](https://www.acmicpc.net/problem/18005) | [진홍](Day194/bj18005_kjh.java) [승빈](Day194/bj18005_wsb.java) [수경](Day194/bj18005_hsk.js) | [진홍](Day194/bj18005_kjh) 승빈 [수경](Day194/bj18005_hsk.js) |
 
 ## [195일차](Day195)
 
