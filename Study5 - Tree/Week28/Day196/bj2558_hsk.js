@@ -9,3 +9,4 @@ let [A, B] = (
   .map((value) => parseInt(value));
 
 console.log(A + B);
+//// 깔끔
