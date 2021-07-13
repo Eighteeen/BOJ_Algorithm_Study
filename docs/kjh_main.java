@@ -14,9 +14,14 @@ class Input {
 
   public static String nextLine() {
     try {
-      return br.readLine();
-    } catch(Exception e) { }
-    
+      String line = br.readLine();
+      if (line.equals("")) {
+        return nextLine();
+      }
+      return line;
+    } catch (Exception e) {
+    }
+
     return null;
   }
 
@@ -39,7 +44,7 @@ class Input {
     String nextString = next();
     return nextString.charAt(0);
   }
-  
+
   public static String next() {
     makeTokensIfNeed();
     return tokenizer.nextToken();
@@ -54,7 +59,7 @@ class Input {
       nextLine();
     }
   }
-  
+
   private static void makeTokensIfNeed() {
     makeTokensIfNotReadedYet();
     makeTokensIfHasNoToken();
@@ -67,12 +72,16 @@ class Input {
   }
 
   private static void makeTokensIfHasNoToken() {
-    if (tokenizer.hasMoreTokens() == false) {
+    if (!tokenizer.hasMoreTokens()) {
       tokenizer = makeTokens();
     }
   }
-  
+
   private static StringTokenizer makeTokens() {
-    return new StringTokenizer(nextLine(), " ");
+    StringTokenizer tokens = new StringTokenizer(nextLine(), " ");
+    if (tokens.hasMoreTokens() == false) {
+      makeTokens();
+    }
+    return tokens;
   }
 }
