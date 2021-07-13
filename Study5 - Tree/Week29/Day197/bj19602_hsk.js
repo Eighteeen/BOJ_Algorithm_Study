@@ -12,4 +12,4 @@ const [S, M, L] = (
 const happinessScore = 1 * S + 2 * M + 3 * L;
 
 console.log(happinessScore >= 10 ? 'happy' : 'sad');
-//// 깔끔
+//// 깔끔 : 22
