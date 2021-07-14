@@ -56,30 +56,27 @@ class Main {
 
   static int markBridges(Node root, Node parent) {
     root.discoverByLine = discover++;
-    int currentDiscover = root.discoverByLine;
 
-    int minDiscoverNum = currentDiscover;
+    int minDiscoverNum = root.discoverByLine;
     for (Edge vertex : root.vertexes) {
       int connectedNum = vertex.getConnectedNum(root.number);
       Node connectedNode = nodeMap.get(connectedNum);
-
-      int connectedNodeDiscover = connectedNode.discoverByLine;
 
       if (connectedNode == parent) {
         continue;
       }
 
-      if (connectedNodeDiscover > 0) {
-        minDiscoverNum = Math.min(minDiscoverNum, connectedNodeDiscover);
+      if (connectedNode.discoverByLine > 0) {
+        minDiscoverNum = Math.min(minDiscoverNum, connectedNode.discoverByLine);
         continue;
       }
 
       int connectedDiscoverNum = markBridges(connectedNode, root);
       minDiscoverNum = Math.min(minDiscoverNum, connectedDiscoverNum);
 
-      if (minDiscoverNum < connectedDiscoverNum) {
-        int nodeA = Math.min(currentDiscover, connectedNodeDiscover);
-        int nodeB = Math.max(currentDiscover, connectedNodeDiscover);
+      if (root.discoverByLine < connectedDiscoverNum) {
+        int nodeA = Math.min(root.discoverByLine, connectedNode.discoverByLine);
+        int nodeB = Math.max(root.discoverByLine, connectedNode.discoverByLine);
 
         Edge edge = edges.getByConnectedNodes(nodeA, nodeB);
         if (edge != null) {
