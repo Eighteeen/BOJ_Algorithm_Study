@@ -75,8 +75,8 @@ class Main {
       minDiscoverNum = Math.min(minDiscoverNum, connectedDiscoverNum);
 
       if (root.discoverByLine < connectedDiscoverNum) {
-        int nodeA = Math.min(root.discoverByLine, connectedNode.discoverByLine);
-        int nodeB = Math.max(root.discoverByLine, connectedNode.discoverByLine);
+        int nodeA = Math.min(root.number, connectedNode.number);
+        int nodeB = Math.max(root.number, connectedNode.number);
 
         Edge edge = edges.getByConnectedNodes(nodeA, nodeB);
         if (edge != null) {
