@@ -20,8 +20,9 @@ const stdin = (
   .split('\n');
 // 데이터에 트리가 loop트리로 들어오는 경우(4번째 테스트처럼)는 성립하지 않는 코드네요~(wsb의 조언)
 // 피드백 올릴 때 바꿔보겠습니다.
+//// ->-> 아직 데이터 추가가 된 것이 아니지만 의견 반영을 빨리해주셔서 감사해요!
 
-//// 간선 개수만 세도 된다는 아이디어 좋네요.. 효율적입니다
+//// 간선 개수만 세도 된다는 아이디어 좋네요.. 효율적입니다 : 22 간단해요
 const getIsTree = (edgeInfoInTree, nodeInfoInTree) => {
   if (edgeInfoInTree.length === nodeInfoInTree.size - 1 || nodeInfoInTree.size === 0) return true;
   else return false;
