@@ -10,11 +10,16 @@ const stdin = (
 
 3 8  6 8  6 4
 5 3  5 6  5 2  0 0
+
+1 2  2 3  3 1 3 4
+5 6  0 0
 -1 -1`
 )
   .replace(/\n/gi, '  ')
   .replace(/    /gi, '\n')
   .split('\n');
+// 데이터에 트리가 loop트리로 들어오는 경우는 성립하지 않는 코드네요~
+// 피드백 올릴 때 바꿔보겠습니다.
 
 //// 간선 개수만 세도 된다는 아이디어 좋네요.. 효율적입니다
 const getIsTree = (edgeInfoInTree, nodeInfoInTree) => {
