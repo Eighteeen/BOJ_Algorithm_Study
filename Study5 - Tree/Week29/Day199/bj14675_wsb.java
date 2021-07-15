@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.Map;
 import java.util.HashMap;
 
+//// 깔끔합니잉
 class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -37,12 +38,14 @@ class Main {
         br.close();
     }
 
+    //// 본인 취향이지만 조건문 그대로 반환해도 돼유!
     static boolean isCutVertex(Node node) {
         if (node.getAdjacentNodeList().size() > 1) return true;
         return false;
     }
 }
 
+//// NodeMap 클래스 덕분에 더 읽기 편했어요!
 class NodeMap {
     private Map<Integer, Node> nodeMap = new HashMap<>();
 
