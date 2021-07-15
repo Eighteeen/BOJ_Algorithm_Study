@@ -30,7 +30,7 @@ for (let i = 1; i < N; i++) {
   nodeInfoInTree[nodeB].push(nodeA);
 }
 
-//// 군더더기 없이 까끔합니다잉
+//// 군더더기 없이 까끔합니다잉 : 22 낄끔
 const questionNum = parseInt(input());
 const isRightQuestion = [];
 for (let q = 1; q <= questionNum; q++) {

@@ -10,6 +10,7 @@ import java.util.ArrayList;
 import java.util.Map;
 import java.util.HashMap;
 
+//// 깔끔!
 class Main {
   static Map<Integer, Node> nodeMap;
   static int discover;
