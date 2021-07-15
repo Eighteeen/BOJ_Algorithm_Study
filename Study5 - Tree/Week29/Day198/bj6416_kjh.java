@@ -6,6 +6,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.ArrayList;
 
+//// 깔끔해요
 class Main {
   public static void main(String[] args) throws Exception {
     StringBuilder sb = new StringBuilder();
@@ -29,7 +30,6 @@ class Main {
         if (nodeMap.size() == 0) {
           isTree = true;
         }
-
         sb.append("Case ").append(caseNum).append(" is ").append(!isTree ? "not " : "").append("a tree.").append('\n');
 
         isTree = true;

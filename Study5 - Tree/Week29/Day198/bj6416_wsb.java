@@ -4,6 +4,7 @@ import java.io.InputStreamReader;
 import java.util.*;
 import java.util.stream.Collectors;
 
+//// 깔끔해요
 class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -68,6 +69,7 @@ class Main {
         return true;
     }
 
+    //// 생각하지 못했던 부분인데 꼼꼼하시네요!
     static boolean isLoop(Map<Integer, List<Integer>> parentMap) {
         for (Integer parentData : parentMap.keySet()) {
             List<Integer> descendantList = getDescendantList(parentMap, parentData, parentData);
