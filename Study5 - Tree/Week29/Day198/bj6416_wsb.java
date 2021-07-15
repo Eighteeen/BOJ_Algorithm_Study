@@ -64,6 +64,7 @@ class Main {
         if (nodeSet.size() != 1) return false;
 
         //// isLoop 체크하지 않아도 정답 처리됩니다!
+        //// -> https://www.acmicpc.net/board/view/71295#post 에 해당하는 데이터 처리로 현재 조건을 유지하겠습니다.
         if (isLoop(parentMap)) return false;
 
         return true;
