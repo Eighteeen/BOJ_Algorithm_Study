@@ -16,6 +16,7 @@ const stdin = (
   .replace(/    /gi, '\n')
   .split('\n');
 
+//// 간선 개수만 세도 된다는 아이디어 좋네요.. 효율적입니다
 const getIsTree = (edgeInfoInTree, nodeInfoInTree) => {
   if (edgeInfoInTree.length === nodeInfoInTree.size - 1 || nodeInfoInTree.size === 0) return true;
   else return false;
