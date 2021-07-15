@@ -62,7 +62,7 @@ class Main {
         nodeSet.removeAll(childSet);
         if (nodeSet.size() != 1) return false;
 
-        //// isLoop 체크하지 않아도 정답 처리됩니다! 199일차에서 삽질해서 확실히 알게됐는데 트리는 사이클이 없대요 ㅎㅎ...
+        //// isLoop 체크하지 않아도 정답 처리됩니다!
         if (isLoop(parentMap)) return false;
 
         return true;
