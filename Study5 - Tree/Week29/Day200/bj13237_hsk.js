@@ -17,6 +17,7 @@ const input = (() => {
   return () => stdin[line++];
 })();
 
+//// 반환형이 없는데 get은 쪼끔 오해의 소지가 있는 것 같습니다
 const getHeightFromBFS = () => {
   while (queueNodeList.length > 0) {
     let size = queueNodeList.length;
@@ -57,3 +58,5 @@ for (let nodeNum = 1; nodeNum <= N; nodeNum++) {
 
 getHeightFromBFS();
 console.log(heightList.splice(1).join('\n'));
+
+//// 무난깔끔합니다~

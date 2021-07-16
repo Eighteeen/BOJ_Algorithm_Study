@@ -28,7 +28,7 @@ class Main {
         br.close();
     }
 
-    //// 
+    //// 내 깊이 = 부모깊이 + 1 이라는 점을 이용한 효율적인 로직 굳굳
     static void setDepthArr(int setIdx) {
         if (depthArr[setIdx] != -1) return;
 
