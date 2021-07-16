@@ -36,6 +36,7 @@ class Main {
     System.out.print(sb);
   }
 
+  //// 정말 한눈에 이해가 됐어요 
   static void fillHeightsInEachNode(Node root, int height) {
     if (root == null)
       return;
