@@ -44,6 +44,8 @@ class Main {
 
     childrenMaxDistances.sort(Comparator.reverseOrder());
 
+    // 자식의 maxDistance 중 가장 큰 두 가지를 합한 것이
+    // 현 노드를 중간지점으로 거치는 것 중 최대 지름(maxRadius)
     int maxRadius = childrenMaxDistances.get(0);
     maxRadius += childrenMaxDistances.size() >= 2 ? childrenMaxDistances.get(1) : 0;
     updateMaxRadius(maxRadius);
