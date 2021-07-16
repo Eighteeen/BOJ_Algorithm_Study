@@ -28,6 +28,7 @@ class Main {
         br.close();
     }
 
+    //// 
     static void setDepthArr(int setIdx) {
         if (depthArr[setIdx] != -1) return;
 

@@ -42,11 +42,11 @@
 
 ## [202일차](Day202) : Pairing Day
 
-> [트리 활용](문제집링크)
+> [트리 활용](https://www.acmicpc.net/group/workbook/view/9797/35348)
 
 | 사이트 | 번호 | 문제                 | 답안         | Pair Programming                       |
 | ------ | ---- | -------------------- | ------------ | -------------------------------------- |
-| 백준   | 0    | [문제이름](문제링크) | 진홍승빈수경 | Driver 🚗 승빈 & Navigator 🧭 진홍수경 |
+| 백준   | 19535    | [ㄷㄷㄷㅈ](https://www.acmicpc.net/problem/19535) | 진홍승빈수경 | Driver 🚗 승빈 & Navigator 🧭 진홍수경 |
 
 ## [203일차](Day203)
 
