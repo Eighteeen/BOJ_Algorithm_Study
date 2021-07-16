@@ -46,7 +46,6 @@ class Main {
 
     int maxRadius = childrenMaxDistances.get(0);
     maxRadius += childrenMaxDistances.size() >= 2 ? childrenMaxDistances.get(1) : 0;
-
     updateMaxRadius(maxRadius);
 
     return childrenMaxDistances.get(0);
