@@ -17,7 +17,8 @@ const input = (() => {
   return () => stdin[line++];
 })();
 
-//// 반환형이 없는데 get은 쪼끔 오해의 소지가 있는 것 같습니다
+//// 큐를 활용한 방법은 생각도 못 했는데 다양한 방법을 알아가요!
+//// 반환형이 없는데 get은 쪼끔 오해의 소지가 있는 것 같습니다 : 22
 const getHeightFromBFS = () => {
   while (queueNodeList.length > 0) {
     let size = queueNodeList.length;
