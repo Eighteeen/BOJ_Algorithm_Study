@@ -27,7 +27,7 @@ class Main {
         //// 왜 같은 함수를 2번 호출해야 하는지에 대한 힌트가 없어 로직을 이해하기 어려웠읍니다..
             //// -> 함수명은 'maxDistance를 세팅하기 위해 깊이 우선 탐색을 한다' 로
             //// 의미가 그대로 전해진다고 생각하여 그대로 두었고,
-            //// maxDistanceNode (가장 먼 거리의 노드) 에서 maxDiameterEndNode (가장 긴 지름의 끝 노드) 로 변경하여
+            //// 변수명을 maxDistanceNode (가장 먼 거리의 노드) 에서 maxDiameterEndNode (가장 긴 지름의 끝 노드) 로 변경하여
             //// 의미를 직접적으로 알 수 있게끔 변경해보았습니다.
         dfsForSetMaxDistance(nodeMap.findNode(1), 0);
         dfsForSetMaxDistance(maxDiameterEndNode, 0);
