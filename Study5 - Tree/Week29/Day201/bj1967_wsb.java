@@ -41,6 +41,7 @@ class Main {
         위의 상황으로 인해서 이번 풀이가 오래걸림.
         한 가지 로직에 꽂혔다고 그곳에만 집중하면 안 될 것 같다는 교훈을 얻음... 가끔 포기도 필요하다... => ㅇㄱㄹㅇ
     */
+    //// 정말 재귀함수 활용 잘하시네요
     static void dfsForSetMaxDistance(Node node, int untilDistance) {
         if (node == null || node.isVisited()) return;
 

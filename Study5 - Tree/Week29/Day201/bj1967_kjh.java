@@ -7,7 +7,9 @@ import java.util.Map;
 import java.util.HashMap;
 import java.util.Comparator;
 
+//// 전체적으로 깔끔해요.
 class Main {
+  //// radius는 반지름을 뜻하기 떄문에 변수 이름은 diameter(지름)가 나을 것 같습니다.
   static int maxRadius;
 
   public static void main(String[] args) throws Exception {
@@ -30,7 +32,7 @@ class Main {
     System.out.print(maxRadius);
   }
 
-  //// 최소 방문을 sort를 활용해서 구현하셨네요. 다른 방법 배워갑니다.
+  //// 최소 방문을 sort를 활용해서 구현하셨네요. 다른 방법 배워갑니다. : 22
   static int getMaxDistance(Node root) {
     if (root.childrenEdges.size() == 0) {
       return 0;
