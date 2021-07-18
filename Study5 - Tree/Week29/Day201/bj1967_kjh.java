@@ -30,7 +30,7 @@ class Main {
     System.out.print(maxRadius);
   }
 
-  //// 최소 방문을 sort를 통해서 구현하셨네요. 다른 방법 배워갑니다.
+  //// 최소 방문을 sort를 활용해서 구현하셨네요. 다른 방법 배워갑니다.
   static int getMaxDistance(Node root) {
     if (root.childrenEdges.size() == 0) {
       return 0;
