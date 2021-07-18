@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
+//// 필요없는 import!
 import java.util.stream.Collectors;
 
 class Main {
@@ -23,6 +24,7 @@ class Main {
             nodeMap.setNodes(parentData, childData, distance);
         }
         
+        //// 왜 같은 함수를 2번 호출해야 하는지에 대한 힌트가 없어 로직을 이해하기 어려웠읍니다..
         dfsForSetMaxDistance(nodeMap.findNode(1), 0);
         dfsForSetMaxDistance(maxDistanceNode, 0);
         System.out.println(maxDistance);
@@ -37,7 +39,7 @@ class Main {
         또한 해당 로직을 이용하여 전체 메소드 호출 관점으로 본다면
         방문했던 곳을 또 다시 방문할 수도 있는 구조이기 때문에 효율적인 로직도 아니었음.
         위의 상황으로 인해서 이번 풀이가 오래걸림.
-        한 가지 로직에 꽂혔다고 그곳에만 집중하면 안 될 것 같다는 교훈을 얻음... 가끔 포기도 필요하다...
+        한 가지 로직에 꽂혔다고 그곳에만 집중하면 안 될 것 같다는 교훈을 얻음... 가끔 포기도 필요하다... => ㅇㄱㄹㅇ
     */
     static void dfsForSetMaxDistance(Node node, int untilDistance) {
         if (node == null || node.isVisited()) return;

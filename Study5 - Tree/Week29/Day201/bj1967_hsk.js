@@ -21,7 +21,7 @@ const input = (() => {
   return () => stdin[line++];
 })();
 
-//// 자료구조들의 활용이 돋보여요. 이번 뿐만 아니라 대체적으로 자료구조 활용을 잘 하셔서 로직이 간단해 보이도록 짜시는 것 같습니다.
+//// 자료구조들의 활용이 돋보여요. 이번 뿐만 아니라 대체적으로 자료구조 활용을 잘 하셔서 로직이 간단해 보이도록 짜시는 것 같습니다. :22
 const getNodeAndMaxDistanceFromBFS = (startNode) => {
   const visitedNode = new Array(N + 1).fill(false);
   const queueNodeList = [];
@@ -56,7 +56,9 @@ for (let i = 1; i < N; i++) {
   tree[nodeB].push([nodeA, distance]);
 }
 
-//// 무난 깔끔
+//// 무난 깔끔 :22
 const getNodeNumFromMaxDistance = getNodeAndMaxDistanceFromBFS(1).node;
-const getMaxDistance = getNodeAndMaxDistanceFromBFS(getNodeNumFromMaxDistance).distance;
+const getMaxDistance = getNodeAndMaxDistanceFromBFS(
+  getNodeNumFromMaxDistance
+).distance;
 console.log(getMaxDistance);
