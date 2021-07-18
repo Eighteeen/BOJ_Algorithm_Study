@@ -58,7 +58,5 @@ for (let i = 1; i < N; i++) {
 
 //// 무난 깔끔 :22
 const getNodeNumFromMaxDistance = getNodeAndMaxDistanceFromBFS(1).node;
-const getMaxDistance = getNodeAndMaxDistanceFromBFS(
-  getNodeNumFromMaxDistance
-).distance;
+const getMaxDistance = getNodeAndMaxDistanceFromBFS(getNodeNumFromMaxDistance).distance;
 console.log(getMaxDistance);
