@@ -6,7 +6,7 @@
 
 | 사이트 | 번호  | 문제                                                 | 답안           | 피드백 반영 답안 |
 | ------ | ----- | ---------------------------------------------------- | -------------- | ---------------- |
-| 백준   | 15681 | <img src="https://static.solved.ac/tier_small/11.svg" width="15px" height="15px"/>[트리와 쿼리](https://www.acmicpc.net/problem/15681) | [진홍](Day204/boj15681_kjh.java) 승빈 수경 | 진홍 승빈 수경   |
+| 백준   | 15681 | <img src="https://static.solved.ac/tier_small/11.svg" width="15px" height="15px"/>[트리와 쿼리](https://www.acmicpc.net/problem/15681) | [진홍](Day204/boj15681_kjh.java) 승빈 [수경](Day204/boj15681_hsk.py) | 진홍 승빈 수경   |
 
 ## [205일차](Day205)
 
