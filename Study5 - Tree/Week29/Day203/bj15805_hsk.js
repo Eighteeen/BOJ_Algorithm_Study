@@ -19,6 +19,7 @@ const nodeNumInTree = new Set();
 parentNodeArr[visitedNodeArr[0]] = -1;
 nodeNumInTree.add(visitedNodeArr[0]);
 
+//// 깔끔합니다!
 for (let i = 0; i < N; i++) {
   if (nodeNumInTree.has(visitedNodeArr[i])) continue;
 
