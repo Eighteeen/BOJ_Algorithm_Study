@@ -27,10 +27,7 @@
 <a href="https://www.acmicpc.net/problem/2576"><img src="https://static.solved.ac/tier_small/3.svg" width="19px" height="19px"/>홀수</a>
 <a href="https://www.acmicpc.net/problem/1152"><img src="https://static.solved.ac/tier_small/4.svg" width="19px" height="19px"/>단어의 개수</a>
 <a href="https://www.acmicpc.net/problem/13015"><img src="https://static.solved.ac/tier_small/6.svg" width="19px" height="19px"/>별 찍기 - 23</a>
-٩<a href="๑> ₃ <)۶з	</a><img src="https://static.solved.ac/tier_small/5.svg" width="19px" height="19px"/>귀여운 수~ε
-a hre">
-="https://www.acmicpc.net/problem/17294">
-
+<a href="https://www.acmicpc.net/problem/17294"><img src="https://static.solved.ac/tier_small/5.svg" width="19px" height="19px"/>귀여운 수~ε٩(๑> ₃ <)۶з</a>
 <a href="https://www.acmicpc.net/problem/10824"><img src="https://static.solved.ac/tier_small/3.svg" width="19px" height="19px"/>네 수</a>
 <a href="https://www.acmicpc.net/problem/1475"><img src="https://static.solved.ac/tier_small/6.svg" width="19px" height="19px"/>방 번호</a>
 <a href="https://www.acmicpc.net/problem/1296"><img src="https://static.solved.ac/tier_small/4.svg" width="19px" height="19px"/>데이트</a>
