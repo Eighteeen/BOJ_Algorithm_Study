@@ -38,7 +38,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안           | 피드백 반영 답안 |
 | ------ | ---- | -------------------- | -------------- | ---------------- |
-| 백준   | 1967 | [트리의 지름](https://www.acmicpc.net/problem/1967) | [진홍](Day201/boj1967_kjh.java) [승빈](Day201/boj1967_wsb.java) [수경](Day201/boj1967_hsk.js) | [진홍](Day201/boj1967_kjh.java) [승빈](Day201/boj1967_wsb_fb.java) 수경   |
+| 백준   | 1967 | [트리의 지름](https://www.acmicpc.net/problem/1967) | [진홍](Day201/boj1967_kjh.java) [승빈](Day201/boj1967_wsb.java) [수경](Day201/boj1967_hsk.js) | [진홍](Day201/boj1967_kjh.java) [승빈](Day201/boj1967_wsb_fb.java) [수경](Day201/boj1967_hsk.js)   |
 
 ## [202일차](Day202) : Pairing Day
 
