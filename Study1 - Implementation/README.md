@@ -2,48 +2,46 @@
 > 구현
 
 ## 푼 문제
-| 사이트 | 문제                 | 
-| ------ | -------------------- | 
-| 백준   | <img src="https://static.solved.ac/tier_small/3.svg" width="19px" height="19px"/>[별 찍기 - 13](https://www.acmicpc.net/problem/2523) | 
-| 백준   | <img src="https://static.solved.ac/tier_small/5.svg" width="19px" height="19px"/>[팰린드롬인지 확인하기](https://www.acmicpc.net/problem/10988) | 
-| 백준   | <img src="https://static.solved.ac/tier_small/4.svg" width="19px" height="19px"/>[열개씩 끊어 출력하기](https://www.acmicpc.net/problem/11721) | 
-| 백준   | <img src="https://static.solved.ac/tier_small/3.svg" width="19px" height="19px"/>[영수증](https://www.acmicpc.net/problem/5565) | 
-| 백준   | <img src="https://static.solved.ac/tier_small/3.svg" width="19px" height="19px"/>[별 찍기 - 8](https://www.acmicpc.net/problem/2445) | 
-| 백준   | <img src="https://static.solved.ac/tier_small/4.svg" width="19px" height="19px"/>[!밀비 급일](https://www.acmicpc.net/problem/11365) | 
-| 백준   | <img src="https://static.solved.ac/tier_small/3.svg" width="19px" height="19px"/>[X보다 작은수](https://www.acmicpc.net/problem/10871) | 
-| 백준   | <img src="https://static.solved.ac/tier_small/3.svg" width="19px" height="19px"/>[나는 요리사다](https://www.acmicpc.net/problem/2953) | 
-| 백준   | <img src="https://static.solved.ac/tier_small/4.svg" width="19px" height="19px"/>[별 찍기 - 21](https://www.acmicpc.net/problem/10996) | 
-| 백준   | <img src="https://static.solved.ac/tier_small/3.svg" width="19px" height="19px"/>[배수와 약수](https://www.acmicpc.net/problem/5086) | 
-| 백준   | <img src="https://static.solved.ac/tier_small/4.svg" width="19px" height="19px"/>[오타맨 고창영](https://www.acmicpc.net/problem/2711) | 
-| 백준   | <img src="https://static.solved.ac/tier_small/4.svg" width="19px" height="19px"/>[럭키 스트레이트](https://www.acmicpc.net/problem/18406) | 
-| 백준   | <img src="https://static.solved.ac/tier_small/3.svg" width="19px" height="19px"/>[별 찍기 - 17](https://www.acmicpc.net/problem/10992) | 
-| 백준   | <img src="https://static.solved.ac/tier_small/2.svg" width="19px" height="19px"/>[와글와글 숭고한](https://www.acmicpc.net/problem/17388) | 
-| 백준   | <img src="https://static.solved.ac/tier_small/4.svg" width="19px" height="19px"/>[과제 안 내신 분...?	](https://www.acmicpc.net/problem/5597) | 
-| 백준   | <img src="https://static.solved.ac/tier_small/7.svg" width="19px" height="19px"/>[제로](https://www.acmicpc.net/problem/10773) | 
-| 백준   | <img src="https://static.solved.ac/tier_small/4.svg" width="19px" height="19px"/>[카드 역배치](https://www.acmicpc.net/problem/10804) | 
-| 백준   | <img src="https://static.solved.ac/tier_small/6.svg" width="19px" height="19px"/>[덩치](https://www.acmicpc.net/problem/7568) | 
-| 백준   | <img src="https://static.solved.ac/tier_small/4.svg" width="19px" height="19px"/>[최댓값](https://www.acmicpc.net/problem/2562) | 
-| 백준   | <img src="https://static.solved.ac/tier_small/4.svg" width="19px" height="19px"/>[니모를 찾아서](https://www.acmicpc.net/problem/10173) | 
-| 백준   | <img src="https://static.solved.ac/tier_small/3.svg" width="19px" height="19px"/>[우유 축제](https://www.acmicpc.net/problem/14720) | 
-| 백준   | <img src="https://static.solved.ac/tier_small/6.svg" width="19px" height="19px"/>[도비의 난독증 테스트](https://www.acmicpc.net/problem/2204) | 
-| 백준   | <img src="https://static.solved.ac/tier_small/3.svg" width="19px" height="19px"/>[홀수](https://www.acmicpc.net/problem/2576) | 
-| 백준   | <img src="https://static.solved.ac/tier_small/4.svg" width="19px" height="19px"/>[단어의 개수](https://www.acmicpc.net/problem/1152) | 
-| 백준   | <img src="https://static.solved.ac/tier_small/6.svg" width="19px" height="19px"/>[별 찍기 - 23](https://www.acmicpc.net/problem/13015) | 
-| 백준   | <img src="https://static.solved.ac/tier_small/5.svg" width="19px" height="19px"/>[귀여운 수~ε٩(๑> ₃ <)۶з	](https://www.acmicpc.net/problem/17294) | 
-| 백준   | <img src="https://static.solved.ac/tier_small/3.svg" width="19px" height="19px"/>[네 수](https://www.acmicpc.net/problem/10824) | 
-| 백준   | <img src="https://static.solved.ac/tier_small/6.svg" width="19px" height="19px"/>[방 번호](https://www.acmicpc.net/problem/1475) | 
-| 백준   | <img src="https://static.solved.ac/tier_small/4.svg" width="19px" height="19px"/>[데이트](https://www.acmicpc.net/problem/1296) | 
-| 백준   | <img src="https://static.solved.ac/tier_small/4.svg" width="19px" height="19px"/>[중간계 전쟁](https://www.acmicpc.net/problem/4435) | 
-| 백준   | <img src="https://static.solved.ac/tier_small/5.svg" width="19px" height="19px"/>[피시방 알바](https://www.acmicpc.net/problem/1453) | 
-| 백준   | <img src="https://static.solved.ac/tier_small/5.svg" width="19px" height="19px"/>[맥주99병](https://www.acmicpc.net/problem/17293) | 
-| 백준   | <img src="https://static.solved.ac/tier_small/6.svg" width="19px" height="19px"/>[여우는 어떻게 울지?](https://www.acmicpc.net/problem/9536) | 
-| 백준   | <img src="https://static.solved.ac/tier_small/4.svg" width="19px" height="19px"/>[수열의 변화](https://www.acmicpc.net/problem/1551) | 
-| 백준   | <img src="https://static.solved.ac/tier_small/3.svg" width="19px" height="19px"/>[내 학점을 구해줘](https://www.acmicpc.net/problem/10984) | 
-| 백준   | <img src="https://static.solved.ac/tier_small/6.svg" width="19px" height="19px"/>[수 정렬하기 3](https://www.acmicpc.net/problem/10989) | 
-| 백준   | <img src="https://static.solved.ac/tier_small/3.svg" width="19px" height="19px"/>[주사위 게임](https://www.acmicpc.net/problem/10103) | 
-| 백준   | <img src="https://static.solved.ac/tier_small/3.svg" width="19px" height="19px"/>[공](https://www.acmicpc.net/problem/1547) | 
-| 백준   | <img src="https://static.solved.ac/tier_small/5.svg" width="19px" height="19px"/>[준오는 조류혐오야!!](https://www.acmicpc.net/problem/14647) | 
-| 백준   | <img src="https://static.solved.ac/tier_small/4.svg" width="19px" height="19px"/>[블랙잭](https://www.acmicpc.net/problem/2798) | 
-| 백준   | <img src="https://static.solved.ac/tier_small/3.svg" width="19px" height="19px"/>[초콜릿 자르기](https://www.acmicpc.net/problem/2163) | 
-| 백준   | <img src="https://static.solved.ac/tier_small/2.svg" width="19px" height="19px"/>[10부제](https://www.acmicpc.net/problem/10797) | 
-| 백준   | <img src="https://static.solved.ac/tier_small/3.svg" width="19px" height="19px"/>[ACM 호텔](https://www.acmicpc.net/problem/10250) | 
+<img src="https://static.solved.ac/tier_small/3.svg" width="19px" height="19px"/>[별 찍기 - 13](https://www.acmicpc.net/problem/2523)
+<img src="https://static.solved.ac/tier_small/5.svg" width="19px" height="19px"/>[팰린드롬인지 확인하기](https://www.acmicpc.net/problem/10988)
+<img src="https://static.solved.ac/tier_small/4.svg" width="19px" height="19px"/>[열개씩 끊어 출력하기](https://www.acmicpc.net/problem/11721)
+<img src="https://static.solved.ac/tier_small/3.svg" width="19px" height="19px"/>[영수증](https://www.acmicpc.net/problem/5565)
+<img src="https://static.solved.ac/tier_small/3.svg" width="19px" height="19px"/>[별 찍기 - 8](https://www.acmicpc.net/problem/2445)
+<img src="https://static.solved.ac/tier_small/4.svg" width="19px" height="19px"/>[!밀비 급일](https://www.acmicpc.net/problem/11365)
+<img src="https://static.solved.ac/tier_small/3.svg" width="19px" height="19px"/>[X보다 작은수](https://www.acmicpc.net/problem/10871)
+<img src="https://static.solved.ac/tier_small/3.svg" width="19px" height="19px"/>[나는 요리사다](https://www.acmicpc.net/problem/2953)
+<img src="https://static.solved.ac/tier_small/4.svg" width="19px" height="19px"/>[별 찍기 - 21](https://www.acmicpc.net/problem/10996)
+<img src="https://static.solved.ac/tier_small/3.svg" width="19px" height="19px"/>[배수와 약수](https://www.acmicpc.net/problem/5086)
+<img src="https://static.solved.ac/tier_small/4.svg" width="19px" height="19px"/>[오타맨 고창영](https://www.acmicpc.net/problem/2711)
+<img src="https://static.solved.ac/tier_small/4.svg" width="19px" height="19px"/>[럭키 스트레이트](https://www.acmicpc.net/problem/18406)
+<img src="https://static.solved.ac/tier_small/3.svg" width="19px" height="19px"/>[별 찍기 - 17](https://www.acmicpc.net/problem/10992)
+<img src="https://static.solved.ac/tier_small/2.svg" width="19px" height="19px"/>[와글와글 숭고한](https://www.acmicpc.net/problem/17388)
+<img src="https://static.solved.ac/tier_small/4.svg" width="19px" height="19px"/>[과제 안 내신 분...?	](https://www.acmicpc.net/problem/5597)
+<img src="https://static.solved.ac/tier_small/7.svg" width="19px" height="19px"/>[제로](https://www.acmicpc.net/problem/10773)
+<img src="https://static.solved.ac/tier_small/4.svg" width="19px" height="19px"/>[카드 역배치](https://www.acmicpc.net/problem/10804)
+<img src="https://static.solved.ac/tier_small/6.svg" width="19px" height="19px"/>[덩치](https://www.acmicpc.net/problem/7568)
+<img src="https://static.solved.ac/tier_small/4.svg" width="19px" height="19px"/>[최댓값](https://www.acmicpc.net/problem/2562)
+<img src="https://static.solved.ac/tier_small/4.svg" width="19px" height="19px"/>[니모를 찾아서](https://www.acmicpc.net/problem/10173)
+<img src="https://static.solved.ac/tier_small/3.svg" width="19px" height="19px"/>[우유 축제](https://www.acmicpc.net/problem/14720)
+<img src="https://static.solved.ac/tier_small/6.svg" width="19px" height="19px"/>[도비의 난독증 테스트](https://www.acmicpc.net/problem/2204)
+<img src="https://static.solved.ac/tier_small/3.svg" width="19px" height="19px"/>[홀수](https://www.acmicpc.net/problem/2576)
+<img src="https://static.solved.ac/tier_small/4.svg" width="19px" height="19px"/>[단어의 개수](https://www.acmicpc.net/problem/1152)
+<img src="https://static.solved.ac/tier_small/6.svg" width="19px" height="19px"/>[별 찍기 - 23](https://www.acmicpc.net/problem/13015)
+<img src="https://static.solved.ac/tier_small/5.svg" width="19px" height="19px"/>[귀여운 수~ε٩(๑> ₃ <)۶з	](https://www.acmicpc.net/problem/17294)
+<img src="https://static.solved.ac/tier_small/3.svg" width="19px" height="19px"/>[네 수](https://www.acmicpc.net/problem/10824)
+<img src="https://static.solved.ac/tier_small/6.svg" width="19px" height="19px"/>[방 번호](https://www.acmicpc.net/problem/1475)
+<img src="https://static.solved.ac/tier_small/4.svg" width="19px" height="19px"/>[데이트](https://www.acmicpc.net/problem/1296)
+<img src="https://static.solved.ac/tier_small/4.svg" width="19px" height="19px"/>[중간계 전쟁](https://www.acmicpc.net/problem/4435)
+<img src="https://static.solved.ac/tier_small/5.svg" width="19px" height="19px"/>[피시방 알바](https://www.acmicpc.net/problem/1453)
+<img src="https://static.solved.ac/tier_small/5.svg" width="19px" height="19px"/>[맥주99병](https://www.acmicpc.net/problem/17293)
+<img src="https://static.solved.ac/tier_small/6.svg" width="19px" height="19px"/>[여우는 어떻게 울지?](https://www.acmicpc.net/problem/9536)
+<img src="https://static.solved.ac/tier_small/4.svg" width="19px" height="19px"/>[수열의 변화](https://www.acmicpc.net/problem/1551)
+<img src="https://static.solved.ac/tier_small/3.svg" width="19px" height="19px"/>[내 학점을 구해줘](https://www.acmicpc.net/problem/10984)
+<img src="https://static.solved.ac/tier_small/6.svg" width="19px" height="19px"/>[수 정렬하기 3](https://www.acmicpc.net/problem/10989)
+<img src="https://static.solved.ac/tier_small/3.svg" width="19px" height="19px"/>[주사위 게임](https://www.acmicpc.net/problem/10103)
+<img src="https://static.solved.ac/tier_small/3.svg" width="19px" height="19px"/>[공](https://www.acmicpc.net/problem/1547)
+<img src="https://static.solved.ac/tier_small/5.svg" width="19px" height="19px"/>[준오는 조류혐오야!!](https://www.acmicpc.net/problem/14647)
+<img src="https://static.solved.ac/tier_small/4.svg" width="19px" height="19px"/>[블랙잭](https://www.acmicpc.net/problem/2798)
+<img src="https://static.solved.ac/tier_small/3.svg" width="19px" height="19px"/>[초콜릿 자르기](https://www.acmicpc.net/problem/2163)
+<img src="https://static.solved.ac/tier_small/2.svg" width="19px" height="19px"/>[10부제](https://www.acmicpc.net/problem/10797)
+<img src="https://static.solved.ac/tier_small/3.svg" width="19px" height="19px"/>[ACM 호텔](https://www.acmicpc.net/problem/10250)
