@@ -63,6 +63,10 @@
   <summary>새로운 주제로 넘어갈 때마다 발표자 1명이 미팅 날 발표하고, 그 외 인원은 PDF로 정리한다.</summary>
 </details>
 
+<details>
+  <summary>기본적으로 본인의 주 언어를 사용하되, 특정 필요에 따라 Python을 사용한다.</summary>
+</details>
+
 ## 📝 스터디 내용 📝
 > [Eighteen 문제집](https://www.acmicpc.net/group/workbook/list/9797)
 
