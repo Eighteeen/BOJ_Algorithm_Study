@@ -14,7 +14,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안           | 피드백 반영 답안 |
 | ------ | ---- | -------------------- | -------------- | ---------------- |
-| 백준   | 17073    | <img src="https://static.solved.ac/tier_small/11.svg" width="15px" height="15px"/>[나무 위의 빗물](https://www.acmicpc.net/problem/17073) | 진홍 승빈 수경 | 진홍 승빈 수경   |
+| 백준   | 5338    | [마이크로소프트 로고](https://www.acmicpc.net/problem/5338) | 진홍 승빈 수경 | 진홍 승빈 수경   |
 
 ## [206일차](Day206)
 
