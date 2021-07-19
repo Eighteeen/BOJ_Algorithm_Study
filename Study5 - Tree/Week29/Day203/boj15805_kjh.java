@@ -32,6 +32,7 @@ class Main {
     StringBuilder sb = new StringBuilder();
     sb.append(nodeMap.size()).append('\n');
 
+    //// root의 parent를 -1로 설정하면 조건문을 실행할 필요 없어 그 방법도 고려해보면 좋을 것 같습니다.
     for (int i = 0; i < nodeMap.size(); i++) {
       Node node = nodeMap.get(i);
       Node parent = node.parent;
