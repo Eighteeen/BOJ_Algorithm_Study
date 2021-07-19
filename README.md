@@ -4,25 +4,54 @@
 <table>
   <tr>
     <td align="center">
-      <a href="https://solved.ac/deepred"><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=deepred"></a>
-      <br />
-      <a href="https://github.com/deepredk">🐮 김진홍(kjh)<br /><img src="https://avatars2.githubusercontent.com/u/33937365?s=460&v=4" width="100px;" alt=""/></a>
-      <br />
-      Java<br/>Day01 ~
+      <a href="https://github.com/deepredk">
+        <img src="https://avatars2.githubusercontent.com/u/33937365?s=460&v=4" width="100px;" alt=""/>
+        <br />
+        <sub>🐮 김진홍(kjh)</sub>
+      </a>
     </td>
     <td align="center">
-      <a href="https://solved.ac/wsb0722"><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=wsb0722"></a>
-      <br />
-      <a href="https://github.com/Winning-Bean">🐯 위승빈(wsb)<br /><img src="https://avatars1.githubusercontent.com/u/53260922?s=460&u=a545901c7f460295a11c779629201a81947f3fe4&v=4" width="100px;" alt=""/></a>
-      <br />
-      Java<br/>Day01 ~
+      <a href="https://github.com/Winning-Bean">
+        <img src="https://avatars1.githubusercontent.com/u/53260922?s=460&u=a545901c7f460295a11c779629201a81947f3fe4&v=4" width="100px;" alt=""/>
+        <br />
+        <sub>🐯 위승빈(wsb)</sub>
+      </a>
     </td>
     <td align="center">
-      <a href="https://solved.ac/hsk10271"><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=hsk10271"></a>
+      <a href="https://github.com/sukyeongh">
+        <img src="https://avatars.githubusercontent.com/u/50071076?v=4" width="100px;" alt=""/>
+        <br />
+        <sub>🐮 황수경(hsk)</sub>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://solved.ac/deepred">
+        <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=deepred">
+      </a>
       <br />
-      <a href="https://github.com/sukyeongh">🐮 황수경(hsk)<br /><img src="https://avatars.githubusercontent.com/u/50071076?v=4" width="100px;" alt=""/></a>
+      Java
+      <br/>
+      Day01 ~
+    </td>
+    <td align="center">
+      <a href="https://solved.ac/wsb0722">
+        <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=wsb0722">
+      </a>
       <br />
-      node.js<br/>Day146 ~ 
+      Java
+      <br/>
+      Day01 ~
+    </td>
+    <td align="center">
+      <a href="https://solved.ac/hsk10271">
+        <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=hsk10271">
+      </a>
+      <br />
+      node.js
+      <br/>
+      Day146 ~ 
     </td>
   </tr>
 </table>
@@ -32,20 +61,37 @@
   <table>
     <tr>
       <td align="center">
-        <a href="https://solved.ac/jjklunicc"><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=jjklunicc"></a>
+        <a href="https://github.com/jjklunicc">
+          <img src="https://avatars2.githubusercontent.com/u/55953594?s=460&v=4" width="100px;" alt=""/>
+          <br />
+          <sub>🐉 이예은(lye)</sub>
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/cousim46">
+          <img src="https://avatars3.githubusercontent.com/u/67584874?s=460&v=4" width="100px;" alt=""/>
+          <br />
+          <sub>🐯 정회운(jhw)</sub>
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <a href="https://solved.ac/jjklunicc">
+          <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=jjklunicc">
+        </a>
         <br />
-        <a href="https://github.com/jjklunicc">🐉 이예은(lye)<br /><img src="https://avatars2.githubusercontent.com/u/55953594?s=460&v=4" width="100px;" alt=""/></a>
-        <br />
-        C#<br/>Day01 ~ Day43
+        C#
+        <br/>
+        Day01 ~ Day43
       </td>
       <td align="center">
         <a href="https://solved.ac/cousim46"><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=cousim46"></a>
         <br />
-        <a href="https://github.com/cousim46">🐯 정회운(jhw)<br /><img src="https://avatars3.githubusercontent.com/u/67584874?s=460&v=4" width="100px;" alt=""/></a>
-        <br />
-        Java<br/>Day01 ~ Day16
+        Java
+        <br/>
+        Day01 ~ Day16
       </td>
-      </details>
     </tr>
   </table>
 </details>
