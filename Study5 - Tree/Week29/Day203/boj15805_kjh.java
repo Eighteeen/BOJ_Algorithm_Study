@@ -6,6 +6,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.ArrayList;
 
+////깔끔해요
 class Main {
   static Map<Integer, Node> nodeMap;
 
@@ -53,6 +54,7 @@ class Main {
   }
 }
 
+//// 활용 good
 class Node {
   public int number;
   public Node parent;
