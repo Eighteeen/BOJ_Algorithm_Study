@@ -2,9 +2,12 @@
 > 구현
 
 ## 푼 문제
-| 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
-| ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 0    | <img src="https://static.solved.ac/tier_small/4.svg" width="19px" height="19px"/>[문제이름](문제링크) | 진홍 승빈 수경 | 진홍 승빈 수경 |
+| 사이트 | 번호 | 문제                 | 
+| ------ | ---- | -------------------- | 
+| 백준   | 2523    | <img src="https://static.solved.ac/tier_small/3.svg" width="19px" height="19px"/>[별 찍기 - 13](https://www.acmicpc.net/problem/2523) | 
+| 백준   | 10988    | <img src="https://static.solved.ac/tier_small/5.svg" width="19px" height="19px"/>[팰린드롬인지 확인하기](https://www.acmicpc.net/problem/10988) | 
+| 백준   | 11721    | <img src="https://static.solved.ac/tier_small/4.svg" width="19px" height="19px"/>[열개씩 끊어 출력하기](https://www.acmicpc.net/problem/11721) | 
+| 백준   | 5565    | <img src="https://static.solved.ac/tier_small/3.svg" width="19px" height="19px"/>[영수증](https://www.acmicpc.net/problem/5565) | 
 
 
 ## [1주차](Week01)
