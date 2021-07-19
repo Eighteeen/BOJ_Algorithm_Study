@@ -6,7 +6,7 @@
 
 | 사이트 | 번호  | 문제                                                 | 답안           | 피드백 반영 답안 |
 | ------ | ----- | ---------------------------------------------------- | -------------- | ---------------- |
-| 백준   | 15681 | [트리와 쿼리](https://www.acmicpc.net/problem/15681) | [진홍](Day204/bj15681_kjh.java) 승빈 수경 | 진홍 승빈 수경   |
+| 백준   | 15681 | <img src="https://static.solved.ac/tier_small/11.svg" width="19px" height="19px"/>[트리와 쿼리](https://www.acmicpc.net/problem/15681) | [진홍](Day204/bj15681_kjh.java) 승빈 수경 | 진홍 승빈 수경   |
 
 ## [205일차](Day205)
 
@@ -14,7 +14,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안           | 피드백 반영 답안 |
 | ------ | ---- | -------------------- | -------------- | ---------------- |
-| 백준   | 17073    | [나무 위의 빗물](https://www.acmicpc.net/problem/17073) | 진홍 승빈 수경 | 진홍 승빈 수경   |
+| 백준   | 17073    | <img src="https://static.solved.ac/tier_small/11.svg" width="19px" height="19px"/>[나무 위의 빗물](https://www.acmicpc.net/problem/17073) | 진홍 승빈 수경 | 진홍 승빈 수경   |
 
 ## [206일차](Day206)
 
