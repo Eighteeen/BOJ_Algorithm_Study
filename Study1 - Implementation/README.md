@@ -19,16 +19,16 @@
 | 백준   | <img src="https://static.solved.ac/tier_small/3.svg" width="19px" height="19px"/>[별 찍기 - 17](https://www.acmicpc.net/problem/10992) | 
 | 백준   | <img src="https://static.solved.ac/tier_small/2.svg" width="19px" height="19px"/>[와글와글 숭고한](https://www.acmicpc.net/problem/17388) | 
 | 백준   | <img src="https://static.solved.ac/tier_small/4.svg" width="19px" height="19px"/>[과제 안 내신 분...?	](https://www.acmicpc.net/problem/5597) | 
-| 백준   | <img src="https://static.solved.ac/tier_small/6.svg" width="19px" height="19px"/>[제로](https://www.acmicpc.net/problem/10773) | 
-| 백준   | <img src="https://static.solved.ac/tier_small/3.svg" width="19px" height="19px"/>[문제이름](문제링크) | 
-| 백준   | <img src="https://static.solved.ac/tier_small/3.svg" width="19px" height="19px"/>[문제이름](문제링크) | 
-| 백준   | <img src="https://static.solved.ac/tier_small/3.svg" width="19px" height="19px"/>[문제이름](문제링크) | 
-| 백준   | <img src="https://static.solved.ac/tier_small/3.svg" width="19px" height="19px"/>[문제이름](문제링크) | 
-| 백준   | <img src="https://static.solved.ac/tier_small/3.svg" width="19px" height="19px"/>[문제이름](문제링크) | 
-| 백준   | <img src="https://static.solved.ac/tier_small/3.svg" width="19px" height="19px"/>[문제이름](문제링크) | 
-| 백준   | <img src="https://static.solved.ac/tier_small/3.svg" width="19px" height="19px"/>[문제이름](문제링크) | 
-| 백준   | <img src="https://static.solved.ac/tier_small/3.svg" width="19px" height="19px"/>[문제이름](문제링크) | 
-| 백준   | <img src="https://static.solved.ac/tier_small/3.svg" width="19px" height="19px"/>[문제이름](문제링크) | 
-| 백준   | <img src="https://static.solved.ac/tier_small/3.svg" width="19px" height="19px"/>[문제이름](문제링크) | 
-| 백준   | <img src="https://static.solved.ac/tier_small/3.svg" width="19px" height="19px"/>[문제이름](문제링크) | 
-| 백준   | <img src="https://static.solved.ac/tier_small/3.svg" width="19px" height="19px"/>[문제이름](문제링크) | 
+| 백준   | <img src="https://static.solved.ac/tier_small/7.svg" width="19px" height="19px"/>[제로](https://www.acmicpc.net/problem/10773) | 
+| 백준   | <img src="https://static.solved.ac/tier_small/4.svg" width="19px" height="19px"/>[카드 역배치](https://www.acmicpc.net/problem/10804) | 
+| 백준   | <img src="https://static.solved.ac/tier_small/6.svg" width="19px" height="19px"/>[덩치](https://www.acmicpc.net/problem/7568) | 
+| 백준   | <img src="https://static.solved.ac/tier_small/4.svg" width="19px" height="19px"/>[최댓값](https://www.acmicpc.net/problem/2562) | 
+| 백준   | <img src="https://static.solved.ac/tier_small/4.svg" width="19px" height="19px"/>[니모를 찾아서](https://www.acmicpc.net/problem/10173) | 
+| 백준   | <img src="https://static.solved.ac/tier_small/3.svg" width="19px" height="19px"/>[우유 축제](https://www.acmicpc.net/problem/14720) | 
+| 백준   | <img src="https://static.solved.ac/tier_small/6.svg" width="19px" height="19px"/>[도비의 난독증 테스트](https://www.acmicpc.net/problem/2204) | 
+| 백준   | <img src="https://static.solved.ac/tier_small/3.svg" width="19px" height="19px"/>[홀수](https://www.acmicpc.net/problem/2576) | 
+| 백준   | <img src="https://static.solved.ac/tier_small/4.svg" width="19px" height="19px"/>[단어의 개수](https://www.acmicpc.net/problem/1152) | 
+| 백준   | <img src="https://static.solved.ac/tier_small/6.svg" width="19px" height="19px"/>[별 찍기 - 23](https://www.acmicpc.net/problem/13015) | 
+| 백준   | <img src="https://static.solved.ac/tier_small/5.svg" width="19px" height="19px"/>[귀여운 수~ε٩(๑> ₃ <)۶з	](https://www.acmicpc.net/problem/17294) | 
+| 백준   | <img src="https://static.solved.ac/tier_small/3.svg" width="19px" height="19px"/>[네 수](https://www.acmicpc.net/problem/10824) | 
+| 백준   | <img src="https://static.solved.ac/tier_small/6.svg" width="19px" height="19px"/>[방 번호](https://www.acmicpc.net/problem/1475) | 
