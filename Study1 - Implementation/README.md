@@ -45,3 +45,18 @@
 <a href="https://www.acmicpc.net/problem/2163"><img src="https://static.solved.ac/tier_small/3.svg" width="19px" height="19px"/>초콜릿 자르기</a>
 <a href="https://www.acmicpc.net/problem/10797"><img src="https://static.solved.ac/tier_small/2.svg" width="19px" height="19px"/>10부제</a>
 <a href="https://www.acmicpc.net/problem/10250"><img src="https://static.solved.ac/tier_small/3.svg" width="19px" height="19px"/>ACM 호텔</a>
+<a href="https://www.acmicpc.net/problem/19945"><img src="https://static.solved.ac/tier_small/4.svg" width="19px" height="19px"/>새로운 언어 CC</a>
+<a href="https://www.acmicpc.net/problem/2839"><img src="https://static.solved.ac/tier_small/5.svg" width="19px" height="19px"/>설탕 배달</a>
+<a href="https://www.acmicpc.net/problem/1159"><img src="https://static.solved.ac/tier_small/1.svg" width="19px" height="19px"/>농구 경기</a>
+<a href="https://www.acmicpc.net/problem/10708"><img src="https://static.solved.ac/tier_small/1.svg" width="19px" height="19px"/>크리스마스 파티	</a>
+<a href="https://www.acmicpc.net/problem/2839"><img src="https://static.solved.ac/tier_small/1.svg" width="19px" height="19px"/>설탕 배달</a>
+<a href="https://www.acmicpc.net/problem/1018"><img src="https://static.solved.ac/tier_small/1.svg" width="19px" height="19px"/>체스판 다시 칠하기	</a>
+<a href="https://www.acmicpc.net/problem/15734"><img src="https://static.solved.ac/tier_small/1.svg" width="19px" height="19px"/>명장 남정훈</a>
+<a href="https://www.acmicpc.net/problem/14625"><img src="https://static.solved.ac/tier_small/1.svg" width="19px" height="19px"/>냉동식품</a>
+<a href="https://www.acmicpc.net/problem/10874"><img src="https://static.solved.ac/tier_small/1.svg" width="19px" height="19px"/>	이교수님의 시험</a>
+<a href="https://www.acmicpc.net/problem/1181"><img src="https://static.solved.ac/tier_small/1.svg" width="19px" height="19px"/>단어 정렬</a>
+<a href="https://www.acmicpc.net/problem/17202"><img src="https://static.solved.ac/tier_small/1.svg" width="19px" height="19px"/>핸드폰 번호 궁합</a>
+<a href="https://www.acmicpc.net/problem/1920"><img src="https://static.solved.ac/tier_small/1.svg" width="19px" height="19px"/>수 찾기</a>
+<a href="https://www.acmicpc.net/problem/1157"><img src="https://static.solved.ac/tier_small/1.svg" width="19px" height="19px"/>단어 공부</a>
+<a href="https://www.acmicpc.net/problem/12981"><img src="https://static.solved.ac/tier_small/1.svg" width="19px" height="19px"/>공 포장하기	</a>
+<a href="https://www.acmicpc.net/problem/9946"><img src="https://static.solved.ac/tier_small/1.svg" width="19px" height="19px"/>단어 퍼즐</a>
