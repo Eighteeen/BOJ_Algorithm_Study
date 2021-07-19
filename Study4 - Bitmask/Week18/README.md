@@ -6,7 +6,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 14936 | [엘리베이터 장난](https://www.acmicpc.net/problem/14936) | [진홍](Day120/boj14936_kjh.java) [승빈](Day120/boj14936_wsb.java) [수경](https://github.com/sukyeongh/Algorithm/blob/master/20210519/boj14936_hsk.js) | [진홍](Day120/boj14936_kjh_fb.java) [승빈](Day120/boj14936_wsb_fb.java) |
+| 백준   | 14936 | [엘리베이터 장난](https://www.acmicpc.net/problem/14936) | [진홍](Day120/boj14936_kjh.java) [승빈](Day120/boj14936_wsb.java) [수경](https://github.com/sukyeongh/Algorithm/blob/master/20210519/bj14936_hsk.js) | [진홍](Day120/boj14936_kjh_fb.java) [승빈](Day120/boj14936_wsb_fb.java) |
 
 ## [121일차](Day121)
 
@@ -14,7 +14,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 1182    | [부분수열의 합](https://www.acmicpc.net/problem/1182) | [진홍](Day121/boj1182_kjh.java) [승빈](Day121/boj1182_wsb.java) [수경](https://github.com/sukyeongh/Algorithm/blob/master/20210520/boj1182_hsk.js) | [진홍](Day121/boj1182_kjh_fb.java) [승빈](Day121/boj1182_wsb.java) |
+| 백준   | 1182    | [부분수열의 합](https://www.acmicpc.net/problem/1182) | [진홍](Day121/boj1182_kjh.java) [승빈](Day121/boj1182_wsb.java) [수경](https://github.com/sukyeongh/Algorithm/blob/master/20210520/bj1182_hsk.js) | [진홍](Day121/boj1182_kjh_fb.java) [승빈](Day121/boj1182_wsb.java) |
 
 ## [122일차](Day122)
 
