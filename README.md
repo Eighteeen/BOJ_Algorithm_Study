@@ -64,7 +64,7 @@
 </details>
 
 <details>
-  <summary>기본적으로 본인의 주 언어를 사용하되, 특정 필요에 따라 Python을 사용한다.</summary>
+  <summary>기본적으로 본인의 주 언어를 사용하되, 특정 필요에 따라 Python도 사용한다.</summary>
 </details>
 
 ## 📝 스터디 내용 📝
