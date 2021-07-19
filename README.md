@@ -5,14 +5,14 @@
   <tr>
     <td align="center">
       <a href="https://github.com/deepredk">
-        <img src="https://avatars2.githubusercontent.com/u/33937365?s=460&v=4" width="100px;" alt=""/>
+        <img src="https://avatars.githubusercontent.com/u/33937365?v=4" width="100px;" alt=""/>
         <br />
         <sub>🐮 김진홍(kjh)</sub>
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/Winning-Bean">
-        <img src="https://avatars1.githubusercontent.com/u/53260922?s=460&u=a545901c7f460295a11c779629201a81947f3fe4&v=4" width="100px;" alt=""/>
+        <img src="https://avatars.githubusercontent.com/u/53260922?v=4" width="100px;" alt=""/>
         <br />
         <sub>🐯 위승빈(wsb)</sub>
       </a>
@@ -62,14 +62,14 @@
     <tr>
       <td align="center">
         <a href="https://github.com/jjklunicc">
-          <img src="https://avatars2.githubusercontent.com/u/55953594?s=460&v=4" width="100px;" alt=""/>
+          <img src="https://avatars.githubusercontent.com/u/55953594?v=4" width="100px;" alt=""/>
           <br />
           <sub>🐉 이예은(lye)</sub>
         </a>
       </td>
       <td align="center">
         <a href="https://github.com/cousim46">
-          <img src="https://avatars3.githubusercontent.com/u/67584874?s=460&v=4" width="100px;" alt=""/>
+          <img src="https://avatars.githubusercontent.com/u/67584874?v=4" width="100px;" alt=""/>
           <br />
           <sub>🐯 정회운(jhw)</sub>
         </a>
@@ -86,7 +86,9 @@
         Day01 ~ Day43
       </td>
       <td align="center">
-        <a href="https://solved.ac/cousim46"><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=cousim46"></a>
+        <a href="https://solved.ac/cousim46">
+          <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=cousim46">
+        </a>
         <br />
         Java
         <br/>
