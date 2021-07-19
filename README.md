@@ -40,9 +40,9 @@
 <summary>소스파일 이름은 사이트 이름, 문제번호와 본인의 이니셜로 지정한다.</summary>
 
 * [백준](https://www.acmicpc.net) - 기본 알고리즘 문제 사이트
-  * 기본 답안 : bj0000_hgd
-  * 피드백 반영 답안 : bj0000_hgd_fb
-  * 모범 답안 : bj0000_rank
+  * 기본 답안 : boj0000_hgd
+  * 피드백 반영 답안 : boj0000_hgd_fb
+  * 모범 답안 : boj0000_rank
 
 </details>
 <details>
