@@ -1,7 +1,7 @@
 # Study 1
 > 구현
 
-## 구현
+## 구현 문제
 <a href="https://www.acmicpc.net/problem/2523"><img src="https://static.solved.ac/tier_small/3.svg" width="14px" height="14px"/>별 찍기 - 13</a>
 <a href="https://www.acmicpc.net/problem/10988"><img src="https://static.solved.ac/tier_small/5.svg" width="14px" height="14px"/>팰린드롬인지 확인하기</a>
 <a href="https://www.acmicpc.net/problem/11721"><img src="https://static.solved.ac/tier_small/4.svg" width="14px" height="14px"/>열개씩 끊어 출력하기</a>
