@@ -1,3 +1,7 @@
+<!-- tier 리스트 S -->
+[gold5]: https://user-images.githubusercontent.com/53260922/126189176-877083ba-85a7-4be8-8b43-9cd18d8d8dab.png
+<!-- tier 리스트 E -->
+
 # Week30
 
 ## [204일차](Day204)
@@ -6,7 +10,7 @@
 
 | 사이트 | 번호  | 문제                                                 | 답안           | 피드백 반영 답안 |
 | ------ | ----- | ---------------------------------------------------- | -------------- | ---------------- |
-| 백준   | 15681 | <img src="https://static.solved.ac/tier_small/11.svg" height=15 align="center"/> [트리와 쿼리](https://www.acmicpc.net/problem/15681) | [진홍](Day204/boj15681_kjh.java) 승빈 [수경](Day204/boj15681_hsk.py) | 진홍 승빈 수경   |
+| 백준   | 15681 | <sub>![gold5]</sub> [트리와 쿼리](https://www.acmicpc.net/problem/15681) | [진홍](Day204/boj15681_kjh.java) 승빈 [수경](Day204/boj15681_hsk.py) | 진홍 승빈 수경   |
 
 ## [205일차](Day205)
 
