@@ -2,7 +2,7 @@ import sys
 input = sys.stdin.readline
 sys.setrecursionlimit(10 ** 9)
 
-
+## 진짜 항상 깔끔합니다.
 def calcSubTreeNodeCnt(vertex):
     subTreeCnt[vertex] = 1
     visitedNode[vertex] = True
