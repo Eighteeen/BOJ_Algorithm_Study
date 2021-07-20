@@ -51,6 +51,8 @@
 <sub>![Silver2]</sub> [시간표 짜기](https://www.acmicpc.net/problem/14569) |
 <sub>![Silver1]</sub> [기타콘서트](https://www.acmicpc.net/problem/1497) |
 <sub>![Silver1]</sub> [Back and Forth](https://www.acmicpc.net/problem/16771) |
+<sub>![Silver3]</sub> [데스스타](https://www.acmicpc.net/problem/11811) |
+<sub>![Silver4]</sub> [트리 만들기](https://www.acmicpc.net/problem/14244) |
 
 ## 쉬어갔던 문제
 <sub>![Bronze4]</sub> [Equality](https://www.acmicpc.net/problem/13985) |
@@ -87,3 +89,8 @@
 <sub>![Bronze5]</sub> [16진수](https://www.acmicpc.net/problem/1550) |
 <sub>![Bronze4]</sub> [Covid-19](https://www.acmicpc.net/problem/20673) |
 <sub>![Bronze2]</sub> [숫자의 합](https://www.acmicpc.net/problem/11720) |
+<sub>![Bronze5]</sub> [나는 누구인가](https://www.acmicpc.net/problem/15733) |
+<sub>![Bronze4]</sub> [헛간 청약](https://www.acmicpc.net/problem/19698) |
+<sub>![Bronze5]</sub> [아스키 코드](https://www.acmicpc.net/problem/11654) |
+<sub>![Bronze5]</sub> [We love kriii](https://www.acmicpc.net/problem/10718) |
+<sub>![Bronze3]</sub> [학점계산](https://www.acmicpc.net/problem/2754) |
