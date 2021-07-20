@@ -45,3 +45,10 @@
 <sub>![Bronze4]</sub> [Equality](https://www.acmicpc.net/problem/13985) |
 <sub>![Bronze5]</sub> [엄청난 부자2](https://www.acmicpc.net/problem/1271) |
 <sub>![Bronze4]</sub> [시험 점수](https://www.acmicpc.net/problem/5596) |
+<sub>![Bronze5]</sub> [조별과제를 하려는데 조장이 사라졌다](https://www.acmicpc.net/problem/15727) |
+<sub>![Bronze4]</sub> [세수정렬](https://www.acmicpc.net/problem/2752) |
+<sub>![Bronze2]</sub> [귀찮아 (SIB)](https://www.acmicpc.net/problem/14929) |
+<sub>![Bronze5]</sub> [Plane](https://www.acmicpc.net/problem/8370) |
+<sub>![Bronze5]</sub> [??!](https://www.acmicpc.net/problem/10926) |
+<sub>![Bronze4]</sub> [삼각형 외우기](https://www.acmicpc.net/problem/10101) |
+<sub>![Bronze5]</sub> [고려대는 사랑입니다](https://www.acmicpc.net/problem/11942) |
