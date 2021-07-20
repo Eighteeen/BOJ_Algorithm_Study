@@ -43,5 +43,12 @@
 <sub>![Silver5]</sub> [별](https://www.acmicpc.net/problem/16505) |
 <sub>![Silver5]</sub> [카드 놓기](https://www.acmicpc.net/problem/5568) |
 <sub>![Silver5]</sub> [큰 수 구성하기](https://www.acmicpc.net/problem/18511) |
+<sub>![Silver1]</sub> [Z](https://www.acmicpc.net/problem/1074) |
+<sub>![Silver4]</sub> [자리배정](https://www.acmicpc.net/problem/10157) |
+<sub>![Silver2]</sub> [하노이 탑](https://www.acmicpc.net/problem/1914) |
+<sub>![Silver4]</sub> [별 찍기 - 19](https://www.acmicpc.net/problem/10994) |
+<sub>![Silver5]</sub> [순열](https://www.acmicpc.net/problem/9742) |
+<sub>![Silver5]</sub> [투자의 귀재 배주형](https://www.acmicpc.net/problem/19947) |
 
 ## 쉬어갔던 문제
+<sub>![Silver5]</sub> [최대공약수와 최소공배수](https://www.acmicpc.net/problem/2609) |
