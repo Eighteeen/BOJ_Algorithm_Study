@@ -36,7 +36,7 @@
 > 주제
 
 ## 푼 문제
-<sub>![Unrated]</sub> [문제이름](문제링크)
+<sub>![Unrated]</sub> [문제이름](문제링크) |
 
 ## 쉬어갔던 문제
-<sub>![Unrated]</sub> [문제이름](문제링크)
+<sub>![Unrated]</sub> [문제이름](문제링크) |
