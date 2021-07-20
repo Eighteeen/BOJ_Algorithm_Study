@@ -59,3 +59,9 @@
 <sub>![Silver3]</sub> [앵무새](https://www.acmicpc.net/problem/14713) |
 <sub>![Silver1]</sub> [세훈이의 선물가게](https://www.acmicpc.net/problem/17225) |
 <sub>![Silver4]</sub> [천재 수학자 성필](https://www.acmicpc.net/problem/15815) |
+<sub>![Gold5]</sub> [뱀](https://www.acmicpc.net/problem/3190) |
+<sub>![Silver2]</sub> [이상한 하노이 탑](https://www.acmicpc.net/problem/15500) |
+<sub>![Silver3]</sub> [풍선 터뜨리기](https://www.acmicpc.net/problem/2346) |
+<sub>![Silver4]</sub> [Router](https://www.acmicpc.net/problem/15828) |
+<sub>![Silver4]</sub> [좋은 단어](https://www.acmicpc.net/problem/3986) |
+<sub>![Silver3]</sub> [키로거](https://www.acmicpc.net/problem/5397) |
