@@ -98,6 +98,8 @@
   </table>
 </details>
 
+<embed src="https://bang9.github.io/static-d-day/?align=center&color=rgb%28255%2C132%2C58%29&format=day&prefix=%EC%8A%A4%ED%84%B0%EB%94%94&since=2020-12-27&suffix=%EC%A7%B8"></embed>
+
 ## 📋 스터디 방법 📋
 ### 📌 매일
 1. 한 문제를 푼 뒤 코드를 업로드하고 README에 코드 링크를 연결한다.
