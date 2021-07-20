@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Map;
 import java.util.HashMap;
 
-//// 무난 깔끔
+//// 무난 깔끔 : 22
 class Main {
   static Map<Integer, Node> nodeMap;
   public static void main(String[] args) throws Exception {
