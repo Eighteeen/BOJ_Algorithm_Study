@@ -80,3 +80,10 @@
 <sub>![Bronze3]</sub> [Baseball](https://www.acmicpc.net/problem/10214) |
 <sub>![Bronze2]</sub> [거꾸로 구구단](https://www.acmicpc.net/problem/13410) |
 <sub>![Bronze4]</sub> [공백 없는 A+B](https://www.acmicpc.net/problem/15873) |
+<sub>![Bronze3]</sub> [시그마](https://www.acmicpc.net/problem/2355) |
+<sub>![Bronze1]</sub> [2007년](https://www.acmicpc.net/problem/1924) |
+<sub>![Bronze4]</sub> [CASIO](https://www.acmicpc.net/problem/15963) |
+<sub>![Bronze2]</sub> [수 뒤집기](https://www.acmicpc.net/problem/3062) |
+<sub>![Bronze5]</sub> [16진수](https://www.acmicpc.net/problem/1550) |
+<sub>![Bronze4]</sub> [Covid-19](https://www.acmicpc.net/problem/20673) |
+<sub>![Bronze2]</sub> [숫자의 합](https://www.acmicpc.net/problem/11720) |
