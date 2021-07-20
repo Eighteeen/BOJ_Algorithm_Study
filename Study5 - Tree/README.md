@@ -50,5 +50,12 @@
 <sub>![Silver1]</sub> [나무 탈출](https://www.acmicpc.net/problem/15900) |
 <sub>![Gold5]</sub> [얼음깨기 펭귄](https://www.acmicpc.net/problem/21738) |
 <sub>![Silver5]</sub> [Numbers On a Tree](https://www.acmicpc.net/problem/11203) |
+<sub>![Silver3]</sub> [Inherited disease](https://www.acmicpc.net/problem/10897) |
+<sub>![Silver5]</sub> [Drzewko](https://www.acmicpc.net/problem/8680) |
 
 ## 쉬어갔던 문제
+<sub>![Bronze5]</sub> [스타워즈 로고](https://www.acmicpc.net/problem/9653) |
+<sub>![Bronze3]</sub> [별 찍기 - 9](https://www.acmicpc.net/problem/2446) |
+<sub>![Bronze4]</sub> [Even or Odd?](https://www.acmicpc.net/problem/18005) |
+<sub>![Bronze3]</sub> [A+B - 7](https://www.acmicpc.net/problem/11021) |
+<sub>![Bronze5]</sub> [A+B - 2](https://www.acmicpc.net/problem/2558) |
