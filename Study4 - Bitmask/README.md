@@ -40,6 +40,10 @@
 <sub>![Silver2]</sub> [부분수열의 합](https://www.acmicpc.net/problem/1182) |
 <sub>![Silver5]</sub> [복권](https://www.acmicpc.net/problem/1359) |
 <sub>![Silver2]</sub> [다항식의 나머지 연산](https://www.acmicpc.net/problem/7345) |
+<sub>![Silver5]</sub> [집합](https://www.acmicpc.net/problem/11723) |
+<sub>![Silver4]</sub> [Numbers are Easy](https://www.acmicpc.net/problem/11322) |
+<sub>![Silver1]</sub> [물병](https://www.acmicpc.net/problem/1052) |
+<sub>![Silver5]</sub> [Jumbled Communication](https://www.acmicpc.net/problem/11675) |
 
 ## 쉬어갔던 문제
 <sub>![Bronze4]</sub> [Equality](https://www.acmicpc.net/problem/13985) |
@@ -52,3 +56,6 @@
 <sub>![Bronze5]</sub> [??!](https://www.acmicpc.net/problem/10926) |
 <sub>![Bronze4]</sub> [삼각형 외우기](https://www.acmicpc.net/problem/10101) |
 <sub>![Bronze5]</sub> [고려대는 사랑입니다](https://www.acmicpc.net/problem/11942) |
+<sub>![Bronze4]</sub> [과목선택](https://www.acmicpc.net/problem/11948) 
+<sub>![Bronze5]</sub> [새로운 시작](https://www.acmicpc.net/problem/15962) |
+<sub>![Bronze4]</sub> [연세대학교](https://www.acmicpc.net/problem/15680) |
