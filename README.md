@@ -318,45 +318,23 @@
 <sub>![Silver5]</sub> [막대기](https://www.acmicpc.net/problem/1094) |
 
 ### [비트마스킹](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study4%20-%20Bitmask)
-<sub>![Bronze4]</sub> [Equality](https://www.acmicpc.net/problem/13985) |
-<sub>![Bronze5]</sub> [엄청난 부자2](https://www.acmicpc.net/problem/1271) |
-<sub>![Bronze4]</sub> [시험 점수](https://www.acmicpc.net/problem/5596) |
-<sub>![Bronze5]</sub> [조별과제를 하려는데 조장이 사라졌다](https://www.acmicpc.net/problem/15727) |
-<sub>![Bronze4]</sub> [세수정렬](https://www.acmicpc.net/problem/2752) |
-<sub>![Bronze2]</sub> [귀찮아 (SIB)](https://www.acmicpc.net/problem/14929) |
-<sub>![Bronze5]</sub> [Plane](https://www.acmicpc.net/problem/8370) |
-<sub>![Bronze5]</sub> [??!](https://www.acmicpc.net/problem/10926) |
-<sub>![Bronze4]</sub> [삼각형 외우기](https://www.acmicpc.net/problem/10101) |
-<sub>![Bronze5]</sub> [고려대는 사랑입니다](https://www.acmicpc.net/problem/11942) |
-<sub>![Bronze4]</sub> [과목선택](https://www.acmicpc.net/problem/11948) 
-<sub>![Bronze5]</sub> [새로운 시작](https://www.acmicpc.net/problem/15962) |
-<sub>![Bronze4]</sub> [연세대학교](https://www.acmicpc.net/problem/15680) |
-<sub>![Bronze3]</sub> [네 번째 점](https://www.acmicpc.net/problem/3009) |
-<sub>![Bronze4]</sub> [Do Not Touch Anything](https://www.acmicpc.net/problem/13136) |
-<sub>![Bronze4]</sub> [사분면 고르기](https://www.acmicpc.net/problem/14681) |
-<sub>![Bronze1]</sub> [🐜 기적의 매매법 🐜](https://www.acmicpc.net/problem/20546) |
-<sub>![Bronze4]</sub> [이칙연산](https://www.acmicpc.net/problem/15726) |
-<sub>![Bronze4]</sub> [손익분기점](https://www.acmicpc.net/problem/1712) |
-<sub>![Bronze4]</sub> [Darius님 한타 안 함?](https://www.acmicpc.net/problem/20499) |
-<sub>![Bronze4]</sub> [방학 숙제](https://www.acmicpc.net/problem/5532) |
-<sub>![Bronze4]</sub> [특별한 날](https://www.acmicpc.net/problem/10768) |
-<sub>![Bronze3]</sub> [지능형 기차](https://www.acmicpc.net/problem/2455) |
-<sub>![Bronze3]</sub> [짝수를 찾아라](https://www.acmicpc.net/problem/3058) |
-<sub>![Bronze3]</sub> [Baseball](https://www.acmicpc.net/problem/10214) |
-<sub>![Bronze2]</sub> [거꾸로 구구단](https://www.acmicpc.net/problem/13410) |
-<sub>![Bronze4]</sub> [공백 없는 A+B](https://www.acmicpc.net/problem/15873) |
-<sub>![Bronze3]</sub> [시그마](https://www.acmicpc.net/problem/2355) |
-<sub>![Bronze1]</sub> [2007년](https://www.acmicpc.net/problem/1924) |
-<sub>![Bronze4]</sub> [CASIO](https://www.acmicpc.net/problem/15963) |
-<sub>![Bronze2]</sub> [수 뒤집기](https://www.acmicpc.net/problem/3062) |
-<sub>![Bronze5]</sub> [16진수](https://www.acmicpc.net/problem/1550) |
-<sub>![Bronze4]</sub> [Covid-19](https://www.acmicpc.net/problem/20673) |
-<sub>![Bronze2]</sub> [숫자의 합](https://www.acmicpc.net/problem/11720) |
-<sub>![Bronze5]</sub> [나는 누구인가](https://www.acmicpc.net/problem/15733) |
-<sub>![Bronze4]</sub> [헛간 청약](https://www.acmicpc.net/problem/19698) |
-<sub>![Bronze5]</sub> [아스키 코드](https://www.acmicpc.net/problem/11654) |
-<sub>![Bronze5]</sub> [We love kriii](https://www.acmicpc.net/problem/10718) |
-<sub>![Bronze3]</sub> [학점계산](https://www.acmicpc.net/problem/2754) |
+<sub>![Silver4]</sub> [엘리베이터 장난](https://www.acmicpc.net/problem/14936) |
+<sub>![Silver2]</sub> [부분수열의 합](https://www.acmicpc.net/problem/1182) |
+<sub>![Silver5]</sub> [복권](https://www.acmicpc.net/problem/1359) |
+<sub>![Silver2]</sub> [다항식의 나머지 연산](https://www.acmicpc.net/problem/7345) |
+<sub>![Silver5]</sub> [집합](https://www.acmicpc.net/problem/11723) |
+<sub>![Silver4]</sub> [Numbers are Easy](https://www.acmicpc.net/problem/11322) |
+<sub>![Silver1]</sub> [물병](https://www.acmicpc.net/problem/1052) |
+<sub>![Silver5]</sub> [Jumbled Communication](https://www.acmicpc.net/problem/11675) |
+<sub>![Silver2]</sub> [기차가 어둠을 헤치고 은하수를](https://www.acmicpc.net/problem/15787) |
+<sub>![Silver3]</sub> [현수의 열기구 교실](https://www.acmicpc.net/problem/13915) |
+<sub>![Silver2]</sub> [소셜 광고](https://www.acmicpc.net/problem/9335) |
+<sub>![Silver4]</sub> [Color Change of Go Game Pieces](https://www.acmicpc.net/problem/9819) |
+<sub>![Silver2]</sub> [시간표 짜기](https://www.acmicpc.net/problem/14569) |
+<sub>![Silver1]</sub> [기타콘서트](https://www.acmicpc.net/problem/1497) |
+<sub>![Silver1]</sub> [Back and Forth](https://www.acmicpc.net/problem/16771) |
+<sub>![Silver3]</sub> [데스스타](https://www.acmicpc.net/problem/11811) |
+<sub>![Silver4]</sub> [트리 만들기](https://www.acmicpc.net/problem/14244) |
 
 ### [트리](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study5%20-%20Tree)
 <sub>![Silver4]</sub> [무한이진트리](https://www.acmicpc.net/problem/2078) |
