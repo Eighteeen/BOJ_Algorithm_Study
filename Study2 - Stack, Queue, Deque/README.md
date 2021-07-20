@@ -44,3 +44,11 @@
 <sub>![Bronze2]</sub> [막대기](https://www.acmicpc.net/problem/17608) |
 <sub>![Silver5]</sub> [요세푸스 문제](https://www.acmicpc.net/problem/1158) |
 <sub>![Silver4]</sub> [과제는 끝나지 않아!](https://www.acmicpc.net/problem/17952) |
+<sub>![Silver3]</sub> [스택 수열](https://www.acmicpc.net/problem/1874) |
+<sub>![Bronze1]</sub> [단어순서 뒤집기](https://www.acmicpc.net/problem/12605) |
+<sub>![Silver4]</sub> [반전 요세푸스](https://www.acmicpc.net/problem/20301) |
+<sub>![Gold5]</sub> [AC](https://www.acmicpc.net/problem/5430) |
+<sub>![Silver3]</sub> [후위 표기식2](https://www.acmicpc.net/problem/1935) |
+<sub>![Silver3]</sub> [카드 놓기](https://www.acmicpc.net/problem/18115) |
+<sub>![Silver3]</sub> [프린터 큐](https://www.acmicpc.net/problem/1966) |
+<sub>![Silver4]</sub> [회전하는 큐](https://www.acmicpc.net/problem/1021) |
