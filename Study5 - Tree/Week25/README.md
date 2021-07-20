@@ -32,41 +32,25 @@
 [Ruby1]: https://user-images.githubusercontent.com/33937365/126247660-8e0d236d-eaef-42b3-8983-28f9e6c94ff9.png
 <!-- tier 리스트 E -->
 
-# Study5
-- 발표: [수경](reference/hsk.pdf)
-- 정리: [진홍](reference/kjh.pdf) [승빈](reference/wsb.pdf)
+# Week25
 
-## 푼 문제
-<sub>![Silver4]</sub> [무한이진트리](https://www.acmicpc.net/problem/2078) |
-<sub>![Silver1]</sub> [완전 이진 트리](https://www.acmicpc.net/problem/9934) |
-<sub>![Silver1]</sub> [트리 순회](https://www.acmicpc.net/problem/1991) |
-<sub>![Silver4]</sub> [상근이의 여행](https://www.acmicpc.net/problem/9372) |
-<sub>![Silver2]</sub> [트리의 부모 찾기](https://www.acmicpc.net/problem/11725) |
-<sub>![Gold5]</sub> [트리](https://www.acmicpc.net/problem/1068) |
-<sub>![Silver3]</sub> [30번](https://www.acmicpc.net/problem/13116) |
-<sub>![Silver3]</sub> [너구리 구구](https://www.acmicpc.net/problem/18126) |
-<sub>![Silver1]</sub> [이진 검색 트리](https://www.acmicpc.net/problem/5639) |
-<sub>![Silver2]</sub> [부동산 다툼](https://www.acmicpc.net/problem/20364) |
-<sub>![Silver3]</sub> [Grass Planting](https://www.acmicpc.net/problem/17024) |
-<sub>![Silver1]</sub> [나무 탈출](https://www.acmicpc.net/problem/15900) |
-<sub>![Gold5]</sub> [얼음깨기 펭귄](https://www.acmicpc.net/problem/21738) |
-<sub>![Silver5]</sub> [Numbers On a Tree](https://www.acmicpc.net/problem/11203) |
-<sub>![Silver3]</sub> [Inherited disease](https://www.acmicpc.net/problem/10897) |
-<sub>![Silver5]</sub> [Drzewko](https://www.acmicpc.net/problem/8680) |
-<sub>![Gold5]</sub> [트리인가?](https://www.acmicpc.net/problem/6416) |
-<sub>![Gold5]</sub> [단절점과 단절선](https://www.acmicpc.net/problem/14675) |
-<sub>![Silver3]</sub> [Binary tree](https://www.acmicpc.net/problem/13237) |
-<sub>![Gold4]</sub> [트리의 지름](https://www.acmicpc.net/problem/1967) |
-<sub>![Gold3]</sub> [ㄷㄷㄷㅈ](https://www.acmicpc.net/problem/19535) |
-<sub>![Silver1]</sub> [트리 나라 관광 가이드](https://www.acmicpc.net/problem/15805) |
-<sub>![Gold5]</sub> [트리와 쿼리](https://www.acmicpc.net/problem/15681) |
-<sub>![Gold4]</sub> [가장 가까운 공통 조상](https://www.acmicpc.net/problem/3584) |
+## [174일차](Day174) : Pairing Day
 
-## 쉬어갔던 문제
-<sub>![Bronze5]</sub> [스타워즈 로고](https://www.acmicpc.net/problem/9653) |
-<sub>![Bronze3]</sub> [별 찍기 - 9](https://www.acmicpc.net/problem/2446) |
-<sub>![Bronze4]</sub> [Even or Odd?](https://www.acmicpc.net/problem/18005) |
-<sub>![Bronze3]</sub> [A+B - 7](https://www.acmicpc.net/problem/11021) |
-<sub>![Bronze5]</sub> [A+B - 2](https://www.acmicpc.net/problem/2558) |
-<sub>![Bronze4]</sub> [Dog Treats](https://www.acmicpc.net/problem/19602) |
-<sub>![Bronze5]</sub> [마이크로소프트 로고](https://www.acmicpc.net/problem/5338) |
+> [비트마스킹 활용](https://www.acmicpc.net/group/workbook/view/9797/34438)
+
+| 사이트 | 번호  | 문제                                              | 답안                                          | Pair Programming                       |
+| ------ | ----- | ------------------------------------------------- | --------------------------------------------- | -------------------------------------- |
+| 백준   | 11811 | <sub>![Silver3]</sub> [데스스타](https://www.acmicpc.net/problem/11811) | [진홍승빈수경](https://github.com/Eighteeen/Algorithm_Study/blob/main/Study4%20-%20Bitmask/Week25/Day174/boj11811_kjhwsbhsk.java) | Driver 🚗 승빈 & Navigator 🧭 진홍수경 |
+
+> 트리
+
+- 발표자료 [수경](../reference/hsk.pdf)
+- 정리자료 [진홍](../reference/kjh.pdf) [승빈](../reference/wsb.pdf)
+
+## [175일차](Day175)
+
+> [트리 기초](https://www.acmicpc.net/group/workbook/view/9797/34448)
+
+| 사이트 | 번호  | 문제                                                 | 답안                                                                                          | 피드백 반영 답안                                                      |
+| ------ | ----- | ---------------------------------------------------- | --------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| 백준   | 14244 | <sub>![Silver4]</sub> [트리 만들기](https://www.acmicpc.net/problem/14244) | [진홍](Day175/boj14244_kjh.java) [승빈](Day175/boj14244_wsb.java) [수경](Day175/boj14244_hsk.js) | [진홍](Day175/boj14244_kjh.java) [승빈](Day175/boj14244_wsb.java) [수경](Day175/boj14244_hsk_fb.js) |

@@ -202,6 +202,6 @@
 > 정리: [승빈](https://github.com/Eighteeen/Algorithm_Study/tree/main/Study4%20-%20Bitmask/reference/wsb.pdf)
 
 ### [트리](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study5%20-%20Tree)
-> 발표: [수경](https://github.com/Eighteeen/Algorithm_Study/blob/main/Study4%20-%20Bitmask/Week25/reference/hsk.pdf)
+> 발표: [수경](https://github.com/Eighteeen/Algorithm_Study/tree/main/Study5%20-%20Tree/reference/hsk.pdf)
 
-> 정리: [진홍](https://github.com/Eighteeen/Algorithm_Study/blob/main/Study4%20-%20Bitmask/Week25/reference/kjh.pdf) [승빈](https://github.com/Eighteeen/Algorithm_Study/blob/main/Study4%20-%20Bitmask/Week25/reference/wsb.pdf)
+> 정리: [진홍](https://github.com/Eighteeen/Algorithm_Study/tree/main/Study5%20-%20Tree/reference/kjh.pdf) [승빈](https://github.com/Eighteeen/Algorithm_Study/tree/main/Study5%20-%20Tree/reference/wsb.pdf)
