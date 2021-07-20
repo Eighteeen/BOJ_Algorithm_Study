@@ -66,3 +66,10 @@
 <sub>![Bronze4]</sub> [과목선택](https://www.acmicpc.net/problem/11948) 
 <sub>![Bronze5]</sub> [새로운 시작](https://www.acmicpc.net/problem/15962) |
 <sub>![Bronze4]</sub> [연세대학교](https://www.acmicpc.net/problem/15680) |
+<sub>![Bronze3]</sub> [네 번째 점](https://www.acmicpc.net/problem/3009) |
+<sub>![Bronze4]</sub> [Do Not Touch Anything](https://www.acmicpc.net/problem/13136) |
+<sub>![Bronze4]</sub> [사분면 고르기](https://www.acmicpc.net/problem/14681) |
+<sub>![Bronze1]</sub> [🐜 기적의 매매법 🐜](https://www.acmicpc.net/problem/20546) |
+<sub>![Bronze4]</sub> [이칙연산](https://www.acmicpc.net/problem/15726) |
+<sub>![Bronze4]</sub> [손익분기점](https://www.acmicpc.net/problem/1712) |
+<sub>![Bronze4]</sub> [Darius님 한타 안 함?](https://www.acmicpc.net/problem/20499) |
