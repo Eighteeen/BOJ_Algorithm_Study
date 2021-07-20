@@ -85,11 +85,3 @@
 > 비트마스크
 * 발표자료 [진홍](reference/kjh.pdf)
 * 정리자료 [승빈](reference/wsb.pdf)
-
-## [119일차](Day119)
-
-> [비트마스킹 익히기](https://www.acmicpc.net/group/workbook/view/9797/32982)
-
-| 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
-| ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 1094    | <sub>![Silver5]</sub> [막대기](https://www.acmicpc.net/problem/1094) | [진홍](Day119/boj1094_kjh.java) [승빈](Day119/boj1094_wsb.java) | [진홍](Day119/boj1094_kjh.java) [승빈](Day119/boj1094_wsb.java) |
