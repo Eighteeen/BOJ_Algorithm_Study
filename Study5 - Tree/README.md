@@ -61,7 +61,6 @@
 <sub>![Gold3]</sub> [ㄷㄷㄷㅈ](https://www.acmicpc.net/problem/19535) |
 <sub>![Silver1]</sub> [트리 나라 관광 가이드](https://www.acmicpc.net/problem/15805) |
 <sub>![Gold5]</sub> [트리와 쿼리](https://www.acmicpc.net/problem/15681) |
-<sub>![Gold4]</sub> [가장 가까운 공통 조상](https://www.acmicpc.net/problem/3584) |
 
 ## 쉬어갔던 문제
 <sub>![Bronze5]</sub> [스타워즈 로고](https://www.acmicpc.net/problem/9653) |
@@ -71,3 +70,4 @@
 <sub>![Bronze5]</sub> [A+B - 2](https://www.acmicpc.net/problem/2558) |
 <sub>![Bronze4]</sub> [Dog Treats](https://www.acmicpc.net/problem/19602) |
 <sub>![Bronze5]</sub> [마이크로소프트 로고](https://www.acmicpc.net/problem/5338) |
+<sub>![Bronze5]</sub> [합](https://www.acmicpc.net/problem/8393) |
