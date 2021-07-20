@@ -52,3 +52,10 @@
 <sub>![Silver3]</sub> [카드 놓기](https://www.acmicpc.net/problem/18115) |
 <sub>![Silver3]</sub> [프린터 큐](https://www.acmicpc.net/problem/1966) |
 <sub>![Silver4]</sub> [회전하는 큐](https://www.acmicpc.net/problem/1021) |
+<sub>![Silver1]</sub> [안정적인 문자열](https://www.acmicpc.net/problem/4889) |
+<sub>![Silver1]</sub> [도어맨](https://www.acmicpc.net/problem/5002) |
+<sub>![Gold4]</sub> [오큰수](https://www.acmicpc.net/problem/17298) |
+<sub>![Silver4]</sub> [도키도키 간식드리미](https://www.acmicpc.net/problem/12789) |
+<sub>![Silver3]</sub> [앵무새](https://www.acmicpc.net/problem/14713) |
+<sub>![Silver1]</sub> [세훈이의 선물가게](https://www.acmicpc.net/problem/17225) |
+<sub>![Silver4]</sub> [천재 수학자 성필](https://www.acmicpc.net/problem/15815) |
