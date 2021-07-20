@@ -43,5 +43,12 @@
 <sub>![Silver2]</sub> [트리의 부모 찾기](https://www.acmicpc.net/problem/11725) |
 <sub>![Gold5]</sub> [트리](https://www.acmicpc.net/problem/1068) |
 <sub>![Silver3]</sub> [30번](https://www.acmicpc.net/problem/13116) |
+<sub>![Silver3]</sub> [너구리 구구](https://www.acmicpc.net/problem/18126) |
+<sub>![Silver1]</sub> [이진 검색 트리](https://www.acmicpc.net/problem/5639) |
+<sub>![Silver2]</sub> [부동산 다툼](https://www.acmicpc.net/problem/20364) |
+<sub>![Silver3]</sub> [Grass Planting](https://www.acmicpc.net/problem/17024) |
+<sub>![Silver1]</sub> [나무 탈출](https://www.acmicpc.net/problem/15900) |
+<sub>![Gold5]</sub> [얼음깨기 펭귄](https://www.acmicpc.net/problem/21738) |
+<sub>![Silver5]</sub> [Numbers On a Tree](https://www.acmicpc.net/problem/11203) |
 
 ## 쉬어갔던 문제
