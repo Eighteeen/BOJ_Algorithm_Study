@@ -52,7 +52,6 @@
 <sub>![Silver5]</sub> [Numbers On a Tree](https://www.acmicpc.net/problem/11203) |
 <sub>![Silver3]</sub> [Inherited disease](https://www.acmicpc.net/problem/10897) |
 <sub>![Silver5]</sub> [Drzewko](https://www.acmicpc.net/problem/8680) |
-<sub>![Bronze4]</sub> [Dog Treats](https://www.acmicpc.net/problem/19602) |
 <sub>![Gold5]</sub> [트리인가?](https://www.acmicpc.net/problem/6416) |
 <sub>![Gold5]</sub> [단절점과 단절선](https://www.acmicpc.net/problem/14675) |
 <sub>![Silver3]</sub> [Binary tree](https://www.acmicpc.net/problem/13237) |
@@ -68,4 +67,5 @@
 <sub>![Bronze4]</sub> [Even or Odd?](https://www.acmicpc.net/problem/18005) |
 <sub>![Bronze3]</sub> [A+B - 7](https://www.acmicpc.net/problem/11021) |
 <sub>![Bronze5]</sub> [A+B - 2](https://www.acmicpc.net/problem/2558) |
+<sub>![Bronze4]</sub> [Dog Treats](https://www.acmicpc.net/problem/19602) |
 <sub>![Bronze5]</sub> [마이크로소프트 로고](https://www.acmicpc.net/problem/5338) |
