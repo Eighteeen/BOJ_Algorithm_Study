@@ -93,3 +93,10 @@
 <sub>![Bronze3]</sub> [피보나치 수](https://www.acmicpc.net/problem/2747) |
 <sub>![Bronze2]</sub> [분수찾기](https://www.acmicpc.net/problem/1193) |
 <sub>![Bronze3]</sub> [분산처리](https://www.acmicpc.net/problem/1009) |
+<sub>![Bronze5]</sub> [나는 행복합니다~](https://www.acmicpc.net/problem/14652) |
+<sub>![Bronze5]</sub> [큰 수 A+B](https://www.acmicpc.net/problem/10757) |
+<sub>![Bronze5]</sub> [R2](https://www.acmicpc.net/problem/3046) |
+<sub>![Bronze5]</sub> [1998년생인 내가 태국에서는 2541년생?!](https://www.acmicpc.net/problem/18108) |
+<sub>![Bronze4]</sub> [팀 나누기](https://www.acmicpc.net/problem/13866) |
+<sub>![Bronze4]</sub> [뉴비의 기준은 뭘까?](https://www.acmicpc.net/problem/19944) |
+<sub>![Bronze5]</sub> [꼬마 정민](https://www.acmicpc.net/problem/11382) |
