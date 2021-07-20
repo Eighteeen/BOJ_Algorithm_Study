@@ -60,6 +60,12 @@
 <sub>![Silver3]</sub> [쿼드 트리](https://www.acmicpc.net/problem/6580) |
 <sub>![Gold4]</sub> [별 찍기 - 18](https://www.acmicpc.net/problem/10993) |
 <sub>![Silver2]</sub> [로또](https://www.acmicpc.net/problem/6603) |
+<sub>![Gold5]</sub> [오영식의 보물](https://www.acmicpc.net/problem/1631) |
+<sub>![Silver2]</sub> [A와 B 2](https://www.acmicpc.net/problem/12919) |
+<sub>![Silver2]</sub> [종이의 개수](https://www.acmicpc.net/problem/1780) |
+<sub>![Silver2]</sub> [괄호의 값](https://www.acmicpc.net/problem/2504) |
+<sub>![Silver2]</sub> [신나는 함수 실행](https://www.acmicpc.net/problem/9184) |
+<sub>![Silver1]</sub> [Moo 게임](https://www.acmicpc.net/problem/5904) |
 
 ## 쉬어갔던 문제
 <sub>![Silver5]</sub> [최대공약수와 최소공배수](https://www.acmicpc.net/problem/2609) |
