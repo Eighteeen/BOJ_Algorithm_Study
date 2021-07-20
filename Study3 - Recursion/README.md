@@ -33,7 +33,9 @@
 <!-- tier 리스트 E -->
 
 # Study3
-> [재귀](Week08/reference/wsb.pdf) - [🐯 위승빈(wsb)](https://github.com/Winning-Bean)
+> 발표: [승빈](reference/wsb.pdf)
+
+> 정리: [진홍](reference/kjh.pdf)
 
 ## 푼 문제
 <sub>![Gold5]</sub> [옥상 정원 꾸미기](https://www.acmicpc.net/problem/6198) |
