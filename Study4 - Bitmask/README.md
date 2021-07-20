@@ -73,3 +73,10 @@
 <sub>![Bronze4]</sub> [이칙연산](https://www.acmicpc.net/problem/15726) |
 <sub>![Bronze4]</sub> [손익분기점](https://www.acmicpc.net/problem/1712) |
 <sub>![Bronze4]</sub> [Darius님 한타 안 함?](https://www.acmicpc.net/problem/20499) |
+<sub>![Bronze4]</sub> [방학 숙제](https://www.acmicpc.net/problem/5532) |
+<sub>![Bronze4]</sub> [특별한 날](https://www.acmicpc.net/problem/10768) |
+<sub>![Bronze3]</sub> [지능형 기차](https://www.acmicpc.net/problem/2455) |
+<sub>![Bronze3]</sub> [짝수를 찾아라](https://www.acmicpc.net/problem/3058) |
+<sub>![Bronze3]</sub> [Baseball](https://www.acmicpc.net/problem/10214) |
+<sub>![Bronze2]</sub> [거꾸로 구구단](https://www.acmicpc.net/problem/13410) |
+<sub>![Bronze4]</sub> [공백 없는 A+B](https://www.acmicpc.net/problem/15873) |
