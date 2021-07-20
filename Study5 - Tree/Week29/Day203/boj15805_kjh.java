@@ -33,6 +33,7 @@ class Main {
     sb.append(nodeMap.size()).append('\n');
 
     //// root의 parent를 -1로 설정하면 조건문을 실행할 필요 없어 그 방법도 고려해보면 좋을 것 같습니다.
+    //// => 그러기 위해서 가상의 노드를 만드는 점이 좀 그래요. 이대로 유지할게요!
     for (int i = 0; i < nodeMap.size(); i++) {
       Node node = nodeMap.get(i);
       Node parent = node.parent;
