@@ -76,6 +76,9 @@
 <sub>![Silver4]</sub> [Skewed Sorting](https://www.acmicpc.net/problem/5985) |
 <sub>![Gold2]</sub> [Secret Code](https://www.acmicpc.net/problem/9994) |
 <sub>![Gold2]</sub> [폰트](https://www.acmicpc.net/problem/9997) |
+<sub>![Silver4]</sub> [The Big Dance](https://www.acmicpc.net/problem/6012) |
+<sub>![Gold1]</sub> [샤워실 바닥 깔기 (Large)](https://www.acmicpc.net/problem/14601) |
+<sub>![Silver5]</sub> [막대기](https://www.acmicpc.net/problem/1094) |
 
 ## 쉬어갔던 문제
 <sub>![Silver5]</sub> [최대공약수와 최소공배수](https://www.acmicpc.net/problem/2609) |
@@ -100,3 +103,7 @@
 <sub>![Bronze4]</sub> [팀 나누기](https://www.acmicpc.net/problem/13866) |
 <sub>![Bronze4]</sub> [뉴비의 기준은 뭘까?](https://www.acmicpc.net/problem/19944) |
 <sub>![Bronze5]</sub> [꼬마 정민](https://www.acmicpc.net/problem/11382) |
+<sub>![Bronze3]</sub> [부재중 전화](https://www.acmicpc.net/problem/1333) |
+<sub>![Bronze5]</sub> [이상한 기호](https://www.acmicpc.net/problem/15964) |
+<sub>![Bronze3]</sub> [택시 기하학](https://www.acmicpc.net/problem/3053) |
+<sub>![Bronze5]</sub> [제리와 톰](https://www.acmicpc.net/problem/16430) |
