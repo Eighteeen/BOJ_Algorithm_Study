@@ -51,6 +51,10 @@
 <sub>![Silver5]</sub> [투자의 귀재 배주형](https://www.acmicpc.net/problem/19947) |
 <sub>![Silver3]</sub> [쿼드 트리](https://www.acmicpc.net/problem/6576) |
 <sub>![Silver2]</sub> [별 찍기 - 22](https://www.acmicpc.net/problem/10997) |
+<sub>![Silver4]</sub> [친구 팰린드롬](https://www.acmicpc.net/problem/15270) |
+<sub>![Silver3]</sub> [The Sierpinski Fractal](https://www.acmicpc.net/problem/6555) |
+<sub>![Silver3]</sub> [색종이 만들기](https://www.acmicpc.net/problem/2630) |
+<sub>![Gold4]</sub> [별 찍기 - 11](https://www.acmicpc.net/problem/2448) |
 
 ## 쉬어갔던 문제
 <sub>![Silver5]</sub> [최대공약수와 최소공배수](https://www.acmicpc.net/problem/2609) |
@@ -59,3 +63,6 @@
 <sub>![Silver4]</sub> [카드2](https://www.acmicpc.net/problem/2164) |
 <sub>![Silver5]</sub> [좌표 정렬하기 2](https://www.acmicpc.net/problem/11651) |
 <sub>![Silver4]</sub> [숫자 카드 2](https://www.acmicpc.net/problem/10816) |
+<sub>![Silver4]</sub> [듣보잡](https://www.acmicpc.net/problem/1764) |
+<sub>![Silver5]</sub> [영화감독 숌](https://www.acmicpc.net/problem/1436) |
+<sub>![Bronze2]</sub> [분해합](https://www.acmicpc.net/problem/2231) |
