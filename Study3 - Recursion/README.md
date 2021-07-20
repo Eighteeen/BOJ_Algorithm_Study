@@ -49,6 +49,13 @@
 <sub>![Silver4]</sub> [별 찍기 - 19](https://www.acmicpc.net/problem/10994) |
 <sub>![Silver5]</sub> [순열](https://www.acmicpc.net/problem/9742) |
 <sub>![Silver5]</sub> [투자의 귀재 배주형](https://www.acmicpc.net/problem/19947) |
+<sub>![Silver3]</sub> [쿼드 트리](https://www.acmicpc.net/problem/6576) |
+<sub>![Silver2]</sub> [별 찍기 - 22](https://www.acmicpc.net/problem/10997) |
 
 ## 쉬어갔던 문제
 <sub>![Silver5]</sub> [최대공약수와 최소공배수](https://www.acmicpc.net/problem/2609) |
+<sub>![Silver4]</sub> [소수 찾기](https://www.acmicpc.net/problem/1978) |
+<sub>![Silver4]</sub> [통계학](https://www.acmicpc.net/problem/2108) |
+<sub>![Silver4]</sub> [카드2](https://www.acmicpc.net/problem/2164) |
+<sub>![Silver5]</sub> [좌표 정렬하기 2](https://www.acmicpc.net/problem/11651) |
+<sub>![Silver4]</sub> [숫자 카드 2](https://www.acmicpc.net/problem/10816) |
