@@ -6,7 +6,7 @@
 
 | 사이트 | 번호 | 문제                                           | 답안                                   | 피드백 반영 답안 |
 | ------ | ---- | ---------------------------------------------- | -------------------------------------- | ---------------- |
-| 백준   | 2355 | [시그마](https://www.acmicpc.net/problem/2355) | [진홍](Day162/boj2355_kjh.java) [승빈](Day162/boj2355_wsb.java) [수경](Day162/boj2355_hsk.js) | [진홍](Day162/boj2355_kjh.java) [승빈](Day162/boj2355_wsb.java) [수경](Day162/boj2355_hsk.js)   |
+| 백준   | 2355 | <sub>![Unrated]</sub> [시그마](https://www.acmicpc.net/problem/2355) | [진홍](Day162/boj2355_kjh.java) [승빈](Day162/boj2355_wsb.java) [수경](Day162/boj2355_hsk.js) | [진홍](Day162/boj2355_kjh.java) [승빈](Day162/boj2355_wsb.java) [수경](Day162/boj2355_hsk.js)   |
 
 ## [163일차](Day163)
 
@@ -14,7 +14,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안           | 피드백 반영 답안 |
 | ------ | ---- | -------------------- | -------------- | ---------------- |
-| 백준   | 1924    | [2007년](https://www.acmicpc.net/problem/1924) | [진홍](Day163/boj1924_kjh.java) [승빈](Day163/boj1924_wsb.java) [수경](Day163/boj1924_hsk.js) | [진홍](Day163/boj1924_kjh.java) [승빈](Day163/boj1924_wsb.java) [수경](Day163/boj1924_hsk.js)   |
+| 백준   | 1924    | <sub>![Unrated]</sub> [2007년](https://www.acmicpc.net/problem/1924) | [진홍](Day163/boj1924_kjh.java) [승빈](Day163/boj1924_wsb.java) [수경](Day163/boj1924_hsk.js) | [진홍](Day163/boj1924_kjh.java) [승빈](Day163/boj1924_wsb.java) [수경](Day163/boj1924_hsk.js)   |
 
 ## [164일차](Day164)
 
@@ -22,7 +22,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안           | 피드백 반영 답안 |
 | ------ | ---- | -------------------- | -------------- | ---------------- |
-| 백준   | 15963 | [CASIO](https://www.acmicpc.net/problem/15963) | [진홍](Day164/boj15963_kjh.java) [승빈](Day164/boj15963_wsb.java) [수경](Day164/boj15963_hsk.js) | [진홍](Day164/boj15963_kjh.java) [승빈](Day164/boj15963_wsb.java) [수경](Day164/boj15963_hsk.js)   |
+| 백준   | 15963 | <sub>![Unrated]</sub> [CASIO](https://www.acmicpc.net/problem/15963) | [진홍](Day164/boj15963_kjh.java) [승빈](Day164/boj15963_wsb.java) [수경](Day164/boj15963_hsk.js) | [진홍](Day164/boj15963_kjh.java) [승빈](Day164/boj15963_wsb.java) [수경](Day164/boj15963_hsk.js)   |
 
 ## [165일차](Day165)
 
@@ -30,7 +30,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안           | 피드백 반영 답안 |
 | ------ | ---- | -------------------- | -------------- | ---------------- |
-| 백준   | 3062 | [수 뒤집기](https://www.acmicpc.net/problem/3062) | [진홍](Day165/boj3062_kjh.java) [승빈](Day165/boj3062_wsb.java) [수경](Day165/boj3062_hsk.js) | [진홍](Day165/boj3062_kjh.java) [승빈](Day165/boj3062_wsb.java) [수경](Day165/boj3062_hsk.js)   |
+| 백준   | 3062 | <sub>![Unrated]</sub> [수 뒤집기](https://www.acmicpc.net/problem/3062) | [진홍](Day165/boj3062_kjh.java) [승빈](Day165/boj3062_wsb.java) [수경](Day165/boj3062_hsk.js) | [진홍](Day165/boj3062_kjh.java) [승빈](Day165/boj3062_wsb.java) [수경](Day165/boj3062_hsk.js)   |
 
 ## [166일차](Day166)
 
@@ -38,7 +38,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안           | 피드백 반영 답안 |
 | ------ | ---- | -------------------- | -------------- | ---------------- |
-| 백준   | 1550    | [16진수](https://www.acmicpc.net/problem/1550) | [진홍](Day166/boj1550_kjh.java) [승빈](Day166/boj1550_wsb.java) [수경](Day166/boj1550_hsk.js) | [진홍](Day166/boj1550_kjh.java) [승빈](Day166/boj1550_wsb.java) [수경](Day166/boj1550_hsk.js)   |
+| 백준   | 1550    | <sub>![Unrated]</sub> [16진수](https://www.acmicpc.net/problem/1550) | [진홍](Day166/boj1550_kjh.java) [승빈](Day166/boj1550_wsb.java) [수경](Day166/boj1550_hsk.js) | [진홍](Day166/boj1550_kjh.java) [승빈](Day166/boj1550_wsb.java) [수경](Day166/boj1550_hsk.js)   |
 
 ## [167일차](Day167)
 
@@ -46,7 +46,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안           | 피드백 반영 답안 |
 | ------ | ---- | -------------------- | -------------- | ---------------- |
-| 백준   | 20673 | [Covid-19](https://www.acmicpc.net/problem/20673) | [진홍](Day167/boj20673_kjh.java) [승빈](Day167/boj20673_wsb.java) [수경](Day167/boj20673_hsk.js) | [진홍](Day167/boj20673_kjh.java) [승빈](Day167/boj20673_wsb.java) [수경](Day167/boj20673_hsk.js)   |
+| 백준   | 20673 | <sub>![Unrated]</sub> [Covid-19](https://www.acmicpc.net/problem/20673) | [진홍](Day167/boj20673_kjh.java) [승빈](Day167/boj20673_wsb.java) [수경](Day167/boj20673_hsk.js) | [진홍](Day167/boj20673_kjh.java) [승빈](Day167/boj20673_wsb.java) [수경](Day167/boj20673_hsk.js)   |
 
 ## [168일차](Day168)
 
@@ -54,4 +54,4 @@
 
 | 사이트 | 번호 | 문제                 | 답안           | 피드백 반영 답안 |
 | ------ | ---- | -------------------- | -------------- | ---------------- |
-| 백준   | 11720 | [숫자의 합](https://www.acmicpc.net/problem/11720) | [진홍](Day168/boj11720_kjh.java) [승빈](Day168/boj11720_wsb.java) [수경](Day168/boj11720_hsk.js) | [진홍](Day168/boj11720_kjh.java) [승빈](Day168/boj11720_wsb.java) [수경](Day168/boj11720_hsk.js)   |
+| 백준   | 11720 | <sub>![Unrated]</sub> [숫자의 합](https://www.acmicpc.net/problem/11720) | [진홍](Day168/boj11720_kjh.java) [승빈](Day168/boj11720_wsb.java) [수경](Day168/boj11720_hsk.js) | [진홍](Day168/boj11720_kjh.java) [승빈](Day168/boj11720_wsb.java) [수경](Day168/boj11720_hsk.js)   |
