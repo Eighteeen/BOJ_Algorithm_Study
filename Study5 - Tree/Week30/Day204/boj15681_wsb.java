@@ -44,6 +44,8 @@ class OneWayTree {
         setOneWayTree(findNode(rootData));
     }
 
+    //// '단방향 트리를 설정하는 것'과 '서브트리 사이즈 구하는 것'의 연관관계가 없지 않나요??
+    //// 함수 이름과 함수가 하는 일이 서로 다른 듯한 느낌입니다!
     private int setOneWayTree(Node node) {
         int nodeData = node.getData();
         
