@@ -64,3 +64,18 @@
 <sub>![Bronze1]</sub> [귀여운 수~ε٩(๑> ₃ <)۶з](https://www.acmicpc.net/problem/17294) |
 <sub>![Bronze3]</sub> [네 수](https://www.acmicpc.net/problem/10824) |
 <sub>![Silver5]</sub> [방 번호](https://www.acmicpc.net/problem/1475) |
+<sub>![Bronze2]</sub> [데이트](https://www.acmicpc.net/problem/1296) |
+<sub>![Bronze2]</sub> [중간계 전쟁](https://www.acmicpc.net/problem/4435) |
+<sub>![Bronze1]</sub> [피시방 알바](https://www.acmicpc.net/problem/1453) |
+<sub>![Bronze1]</sub> [맥주99병](https://www.acmicpc.net/problem/17293) |
+<sub>![Silver5]</sub> [여우는 어떻게 울지?](https://www.acmicpc.net/problem/9536) |
+<sub>![Bronze2]</sub> [수열의 변화](https://www.acmicpc.net/problem/1551) |
+<sub>![Bronze3]</sub> [내 학점을 구해줘](https://www.acmicpc.net/problem/10984) |
+<sub>![Silver5]</sub> [수 정렬하기 3](https://www.acmicpc.net/problem/10989) |
+<sub>![Bronze3]</sub> [주사위 게임](https://www.acmicpc.net/problem/10103) |
+<sub>![Bronze3]</sub> [공](https://www.acmicpc.net/problem/1547) |
+<sub>![Bronze1]</sub> [준오는 조류혐오야!!](https://www.acmicpc.net/problem/14647) |
+<sub>![Bronze2]</sub> [블랙잭](https://www.acmicpc.net/problem/2798) |
+<sub>![Bronze3]</sub> [초콜릿 자르기](https://www.acmicpc.net/problem/2163) |
+<sub>![Bronze4]</sub> [10부제](https://www.acmicpc.net/problem/10797)
+<sub>![Bronze3]</sub> [ACM 호텔](https://www.acmicpc.net/problem/10250) |
