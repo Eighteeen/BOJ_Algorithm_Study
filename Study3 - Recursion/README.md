@@ -55,6 +55,11 @@
 <sub>![Silver3]</sub> [The Sierpinski Fractal](https://www.acmicpc.net/problem/6555) |
 <sub>![Silver3]</sub> [색종이 만들기](https://www.acmicpc.net/problem/2630) |
 <sub>![Gold4]</sub> [별 찍기 - 11](https://www.acmicpc.net/problem/2448) |
+<sub>![Silver3]</sub> [칸토어 집합](https://www.acmicpc.net/problem/4779) |
+<sub>![Silver1]</sub> [별 찍기 - 10](https://www.acmicpc.net/problem/2447) |
+<sub>![Silver3]</sub> [쿼드 트리](https://www.acmicpc.net/problem/6580) |
+<sub>![Gold4]</sub> [별 찍기 - 18](https://www.acmicpc.net/problem/10993) |
+<sub>![Silver2]</sub> [로또](https://www.acmicpc.net/problem/6603) |
 
 ## 쉬어갔던 문제
 <sub>![Silver5]</sub> [최대공약수와 최소공배수](https://www.acmicpc.net/problem/2609) |
@@ -66,3 +71,5 @@
 <sub>![Silver4]</sub> [듣보잡](https://www.acmicpc.net/problem/1764) |
 <sub>![Silver5]</sub> [영화감독 숌](https://www.acmicpc.net/problem/1436) |
 <sub>![Bronze2]</sub> [분해합](https://www.acmicpc.net/problem/2231) |
+<sub>![Bronze1]</sub> [달팽이는 올라가고 싶다](https://www.acmicpc.net/problem/2869) |
+<sub>![Silver5]</sub> [집합](https://www.acmicpc.net/problem/11723) |
