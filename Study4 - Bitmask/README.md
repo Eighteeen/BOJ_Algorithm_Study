@@ -44,6 +44,13 @@
 <sub>![Silver4]</sub> [Numbers are Easy](https://www.acmicpc.net/problem/11322) |
 <sub>![Silver1]</sub> [물병](https://www.acmicpc.net/problem/1052) |
 <sub>![Silver5]</sub> [Jumbled Communication](https://www.acmicpc.net/problem/11675) |
+<sub>![Silver2]</sub> [기차가 어둠을 헤치고 은하수를](https://www.acmicpc.net/problem/15787) |
+<sub>![Silver3]</sub> [현수의 열기구 교실](https://www.acmicpc.net/problem/13915) |
+<sub>![Silver2]</sub> [소셜 광고](https://www.acmicpc.net/problem/9335) |
+<sub>![Silver4]</sub> [Color Change of Go Game Pieces](https://www.acmicpc.net/problem/9819) |
+<sub>![Silver2]</sub> [시간표 짜기](https://www.acmicpc.net/problem/14569) |
+<sub>![Silver1]</sub> [기타콘서트](https://www.acmicpc.net/problem/1497) |
+<sub>![Silver1]</sub> [Back and Forth](https://www.acmicpc.net/problem/16771) |
 
 ## 쉬어갔던 문제
 <sub>![Bronze4]</sub> [Equality](https://www.acmicpc.net/problem/13985) |
