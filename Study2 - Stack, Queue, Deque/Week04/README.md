@@ -40,7 +40,7 @@
 
 | 사이트 | 번호 | 문제                                           | 답안                                        | Pair Programming                         |
 | ------ | ---- | ---------------------------------------------- | ------------------------------------------- | ---------------------------------------- |
-| 백준   | 8958 | <sub>![Bronze2]</sub> [OX퀴즈](https://www.acmicpc.net/problem/8958) | [진홍승빈예은](Day22/bj8958_kjhwsblye.java) | Driver 🚗 승빈 & Navigator 🧭 진홍, 예은 |
+| 백준   | 8958 | <sub>![Bronze2]</sub> [OX퀴즈](https://www.acmicpc.net/problem/8958) | [진홍승빈예은](https://github.com/Eighteeen/Algorithm_Study/blob/main/Study1%20-%20Implementation/Week04/Day22/bj8958_kjhwsblye.java) | Driver 🚗 승빈 & Navigator 🧭 진홍, 예은 |
 
 > 스택, 큐, 덱
 
@@ -53,7 +53,7 @@
 
 | 사이트 | 번호 | 문제                                                                 | 답안                                                                                    | 피드백 반영 답안                                                                           |
 | ------ | ---- | -------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| 백준   | 1011 | <sub>![Silver1]</sub> [Fly me to the Alpha Centauri](https://www.acmicpc.net/problem/1011) | [진홍](Day23/bj1011_kjh.java) [승빈](Day23/bj1011_wsb.java) [예은](Day23/bj1011_lye.cs) | [진홍](Day23/bj1011_kjh_fb.java) [승빈](Day23/bj1011_wsb.java) [예은](Day23/bj1011_lye.cs) |
+| 백준   | 1011 | <sub>![Silver1]</sub> [Fly me to the Alpha Centauri](https://www.acmicpc.net/problem/1011) | [진홍](https://github.com/Eighteeen/Algorithm_Study/blob/main/Study1%20-%20Implementation/Week04/Day23/bj1011_kjh.java) [승빈](https://github.com/Eighteeen/Algorithm_Study/blob/main/Study1%20-%20Implementation/Week04/Day23Day23/bj1011_wsb.java) [예은](https://github.com/Eighteeen/Algorithm_Study/blob/main/Study1%20-%20Implementation/Week04/Day23Day23/bj1011_lye.cs) | [진홍](https://github.com/Eighteeen/Algorithm_Study/blob/main/Study1%20-%20Implementation/Week04/Day23Day23/bj1011_kjh_fb.java) [승빈](https://github.com/Eighteeen/Algorithm_Study/blob/main/Study1%20-%20Implementation/Week04/Day23Day23/bj1011_wsb.java) [예은](https://github.com/Eighteeen/Algorithm_Study/blob/main/Study1%20-%20Implementation/Week04/Day23Day23/bj1011_lye.cs) |
 
 ## [24일차](Day24)
 

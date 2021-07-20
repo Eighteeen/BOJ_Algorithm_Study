@@ -38,7 +38,6 @@
 > 정리: [승빈](reference/wsb.pdf) [예은](reference/lye.pdf)
 
 ## 푼 문제
-<sub>![Silver1]</sub> [Fly me to the Alpha Centauri](https://www.acmicpc.net/problem/1011) |
 <sub>![Silver4]</sub> [스택](https://www.acmicpc.net/problem/10828) |
 <sub>![Silver4]</sub> [큐](https://www.acmicpc.net/problem/10845) |
 <sub>![Silver4]</sub> [덱](https://www.acmicpc.net/problem/10866) |
