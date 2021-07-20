@@ -40,3 +40,27 @@
 <sub>![Bronze1]</sub> [팰린드롬인지 확인하기](https://www.acmicpc.net/problem/10988) |
 <sub>![Bronze2]</sub> [열개씩 끊어 출력하기](https://www.acmicpc.net/problem/11721) |
 <sub>![Bronze3]</sub> [영수증](https://www.acmicpc.net/problem/5565) |
+<sub>![Bronze3]</sub> [별 찍기 - 8](https://www.acmicpc.net/problem/2445) |
+<sub>![Bronze2]</sub> [!밀비 급일](https://www.acmicpc.net/problem/11365) |
+<sub>![Bronze3]</sub> [X보다 작은수](https://www.acmicpc.net/problem/10871) |
+<sub>![Bronze3]</sub> [나는 요리사다](https://www.acmicpc.net/problem/2953) |
+<sub>![Bronze2]</sub> [별 찍기 - 21](https://www.acmicpc.net/problem/10996) |
+<sub>![Bronze3]</sub> [배수와 약수](https://www.acmicpc.net/problem/5086) |
+<sub>![Bronze2]</sub> [오타맨 고창영](https://www.acmicpc.net/problem/2711) |
+<sub>![Bronze2]</sub> [럭키 스트레이트](https://www.acmicpc.net/problem/18406) |
+<sub>![Bronze3]</sub> [별 찍기 - 17](https://www.acmicpc.net/problem/10992) |
+<sub>![Bronze4]</sub> [와글와글 숭고한](https://www.acmicpc.net/problem/17388) |
+<sub>![Bronze2]</sub> [과제 안 내신 분...?](https://www.acmicpc.net/problem/5597) |
+<sub>![Silver4]</sub> [제로](https://www.acmicpc.net/problem/10773) |
+<sub>![Bronze2]</sub> [카드 역배치](https://www.acmicpc.net/problem/10804) |
+<sub>![Silver5]</sub> [덩치](https://www.acmicpc.net/problem/7568) |
+<sub>![Bronze2]</sub> [최댓값](https://www.acmicpc.net/problem/2562) |
+<sub>![Bronze2]</sub> [니모를 찾아서](https://www.acmicpc.net/problem/10173) |
+<sub>![Bronze3]</sub> [우유 축제](https://www.acmicpc.net/problem/14720) |
+<sub>![Silver5]</sub> [도비의 난독증 테스트](https://www.acmicpc.net/problem/2204) |
+<sub>![Bronze3]</sub> [홀수](https://www.acmicpc.net/problem/2576) |
+<sub>![Bronze2]</sub> [단어의 개수](https://www.acmicpc.net/problem/1152) |
+<sub>![Silver5]</sub> [별 찍기 - 23](https://www.acmicpc.net/problem/13015) |
+<sub>![Bronze1]</sub> [귀여운 수~ε٩(๑> ₃ <)۶з](https://www.acmicpc.net/problem/17294) |
+<sub>![Bronze3]</sub> [네 수](https://www.acmicpc.net/problem/10824) |
+<sub>![Silver5]</sub> [방 번호](https://www.acmicpc.net/problem/1475) |
