@@ -93,3 +93,4 @@
 <sub>![Bronze1]</sub> [단어 공부](https://www.acmicpc.net/problem/1157) |
 <sub>![Silver5]</sub> [공 포장하기](https://www.acmicpc.net/problem/12981) |
 <sub>![Bronze1]</sub> [단어 퍼즐](https://www.acmicpc.net/problem/9946) |
+<sub>![Bronze2]</sub> [OX퀴즈](https://www.acmicpc.net/problem/8958) |
