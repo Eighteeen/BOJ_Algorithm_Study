@@ -79,7 +79,6 @@
 <sub>![Gold2]</sub> [폰트](https://www.acmicpc.net/problem/9997) |
 <sub>![Silver4]</sub> [The Big Dance](https://www.acmicpc.net/problem/6012) |
 <sub>![Gold1]</sub> [샤워실 바닥 깔기 (Large)](https://www.acmicpc.net/problem/14601) |
-<sub>![Silver5]</sub> [막대기](https://www.acmicpc.net/problem/1094) |
 
 ## 쉬어갔던 문제
 <sub>![Silver5]</sub> [최대공약수와 최소공배수](https://www.acmicpc.net/problem/2609) |

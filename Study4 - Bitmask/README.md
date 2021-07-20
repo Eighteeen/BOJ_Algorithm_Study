@@ -38,6 +38,7 @@
 > 정리: [승빈](reference/wsb.pdf)
 
 ## 푼 문제
+<sub>![Silver5]</sub> [막대기](https://www.acmicpc.net/problem/1094) |
 <sub>![Silver4]</sub> [엘리베이터 장난](https://www.acmicpc.net/problem/14936) |
 <sub>![Silver2]</sub> [부분수열의 합](https://www.acmicpc.net/problem/1182) |
 <sub>![Silver5]</sub> [복권](https://www.acmicpc.net/problem/1359) |
@@ -54,7 +55,6 @@
 <sub>![Silver1]</sub> [기타콘서트](https://www.acmicpc.net/problem/1497) |
 <sub>![Silver1]</sub> [Back and Forth](https://www.acmicpc.net/problem/16771) |
 <sub>![Silver3]</sub> [데스스타](https://www.acmicpc.net/problem/11811) |
-<sub>![Silver4]</sub> [트리 만들기](https://www.acmicpc.net/problem/14244) |
 
 ## 쉬어갔던 문제
 <sub>![Bronze4]</sub> [Equality](https://www.acmicpc.net/problem/13985) |

@@ -37,6 +37,7 @@
 - 정리: [진홍](reference/kjh.pdf) [승빈](reference/wsb.pdf)
 
 ## 푼 문제
+<sub>![Silver4]</sub> [트리 만들기](https://www.acmicpc.net/problem/14244) |
 <sub>![Silver4]</sub> [무한이진트리](https://www.acmicpc.net/problem/2078) |
 <sub>![Silver1]</sub> [완전 이진 트리](https://www.acmicpc.net/problem/9934) |
 <sub>![Silver1]</sub> [트리 순회](https://www.acmicpc.net/problem/1991) |
