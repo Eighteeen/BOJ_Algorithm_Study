@@ -38,7 +38,6 @@
 > 정리: [진홍](reference/kjh.pdf)
 
 ## 푼 문제
-<sub>![Gold5]</sub> [옥상 정원 꾸미기](https://www.acmicpc.net/problem/6198) |
 <sub>![Silver5]</sub> [재귀함수가 뭔가요?](https://www.acmicpc.net/problem/17478) |
 <sub>![Bronze2]</sub> [이진수 변환](https://www.acmicpc.net/problem/10829) |
 <sub>![Silver5]</sub> [3의 배수](https://www.acmicpc.net/problem/1769) |

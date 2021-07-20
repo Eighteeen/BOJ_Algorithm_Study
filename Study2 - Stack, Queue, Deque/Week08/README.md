@@ -32,39 +32,17 @@
 [Ruby1]: https://user-images.githubusercontent.com/33937365/126247660-8e0d236d-eaef-42b3-8983-28f9e6c94ff9.png
 <!-- tier 리스트 E -->
 
-# Study2
-> 발표: [진홍](reference/kjh.pdf)
+# Week08
 
-> 정리: [승빈](reference/wsb.pdf) [예은](reference/lye.pdf)
+## [50일차](Day50) : Pairing Day
 
-## 푼 문제
-<sub>![Bronze2]</sub> [OX퀴즈](https://www.acmicpc.net/problem/8958) |
-<sub>![Silver1]</sub> [Fly me to the Alpha Centauri](https://www.acmicpc.net/problem/1011) |
-<sub>![Silver4]</sub> [스택](https://www.acmicpc.net/problem/10828) |
-<sub>![Silver4]</sub> [큐](https://www.acmicpc.net/problem/10845) |
-<sub>![Silver4]</sub> [덱](https://www.acmicpc.net/problem/10866) |
-<sub>![Bronze2]</sub> [막대기](https://www.acmicpc.net/problem/17608) |
-<sub>![Silver5]</sub> [요세푸스 문제](https://www.acmicpc.net/problem/1158) |
-<sub>![Silver4]</sub> [과제는 끝나지 않아!](https://www.acmicpc.net/problem/17952) |
-<sub>![Silver3]</sub> [스택 수열](https://www.acmicpc.net/problem/1874) |
-<sub>![Bronze1]</sub> [단어순서 뒤집기](https://www.acmicpc.net/problem/12605) |
-<sub>![Silver4]</sub> [반전 요세푸스](https://www.acmicpc.net/problem/20301) |
-<sub>![Gold5]</sub> [AC](https://www.acmicpc.net/problem/5430) |
-<sub>![Silver3]</sub> [후위 표기식2](https://www.acmicpc.net/problem/1935) |
-<sub>![Silver3]</sub> [카드 놓기](https://www.acmicpc.net/problem/18115) |
-<sub>![Silver3]</sub> [프린터 큐](https://www.acmicpc.net/problem/1966) |
-<sub>![Silver4]</sub> [회전하는 큐](https://www.acmicpc.net/problem/1021) |
-<sub>![Silver1]</sub> [안정적인 문자열](https://www.acmicpc.net/problem/4889) |
-<sub>![Silver1]</sub> [도어맨](https://www.acmicpc.net/problem/5002) |
-<sub>![Gold4]</sub> [오큰수](https://www.acmicpc.net/problem/17298) |
-<sub>![Silver4]</sub> [도키도키 간식드리미](https://www.acmicpc.net/problem/12789) |
-<sub>![Silver3]</sub> [앵무새](https://www.acmicpc.net/problem/14713) |
-<sub>![Silver1]</sub> [세훈이의 선물가게](https://www.acmicpc.net/problem/17225) |
-<sub>![Silver4]</sub> [천재 수학자 성필](https://www.acmicpc.net/problem/15815) |
-<sub>![Gold5]</sub> [뱀](https://www.acmicpc.net/problem/3190) |
-<sub>![Silver2]</sub> [이상한 하노이 탑](https://www.acmicpc.net/problem/15500) |
-<sub>![Silver3]</sub> [풍선 터뜨리기](https://www.acmicpc.net/problem/2346) |
-<sub>![Silver4]</sub> [Router](https://www.acmicpc.net/problem/15828) |
-<sub>![Silver4]</sub> [좋은 단어](https://www.acmicpc.net/problem/3986) |
-<sub>![Silver3]</sub> [키로거](https://www.acmicpc.net/problem/5397) |
-<sub>![Gold5]</sub> [옥상 정원 꾸미기](https://www.acmicpc.net/problem/6198) |
+> [스택/큐/덱 심화 문제 활용](https://www.acmicpc.net/group/workbook/view/9797/30521)
+
+| 사이트 | 번호 | 문제                                                     | 답안                                                                                                                            | Pair Programming                   |
+| ------ | ---- | -------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------- |
+| 백준   | 6198 | <sub>![Gold5]</sub> [옥상 정원 꾸미기](https://www.acmicpc.net/problem/6198) | [진홍승빈](Day50/boj6198_kjhwsb.java) [수경](https://github.com/sukyeongh/Algorithm/blob/master/2021_04/20210421/bj6198_hsk.js) | Driver 🚗 진홍 & Navigator 🧭 승빈 |
+
+> 재귀함수
+
+- 발표: [승빈](https://github.com/Eighteeen/Algorithm_Study/blob/main/Study3%20-%20Recursion/reference/wsb.pdf)
+- 정리: [진홍](https://github.com/Eighteeen/Algorithm_Study/blob/main/Study3%20-%20Recursion/reference/kjh.pdf)
