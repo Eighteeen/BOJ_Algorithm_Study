@@ -240,10 +240,10 @@
 <sub>![Bronze1]</sub> [단어 공부](https://www.acmicpc.net/problem/1157) |
 <sub>![Silver5]</sub> [공 포장하기](https://www.acmicpc.net/problem/12981) |
 <sub>![Bronze1]</sub> [단어 퍼즐](https://www.acmicpc.net/problem/9946) |
-
-### [스택, 큐, 덱](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study2%20-%20Stack%2C%20Queue%2C%20Deque)
 <sub>![Bronze2]</sub> [OX퀴즈](https://www.acmicpc.net/problem/8958) |
 <sub>![Silver1]</sub> [Fly me to the Alpha Centauri](https://www.acmicpc.net/problem/1011) |
+
+### [스택, 큐, 덱](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study2%20-%20Stack%2C%20Queue%2C%20Deque)
 <sub>![Silver4]</sub> [스택](https://www.acmicpc.net/problem/10828) |
 <sub>![Silver4]</sub> [큐](https://www.acmicpc.net/problem/10845) |
 <sub>![Silver4]</sub> [덱](https://www.acmicpc.net/problem/10866) |
@@ -271,9 +271,9 @@
 <sub>![Silver4]</sub> [Router](https://www.acmicpc.net/problem/15828) |
 <sub>![Silver4]</sub> [좋은 단어](https://www.acmicpc.net/problem/3986) |
 <sub>![Silver3]</sub> [키로거](https://www.acmicpc.net/problem/5397) |
+<sub>![Gold5]</sub> [옥상 정원 꾸미기](https://www.acmicpc.net/problem/6198) |
 
 ### [재귀](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study3%20-%20Recursion)
-<sub>![Gold5]</sub> [옥상 정원 꾸미기](https://www.acmicpc.net/problem/6198) |
 <sub>![Silver5]</sub> [재귀함수가 뭔가요?](https://www.acmicpc.net/problem/17478) |
 <sub>![Bronze2]</sub> [이진수 변환](https://www.acmicpc.net/problem/10829) |
 <sub>![Silver5]</sub> [3의 배수](https://www.acmicpc.net/problem/1769) |
@@ -315,9 +315,9 @@
 <sub>![Gold2]</sub> [폰트](https://www.acmicpc.net/problem/9997) |
 <sub>![Silver4]</sub> [The Big Dance](https://www.acmicpc.net/problem/6012) |
 <sub>![Gold1]</sub> [샤워실 바닥 깔기 (Large)](https://www.acmicpc.net/problem/14601) |
-<sub>![Silver5]</sub> [막대기](https://www.acmicpc.net/problem/1094) |
 
 ### [비트마스킹](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study4%20-%20Bitmask)
+<sub>![Silver5]</sub> [막대기](https://www.acmicpc.net/problem/1094) |
 <sub>![Silver4]</sub> [엘리베이터 장난](https://www.acmicpc.net/problem/14936) |
 <sub>![Silver2]</sub> [부분수열의 합](https://www.acmicpc.net/problem/1182) |
 <sub>![Silver5]</sub> [복권](https://www.acmicpc.net/problem/1359) |
@@ -334,9 +334,9 @@
 <sub>![Silver1]</sub> [기타콘서트](https://www.acmicpc.net/problem/1497) |
 <sub>![Silver1]</sub> [Back and Forth](https://www.acmicpc.net/problem/16771) |
 <sub>![Silver3]</sub> [데스스타](https://www.acmicpc.net/problem/11811) |
-<sub>![Silver4]</sub> [트리 만들기](https://www.acmicpc.net/problem/14244) |
 
 ### [트리](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study5%20-%20Tree)
+<sub>![Silver4]</sub> [트리 만들기](https://www.acmicpc.net/problem/14244) |
 <sub>![Silver4]</sub> [무한이진트리](https://www.acmicpc.net/problem/2078) |
 <sub>![Silver1]</sub> [완전 이진 트리](https://www.acmicpc.net/problem/9934) |
 <sub>![Silver1]</sub> [트리 순회](https://www.acmicpc.net/problem/1991) |
