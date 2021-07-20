@@ -85,8 +85,7 @@
 > 트리
 
 - 발표자료 [수경](reference/hsk.pdf)
-- 정리자료 [진홍](reference/kjh.pdf)
-- 정리자료 [승빈](reference/wsb.pdf)
+- 정리자료 [진홍](reference/kjh.pdf) [승빈](reference/wsb.pdf)
 
 ## [175일차](Day175)
 
