@@ -84,8 +84,7 @@
 
 > 시작 이론
 * 발표자료 [이름](reference/이름.pdf)
-* 정리자료 [이름](reference/이름.pdf)
-* 정리자료 [이름](reference/이름.pdf)
+* 정리자료 [이름](reference/이름.pdf) [이름](reference/이름.pdf)
 
 ## [일차](Day)
 
