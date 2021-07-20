@@ -197,9 +197,9 @@
 > 정리: [진홍](https://github.com/Eighteeen/Algorithm_Study/blob/main/Study3%20-%20Recursion/reference/kjh.pdf)
 
 ### [비트마스킹](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study4%20-%20Bitmask)
-> 발표: [진홍](https://github.com/Eighteeen/Algorithm_Study/blob/main/Study3%20-%20Recursion/Week17/reference/kjh.pdf)
+> 발표: [진홍](https://github.com/Eighteeen/Algorithm_Study/tree/main/Study4%20-%20Bitmask/reference/kjh.pdf)
 
-> 정리: [승빈](https://github.com/Eighteeen/Algorithm_Study/blob/main/Study3%20-%20Recursion/Week17/reference/wsb.pdf)
+> 정리: [승빈](https://github.com/Eighteeen/Algorithm_Study/tree/main/Study4%20-%20Bitmask/reference/wsb.pdf)
 
 ### [트리](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study5%20-%20Tree)
 > 발표: [수경](https://github.com/Eighteeen/Algorithm_Study/blob/main/Study4%20-%20Bitmask/Week25/reference/hsk.pdf)

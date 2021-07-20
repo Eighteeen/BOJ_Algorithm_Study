@@ -33,7 +33,9 @@
 <!-- tier 리스트 E -->
 
 # Study4
-> [비트마스크](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study3%20-%20Recursion/Week17/reference/kjh.pdf) - [🐮 김진홍(kjh)](https://github.com/deepredk)
+> 발표: [진홍](reference/kjh.pdf)
+
+> 정리: [승빈](reference/wsb.pdf)
 
 ## 푼 문제
 <sub>![Silver4]</sub> [엘리베이터 장난](https://www.acmicpc.net/problem/14936) |
