@@ -33,7 +33,9 @@
 <!-- tier 리스트 E -->
 
 # Study2
-> [스택, 큐, 덱](Week04/reference/kjh.pdf) - [🐮 김진홍(kjh)](https://github.com/deepredk)
+> 발표: [진홍](reference/kjh.pdf)
+
+> 정리: [승빈](reference/wsb.pdf) [예은](reference/lye.pdf)
 
 ## 푼 문제
 <sub>![Bronze2]</sub> [OX퀴즈](https://www.acmicpc.net/problem/8958) |
