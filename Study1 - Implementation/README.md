@@ -79,3 +79,17 @@
 <sub>![Bronze3]</sub> [초콜릿 자르기](https://www.acmicpc.net/problem/2163) |
 <sub>![Bronze4]</sub> [10부제](https://www.acmicpc.net/problem/10797)
 <sub>![Bronze3]</sub> [ACM 호텔](https://www.acmicpc.net/problem/10250) |
+<sub>![Bronze2]</sub> [새로운 언어 CC](https://www.acmicpc.net/problem/19945) |
+<sub>![Bronze1]</sub> [설탕 배달](https://www.acmicpc.net/problem/2839) |
+<sub>![Bronze2]</sub> [농구 경기](https://www.acmicpc.net/problem/1159) |
+<sub>![Bronze2]</sub> [크리스마스 파티](https://www.acmicpc.net/problem/10708) |
+<sub>![Silver5]</sub> [체스판 다시 칠하기](https://www.acmicpc.net/problem/1018) |
+<sub>![Bronze3]</sub> [명장 남정훈](https://www.acmicpc.net/problem/15734) |
+<sub>![Bronze3]</sub> [냉동식품](https://www.acmicpc.net/problem/14625) |
+<sub>![Bronze2]</sub> [이교수님의 시험](https://www.acmicpc.net/problem/10874) |
+<sub>![Silver5]</sub> [단어 정렬](https://www.acmicpc.net/problem/1181) |
+<sub>![Bronze1]</sub> [핸드폰 번호 궁합](https://www.acmicpc.net/problem/17202) |
+<sub>![Silver4]</sub> [수 찾기](https://www.acmicpc.net/problem/1920) |
+<sub>![Bronze1]</sub> [단어 공부](https://www.acmicpc.net/problem/1157) |
+<sub>![Silver5]</sub> [공 포장하기](https://www.acmicpc.net/problem/12981) |
+<sub>![Bronze1]</sub> [단어 퍼즐](https://www.acmicpc.net/problem/9946) |
