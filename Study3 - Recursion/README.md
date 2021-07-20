@@ -72,6 +72,10 @@
 <sub>![Silver1]</sub> [Horseshoes](https://www.acmicpc.net/problem/5876) |
 <sub>![Gold5]</sub> [홀수 홀릭 보석](https://www.acmicpc.net/problem/20164) |
 <sub>![Gold5]</sub> [Secret Cow Code](https://www.acmicpc.net/problem/14454) |
+<sub>![Gold5]</sub> [괄호 제거](https://www.acmicpc.net/problem/2800) |
+<sub>![Silver4]</sub> [Skewed Sorting](https://www.acmicpc.net/problem/5985) |
+<sub>![Gold2]</sub> [Secret Code](https://www.acmicpc.net/problem/9994) |
+<sub>![Gold2]</sub> [폰트](https://www.acmicpc.net/problem/9997) |
 
 ## 쉬어갔던 문제
 <sub>![Silver5]</sub> [최대공약수와 최소공배수](https://www.acmicpc.net/problem/2609) |
@@ -86,3 +90,6 @@
 <sub>![Bronze1]</sub> [달팽이는 올라가고 싶다](https://www.acmicpc.net/problem/2869) |
 <sub>![Silver5]</sub> [집합](https://www.acmicpc.net/problem/11723) |
 <sub>![Bronze4]</sub> [전자레인지](https://www.acmicpc.net/problem/10162) |
+<sub>![Bronze3]</sub> [피보나치 수](https://www.acmicpc.net/problem/2747) |
+<sub>![Bronze2]</sub> [분수찾기](https://www.acmicpc.net/problem/1193) |
+<sub>![Bronze3]</sub> [분산처리](https://www.acmicpc.net/problem/1009) |
