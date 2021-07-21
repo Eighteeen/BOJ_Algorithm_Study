@@ -2,6 +2,7 @@
 
 [unrated]: https://user-images.githubusercontent.com/33937365/126247607-85783912-c11a-4d50-ac36-8cc7dcb75cd2.png
 [bronze5]: https://user-images.githubusercontent.com/33937365/126247611-e362d727-17a4-4737-a232-5827e185ab7c.png
+[Bronze3]: https://user-images.githubusercontent.com/33937365/126247613-b8408610-7bc4-40f8-804f-a30a45ddbb68.png
 [gold5]: https://user-images.githubusercontent.com/33937365/126247627-2979d4d5-915a-4c4e-adb7-c171f9bafe28.png
 [gold4]: https://user-images.githubusercontent.com/33937365/126247629-b24e1e24-4579-450f-bc3c-f166361091dd.png
 
@@ -35,11 +36,11 @@
 
 ## [207일차](Day207)
 
-> [트리 활용](https://www.acmicpc.net/group/workbook/view/9797/35531)
+> [쉬어가는 문제](https://www.acmicpc.net/group/workbook/view/9797/35531)
 
 | 사이트 | 번호 | 문제                                       | 답안           | 피드백 반영 답안 |
 | ------ | ---- | ------------------------------------------ | -------------- | ---------------- |
-| 백준   | 1240 | <sub>![gold4]</sub> [노드사이의 거리](https://www.acmicpc.net/problem/1240) | 진홍 승빈 수경 | 진홍 승빈 수경   |
+| 백준   | 11022 | <sub>![Bronze3]</sub> [A+B - 8](https://www.acmicpc.net/problem/11022) | 진홍 승빈 수경 | 진홍 승빈 수경   |
 
 ## [208일차](Day208)
 
