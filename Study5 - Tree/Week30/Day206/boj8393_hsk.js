@@ -5,3 +5,4 @@ const sum = (n) => {
   return (n * (n + 1)) / 2;
 };
 console.log(sum(parseInt(N)));
+/// 깔끔
