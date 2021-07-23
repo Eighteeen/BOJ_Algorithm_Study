@@ -1,4 +1,3 @@
-//// 문제풀이 실패 : 반례를 찾을 수 없음
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
@@ -77,6 +76,20 @@ class Node {
   }
 
   public void connect(Node node) {
+    int number = node.number;
+
+    if (connectedNodes.size() == 0 || number < connectedNodes.get(0).number) {
+      connectedNodes.add(0, node);
+      return;
+    }
+
+    for (int i = 0; i < connectedNodes.size() - 1; i++) {
+      if (connectedNodes.get(i).number < number && number < connectedNodes.get(i + 1).number) {
+        connectedNodes.add(i + 1, node);
+        return;
+      }
+    }
+
     connectedNodes.add(node);
   }
 
