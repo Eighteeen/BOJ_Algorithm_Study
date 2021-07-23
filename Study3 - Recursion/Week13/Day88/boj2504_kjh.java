@@ -51,7 +51,7 @@ class Brackets {
     }
 
     int singleScore = calcBracket(current);
-    if (isPairOfBracket(current, brackets.charAt(idx+1))) {
+    if (idx + 1 < brackets.length() && isPairOfBracket(current, brackets.charAt(idx + 1))) {
       idx += 2;
       return singleScore + calcBundleOfBrackets();
     }
