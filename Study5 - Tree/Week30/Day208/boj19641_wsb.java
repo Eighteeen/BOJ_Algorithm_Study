@@ -69,10 +69,8 @@ class NodeMap {
     }
 
     private void makeNestedSetModel(Node node) {
-        Set<Node> childSet = node.getAdjacentNodeSet();
-        
         node.setLeftField(++nestingField);
-        for (Node child : childSet) {
+        for (Node child : node.getAdjacentNodeSet()) {
             child.removeAdjacentNode(node);
             makeNestedSetModel(child);
         }
