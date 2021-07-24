@@ -62,6 +62,8 @@
 <sub>![Silver1]</sub> [트리 나라 관광 가이드](https://www.acmicpc.net/problem/15805) |
 <sub>![Gold5]</sub> [트리와 쿼리](https://www.acmicpc.net/problem/15681) |
 <sub>![Gold5]</sub> [중첩 집합 모델](https://www.acmicpc.net/problem/19641) |
+<sub>![Gold5]</sub> [나무 위의 빗물](https://www.acmicpc.net/problem/17073) |
+<sub>![Gold4]</sub> [전화번호 목록](https://www.acmicpc.net/problem/5052) |
 
 ## 쉬어갔던 문제
 <sub>![Bronze5]</sub> [스타워즈 로고](https://www.acmicpc.net/problem/9653) |
