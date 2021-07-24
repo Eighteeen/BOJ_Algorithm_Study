@@ -2,6 +2,7 @@ import sys
 input = sys.stdin.readline
 sys.setrecursionlimit(10 ** 9)
 
+## JS 눈물.. 깔끔합니다
 def setNestingSetList(startNode, prevNode):
     global order
     nestingSetList[startNode][0] = order
