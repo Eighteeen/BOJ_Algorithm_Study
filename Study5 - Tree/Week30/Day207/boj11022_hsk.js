@@ -20,4 +20,4 @@ for (let i = 1; i <= T; i++) {
   const [A, B] = input().split(' ').map(Number);
   console.log(`Case #${i}: ${A} + ${B} = ${A + B}`);
 }
-//// ㄲㄲㅎㄴㄷ
+//// ㄲㄲㅎㄴㄷ : 22
