@@ -40,7 +40,7 @@
 
 | 사이트 | 번호 | 문제                                       | 답안           | 피드백 반영 답안 |
 | ------ | ---- | ------------------------------------------ | -------------- | ---------------- |
-| 백준   | 11022 | <sub>![Bronze3]</sub> [A+B - 8](https://www.acmicpc.net/problem/11022) | [진홍](Day207/boj11022_kjh.py) [진홍](Day207/boj11022_wsb.java) [수경](Day207/boj11022_hsk.js) | 진홍 승빈 수경   |
+| 백준   | 11022 | <sub>![Bronze3]</sub> [A+B - 8](https://www.acmicpc.net/problem/11022) | [진홍](Day207/boj11022_kjh.py) [진홍](Day207/boj11022_wsb.java) [수경](Day207/boj11022_hsk.js) | 진홍 승빈 [수경](Day207/boj11022_hsk.js)   |
 
 ## [208일차](Day208)
 
