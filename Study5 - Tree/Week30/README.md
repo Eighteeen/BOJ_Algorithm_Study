@@ -60,8 +60,8 @@
 
 ## [210일차](Day210) : Pairing Day
 
-> [문제집설명](문제집링크)
+> [문제집설명](https://www.acmicpc.net/group/workbook/view/9797/35640)
 
 | 사이트 | 번호 | 문제                 | 답안                | Pair Programming    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 0    | <sub>![Unrated]</sub> [문제이름](문제링크) | 진홍승빈수경 | Driver 🚗 이름 & Navigator 🧭 이름이름 |
+| 백준   | 5052 | <sub>![gold4]</sub> [전화번호 목록](https://www.acmicpc.net/problem/5052) | 진홍승빈수경 | Driver 🚗 이름 & Navigator 🧭 이름이름 |
