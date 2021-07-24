@@ -2,7 +2,7 @@ import sys
 input = sys.stdin.readline
 sys.setrecursionlimit(10 ** 9)
 
-## JS 눈물.. 깔끔합니다
+## JS 눈물.. 깔끔합니다 : 22 깔끔
 def setNestingSetList(startNode, prevNode):
     global order
     nestingSetList[startNode][0] = order
@@ -28,6 +28,7 @@ for _ in range(N):
     treeInfo = list(map(int, input().split()))
     nodeNum = treeInfo[0]
 
+    ## range(1, len(treeInfo) - 1) 로 조건문 연산을 줄이는 방법도 좋을 것 같습니다!
     for node in range(1, len(treeInfo)):
         if treeInfo[node] == -1:
             continue
