@@ -60,7 +60,7 @@
 
 ## [210일차](Day210) : Pairing Day
 
-> [문제집설명](https://www.acmicpc.net/group/workbook/view/9797/35640)
+> [트리 ](https://www.acmicpc.net/group/workbook/view/9797/35640)
 
 | 사이트 | 번호 | 문제                 | 답안                | Pair Programming    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
