@@ -48,7 +48,7 @@
 
 | 사이트 | 번호 | 문제                                       | 답안           | 피드백 반영 답안 |
 | ------ | ---- | ------------------------------------------ | -------------- | ---------------- |
-| 백준   | 19641    | <sub>![Gold5]</sub> [중첩 집합 모델](https://www.acmicpc.net/problem/19641) | [진홍](Day208/boj19641_kjh.java) [승빈](Day208/boj19641_wsb.java) [수경](Day208/boj19641_hsk.py) | 진홍 [승빈](Day208/boj19641_wsb.java)  [수경](Day208/boj19641_hsk_fb.py)   |
+| 백준   | 19641    | <sub>![Gold5]</sub> [중첩 집합 모델](https://www.acmicpc.net/problem/19641) | [진홍](Day208/boj19641_kjh.java) [승빈](Day208/boj19641_wsb.java) [수경](Day208/boj19641_hsk.py) | [진홍](Day208/boj19641_kjh.java) [승빈](Day208/boj19641_wsb.java)  [수경](Day208/boj19641_hsk_fb.py)   |
 
 ## [209일차](Day209)
 
