@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+////깔끔
 class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -27,6 +28,7 @@ class Main {
         br.close();
     }
 
+    //// 호환성이 좋은 메서드 같아요~
     static int cntLeafNode(int[] adjacentNodeCntArr, int root) {
         int cnt = 0;
         for (int adjacentCnt : adjacentNodeCntArr) {
