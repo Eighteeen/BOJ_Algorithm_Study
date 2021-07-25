@@ -14,6 +14,7 @@ const input = (() => {
   return () => stdin[line++];
 })();
 
+//// 깔끔
 const getLeafNodeCnt = () => {
   let leafNodeCnt = 0;
   for (let i = 2; i <= N; i++) {
