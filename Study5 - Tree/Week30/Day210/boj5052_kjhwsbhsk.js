@@ -43,14 +43,16 @@ class Node {
 }
 
 const isOverlapOfSetTrie = (root, idx, phoneNumList) => {
-  if (!phoneNumList[idx]) return true;
+  const checkNode = phoneNumList[idx];
+  if (!checkNode) return true;
 
   let isAlreadyChild = false;
   let nextNode = null;
+  
   for (let node of root.children) {
-    if (node.str === phoneNumList[idx].str) {
+    if (node.str === checkNode.str) {
       isAlreadyChild = true;
-      if (node.isLastChar || phoneNumList[idx].isLastChar) return false;
+      if (node.isLastChar || checkNode.isLastChar) return false;
 
       nextNode = node;
       break;
@@ -58,8 +60,8 @@ const isOverlapOfSetTrie = (root, idx, phoneNumList) => {
   }
 
   if (!isAlreadyChild) {
-    root.addChild(phoneNumList[idx]);
-    nextNode = phoneNumList[idx];
+    root.addChild(checkNode);
+    nextNode = checkNode;
   }
 
   return isOverlapOfSetTrie(nextNode, idx + 1, phoneNumList);
@@ -79,11 +81,11 @@ for (let i = 0; i < T; i++) {
 
     phoneNumList[phoneNumList.length - 1].markLastChar();
 
-    if (!isOverlapOfSetTrie(rootNode, 0, phoneNumList)) {
-      isConsistency = false;
-      skipInput(phoneNumberCnt - j - 1);
-      break;
-    }
+    if (isOverlapOfSetTrie(rootNode, 0, phoneNumList)) continue;
+    
+    isConsistency = false;
+    skipInput(phoneNumberCnt - j - 1);
+    break;
   }
   result.push(isConsistency ? 'YES' : 'NO');
 }
