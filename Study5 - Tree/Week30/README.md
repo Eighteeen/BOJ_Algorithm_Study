@@ -56,7 +56,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 17073 | <sub>![Gold5]</sub> [나무 위의 빗물](https://www.acmicpc.net/problem/17073) | [진홍](Day209/boj17073_kjh.java) [승빈](Day209/boj17073_wsb.java) [수경](Day209/boj17073_hsk.js) | 진홍 [승빈](Day209/boj17073_wsb.java) [수경](Day209/boj17073_hsk.js) |
+| 백준   | 17073 | <sub>![Gold5]</sub> [나무 위의 빗물](https://www.acmicpc.net/problem/17073) | [진홍](Day209/boj17073_kjh.java) [승빈](Day209/boj17073_wsb.java) [수경](Day209/boj17073_hsk.js) | [진홍](Day209/boj17073_kjh.java) [승빈](Day209/boj17073_wsb.java) [수경](Day209/boj17073_hsk.js) |
 
 ## [210일차](Day210) : Pairing Day
 
