@@ -34,6 +34,8 @@
 
 # Study N
 > 주제
+- 발표: [길동](reference/hgd.pdf)
+- 정리: [길동](reference/hgd.pdf) [길동](reference/hgd.pdf)
 
 ## 푼 문제
 <sub>![Unrated]</sub> [문제이름](문제링크) |
