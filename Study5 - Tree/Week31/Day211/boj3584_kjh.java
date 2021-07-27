@@ -40,6 +40,7 @@ class Main {
     List<Integer> bAncestors = getAncestors(parentInfos, targetNode2);
 
     List<Integer> commonAncestors = new ArrayList<>();
+    //// 공통 조상 리스트를 이렇게 구할 수도 있네요! 배워갑니다.
     commonAncestors.addAll(aAncestors);
     commonAncestors.retainAll(bAncestors);
 
