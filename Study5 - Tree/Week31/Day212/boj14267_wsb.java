@@ -1,0 +1,42 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.*;
+
+class Main {
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringBuilder sb = new StringBuilder();
+
+        String[] companyPraiseInfo = br.readLine().split(" ");
+        int numOfEmployee = Integer.parseInt(companyPraiseInfo[0]);
+        int m = Integer.parseInt(companyPraiseInfo[1]);
+
+        String directSuperiorInfo = "0 " + br.readLine();
+        int[] directSuperiorArr = Arrays.stream(directSuperiorInfo.split(" ")).mapToInt(Integer::parseInt).toArray();
+        int[] praiseArr = new int[numOfEmployee + 1];
+
+        while (m-- > 0) {
+            String[] employeePraiseInfo = br.readLine().split(" ");
+            int empolyeeToPraise = Integer.parseInt(employeePraiseInfo[0]);
+            int praiseNum = Integer.parseInt(employeePraiseInfo[1]);
+
+            praiseArr[empolyeeToPraise] += praiseNum;
+        }
+
+        praiseDown(numOfEmployee, directSuperiorArr, praiseArr);
+        for (int i = 1; i <= numOfEmployee; i++) {
+            sb.append(praiseArr[i]).append(" ");
+        }
+        
+        System.out.println(sb);
+        br.close();
+    }
+
+    static void praiseDown(int numOfEmployee, int[] directSuperiorArr, int[] praiseArr) {
+        for (int i = 2; i <= numOfEmployee; i++) {
+            int directSuperior = directSuperiorArr[i];
+            praiseArr[i] += praiseArr[directSuperior];
+        }
+    }
+}
