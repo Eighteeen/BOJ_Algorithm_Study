@@ -44,6 +44,7 @@ const addNodeUntilParentIsRoot = (parentsNodeList, targetNode, ascendToRootArr) 
   return ascendToRootArr;
 };
 
+//// roor부터 내려가는 방법도 있네요
 const getLCAWithParentNodeFromRoot = (parentsListA, parentsListB) => {
   let depthOfNodeA = parentsListA.length - 1;
   let depthOfNodeB = parentsListB.length - 1;
@@ -75,7 +76,7 @@ for (let i = 0; i < T; i++) {
   let ascendToRootOfNodeB = [targetNodeB];
 
   //// 구체적인 구현을 설명하는 것도 나쁘지 않지만 (addNodeUntilParentIsRoot: 루트일때까지 노드를 추가)
-  //// 적당히 추상화해서 표현하면 더 직관적일 것 같습니다 (getAncestors: 조상들을 가져옴)
+  //// 적당히 추상화해서 표현하면 더 직관적일 것 같습니다 (getAncestors: 조상들을 가져옴) : 22
   ascendToRootOfNodeA = addNodeUntilParentIsRoot(parentsNodeList, targetNodeA, ascendToRootOfNodeA);
   ascendToRootOfNodeB = addNodeUntilParentIsRoot(parentsNodeList, targetNodeB, ascendToRootOfNodeB);
 

@@ -29,6 +29,7 @@ class Main {
     System.out.print(sb);
   }
   
+  //// 오 첫번째로 같은 부모라는 점을 잘 이용하신 것 같아요!
   static int getMostRecentCommonAncestor(int[] parentInfos, int targetNode1, int targetNode2) {
     List<Integer> commonAncestors = getCommonAncestors(parentInfos, targetNode1, targetNode2);
     final int MOST_RECENT = 0;
