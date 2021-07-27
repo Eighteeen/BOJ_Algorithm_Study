@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.ArrayList;
 
 class Main {
-  static int praisedValues[];
+  static int[] praisedValues;
 
   public static void main(String[] args) throws Exception {
     final int EMPLOYEE_COUNT = Input.nextInt();
