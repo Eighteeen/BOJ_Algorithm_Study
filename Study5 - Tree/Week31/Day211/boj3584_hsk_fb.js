@@ -71,7 +71,7 @@ for (let i = 0; i < T; i++) {
 
   let [targetNodeA, targetNodeB] = input().split(' ');
   //// 빈 배열로 초기화해도 똑같지 않나요?
-  //// => 타겟 노드도 부모에 포함될 수 있기 때문에 필수로 추가해야 합니다.
+  //// => 타겟 노드도 공통조상에 포함될 수 있기 때문에 필수로 추가해야 합니다.
   let ascendToRootOfNodeA = [targetNodeA];
   let ascendToRootOfNodeB = [targetNodeB];
 
