@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
+//// 깔끔해요
 class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -12,6 +13,7 @@ class Main {
         int numOfEmployee = Integer.parseInt(companyPraiseInfo[0]);
         int m = Integer.parseInt(companyPraiseInfo[1]);
 
+        //// 0을 추가하는 생각 멋져요
         String directSuperiorInfo = "0 " + br.readLine();
         int[] directSuperiorArr = Arrays.stream(directSuperiorInfo.split(" ")).mapToInt(Integer::parseInt).toArray();
         int[] praiseArr = new int[numOfEmployee + 1];
