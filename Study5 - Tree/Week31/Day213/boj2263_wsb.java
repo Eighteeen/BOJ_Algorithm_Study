@@ -26,7 +26,7 @@ class Main {
     }
 
     static void setPreOrderArr(int treeSize, int fromIdxOfInOrder, int fromIdxOfPostOrder) {
-        if (treeSize <= 0) return;
+        if (treeSize == 0) return;
 
         int rootIdxOfPostOrder = fromIdxOfPostOrder + treeSize - 1;
         int root = postOrderArr[rootIdxOfPostOrder];
