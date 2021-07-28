@@ -33,6 +33,7 @@ class Main {
         br.close();
     }
 
+    //// 아~ 어차피 서열순으로 입력이 들어오니까 그냥 전부 부분합 때려버리면 되군요. 배워가요
     static void praiseDown(int numOfEmployee, int[] directSuperiorArr, int[] praiseArr) {
         for (int i = 2; i <= numOfEmployee; i++) {
             int directSuperior = directSuperiorArr[i];

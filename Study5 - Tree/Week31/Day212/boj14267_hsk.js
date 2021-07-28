@@ -43,3 +43,5 @@ for (let j = 0; j < compliment; j++) {
 
 setDownCompliment(1);
 console.log(complimentList.slice(1).join(' '));
+
+//// 무난쓰합니다
