@@ -29,6 +29,8 @@ const setDownCompliment = (ceo) => {
 
 const [N, compliment] = input().split(' ').map(Number);
 const superiorList = input().split(' ').map(Number);
+//// 위의 superiorList에서도 상사의 정보만 있어서 superiorTree에서도 상사에 관련한 정보만 있다고 생각이 들어서 다시 생각해야 했어요.
+//// junior, underling 등의 부하에 관련한 용어가 쓰인다면 변수명에 대한 이해가 더 쉽게 될 것 같습니다!
 const superiorTree = Array.from(new Array(N + 1), () => new Array());
 const complimentList = new Array(N + 1).fill(0);
 
@@ -44,4 +46,4 @@ for (let j = 0; j < compliment; j++) {
 setDownCompliment(1);
 console.log(complimentList.slice(1).join(' '));
 
-//// 무난쓰합니다
+//// 무난쓰합니다 : 22

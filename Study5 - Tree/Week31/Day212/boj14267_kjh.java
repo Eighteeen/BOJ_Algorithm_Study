@@ -4,7 +4,7 @@ import java.util.StringTokenizer;
 import java.util.List;
 import java.util.ArrayList;
 
-//// 깔끔해요
+//// 깔끔해요 : 22 깔끔 무난
 class Main {
   static int[] praisedValues;
 
