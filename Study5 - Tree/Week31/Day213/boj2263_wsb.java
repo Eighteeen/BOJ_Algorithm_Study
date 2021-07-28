@@ -4,38 +4,36 @@ import java.io.InputStreamReader;
 import java.util.*;
 
 class Main {
-    static int[] inOrderIdxArr, postOrderArr, preOrderArr;
-    static int preOrderIdx;
+    static int[] inOrderIdxArr, postOrderArr;
+    static StringBuilder preOrders;
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringBuilder sb = new StringBuilder();
 
         int n = Integer.parseInt(br.readLine());
         int[] inOrderArr = Arrays.stream(br.readLine().split(" ")).mapToInt(Integer::parseInt).toArray();
         postOrderArr = Arrays.stream(br.readLine().split(" ")).mapToInt(Integer::parseInt).toArray();
         inOrderIdxArr = getIdxArr(inOrderArr);
 
-        preOrderArr = new int[n];
-        setPreOrderArr(n, 0, 0);
-        for (int order : preOrderArr) sb.append(order).append(" ");
+        preOrders = new StringBuilder();
+        setPreOrders(n, 0, 0);
 
-        System.out.println(sb);
+        System.out.println(preOrders);
         br.close();
     }
 
-    static void setPreOrderArr(int treeSize, int fromIdxOfInOrder, int fromIdxOfPostOrder) {
+    static void setPreOrders(int treeSize, int fromIdxOfInOrder, int fromIdxOfPostOrder) {
         if (treeSize == 0) return;
 
         int rootIdxOfPostOrder = fromIdxOfPostOrder + treeSize - 1;
         int root = postOrderArr[rootIdxOfPostOrder];
-        preOrderArr[preOrderIdx++] = root;
+        preOrders.append(root).append(" ");
 
         int rootIdxOfInOrder = inOrderIdxArr[root];
         int leftSubTreeSize = rootIdxOfInOrder - fromIdxOfInOrder;
         int rightSubTreeSize = treeSize - leftSubTreeSize - 1;
-        setPreOrderArr(leftSubTreeSize, fromIdxOfInOrder, fromIdxOfPostOrder);
-        setPreOrderArr(rightSubTreeSize, rootIdxOfInOrder + 1, rootIdxOfPostOrder - rightSubTreeSize);
+        setPreOrders(leftSubTreeSize, fromIdxOfInOrder, fromIdxOfPostOrder);
+        setPreOrders(rightSubTreeSize, rootIdxOfInOrder + 1, rootIdxOfPostOrder - rightSubTreeSize);
     }
 
     static int[] getIdxArr(int[] differentNumArr) {
