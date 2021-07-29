@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
+//// 깔끔해요
 class Main {
     static int[] inOrderIdxArr, postOrderArr;
     static StringBuilder preOrders;
@@ -31,7 +32,7 @@ class Main {
         int root = postOrderArr[rootIdxOfPostOrder];
         preOrders.append(root).append(" ");
 
-        //// 세심한 변수명 덕분에 이해하기 쉬워요
+        //// 세심한 변수명 덕분에 이해하기 쉬워요 : 22
         int rootIdxOfInOrder = inOrderIdxArr[root];
         int leftSubTreeSize = rootIdxOfInOrder - fromIdxOfInOrder;
         int rightSubTreeSize = treeSize - leftSubTreeSize - 1;
