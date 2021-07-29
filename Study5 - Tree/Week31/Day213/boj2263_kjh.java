@@ -6,12 +6,13 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.ArrayList;
 
-//// 깔끔해요
+//// 깔끔해요 : 22
 class Main {
   static List<Integer> inorder;
   static List<Integer> postorder;
 
   static Map<Integer, Integer> inorderIdxMap;
+  //// sb는 너무 공통적인 변수명으로 느껴져서 프리오더를 저장한다는 걸 알 수 있도록 지정하면 좋을 것 같습니다.
   static StringBuilder sb;
 
   public static void main(String[] args) throws Exception {
@@ -36,12 +37,15 @@ class Main {
     System.out.print(sb);
   }
 
+  //// 정말 프리오더 방식으로 노드를 방문한다기 보단 다른 오더 방식으로부터 프리오더를 추출하는 메서드라서
+  //// traverse 이라는 용어가 조금 어색하게 느껴졌습니다. set, add, infer 등등 대체할 수 있는 단어는 많을 것 같습니다.
   static void traversePreorder(int inStartIdx, int inEndIdx, int postStartIdx, int postEndIdx) {
     if (inStartIdx > inEndIdx) {
       return;
     }
 
     int root = postorder.get(postEndIdx);
+    //// StringBuilder를 사용하는데 굳이 +를 사용할 필요는 없을 것 같습니다.
     sb.append(root + " ");
 
     int inRootIdx = inorderIdxMap.get(root);

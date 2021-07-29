@@ -23,6 +23,8 @@ const addPreOrderList = () => {
     const root = postOrderList[postEnd];
     preOrderList.push(root);
 
+    //// indexOf도 기본 지원되는 어메이징 js,,, 부럽...
+    //// rootIndexOfInOrder 라고 하고 싶던 거겠죠..?
     const rootInderOfInOrder = inOrderList.indexOf(root);
     const leftSize = rootInderOfInOrder - inStart;
 
@@ -37,8 +39,8 @@ const postOrderList = input().split(' ').map(Number);
 const preOrderList = [];
 
 //// 리스트'를' 추가한다기보다 리스트'에' 추가하는 함수인데
-//// addInto 또는 fill 등등을 동사로 쓰는건 어떨까요
+//// addInto 또는 fill 등등을 동사로 쓰는건 어떨까요 : 22 addTo 정도만 해도 빠르게 이해될 것 같습니다. 
 addPreOrderList();
 console.log(preOrderList.join(' '));
 
-//// 깔-끔
+//// 깔-끔 : 22
