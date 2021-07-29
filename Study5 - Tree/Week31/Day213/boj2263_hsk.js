@@ -36,5 +36,9 @@ const inOrderList = input().split(' ').map(Number);
 const postOrderList = input().split(' ').map(Number);
 const preOrderList = [];
 
+//// 리스트'를' 추가한다기보다 리스트'에' 추가하는 함수인데
+//// addInto 또는 fill 등등을 동사로 쓰는건 어떨까요
 addPreOrderList();
 console.log(preOrderList.join(' '));
+
+//// 깔-끔

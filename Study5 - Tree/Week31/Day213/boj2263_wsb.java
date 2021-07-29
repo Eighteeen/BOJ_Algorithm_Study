@@ -7,12 +7,14 @@ class Main {
     static int[] inOrderIdxArr, postOrderArr;
     static StringBuilder preOrders;
 
+    //// 488ms로 시간 효율이 굉장히 높게 채점 결과가 나와있는데 비결이 뭔가요
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         int n = Integer.parseInt(br.readLine());
         int[] inOrderArr = Arrays.stream(br.readLine().split(" ")).mapToInt(Integer::parseInt).toArray();
         postOrderArr = Arrays.stream(br.readLine().split(" ")).mapToInt(Integer::parseInt).toArray();
+        //// Map<Integer, Integer> 보다는 요게 더 가볍겠네요. 배워갑니다
         inOrderIdxArr = getIdxArr(inOrderArr);
 
         preOrders = new StringBuilder();
@@ -29,6 +31,7 @@ class Main {
         int root = postOrderArr[rootIdxOfPostOrder];
         preOrders.append(root).append(" ");
 
+        //// 세심한 변수명 덕분에 이해하기 쉬워요
         int rootIdxOfInOrder = inOrderIdxArr[root];
         int leftSubTreeSize = rootIdxOfInOrder - fromIdxOfInOrder;
         int rightSubTreeSize = treeSize - leftSubTreeSize - 1;
