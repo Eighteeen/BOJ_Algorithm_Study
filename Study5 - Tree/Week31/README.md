@@ -39,7 +39,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 1167    | <sub>![Gold3]</sub> [트리의 지름](https://www.acmicpc.net/problem/1167) | [진홍](Day214/boj1167_kjh.java) 승빈 [수경](Day214/boj1167_hsk.js) | 진홍 승빈 수경 |
+| 백준   | 1167    | <sub>![Gold3]</sub> [트리의 지름](https://www.acmicpc.net/problem/1167) | [진홍](Day214/boj1167_kjh.java) [승빈](Day214/boj1167_wsb.java) [수경](Day214/boj1167_hsk.js) | 진홍 승빈 수경 |
 
 ## [215일차](Day215)
 
