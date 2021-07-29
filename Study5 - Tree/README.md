@@ -67,7 +67,8 @@
 <sub>![Gold4]</sub> [가장 가까운 공통 조상](https://www.acmicpc.net/problem/3584) |
 <sub>![Gold4]</sub> [회사 문화 1](https://www.acmicpc.net/problem/14267) |
 <sub>![Gold3]</sub> [트리의 순회](https://www.acmicpc.net/problem/2263) |
-<sub>![Gold3]</sub> [트리의 지름](https://www.acmicpc.net/problem/1167)
+<sub>![Gold3]</sub> [트리의 지름](https://www.acmicpc.net/problem/1167) |
+<sub>![Gold4]</sub> [완전 이진 트리 도로 네트워크](https://www.acmicpc.net/problem/12888) |
 
 ## 쉬어갔던 문제
 <sub>![Bronze5]</sub> [스타워즈 로고](https://www.acmicpc.net/problem/9653) |
