@@ -8,7 +8,7 @@ class Main {
   public static void main(String[] args) throws Exception {
     final int TREE_HEIGHT = Input.nextInt();
     leastCarsForEachHeight = new Long[61];
-    leastCarsForEachHeight[0] = 0L;
+    leastCarsForEachHeight[0] = 1L;
     leastCarsForEachHeight[1] = 1L;
 
     Long leastCars = getLeastCars(TREE_HEIGHT);
