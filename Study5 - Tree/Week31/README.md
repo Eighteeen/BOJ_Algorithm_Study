@@ -23,7 +23,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 14267 | <sub>![Gold4]</sub> [회사 문화 1](https://www.acmicpc.net/problem/14267) | [진홍](Day212/boj14267_kjh.java) [승반](Day212/boj14267_wsb.java) [수경](Day212/boj14267_hsk.js) | [진홍](Day212/boj14267_kjh.java) [승반](Day212/boj14267_wsb.java) [수경](Day212/boj14267_hsk_.js) |
+| 백준   | 14267 | <sub>![Gold4]</sub> [회사 문화 1](https://www.acmicpc.net/problem/14267) | [진홍](Day212/boj14267_kjh.java) [승반](Day212/boj14267_wsb.java) [수경](Day212/boj14267_hsk.js) | [진홍](Day212/boj14267_kjh_fb.java) [승반](Day212/boj14267_wsb.java) [수경](Day212/boj14267_hsk_.js) |
 
 ## [213일차](Day213)
 
