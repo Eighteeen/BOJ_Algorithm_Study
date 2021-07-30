@@ -31,7 +31,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 2263 | <sub>![Gold3]</sub> [트리의 순회](https://www.acmicpc.net/problem/2263) | [진홍](Day213/boj2263_kjh.java) [승빈](Day213/boj2263_wsb.java) [수경](Day213/boj2263_hsk.js) | 진홍 승빈 수경 |
+| 백준   | 2263 | <sub>![Gold3]</sub> [트리의 순회](https://www.acmicpc.net/problem/2263) | [진홍](Day213/boj2263_kjh.java) [승빈](Day213/boj2263_wsb.java) [수경](Day213/boj2263_hsk.js) | 진홍 승빈 [수경](Day213/boj2263_hsk_fb.js) |
 
 ## [214일차](Day214)
 
