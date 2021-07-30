@@ -36,7 +36,7 @@ class Main {
         br.close();
     }
 
-    //// Day01부터 until을 쓰시는걸 봐와서 until이 뭔가를 누적하는 변수라고 저는 이해가 되지만
+    //// Day01부터 until을 쓰시는걸 봐와서 until이 뭔가를 누적하는 변수라고 저는 파악이 되지만
     //// 코드를 처음 보는 사람들은 until이라는 네이밍이 와닿지 않을 것 같습니다.
     //// accumulatedDistance 등 좀 더 직관적인 변수명을 사용하면 좋을 것 같습니다!
     static void dfsForSetMaxDistance(Node node, int untilDistance) {
