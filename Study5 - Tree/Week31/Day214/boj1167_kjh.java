@@ -7,6 +7,7 @@ import java.util.Map;
 import java.util.HashMap;
 import java.util.Comparator;
 
+//// 깔끔해요
 class Main {
   static Map<Integer, Node> nodeMap;
   static int maxDiameter;
