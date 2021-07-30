@@ -30,6 +30,8 @@ const setNodeAndMaxDistanceFromDFS = (node, distance) => {
 
 const V = parseInt(input());
 const tree = Array.from(new Array(V + 1), () => new Array());
+//// youAndI.you youAndI.I 이런 느낌입니다
+//// 변수명을 포괄적으로 바꾸거나 두 변수를 객체에 담지 않고 개별 변수로 만드는 게 좋을 것 같습니다 
 let nodeAndMaxDistance = { node: 0, distance: 0 };
 
 for (let i = 0; i < V; i++) {
@@ -39,6 +41,8 @@ for (let i = 0; i < V; i++) {
   }
 }
 
+//// setNode~ 함수를 두번 호출하는 이유를 설명했다면 더 이해하기 쉬웠을 것 같아요
+//// 예를 들면 wsb 코드처럼 maxDiameterEndNode, maxDistance 이름을 각각 붙여 설명하는 식으로요!
 let visitedNode = new Array(V + 1).fill(false);
 setNodeAndMaxDistanceFromDFS(1, 0);
 
