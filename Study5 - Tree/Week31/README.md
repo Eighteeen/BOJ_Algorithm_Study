@@ -63,5 +63,5 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | Pair Programming    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 0    | <sub>![Unrated]</sub> [문제이름](문제링크) | 진홍승빈수경 | Driver 🚗 진홍 & Navigator 🧭 승빈수경 |
+| 백준   | 0    | <sub>![Gold2]</sub> [준오는 최종인재야!!](https://www.acmicpc.net/problem/14657) | 진홍승빈수경 | Driver 🚗 진홍 & Navigator 🧭 승빈수경 |
 

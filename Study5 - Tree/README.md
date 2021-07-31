@@ -70,6 +70,7 @@
 <sub>![Gold3]</sub> [트리의 지름](https://www.acmicpc.net/problem/1167) |
 <sub>![Gold4]</sub> [완전 이진 트리 도로 네트워크](https://www.acmicpc.net/problem/12888) |
 <sub>![Gold3]</sub> [LCA](https://www.acmicpc.net/problem/11437) |
+<sub>![Gold2]</sub> [준오는 최종인재야!!](https://www.acmicpc.net/problem/14657) |
 
 ## 쉬어갔던 문제
 <sub>![Bronze5]</sub> [스타워즈 로고](https://www.acmicpc.net/problem/9653) |
