@@ -7,7 +7,7 @@ import java.util.Map;
 import java.util.HashMap;
 import java.util.Comparator;
 
-//// 깔끔해요
+//// 깔끔해요 : 22
 class Main {
   static Map<Integer, Node> nodeMap;
   static int maxDiameter;
@@ -33,6 +33,7 @@ class Main {
     }
 
     Node root = getOrCreateNode(1);
+    //// get or create를 하는데 왜 null 체크를 하죠..?
     if (root != null) {
       getMaxDistance(root);
     }

@@ -15,6 +15,7 @@ const input = (() => {
   return () => stdin[line++];
 })();
 
+//// 깔끔합니다.
 const setNodeAndMaxDistanceFromDFS = (node, distance) => {
   visitedNode[node] = true;
 
@@ -31,7 +32,7 @@ const setNodeAndMaxDistanceFromDFS = (node, distance) => {
 const V = parseInt(input());
 const tree = Array.from(new Array(V + 1), () => new Array());
 //// youAndI.you youAndI.I 이런 느낌입니다
-//// 변수명을 포괄적으로 바꾸거나 두 변수를 객체에 담지 않고 개별 변수로 만드는 게 좋을 것 같습니다 
+//// 변수명을 포괄적으로 바꾸거나 두 변수를 객체에 담지 않고 개별 변수로 만드는 게 좋을 것 같습니다 : 22
 let nodeAndMaxDistance = { node: 0, distance: 0 };
 
 for (let i = 0; i < V; i++) {
