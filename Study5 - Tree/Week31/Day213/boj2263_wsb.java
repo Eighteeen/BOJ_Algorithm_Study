@@ -9,6 +9,8 @@ class Main {
     static StringBuilder preOrders;
 
     //// 488ms로 시간 효율이 굉장히 높게 채점 결과가 나와있는데 비결이 뭔가요
+    //// -> inOrderIdxArr 로 idx를 찾는 순회를 줄여서 시간을 줄일 수 있었습니다.
+    //// -> kjh의 코드에서의 keySet보다 idx로 바로 찾는 방법에서 시간 효율이 좀 더 좋게 나오지 않았나 싶습니다.
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
