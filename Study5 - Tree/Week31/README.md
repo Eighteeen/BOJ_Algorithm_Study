@@ -59,9 +59,9 @@
 
 ## [217일차](Day217) : Pairing Day
 
-> [문제집설명](문제집링크)
+> [트리 심화](https://www.acmicpc.net/group/workbook/view/9797/35949)
 
 | 사이트 | 번호 | 문제                 | 답안                | Pair Programming    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 0    | <sub>![Gold2]</sub> [준오는 최종인재야!!](https://www.acmicpc.net/problem/14657) | 진홍승빈수경 | Driver 🚗 진홍 & Navigator 🧭 승빈수경 |
+| 백준   | 14657    | <sub>![Gold2]</sub> [준오는 최종인재야!!](https://www.acmicpc.net/problem/14657) | 진홍승빈수경 | Driver 🚗 진홍 & Navigator 🧭 승빈수경 |
 
