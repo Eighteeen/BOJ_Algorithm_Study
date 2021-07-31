@@ -16,6 +16,7 @@ class Main {
         br.close();
     }
 
+    //// 깔끔해요
     static long minNumOfVisitedCar(int treeHeight) {
         if (minNumOfVisitedCarArr[treeHeight] != 0) return minNumOfVisitedCarArr[treeHeight];
 
