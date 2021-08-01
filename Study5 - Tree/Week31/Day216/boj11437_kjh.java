@@ -6,6 +6,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.ArrayList;
 
+//// 깔끔합니다.
 class Main {
   static Map<Integer, Node> nodeMap;
   static int[] parentInfos;
@@ -66,6 +67,7 @@ class Main {
     }
   }
 
+  /// LCA(Lowest Common Ancestor) 라고 널리 사용되는 용어가 있는데 굳이 MostRecent라는 용어를 쓸 필요는 없어보입니다. (흠칫 3초 혼돈)
   static int getMostRecentCommonAncestor(int targetNodeA, int targetNodeB) {
     int depthA = depthInfos[targetNodeA];
     int depthB = depthInfos[targetNodeB];
