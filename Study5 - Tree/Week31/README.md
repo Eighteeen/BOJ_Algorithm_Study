@@ -47,7 +47,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 12888 | <sub>![Gold4]</sub> [완전 이진 트리 도로 네트워크](https://www.acmicpc.net/problem/12888) | [진홍](Day215/boj12888_kjh.java) [승빈](Day215/boj12888_wsb.java) [수경](Day215/boj12888_hsk.py) | [진홍](Day215/boj12888_kjh.java) 승빈 수경 |
+| 백준   | 12888 | <sub>![Gold4]</sub> [완전 이진 트리 도로 네트워크](https://www.acmicpc.net/problem/12888) | [진홍](Day215/boj12888_kjh.java) [승빈](Day215/boj12888_wsb.java) [수경](Day215/boj12888_hsk.py) | [진홍](Day215/boj12888_kjh.java) 승빈 [수경](Day215/boj12888_hsk.py) |
 
 ## [216일차](Day216)
 
