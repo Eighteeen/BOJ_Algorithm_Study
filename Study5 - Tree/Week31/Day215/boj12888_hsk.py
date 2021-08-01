@@ -10,7 +10,7 @@ numOfCarNeeded = [1] * (H + 2)
 numOfCarNeeded[0] = 1
 numOfCarNeeded[1] = 1
 
-## 이런 규칙도 있군요
+## 이런 규칙도 있군요 : 22 규칙을 잘 찾으신 것 같아요!
 for i in range(2, H + 1):
     if i % 2 == 0:
         numOfCarNeeded[i] = 2 * numOfCarNeeded[i - 1] + 1;

@@ -15,7 +15,7 @@ class Main {
     System.out.print(leastCars);
   }
 
-  //// 깔끔해요
+  //// 깔끔해요 : 22
   static Long getLeastCars(int height) {
     if (leastCarsForEachHeight[height] != null) {
       return leastCarsForEachHeight[height];
