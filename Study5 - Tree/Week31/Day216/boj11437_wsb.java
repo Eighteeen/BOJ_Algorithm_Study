@@ -70,10 +70,10 @@ class NodeMap {
 
     public void setOneWayTree(int rootData) {
         Node root = findNode(rootData);
-        setOneWayTreeAndInfoArrs(root);
+        setOneWayTreeAndInfos(root);
     }
 
-    private void setOneWayTreeAndInfoArrs(Node parentNode) {
+    private void setOneWayTreeAndInfos(Node parentNode) {
         int parentData = parentNode.getData();
         int childDepth = depthArr[parentData] + 1;
         for (Node child : parentNode.getAdjacentNodeList()) {
@@ -82,7 +82,7 @@ class NodeMap {
 
             depthArr[childData] = childDepth;
             parentDataArr[childData] = parentData;
-            setOneWayTreeAndInfoArrs(child);
+            setOneWayTreeAndInfos(child);
         }
     }
 
