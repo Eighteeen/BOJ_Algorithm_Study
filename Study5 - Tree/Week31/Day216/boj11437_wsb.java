@@ -9,7 +9,7 @@ class Main {
         StringBuilder sb = new StringBuilder();
 
         int N = Integer.parseInt(br.readLine());
-        NodeMap nodeMap = new NodeMap();
+        NodeMap nodeMap = new NodeMap(N);
         
         while (--N > 0) {
             String[] nodeInfo = br.readLine().split(" ");
@@ -19,7 +19,7 @@ class Main {
             nodeMap.setNodes(dataA, dataB);
         }
 
-        nodeMap.setNodesDepth(1);
+        nodeMap.setOneWayTree(1);
 
         int M = Integer.parseInt(br.readLine());
         while (M-- > 0) {
@@ -27,7 +27,7 @@ class Main {
             int dataA = Integer.parseInt(lcaNodeInfo[0]);
             int dataB = Integer.parseInt(lcaNodeInfo[1]);
 
-            sb.append(nodeMap.LCA(dataA, dataB).getData()).append("\n");
+            sb.append(nodeMap.getLcaData(dataA, dataB)).append("\n");
         }
 
         System.out.print(sb);
@@ -37,11 +37,16 @@ class Main {
 
 class NodeMap {
     private Map<Integer, Node> nodeMap = new HashMap<>();
+    private int[] depthArr;
+    private int[] parentDataArr;
+
+    public NodeMap(int nodeSize) {
+        depthArr = new int[nodeSize + 1];
+        parentDataArr = new int[nodeSize + 1];
+    }
 
     public Node findNode(int data) {
-        Node node = nodeMap.get(data);
-        if (node != null) return node;
-        return getNode(data);
+        return nodeMap.get(data);
     }
 
     public void setNodes(int dataA, int dataB) {
@@ -63,55 +68,53 @@ class NodeMap {
         return node;
     }
 
-    public void setNodesDepth(int rootData) {
+    public void setOneWayTree(int rootData) {
         Node root = findNode(rootData);
-        setNodesDepth(root);
+        setOneWayTreeAndInfoArrs(root);
     }
 
-    private void setNodesDepth(Node parentNode) {
-        int childDepth = parentNode.getDepth() + 1;
+    private void setOneWayTreeAndInfoArrs(Node parentNode) {
+        int parentData = parentNode.getData();
+        int childDepth = depthArr[parentData] + 1;
         for (Node child : parentNode.getAdjacentNodeList()) {
+            int childData = child.getData();
             child.removeAdjacentNode(parentNode);
-            child.setParent(parentNode);
-            child.setDepth(childDepth);
-            setNodesDepth(child);
+
+            depthArr[childData] = childDepth;
+            parentDataArr[childData] = parentData;
+            setOneWayTreeAndInfoArrs(child);
         }
     }
 
-    public Node LCA(int dataA, int dataB) {
-        Node nodeA = findNode(dataA);
-        Node nodeB = findNode(dataB);
-        int depthA = nodeA.getDepth();
-        int depthB = nodeB.getDepth();
+    public int getLcaData(int dataA, int dataB) {
+        int depthA = depthArr[dataA];
+        int depthB = depthArr[dataB];
         
-        if (depthA > depthB) nodeA = getAncestorNode(nodeA, depthA - depthB);
-        else if (depthA < depthB) nodeB = getAncestorNode(nodeB, depthB - depthA);
+        if (depthA > depthB) dataA = getAncestorNode(dataA, depthA - depthB);
+        else if (depthA < depthB) dataB = getAncestorNode(dataB, depthB - depthA);
 
-        return LCA(nodeA, nodeB);
+        return LCA(dataA, dataB);
     }
 
-    private Node getAncestorNode(Node node, int ancestorStep) {
+    private int getAncestorNode(int nodeData, int ancestorStep) {
         while (ancestorStep-- > 0) {
-            node = node.getParent();
+            nodeData = parentDataArr[nodeData];
         }
-        return node;
+        return nodeData;
     }
 
-    private Node LCA(Node nodeA, Node nodeB) {
-        if (nodeA == nodeB) return nodeA;
+    private int LCA(int dataA, int dataB) {
+        if (dataA == dataB) return dataA;
 
-        Node parentA = nodeA.getParent();
-        Node parentB = nodeB.getParent();
+        int parentA = parentDataArr[dataA];
+        int parentB = parentDataArr[dataB];
 
-        if (parentA == parentB) return parentA;
         return LCA(parentA, parentB);
     }
 }
 
 class Node {
     private int data;
-    private int depth = 0;
-    private Node parent;
     private List<Node> adjacentNodeList;
 
     public Node(int data) {
@@ -123,24 +126,8 @@ class Node {
         return data;
     }
 
-    public int getDepth() {
-        return depth;
-    }
-
-    public Node getParent() {
-        return parent;
-    }
-
     public List<Node> getAdjacentNodeList() {
         return adjacentNodeList;
-    }
-
-    public void setParent(Node node) {
-        parent = node;
-    }
-
-    public void setDepth(int depth) {
-        this.depth = depth;
     }
 
     public void addAdjacentNode(Node node) {
