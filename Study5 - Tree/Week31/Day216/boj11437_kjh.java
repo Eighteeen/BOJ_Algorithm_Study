@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.ArrayList;
 
-//// 깔끔합니다.
+//// 깔끔합니다. : 22
 class Main {
   static Map<Integer, Node> nodeMap;
   static int[] parentInfos;
