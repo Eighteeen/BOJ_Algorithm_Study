@@ -21,6 +21,7 @@ class Main {
         }
 
         //// NodeMap 클래스 참 괜찮네요
+        //// -> 여러가지로 활용하는 중 ^^
         nodeMap.setOneWayTree(1);
 
         int M = Integer.parseInt(br.readLine());
