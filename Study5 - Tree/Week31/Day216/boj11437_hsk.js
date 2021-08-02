@@ -31,7 +31,7 @@ const input = (() => {
   return () => stdin[line++];
 })();
 
-//// 깔끔합니다.
+//// 깔끔합니다. :22
 const getLCA = (nodeA, nodeB) => {
   let depthA = depthNodeList[nodeA];
   let depthB = depthNodeList[nodeB];
@@ -54,8 +54,8 @@ const getLCA = (nodeA, nodeB) => {
   return nodeA;
 };
 
-//// visitedNode는 list 혹은 arr 라는 용어가 함께 있으면 좋을 것 같습니다.
-//// visitedNode가 makeTree에서만 쓰이니 함수 내에서 선언하면 더욱 깔끔할 것 같습니다.
+//// visitedNode는 list 혹은 arr 라는 용어가 함께 있으면 좋을 것 같습니다. :22 복수형도 괜춘할듯
+//// visitedNode가 makeTree에서만 쓰이니 함수 내에서 선언하면 더욱 깔끔할 것 같습니다. :22
 const makeTree = (root) => {
   visitedNode[root] = true;
 

@@ -19,6 +19,7 @@ class Main {
             nodeMap.setNodes(dataA, dataB);
         }
 
+        //// NodeMap 클래스 참 괜찮네요
         nodeMap.setOneWayTree(1);
 
         int M = Integer.parseInt(br.readLine());
@@ -103,6 +104,7 @@ class NodeMap {
         return nodeData;
     }
 
+    //// 재귀를 익히고 나니 재귀가 확실히 직관적이긴 하네요 ㅋㅋ
     private int LCA(int dataA, int dataB) {
         if (dataA == dataB) return dataA;
 
