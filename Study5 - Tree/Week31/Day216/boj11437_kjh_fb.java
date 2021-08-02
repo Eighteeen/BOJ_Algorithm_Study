@@ -39,7 +39,7 @@ class Main {
       int targetNodeNumA = Input.nextInt();
       int targetNodeNumB = Input.nextInt();
 
-      result.append(getMostRecentCommonAncestor(targetNodeNumA, targetNodeNumB)).append('\n');
+      result.append(getLowestCommonAncestor(targetNodeNumA, targetNodeNumB)).append('\n');
     }
 
     System.out.print(result);
@@ -70,7 +70,7 @@ class Main {
   /// 없어보입니다. (흠칫 3초 혼돈)
   /// => 프로그래밍 쪽에선 거의 그렇게 부르니 그렇긴하네요
   /// => 반영했슴다! 피드백 고마워요
-  static int getMostRecentCommonAncestor(int targetNodeA, int targetNodeB) {
+  static int getLowestCommonAncestor(int targetNodeA, int targetNodeB) {
     int depthA = depthInfos[targetNodeA];
     int depthB = depthInfos[targetNodeB];
 
