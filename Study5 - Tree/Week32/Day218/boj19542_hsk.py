@@ -3,7 +3,7 @@ import sys
 input = sys.stdin.readline
 sys.setrecursionlimit(10 ** 9)
 
-
+## 무난
 def calcMaxDepthAbleToDeliver(curNode):
     maxDepth = 0
 
@@ -20,6 +20,7 @@ def getTotalDistanceToMove():
     distance = 0
     
     for i in range(1, N + 1):
+        ## or 구분 문장 각자에 괄호가 있으면 가독성이 높아질 것 같습니다.
         if maxDepthOfNodeList[i] < D or i == S: continue;        
         distance += 1;
     
@@ -36,7 +37,7 @@ for _ in range(N - 1):
     tree[nodeA].append(nodeB)
     tree[nodeB].append(nodeA)
 
-## 세미콜론 있어도 괜찮아요?
+## 세미콜론 있어도 괜찮아요? : 22 괜찮더라도 없으면 아예 없애는 게 깔끔할 것 같아요
 visitedNodes[S] = True;
 calcMaxDepthAbleToDeliver(S);
 print(getTotalDistanceToMove())
