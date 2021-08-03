@@ -27,6 +27,7 @@ def getTotalDistanceToMove():
 
 N, S, D = map(int, input().split())
 tree = [[] for _ in range(N + 1)]
+## 항상 파이썬 문법 배워가요
 maxDepthOfNodeList = [0] * (N + 1)
 visitedNodes = [False] * (N + 1)
 
@@ -35,6 +36,7 @@ for _ in range(N - 1):
     tree[nodeA].append(nodeB)
     tree[nodeB].append(nodeA)
 
+## 세미콜론 있어도 괜찮아요?
 visitedNodes[S] = True;
 calcMaxDepthAbleToDeliver(S);
 print(getTotalDistanceToMove())

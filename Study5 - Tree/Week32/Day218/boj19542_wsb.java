@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
+//// 깔꼼~
 class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -65,6 +66,8 @@ class NodeMap {
         Node root = findNode(rootData);
         this.distanceNotGoing = distanceNotGoing;
         roundDistance = 0;
+        //// "'RoundDistance를 세팅하는 리프'로부터의 깊이"를 구하는 함수로 읽혀요
+        //// setRoundDistanceAndReturnDepthFromLeaf는 어때요
         getDepthFromLeafSettingRoundDistance(root);
         return roundDistance * 2;
     }
