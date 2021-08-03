@@ -40,7 +40,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | Pair Programming    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 14601 | <sub>![Gold1]</sub> [샤워실 바닥 깔기 (Large)](https://www.acmicpc.net/problem/14601) | [진홍승빈](https://github.com/Eighteeen/Algorithm_Study/blob/main/Study3%20-%20Recursion/Week17/Day118/boj14601_kjhwsb.java) | Driver 🚗 진홍 & Navigator 🧭 승빈 |
+| 백준   | 14601 | [<sub>![Gold1]</sub> 샤워실 바닥 깔기 (Large)](https://www.acmicpc.net/problem/14601) | [진홍승빈](https://github.com/Eighteeen/Algorithm_Study/blob/main/Study3%20-%20Recursion/Week17/Day118/boj14601_kjhwsb.java) | Driver 🚗 진홍 & Navigator 🧭 승빈 |
 
 > 비트마스크
 * 발표자료 [진홍](../reference/kjh.pdf)
@@ -52,4 +52,4 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 1094    | <sub>![Silver5]</sub> [막대기](https://www.acmicpc.net/problem/1094) | [진홍](Day119/boj1094_kjh.java) [승빈](Day119/boj1094_wsb.java) | [진홍](Day119/boj1094_kjh.java) [승빈](Day119/boj1094_wsb.java) |
+| 백준   | 1094    | [<sub>![Silver5]</sub> 막대기](https://www.acmicpc.net/problem/1094) | [진홍](Day119/boj1094_kjh.java) [승빈](Day119/boj1094_wsb.java) | [진홍](Day119/boj1094_kjh.java) [승빈](Day119/boj1094_wsb.java) |

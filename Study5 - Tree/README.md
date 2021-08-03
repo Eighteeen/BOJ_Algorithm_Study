@@ -37,50 +37,50 @@
 - 정리: [진홍](reference/kjh.pdf) [승빈](reference/wsb.pdf)
 
 ## 푼 문제
-<sub>![Silver4]</sub> [트리 만들기](https://www.acmicpc.net/problem/14244) |
-<sub>![Silver4]</sub> [무한이진트리](https://www.acmicpc.net/problem/2078) |
-<sub>![Silver1]</sub> [완전 이진 트리](https://www.acmicpc.net/problem/9934) |
-<sub>![Silver1]</sub> [트리 순회](https://www.acmicpc.net/problem/1991) |
-<sub>![Silver4]</sub> [상근이의 여행](https://www.acmicpc.net/problem/9372) |
-<sub>![Silver2]</sub> [트리의 부모 찾기](https://www.acmicpc.net/problem/11725) |
-<sub>![Gold5]</sub> [트리](https://www.acmicpc.net/problem/1068) |
-<sub>![Silver3]</sub> [30번](https://www.acmicpc.net/problem/13116) |
-<sub>![Silver3]</sub> [너구리 구구](https://www.acmicpc.net/problem/18126) |
-<sub>![Silver1]</sub> [이진 검색 트리](https://www.acmicpc.net/problem/5639) |
-<sub>![Silver2]</sub> [부동산 다툼](https://www.acmicpc.net/problem/20364) |
-<sub>![Silver3]</sub> [Grass Planting](https://www.acmicpc.net/problem/17024) |
-<sub>![Silver1]</sub> [나무 탈출](https://www.acmicpc.net/problem/15900) |
-<sub>![Gold5]</sub> [얼음깨기 펭귄](https://www.acmicpc.net/problem/21738) |
-<sub>![Silver5]</sub> [Numbers On a Tree](https://www.acmicpc.net/problem/11203) |
-<sub>![Silver3]</sub> [Inherited disease](https://www.acmicpc.net/problem/10897) |
-<sub>![Silver5]</sub> [Drzewko](https://www.acmicpc.net/problem/8680) |
-<sub>![Gold5]</sub> [트리인가?](https://www.acmicpc.net/problem/6416) |
-<sub>![Gold5]</sub> [단절점과 단절선](https://www.acmicpc.net/problem/14675) |
-<sub>![Silver3]</sub> [Binary tree](https://www.acmicpc.net/problem/13237) |
-<sub>![Gold4]</sub> [트리의 지름](https://www.acmicpc.net/problem/1967) |
-<sub>![Gold3]</sub> [ㄷㄷㄷㅈ](https://www.acmicpc.net/problem/19535) |
-<sub>![Silver1]</sub> [트리 나라 관광 가이드](https://www.acmicpc.net/problem/15805) |
-<sub>![Gold5]</sub> [트리와 쿼리](https://www.acmicpc.net/problem/15681) |
-<sub>![Gold5]</sub> [중첩 집합 모델](https://www.acmicpc.net/problem/19641) |
-<sub>![Gold5]</sub> [나무 위의 빗물](https://www.acmicpc.net/problem/17073) |
-<sub>![Gold4]</sub> [전화번호 목록](https://www.acmicpc.net/problem/5052) |
-<sub>![Gold4]</sub> [가장 가까운 공통 조상](https://www.acmicpc.net/problem/3584) |
-<sub>![Gold4]</sub> [회사 문화 1](https://www.acmicpc.net/problem/14267) |
-<sub>![Gold3]</sub> [트리의 순회](https://www.acmicpc.net/problem/2263) |
-<sub>![Gold3]</sub> [트리의 지름](https://www.acmicpc.net/problem/1167) |
-<sub>![Gold4]</sub> [완전 이진 트리 도로 네트워크](https://www.acmicpc.net/problem/12888) |
-<sub>![Gold3]</sub> [LCA](https://www.acmicpc.net/problem/11437) |
-<sub>![Gold2]</sub> [준오는 최종인재야!!](https://www.acmicpc.net/problem/14657) |
-<sub>![Gold4]</sub> [전단지 돌리기](https://www.acmicpc.net/problem/19542) |
-<sub>![Gold3]</sub> [인하니카 공화국](https://www.acmicpc.net/problem/12784) |
+[<sub>![Silver4]</sub> 트리 만들기](https://www.acmicpc.net/problem/14244) |
+[<sub>![Silver4]</sub> 무한이진트리](https://www.acmicpc.net/problem/2078) |
+[<sub>![Silver1]</sub> 완전 이진 트리](https://www.acmicpc.net/problem/9934) |
+[<sub>![Silver1]</sub> 트리 순회](https://www.acmicpc.net/problem/1991) |
+[<sub>![Silver4]</sub> 상근이의 여행](https://www.acmicpc.net/problem/9372) |
+[<sub>![Silver2]</sub> 트리의 부모 찾기](https://www.acmicpc.net/problem/11725) |
+[<sub>![Gold5]</sub> 트리](https://www.acmicpc.net/problem/1068) |
+[<sub>![Silver3]</sub> 30번](https://www.acmicpc.net/problem/13116) |
+[<sub>![Silver3]</sub> 너구리 구구](https://www.acmicpc.net/problem/18126) |
+[<sub>![Silver1]</sub> 이진 검색 트리](https://www.acmicpc.net/problem/5639) |
+[<sub>![Silver2]</sub> 부동산 다툼](https://www.acmicpc.net/problem/20364) |
+[<sub>![Silver3]</sub> Grass Planting](https://www.acmicpc.net/problem/17024) |
+[<sub>![Silver1]</sub> 나무 탈출](https://www.acmicpc.net/problem/15900) |
+[<sub>![Gold5]</sub> 얼음깨기 펭귄](https://www.acmicpc.net/problem/21738) |
+[<sub>![Silver5]</sub> Numbers On a Tree](https://www.acmicpc.net/problem/11203) |
+[<sub>![Silver3]</sub> Inherited disease](https://www.acmicpc.net/problem/10897) |
+[<sub>![Silver5]</sub> Drzewko](https://www.acmicpc.net/problem/8680) |
+[<sub>![Gold5]</sub> 트리인가?](https://www.acmicpc.net/problem/6416) |
+[<sub>![Gold5]</sub> 단절점과 단절선](https://www.acmicpc.net/problem/14675) |
+[<sub>![Silver3]</sub> Binary tree](https://www.acmicpc.net/problem/13237) |
+[<sub>![Gold4]</sub> 트리의 지름](https://www.acmicpc.net/problem/1967) |
+[<sub>![Gold3]</sub> ㄷㄷㄷㅈ](https://www.acmicpc.net/problem/19535) |
+[<sub>![Silver1]</sub> 트리 나라 관광 가이드](https://www.acmicpc.net/problem/15805) |
+[<sub>![Gold5]</sub> 트리와 쿼리](https://www.acmicpc.net/problem/15681) |
+[<sub>![Gold5]</sub> 중첩 집합 모델](https://www.acmicpc.net/problem/19641) |
+[<sub>![Gold5]</sub> 나무 위의 빗물](https://www.acmicpc.net/problem/17073) |
+[<sub>![Gold4]</sub> 전화번호 목록](https://www.acmicpc.net/problem/5052) |
+[<sub>![Gold4]</sub> 가장 가까운 공통 조상](https://www.acmicpc.net/problem/3584) |
+[<sub>![Gold4]</sub> 회사 문화 1](https://www.acmicpc.net/problem/14267) |
+[<sub>![Gold3]</sub> 트리의 순회](https://www.acmicpc.net/problem/2263) |
+[<sub>![Gold3]</sub> 트리의 지름](https://www.acmicpc.net/problem/1167) |
+[<sub>![Gold4]</sub> 완전 이진 트리 도로 네트워크](https://www.acmicpc.net/problem/12888) |
+[<sub>![Gold3]</sub> LCA](https://www.acmicpc.net/problem/11437) |
+[<sub>![Gold2]</sub> 준오는 최종인재야!!](https://www.acmicpc.net/problem/14657) |
+[<sub>![Gold4]</sub> 전단지 돌리기](https://www.acmicpc.net/problem/19542) |
+[<sub>![Gold3]</sub> 인하니카 공화국](https://www.acmicpc.net/problem/12784) |
 
 ## 쉬어갔던 문제
-<sub>![Bronze5]</sub> [스타워즈 로고](https://www.acmicpc.net/problem/9653) |
-<sub>![Bronze3]</sub> [별 찍기 - 9](https://www.acmicpc.net/problem/2446) |
-<sub>![Bronze4]</sub> [Even or Odd?](https://www.acmicpc.net/problem/18005) |
-<sub>![Bronze3]</sub> [A+B - 7](https://www.acmicpc.net/problem/11021) |
-<sub>![Bronze5]</sub> [A+B - 2](https://www.acmicpc.net/problem/2558) |
-<sub>![Bronze4]</sub> [Dog Treats](https://www.acmicpc.net/problem/19602) |
-<sub>![Bronze5]</sub> [마이크로소프트 로고](https://www.acmicpc.net/problem/5338) |
-<sub>![Bronze5]</sub> [합](https://www.acmicpc.net/problem/8393) |
-<sub>![Bronze3]</sub> [A+B - 8](https://www.acmicpc.net/problem/11022) |
+[<sub>![Bronze5]</sub> 스타워즈 로고](https://www.acmicpc.net/problem/9653) |
+[<sub>![Bronze3]</sub> 별 찍기 - 9](https://www.acmicpc.net/problem/2446) |
+[<sub>![Bronze4]</sub> Even or Odd?](https://www.acmicpc.net/problem/18005) |
+[<sub>![Bronze3]</sub> A+B - 7](https://www.acmicpc.net/problem/11021) |
+[<sub>![Bronze5]</sub> A+B - 2](https://www.acmicpc.net/problem/2558) |
+[<sub>![Bronze4]</sub> Dog Treats](https://www.acmicpc.net/problem/19602) |
+[<sub>![Bronze5]</sub> 마이크로소프트 로고](https://www.acmicpc.net/problem/5338) |
+[<sub>![Bronze5]</sub> 합](https://www.acmicpc.net/problem/8393) |
+[<sub>![Bronze3]</sub> A+B - 8](https://www.acmicpc.net/problem/11022) |

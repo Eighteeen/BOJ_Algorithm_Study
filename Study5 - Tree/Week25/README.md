@@ -40,7 +40,7 @@
 
 | 사이트 | 번호  | 문제                                              | 답안                                          | Pair Programming                       |
 | ------ | ----- | ------------------------------------------------- | --------------------------------------------- | -------------------------------------- |
-| 백준   | 11811 | <sub>![Silver3]</sub> [데스스타](https://www.acmicpc.net/problem/11811) | [진홍승빈수경](https://github.com/Eighteeen/Algorithm_Study/blob/main/Study4%20-%20Bitmask/Week25/Day174/boj11811_kjhwsbhsk.java) | Driver 🚗 승빈 & Navigator 🧭 진홍수경 |
+| 백준   | 11811 | [<sub>![Silver3]</sub> 데스스타](https://www.acmicpc.net/problem/11811) | [진홍승빈수경](https://github.com/Eighteeen/Algorithm_Study/blob/main/Study4%20-%20Bitmask/Week25/Day174/boj11811_kjhwsbhsk.java) | Driver 🚗 승빈 & Navigator 🧭 진홍수경 |
 
 > 트리
 
@@ -53,4 +53,4 @@
 
 | 사이트 | 번호  | 문제                                                 | 답안                                                                                          | 피드백 반영 답안                                                      |
 | ------ | ----- | ---------------------------------------------------- | --------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
-| 백준   | 14244 | <sub>![Silver4]</sub> [트리 만들기](https://www.acmicpc.net/problem/14244) | [진홍](Day175/boj14244_kjh.java) [승빈](Day175/boj14244_wsb.java) [수경](Day175/boj14244_hsk.js) | [진홍](Day175/boj14244_kjh.java) [승빈](Day175/boj14244_wsb.java) [수경](Day175/boj14244_hsk_fb.js) |
+| 백준   | 14244 | [<sub>![Silver4]</sub> 트리 만들기](https://www.acmicpc.net/problem/14244) | [진홍](Day175/boj14244_kjh.java) [승빈](Day175/boj14244_wsb.java) [수경](Day175/boj14244_hsk.js) | [진홍](Day175/boj14244_kjh.java) [승빈](Day175/boj14244_wsb.java) [수경](Day175/boj14244_hsk_fb.js) |

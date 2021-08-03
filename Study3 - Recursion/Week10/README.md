@@ -40,7 +40,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | Pair Programming    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 6576 | <sub>![Silver3]</sub> [쿼드 트리](https://www.acmicpc.net/problem/6576) | [진홍승빈](Day64/boj6576_kjhwsb.java) | Driver 🚗 진홍 & Navigator 🧭 승빈 |
+| 백준   | 6576 | [<sub>![Silver3]</sub> 쿼드 트리](https://www.acmicpc.net/problem/6576) | [진홍승빈](Day64/boj6576_kjhwsb.java) | Driver 🚗 진홍 & Navigator 🧭 승빈 |
 
 ## [65일차](Day65)
 
@@ -48,7 +48,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 10997    | <sub>![Silver2]</sub> [별 찍기 - 22](https://www.acmicpc.net/problem/10997) | [진홍](Day65/boj10997_kjh.java) [승빈](Day65/boj10997_wsb.java) | [진홍](Day65/bkj10997_kjh_fb.java) [승빈](Day65/boj10997_wsb.java) |
+| 백준   | 10997    | [<sub>![Silver2]</sub> 별 찍기 - 22](https://www.acmicpc.net/problem/10997) | [진홍](Day65/boj10997_kjh.java) [승빈](Day65/boj10997_wsb.java) | [진홍](Day65/bkj10997_kjh_fb.java) [승빈](Day65/boj10997_wsb.java) |
 
 ## [66일차](Day66)
 
@@ -56,7 +56,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 1978 | <sub>![Silver4]</sub> [소수 찾기](https://www.acmicpc.net/problem/1978) | [진홍](Day66/boj1978_kjh.java) [승빈](Day66/boj1978_wsb.java) | [진홍](Day66/boj1978_kjh.java) [승빈](Day66/boj1978_wsb.java) |
+| 백준   | 1978 | [<sub>![Silver4]</sub> 소수 찾기](https://www.acmicpc.net/problem/1978) | [진홍](Day66/boj1978_kjh.java) [승빈](Day66/boj1978_wsb.java) | [진홍](Day66/boj1978_kjh.java) [승빈](Day66/boj1978_wsb.java) |
 
 ## [67일차](Day67)
 
@@ -64,7 +64,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 2108    | <sub>![Silver4]</sub> [통계학](https://www.acmicpc.net/problem/2108) | [진홍](bj2108_kjh.java) [승빈](Day67/boj2108_wsb.java) | [진홍](Day67/boj2109_kjh_fb.java) [승빈](Day67/boj2108_wsb.java) |
+| 백준   | 2108    | [<sub>![Silver4]</sub> 통계학](https://www.acmicpc.net/problem/2108) | [진홍](bj2108_kjh.java) [승빈](Day67/boj2108_wsb.java) | [진홍](Day67/boj2109_kjh_fb.java) [승빈](Day67/boj2108_wsb.java) |
 
 ## [68일차](Day68)
 
@@ -72,7 +72,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 2164 | <sub>![Silver4]</sub> [카드2](https://www.acmicpc.net/problem/2164) | [진홍](Day68/boj2164_kjh.java) [승빈](Day68/boj2164_wsb.java) | [진홍](Day68/boj2164_kjh_fb.java) [승빈](Day68/boj2164_wsb.java) |
+| 백준   | 2164 | [<sub>![Silver4]</sub> 카드2](https://www.acmicpc.net/problem/2164) | [진홍](Day68/boj2164_kjh.java) [승빈](Day68/boj2164_wsb.java) | [진홍](Day68/boj2164_kjh_fb.java) [승빈](Day68/boj2164_wsb.java) |
 
 ## [69일차](Day69)
 
@@ -80,7 +80,7 @@
 
 | 사이트 | 번호   | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 11651    | <sub>![Silver5]</sub> [좌표 정렬하기 2](https://www.acmicpc.net/problem/11651) | [진홍](Day69/boj11651_kjh.java) [승빈](Day69/boj11651_wsb.java) | [진홍](Day69/boj11651_kjh.java) [승빈](Day69/boj11651_wsb.java) |
+| 백준   | 11651    | [<sub>![Silver5]</sub> 좌표 정렬하기 2](https://www.acmicpc.net/problem/11651) | [진홍](Day69/boj11651_kjh.java) [승빈](Day69/boj11651_wsb.java) | [진홍](Day69/boj11651_kjh.java) [승빈](Day69/boj11651_wsb.java) |
 
 ## [70일차](Day70)
 
@@ -88,4 +88,4 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 10816 | <sub>![Silver4]</sub> [숫자 카드 2](https://www.acmicpc.net/problem/10816) | [진홍](Day70/boj10816_kjh.java) [승빈](Day70/boj10816_wsb.java) | [진홍](Day70/boj10816_kjh.java) [승빈](Day70/boj10816_wsb_fb.java) |
+| 백준   | 10816 | [<sub>![Silver4]</sub> 숫자 카드 2](https://www.acmicpc.net/problem/10816) | [진홍](Day70/boj10816_kjh.java) [승빈](Day70/boj10816_wsb.java) | [진홍](Day70/boj10816_kjh.java) [승빈](Day70/boj10816_wsb_fb.java) |

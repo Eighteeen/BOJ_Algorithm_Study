@@ -15,7 +15,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 3584    | <sub>![Gold4]</sub> [가장 가까운 공통 조상](https://www.acmicpc.net/problem/3584) | [진홍](Day211/boj3584_kjh.java) [승빈](Day211/boj3584_wsb.java) [수경](Day211/boj3584_hsk.js) | [진홍](Day211/boj3584_kjh.java) [승빈](Day211/boj3584_wsb.java) [수경](Day211/boj3584_hsk_fb.js) |
+| 백준   | 3584    | [<sub>![Gold4]</sub> 가장 가까운 공통 조상](https://www.acmicpc.net/problem/3584) | [진홍](Day211/boj3584_kjh.java) [승빈](Day211/boj3584_wsb.java) [수경](Day211/boj3584_hsk.js) | [진홍](Day211/boj3584_kjh.java) [승빈](Day211/boj3584_wsb.java) [수경](Day211/boj3584_hsk_fb.js) |
 
 ## [212일차](Day212)
 
@@ -23,7 +23,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 14267 | <sub>![Gold4]</sub> [회사 문화 1](https://www.acmicpc.net/problem/14267) | [진홍](Day212/boj14267_kjh.java) [승반](Day212/boj14267_wsb.java) [수경](Day212/boj14267_hsk.js) | [진홍](Day212/boj14267_kjh_fb.java) [승반](Day212/boj14267_wsb.java) [수경](Day212/boj14267_hsk_.js) |
+| 백준   | 14267 | [<sub>![Gold4]</sub> 회사 문화 1](https://www.acmicpc.net/problem/14267) | [진홍](Day212/boj14267_kjh.java) [승반](Day212/boj14267_wsb.java) [수경](Day212/boj14267_hsk.js) | [진홍](Day212/boj14267_kjh_fb.java) [승반](Day212/boj14267_wsb.java) [수경](Day212/boj14267_hsk_.js) |
 
 ## [213일차](Day213)
 
@@ -31,7 +31,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 2263 | <sub>![Gold3]</sub> [트리의 순회](https://www.acmicpc.net/problem/2263) | [진홍](Day213/boj2263_kjh.java) [승빈](Day213/boj2263_wsb.java) [수경](Day213/boj2263_hsk.js) | [진홍](Day213/boj2263_kjh.java) [승빈](Day213/boj2263_wsb.java) [수경](Day213/boj2263_hsk_fb.js) |
+| 백준   | 2263 | [<sub>![Gold3]</sub> 트리의 순회](https://www.acmicpc.net/problem/2263) | [진홍](Day213/boj2263_kjh.java) [승빈](Day213/boj2263_wsb.java) [수경](Day213/boj2263_hsk.js) | [진홍](Day213/boj2263_kjh.java) [승빈](Day213/boj2263_wsb.java) [수경](Day213/boj2263_hsk_fb.js) |
 
 ## [214일차](Day214)
 
@@ -39,7 +39,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 1167    | <sub>![Gold3]</sub> [트리의 지름](https://www.acmicpc.net/problem/1167) | [진홍](Day214/boj1167_kjh.java) [승빈](Day214/boj1167_wsb.java) [수경](Day214/boj1167_hsk.js) | [진홍](Day214/boj1167_kjh_fb.java) [승빈](Day214/boj1167_wsb_fb.java) [수경](Day214/boj1167_hsk_fb.js) |
+| 백준   | 1167    | [<sub>![Gold3]</sub> 트리의 지름](https://www.acmicpc.net/problem/1167) | [진홍](Day214/boj1167_kjh.java) [승빈](Day214/boj1167_wsb.java) [수경](Day214/boj1167_hsk.js) | [진홍](Day214/boj1167_kjh_fb.java) [승빈](Day214/boj1167_wsb_fb.java) [수경](Day214/boj1167_hsk_fb.js) |
 
 ## [215일차](Day215)
 
@@ -47,7 +47,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 12888 | <sub>![Gold4]</sub> [완전 이진 트리 도로 네트워크](https://www.acmicpc.net/problem/12888) | [진홍](Day215/boj12888_kjh.java) [승빈](Day215/boj12888_wsb.java) [수경](Day215/boj12888_hsk.py) | [진홍](Day215/boj12888_kjh.java) [승빈](Day215/boj12888_wsb.java) [수경](Day215/boj12888_hsk.py) |
+| 백준   | 12888 | [<sub>![Gold4]</sub> 완전 이진 트리 도로 네트워크](https://www.acmicpc.net/problem/12888) | [진홍](Day215/boj12888_kjh.java) [승빈](Day215/boj12888_wsb.java) [수경](Day215/boj12888_hsk.py) | [진홍](Day215/boj12888_kjh.java) [승빈](Day215/boj12888_wsb.java) [수경](Day215/boj12888_hsk.py) |
 
 ## [216일차](Day216)
 
@@ -55,7 +55,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 11437 | <sub>![Gold3]</sub> [LCA](https://www.acmicpc.net/problem/11437) | [진홍](Day216/boj11437_kjh.java) [승빈](Day216/boj11437_wsb.java) [수경](Day216/boj11437_hsk.js) | 진홍 [승빈](Day216/boj11437_wsb.java) [수경](Day216/boj11437_hsk_.js) |
+| 백준   | 11437 | [<sub>![Gold3]</sub> LCA](https://www.acmicpc.net/problem/11437) | [진홍](Day216/boj11437_kjh.java) [승빈](Day216/boj11437_wsb.java) [수경](Day216/boj11437_hsk.js) | 진홍 [승빈](Day216/boj11437_wsb.java) [수경](Day216/boj11437_hsk_.js) |
 
 ## [217일차](Day217) : Pairing Day
 
@@ -63,5 +63,5 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | Pair Programming    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 14657    | <sub>![Gold2]</sub> [준오는 최종인재야!!](https://www.acmicpc.net/problem/14657) | [진홍승빈수경](Day217/boj14657_kjhwsbhsk.java) | Driver 🚗 진홍 & Navigator 🧭 승빈수경 |
+| 백준   | 14657    | [<sub>![Gold2]</sub> 준오는 최종인재야!!](https://www.acmicpc.net/problem/14657) | [진홍승빈수경](Day217/boj14657_kjhwsbhsk.java) | Driver 🚗 진홍 & Navigator 🧭 승빈수경 |
 

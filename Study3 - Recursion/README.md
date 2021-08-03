@@ -38,72 +38,72 @@
 > 정리: [진홍](reference/kjh.pdf)
 
 ## 푼 문제
-<sub>![Silver5]</sub> [재귀함수가 뭔가요?](https://www.acmicpc.net/problem/17478) |
-<sub>![Bronze2]</sub> [이진수 변환](https://www.acmicpc.net/problem/10829) |
-<sub>![Silver5]</sub> [3의 배수](https://www.acmicpc.net/problem/1769) |
-<sub>![Silver5]</sub> [별](https://www.acmicpc.net/problem/16505) |
-<sub>![Silver5]</sub> [카드 놓기](https://www.acmicpc.net/problem/5568) |
-<sub>![Silver5]</sub> [큰 수 구성하기](https://www.acmicpc.net/problem/18511) |
-<sub>![Silver1]</sub> [Z](https://www.acmicpc.net/problem/1074) |
-<sub>![Silver4]</sub> [자리배정](https://www.acmicpc.net/problem/10157) |
-<sub>![Silver2]</sub> [하노이 탑](https://www.acmicpc.net/problem/1914) |
-<sub>![Silver4]</sub> [별 찍기 - 19](https://www.acmicpc.net/problem/10994) |
-<sub>![Silver5]</sub> [순열](https://www.acmicpc.net/problem/9742) |
-<sub>![Silver5]</sub> [투자의 귀재 배주형](https://www.acmicpc.net/problem/19947) |
-<sub>![Silver3]</sub> [쿼드 트리](https://www.acmicpc.net/problem/6576) |
-<sub>![Silver2]</sub> [별 찍기 - 22](https://www.acmicpc.net/problem/10997) |
-<sub>![Silver4]</sub> [친구 팰린드롬](https://www.acmicpc.net/problem/15270) |
-<sub>![Silver3]</sub> [The Sierpinski Fractal](https://www.acmicpc.net/problem/6555) |
-<sub>![Silver3]</sub> [색종이 만들기](https://www.acmicpc.net/problem/2630) |
-<sub>![Gold4]</sub> [별 찍기 - 11](https://www.acmicpc.net/problem/2448) |
-<sub>![Silver3]</sub> [칸토어 집합](https://www.acmicpc.net/problem/4779) |
-<sub>![Silver1]</sub> [별 찍기 - 10](https://www.acmicpc.net/problem/2447) |
-<sub>![Silver3]</sub> [쿼드 트리](https://www.acmicpc.net/problem/6580) |
-<sub>![Gold4]</sub> [별 찍기 - 18](https://www.acmicpc.net/problem/10993) |
-<sub>![Silver2]</sub> [로또](https://www.acmicpc.net/problem/6603) |
-<sub>![Gold5]</sub> [오영식의 보물](https://www.acmicpc.net/problem/1631) |
-<sub>![Silver2]</sub> [A와 B 2](https://www.acmicpc.net/problem/12919) |
-<sub>![Silver2]</sub> [종이의 개수](https://www.acmicpc.net/problem/1780) |
-<sub>![Silver2]</sub> [괄호의 값](https://www.acmicpc.net/problem/2504) |
-<sub>![Silver2]</sub> [신나는 함수 실행](https://www.acmicpc.net/problem/9184) |
-<sub>![Silver1]</sub> [Moo 게임](https://www.acmicpc.net/problem/5904) |
-<sub>![Silver1]</sub> [쿼드트리](https://www.acmicpc.net/problem/1992) |
-<sub>![Silver4]</sub> [Alice Through the Looking Glass](https://www.acmicpc.net/problem/6785) |
-<sub>![Gold5]</sub> [압축](https://www.acmicpc.net/problem/1662) |
-<sub>![Silver1]</sub> [Horseshoes](https://www.acmicpc.net/problem/5876) |
-<sub>![Gold5]</sub> [홀수 홀릭 보석](https://www.acmicpc.net/problem/20164) |
-<sub>![Gold5]</sub> [Secret Cow Code](https://www.acmicpc.net/problem/14454) |
-<sub>![Gold5]</sub> [괄호 제거](https://www.acmicpc.net/problem/2800) |
-<sub>![Silver4]</sub> [Skewed Sorting](https://www.acmicpc.net/problem/5985) |
-<sub>![Gold2]</sub> [Secret Code](https://www.acmicpc.net/problem/9994) |
-<sub>![Gold2]</sub> [폰트](https://www.acmicpc.net/problem/9997) |
-<sub>![Silver4]</sub> [The Big Dance](https://www.acmicpc.net/problem/6012) |
-<sub>![Gold1]</sub> [샤워실 바닥 깔기 (Large)](https://www.acmicpc.net/problem/14601) |
+[<sub>![Silver5]</sub> 재귀함수가 뭔가요?](https://www.acmicpc.net/problem/17478) |
+[<sub>![Bronze2]</sub> 이진수 변환](https://www.acmicpc.net/problem/10829) |
+[<sub>![Silver5]</sub> 3의 배수](https://www.acmicpc.net/problem/1769) |
+[<sub>![Silver5]</sub> 별](https://www.acmicpc.net/problem/16505) |
+[<sub>![Silver5]</sub> 카드 놓기](https://www.acmicpc.net/problem/5568) |
+[<sub>![Silver5]</sub> 큰 수 구성하기](https://www.acmicpc.net/problem/18511) |
+[<sub>![Silver1]</sub> Z](https://www.acmicpc.net/problem/1074) |
+[<sub>![Silver4]</sub> 자리배정](https://www.acmicpc.net/problem/10157) |
+[<sub>![Silver2]</sub> 하노이 탑](https://www.acmicpc.net/problem/1914) |
+[<sub>![Silver4]</sub> 별 찍기 - 19](https://www.acmicpc.net/problem/10994) |
+[<sub>![Silver5]</sub> 순열](https://www.acmicpc.net/problem/9742) |
+[<sub>![Silver5]</sub> 투자의 귀재 배주형](https://www.acmicpc.net/problem/19947) |
+[<sub>![Silver3]</sub> 쿼드 트리](https://www.acmicpc.net/problem/6576) |
+[<sub>![Silver2]</sub> 별 찍기 - 22](https://www.acmicpc.net/problem/10997) |
+[<sub>![Silver4]</sub> 친구 팰린드롬](https://www.acmicpc.net/problem/15270) |
+[<sub>![Silver3]</sub> The Sierpinski Fractal](https://www.acmicpc.net/problem/6555) |
+[<sub>![Silver3]</sub> 색종이 만들기](https://www.acmicpc.net/problem/2630) |
+[<sub>![Gold4]</sub> 별 찍기 - 11](https://www.acmicpc.net/problem/2448) |
+[<sub>![Silver3]</sub> 칸토어 집합](https://www.acmicpc.net/problem/4779) |
+[<sub>![Silver1]</sub> 별 찍기 - 10](https://www.acmicpc.net/problem/2447) |
+[<sub>![Silver3]</sub> 쿼드 트리](https://www.acmicpc.net/problem/6580) |
+[<sub>![Gold4]</sub> 별 찍기 - 18](https://www.acmicpc.net/problem/10993) |
+[<sub>![Silver2]</sub> 로또](https://www.acmicpc.net/problem/6603) |
+[<sub>![Gold5]</sub> 오영식의 보물](https://www.acmicpc.net/problem/1631) |
+[<sub>![Silver2]</sub> A와 B 2](https://www.acmicpc.net/problem/12919) |
+[<sub>![Silver2]</sub> 종이의 개수](https://www.acmicpc.net/problem/1780) |
+[<sub>![Silver2]</sub> 괄호의 값](https://www.acmicpc.net/problem/2504) |
+[<sub>![Silver2]</sub> 신나는 함수 실행](https://www.acmicpc.net/problem/9184) |
+[<sub>![Silver1]</sub> Moo 게임](https://www.acmicpc.net/problem/5904) |
+[<sub>![Silver1]</sub> 쿼드트리](https://www.acmicpc.net/problem/1992) |
+[<sub>![Silver4]</sub> Alice Through the Looking Glass](https://www.acmicpc.net/problem/6785) |
+[<sub>![Gold5]</sub> 압축](https://www.acmicpc.net/problem/1662) |
+[<sub>![Silver1]</sub> Horseshoes](https://www.acmicpc.net/problem/5876) |
+[<sub>![Gold5]</sub> 홀수 홀릭 보석](https://www.acmicpc.net/problem/20164) |
+[<sub>![Gold5]</sub> Secret Cow Code](https://www.acmicpc.net/problem/14454) |
+[<sub>![Gold5]</sub> 괄호 제거](https://www.acmicpc.net/problem/2800) |
+[<sub>![Silver4]</sub> Skewed Sorting](https://www.acmicpc.net/problem/5985) |
+[<sub>![Gold2]</sub> Secret Code](https://www.acmicpc.net/problem/9994) |
+[<sub>![Gold2]</sub> 폰트](https://www.acmicpc.net/problem/9997) |
+[<sub>![Silver4]</sub> The Big Dance](https://www.acmicpc.net/problem/6012) |
+[<sub>![Gold1]</sub> 샤워실 바닥 깔기 (Large)](https://www.acmicpc.net/problem/14601) |
 
 ## 쉬어갔던 문제
-<sub>![Silver5]</sub> [최대공약수와 최소공배수](https://www.acmicpc.net/problem/2609) |
-<sub>![Silver4]</sub> [소수 찾기](https://www.acmicpc.net/problem/1978) |
-<sub>![Silver4]</sub> [통계학](https://www.acmicpc.net/problem/2108) |
-<sub>![Silver4]</sub> [카드2](https://www.acmicpc.net/problem/2164) |
-<sub>![Silver5]</sub> [좌표 정렬하기 2](https://www.acmicpc.net/problem/11651) |
-<sub>![Silver4]</sub> [숫자 카드 2](https://www.acmicpc.net/problem/10816) |
-<sub>![Silver4]</sub> [듣보잡](https://www.acmicpc.net/problem/1764) |
-<sub>![Silver5]</sub> [영화감독 숌](https://www.acmicpc.net/problem/1436) |
-<sub>![Bronze2]</sub> [분해합](https://www.acmicpc.net/problem/2231) |
-<sub>![Bronze1]</sub> [달팽이는 올라가고 싶다](https://www.acmicpc.net/problem/2869) |
-<sub>![Silver5]</sub> [집합](https://www.acmicpc.net/problem/11723) |
-<sub>![Bronze4]</sub> [전자레인지](https://www.acmicpc.net/problem/10162) |
-<sub>![Bronze3]</sub> [피보나치 수](https://www.acmicpc.net/problem/2747) |
-<sub>![Bronze2]</sub> [분수찾기](https://www.acmicpc.net/problem/1193) |
-<sub>![Bronze3]</sub> [분산처리](https://www.acmicpc.net/problem/1009) |
-<sub>![Bronze5]</sub> [나는 행복합니다~](https://www.acmicpc.net/problem/14652) |
-<sub>![Bronze5]</sub> [큰 수 A+B](https://www.acmicpc.net/problem/10757) |
-<sub>![Bronze5]</sub> [R2](https://www.acmicpc.net/problem/3046) |
-<sub>![Bronze5]</sub> [1998년생인 내가 태국에서는 2541년생?!](https://www.acmicpc.net/problem/18108) |
-<sub>![Bronze4]</sub> [팀 나누기](https://www.acmicpc.net/problem/13866) |
-<sub>![Bronze4]</sub> [뉴비의 기준은 뭘까?](https://www.acmicpc.net/problem/19944) |
-<sub>![Bronze5]</sub> [꼬마 정민](https://www.acmicpc.net/problem/11382) |
-<sub>![Bronze3]</sub> [부재중 전화](https://www.acmicpc.net/problem/1333) |
-<sub>![Bronze5]</sub> [이상한 기호](https://www.acmicpc.net/problem/15964) |
-<sub>![Bronze3]</sub> [택시 기하학](https://www.acmicpc.net/problem/3053) |
-<sub>![Bronze5]</sub> [제리와 톰](https://www.acmicpc.net/problem/16430) |
+[<sub>![Silver5]</sub> 최대공약수와 최소공배수](https://www.acmicpc.net/problem/2609) |
+[<sub>![Silver4]</sub> 소수 찾기](https://www.acmicpc.net/problem/1978) |
+[<sub>![Silver4]</sub> 통계학](https://www.acmicpc.net/problem/2108) |
+[<sub>![Silver4]</sub> 카드2](https://www.acmicpc.net/problem/2164) |
+[<sub>![Silver5]</sub> 좌표 정렬하기 2](https://www.acmicpc.net/problem/11651) |
+[<sub>![Silver4]</sub> 숫자 카드 2](https://www.acmicpc.net/problem/10816) |
+[<sub>![Silver4]</sub> 듣보잡](https://www.acmicpc.net/problem/1764) |
+[<sub>![Silver5]</sub> 영화감독 숌](https://www.acmicpc.net/problem/1436) |
+[<sub>![Bronze2]</sub> 분해합](https://www.acmicpc.net/problem/2231) |
+[<sub>![Bronze1]</sub> 달팽이는 올라가고 싶다](https://www.acmicpc.net/problem/2869) |
+[<sub>![Silver5]</sub> 집합](https://www.acmicpc.net/problem/11723) |
+[<sub>![Bronze4]</sub> 전자레인지](https://www.acmicpc.net/problem/10162) |
+[<sub>![Bronze3]</sub> 피보나치 수](https://www.acmicpc.net/problem/2747) |
+[<sub>![Bronze2]</sub> 분수찾기](https://www.acmicpc.net/problem/1193) |
+[<sub>![Bronze3]</sub> 분산처리](https://www.acmicpc.net/problem/1009) |
+[<sub>![Bronze5]</sub> 나는 행복합니다~](https://www.acmicpc.net/problem/14652) |
+[<sub>![Bronze5]</sub> 큰 수 A+B](https://www.acmicpc.net/problem/10757) |
+[<sub>![Bronze5]</sub> R2](https://www.acmicpc.net/problem/3046) |
+[<sub>![Bronze5]</sub> 1998년생인 내가 태국에서는 2541년생?!](https://www.acmicpc.net/problem/18108) |
+[<sub>![Bronze4]</sub> 팀 나누기](https://www.acmicpc.net/problem/13866) |
+[<sub>![Bronze4]</sub> 뉴비의 기준은 뭘까?](https://www.acmicpc.net/problem/19944) |
+[<sub>![Bronze5]</sub> 꼬마 정민](https://www.acmicpc.net/problem/11382) |
+[<sub>![Bronze3]</sub> 부재중 전화](https://www.acmicpc.net/problem/1333) |
+[<sub>![Bronze5]</sub> 이상한 기호](https://www.acmicpc.net/problem/15964) |
+[<sub>![Bronze3]</sub> 택시 기하학](https://www.acmicpc.net/problem/3053) |
+[<sub>![Bronze5]</sub> 제리와 톰](https://www.acmicpc.net/problem/16430) |
