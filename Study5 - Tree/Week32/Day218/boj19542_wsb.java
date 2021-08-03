@@ -69,6 +69,7 @@ class NodeMap {
         return roundDistance * 2;
     }
 
+    //// 저는 roundDistance를 따로 계산했는데 한번에 하니까 더 보기 쉬운 것 같아요
     private int getDepthFromLeafSettingRoundDistance(Node node) {
         if (node.isLeafNode()) return 0;
         
