@@ -73,6 +73,7 @@
 [<sub>![Gold2]</sub> 준오는 최종인재야!!](https://www.acmicpc.net/problem/14657) |
 [<sub>![Gold4]</sub> 전단지 돌리기](https://www.acmicpc.net/problem/19542) |
 [<sub>![Gold3]</sub> 인하니카 공화국](https://www.acmicpc.net/problem/12784) |
+[<sub>![Gold2]</sub> 양 구출 작전](https://www.acmicpc.net/problem/16437) |
 
 ## 쉬어갔던 문제
 [<sub>![Bronze5]</sub> 스타워즈 로고](https://www.acmicpc.net/problem/9653) |
