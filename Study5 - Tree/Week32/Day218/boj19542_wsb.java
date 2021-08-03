@@ -30,8 +30,6 @@ class Main {
         System.out.println(nodeMap.getRoundDistance(S, D));
         br.close();
     }
-
-    
 }
 
 class NodeMap {
