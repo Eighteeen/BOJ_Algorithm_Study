@@ -25,8 +25,6 @@ const input = (() => {
 })();
 
 const getMinNumOfDynamite = (curNode, dynamite) => {
-  visitedNodes[1] = true;
-
   let minNumOfDynamite = 0;
 
   for (let node of tree[curNode]) {
@@ -60,6 +58,7 @@ for (let i = 0; i < T; i++) {
     tree[nodeB].push({ connectedNode: nodeA, numOfDynamite: D });
   }
 
+  visitedNodes[1] = true;
   result.push(getMinNumOfDynamite(1, Number.MAX_SAFE_INTEGER));
 }
 console.log(result.join('\n'));
