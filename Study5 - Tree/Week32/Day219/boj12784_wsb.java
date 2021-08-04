@@ -48,6 +48,9 @@ class NodeMap {
     }
 
     //// 이름과 달리 노드를 get하지만은 않는 것 같습니다
+    //// -> getNode를 호출하는 곳에서 기대하는 것은 결국 get을 하는 것이고,
+    //// -> get을 위해서 어떤 행동이 이루어졌는지는 상관할 필요가 없다고 생각하여 getNode라는 표현을 쓰게 되었습니다.
+    //// -> 이 부분은 유지하도록 하겠습니다. 다른 의견도 감사합니다!
     private Node getNode(int data) {
         Node node;
         if (nodeMap.containsKey(data)) {
