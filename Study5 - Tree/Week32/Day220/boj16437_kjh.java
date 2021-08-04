@@ -30,6 +30,7 @@ class Main {
   }
 }
 
+//// 깔끔해요
 class Tree {
   private Map<Integer, Node> nodeMap;
 
@@ -44,6 +45,7 @@ class Tree {
 
   private long getTheMostSheep(Node root) {
     long leftSheep = root.population;
+    //// 음수 곱하기! 생각지 못 한 방법이네요. 다른 방법도 알아갑니다.
     leftSheep *= root.isWolf ? -1 : 1;
 
     for (Node connectedNode : root.connectedNodes) {
