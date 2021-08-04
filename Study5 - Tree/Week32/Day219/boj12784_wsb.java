@@ -46,6 +46,7 @@ class NodeMap {
         nodeB.setAdjacentNode(nodeA, value);
     }
 
+    //// 이름과 달리 노드를 get하지만은 않는 것 같습니다
     private Node getNode(int data) {
         Node node;
         if (nodeMap.containsKey(data)) {

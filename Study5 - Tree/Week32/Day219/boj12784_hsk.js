@@ -52,6 +52,7 @@ for (let i = 0; i < T; i++) {
   visitedNodes = new Array(numOfIslands + 1).fill(false);
 
   for (let j = 1; j < numOfIslands; j++) {
+    //// D 대신 numOfDynamite 했으면 58~59줄에서 이름만 써도 돼서 까리했을 것 같아요 ㅎㅋ
     const [nodeA, nodeB, D] = input().split(' ').map(Number);
 
     tree[nodeA].push({ connectedNode: nodeB, numOfDynamite: D });
