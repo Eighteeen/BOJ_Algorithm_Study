@@ -69,7 +69,7 @@ class Tree {
     }
 
     //// 굳이 array를 쓸 필요가 없어 보입니다.
-    //// IntStream으로 sum을 지정하고 싶다면 array를 사용한다지만, 저장하는 loop 후에 다시 탐색하는 loop를 도는 것은 어색해보입니다.
+    //// IntStream으로 sum을 사용하고 싶다면 array를 사용한다지만, 저장하는 loop 후에 다시 탐색하는 loop를 도는 것은 어색해보입니다.
     int[] childrenLeastDynamites = new int[size];
     for (int i = 0; i < size; i++) {
       childrenLeastDynamites[i] = havingEdges.get(i).getRequiredDynamites();
