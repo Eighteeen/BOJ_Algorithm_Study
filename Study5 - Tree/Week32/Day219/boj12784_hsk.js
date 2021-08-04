@@ -24,6 +24,7 @@ const input = (() => {
   return () => stdin[line++];
 })();
 
+//// 무난 깔끔
 const getMinNumOfDynamite = (curNode, dynamite) => {
   let minNumOfDynamite = 0;
 

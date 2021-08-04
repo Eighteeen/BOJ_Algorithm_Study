@@ -61,10 +61,15 @@ class Tree {
   private int getLeastDynamites(Node root) {
     List<Edge> havingEdges = root.getHavingEdges();
     int size = havingEdges.size();
+    //// 특정하게 123456789 이라는 숫자를 지정해서 다른 뜻이 있나 생각하게 됐어요.
+    //// min 계산을 위해서 반환하는 값이니 (특정한 의미가 없는 값) 어떤 특정한 값을 하드코딩으로 넣는 것 보단
+    //// hsk 코드처럼 max 값을 지정해주는 게 혼돈이 없을 것 같습니다. (Integer.MAX_VALUE)
     if (size == 0) {
       return 123456789;
     }
 
+    //// 굳이 array를 쓸 필요가 없어 보입니다.
+    //// IntStream으로 sum을 지정하고 싶다면 array를 사용한다지만, 저장하는 loop 후에 다시 탐색하는 loop를 도는 것은 어색해보입니다.
     int[] childrenLeastDynamites = new int[size];
     for (int i = 0; i < size; i++) {
       childrenLeastDynamites[i] = havingEdges.get(i).getRequiredDynamites();
