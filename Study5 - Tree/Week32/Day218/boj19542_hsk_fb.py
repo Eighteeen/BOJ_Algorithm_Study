@@ -23,9 +23,9 @@ def getTotalDistanceToMove():
         ## or 구분 문장 각자에 괄호가 있으면 가독성이 높아질 것 같습니다.
         ## 음. 이부분에서는 이미 충분히 가독성이 좋다고 생각하기 떄문에 바꾸지 않겠습니다.
         if maxDepthOfNodeList[i] < D or i == S: continue        
-        distance += 1;
+        distance += 1
     
-    return distance * 2;
+    return distance * 2
 
 N, S, D = map(int, input().split())
 tree = [[] for _ in range(N + 1)]
