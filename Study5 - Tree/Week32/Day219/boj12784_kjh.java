@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.stream.IntStream;
 
+//// 깔쌈
 class Main {
   public static void main(String[] args) throws Exception {
     StringBuilder result = new StringBuilder();
@@ -77,6 +78,7 @@ class Tree {
       childrenLeastDynamites[i] = Math.min(childrenLeastDynamites[i], getLeastDynamites(connectedNode));
     }
 
+    //// stream 패키지 좋네요,,
     return IntStream.of(childrenLeastDynamites).sum();
   }
 
