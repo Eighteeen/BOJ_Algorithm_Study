@@ -29,6 +29,7 @@ const numOfIslands = parseInt(input());
 const treeOfIslands = Array.from(new Array(numOfIslands + 1), () => new Object({ cntAnimals: 0, connectedIsland: [] }));
 for (let i = 2; i <= numOfIslands; i++) {
   const [isWolf, numOfAnimals, island] = input().split(' ');
+
   treeOfIslands[i].cntAnimals = isWolf === 'W' ? -numOfAnimals : numOfAnimals;
   treeOfIslands[island].connectedIsland.push(i);
 }
