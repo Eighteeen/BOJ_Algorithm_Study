@@ -16,7 +16,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 19542 | [<sub>![Gold4]</sub> 전단지 돌리기](https://www.acmicpc.net/problem/19542) | *[진홍](Day218/boj19542_kjh.java)* [승빈](Day218/boj19542_wsb.java) [수경](Day218/boj19542_hsk.py) | *[진홍](Day218/boj19542_kjh_fb.java)* 승빈 수경 |
+| 백준   | 19542 | [<sub>![Gold4]</sub> 전단지 돌리기](https://www.acmicpc.net/problem/19542) | *[진홍](Day218/boj19542_kjh.java)* [승빈](Day218/boj19542_wsb.java) [수경](Day218/boj19542_hsk.py) | *[진홍](Day218/boj19542_kjh_fb.java)* 승빈 [수경](Day218/boj19542_hsk_fb.py) |
 
 ## [219일차](Day219)
 
@@ -32,7 +32,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 16437    | [<sub>![Gold2]</sub> 양 구출 작전](https://www.acmicpc.net/problem/16437) | [진홍](Day220/boj16437_kjh.java) 승빈 수경 | 진홍 승빈 수경 |
+| 백준   | 16437    | [<sub>![Gold2]</sub> 양 구출 작전](https://www.acmicpc.net/problem/16437) | [진홍](Day220/boj16437_kjh.java) 승빈 [수경](Day220/boj16437_hsk.js) | 진홍 승빈 수경 |
 
 ## [221일차](Day221)
 
