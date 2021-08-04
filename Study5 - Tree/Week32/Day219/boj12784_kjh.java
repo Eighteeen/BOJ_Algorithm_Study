@@ -63,7 +63,7 @@ class Tree {
     int size = havingEdges.size();
     //// 특정하게 123456789 이라는 숫자를 지정해서 다른 뜻이 있나 생각하게 됐어요.
     //// min 계산을 위해서 반환하는 값이니 (특정한 의미가 없는 값) 어떤 특정한 값을 하드코딩으로 넣는 것 보단
-    //// hsk 코드처럼 max 값을 지정해주는 게 혼돈이 없을 것 같습니다. (Integer.MAX_VALUE)
+    //// hsk 코드처럼 max 값을 지정해주는 게 혼돈이 줄어들 것 같습니다. (Integer.MAX_VALUE)
     if (size == 0) {
       return 123456789;
     }
