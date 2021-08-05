@@ -3,7 +3,9 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 import java.util.List;
 import java.util.ArrayList;
-import java.util.Stack
+import java.util.Map;
+import java.util.HashMap;
+import java.util.Stack;
 
 class Main {
   public static void main(String[] args) throws Exception {
@@ -50,7 +52,6 @@ class Main {
 class Tree {
   private int nodeAmount;
   private List<Integer>[] connectedInfos;
-  private int[] parentInfos;
 
   public Tree(int nodeAmount) {
     this.nodeAmount = nodeAmount;
@@ -63,19 +64,58 @@ class Tree {
   }
 
   public List<Integer> getCycleNodes() {
-    return null;
+    Stack<Integer> stack = new Stack<>();
+    stack.push(1);
+
+    boolean[] isVisited = new boolean[nodeAmount + 1];
+    int[] parentInfos = new int[nodeAmount + 1];
+
+    Integer node;
+    while (true) {
+      node = stack.pop();
+      if (isVisited[node]) {
+        break;
+      }
+      isVisited[node] = true;
+      
+      for (Integer connectedNode : connectedInfos[node]) {
+        if (parentInfos[node] == connectedNode) {
+          continue;
+        }
+        stack.push(connectedNode);
+        parentInfos[connectedNode] = node;
+      }
+    }
+
+    List<Integer> cycleNodes = new ArrayList<>();
+
+    Integer cycleBegin = node;
+    do {
+      cycleNodes.add(node);
+      node = parentInfos[node];
+    } while (node != cycleBegin);
+
+    return cycleNodes;
   }
 
   public List<Integer> getAncestorsExceptCycle(int root, List<Integer> cycleNodes) {
     List<Integer> ancestors = new ArrayList<>();
-    ancestors.add(root);
+    
+    Stack<Integer> stack = new Stack<>();
+    boolean[] isVisited = new boolean[nodeAmount + 1];
+    stack.push(root);
 
-    List<Integer> connectedNodes = connectedInfos[root];
-    for (Integer connectedNode : connectedNodes) {
-      if (connectedNode == root || cycleNodes.contains(connectedNode)) {
-        continue;
+    while (stack.size() > 0) {
+      Integer node = stack.pop();
+      isVisited[node] = true;
+
+      ancestors.add(node);
+      for (Integer connectedNode : connectedInfos[node]) {
+        if (cycleNodes.contains(connectedNode) || isVisited[connectedNode]) {
+          continue;
+        }
+        stack.push(connectedNode);
       }
-      ancestors.addAll(getAncestorsExceptCycle(connectedNode, cycleNodes));
     }
 
     return ancestors;
