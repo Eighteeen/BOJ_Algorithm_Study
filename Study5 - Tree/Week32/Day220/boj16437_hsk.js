@@ -20,6 +20,7 @@ const getNumOfRescuedSheeps = (curNode) => {
     numOfRescuedSheeps += getNumOfRescuedSheeps(nextIsland);
   }
 
+  //// js에도 Math.max 있다는 사실! (참고)
   if (numOfRescuedSheeps < 0) numOfRescuedSheeps = 0;
 
   return numOfRescuedSheeps;
@@ -35,3 +36,5 @@ for (let i = 2; i <= numOfIslands; i++) {
 }
 
 console.log(getNumOfRescuedSheeps(1));
+
+//// 깔꼼합니다
