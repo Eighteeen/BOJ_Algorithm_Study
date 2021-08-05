@@ -30,7 +30,7 @@ class Main {
   }
 }
 
-//// 깔끔해요
+//// 깔끔해요 : 22
 class Tree {
   private Map<Integer, Node> nodeMap;
 
