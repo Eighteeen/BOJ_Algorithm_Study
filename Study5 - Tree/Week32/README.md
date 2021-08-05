@@ -24,7 +24,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 12784 | [<sub>![Gold3]</sub> 인하니카 공화국](https://www.acmicpc.net/problem/12784) | [진홍](Day219/boj12784_kjh.java) [승빈](Day219/boj12784_wsb.java) [수경](Day219/boj12784_hsk.js) | [진홍](Day219/boj12784_kjh_fb.java) [승빈](Day219/boj12784_wsb.java) 수경 |
+| 백준   | 12784 | [<sub>![Gold3]</sub> 인하니카 공화국](https://www.acmicpc.net/problem/12784) | [진홍](Day219/boj12784_kjh.java) [승빈](Day219/boj12784_wsb.java) [수경](Day219/boj12784_hsk.js) | [진홍](Day219/boj12784_kjh_fb.java) [승빈](Day219/boj12784_wsb.java) [수경](Day219/boj12784_hsk_fb.js) |
 
 ## [220일차](Day220)
 
@@ -40,7 +40,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 20530 | [<sub>![Gold2]</sub> 양분](https://www.acmicpc.net/problem/20530) | *[진홍](Day221/boj20530_kjh.java)* 승빈 수경 | 진홍 승빈 수경 |
+| 백준   | 20530 | [<sub>![Gold2]</sub> 양분](https://www.acmicpc.net/problem/20530) | *[진홍](Day221/boj20530_kjh.java)* 승빈 [수경](Day221/boj20530_hsk.js) | 진홍 승빈 수경 |
 
 ## [222일차](Day222)
 
