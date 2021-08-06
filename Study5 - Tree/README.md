@@ -75,7 +75,9 @@
 [<sub>![Gold3]</sub> 인하니카 공화국](https://www.acmicpc.net/problem/12784) |
 [<sub>![Gold2]</sub> 양 구출 작전](https://www.acmicpc.net/problem/16437) |
 [<sub>![Gold2]</sub> 양분](https://www.acmicpc.net/problem/20530) |
-[<sub>![Gold2]</sub> 트리의 높이와 너비](https://www.acmicpc.net/problem/2250) 
+[<sub>![Gold2]</sub> 트리의 높이와 너비](https://www.acmicpc.net/problem/2250) |
+[<sub>![Gold1]</sub> 우수 마을](https://www.acmicpc.net/problem/1949) |
+[<sub>![Platinum5]</sub> LCA 2](https://www.acmicpc.net/problem/11438) |
 
 ## 쉬어갔던 문제
 [<sub>![Bronze5]</sub> 스타워즈 로고](https://www.acmicpc.net/problem/9653) |
