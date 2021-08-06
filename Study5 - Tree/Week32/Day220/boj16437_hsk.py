@@ -10,6 +10,7 @@ class TreeOfIslands:
 
 ## 깔끔해요
 ## 이제 재귀 활용이 꽤나 자연스러워진 것 같아요.
+## -> 감사합니다
 def getNumOfRescuedSheeps(curNode):
     numOfRescuedSheeps = int(treeOfIslands[curNode].cntAnimals)
 

@@ -21,6 +21,7 @@ const getNumOfRescuedSheeps = (curNode) => {
   }
 
   //// js에도 Math.max 있다는 사실! (참고)
+  //// => 아하 그렇게도 할 수 있군요
   if (numOfRescuedSheeps < 0) numOfRescuedSheeps = 0;
 
   return numOfRescuedSheeps;
