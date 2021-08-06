@@ -32,7 +32,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 16437    | [<sub>![Gold2]</sub> 양 구출 작전](https://www.acmicpc.net/problem/16437) | [진홍](Day220/boj16437_kjh.java) [승빈](Day220/boj16437_wsb.java) [수경](Day220/boj16437_hsk.py) | [진홍](Day220/boj16437_kjh.java) 승빈 [수경](Day220/boj16437_hsk.py) |
+| 백준   | 16437    | [<sub>![Gold2]</sub> 양 구출 작전](https://www.acmicpc.net/problem/16437) | [진홍](Day220/boj16437_kjh.java) [승빈](Day220/boj16437_wsb.java) [수경](Day220/boj16437_hsk.py) | [진홍](Day220/boj16437_kjh.java) [승빈](Day220/boj16437_wsb_fb.java) [수경](Day220/boj16437_hsk.py) |
 
 ## [221일차](Day221)
 
