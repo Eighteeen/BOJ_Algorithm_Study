@@ -21,6 +21,7 @@ const input = (() => {
   return () => stdin[line++];
 })();
 
+//// 깔끔
 const setCycleNodeList = () => {
   const stackNodeList = [];
 
@@ -45,6 +46,8 @@ const setLCAIsRootPerCycleNode = () => {
   }
 };
 
+//// 아래 * 변수명 관련 피드백 *과 비슷한 이유로 함수명이 어색하게 해석됩니다.
+//// 'LCA가 rootNum인지 세팅한다.' 로 해석되어서 boolean값들을 세팅하는 함수처럼 느껴져요.
 const setLCAIsRootNumOfCycleNodeIsRoot = (root) => {
   const stackNodeList = [root];
   const visitedNodeList = new Set();
@@ -69,6 +72,10 @@ const [N, Q] = input().split(' ').map(Number);
 const graph = Array.from(new Array(N + 1), () => new Array());
 const degreeCntOfNodeList = new Array(N + 1).fill(0);
 const cycleNodeList = new Set(new Array(N).fill(0).map((val, idx) => idx + 1));
+//// * 변수명 관련 피드백 *
+//// 끝이 IsRoot로 끝나니까 boolean 요소들이 들어있을 것 같은 느낌이에요.
+//// idx num과 싸이클 노드와의 LCA니까, LCAWithCycleNode, LCABetweenCycleNide 정도는 어떤가요?
+//// 아니면 저같은 경우는 LCA라고 생각하지 않고 그냥 Sub Tree로 생각했는데, rootOfCycleSubTree 이런식으로도 괜찮을 것 같아요!
 const LCAOfCycleNodeIsRoot = new Array(N + 1).fill(0);
 
 for (let i = 1; i <= N; i++) {
