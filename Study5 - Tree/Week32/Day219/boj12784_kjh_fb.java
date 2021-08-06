@@ -71,22 +71,19 @@ class Tree {
 
     //// 굳이 array를 쓸 필요가 없어 보입니다.
     //// IntStream으로 sum을 사용하고 싶다면 array를 사용한다지만, 저장하는 loop 후에 다시 탐색하는 loop를 도는 것은 어색해보입니다.
-    //// => 피드백 의도가 잘 이해되지 않아 카톡 답변 받고 다시 반영할 에정
-    int[] childrenLeastDynamites = new int[size];
-    for (int i = 0; i < size; i++) {
-      childrenLeastDynamites[i] = havingEdges.get(i).getRequiredDynamites();
-    }
-
+    //// => 쫌 멍청하게 했네요. 날카로운 피드백 고마워요!
+    int leastDynamites = 0;
     for (int i = 0; i < size; i++) {
       Edge havingEdge = havingEdges.get(i);
       Node connectedNode = havingEdge.getDestination();
       connectedNode.removeEdge(root);
 
-      childrenLeastDynamites[i] = Math.min(childrenLeastDynamites[i], getLeastDynamites(connectedNode));
+      int parentEdge = havingEdge.getRequiredDynamites();
+      int childrenEdges = getLeastDynamites(connectedNode);
+      leastDynamites += Math.min(parentEdge, childrenEdges);
     }
 
-    //// stream 패키지 좋네요,,
-    return IntStream.of(childrenLeastDynamites).sum();
+    return leastDynamites;
   }
 
   private Node getOrAddNode(int number) {
