@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
-//// 깔끔
+//// 깔끔 :22
 class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -21,6 +21,8 @@ class Main {
             tree.setNode(i, t);
         }
 
+        //// Specific이라는 단어를 어떤 의도로 쓰신건지 잘 이해가 안됐어요. 일단 저는 특정한, 명확한 이런 뜻으로 알고있거든요
+        ///// 어.. 명확한 값, 특정한 값이 뭘 말하는걸까?
         System.out.println(tree.getCalcSpecificValueToRoot(1));
         br.close();
     }

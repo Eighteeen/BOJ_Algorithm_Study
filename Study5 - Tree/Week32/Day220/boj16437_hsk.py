@@ -9,7 +9,7 @@ class TreeOfIslands:
         self.connectedIsland = []
 
 ## 깔끔해요
-## 이제 재귀 활용이 꽤나 자연스러워진 것 같아요.
+## 이제 재귀 활용이 꽤나 자연스러워진 것 같아요. :22
 ## -> 감사합니다
 def getNumOfRescuedSheeps(curNode):
     numOfRescuedSheeps = int(treeOfIslands[curNode].cntAnimals)
@@ -17,6 +17,7 @@ def getNumOfRescuedSheeps(curNode):
     for nextIsland in treeOfIslands[curNode].connectedIsland:
         numOfRescuedSheeps += getNumOfRescuedSheeps(nextIsland)
 
+    ## 파이썬도 max있다는 사실!
     if numOfRescuedSheeps < 0: numOfRescuedSheeps = 0
     
     return numOfRescuedSheeps
