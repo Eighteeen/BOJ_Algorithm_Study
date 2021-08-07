@@ -5,6 +5,12 @@ import java.util.*;
 
 //// ㄲㄲ
 //// 어느부분에서 시간초과가 났었나요?
+//// -> NodeMap class의 setCycleNodeSet() 내에서
+    //// 싸이클 노드들에 대한 adjSizeArr 데이터만 남기고
+    //// adjSizeArr를 순회하며 싸이클 노드들을 cycleNodeSet에 추가해주도록 했는데,
+    //// 그 부분만 제거하면 solve 되었습니다.
+    //// 현재는 nodeArr를 돌며 add를 먼저해주고 adjSizeArr를 계속 순회하며 싸이클 노드가 아닌 것들을 제거해주는 방법인데,
+    //// 정확히 어떤 차이가 있어서 시간초과가 나는지는 잘 파악이 되지 않아서 답답했던 문제입니다. (두 방법 모두 O(N))
 class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
