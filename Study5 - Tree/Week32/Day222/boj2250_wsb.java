@@ -22,7 +22,7 @@ class Main {
             if (rightChildData != -1) isChilNodeArr[rightChildData] = true;
         }
 
-        for (int i = 1; i < N; i++) {
+        for (int i = 1; i <= N; i++) {
             if (isChilNodeArr[i]) continue;
             frameBinaryTree.setRoot(i);
             break;
@@ -56,7 +56,7 @@ class FrameBinaryTree extends BinaryTree {
         int widestWidth = 0, widestRow = 0;
         for (int i = 0; i < maxLevel; i++) {
             int width = maxColOfRowArr[i] - minColOfRowArr[i];
-            if (widestWidth < (maxColOfRowArr[i] - minColOfRowArr[i])) {
+            if (widestWidth < width) {
                 widestWidth = width;
                 widestRow = i;
             }
