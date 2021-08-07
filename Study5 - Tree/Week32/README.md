@@ -40,7 +40,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 20530 | [<sub>![Gold2]</sub> 양분](https://www.acmicpc.net/problem/20530) | *[진홍](Day221/boj20530_kjh.java)* [승빈](Day221/boj20530_wsb.java) [수경](Day221/boj20530_hsk.js) | 진홍 승빈 수경 |
+| 백준   | 20530 | [<sub>![Gold2]</sub> 양분](https://www.acmicpc.net/problem/20530) | *[진홍](Day221/boj20530_kjh.java)* [승빈](Day221/boj20530_wsb.java) [수경](Day221/boj20530_hsk.js) | 진홍 승빈 [수경](Day221/boj20530_hsk_fb.js) |
 
 ## [222일차](Day222)
 
@@ -48,7 +48,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 2250 | [<sub>![Gold2]</sub> 트리의 높이와 너비](https://www.acmicpc.net/problem/2250) | [진홍](Day222/boj2250_kjh.java) 승빈 [수경](Day222/boj2250_hsk.js) | 진홍 승빈 [수경](Day222/boj2250_hsk_.js) |
+| 백준   | 2250 | [<sub>![Gold2]</sub> 트리의 높이와 너비](https://www.acmicpc.net/problem/2250) | [진홍](Day222/boj2250_kjh.java) 승빈 [수경](Day222/boj2250_hsk.js) | 진홍 승빈 수경 |
 
 ## [223일차](Day223) : Pairing Day
 
