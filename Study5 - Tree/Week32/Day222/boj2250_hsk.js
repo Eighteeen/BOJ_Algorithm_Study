@@ -29,7 +29,8 @@ const input = (() => {
   return () => stdin[line++];
 })();
 
-//// 오.. 변수명 작명 스타일이 확 변하신거같은데 되게 직관적으로 의미가 바로 와닿아요 굳굳
+//// 오.. 변수명 작명 스타일이 확 변하신거같은데 되게 직관적으로 의미가 바로 와닿아요 굳굳 : 22
+//// 이번 풀이 전체적으로 정리도 잘 되어 있고 굉장히 깨끗한 느낌입니다.
 const accumulateRowNumInOrderOfTree = (curNode, level) => {
   let leftChildNode = tree[curNode][0];
   let rightChildNode = tree[curNode][1];
@@ -48,6 +49,7 @@ const getWidestLevelAndWidth = () => {
   for (let i = 2; i <= N; i++) {
     if (levelListOfNode[i].length === 0) continue;
 
+    //// 오호 이런식으로 min max를 구할 수 있군요. node js 활용법 알아갑니다!
     let leastRowNum = Math.min.apply(null, levelListOfNode[i]);
     let biggestRowNum = Math.max.apply(null, levelListOfNode[i]);
 

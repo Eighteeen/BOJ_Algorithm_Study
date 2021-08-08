@@ -15,6 +15,7 @@ class Main {
 
     leftmostColumn = new int[NODE_AMOUNT + 1];
     rightmostColumn = new int[NODE_AMOUNT + 1];
+    //// generate 사용법 알아갑니다!
     nodes = Stream.generate(Node::new).limit(NODE_AMOUNT + 1).toArray(Node[]::new);
 
     for (int i = 0; i < NODE_AMOUNT; i++) {
@@ -72,6 +73,7 @@ class Main {
 
     int columnNumber = startNumber;
     leftmostColumn[depth] = Math.min(columnNumber, leftmostColumn[depth]);
+    //// rightmostColumn[depth] = columnNumber 로 연산을 줄이는 것은 어떨까요? (어짜피 맨 오른쪽은 맨 마지막에 나와서 max 비교가 필요없음)
     rightmostColumn[depth] = Math.max(columnNumber, rightmostColumn[depth]);
 
     startNumber++;
