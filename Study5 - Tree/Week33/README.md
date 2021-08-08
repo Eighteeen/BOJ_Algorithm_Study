@@ -1,12 +1,12 @@
 <!-- tier 리스트 S -->
 
-[unrated]: https://user-images.githubusercontent.com/33937365/126247607-85783912-c11a-4d50-ac36-8cc7dcb75cd2.png
-[gold5]: https://user-images.githubusercontent.com/33937365/126247627-2979d4d5-915a-4c4e-adb7-c171f9bafe28.png
-[gold4]: https://user-images.githubusercontent.com/33937365/126247629-b24e1e24-4579-450f-bc3c-f166361091dd.png
-[gold3]: https://user-images.githubusercontent.com/33937365/126247630-80fb15af-debc-451d-a937-6c9c6bfa693b.png
-[gold2]: https://user-images.githubusercontent.com/33937365/126247633-7112f6a6-57da-4d1d-953f-5414ba8ffc3d.png
-[gold1]: https://user-images.githubusercontent.com/33937365/126247635-42bd3af9-e129-4379-b44a-22d75de3def6.png
-[platinum5]: https://user-images.githubusercontent.com/33937365/126247636-763e3bc4-43a9-4724-8ce1-c2288aecb636.png
+[Unrated]: https://user-images.githubusercontent.com/33937365/126247607-85783912-c11a-4d50-ac36-8cc7dcb75cd2.png
+[Gold5]: https://user-images.githubusercontent.com/33937365/126247627-2979d4d5-915a-4c4e-adb7-c171f9bafe28.png
+[Gold4]: https://user-images.githubusercontent.com/33937365/126247629-b24e1e24-4579-450f-bc3c-f166361091dd.png
+[Gold3]: https://user-images.githubusercontent.com/33937365/126247630-80fb15af-debc-451d-a937-6c9c6bfa693b.png
+[Gold2]: https://user-images.githubusercontent.com/33937365/126247633-7112f6a6-57da-4d1d-953f-5414ba8ffc3d.png
+[Gold1]: https://user-images.githubusercontent.com/33937365/126247635-42bd3af9-e129-4379-b44a-22d75de3def6.png
+[Platinum5]: https://user-images.githubusercontent.com/33937365/126247636-763e3bc4-43a9-4724-8ce1-c2288aecb636.png
 <!-- tier 리스트 E -->
 
 # Week33
@@ -17,7 +17,7 @@
 
 | 사이트 | 번호 | 문제                                       | 답안           | 피드백 반영 답안 |
 | ------ | ---- | ------------------------------------------ | -------------- | ---------------- |
-| 백준   | 14725 | [<sub>![gold2]</sub> 개미굴](https://www.acmicpc.net/problem/14725) | 진홍 승빈 수경 | 진홍 승빈 수경   |
+| 백준   | 14725 | [<sub>![Gold2]</sub> 개미굴](https://www.acmicpc.net/problem/14725) | 진홍 승빈 수경 | 진홍 승빈 수경   |
 
 ## [226일차](Day226)
 
