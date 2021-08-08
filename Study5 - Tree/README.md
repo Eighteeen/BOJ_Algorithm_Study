@@ -78,7 +78,7 @@
 [<sub>![Gold2]</sub> 트리의 높이와 너비](https://www.acmicpc.net/problem/2250) |
 [<sub>![Gold1]</sub> 우수 마을](https://www.acmicpc.net/problem/1949) |
 [<sub>![Platinum5]</sub> LCA 2](https://www.acmicpc.net/problem/11438) |
-[<sub>![gold2]</sub> 개미굴](https://www.acmicpc.net/problem/14725) |
+[<sub>![Gold2]</sub> 개미굴](https://www.acmicpc.net/problem/14725) |
 
 ## 쉬어갔던 문제
 [<sub>![Bronze5]</sub> 스타워즈 로고](https://www.acmicpc.net/problem/9653) |
