@@ -29,6 +29,7 @@ const input = (() => {
   return () => stdin[line++];
 })();
 
+//// 오.. 변수명 작명 스타일이 확 변하신거같은데 되게 직관적으로 의미가 바로 와닿아요 굳굳
 const accumulateRowNumInOrderOfTree = (curNode, level) => {
   let leftChildNode = tree[curNode][0];
   let rightChildNode = tree[curNode][1];

@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-//// ㄲㄲ
+//// ㄲㄲ :22
 class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -39,6 +39,7 @@ class Main {
     }
 }
 
+//// 저도 조만간 흉내냅니다 이거 ㅎ
 class FrameBinaryTree extends BinaryTree {
     private int[] minColOfRowArr, maxColOfRowArr;
     private int col;
