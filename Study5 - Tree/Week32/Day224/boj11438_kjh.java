@@ -32,36 +32,18 @@ class Main {
 class Tree {
   private int nodeAmount;
   private List<Integer>[] adjacentNodes;
-  private List<Integer>[] ancestors;
+  private int[][] ancestors;
   private int[] depths;
+
+  private int maxLevel;
 
   public Tree(int nodeAmount) {
     this.nodeAmount = nodeAmount;
     adjacentNodes = new ArrayList[nodeAmount + 1];
-    ancestors = new ArrayList[nodeAmount + 1];
     depths = new int[nodeAmount + 1];
-  }
 
-  public void getReadyForLCA() {
-    getReadyForLCA(1, new ArrayList<>(), 0);
-  }
-
-  private void getReadyForLCA(Integer node, List<Integer> myAncestors, int depth) {
-    depths[node] = depth;
-    ancestors[node] = new ArrayList<>();
-    for (int ancestor : myAncestors) {
-      ancestors[node].add(ancestor);
-    }
-
-    myAncestors.add(node);
-    
-    List<Integer> connectedNodes = adjacentNodes[node];
-    for (int connectedNode : connectedNodes) {
-      adjacentNodes[connectedNode].remove(node);
-      getReadyForLCA(connectedNode, myAncestors, depth + 1);
-    }
-
-    myAncestors.remove(node);
+    maxLevel = (int) Math.floor(Math.log10(nodeAmount) / Math.log10(2)) + 1;
+    ancestors = new int[nodeAmount + 1][maxLevel];
   }
 
   public int getLCA(int nodeA, int nodeB) {
@@ -70,22 +52,51 @@ class Tree {
     } else if (depths[nodeB] > depths[nodeA]) {
       nodeB = getAncestorByDepth(nodeB, depths[nodeA]);
     }
-    
-    while (nodeA != nodeB) {
-      nodeA = ancestors[nodeA].get(ancestors[nodeA].size() - 1);
-      nodeB = ancestors[nodeB].get(ancestors[nodeB].size() - 1);
+
+    if (nodeA == nodeB) {
+      return nodeA;
     }
-    return nodeA;
+    
+    int lca = nodeA;
+    for (int i = maxLevel - 1; i >= 0; i--) {
+      if (ancestors[nodeA][i] != ancestors[nodeB][i]) {
+        nodeA = ancestors[nodeA][i];
+        nodeB = ancestors[nodeB][i];
+      }
+      lca = ancestors[nodeA][i];
+    }
+
+    return lca;
+  }
+
+  public void getReadyForLCA() {
+    getReadyForLCA(1, 0);
+  }
+
+  private void getReadyForLCA(Integer node, Integer parent) {
+    depths[node] = depths[parent] + 1;
+    ancestors[node][0] = parent;
+
+    for (int i = 1; i < maxLevel; i++) {
+      int ancestor = ancestors[node][i - 1];
+      ancestors[node][i] = ancestors[ancestor][i - 1];
+    }
+    
+    List<Integer> connectedNodes = adjacentNodes[node];
+    for (int connectedNode : connectedNodes) {
+      if (connectedNode == parent) continue;
+      getReadyForLCA(connectedNode, node);
+    }
   }
 
   private int getAncestorByDepth(int node, int depth) {
-    List<Integer> myAncestors = ancestors[node];
-    for (int ancestor : myAncestors) {
-      if (depths[ancestor] == depth) {
-        return ancestor;
+    for (int i = maxLevel - 1; i >= 0; i--) {
+      if (depths[ancestors[node][i]] >= depth) {
+        node = ancestors[node][i];
       }
     }
-    return 0;
+    
+    return node;
   }
 
   public void addInterconnectedNodes(int nodeA, int nodeB) {
