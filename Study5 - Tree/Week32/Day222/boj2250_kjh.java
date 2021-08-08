@@ -4,6 +4,7 @@ import java.util.StringTokenizer;
 import java.util.Arrays;
 import java.util.stream.Stream;
 
+//// ㄲㄲ
 class Main {
   static int[] leftmostColumn;
   static int[] rightmostColumn;
