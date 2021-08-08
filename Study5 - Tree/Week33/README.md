@@ -8,7 +8,8 @@
 [gold1]: https://user-images.githubusercontent.com/33937365/126247635-42bd3af9-e129-4379-b44a-22d75de3def6.png
 [platinum5]: https://user-images.githubusercontent.com/33937365/126247636-763e3bc4-43a9-4724-8ce1-c2288aecb636.png
 <!-- tier 리스트 E -->
-# WeekN
+
+# Week33
 
 ## [225일차](Day225)
 
