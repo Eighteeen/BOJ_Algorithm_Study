@@ -34,14 +34,14 @@ class Tree {
   private int[][] ancestors;
   private int[] depths;
 
-  private int maxLevel;
+  private int maxDepth;
 
   public Tree(int nodeAmount) {
     adjacentNodes = new ArrayList[nodeAmount + 1];
     depths = new int[nodeAmount + 1];
 
-    maxLevel = (int) Math.floor(Math.log10(nodeAmount) / Math.log10(2)) + 1;
-    ancestors = new int[nodeAmount + 1][maxLevel];
+    maxDepth = (int) Math.floor(Math.log10(nodeAmount) / Math.log10(2)) + 1;
+    ancestors = new int[nodeAmount + 1][maxDepth];
   }
 
   public int getLCA(int nodeA, int nodeB) {
@@ -56,7 +56,7 @@ class Tree {
     }
     
     int lca = nodeA;
-    for (int i = maxLevel - 1; i >= 0; i--) {
+    for (int i = maxDepth - 1; i >= 0; i--) {
       if (ancestors[nodeA][i] != ancestors[nodeB][i]) {
         nodeA = ancestors[nodeA][i];
         nodeB = ancestors[nodeB][i];
@@ -75,7 +75,7 @@ class Tree {
     depths[node] = depths[parent] + 1;
     ancestors[node][0] = parent;
 
-    for (int i = 1; i < maxLevel; i++) {
+    for (int i = 1; i < maxDepth; i++) {
       int ancestor = ancestors[node][i - 1];
       ancestors[node][i] = ancestors[ancestor][i - 1];
     }
@@ -88,7 +88,7 @@ class Tree {
   }
 
   private int getAncestorByDepth(int node, int depth) {
-    for (int i = maxLevel - 1; i >= 0; i--) {
+    for (int i = maxDepth - 1; i >= 0; i--) {
       if (depths[ancestors[node][i]] >= depth) {
         node = ancestors[node][i];
       }
