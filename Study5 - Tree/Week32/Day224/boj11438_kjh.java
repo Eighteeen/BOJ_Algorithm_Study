@@ -30,7 +30,6 @@ class Main {
 }
 
 class Tree {
-  private int nodeAmount;
   private List<Integer>[] adjacentNodes;
   private int[][] ancestors;
   private int[] depths;
@@ -38,7 +37,6 @@ class Tree {
   private int maxLevel;
 
   public Tree(int nodeAmount) {
-    this.nodeAmount = nodeAmount;
     adjacentNodes = new ArrayList[nodeAmount + 1];
     depths = new int[nodeAmount + 1];
 
