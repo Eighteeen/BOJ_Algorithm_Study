@@ -4,6 +4,7 @@ import java.util.StringTokenizer;
 import java.util.List;
 import java.util.ArrayList;
 
+//// 깔끔해요
 class Main {
   public static void main(String[] args) throws Exception {
     final int NODE_AMOUNT = Input.nextInt();
@@ -44,6 +45,7 @@ class Tree {
     ancestors = new int[nodeAmount + 1][maxDepth];
   }
 
+  //// return을 ancestors[nodeA][i]로 안하고 lca로 하니까 더 알아보기 좋은 것 같아요 good
   public int getLCA(int nodeA, int nodeB) {
     if (depths[nodeA] > depths[nodeB]) {
       nodeA = getAncestorByDepth(nodeA, depths[nodeB]);
