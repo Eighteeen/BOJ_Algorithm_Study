@@ -105,6 +105,7 @@ const maxDepth = getMaxDepthNum();
 const parentsNodeList = Array.from(new Array(N + 1), () => new Array(maxDepth).fill(0));
 const depthNodeList = new Array(N + 1).fill(0);
 
+//// 깔끔합니다잉
 makeTreeByDFS(1, 1);
 fillParentsNodeList();
 
