@@ -4,7 +4,7 @@ import java.util.StringTokenizer;
 import java.util.List;
 import java.util.ArrayList;
 
-//// 깔끔해요
+//// 깔끔해요 : 22
 class Main {
   public static void main(String[] args) throws Exception {
     final int NODE_AMOUNT = Input.nextInt();
@@ -45,7 +45,7 @@ class Tree {
     ancestors = new int[nodeAmount + 1][maxDepth];
   }
 
-  //// return을 ancestors[nodeA][i]로 안하고 lca로 하니까 더 알아보기 좋은 것 같아요 good
+  //// return을 ancestors[nodeA][i]로 안하고 lca로 하니까 더 알아보기 좋은 것 같아요 good : 22
   public int getLCA(int nodeA, int nodeB) {
     if (depths[nodeA] > depths[nodeB]) {
       nodeA = getAncestorByDepth(nodeA, depths[nodeB]);
@@ -73,6 +73,7 @@ class Tree {
     getReadyForLCA(1, 0);
   }
 
+  //// idx에서만 활용되는데 Object Integer를 사용한 이유가 뭔가요??
   private void getReadyForLCA(Integer node, Integer parent) {
     depths[node] = depths[parent] + 1;
     ancestors[node][0] = parent;

@@ -105,7 +105,8 @@ const maxDepth = getMaxDepthNum();
 const parentsNodeList = Array.from(new Array(N + 1), () => new Array(maxDepth).fill(0));
 const depthNodeList = new Array(N + 1).fill(0);
 
-//// 깔끔합니다잉
+//// 깔끔합니다잉 : 22
+//// 파라미터 1, 1 넣은 건 코드 수정하다가 수정이 안 된 것 같은데 맞나요?? ((1) (1, 1) 둘 다 solve 되던데 오류 없이 실행되는 거 자체가 신기하네요!)
 makeTreeByDFS(1, 1);
 fillParentsNodeList();
 
