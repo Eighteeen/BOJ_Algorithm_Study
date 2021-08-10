@@ -23,6 +23,7 @@ const makeAntTrieAsDictionary = (pathByPreyInfo) => {
   });
 };
 
+//// 사소한 부분이지만 동사로 print는 적절하지 않은 것 같슴다 출력하는게 아니라서
 const printAntTrie = (trie, depth = 0) => {
   const prefix = '--'.repeat(depth);
   const sortedTrie = [...trie.entries()].sort();
@@ -48,3 +49,5 @@ for (let i = 0; i < N; i++) {
 
 const visualizedAntStructure = printAntTrie(antTrie);
 console.log(visualizedAntStructure);
+
+//// 깔끔합니다

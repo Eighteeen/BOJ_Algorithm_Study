@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
+//// 깔끔합니다!
 class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -23,6 +24,7 @@ class Main {
 class Trie {
     private Node root = new Node("");
 
+    //// 클래스명의 작명은 구체적인 구현(Trie)을 표현하는데 함수명의 작명은 추상적(Word)이라 위화감이 들어요
     public void connectWord(String[] wordArr) {
         Node parent = root;
         for (String word : wordArr) {
