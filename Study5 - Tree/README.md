@@ -80,6 +80,7 @@
 [<sub>![Platinum5]</sub> LCA 2](https://www.acmicpc.net/problem/11438) |
 [<sub>![Gold2]</sub> 개미굴](https://www.acmicpc.net/problem/14725) |
 [<sub>![Gold2]</sub> 어그로 끌린 영선](https://www.acmicpc.net/problem/14678) |
+[<sub>![Gold4]</sub> 트리](https://www.acmicpc.net/problem/4803) |
 
 ## 쉬어갔던 문제
 [<sub>![Bronze5]</sub> 스타워즈 로고](https://www.acmicpc.net/problem/9653) |
