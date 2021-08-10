@@ -4,6 +4,8 @@ import java.util.StringTokenizer;
 import java.util.List;
 import java.util.ArrayList;
 
+// 로직을 도무지 생각해낼 수 없어서 문제풀이 실패 때릴 위기에 있었는데,
+// 실패보단 힌트받고 푸는게 더 낫지 않나 싶어 켱씨의 힌트를 받고 풀어냈음. 감사의 뜻을 전하옵니다
 class Main {
   public static void main(String[] args) throws Exception {
     final int NODE_AMOUNT = Input.nextInt();
@@ -20,14 +22,73 @@ class Main {
 }
 
 class Tree {
+  private int nodeAmount;
   private List<Integer>[] connectedInfos;
+  private boolean[] isLeftInfos;
 
   public Tree(int nodeAmount) {
+    this.nodeAmount = nodeAmount;
     connectedInfos = new ArrayList[nodeAmount + 1];
+    isLeftInfos = new boolean[nodeAmount + 1];
   }
 
   public int getMaxWinCase() {
+    if (nodeAmount == 1) {
+      return 1;
+    }
+    if (nodeAmount == 2) {
+      return 0;
+    }
+
+    int current = getAnyNodeThatIsNotLeaf();
+    int parent = 0;
+    boolean isLeft = true;
+    fillIsLeftInfos(current, parent, isLeft);
+
+    List<Integer> leaves = getLeaves();
+    if (leaves.size() == nodeAmount - 1) {
+      return nodeAmount - 2;
+    }
+
+    int leftLeaves = 0;
+    int rightLeaves = 0;
+    for (Integer leaf : leaves) {
+      leftLeaves += isLeftInfos[leaf] ? 1 : 0;
+      rightLeaves += !isLeftInfos[leaf] ? 1 : 0;
+    }
+
+    return Math.max(leftLeaves, rightLeaves);
+  }
+
+  private int getAnyNodeThatIsNotLeaf() {
+    for (int i = 1; i < connectedInfos.length; i++) {
+      if (connectedInfos[i].size() > 1) {
+        return i;
+      }
+    }
     return 0;
+  }
+
+  private void fillIsLeftInfos(int current, int parent, boolean isLeft) {
+    isLeftInfos[current] = isLeft;
+
+    for (int connectedNode : connectedInfos[current]) {
+      if (connectedNode == parent) {
+        continue;
+      }
+      fillIsLeftInfos(connectedNode, current, !isLeft);
+    }
+  }
+
+  private List<Integer> getLeaves() {
+    List<Integer> leaves = new ArrayList<>();
+    for (int i = 1; i < connectedInfos.length; i++) {
+      List<Integer> connectedInfo = connectedInfos[i];
+      if (connectedInfo.size() == 1) {
+        leaves.add(i);
+      }
+    }
+    return leaves;
   }
 
   public void addInterconnectedNodes(int nodeA, int nodeB) {
