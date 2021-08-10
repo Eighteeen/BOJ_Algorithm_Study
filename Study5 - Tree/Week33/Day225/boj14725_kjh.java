@@ -4,7 +4,7 @@ import java.util.StringTokenizer;
 import java.util.List;
 import java.util.ArrayList;
 
-//// 매우 깔끔해요
+//// 매우 깔끔해요 : 22 간단하게 잘 구현하셨네요
 class Main {
   static StringBuilder antDent;
 
@@ -72,6 +72,7 @@ class Node {
     return -1;
   }
 
+  //// compareTo Override는 어떤가요?
   private void addChild(Node childToAdd) {
     for (int i = 0; i < children.size(); i++) {
       Node child = children.get(i);
