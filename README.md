@@ -137,13 +137,7 @@
 ## 📝 스터디 내용 📝
 > [Eighteen 문제집](https://www.acmicpc.net/group/workbook/list/9797)
 
-<details>
-<summary>
-
 ### [구현](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study1%20-%20Implementation)
-
-<summary>
-</details>
 
 ### [스택, 큐, 덱](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study2%20-%20Stack%2C%20Queue%2C%20Deque)
 > 발표: [진홍](https://github.com/Eighteeen/Algorithm_Study/blob/main/Study2%20-%20Stack%2C%20Queue%2C%20Deque/reference/kjh.pdf)
