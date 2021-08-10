@@ -24,7 +24,7 @@ class Main {
 class Trie {
     private Node root = new Node("");
 
-    //// 클래스명의 작명은 구체적인 구현(Trie)을 표현하는데 함수명의 작명은 추상적(Word)이라 위화감이 들어요
+    //// 클래스명의 작명은 구체적인 구현(Trie)을 표현하는데 함수명의 작명은 추상적(Word)이라 위화감이 드는 것 같습니다
     public void connectWord(String[] wordArr) {
         Node parent = root;
         for (String word : wordArr) {
