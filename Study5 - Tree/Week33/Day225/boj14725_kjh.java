@@ -73,6 +73,8 @@ class Node {
   }
 
   //// compareTo Override는 어떤가요?
+  //// => children까지 같아야 같다고 할 수 있지않나? 사용편의를 위해 compareTo를 재정의해도 될까?
+  //// => 이런 생각이 들어서 요렇게 했습니다! 피드백 고마워요
   private void addChild(Node childToAdd) {
     for (int i = 0; i < children.size(); i++) {
       Node child = children.get(i);
