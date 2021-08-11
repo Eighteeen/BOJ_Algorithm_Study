@@ -7,6 +7,7 @@ import java.util.ArrayList;
 // 로직을 도무지 생각해낼 수 없어서 문제풀이 실패 때릴 위기에 있었는데,
 // 실패보단 힌트받고 푸는게 더 낫지 않나 싶어 켱씨의 힌트를 받고 풀어냈음. 감사의 뜻을 전하옵니다
 //// 사소한 힌트만 줬고 혼자 생각해서 풀었다고 생각해요! 저보다 함수명이 이해가 더 나은 것 같네요
+//// true false 를 사용해서 푸는 방법을 생각하지 못 했어요. 이번 문제 kjh, hsk 코드와 비교해서 저의 풀이 정-말 복잡해보이네요. ㅠㅠ
 class Main {
   public static void main(String[] args) throws Exception {
     final int NODE_AMOUNT = Input.nextInt();
@@ -33,6 +34,8 @@ class Tree {
     isLeftInfos = new boolean[nodeAmount + 1];
   }
 
+  //// Tree 클래스의 getMaxWinCase 라는 함수명은 언발란스합니다. 트리인데 이기는 케이스..?
+  //// 전날 피드백 남겨주신 것처럼 작명상의 추상화 단계가 달라서 생긴 문제인 것 같습니다.
   public int getMaxWinCase() {
     if (nodeAmount == 1) {
       return 1;
@@ -41,6 +44,7 @@ class Tree {
       return 0;
     }
 
+    //// fillIsLeftInfos에서는 current 이지만 이곳에서는 current라는 변수명은 다시 반복하나? 정도의 오해의 소지가 있어보입니다.
     int current = getAnyNodeThatIsNotLeaf();
     int parent = 0;
     boolean isLeft = true;
@@ -70,6 +74,7 @@ class Tree {
     return 0;
   }
 
+  //// fillIsLeftInfos() 에서 leftLeaves, rightLeaves 를 충분히 구할 수 있을 것 같습니다.
   private void fillIsLeftInfos(int current, int parent, boolean isLeft) {
     isLeftInfos[current] = isLeft;
 
