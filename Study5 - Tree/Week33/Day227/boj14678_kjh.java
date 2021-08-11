@@ -1,11 +1,9 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.StringTokenizer;
-import java.util.List;
 import java.util.ArrayList;
-import java.util.Set;
-import java.util.HashSet;
-import java.util.Arrays;
+import java.util.StringTokenizer;
+import java.util.stream.Stream;
+import java.util.List;
 
 class Main {
   public static void main(String[] args) throws Exception {
@@ -34,30 +32,42 @@ class Main {
 }
 
 class Forest {
+  private List<Integer>[] connectedInfos;
   private int nodeAmount;
-  private List<Tree> trees;
-  private int[] treeIndexNodeBelongs;
+  boolean[] isVisited;
 
   public Forest(int nodeAmount) {
+    this.connectedInfos = Stream.generate(ArrayList<Integer>::new).limit(nodeAmount + 1).toArray(ArrayList[]::new);
     this.nodeAmount = nodeAmount;
-
-    trees = new ArrayList<>();
-
-    treeIndexNodeBelongs = new int[nodeAmount + 1];
-    Arrays.fill(treeIndexNodeBelongs, -1);
+    this.isVisited = new boolean[nodeAmount + 1];
   }
 
   public void addEdge(int nodeA, int nodeB) {
-    int treeIndex = Math.max(treeIndexNodeBelongs[nodeA], treeIndexNodeBelongs[nodeB]);
+    connectedInfos[nodeA].add(nodeB);
+    connectedInfos[nodeB].add(nodeA);
+  }
 
-    if (treeIndex == -1) {
-      treeIndex = trees.size();
-      trees.add(new Tree());
+  private boolean hasCycle(int current, int parent) {
+    if (isVisited[current]) {
+      return true;
+    }
+    isVisited[current] = true;
+
+    boolean isCycle = false;
+    int count = 0;
+    for (int connectedNode : connectedInfos[current]) {
+      if (connectedNode == parent) {
+        count++;
+        boolean isConnectedToEachOther = count == 2;
+        if (isConnectedToEachOther) {
+          return true;
+        }
+        continue;
+      }
+      isCycle |= hasCycle(connectedNode, current);
     }
 
-    treeIndexNodeBelongs[nodeA] = treeIndex;
-    treeIndexNodeBelongs[nodeB] = treeIndex;
-    trees.get(treeIndex).addEdge(nodeA, nodeB);
+    return isCycle;
   }
 
   @Override
@@ -75,36 +85,15 @@ class Forest {
 
   private int getTreeAmount() {
     int treeAmount = 0;
-    for (Tree tree : trees) {
-      treeAmount += tree.isAvailable() ? 1 : 0;
-    }
 
     for (int i = 1; i <= nodeAmount; i++) {
-      boolean isSingleNode = treeIndexNodeBelongs[i] == -1;
-      treeAmount += isSingleNode ? 1 : 0;
+      if (isVisited[i]) {
+        continue;
+      }
+      treeAmount += hasCycle(i, 0) ? 0 : 1;
     }
 
     return treeAmount;
-  }
-}
-
-class Tree {
-  private Set<Integer> nodeSet;
-  private int edgeAmount;
-
-  public Tree() {
-    nodeSet = new HashSet<>();
-  }
-
-  public void addEdge(int nodeA, int nodeB) {
-    nodeSet.add(nodeA);
-    nodeSet.add(nodeB);
-
-    edgeAmount++;
-  }
-
-  public boolean isAvailable() {
-    return edgeAmount < nodeSet.size();
   }
 }
 
