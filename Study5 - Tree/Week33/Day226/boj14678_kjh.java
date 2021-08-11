@@ -6,6 +6,7 @@ import java.util.ArrayList;
 
 // 로직을 도무지 생각해낼 수 없어서 문제풀이 실패 때릴 위기에 있었는데,
 // 실패보단 힌트받고 푸는게 더 낫지 않나 싶어 켱씨의 힌트를 받고 풀어냈음. 감사의 뜻을 전하옵니다
+//// 사소한 힌트만 줬고 혼자 생각해서 풀었다고 생각해요! 저보다 함수명이 이해가 더 나은 것 같네요
 class Main {
   public static void main(String[] args) throws Exception {
     final int NODE_AMOUNT = Input.nextInt();
