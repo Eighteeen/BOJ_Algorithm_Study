@@ -23,6 +23,7 @@ const startDFSOnNotLeafNode = () => {
   }
 };
 
+//// 코딩 관례에 따라 함수 첫 단어는 동사였으면 합니다!
 const checkedIsOddByDFS = (node) => {
   const stackNodeList = [node];
   checkedIsOdd[node] = true;
@@ -65,6 +66,7 @@ for (let i = 1; i < N; i++) {
 }
 
 startDFSOnNotLeafNode();
+//// count 으때요
 calcOddOrEvenFromLeafNode();
 
 if (N === 1) {
