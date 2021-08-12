@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
-//// 깔끔해요
+//// 깔끔해요 :22 함수명 변수명만 보고도 코드가 바로바로 이해됐어요. 정말 깔끔하게 잘 짜신 것 같습니다
 class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
