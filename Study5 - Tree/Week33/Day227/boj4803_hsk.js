@@ -27,7 +27,7 @@ const input = (() => {
   return () => stdin[line++];
 })();
 
-//// 함수명은 isTree 정도로만 지어도 의미가 충분히 전달됐을 것 같아요!
+//// 함수명은 isTree 정도로만 지어도 의미가 충분히 전달됐을 것 같아요! : 22 node가 트리 노드인지 판별하니까 isTreeNode도 좋을 것 같아요!
 //// node 매개변수는 뭐가 들어가야 하는건지 바로 알기 어려웠는데 startNode 정도로 해주면 좋을 것 같습니다
 const getIsTreeOrNot = (node, tree, visitedNodeList) => {
   let isTree = true;
@@ -49,6 +49,7 @@ const getIsTreeOrNot = (node, tree, visitedNodeList) => {
   return isTree;
 };
 
+//// 깔끔 간단
 let caseCnt = 0;
 while (true) {
   caseCnt += 1;

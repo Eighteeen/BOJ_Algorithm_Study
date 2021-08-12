@@ -5,7 +5,7 @@ import java.util.StringTokenizer;
 import java.util.stream.Stream;
 import java.util.List;
 
-//// 깔끔해요
+//// 깔끔해요 : 22
 class Main {
   public static void main(String[] args) throws Exception {
     StringBuilder result = new StringBuilder();
@@ -58,6 +58,7 @@ class Forest {
     int count = 0;
     for (int connectedNode : connectedInfos[current]) {
       if (connectedNode == parent) {
+        //// count 관련 문장 없어도 solve 되고, 애초에 isConnectedToEachOther가 true인 상황은 나올 수 없네요.
         count++;
         boolean isConnectedToEachOther = count == 2;
         if (isConnectedToEachOther) {
@@ -65,13 +66,14 @@ class Forest {
         }
         continue;
       }
+      //// hasCycle() 가 true 일 때 바로 return 하면 나머지 탐색 하지 않아도 되니 바로 return하는 게 좋을 것 같습니다.
       isCycle |= hasCycle(connectedNode, current);
     }
 
     return isCycle;
   }
 
-  //// toString 활용 좋네요
+  //// toString 활용 좋네요 : 22
   @Override
   public String toString() {
     int treeAmount = getTreeAmount();
