@@ -5,6 +5,7 @@ import java.util.StringTokenizer;
 import java.util.stream.Stream;
 import java.util.List;
 
+//// 깔끔해요
 class Main {
   public static void main(String[] args) throws Exception {
     StringBuilder result = new StringBuilder();
@@ -70,6 +71,7 @@ class Forest {
     return isCycle;
   }
 
+  //// toString 활용 좋네요
   @Override
   public String toString() {
     int treeAmount = getTreeAmount();
