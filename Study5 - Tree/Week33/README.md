@@ -25,7 +25,7 @@
 
 | 사이트 | 번호 | 문제                                       | 답안           | 피드백 반영 답안 |
 | ------ | ---- | ------------------------------------------ | -------------- | ---------------- |
-| 백준   | 14678    | [<sub>![Gold2]</sub> 어그로 끌린 영선](https://www.acmicpc.net/problem/14678) | [진홍](Day226/boj14678_kjh.java) [승빈](Day226/boj14678_wsb.java) [수경](Day226/boj14678_hsk.js) | [진홍](Day226/boj14678_kjh_fb.java) 승빈 [수경](Day226/boj14678_hsk_fb.js)   |
+| 백준   | 14678    | [<sub>![Gold2]</sub> 어그로 끌린 영선](https://www.acmicpc.net/problem/14678) | [진홍](Day226/boj14678_kjh.java) [승빈](Day226/boj14678_wsb.java) [수경](Day226/boj14678_hsk.js) | [진홍](Day226/boj14678_kjh_fb.java) [승빈](Day226/boj14678_wsb_fb.java) [수경](Day226/boj14678_hsk_fb.js)   |
 
 ## [227일차](Day227)
 
