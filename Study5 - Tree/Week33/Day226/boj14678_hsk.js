@@ -24,6 +24,7 @@ const startDFSOnNotLeafNode = () => {
 };
 
 //// 코딩 관례에 따라 함수 첫 단어는 동사였으면 합니다!
+//// checkedIsOddByDFS 에서 calcOddOrEvenFromLeafNode 의 작업을 충분히 할 수 있을 것 같아요.
 const checkedIsOddByDFS = (node) => {
   const stackNodeList = [node];
   checkedIsOdd[node] = true;
@@ -65,6 +66,7 @@ for (let i = 1; i < N; i++) {
   degreeCntOfNodeList[nodeB]++;
 }
 
+//// true false 를 사용해서 푸는 방법을 생각하지 못 했어요. 이번 문제 hsk, kjh 코드와 비교해서 저의 풀이 정-말 복잡해보이네요. ㅠㅠ
 startDFSOnNotLeafNode();
 //// count 으때요
 calcOddOrEvenFromLeafNode();

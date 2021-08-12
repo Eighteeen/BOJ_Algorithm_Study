@@ -45,6 +45,8 @@ class PlaygroundTree extends Tree {
             break;
         }
 
+        //// 위에껀 시작노드로부터 리프까지의 경우만 체크하는거 같고 밑에껀.. 음.. 코드를 읽어도 알기가 어렵네요. 모든 경우의 수에 대한 거라곤 하는데 정말 모~든 경우의 수를 체크하는거면 위 함수를 실행할 이유도 없었을 것 같고.. 뭐지..
+        //// 코딩 의도에 대한 설명이 좀 더 되어 있으면 좋을 것 같습니다. (의견임) : 22 두개 함수의 구분이 없어보여요
         fillLastFootArrs(startNode);
         fillLastFootArrsInAllCases(startNode);
 
@@ -81,6 +83,7 @@ class PlaygroundTree extends Tree {
             lastRightFootArr[nodeData] += lastLeftFootArr[adjNodeData];
         }
 
+        //// if문이 무엇을 뜻하는지 따로 변수 설정을 해주셨으면 이해하기 쉬웠을 것 같아요
         if (lastLeftFootArr[nodeData] != existingLeftFoot || lastRightFootArr[nodeData] != existingRightFoot) {
             lastLeftFootArr[nodeData] -= existingLeftFoot;
             lastRightFootArr[nodeData] -= existingRightFoot;

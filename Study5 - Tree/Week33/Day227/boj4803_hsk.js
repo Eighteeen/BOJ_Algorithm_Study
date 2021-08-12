@@ -27,7 +27,7 @@ const input = (() => {
   return () => stdin[line++];
 })();
 
-const getIsTree = (node, tree, visitedNodeList) => {
+const getIsTreeOrNot = (node, tree, visitedNodeList) => {
   let isTree = true;
   const stackNodeList = [node];
 
@@ -67,7 +67,7 @@ while (true) {
   let treeCnt = 0;
   for (let i = 1; i <= N; i++) {
     if (visitedNodeList[i]) continue;
-    if (getIsTree(i, tree, visitedNodeList)) treeCnt += 1;
+    if (getIsTreeOrNot(i, tree, visitedNodeList)) treeCnt += 1;
   }
 
   if (treeCnt === 0) console.log(`Case ${caseCnt}: No trees.`);
