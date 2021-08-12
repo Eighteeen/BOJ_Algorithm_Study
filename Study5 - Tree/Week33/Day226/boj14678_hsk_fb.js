@@ -25,7 +25,7 @@ const startDFSOnNotLeafNode = () => {
 
 //// 코딩 관례에 따라 함수 첫 단어는 동사였으면 합니다!
 //// => 넹
-//// checkedIsOddByDFS 에서 countOddOrEvenFromLeafNode 의 작업을 충분히 할 수 있을 것 같아요.
+//// checkedIsOddByDFS 에서 calcOddOrEvenFromLeafNode 의 작업을 충분히 할 수 있을 것 같아요.
 //// => 그렇지만 한눈에 이해하기 편하도록 지금 코드 유지하겠습니다.
 const checkIsOddByDFS = (node) => {
   const stackNodeList = [node];
