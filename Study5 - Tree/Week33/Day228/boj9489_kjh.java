@@ -1,10 +1,9 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
-import java.util.Map;
-import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 class Main {
   public static void main(String[] args) throws Exception {
@@ -17,20 +16,47 @@ class Main {
         break;
       }
 
-      Tree tree = new Tree();
-
-      String[] nodes = Input.nextLine().split(" ");
-      tree.addNodes(nodes);
-
-      result.append(tree.getNumberOfCousins()).append('\n');
+      int[] nodes = Arrays.stream(Input.nextLine().split(" ")).mapToInt(Integer::parseInt).toArray();
+      result.append(getNumberOfCousins(nodes, targetNode)).append('\n');
     }
 
     System.out.print(result);
   }
-}
 
-class Tree {
+  static int getNumberOfCousins(int[] nodes, int target) {
+    int availableParentAmount = 0;
+    int siblings = 0;
 
+    int previousAdded = -1;
+    boolean isFoundTarget = false;
+    int siblingsSameParent = 0;
+    for (int i = 0; i < nodes.length; i++) {
+      availableParentAmount--;
+      if (nodes[i] == target) {
+        isFoundTarget = true;
+      }
+
+      boolean isNewSequence = nodes[i] > (previousAdded + 1);
+      if (isNewSequence) {
+        if (availableParentAmount <= 0) {
+          if (isFoundTarget) {
+            break;
+          }
+          availableParentAmount = siblings;
+          siblings = 0;
+        }
+        siblingsSameParent = 0;
+      }
+
+      siblingsSameParent++;
+      siblings++;
+      previousAdded = nodes[i];
+
+      System.out.printf("%d / %d %d  %d\n", nodes[i], availableParentAmount, siblings, siblingsSameParent);
+    }
+
+    return siblings - siblingsSameParent;
+  }
 }
 
 class Input {
