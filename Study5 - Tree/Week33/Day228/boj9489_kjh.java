@@ -1,3 +1,6 @@
+// 두통으로 인한 문제풀이 실패
+// 쉬고 내일해야겠음
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
@@ -24,40 +27,43 @@ class Main {
   }
 
   static int getNumberOfCousins(int[] nodes, int target) {
-    int availableParentAmount = 0;
+    int targetSiblingsSameParent = 0;
+    
     int siblings = 0;
-
+    int siblingsSameParent = 0;
+    int availableParentAmount = 0;
+    
     int previousAdded = -1;
     boolean isFoundTarget = false;
-    int siblingsSameParent = 0;
     for (int i = 0; i < nodes.length; i++) {
-      availableParentAmount--;
       if (nodes[i] == target) {
         isFoundTarget = true;
       }
-
+      
       boolean isNewSequence = nodes[i] > (previousAdded + 1);
       if (isNewSequence) {
+        if (isFoundTarget) {
+          targetSiblingsSameParent = siblingsSameParent;
+        }
+
+        availableParentAmount--;
         if (availableParentAmount <= 0) {
-          if (isFoundTarget) {
-            break;
-          }
           availableParentAmount = siblings;
           siblings = 0;
         }
-        if (!isFoundTarget) {
-          siblingsSameParent = 0;
-        }
+        siblingsSameParent = 0;
       }
-
+      
       siblingsSameParent++;
+      
       siblings++;
       previousAdded = nodes[i];
 
       System.out.printf("%d / %d %d  %d\n", nodes[i], availableParentAmount, siblings, siblingsSameParent);
     }
+    System.out.println(siblings + "///" + targetSiblingsSameParent);
 
-    return siblings - siblingsSameParent;
+    return siblings - targetSiblingsSameParent;
   }
 }
 
