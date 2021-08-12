@@ -45,7 +45,9 @@ class Main {
           availableParentAmount = siblings;
           siblings = 0;
         }
-        siblingsSameParent = 0;
+        if (!isFoundTarget) {
+          siblingsSameParent = 0;
+        }
       }
 
       siblingsSameParent++;
