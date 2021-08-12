@@ -75,6 +75,9 @@ class Node {
   //// compareTo Override는 어떤가요?
   //// => children까지 같아야 같다고 할 수 있지않나? 사용편의를 위해 compareTo를 재정의해도 될까?
   //// => 이런 생각이 들어서 요렇게 했습니다! 피드백 고마워요
+  //// => => 수정. equals랑 헷갈렸어요.
+  //// compareTo를 오버라이드 하고 sort 하는걸 말씀하시는거라면
+  //// O(N)으로 이게 더 가벼운 것 같아서 요렇게 했습니다
   private void addChild(Node childToAdd) {
     for (int i = 0; i < children.size(); i++) {
       Node child = children.get(i);
