@@ -71,7 +71,7 @@ for (let i = 1; i < N; i++) {
 //// true false 를 사용해서 푸는 방법을 생각하지 못 했어요. 이번 문제 hsk, kjh 코드와 비교해서 저의 풀이 정-말 복잡해보이네요. ㅠㅠ
 startDFSOnNotLeafNode();
 //// count 으때요
-/// => 그냥 놔둘래영ㅎㅎ
+/// => 그냥 놔둘래영ㅎㅎ => 기분 나빠영ㅎㅎ
 calcOddOrEvenFromLeafNode();
 
 if (N === 1) {
