@@ -27,6 +27,7 @@ class Main {
 
             testCnt++;
             int numOfTrees = nodeMap.getNumOfTrees();
+            //// String.format 알아갑니다 굳굳
             if (numOfTrees == 0) sb.append(String.format("Case %d: No trees.\n", testCnt));
             else if (numOfTrees == 1) sb.append(String.format("Case %d: There is one tree.\n", testCnt));
             else sb.append(String.format("Case %d: A forest of %d trees.\n", testCnt, numOfTrees));
