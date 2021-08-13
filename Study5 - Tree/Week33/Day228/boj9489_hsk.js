@@ -30,7 +30,7 @@ const getTargetIdxOnGrouping = (N, targetNum, nodeArr, parents) => {
   return targetIdx;
 };
 
-const getCursonCnt = (targetIdx, N, parents) => {
+const getCousinCnt = (targetIdx, N, parents) => {
   let cousinCnt = 0;
 
   for (let i = 1; i <= N; i++) {
@@ -45,12 +45,11 @@ const result = [];
 while (1) {
   const [N, targetNum] = input().split(' ').map(Number);
   const parents = new Array(N + 1).fill(-1);
-
   if (N === 0 && targetNum === 0) break;
 
   const nodeArr = input().split(' ').map(Number);
   const targetIdx = getTargetIdxOnGrouping(N, targetNum, nodeArr, parents);
-  const cousinCnt = getCursonCnt(targetIdx, N, parents);
+  const cousinCnt = getCousinCnt(targetIdx, N, parents);
 
   result.push(cousinCnt);
 }
