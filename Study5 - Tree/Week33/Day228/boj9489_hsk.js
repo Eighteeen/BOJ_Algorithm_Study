@@ -16,6 +16,7 @@ const input = (() => {
   return () => stdin[line++];
 })();
 
+//// group 보단 sibling 이라는 용어를 썼으면 빠르게 이해될 것 같아요.
 const getTargetIdxOnGrouping = (N, targetNum, nodeArr, parents) => {
   let [targetIdx, group] = [0, 0];
 
@@ -41,6 +42,7 @@ const getCousinCnt = (targetIdx, N, parents) => {
   return cousinCnt;
 };
 
+//// 깔끔
 const result = [];
 while (1) {
   const [N, targetNum] = input().split(' ').map(Number);
