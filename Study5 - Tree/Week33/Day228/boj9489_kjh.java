@@ -1,5 +1,5 @@
-// 두통으로 인한 문제풀이 실패
-// 쉬고 내일해야겠음
+// 문제풀이 실패
+// 메모리 초과 + 효율적인 로직을 생각해내지 못함
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
