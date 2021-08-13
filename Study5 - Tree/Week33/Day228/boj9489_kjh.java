@@ -4,8 +4,6 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
-import java.util.List;
-import java.util.ArrayList;
 import java.util.Arrays;
 
 class Main {
@@ -26,6 +24,50 @@ class Main {
     System.out.print(result);
   }
 
+  static int target;
+  static boolean isFoundTarget;
+
+  static int previousAdded;
+
+  static int targetSiblings;
+  static int targetSiblingsAndCousins;
+
+  static int siblings;
+  static int siblingsAndCousins;
+
+  static int availableParentCount;
+
+  static void addNode(int node) {
+    boolean alreadySolved = (targetSiblings != 0 && targetSiblingsAndCousins != 0);
+    if (alreadySolved) {
+      return;
+    }
+
+    if (node == target) {
+      isFoundTarget = true;
+    }
+
+    boolean isNewSequence = node > (previousAdded + 1);
+    if (isNewSequence) {
+      if (isFoundTarget && targetSiblings == 0) {
+        targetSiblings = siblings;
+      }
+
+      if (--availableParentCount <= 0) {
+        if (isFoundTarget) {
+          targetSiblingsAndCousins = siblingsAndCousins;
+          return;
+        }
+        availableParentCount = siblingsAndCousins;
+        siblingsAndCousins = 0;
+      }
+    }
+
+    siblings++;
+    siblingsAndCousins++;
+    previousAdded = node;
+  }
+
   static int getNumberOfCousins(int[] nodes, int target) {
     int targetSiblingsSameParent = 0;
     
@@ -44,10 +86,14 @@ class Main {
       if (isNewSequence) {
         if (isFoundTarget) {
           targetSiblingsSameParent = siblingsSameParent;
+          System.out.printf("현재 %d, 같은 부모 수 %d\n", nodes[i], targetSiblingsSameParent);
         }
 
         availableParentAmount--;
         if (availableParentAmount <= 0) {
+          if (isFoundTarget) {
+            break;
+          }
           availableParentAmount = siblings;
           siblings = 0;
         }
