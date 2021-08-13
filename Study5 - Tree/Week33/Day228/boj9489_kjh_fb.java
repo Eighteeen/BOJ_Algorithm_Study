@@ -35,12 +35,12 @@ class Main {
       int cousins = 0;
 
       //// isSibling과 hasSameGrandParent로 변경하여 이해가 잘되네요
-      //// 피드백 하고싶어서 남겨요
+      //// 피드백 하고싶어서 남겨요 => 아유 감사합니다 ㅎㅎ
       for (int i = 1; i <= nodeAmount; i++) {
-        boolean isSibling = parentIndices[i] == parentIndices[targetIndex];
-        boolean hasSameGrandParent = parentIndices[parentIndices[i]] == parentIndices[parentIndices[targetIndex]];
+        boolean hasSameParent = parentIndices[i] == parentIndices[targetIndex];
+        boolean hasSameGrandparent = parentIndices[parentIndices[i]] == parentIndices[parentIndices[targetIndex]];
 
-        if (!isSibling && hasSameGrandParent) {
+        if (!hasSameParent && hasSameGrandparent) {
           cousins++;
         }
       }
