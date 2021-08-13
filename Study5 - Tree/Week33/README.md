@@ -42,7 +42,7 @@
 
 | 사이트 | 번호 | 문제                                       | 답안           | 피드백 반영 답안 |
 | ------ | ---- | ------------------------------------------ | -------------- | ---------------- |
-| 백준   | 9489 | [<sub>![Gold4]</sub> 사촌](https://www.acmicpc.net/problem/9489) | *[진홍](Day228/boj9489_kjh.java)* [승빈](Day228/boj9489_wsb.java) [수경](Day228/boj9489_hsk.js) | *[진홍](Day228/boj9489_kjh_fb.java)* 승빈 수경   |
+| 백준   | 9489 | [<sub>![Gold4]</sub> 사촌](https://www.acmicpc.net/problem/9489) | *[진홍](Day228/boj9489_kjh.java)* [승빈](Day228/boj9489_wsb.java) [수경](Day228/boj9489_hsk.js) | *[진홍](Day228/boj9489_kjh_fb.java)* 승빈 [수경](Day228/boj9489_hsk_fb.js)   |
 
 ## [229일차](Day229)
 
@@ -58,7 +58,7 @@
 
 | 사이트 | 번호 | 문제                                       | 답안         | Pair Programming                       |
 | ------ | ---- | ------------------------------------------ | ------------ | -------------------------------------- |
-| 백준   | 6502 | [<sub>![Unrated]</sub> 동혁 피자](https://www.acmicpc.net/problem/6502) | 진홍 승빈 수경 | 진홍 승빈 수경   |
+| 백준   | 6502 | [<sub>![Bronze2]</sub> 동혁 피자](https://www.acmicpc.net/problem/6502) | 진홍 승빈 [수경](Day230/boj6502_hsk.js) | 진홍 승빈 수경   |
 
 ## [231일차](Day231)
 
