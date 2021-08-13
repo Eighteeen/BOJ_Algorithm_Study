@@ -93,4 +93,5 @@
 [<sub>![Bronze5]</sub> 마이크로소프트 로고](https://www.acmicpc.net/problem/5338) |
 [<sub>![Bronze5]</sub> 합](https://www.acmicpc.net/problem/8393) |
 [<sub>![Bronze3]</sub> A+B - 8](https://www.acmicpc.net/problem/11022) |
-[<sub>![Bronze2]</sub> 거울, 오! 거울](https://www.acmicpc.net/problem/4740)
+[<sub>![Bronze2]</sub> 거울, 오! 거울](https://www.acmicpc.net/problem/4740) | 
+[<sub>![Bronze2]</sub> 동혁 피자](https://www.acmicpc.net/problem/6502) |
