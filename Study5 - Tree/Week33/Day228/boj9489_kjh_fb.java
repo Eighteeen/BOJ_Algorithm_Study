@@ -27,12 +27,8 @@ class Main {
       int parentIndex = -1;
       for (int i = 1; i <= nodeAmount; i++) {
         nodes[i] = Input.nextInt();
-        if (nodes[i] == targetNode) {
-          targetIndex = i;
-        }
-        if (nodes[i] != nodes[i - 1] + 1) {
-          parentIndex++;
-        }
+        if (nodes[i] == targetNode) targetIndex = i;
+        if (nodes[i] != nodes[i - 1] + 1) parentIndex++;
         parentIndices[i] = parentIndex;
       }
 
