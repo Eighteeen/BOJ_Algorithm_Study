@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
+//// 깔끔해요
 class Main {
     static int nodeSize;
     static int[] nodeSequence;
@@ -35,6 +36,7 @@ class Main {
         br.close();
     }
 
+    //// 항상 느끼지만 전위, 후위 연산자 활용을 잘 하시는 것 같아요
     static void setTreeInfosUsingSequence() {
         int parentIdx = -1;
         int prevData = nodeSequence[0];
