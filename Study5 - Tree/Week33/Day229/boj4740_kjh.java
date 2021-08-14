@@ -9,6 +9,7 @@ class Main {
 
     String str;
     while (!(str = Input.nextLine()).equals("***")) {
+      //// 굳이 String으로 변환한 이유가 있을까요?
       String reversed = new StringBuffer(str).reverse().toString();
       result.append(reversed).append('\n');
     }

@@ -13,6 +13,7 @@ const input = (() => {
   return () => stdin[line++];
 })();
 
+//// ㄲㄲ
 let result = [];
 while (1) {
   let str = input();
