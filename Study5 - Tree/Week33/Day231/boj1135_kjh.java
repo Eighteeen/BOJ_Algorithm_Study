@@ -1,6 +1,7 @@
+//// 문제풀이 실패 : 로직조차 떠올리지 못함
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
 import java.util.StringTokenizer;
 import java.util.List;
 import java.util.ArrayList;
@@ -12,12 +13,13 @@ class Main {
     final int NODE_AMOUNT = Input.nextInt();
   
     nodes = new Node[NODE_AMOUNT];
-    nodes[0] = new Node(0);
-    Input.next();
-
-    for (int i = 1; i < NODE_AMOUNT; i++) {
+    for (int i = 0; i < NODE_AMOUNT; i++) {
       int parentIdx = Input.nextInt();
       nodes[i] = new Node(i);
+
+      if (parentIdx == -1) {
+        continue;
+      }
       nodes[parentIdx].addChild(nodes[i]);
     }
 
@@ -25,21 +27,18 @@ class Main {
   }
 
   static int getLeastTimeToCall(Node root) {
-    System.out.printf("func(%d);\n", root.number);
     System.out.println(root.children);
     int childrenSize = root.children.size();
     if (childrenSize == 0) {
-      System.out.println("return 0;");
-      return 0;
+      return 1;
     }
 
-    int childLeastTimeToCall = 0;
+    int childLeastTimeToCall = 500;
     for (Node child : root.children) {
       childLeastTimeToCall = Math.min(childLeastTimeToCall, getLeastTimeToCall(child));
     }
 
-    System.out.printf("return (%d + %d)==%d\n", childrenSize, childLeastTimeToCall, childrenSize + childLeastTimeToCall);
-    return 1 + childrenSize + childLeastTimeToCall;
+    return childLeastTimeToCall + (childrenSize - 1);
   }
 }
 
