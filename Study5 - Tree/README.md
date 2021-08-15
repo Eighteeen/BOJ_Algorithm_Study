@@ -83,6 +83,7 @@
 [<sub>![Gold4]</sub> 트리](https://www.acmicpc.net/problem/4803) |
 [<sub>![Gold4]</sub> 사촌](https://www.acmicpc.net/problem/9489) | 
 [<sub>![Gold1]</sub> 뉴스 전하기](https://www.acmicpc.net/problem/1135) |
+[<sub>![Gold4]</sub> 트리의 기둥과 가지](https://www.acmicpc.net/problem/4256) |
 
 ## 쉬어갔던 문제
 [<sub>![Bronze5]</sub> 스타워즈 로고](https://www.acmicpc.net/problem/9653) |
