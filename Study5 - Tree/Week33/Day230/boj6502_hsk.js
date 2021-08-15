@@ -17,7 +17,7 @@ const getHypotenuse = (legA, legB) => {
   return Math.sqrt(Math.pow(legA, 2) + Math.pow(legB, 2));
 };
 
-//// ㄲㄲ
+//// ㄲㄲ :22
 let result = [];
 let testCnt = 0;
 while (1) {
