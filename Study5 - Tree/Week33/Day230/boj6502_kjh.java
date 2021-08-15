@@ -22,6 +22,7 @@ class Main {
   }
 
   //// pizzaWidth <= tableDiameter 조건과  pizzaHeight <= tableDiameter 조건 없어도 성립 됩니다. : 22
+  //// 아 return 방식 good
   static boolean isFitOnTheTable(int tableRadius, int pizzaWidth, int pizzaHeight) {
     int tableDiameter = tableRadius * 2;
     double pizzaDiagonalLine = Math.sqrt(Math.pow(pizzaWidth, 2) + Math.pow(pizzaHeight, 2));
