@@ -50,7 +50,7 @@
 
 | 사이트 | 번호 | 문제                                       | 답안           | 피드백 반영 답안 |
 | ------ | ---- | ------------------------------------------ | -------------- | ---------------- |
-| 백준   | 4740    | [<sub>![Bronze2]</sub> 거울, 오! 거울](https://www.acmicpc.net/problem/4740) | [진홍](Day229/boj4740_kjh.java) [승빈](Day229/boj4740_wsb.java) [수경](Day229/boj4740_hsk.js) | 진홍 [승빈](Day229/boj4740_wsb.java) [수경](Day229/boj4740_hsk.js)   |
+| 백준   | 4740    | [<sub>![Bronze2]</sub> 거울, 오! 거울](https://www.acmicpc.net/problem/4740) | [진홍](Day229/boj4740_kjh.java) [승빈](Day229/boj4740_wsb.java) [수경](Day229/boj4740_hsk.js) | [진홍](Day229/boj4740_kjh_fb.java) [승빈](Day229/boj4740_wsb.java) [수경](Day229/boj4740_hsk.js)   |
 
 ## [230일차](Day230) 
 
