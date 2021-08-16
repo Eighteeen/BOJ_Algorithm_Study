@@ -58,7 +58,7 @@
 
 | 사이트 | 번호 | 문제                                       | 답안         | Pair Programming                       |
 | ------ | ---- | ------------------------------------------ | ------------ | -------------------------------------- |
-| 백준   | 6502 | [<sub>![Bronze2]</sub> 동혁 피자](https://www.acmicpc.net/problem/6502) | [진홍](Day230/boj6502_kjh.java) [승빈](Day230/boj6502_wsb.java) [수경](Day230/boj6502_hsk.js) | [진홍](Day230/boj6502_kjh_fb.java) 승빈 [수경](Day230/boj6502_hsk.js)   |
+| 백준   | 6502 | [<sub>![Bronze2]</sub> 동혁 피자](https://www.acmicpc.net/problem/6502) | [진홍](Day230/boj6502_kjh.java) [승빈](Day230/boj6502_wsb.java) [수경](Day230/boj6502_hsk.js) | [진홍](Day230/boj6502_kjh_fb.java) [승빈](Day230/boj6502_wsb.java) [수경](Day230/boj6502_hsk.js)   |
 
 ## [231일차](Day231)
 
