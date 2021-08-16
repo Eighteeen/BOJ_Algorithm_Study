@@ -12,11 +12,6 @@ class Main {
         int N = Integer.parseInt(treeInfo[0]);
         int R = Integer.parseInt(treeInfo[1]);
 
-        if (N == 1) {
-            System.out.println("0 0");
-            return;
-        }
-
         CityTree cityTree = new CityTree(N);
         while (--N > 0) {
             String[] edgeInfo = br.readLine().split(" ");
@@ -45,6 +40,7 @@ class CityTree extends NodeMap {
     }
 
     public void measureTreeLen(int rootData) {
+        if (getSize() == 1) return;
         measurePoleLen(findNode(rootData));
         measureMaxBranchLen(gigaNode);
     }
@@ -85,10 +81,16 @@ class CityTree extends NodeMap {
 }
 
 class NodeMap {
+    private int size;
     private Node[] nodeArr;
 
     public NodeMap(int size) {
+        this.size = size;
         nodeArr = new Node[size + 1];
+    }
+
+    public int getSize() {
+        return size;
     }
 
     public Node findNode(int data) {
