@@ -11,6 +11,7 @@ const input = (() => {
   return () => stdin[line++];
 })();
 
+//// 깔끔
 const getTimeToDeleverNews = (node) => {
   if (companyTree[node].length === 0) return 0;
 
@@ -19,7 +20,10 @@ const getTimeToDeleverNews = (node) => {
     timeList.push(getTimeToDeleverNews(nextNode));
   }
 
+  //// 내림차순을 이런식으로 나타낼 수 있군요! js 또 알아갑니다 
   timeList.sort((a, b) => b - a);
+  //// 취향의 차이일 수도 있지만 for 조건문에서 i++ 를 제외하고,
+  //// 실행문에서 timeList[i] += ++i; 로 처리하면 연산을 한번에 할 수 있습니다!
   for (let i = 0; i < timeList.length; i++) {
     timeList[i] += i + 1;
   }
