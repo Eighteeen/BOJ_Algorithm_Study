@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.ArrayList;
 import java.util.stream.Stream;
 
+//// ㄲㄲ
 class Main {
   static int pillarLength;
   static Node gigaNode;
