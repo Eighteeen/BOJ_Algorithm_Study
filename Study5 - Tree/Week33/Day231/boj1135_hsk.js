@@ -20,10 +20,13 @@ const getTimeToDeleverNews = (node) => {
     timeList.push(getTimeToDeleverNews(nextNode));
   }
 
-  //// 내림차순을 이런식으로 나타낼 수 있군요! js 또 알아갑니다 
+  //// 내림차순을 이런식으로 나타낼 수 있군요! js 또 알아갑니다
   timeList.sort((a, b) => b - a);
   //// 취향의 차이일 수도 있지만 for 조건문에서 i++ 를 제외하고,
   //// 실행문에서 timeList[i] += ++i; 로 처리하면 연산을 한번에 할 수 있습니다!
+  //// => 아! 네네 알고있습니다. 그렇지만 저는 전위, 후위 연산자보다는 += 1 형식을 선호하기 떄문에
+  //// => 앞으로도 필요한 경우 아니면 사용하지 않을 것 같습니다.
+  //// => 알려주셔서 감사합니당^0^
   for (let i = 0; i < timeList.length; i++) {
     timeList[i] += i + 1;
   }
