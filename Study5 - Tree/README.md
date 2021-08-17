@@ -85,6 +85,7 @@
 [<sub>![Gold1]</sub> 뉴스 전하기](https://www.acmicpc.net/problem/1135) |
 [<sub>![Gold4]</sub> 트리의 기둥과 가지](https://www.acmicpc.net/problem/4256) |
 [<sub>![Gold3]</sub> 사회망 서비스(SNS)](https://www.acmicpc.net/problem/2533) |
+[<sub>![Gold3]</sub> K진 트리](https://www.acmicpc.net/problem/11812) |
 
 ## 쉬어갔던 문제
 [<sub>![Bronze5]</sub> 스타워즈 로고](https://www.acmicpc.net/problem/9653) |
