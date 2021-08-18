@@ -32,7 +32,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 11812 | [<sub>![Gold3]</sub> K진 트리](https://www.acmicpc.net/problem/11812) | [진홍](Day234/boj11812_kjh.java) 승빈 [수경](Day234/boj11812_hsk.js) | 진홍 승빈 수경 |
+| 백준   | 11812 | [<sub>![Gold3]</sub> K진 트리](https://www.acmicpc.net/problem/11812) | [진홍](Day234/boj11812_kjh.java) [승빈](Day234/boj11812_wsb.java) [수경](Day234/boj11812_hsk.js) | 진홍 승빈 수경 |
 
 ## [235일차](Day235)
 
