@@ -14,7 +14,7 @@ class Main {
             int adaptorA = Integer.parseInt(edgeInfo[0]);
             int adaptorB = Integer.parseInt(edgeInfo[1]);
 
-            snsTree.setNodes(adaptorA, adaptorB);
+            snsTree.setRelationship(adaptorA, adaptorB);
         }
 
         System.out.println(snsTree.getMinEarlyAdaptor(1));
