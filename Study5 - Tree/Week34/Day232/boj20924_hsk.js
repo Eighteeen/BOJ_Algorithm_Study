@@ -46,7 +46,7 @@ const getTreeInfoFromGigaNode = (startNode) => {
     }
   }
 
-  //// 부 럽 다!
+  //// 부 럽 다! : 22
   return [pillarLen, maxBranchLen];
 };
 
@@ -64,4 +64,4 @@ tree[R].push([0, 0]);
 
 const [pillarLen, maxBranchLen] = getTreeInfoFromGigaNode(0);
 console.log(pillarLen, maxBranchLen);
-//// 깔끔합니다
+//// 깔끔합니다 : 22
