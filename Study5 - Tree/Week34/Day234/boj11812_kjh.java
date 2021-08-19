@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+//// 완전 정석대로 푸신 것 같아요! 깔끔해요
 class Main {
   public static void main(String[] args) throws Exception {
     final long NODE_AMOUNT = Input.nextLong();
