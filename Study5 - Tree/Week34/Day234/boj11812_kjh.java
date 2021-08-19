@@ -2,7 +2,8 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-//// 완전 정석대로 푸신 것 같아요! 깔끔해요
+//// 완전 정석대로 푸신 것 같아요! 깔끔해요 : 22 wsb, hsk은 수학적인 개념을 활용해서 간단히 풀었다면,
+  //// kjh은 트리 개념을 활용해 자세히 구현하셔서 이 풀이도 의미있는 것 같습니다.
 class Main {
   public static void main(String[] args) throws Exception {
     final long NODE_AMOUNT = Input.nextLong();
@@ -26,6 +27,7 @@ class Main {
 class KTree {
   private int maxChildrenAmount;
 
+  //// nodeAmount는 명분상 받은 건가요?
   public KTree(long nodeAmount, int maxChildrenAmount) {
     this.maxChildrenAmount = maxChildrenAmount;
   }

@@ -4,6 +4,7 @@ const rl = readline.createInterface({
   output: process.stdout,
 });
 
+//// 이런 방법으로도 부모를 구할 수 있군요 다른 방법도 알아갑니다!
 const getParentNodeNum = (nodeNum, K) => {
   return Math.floor((nodeNum + K - 2) / K);
 };
@@ -12,6 +13,7 @@ const getDistanceBetweenNodes = (nodeA, nodeB, K) => {
   let distance = 0;
 
   //// 요란하게 LCA 구할 필요 없이 고냥 이러면 되는군요.. 배워갑니다
+  //// nodeA > nodeB 와 nodeB > nodeA 가 사실상 분기 처리인데 while문을 중복적으로 쓰는 게 약간은 어색해보입니다.
   while (nodeA !== nodeB) {
     while (nodeA > nodeB) {
       distance += 1;
@@ -26,7 +28,7 @@ const getDistanceBetweenNodes = (nodeA, nodeB, K) => {
   return distance;
 };
 
-//// 깔끔합니다
+//// 깔끔합니다 : 22
 const input = [];
 rl.on('line', (line) => {
   input.push(line);
