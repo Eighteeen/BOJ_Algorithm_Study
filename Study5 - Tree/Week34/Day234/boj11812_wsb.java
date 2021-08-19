@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+//// 깔끔합니다
 class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -23,6 +24,7 @@ class Main {
         br.close();
     }
 
+    //// 요란하게 LCA 구할 필요 없이 고냥 이러면 되는군요.. 배워갑니다
     static long getDistanceOfKpowerTree(int K, long dataA, long dataB) {
         long distance = 0;
         while (dataA != dataB) {

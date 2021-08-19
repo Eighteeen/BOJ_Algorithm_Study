@@ -11,6 +11,7 @@ const getParentNodeNum = (nodeNum, K) => {
 const getDistanceBetweenNodes = (nodeA, nodeB, K) => {
   let distance = 0;
 
+  //// 요란하게 LCA 구할 필요 없이 고냥 이러면 되는군요.. 배워갑니다
   while (nodeA !== nodeB) {
     while (nodeA > nodeB) {
       distance += 1;
@@ -25,6 +26,7 @@ const getDistanceBetweenNodes = (nodeA, nodeB, K) => {
   return distance;
 };
 
+//// 깔끔합니다
 const input = [];
 rl.on('line', (line) => {
   input.push(line);
