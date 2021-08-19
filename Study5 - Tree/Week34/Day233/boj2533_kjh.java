@@ -44,7 +44,7 @@ class SocialTree {
 
   //// isPrevAdapter를 사용하심에 로직의 이해도는 올라간 느낌이나,
   //// 흐름상으로는 간단해지기 보단 그저 분기처리를 하셔서 불필요한 구문이 늘어난 느낌입니다.
-  //// minEarlyAdaptersMemoization 를 이미 이차원 배열로 처리하셨으니 이를 활용하시면 더욱 간단하게 처리할 수 있을 것 같습니다.
+  //// minEarlyAdaptersMemoization 를 이미 이차원 배열로 처리하셨으니 이를 활용하시면 더욱 간단하게 처리할 수 있을 것 같습니다. : 22
   private int getMinEarlyAdapterToSpread(boolean isPrevAdapter, int current) {
     int memoization = minEarlyAdaptersMemoization[isPrevAdapter ? 1 : 0][current];
     if (memoization != -1) {
