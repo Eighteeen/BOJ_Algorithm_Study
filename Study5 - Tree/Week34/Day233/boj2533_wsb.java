@@ -49,6 +49,7 @@ class SnsTree extends Tree {
             connectAdaptor.removeAdjacentNode(adaptor);
             setMinEarlyAdaptorArrs(connectAdaptor);
 
+            //// 아 요렇게 할수가있군요.... 배워갑니다
             int connectAdaptorNum = connectAdaptor.getData();
             minEarlyAdaptorIfEarlyAdaptor[adaptorNum] += Math.min(
                 minEarlyAdaptorIfEarlyAdaptor[connectAdaptorNum],

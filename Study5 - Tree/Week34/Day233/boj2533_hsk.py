@@ -11,12 +11,13 @@ def accumulateEarlyAdapter(node):
     for nextNode in tree[node]:
         if visitedNodeList[nextNode]: continue
 
+        ## 요 부분 배워갑니다
         accumulateEarlyAdapter(nextNode)
         earlyAdapter[node][0] += min(earlyAdapter[nextNode][0], earlyAdapter[nextNode][1]);
         earlyAdapter[node][1] += earlyAdapter[nextNode][0];
 
 
-## 깔끔해요
+## 깔끔해요 :22
 N = int(input())
 tree = [[] for _ in range(N + 1)]
 earlyAdapter = [[0,0] for _ in range(N + 1)]
