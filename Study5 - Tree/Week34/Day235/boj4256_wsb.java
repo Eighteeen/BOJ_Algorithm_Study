@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
+//// ㄲㄲ
 class Main {
     static int[] inOrderIdxArr, preOrderArr;
     static int rootIdxOfPreOrder;
