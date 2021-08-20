@@ -4,7 +4,7 @@ import java.util.StringTokenizer;
 import java.util.List;
 import java.util.ArrayList;
 
-//// ㄲㄲ
+//// ㄲㄲ : 22
 class Main {
   public static void main(String[] args) throws Exception {
     final int T = Input.nextInt();

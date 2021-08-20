@@ -26,7 +26,7 @@ const traversalPostOrder = (start, end, cur) => {
   }
 };
 
-//// 깔끔
+//// 깔끔 : 22
 const T = parseInt(input());
 let preOrderList = [];
 let inOrderList = [];
