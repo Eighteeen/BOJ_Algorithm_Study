@@ -2,18 +2,20 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 import java.util.Arrays;
+import java.util.Map;
+import java.util.LinkedHashMap;
 
 class Main {
   public static void main(String[] args) throws Exception {
     final int NODE_AMOUNT = Input.nextInt();
-    BinaryTree = new BinaryTree(NODE_AMOUNT);
+    BinaryTree tree = new BinaryTree(NODE_AMOUNT);
 
     for (int i = 2; i <= NODE_AMOUNT; i++) {
       int depth = Input.nextInt();
       tree.addNodeInSpecificDepth(depth);
       
       if (tree.isErrorCaused) {
-        Sytsem.out.print(-1);
+        System.out.print(-1);
         return;
       }
     }
@@ -23,24 +25,68 @@ class Main {
 }
 
 class BinaryTree {
-  private int[] tree;
+  private Map<Integer, Integer> nodes;
+  private int[] nodeAmountInDepth;
+  private int nodeAmount;
+
   public boolean isErrorCaused;
 
+  private final int READY_FOR_NUMBERING = 0;
+
   public BinaryTree(int nodeAmount) {
-    tree = new int[nodeAmount];
-    Arrays.fill(tree, -1);
+    this.nodeAmount = nodeAmount;
+
+    nodes = new LinkedHashMap<>();
+    nodes.put(0, READY_FOR_NUMBERING);
+    
+    nodeAmountInDepth = new int[nodeAmount];
+    nodeAmountInDepth[0] = 1;
   }
 
-  public void addNodeInSpecificDepth(int depth) {
-    // 특정 깊이의 시작 인덱스 번호, 끝 인덱스 번호
+  public void addNodeInSpecificDepth(int currentDepth) {
+    int nodeAmountUpperDepth = nodeAmountInDepth[currentDepth - 1];
+    int nodeAmountCurrentDepth = nodeAmountInDepth[currentDepth];
+
+    if (nodeAmountCurrentDepth + 1 > nodeAmountUpperDepth * 2) {
+      isErrorCaused = true;
+      return;
+    }
+
+    int depthStartIndex = (int) Math.pow(2, currentDepth) - 1;
+    int depthEndIndex = depthStartIndex * 2;
+    for (int i = depthStartIndex; i <= depthEndIndex; i++) {
+      if (nodes.get(i) == null) {
+        System.out.printf("enable(%d)\n", i);
+        nodes.put(i, READY_FOR_NUMBERING);
+        break;
+      }
+    }
+
+    nodeAmountInDepth[currentDepth]++;
   }
 
-  private void numberNodes(int rootIdx) {
-    // 왼쪽 자식 번호, 오른쪽 자식 번호
+  private int numberNodesAndReturnTreeSize(int rootIdx, int startNumber) {
+    if (nodes.get(rootIdx) == null) return 0;
+
+    int leftTreeIndex = rootIdx * 2 + 1;
+    int rightTreeIndex = leftTreeIndex + 1;
+
+    int leftTreeSize = numberNodesAndReturnTreeSize(leftTreeIndex, startNumber);
+    nodes.put(rootIdx, startNumber + leftTreeSize);
+    int rightTreeSize = numberNodesAndReturnTreeSize(rightTreeIndex, nodes.get(rootIdx) + 1);
+
+    return leftTreeSize + 1 + rightTreeSize;
   }
 
   public String getANNodes() {
+    numberNodesAndReturnTreeSize(0, 1);
 
+    StringBuilder result = new StringBuilder();
+    for (Integer n : nodes.keySet()) {
+      result.append(nodes.get(n)).append('\n');
+    }    
+
+    return result.toString();
   }
 }
 
