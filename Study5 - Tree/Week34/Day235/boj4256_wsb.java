@@ -4,6 +4,7 @@ import java.io.InputStreamReader;
 import java.util.*;
 
 //// ㄲㄲ
+//// 무난쓰
 class Main {
     static int[] inOrderIdxArr, preOrderArr;
     static int rootIdxOfPreOrder;
