@@ -45,6 +45,9 @@ class SocialTree {
   //// isPrevAdapter를 사용하심에 로직의 이해도는 올라간 느낌이나,
   //// 흐름상으로는 간단해지기 보단 그저 분기처리를 하셔서 불필요한 구문이 늘어난 느낌입니다.
   //// minEarlyAdaptersMemoization 를 이미 이차원 배열로 처리하셨으니 이를 활용하시면 더욱 간단하게 처리할 수 있을 것 같습니다. : 22
+  //// => 불필요한 코드가 있다기보단 방식의 차이라고 생각이 드는게 제 함수는 값을 구해 바로 반환하는 반면 wsbhsk의 함수는 배열에 채워넣기만 하는 차이가 있어요
+  //// => 효율이나 가독성에서 극적인 차이는 없다고 생각해서 유지하겠습니다!
+  //// => 피드백에 남겼듯이 배열에 바로 저장해버리는 부분은 배워갑니다 ㅎㅎ
   private int getMinEarlyAdapterToSpread(boolean isPrevAdapter, int current) {
     int memoization = minEarlyAdaptersMemoization[isPrevAdapter ? 1 : 0][current];
     if (memoization != -1) {
