@@ -32,7 +32,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 11812 | [<sub>![Gold3]</sub> K진 트리](https://www.acmicpc.net/problem/11812) | [진홍](Day234/boj11812_kjh.java) [승빈](Day234/boj11812_wsb.java) [수경](Day234/boj11812_hsk.js) | 진홍 승빈 수경 |
+| 백준   | 11812 | [<sub>![Gold3]</sub> K진 트리](https://www.acmicpc.net/problem/11812) | [진홍](Day234/boj11812_kjh.java) [승빈](Day234/boj11812_wsb.java) [수경](Day234/boj11812_hsk.js) | [진홍](Day234/boj11812_kjh_fb.java) 승빈 수경 |
 
 ## [235일차](Day235)
 
@@ -48,7 +48,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 18240 | [<sub>![Gold2]</sub> 이진 탐색 트리 복원하기](https://www.acmicpc.net/problem/18240) | 진홍 승빈 수경 | 진홍 승빈 수경 |
+| 백준   | 18240 | [<sub>![Gold2]</sub> 이진 탐색 트리 복원하기](https://www.acmicpc.net/problem/18240) | *[진홍](Day236/boj18240_kjh.java)* 승빈 수경 | 진홍 승빈 수경 |
 
 ## [237일차](Day237) : Pairing Day
 

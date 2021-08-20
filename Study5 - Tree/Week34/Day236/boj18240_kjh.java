@@ -1,3 +1,5 @@
+//// 문제풀이 실패 : 메모리와 시간 두마리 토끼를 잡는 로직을 구상하지 못함
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
