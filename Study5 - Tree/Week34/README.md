@@ -57,7 +57,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | Pair Programming    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 17842 | [<sub>![Gold1]</sub> 버스 노선](https://www.acmicpc.net/problem/17842) | 진홍승빈수경 | Driver 🚗 수경 & Navigator 🧭 진홍승빈 |
+| 백준   | 17842 | [<sub>![Gold1]</sub> 버스 노선](https://www.acmicpc.net/problem/17842) | [진홍승빈수경](Day237/boj17842_kjhwsbhsk.js) | Driver 🚗 수경 & Navigator 🧭 진홍승빈 |
 
 > 그래프
 * 발표: [승빈](reference/이름.pdf)
@@ -65,7 +65,7 @@
 
 ## [238일차](Day238)
 
-> [트리 심화](https://www.acmicpc.net/group/workbook/view/9797/36622)
+> [그래프 기본](https://www.acmicpc.net/group/workbook/view/9797/36622)
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
