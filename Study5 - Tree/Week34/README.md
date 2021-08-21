@@ -41,7 +41,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 4256 | [<sub>![Gold4]</sub> 트리](https://www.acmicpc.net/problem/4256) | [진홍](Day235/boj4256_kjh.java) [승빈](Day235/boj4256_wsb.java) [수경](Day235/boj4256_hsk.js) | [진홍](Day235/boj4256_kjh.java) 승빈 수경 |
+| 백준   | 4256 | [<sub>![Gold4]</sub> 트리](https://www.acmicpc.net/problem/4256) | [진홍](Day235/boj4256_kjh.java) [승빈](Day235/boj4256_wsb.java) [수경](Day235/boj4256_hsk.js) | [진홍](Day235/boj4256_kjh.java) 승빈 [수경](Day235/boj4256_hsk.js) |
 
 ## [236일차](Day236)
 
