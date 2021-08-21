@@ -60,7 +60,7 @@
 
 > 그래프
 * 발표: [승빈](reference/이름.pdf)
-* 정리: [진홍](reference/이름.pdf) [수경](reference/hsk.pdf)
+* 정리: [진홍](https://github.com/Eighteeen/BOJ_Algorithm_Study/blob/main/Study6%20-%20Graph/reference/kjh.pdf) [수경](https://github.com/Eighteeen/BOJ_Algorithm_Study/blob/main/Study6%20-%20Graph/reference/hsk.pdf)
 
 ## [238일차](Day238)
 
