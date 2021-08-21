@@ -1,3 +1,4 @@
+# nodejs로 stack size exceeded 문제로 실패하여 python으로 풀이
 import sys
 input = sys.stdin.readline
 sys.setrecursionlimit(10 ** 9)
