@@ -60,7 +60,7 @@
 | 백준   | 17842 | [<sub>![Gold1]</sub> 버스 노선](https://www.acmicpc.net/problem/17842) | [진홍승빈수경](Day237/boj17842_kjhwsbhsk.js) | Driver 🚗 수경 & Navigator 🧭 진홍승빈 |
 
 > 그래프
-* 발표: [승빈](reference/이름.pdf)
+* 발표: [승빈](https://github.com/Eighteeen/BOJ_Algorithm_Study/blob/main/Study6%20-%20Graph/reference/wsb.pdf)
 * 정리: [진홍](https://github.com/Eighteeen/BOJ_Algorithm_Study/blob/main/Study6%20-%20Graph/reference/kjh.pdf) [수경](https://github.com/Eighteeen/BOJ_Algorithm_Study/blob/main/Study6%20-%20Graph/reference/hsk.pdf)
 
 ## [238일차](Day238)
