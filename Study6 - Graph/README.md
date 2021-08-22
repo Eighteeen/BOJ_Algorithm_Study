@@ -33,8 +33,8 @@
 <!-- tier 리스트 E -->
 
 # Study6
-- 발표: [수경](reference/hsk.pdf)
-- 정리: [진홍](reference/kjh.pdf) [승빈](reference/wsb.pdf)
+- 발표: [승빈](reference/wsb.pdf)
+- 정리: [진홍](reference/kjh.pdf) [수경](reference/hsk.pdf) 
 
 ## 푼 문제
 [<sub>![Silver3]</sub> 바이러스](https://www.acmicpc.net/problem/2606)
