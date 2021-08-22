@@ -44,7 +44,7 @@ class Main {
         depthNodeQueueList = new ArrayList<>();
         for (int i = 0; i < nodeSize; i++) depthNodeQueueList.add(new LinkedList<>());
 
-        boolean[] isSettingDepth = new boolean[nodeSize];
+        boolean[] isSettingDepthArr = new boolean[nodeSize];
         int maxDepth = nodeSize - 1;
         int nodeNum = 0;
 
@@ -56,8 +56,8 @@ class Main {
                     continue;
                 }
 
-                if (isSettingDepth[i] || cntDepthNodeArr[i] == 0) {
-                    isSettingDepth[i] = false;
+                if (isSettingDepthArr[i]) {
+                    isSettingDepthArr[i] = false;
                     continue;
                 }
 
@@ -67,7 +67,7 @@ class Main {
 
             depthNodeQueueList.get(currentDepth).offer(++nodeNum);
             cntDepthNodeArr[currentDepth]--;
-            isSettingDepth[currentDepth] = true;
+            isSettingDepthArr[currentDepth] = true;
         }
     }
 }
