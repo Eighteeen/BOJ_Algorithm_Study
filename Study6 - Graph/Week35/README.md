@@ -12,7 +12,7 @@
 [Gold1]: https://user-images.githubusercontent.com/33937365/126247635-42bd3af9-e129-4379-b44a-22d75de3def6.png
 <!-- tier 리스트 E -->
 
-# Week34
+# Week35
 
 ## [239일차](Day239)
 
