@@ -40,6 +40,7 @@ class Main {
         return true;
     }
 
+    //// 이런 방법도 있네요 알아가요
     static void setDepthNodeQueueList() {
         depthNodeQueueList = new ArrayList<>();
         for (int i = 0; i < nodeSize; i++) depthNodeQueueList.add(new LinkedList<>());
