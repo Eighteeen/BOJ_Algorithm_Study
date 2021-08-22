@@ -62,11 +62,3 @@
 > 그래프
 * 발표: [승빈](../../Study6%20-%20Graph/reference/wsb.pdf)
 * 정리: [진홍](../../Study6%20-%20Graph/reference/kjh.pdf) [수경](../../Study6%20-%20Graph/reference/hsk.pdf)
-
-## [238일차](Day238)
-
-> [그래프 기본](https://www.acmicpc.net/group/workbook/view/9797/36622)
-
-| 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
-| ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 2606    | [<sub>![Silver3]</sub> 바이러스](https://www.acmicpc.net/problem/2606) | 진홍 승빈 [수경](Day238/boj2606_hsk.js) | 진홍 승빈 수경 |
