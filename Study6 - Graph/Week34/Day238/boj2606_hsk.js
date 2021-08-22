@@ -38,10 +38,11 @@ const getCntComputerWithVirus = (numOfComputer) => {
   return cntComputerWithVirus - 1;
 };
 
-const numOfCmputers = parseInt(input());
-const pairOfComputers = parseInt(input());
+const numOfCmputers = Number(input());
+const pairOfVertices = Number(input());
 const graphOfComputers = Array.from(new Array(numOfCmputers + 1), () => new Array());
-for (let i = 1; i <= pairOfComputers; i++) {
+
+for (let i = 1; i <= pairOfVertices; i++) {
   const [vertexA, vertexB] = input().split(' ').map(Number);
 
   graphOfComputers[vertexA].push(vertexB);
