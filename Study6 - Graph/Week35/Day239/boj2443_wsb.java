@@ -9,11 +9,8 @@ class Main{
 
         int N = Integer.parseInt(br.readLine()) - 1;
         for (int i = 0; i <= N; i++) {
-            String repeatStar = "*".repeat(N - i);
             sb.append(" ".repeat(i))
-                .append(repeatStar)
-                .append("*")
-                .append(repeatStar)
+                .append("*".repeat(2 * (N - i) + 1))
                 .append("\n");
         }
 
