@@ -17,6 +17,7 @@ const input = (() => {
   return () => stdin[line++];
 })();
 
+//// 깔끔하고 변수명이 구체적이어서 더욱 이해하기 쉬웠습니다.
 const getCntComputerWithVirus = (numOfComputer) => {
   const visitedComputers = new Array(numOfCmputers + 1).fill(false);
   const stackNodeList = [numOfComputer];
