@@ -6,6 +6,7 @@ class Main {
   public static void main(String[] args) throws Exception {
     final int N = Input.nextInt();
 
+    //// 깔끔
     StringBuilder result = new StringBuilder();
     for (int i = N; i >= 1; i--) {
       int spaces = N - i;

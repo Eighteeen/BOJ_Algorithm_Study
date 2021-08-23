@@ -10,6 +10,7 @@ const drawStar = (spaceCnt, starCnt) => {
   return ' '.repeat(spaceCnt) + '*'.repeat(starCnt);
 };
 
+//// 정말 깔끔하네요
 const N = parseInt(input());
 for (let i = 0; i < N; i++) {
   console.log(drawStar(i, 2 * (N - i) - 1));
