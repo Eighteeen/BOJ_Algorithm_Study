@@ -40,4 +40,5 @@
 [<sub>![Silver3]</sub> 바이러스](https://www.acmicpc.net/problem/2606)
 
 ## 쉬어갔던 문제
-[<sub>![Bronze3]</sub> 별 찍기 - 6](https://www.acmicpc.net/problem/2443)
+[<sub>![Bronze3]</sub> 별 찍기 - 6](https://www.acmicpc.net/problem/2443) |
+[<sub>![Bronze5]</sub> 나머지](https://www.acmicpc.net/problem/10430) |
