@@ -1,5 +1,6 @@
 <!-- tier 리스트 S -->
 [Unrated]: https://user-images.githubusercontent.com/33937365/126247607-85783912-c11a-4d50-ac36-8cc7dcb75cd2.png
+[Bronze5]: https://user-images.githubusercontent.com/33937365/126247611-e362d727-17a4-4737-a232-5827e185ab7c.png
 [Bronze3]: https://user-images.githubusercontent.com/33937365/126247613-b8408610-7bc4-40f8-804f-a30a45ddbb68.png
 [Silver5]: https://user-images.githubusercontent.com/33937365/126247618-38c5c905-672b-4d75-808e-8a7d45ea577d.png
 [Silver4]: https://user-images.githubusercontent.com/33937365/126247620-ba2d1b96-b0aa-4b88-80c5-71569c69bbc3.png
@@ -25,11 +26,11 @@
 
 ## [240일차](Day240)
 
-> [문제집설명](문제집링크)
+> [쉬어가는 문제](https://www.acmicpc.net/group/workbook/view/9797/36688)
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 0    | [<sub>![Unrated]</sub> 문제이름](문제링크) | 진홍 승빈 수경 | 진홍 승빈 수경 |
+| 백준   | 10430 | [<sub>![Bronze5]</sub> 나머지](https://www.acmicpc.net/problem/10430) | 진홍 승빈 수경 | 진홍 승빈 수경 |
 
 ## [241일차](Day241)
 
