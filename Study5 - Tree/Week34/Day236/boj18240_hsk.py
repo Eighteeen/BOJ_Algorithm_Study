@@ -4,6 +4,8 @@ input = sys.stdin.readline
 sys.setrecursionlimit(10 ** 9)
 
 num = 1
+## 알고리즘 돌아가는 것은 비슷한데 구현 방법이 달라서 흥미로웠습니다!
+## idx 에 대한 설명이 더 구체적이었으면 좋겠어요! 삽입 순서가 아니라 treeByDepth 자체에 쓰이는 걸로 착각해서 해석이 오래걸렸습니다. ㅠㅠ
 def traversalInOrder(depth, idx):
     global num
     if idx >= len(treeByDepth[depth]):
@@ -26,6 +28,7 @@ treeByDepth[0].append(1)
 for idx, depth in enumerate(depthArr):
     treeByDepth[depth].append(idx + 2)
 
+    ## 해당 조건문에서 break해서 최적화하면 좋을 것 같습니다.
     if len(treeByDepth[depth - 1]) * 2 < len(treeByDepth[depth]):
         isPossibleSequence = False
 
