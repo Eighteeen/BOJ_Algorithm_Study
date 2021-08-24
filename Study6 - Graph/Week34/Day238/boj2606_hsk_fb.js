@@ -20,9 +20,9 @@ const input = (() => {
 //// 깔끔하고 변수명이 구체적이어서 더욱 이해하기 쉬웠습니다.
 //// numOfComputer는 '컴퓨터의 개수'로 읽힙니다. (number of people: 인원수)
 //// => 반영했어영
-const getCntComputerWithVirus = (startComputer) => {
+const getCntComputerWithVirus = (startComputerWithVirus) => {
   const visitedComputers = new Array(numOfCmputers + 1).fill(false);
-  const stackNodeList = [startComputer];
+  const stackNodeList = [startComputerWithVirus];
   let cntComputerWithVirus = 0;
 
   while (stackNodeList.length) {
