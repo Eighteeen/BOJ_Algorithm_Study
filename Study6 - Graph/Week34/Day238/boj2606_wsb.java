@@ -19,7 +19,8 @@ class Main {
             graph.setNodes(computerA, computerB);
         }
 
-        //// 사이클이 없어도 바이러스는 전파됩니다!
+        //// 문제가 사이클과 전혀 상관이 없습니다!
+        //// 문제의 그림1에서 정점1부터 시작해서 사이클의 개수를 구한다면 2가 나와야할겁니다
         System.out.println(graph.getNumOfCycleNode(1) - 1);
         br.close();
     }
