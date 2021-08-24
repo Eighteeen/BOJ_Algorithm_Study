@@ -21,4 +21,4 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 2606    | [<sub>![Silver3]</sub> 바이러스](https://www.acmicpc.net/problem/2606) | [진홍](Day238/boj2606_kjh.java) [승빈](Day238/boj2606_wsb.java) [수경](Day238/boj2606_hsk.js) | [진홍](Day238/boj2606_kjh.java) 승빈 [수경](Day238/boj2606_hsk_fb.js) |
+| 백준   | 2606    | [<sub>![Silver3]</sub> 바이러스](https://www.acmicpc.net/problem/2606) | [진홍](Day238/boj2606_kjh.java) [승빈](Day238/boj2606_wsb.java) [수경](Day238/boj2606_hsk.js) | [진홍](Day238/boj2606_kjh_fb.java) 승빈 [수경](Day238/boj2606_hsk_fb.js) |
