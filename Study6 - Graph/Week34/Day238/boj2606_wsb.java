@@ -19,6 +19,7 @@ class Main {
             graph.setNodes(computerA, computerB);
         }
 
+        //// 사이클이 없어도 바이러스는 전파됩니다!
         System.out.println(graph.getNumOfCycleNode(1) - 1);
         br.close();
     }

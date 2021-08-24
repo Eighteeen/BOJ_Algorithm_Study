@@ -18,6 +18,7 @@ const input = (() => {
 })();
 
 //// 깔끔하고 변수명이 구체적이어서 더욱 이해하기 쉬웠습니다.
+//// numOfComputer는 '컴퓨터의 개수'로 읽힙니다. (number of people: 인원수)
 const getCntComputerWithVirus = (numOfComputer) => {
   const visitedComputers = new Array(numOfCmputers + 1).fill(false);
   const stackNodeList = [numOfComputer];
@@ -41,7 +42,10 @@ const getCntComputerWithVirus = (numOfComputer) => {
 
 const numOfCmputers = Number(input());
 const pairOfVertices = Number(input());
-const graphOfComputers = Array.from(new Array(numOfCmputers + 1), () => new Array());
+const graphOfComputers = Array.from(
+  new Array(numOfCmputers + 1),
+  () => new Array(),
+);
 
 for (let i = 1; i <= pairOfVertices; i++) {
   const [vertexA, vertexB] = input().split(' ').map(Number);
