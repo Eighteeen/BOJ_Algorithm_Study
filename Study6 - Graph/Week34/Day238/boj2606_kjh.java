@@ -11,6 +11,7 @@ class Main {
     final int VERTEX_AMOUNT = Input.nextInt();
     final int EDGE_AMOUNT = Input.nextInt();
 
+    //// vertex 의 복수형은 vertices라 전체적으로 수정하는게 어떨까용!?
     Vertex[] vertexes = Stream.generate(Vertex::new).limit(VERTEX_AMOUNT + 1).toArray(Vertex[]::new);
 
     for (int i = 0; i < EDGE_AMOUNT; i++) {
