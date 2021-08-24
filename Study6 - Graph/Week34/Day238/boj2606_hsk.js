@@ -42,10 +42,7 @@ const getCntComputerWithVirus = (numOfComputer) => {
 
 const numOfCmputers = Number(input());
 const pairOfVertices = Number(input());
-const graphOfComputers = Array.from(
-  new Array(numOfCmputers + 1),
-  () => new Array(),
-);
+const graphOfComputers = Array.from(new Array(numOfCmputers + 1), () => new Array());
 
 for (let i = 1; i <= pairOfVertices; i++) {
   const [vertexA, vertexB] = input().split(' ').map(Number);
