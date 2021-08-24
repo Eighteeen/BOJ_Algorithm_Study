@@ -33,7 +33,7 @@ class Main {
     current.visited = true;
 
     int reachableVertexAmount = 0;
-    for (Vertex connectedVertex : current.connectedVertexes) {
+    for (Vertex connectedVertex : current.connectedVertices) {
       if (connectedVertex.visited) {
         continue;
       }
@@ -45,15 +45,15 @@ class Main {
 }
 
 class Vertex {
-  public List<Vertex> connectedVertexes;
+  public List<Vertex> connectedVertices;
   public boolean visited;
 
   public Vertex() {
-    connectedVertexes = new ArrayList<>();
+    connectedVertices = new ArrayList<>();
   }
 
   public void connect(Vertex vertex) {
-    connectedVertexes.add(vertex);
+    connectedVertices.add(vertex);
   }
 }
 
