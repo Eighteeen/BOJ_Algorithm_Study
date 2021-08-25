@@ -37,8 +37,9 @@
 - 정리: [진홍](reference/kjh.pdf) [수경](reference/hsk.pdf) 
 
 ## 푼 문제
-[<sub>![Silver3]</sub> 바이러스](https://www.acmicpc.net/problem/2606)
-[<sub>![Silver2]</sub> DFS와 BFS](https://www.acmicpc.net/problem/1260)
+[<sub>![Silver3]</sub> 바이러스](https://www.acmicpc.net/problem/2606) |
+[<sub>![Silver2]</sub> DFS와 BFS](https://www.acmicpc.net/problem/1260) |
+[<sub>![Silver4]</sub> 바닥 장식](https://www.acmicpc.net/problem/1388) |
 
 ## 쉬어갔던 문제
 [<sub>![Bronze3]</sub> 별 찍기 - 6](https://www.acmicpc.net/problem/2443) |
