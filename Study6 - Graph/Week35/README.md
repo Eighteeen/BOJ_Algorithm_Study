@@ -22,7 +22,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 2443    | [<sub>![Bronze3]</sub> 별 찍기 - 6](https://www.acmicpc.net/problem/2443) | [진홍](Day239/boj2443_kjh.java) [승빈](Day239/boj2443_wsb.java) [수경](Day239/boj2443_hsk.js) | [진홍](Day239/boj2443_kjh.java) 승빈 수경 |
+| 백준   | 2443    | [<sub>![Bronze3]</sub> 별 찍기 - 6](https://www.acmicpc.net/problem/2443) | [진홍](Day239/boj2443_kjh.java) [승빈](Day239/boj2443_wsb.java) [수경](Day239/boj2443_hsk.js) | [진홍](Day239/boj2443_kjh.java) 승빈 [수경](Day239/boj2443_hsk.js) |
 
 ## [240일차](Day240)
 
@@ -38,7 +38,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 1260    | [<sub>![Silver2]</sub> DFS와 BFS](https://www.acmicpc.net/problem/1260) | [진홍](Day241/boj1260_kjh.java) 승빈 수경 | 진홍 승빈 수경 |
+| 백준   | 1260    | [<sub>![Silver2]</sub> DFS와 BFS](https://www.acmicpc.net/problem/1260) | [진홍](Day241/boj1260_kjh.java) 승빈 [수경](Day241/boj1260_hsk.js) | 진홍 승빈 수경 |
 
 ## [242일차](Day242)
 
