@@ -13,11 +13,11 @@ const input = (() => {
 
 const getVerticesByDFS = (startVertex) => {
   const visitedVertices = new Array(N + 1).fill(false);
-  const stackNodeList = [startVertex];
+  const stack = [startVertex];
   const dfsList = [];
 
-  while (stackNodeList.length) {
-    let vertex = stackNodeList.pop();
+  while (stack.length) {
+    let vertex = stack.pop();
 
     if (visitedVertices[vertex]) continue;
     visitedVertices[vertex] = true;
@@ -26,7 +26,7 @@ const getVerticesByDFS = (startVertex) => {
 
     let sortedVertices = graph[vertex].sort((a, b) => b - a);
     for (let nextVertex of sortedVertices) {
-      stackNodeList.push(nextVertex);
+      stack.push(nextVertex);
     }
   }
 
@@ -35,11 +35,11 @@ const getVerticesByDFS = (startVertex) => {
 
 const getVerticesByBFS = (startVertex) => {
   const visitedVertices = new Array(N + 1).fill(false);
-  const queueNodeList = [startVertex];
+  const queue = [startVertex];
   const bfsList = [];
 
-  while (queueNodeList.length) {
-    let vertex = queueNodeList.shift();
+  while (queue.length) {
+    let vertex = queue.shift();
 
     if (visitedVertices[vertex]) continue;
     visitedVertices[vertex] = true;
@@ -48,7 +48,7 @@ const getVerticesByBFS = (startVertex) => {
 
     let sortedVertices = graph[vertex].sort((a, b) => a - b);
     for (let nextVertex of sortedVertices) {
-      queueNodeList.push(nextVertex);
+      queue.push(nextVertex);
     }
   }
 
