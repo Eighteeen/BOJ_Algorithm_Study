@@ -15,6 +15,7 @@ class Main {
         int x = (A + B) % C;
         int y = (A * B) % C;
 
+        //// 님 솔직히 수학 좋아하죠
         sb.append(x).append("\n")
             .append(x).append("\n")
             .append(y).append("\n")

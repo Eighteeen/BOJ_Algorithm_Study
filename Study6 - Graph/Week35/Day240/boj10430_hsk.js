@@ -15,3 +15,4 @@ result.push((A * B) % C);
 result.push(((A % C) * (B % C)) % C);
 
 console.log(result.join('\n'));
+//// 까루끄무
