@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
+//// 깔끔해요
 class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -74,6 +75,7 @@ class Graph {
         }
     }
 
+    //// 함수 분리를 정말 잘하시네요 
     public String DFS(int fromData) {
         String result = DFS(getNode(fromData)).toString();
         resetAllVisit();
@@ -105,6 +107,7 @@ class Graph {
         return result;
     }
 
+    //// 재귀로 BFS를 구현한 것은 처음봐요
     private StringBuilder BFS(Node node) {
         StringBuilder sb = new StringBuilder();
         sb.append(node.getData()).append(" ");
