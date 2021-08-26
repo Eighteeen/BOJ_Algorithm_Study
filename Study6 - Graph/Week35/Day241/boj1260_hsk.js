@@ -55,6 +55,7 @@ const getVerticesByBFS = (startVertex) => {
   return bfsList;
 };
 
+//// 정석풀이 깔끔
 const [N, M, V] = input().split(' ').map(Number);
 const graph = Array.from(new Array(N + 1), () => new Array());
 for (let i = 0; i < M; i++) {

@@ -96,6 +96,7 @@ class Graph {
     public String BFS(int fromData) {
         bfsQueue = new LinkedList<>();
 
+        //// 사전/사후처리 얘한테 맡기니 깔끔하네요
         Node fromNode = getNode(fromData);
         fromNode.visit();
         String result = BFS(fromNode).toString();
