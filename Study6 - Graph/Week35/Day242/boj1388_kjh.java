@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+// 그래프로 풀 이유도 방법도 모르겠음
 class Main {
   public static void main(String[] args) throws Exception {
     final int ROW_SIZE = Input.nextInt();
