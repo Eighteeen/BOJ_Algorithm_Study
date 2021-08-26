@@ -7,7 +7,7 @@ import java.util.stream.Stream;
 import java.util.LinkedList;
 import java.util.Queue;
 
-//// 깔끔해요, 재귀와 큐를 잘 활용하신 것 같아요
+//// 깔끔해요, 재귀와 큐를 잘 활용하신 것 같아요 : 22
 class Main {
   static StringBuilder result;
   static List<Integer>[] vertices;

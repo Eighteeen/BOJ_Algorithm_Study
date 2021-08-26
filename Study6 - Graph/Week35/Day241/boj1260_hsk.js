@@ -55,7 +55,7 @@ const getVerticesByBFS = (startVertex) => {
   return bfsList;
 };
 
-//// 정석풀이 깔끔
+//// 정석풀이 깔끔 : 22
 const [N, M, V] = input().split(' ').map(Number);
 const graph = Array.from(new Array(N + 1), () => new Array());
 for (let i = 0; i < M; i++) {
@@ -65,5 +65,6 @@ for (let i = 0; i < M; i++) {
   graph[vertexB].push(vertexA);
 }
 
+//// DFS, BFS 하기 전에 sort해줘도 좋을 것 같아요. (넣은 순서대로 탐색하고 싶을 경우 메소드를 수정해야 함)
 console.log(getVerticesByDFS(V).join(' '));
 console.log(getVerticesByBFS(V).join(' '));
