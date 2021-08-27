@@ -16,6 +16,7 @@ const input = (() => {
 
 // hsk1.js 로 풀고 나서 방문을 체크하는 것으로 그래프를 최대한 활용해보았는데
 // 코드만 더 복잡해지고 알아보기 힘든 것 같다고 생각이 드네요,,
+//// 그러게요. 그래프로도 해본거 리스펙!
 const getCntOfWoodenPlanks = () => {
   const visitedMatrix = Array.from(new Array(N), () => new Array(M).fill(false));
   let numOfWoodenPlanks = 0;
