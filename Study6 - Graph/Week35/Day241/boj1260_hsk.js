@@ -66,5 +66,7 @@ for (let i = 0; i < M; i++) {
 }
 
 //// DFS, BFS 하기 전에 sort해줘도 좋을 것 같아요. (넣은 순서대로 탐색하고 싶을 경우 메소드를 수정해야 함)
+//// => 아 스택, 큐를 활용해서 dfs에서는 오름차순 bfs에서는 내림차순으로 구성하고 싶어서 일부러 이런 코드로 짰습니다.
+//// => 조언 감사합니당
 console.log(getVerticesByDFS(V).join(' '));
 console.log(getVerticesByBFS(V).join(' '));
