@@ -13,8 +13,8 @@ class Main {
 
         char[][] decorationArr = new char[N][];
         Graph<Character> decorationGraph = new Graph<>(N * M);
-        for (int row = 0; row < N; row++) {
-            decorationArr[row] = br.readLine().toCharArray();
+        for (int i = 0; i < N; i++) {
+            decorationArr[i] = br.readLine().toCharArray();
         }
 
         int idx = 0;
