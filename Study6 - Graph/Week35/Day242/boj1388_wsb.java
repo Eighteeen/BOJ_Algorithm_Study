@@ -15,27 +15,28 @@ class Main {
         Graph<Character> decorationGraph = new Graph<>(N * M);
         for (int row = 0; row < N; row++) {
             decorationArr[row] = br.readLine().toCharArray();
-
-            int currentRow = M * row;
-            char prevDecoration = '\u0000';
-            for (int col = 0; col < M; col++) {
-                int currentIdx = currentRow + col;
-                decorationGraph.setNode(currentIdx, decorationArr[row][col]);
-                if (prevDecoration == '-' && prevDecoration == decorationArr[row][col]) {
-                    decorationGraph.connectNodes(currentIdx, currentIdx - 1);
-                }
-                prevDecoration = decorationArr[row][col];
-            }
         }
 
-        for (int col = 0; col < M; col++) {
-            char prevDecoration = '\u0000';
-            for (int row = 0; row < N; row++) {
-                int currentIdx = col + M * row;
-                if (prevDecoration == '|' && prevDecoration == decorationArr[row][col]) {
-                    decorationGraph.connectNodes(currentIdx, currentIdx - M);
+        int idx = 0;
+        char[] prevRowDecoraion = new char[M];
+        Arrays.fill(prevRowDecoraion, '\u0000');
+        for (int row = 0; row < N; row++) {
+            char prevColDecoration = '\u0000';
+            for (int col = 0; col < M; col++) {
+                char currentDecoration = decorationArr[row][col];
+                decorationGraph.setNode(idx, currentDecoration);
+
+                if (prevColDecoration == '-' && currentDecoration == '-') {
+                    decorationGraph.connectNodes(idx, idx - 1);
                 }
-                prevDecoration = decorationArr[row][col];
+
+                if (prevRowDecoraion[col] == '|' && currentDecoration == '|') {
+                    decorationGraph.connectNodes(idx, idx - M);
+                }
+
+                idx++;
+                prevRowDecoraion[col] = currentDecoration;
+                prevColDecoration = currentDecoration;
             }
         }
 
