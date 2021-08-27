@@ -5,6 +5,7 @@ import java.util.StringTokenizer;
 // 그래프로 풀 이유도 방법도 모르겠음
 //// 저도 이게 왜 그래프인지 모르겠지만 너무 그래프를 작은 범위로 보고있던 것 아닐까 하는 생각을 해봅니다,,
 //// 깔끔해요
+//// 그래프의 컴포넌트를 활용하라는 문제같은데 이 점을 활용해보는 것도 좋을 것 같습니다.
 class Main {
   public static void main(String[] args) throws Exception {
     final int ROW_SIZE = Input.nextInt();
