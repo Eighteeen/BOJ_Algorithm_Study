@@ -54,7 +54,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 16956 | [<sub>![Silver4]</sub> 늑대와 양](https://www.acmicpc.net/problem/16956) | [진홍](Day243/boj16956_kjh.java) 승빈 [수경](Day243/boj16956_hsk.js) | 진홍 승빈 수경 |
+| 백준   | 16956 | [<sub>![Silver4]</sub> 늑대와 양](https://www.acmicpc.net/problem/16956) | [진홍](Day243/boj16956_kjh.java) [승빈](Day243/boj16956_wsb.java) [수경](Day243/boj16956_hsk.js) | 진홍 승빈 수경 |
 
 ## [244일차](Day244) : Pairing Day
 
