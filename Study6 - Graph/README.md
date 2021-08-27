@@ -41,6 +41,7 @@
 [<sub>![Silver2]</sub> DFS와 BFS](https://www.acmicpc.net/problem/1260) |
 [<sub>![Silver4]</sub> 바닥 장식](https://www.acmicpc.net/problem/1388) |
 [<sub>![Silver4]</sub> 늑대와 양](https://www.acmicpc.net/problem/16956) |
+[<sub>![Silver2]</sub> 효율적인 해킹](https://www.acmicpc.net/problem/1325) |
 
 ## 쉬어갔던 문제
 [<sub>![Bronze3]</sub> 별 찍기 - 6](https://www.acmicpc.net/problem/2443) |
