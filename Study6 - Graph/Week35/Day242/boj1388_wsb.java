@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 import java.util.*;
 
 class Main {
-    //// 그래프 활용하려 한 점 리스펙
+    //// 그래프 활용하려 한 점 리스펙 : 22 저보다도 더 잘 활용하신 것 같아요
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
