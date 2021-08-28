@@ -67,8 +67,8 @@
 
 ## [245일차](Day245) : Pairing Day
 
-> [그래프 기본](https://www.acmicpc.net/group/workbook/view/9797/36852)
+> [그래프 기본](https://www.acmicpc.net/group/workbook/view/9797/36885)
 
 | 사이트 | 번호 | 문제                 | 답안                | Pair Programming    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 0    | [<sub>![Unrated]</sub> 문제이름](문제링크) | 진홍승빈수경 | Driver 🚗 진홍 & Navigator 🧭 승빈수경 |
+| 백준   | 1926 | [<sub>![Silver1]</sub> 그림](https://www.acmicpc.net/problem/1926) | 진홍승빈수경 | Driver 🚗 진홍 & Navigator 🧭 승빈수경 |
