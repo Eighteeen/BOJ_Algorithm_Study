@@ -3,6 +3,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 // 이것도 그래프로 하면 오히려 먼 길 돌아가는 느낌
+//// 동감해요,,풀이 깔끔합니당
 class Main {
   public static void main(String[] args) throws Exception {
     final int ROW_SIZE = Input.nextInt();
