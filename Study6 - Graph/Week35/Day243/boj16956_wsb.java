@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
-//// 노드를 연결해서 그래프로 구현한 것 대단하네여
+//// 노드를 연결해서 그래프로 구현한 것 대단하네여 :22 대단합니다
 class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

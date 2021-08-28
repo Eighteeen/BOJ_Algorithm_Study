@@ -24,6 +24,7 @@ for (let i = 0; i < R; i++) {
     if (pasture[i][j] === 'S') continue;
 
     if (pasture[i][j] === 'W') {
+      //// dx dy 이열~
       let dx = [-1, 1, 0, 0];
       let dy = [0, 0, -1, 1];
 
