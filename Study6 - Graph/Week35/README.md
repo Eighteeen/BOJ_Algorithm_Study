@@ -65,7 +65,6 @@
 | 백준   | 1325    | [<sub>![Silver2]</sub> 효율적인 해킹](https://www.acmicpc.net/problem/1325) | 진홍 승빈 수경 | 진홍 승빈 수경 |
 
 
-
 ## [245일차](Day245) : Pairing Day
 
 > [그래프 기본](https://www.acmicpc.net/group/workbook/view/9797/36852)
