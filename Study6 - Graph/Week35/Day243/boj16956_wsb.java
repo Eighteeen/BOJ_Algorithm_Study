@@ -118,39 +118,11 @@ class Graph<T> {
         }
         return nodeArr[separator];
     }
-
-    private void resetAllVisit() {
-        for (Node<T> node : nodeArr) {
-            if (node == null) continue;
-            node.resetVisit();
-        }
-    }
-
-    public int getNumOfComponent() {
-        int cnt = 0;
-        for (Node<T> node : nodeArr) {
-            if (node == null || node.isVisited()) continue;
-            cnt++;
-            DFS(node);
-        }
-        resetAllVisit();
-        return cnt;
-    }
-
-    private void DFS(Node<T> node) {
-        if (node.isVisited()) return;
-
-        node.visit();
-        for (Node<T> adjNode : node.getAdjacentNodeList()) {
-            DFS(adjNode);
-        }
-    }
 }
 
 class Node<T> {
     private int separator;
     private T value;
-    private boolean isVisited = false;
     private List<Node<T>> adjNodeList;
 
     public Node(int separator) {
@@ -173,18 +145,6 @@ class Node<T> {
 
     public T getValue() {
         return value;
-    }
-
-    public boolean isVisited() {
-        return isVisited;
-    }
-
-    public void visit() {
-        isVisited = true;
-    }
-
-    public void resetVisit() {
-        isVisited = false;
     }
 
     public List<Node<T>> getAdjacentNodeList() {
