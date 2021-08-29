@@ -4,6 +4,7 @@ import java.util.StringTokenizer;
 
 // 이것도 그래프로 하면 오히려 먼 길 돌아가는 느낌
 //// 동감해요,,풀이 깔끔합니당
+//// 그래프 활용이 없어서 아쉽긴 하지만 그래프 이론 지식을 이용한 거라고 생각해요!
 class Main {
   public static void main(String[] args) throws Exception {
     final int ROW_SIZE = Input.nextInt();
@@ -30,6 +31,7 @@ class Main {
         );
   
         if (canWolfEatSheep) {
+          //// 어짜피 분기처리인 거 해당 조건문에서 print 0 return 하는 게 더 깔끔할 것 같습니다. 지정 루프를 쓸 필요없이요.
           isSheepSafe = false;
           break row_for;
         }

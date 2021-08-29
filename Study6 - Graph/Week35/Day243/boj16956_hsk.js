@@ -15,6 +15,7 @@ const input = (() => {
   return () => stdin[line++];
 })();
 
+//// 그래프 활용이 없어서 아쉽긴 하지만 이론을 이용한 거라고 생각해요 깔끔합니다.
 const [R, C] = input().split(' ').map(Number);
 const pasture = Array.from(new Array(R), () => input().split(''));
 let isSheepSafeInPasture = true;
@@ -24,7 +25,7 @@ for (let i = 0; i < R; i++) {
     if (pasture[i][j] === 'S') continue;
 
     if (pasture[i][j] === 'W') {
-      //// dx dy 이열~
+      //// dx dy 이열~ : 22 이열~~
       let dx = [-1, 1, 0, 0];
       let dy = [0, 0, -1, 1];
 
