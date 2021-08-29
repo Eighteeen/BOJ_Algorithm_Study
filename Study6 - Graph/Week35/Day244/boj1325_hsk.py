@@ -14,6 +14,7 @@ def cntHackingComputerByBFS(startVertex):
         vertex = queue.popleft()
 
         for nextVertex in computerGraph[vertex]:
+            ## hackedComputer[nextVertex]가 boolean이니 그대로 시용해도 좋을 것 같습니다.
             if hackedComputer[nextVertex] == True: continue
 
             queue.append(nextVertex)
@@ -21,6 +22,7 @@ def cntHackingComputerByBFS(startVertex):
 
     return hackedComputer.count(True)
 
+## 깔끔해요
 N, M = map(int, input().split())
 computerGraph = [[] for _ in range(N + 1)]
 cntOfhackingInComputer = [0] * (N + 1)
