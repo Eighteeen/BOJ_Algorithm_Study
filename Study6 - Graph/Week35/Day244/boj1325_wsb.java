@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
+//// 깔끔해요
 class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -29,6 +30,8 @@ class Main {
     }
 }
 
+//// 트리에서 그래프로 오면서 separator 쓰시는데 이유가 있을까요?
+//// separator 직역하면 구분자(구분기호)인데 그래프에서 알맞은 단어인지는 잘 모르겠습니다.
 class Graph<T> {
     private int maxSize;
     private Node<T>[] nodeArr;
