@@ -4,7 +4,7 @@ import java.util.StringTokenizer;
 
 // 이것도 그래프로 하면 오히려 먼 길 돌아가는 느낌
 //// 동감해요,,풀이 깔끔합니당
-//// 그래프 활용이 없어서 아쉽긴 하지만 그래프 이론 지식을 이용한 거라고 생각해요!
+//// 그래프 활용이 드러나지 않아 아쉽긴 하지만 그래프 이론 지식을 이용한 거라고 생각해요!
 class Main {
   public static void main(String[] args) throws Exception {
     final int ROW_SIZE = Input.nextInt();
