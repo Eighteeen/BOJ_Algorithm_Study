@@ -42,7 +42,7 @@
 [<sub>![Silver4]</sub> 바닥 장식](https://www.acmicpc.net/problem/1388) |
 [<sub>![Silver4]</sub> 늑대와 양](https://www.acmicpc.net/problem/16956) |
 [<sub>![Silver2]</sub> 효율적인 해킹](https://www.acmicpc.net/problem/1325) |
-[<sub>![Silver1]</sub> 그림](https://www.acmicpc.net/problem/1926) |
+[<sub>![Silver1]</sub> 일루미네이션](https://www.acmicpc.net/problem/5547) |
 
 ## 쉬어갔던 문제
 [<sub>![Bronze3]</sub> 별 찍기 - 6](https://www.acmicpc.net/problem/2443) |
