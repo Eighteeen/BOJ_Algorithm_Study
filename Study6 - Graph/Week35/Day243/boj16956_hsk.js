@@ -15,7 +15,7 @@ const input = (() => {
   return () => stdin[line++];
 })();
 
-//// 그래프 활용이 없어서 아쉽긴 하지만 이론을 이용한 거라고 생각해요 깔끔합니다.
+//// 그래프 활용이 드러나지 않아 아쉽긴 하지만 그래프 이론 지식을 이용한 거라고 생각해요 깔끔합니다.
 const [R, C] = input().split(' ').map(Number);
 const pasture = Array.from(new Array(R), () => input().split(''));
 let isSheepSafeInPasture = true;
