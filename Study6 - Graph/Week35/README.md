@@ -62,7 +62,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 1325    | [<sub>![Silver2]</sub> 효율적인 해킹](https://www.acmicpc.net/problem/1325) | *[진홍](Day244/boj1325_kjh.java)* [승빈](Day244/boj1325_wsb.java) [수경](Day244/boj1325_hsk.py) | 진홍 승빈 [수경](Day244/boj1325_hsk_fb.py) |
+| 백준   | 1325    | [<sub>![Silver2]</sub> 효율적인 해킹](https://www.acmicpc.net/problem/1325) | *[진홍](Day244/boj1325_kjh.java)* [승빈](Day244/boj1325_wsb.java) [수경](Day244/boj1325_hsk.py) | *[진홍](Day244/boj1325_kjh_fb.java)* 승빈 [수경](Day244/boj1325_hsk_fb.py) |
 
 
 ## [245일차](Day245) : Pairing Day
