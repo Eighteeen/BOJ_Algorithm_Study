@@ -32,7 +32,8 @@ class Main {
 
 //// 트리에서 그래프로 오면서 separator 쓰시는데 이유가 있을까요?
 //// separator 직역하면 구분자(구분기호)인데 그래프에서 알맞은 단어인지는 잘 모르겠습니다.
-//// 정점을 말하고 싶으신거라면 vertex로 변경하시는건 어떨까요?
+//// 보통 구분자는 split('\n')에서 "\n을 기준으로 나눈다(분리한다)"의 의미로 쓰이는 경우가 많아 separator 쓰셨을 때 저 의미로 느껴집니다.
+//// 정점을 말하고 싶으신거라면 vertex로 변경하시는건 어떨까요?(Node클래스에서도, Graph 클래스에서도 조금 헷갈리네요)
 class Graph<T> {
     private int maxSize;
     private Node<T>[] nodeArr;
