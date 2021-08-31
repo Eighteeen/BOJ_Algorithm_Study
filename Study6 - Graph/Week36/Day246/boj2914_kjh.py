@@ -10,3 +10,5 @@ for melodyAmount in range(rangeStart, rangeEnd + 1):
     if average == targetAverage:
         print(melodyAmount)
         break;
+
+## 예전에 푼 것 같지만 조금 어렵게 푸신 것 같네요 ㅎㅎ
