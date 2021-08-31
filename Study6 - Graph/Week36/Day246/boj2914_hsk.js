@@ -8,3 +8,4 @@ const input = (() => {
 
 const [A, I] = input().split(' ').map(Number);
 console.log(A * (I - 1) + 1);
+//// 깔끔..
