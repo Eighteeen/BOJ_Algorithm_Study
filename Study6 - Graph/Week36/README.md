@@ -16,7 +16,7 @@
 
 | 사이트 | 번호 | 문제                                       | 답안           | 피드백 반영 답안 |
 | ------ | ---- | ------------------------------------------ | -------------- | ---------------- |
-| 백준   | 2914 | [<sub>![Bronze5]</sub> 저작권](https://www.acmicpc.net/problem/2914) | [진홍](Day246/boj2914_kjh.py) [승빈](Day246/boj2914_wsb.java) [수경](Day246/boj2914_hsk.js) | 진홍 승빈 수경   |
+| 백준   | 2914 | [<sub>![Bronze5]</sub> 저작권](https://www.acmicpc.net/problem/2914) | [진홍](Day246/boj2914_kjh.py) [승빈](Day246/boj2914_wsb.java) [수경](Day246/boj2914_hsk.js) | 진홍 승빈 [수경](Day246/boj2914_hsk.js)   |
 
 ## [247일차](Day247)
 
