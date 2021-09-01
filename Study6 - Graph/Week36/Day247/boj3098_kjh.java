@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.stream.Stream;
 
 // 머리 굴릴 필요없이 그냥 문제에서 주어진 그대로 구현하면 됐구나 싶었던 문제
+//// 깔끔해요. 변수명이 이해가 잘됐어요
 class Main {
   public static void main(String[] args) throws Exception {
     final int NUMBER_OF_PEOPLE = Input.nextInt();
