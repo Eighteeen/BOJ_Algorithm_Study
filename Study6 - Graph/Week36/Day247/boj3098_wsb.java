@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
-//// 깔끔해요. 잘 푸신듯 ㄷㄷ
+//// 깔끔해요. 잘 푸신듯 ㄷㄷ :22 최대한 함수 나누시네용
 class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -64,6 +64,7 @@ class SocialRelationship extends Graph<Object> {
             prevCntRelationshipConnection = cntRelationshipConnection;
         }
 
+        //// insert 배워가요
         sb.insert(0, days).append("\n");
         return sb.toString();
     }
