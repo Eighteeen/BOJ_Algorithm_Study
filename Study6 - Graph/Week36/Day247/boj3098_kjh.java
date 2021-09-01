@@ -8,12 +8,13 @@ import java.util.ArrayList;
 import java.util.stream.Stream;
 
 // 머리 굴릴 필요없이 그냥 문제에서 주어진 그대로 구현하면 됐구나 싶었던 문제
-//// 깔끔해요. 변수명이 이해가 잘됐어요
+//// 깔끔해요. 변수명이 이해가 잘됐어요 : 22 변수명이 직관적이라서 이해가 빠르게 됐네요.
 class Main {
   public static void main(String[] args) throws Exception {
     final int NUMBER_OF_PEOPLE = Input.nextInt();
     final int NUMBER_OF_PAIRS = Input.nextInt();
 
+    //// 오 이렇게 한번에 초기화 가능하군요 배워갑니다.
     List<Integer>[] friendsFor = Stream.generate(ArrayList<Integer>::new).limit(NUMBER_OF_PEOPLE + 1).toArray(List[]::new);
     int totalNumberOfPairs = 0;
     final int MAX_TOTAL_NUMBER_OF_PAIRS = NUMBER_OF_PEOPLE * (NUMBER_OF_PEOPLE - 1) / 2;
@@ -30,6 +31,7 @@ class Main {
     StringBuilder newPairsLog = new StringBuilder();
     int days = 0;
 
+    //// 다중 반복문으로 쉽게 지저분해보일 수 있었는데 다중 반복문 임에도 깔끔하게 잘 짜신 것 같아요.
     while (totalNumberOfPairs < MAX_TOTAL_NUMBER_OF_PAIRS) {
       Set<Pair> newPairsThisDay = new HashSet<>();
 
