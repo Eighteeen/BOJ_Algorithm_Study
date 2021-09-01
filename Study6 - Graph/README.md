@@ -45,6 +45,7 @@
 [<sub>![Silver1]</sub> 일루미네이션](https://www.acmicpc.net/problem/5547) |
 [<sub>![Silver3]</sub> 소셜네트워크](https://www.acmicpc.net/problem/3098) |
 [<sub>![Silver2]</sub> 연결 요소의 개수](https://www.acmicpc.net/problem/11724) |
+[<sub>![Silver1]</sub> 미로 탐색](https://www.acmicpc.net/problem/2178) |
 
 ## 쉬어갔던 문제
 [<sub>![Bronze3]</sub> 별 찍기 - 6](https://www.acmicpc.net/problem/2443) |
