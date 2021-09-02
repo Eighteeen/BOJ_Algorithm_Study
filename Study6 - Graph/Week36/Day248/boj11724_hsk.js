@@ -57,4 +57,4 @@ for (let i = 1; i <= N; i++) {
 
 console.log(numOfConnectedElement);
 
-//// 깔꼼
+//// 깔꼼 : 22
