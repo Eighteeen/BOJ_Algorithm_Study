@@ -32,6 +32,7 @@ class Main {
     int days = 0;
 
     //// 다중 반복문으로 쉽게 지저분해보일 수 있었는데 다중 반복문 임에도 깔끔하게 잘 짜신 것 같아요.
+    //// => 감사합니다 ㅎㅎ;
     while (totalNumberOfPairs < MAX_TOTAL_NUMBER_OF_PAIRS) {
       Set<Pair> newPairsThisDay = new HashSet<>();
 

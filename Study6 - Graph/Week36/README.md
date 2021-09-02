@@ -24,7 +24,7 @@
 
 | 사이트 | 번호 | 문제                                       | 답안           | 피드백 반영 답안 |
 | ------ | ---- | ------------------------------------------ | -------------- | ---------------- |
-| 백준   | 3098    | [<sub>![Silver3]</sub> 소셜네트워크](https://www.acmicpc.net/problem/3098) | [진홍](Day247/boj3098_kjh.java) [승빈](Day247/boj3098_wsb.java) [수경](Day247/boj3098_hsk.js) | 진홍 승빈 수경   |
+| 백준   | 3098    | [<sub>![Silver3]</sub> 소셜네트워크](https://www.acmicpc.net/problem/3098) | [진홍](Day247/boj3098_kjh.java) [승빈](Day247/boj3098_wsb.java) [수경](Day247/boj3098_hsk.js) | [진홍](Day247/boj3098_kjh.java) 승빈 수경   |
 
 ## [248일차](Day248)
 
