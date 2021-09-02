@@ -46,6 +46,7 @@
 [<sub>![Silver3]</sub> 소셜네트워크](https://www.acmicpc.net/problem/3098) |
 [<sub>![Silver2]</sub> 연결 요소의 개수](https://www.acmicpc.net/problem/11724) |
 [<sub>![Silver1]</sub> 미로 탐색](https://www.acmicpc.net/problem/2178) |
+[<sub>![Silver1]</sub> 토마토](https://www.acmicpc.net/problem/7576) |
 
 ## 쉬어갔던 문제
 [<sub>![Bronze3]</sub> 별 찍기 - 6](https://www.acmicpc.net/problem/2443) |
