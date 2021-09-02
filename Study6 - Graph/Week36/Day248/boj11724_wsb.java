@@ -48,6 +48,8 @@ class Graph<T> {
 
     private Vertex<T> getOrCreateVertex(int vertexIdx) {
         Vertex<T> vertex;
+        //// null 인지를 확인하는 코드가 꽤 많이 보이는데 처음부터 초기화해두는건 어때요?
+        //// 팁) Stream.generate가 개인적으로 유용했습니다
         if (vertexArr[vertexIdx] == null) {
             vertex = new Vertex<>(vertexIdx);
             vertexArr[vertexIdx] = vertex;
@@ -84,6 +86,7 @@ class Graph<T> {
     }
 }
 
+//// 이제봤는데 제네릭 ㄷㄷ
 class Vertex<T> {
     private int idx;
     private T value;

@@ -48,6 +48,7 @@ for (let i = 0; i < M; i++) {
 }
 
 for (let i = 1; i <= N; i++) {
+  ///// 이럴수도 있구나
   if (visitedVertices[i]) continue;
 
   DFS(i);
@@ -55,3 +56,5 @@ for (let i = 1; i <= N; i++) {
 }
 
 console.log(numOfConnectedElement);
+
+//// 깔꼼
