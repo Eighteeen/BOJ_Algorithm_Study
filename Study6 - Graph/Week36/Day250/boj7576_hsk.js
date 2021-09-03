@@ -15,13 +15,13 @@ const input = (() => {
   return () => stdin[line++];
 })();
 
-const BFS = () => {
+const getDayOfTomatoesRipeByBFS = () => {
   let queueCursor = 0;
   let queue = [];
 
   for (let i = 0; i < N; i++) {
     for (let j = 0; j < M; j++) {
-      if (box[i][j] === 1) queue.push([i, j]);
+      if (boxOfTomatoes[i][j] === 1) queue.push([i, j]);
     }
   }
 
@@ -36,9 +36,9 @@ const BFS = () => {
       let ny = y + dy[i];
 
       if (nx < 0 || nx >= N || ny < 0 || ny >= M) continue;
-      if (box[nx][ny]) continue;
+      if (boxOfTomatoes[nx][ny]) continue;
 
-      box[nx][ny] = box[x][y] + 1;
+      boxOfTomatoes[nx][ny] = boxOfTomatoes[x][y] + 1;
       queue.push([nx, ny]);
     }
   }
@@ -46,8 +46,8 @@ const BFS = () => {
   let dayOfTomatoesRipe = 0;
   for (let i = 0; i < N; i++) {
     for (let j = 0; j < M; j++) {
-      if (box[i][j] === 0) return -1;
-      if (dayOfTomatoesRipe < box[i][j]) dayOfTomatoesRipe = box[i][j];
+      if (boxOfTomatoes[i][j] === 0) return -1;
+      if (dayOfTomatoesRipe < boxOfTomatoes[i][j]) dayOfTomatoesRipe = boxOfTomatoes[i][j];
     }
   }
 
@@ -55,6 +55,6 @@ const BFS = () => {
 };
 
 const [M, N] = input().split(' ').map(Number);
-let box = Array.from(new Array(N), () => input().split(' ').map(Number));
+let boxOfTomatoes = Array.from(new Array(N), () => input().split(' ').map(Number));
 
-console.log(BFS());
+console.log(getDayOfTomatoesRipeByBFS());
