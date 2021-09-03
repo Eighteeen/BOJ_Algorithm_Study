@@ -48,7 +48,7 @@
 
 | 사이트 | 번호 | 문제                                       | 답안           | 피드백 반영 답안 |
 | ------ | ---- | ------------------------------------------ | -------------- | ---------------- |
-| 백준   | 7576    | [<sub>![Silver1]</sub> 토마토](https://www.acmicpc.net/problem/7576) | [진홍](Day250/boj7576_kjh.java) 승빈 수경 | 진홍 승빈 수경   |
+| 백준   | 7576    | [<sub>![Silver1]</sub> 토마토](https://www.acmicpc.net/problem/7576) | [진홍](Day250/boj7576_kjh.java) 승빈 [수경](Day250/boj7576_hsk.js) | 진홍 승빈 수경   |
 
 ## [251일차](Day251) : Pairing Day
 

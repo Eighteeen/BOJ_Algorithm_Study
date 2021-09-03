@@ -2,9 +2,12 @@ const fs = require('fs');
 const stdin = (
   process.platform === 'linux'
     ? fs.readFileSync('/dev/stdin').toString().trim()
-    : `2 2
-1 -1
--1 1`
+    : `5 5
+-1 1 0 0 0
+0 -1 -1 -1 0
+0 -1 -1 -1 0
+0 -1 -1 -1 0
+0 0 0 0 0`
 ).split('\n');
 
 const input = (() => {
@@ -13,6 +16,7 @@ const input = (() => {
 })();
 
 const BFS = () => {
+  let queueCursor = 0;
   let queue = [];
 
   for (let i = 0; i < N; i++) {
@@ -24,8 +28,8 @@ const BFS = () => {
   let dx = [0, 0, 1, -1];
   let dy = [1, -1, 0, 0];
 
-  while (queue.length) {
-    let [x, y] = queue.shift();
+  while (queue.length > queueCursor) {
+    let [x, y] = queue[queueCursor++];
 
     for (let i = 0; i < 4; i++) {
       let nx = x + dx[i];
