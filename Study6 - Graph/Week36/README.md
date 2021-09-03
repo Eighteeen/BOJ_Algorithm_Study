@@ -52,11 +52,11 @@
 
 ## [251일차](Day251) : Pairing Day
 
-> [문제집설명](문제집링크)
+> [문제집설명](https://www.acmicpc.net/group/workbook/view/9797/37059)
 
 | 사이트 | 번호 | 문제                                       | 답안         | Pair Programming                       |
 | ------ | ---- | ------------------------------------------ | ------------ | -------------------------------------- |
-| 백준   | 0    | [<sub>![Unrated]</sub> 문제이름](문제링크) | 진홍승빈수경 | Driver 🚗 이름 & Navigator 🧭 이름이름 |
+| 백준   | 9205 | [<sub>![Silver1]</sub> 맥주 마시면서 걸어가기](https://www.acmicpc.net/problem/9205) | 진홍승빈수경 | Driver 🚗 승빈 & Navigator 🧭 진홍수경 |
 
 ## [252일차](Day252)
 
