@@ -24,6 +24,7 @@ class Main {
     System.out.print(shortestDistances[ROW_SIZE - 1][COLUMN_SIZE - 1]);
   }
 
+  //// Point 클래스 활용이 돋보이네요! 깔끔해요
   static int[][] getShortestDistances(boolean[][] adjacencyMatrix) {
     int[][] shortestDistances = new int[ROW_SIZE][COLUMN_SIZE];
     shortestDistances[0][0] = 1;
