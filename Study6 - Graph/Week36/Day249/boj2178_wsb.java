@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
+//// 깔끔합니다
 class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -20,6 +21,7 @@ class Main {
             for (int j = 0; j < M; j++) {
                 maze.setSection(idx, mazeSections[i][j] == '1');
                 
+                //// 뤼얼 정석 그래프로 푸시네요
                 if (i > 0) maze.connectSections(idx, idx - M);
                 if (j < (M - 1)) maze.connectSections(idx, idx + 1);
                 if (i < (N - 1)) maze.connectSections(idx, idx + M);

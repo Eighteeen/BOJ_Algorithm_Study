@@ -32,6 +32,7 @@ const getMinDistanceByBFS = (startX, startY) => {
     if (x === N && y === M) return cntOfDistance[x][y];
 
     for (let i = 0; i < 4; i++) {
+      //// 그냥 호기심인데 n은 어떤거의 약자로 생각하고 쓴거에요?
       let nx = x + dx[i];
       let ny = y + dy[i];
 
@@ -48,7 +49,9 @@ const [N, M] = input().split(' ').map(Number);
 let maze = Array.from(new Array(N + 1), () => new Array(M + 1));
 
 for (let i = 1; i <= N; i++) {
+  //// 요건 뭐 어떻게 돌아가는거에요??
   maze[i] = [0].concat(input().split('').map(Number));
 }
 
 console.log(getMinDistanceByBFS(1, 1));
+//// 깔끔합니다
