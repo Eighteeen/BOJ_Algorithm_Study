@@ -32,7 +32,7 @@ const getMinDistanceByBFS = (startX, startY) => {
     if (x === N && y === M) return cntOfDistance[x][y];
 
     for (let i = 0; i < 4; i++) {
-      //// 그냥 호기심인데 n은 어떤거의 약자로 생각하고 쓴거에요?
+      //// 그냥 호기심인데 n은 어떤거의 약자로 생각하고 쓴거에요? : 22 now 인 것 같은데 조금은 풀어쓰는 게 가독성에 더 좋을 것 같아요
       let nx = x + dx[i];
       let ny = y + dy[i];
 
@@ -54,4 +54,4 @@ for (let i = 1; i <= N; i++) {
 }
 
 console.log(getMinDistanceByBFS(1, 1));
-//// 깔끔합니다
+//// 깔끔합니다 : 22
