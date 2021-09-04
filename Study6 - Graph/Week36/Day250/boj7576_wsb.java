@@ -2,199 +2,83 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
-import java.util.stream.IntStream;
 
 class Main {
+    static int fruitBoxMaxSize;
+    static int fruitBoxCol;
+    static int[][] fruitStatesArr;
+
+    static Queue<Integer> bfsFruitIdxueue;
+    static int[] differenceIdxsToAdjSpace;
+
+    static final int RIGHT_DIFFERENCE_IDX = 1, LEFT_DIFFERENCE_IDX = -1;
+    static final int RIPEN_NUM = 1, UNRIPEN_NUM = 0, EMPTY_NUM = -1;
+
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         String[] boxInfo = br.readLine().split(" ");
-        int M = Integer.parseInt(boxInfo[0]);
-        int N = Integer.parseInt(boxInfo[1]);
+        fruitBoxCol = Integer.parseInt(boxInfo[0]);
+        int fruitBoxRow = Integer.parseInt(boxInfo[1]);
+        fruitBoxMaxSize = fruitBoxRow * fruitBoxCol;
 
-        FruitBox fruitBox = FruitBox.sizeOf(N, M);
-        int[][] tomatoFlags = new int[N][];
+        fruitStatesArr = new int[fruitBoxRow][];
+        bfsFruitIdxueue = new LinkedList<>();
+        differenceIdxsToAdjSpace = new int[] {1, fruitBoxCol, -1, -fruitBoxCol};
 
-        int idx = 0;
-        for (int i = 0; i < N; i++) {
-            tomatoFlags[i] = Arrays.stream(br.readLine().split(" ")).mapToInt(Integer::parseInt).toArray();
-            for (int j = 0; j < M; j++) {
+        int idx = -1;
+        for (int i = 0; i < fruitBoxRow; i++) {
+            fruitStatesArr[i] = Arrays.stream(br.readLine().split(" ")).mapToInt(Integer::parseInt).toArray();
+            for (int j = 0; j < fruitBoxCol; j++) {
                 idx++;
-                if (tomatoFlags[i][j] == -1) continue;
-                fruitBox.storeFruit(idx, tomatoFlags[i][j] == 1);
+                if (fruitStatesArr[i][j] == RIPEN_NUM) {
+                    bfsFruitIdxueue.offer(idx);
+                }
             }
         }
 
-        System.out.println(fruitBox.getDateOfAllFruitsRipen());
+        System.out.println(getDateOfAllFruitsRipen());
         br.close();
     }
-}
 
-class FruitBox extends Graph<Boolean> {
-    private int row;
-    private int col;
-    private int[] datesForRipen;
-    protected Queue<Vertex<Boolean>> bfsFruitQueue;
-    private int[] adjSpaceDifferentIdxs;
-
-    public static FruitBox sizeOf(int row, int col) {
-        return new FruitBox(row, col);
-    }
-
-    private FruitBox(int row, int col) {
-        super(row * col);
-        this.row = row;
-        this.col = col;
-        datesForRipen = new int[maxSize + 1];
-        bfsFruitQueue = new LinkedList<>();
-        adjSpaceDifferentIdxs = new int[] {1, col, -1, -col};
-    }
-
-    public void storeFruit(int spaceIdx, boolean isRipe) {
-        setVertex(spaceIdx, isRipe);
-        if (!isRipe) return;
-
-        bfsFruitQueue.offer(vertexArr[spaceIdx]);
-        datesForRipen[spaceIdx] = 1;
-    }
-
-    public int getDateOfAllFruitsRipen() {
+    static int getDateOfAllFruitsRipen() {
         setMinDatesForRipen();
 
-        for (Vertex<Boolean> fruit : vertexArr) {
-            if (fruit == null) continue;
-            if (!fruit.getValue()) return -1;
+        int dateForRipen = 0;
+        for (int[] fruitStates : fruitStatesArr) {
+            for (int fruitState : fruitStates) {
+                dateForRipen = Math.max(dateForRipen, fruitState);
+                if (fruitState == UNRIPEN_NUM) return -1;
+            }
         }
-        resetAllVisit();
 
-        return IntStream.of(datesForRipen).max().getAsInt() - 1;
+        return dateForRipen - 1;
     }
 
-    private void setMinDatesForRipen() {
-        while (!bfsFruitQueue.isEmpty()) {
-            Vertex<Boolean> fruit = bfsFruitQueue.poll();
-            fruit.visit();
-            fruit.setValue(true);
-            int fruitIdx = fruit.getIndex();
+    static void setMinDatesForRipen() {
+        while (!bfsFruitIdxueue.isEmpty()) {
+            int fruitIdx = bfsFruitIdxueue.poll();
+            int fruitRowIdx = fruitIdx / fruitBoxCol, fruitColIdx = fruitIdx % fruitBoxCol;
 
-            for (int adjSpaceDifferentIdx : adjSpaceDifferentIdxs) {
-                if (!isInFruitBoxSpace(fruitIdx, adjSpaceDifferentIdx)) continue;
-                int adjFruitIdx = fruitIdx + adjSpaceDifferentIdx;
+            for (int differenceIdx : differenceIdxsToAdjSpace) {
+                if (!isInFruitBoxSpace(fruitIdx, differenceIdx)) continue;
+                int adjFruitIdx = fruitIdx + differenceIdx;
 
-                Vertex<Boolean> adjFruit = vertexArr[adjFruitIdx];
-                if (adjFruit == null || adjFruit.isVisited() || adjFruit.getValue()) continue;
+                int adjFruitRowIdx = adjFruitIdx / fruitBoxCol, adjFruitColIdx = adjFruitIdx % fruitBoxCol;
+                int adjFruitFlag = fruitStatesArr[adjFruitRowIdx][adjFruitColIdx];
+                if (adjFruitFlag == EMPTY_NUM || adjFruitFlag >= RIPEN_NUM) continue;
 
-                bfsFruitQueue.offer(adjFruit);
-                datesForRipen[adjFruitIdx] = datesForRipen[fruitIdx] + 1;
+                bfsFruitIdxueue.offer(adjFruitIdx);
+                fruitStatesArr[adjFruitRowIdx][adjFruitColIdx] = fruitStatesArr[fruitRowIdx][fruitColIdx] + 1;
             }
         }
     }
 
-    private boolean isInFruitBoxSpace(int spaceIdx, int adjSpaceDifferentIdx) {
-        if (adjSpaceDifferentIdx == 1 && spaceIdx % col == 0) return false;
-        if (adjSpaceDifferentIdx == -1 && spaceIdx % col == 1) return false;
-        return spaceIdx + adjSpaceDifferentIdx > 0 && spaceIdx + adjSpaceDifferentIdx <= maxSize;
-    }
-}
+    static boolean isInFruitBoxSpace(int fruitSpaceIdx, int differenceIdx) {
+        if (differenceIdx == RIGHT_DIFFERENCE_IDX && fruitSpaceIdx % fruitBoxCol == fruitBoxCol - 1) return false;
+        if (differenceIdx == LEFT_DIFFERENCE_IDX && fruitSpaceIdx % fruitBoxCol == 0) return false;
 
-class Graph<T> {
-    protected int maxSize;
-    protected Vertex<T>[] vertexArr;
-
-    public static Graph maxSizeOf(int maxSize) {
-        return new Graph(maxSize);
-    }
-
-    protected Graph(int maxSize) {
-        this.maxSize = maxSize;
-        vertexArr = new Vertex[maxSize + 1];
-    }
-
-    public void setVertex(int vertexIdx, T value) {
-        getOrCreateVertex(vertexIdx).setValue(value);
-    }
-
-    public Vertex<T> findVertex(int vertexIdx) {
-        return vertexArr[vertexIdx];
-    }
-
-    public void connectVertices(int vertexIdxA, int vertexIdxB) {
-        Vertex<T> vertexA = getOrCreateVertex(vertexIdxA);
-        Vertex<T> vertexB = getOrCreateVertex(vertexIdxB);
-
-        vertexA.addAdjacentVertex(vertexB);
-        vertexB.addAdjacentVertex(vertexA);
-    }
-
-    private Vertex<T> getOrCreateVertex(int vertexIdx) {
-        Vertex<T> vertex;
-        if (vertexArr[vertexIdx] == null) {
-            vertex = Vertex.indexOf(vertexIdx);
-            vertexArr[vertexIdx] = vertex;
-        }
-        return vertexArr[vertexIdx];
-    }
-
-    protected void resetAllVisit() {
-        for (Vertex<T> vertex : vertexArr) {
-            if (vertex == null) continue;
-            vertex.resetVisit();
-        }
-    }
-}
-
-class Vertex<T> {
-    private int idx;
-    private T value;
-    private boolean isVisited = false;
-    private List<Vertex<T>> adjVertexList;
-
-    public static Vertex indexOf(int index) {
-        return new Vertex(index);
-    }
-
-    private Vertex(int idx) {
-        this.idx = idx;
-        adjVertexList = new ArrayList<>();
-    }
-
-    public int getIndex() {
-        return idx;
-    }
-
-    public void setValue(T value) {
-        this.value = value;
-    }
-
-    public T getValue() {
-        return value;
-    }
-
-    public boolean isVisited() {
-        return isVisited;
-    }
-
-    public void visit() {
-        isVisited = true;
-    }
-
-    public void resetVisit() {
-        isVisited = false;
-    }
-
-    public int getNumOfAdjacentVertex() {
-        return adjVertexList.size();
-    }
-
-    public List<Vertex<T>> getAdjacentVertexList() {
-        return adjVertexList;
-    }
-
-    public void addAdjacentVertex(Vertex<T> vertex) {
-        adjVertexList.add(vertex);
-    }
-
-    public void removeAdjacentVertex(Vertex<T> vertex) {
-        adjVertexList.remove(vertex);
+        int nextFruitSpaceIdx = fruitSpaceIdx + differenceIdx;
+        return nextFruitSpaceIdx >= 0 && nextFruitSpaceIdx < fruitBoxMaxSize;
     }
 }
