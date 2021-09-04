@@ -56,7 +56,7 @@
 
 | 사이트 | 번호 | 문제                                       | 답안         | Pair Programming                       |
 | ------ | ---- | ------------------------------------------ | ------------ | -------------------------------------- |
-| 백준   | 9205 | [<sub>![Silver1]</sub> 맥주 마시면서 걸어가기](https://www.acmicpc.net/problem/9205) | 진홍승빈수경 | Driver 🚗 승빈 & Navigator 🧭 진홍수경 |
+| 백준   | 9205 | [<sub>![Silver1]</sub> 맥주 마시면서 걸어가기](https://www.acmicpc.net/problem/9205) | [진홍승빈수경](Day251/boj9205_wsb.java) | Driver 🚗 승빈 & Navigator 🧭 진홍수경 |
 
 ## [252일차](Day252)
 
