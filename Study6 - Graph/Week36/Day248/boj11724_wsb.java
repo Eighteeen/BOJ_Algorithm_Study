@@ -51,6 +51,8 @@ class Graph<T> {
         Vertex<T> vertex;
         //// null 인지를 확인하는 코드가 꽤 많이 보이는데 처음부터 초기화해두는건 어때요?
         //// 팁) Stream.generate가 개인적으로 유용했습니다
+        //// -> 유용한 팁이지만 문제마다 null값을 체크해줘야 하는 경우가 생길 때도 있고,
+            //// 필요할 때만 만들어도 된다는 생각이라서 현재를 유지하겠습니다. 팁 감사해요!
         if (vertexArr[vertexIdx] == null) {
             vertex = new Vertex<>(vertexIdx);
             vertexArr[vertexIdx] = vertex;
