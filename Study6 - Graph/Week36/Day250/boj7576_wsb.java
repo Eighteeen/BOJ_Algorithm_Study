@@ -26,14 +26,14 @@ class Main {
         bfsFruitIdxueue = new LinkedList<>();
         differenceIdxsToAdjSpace = new int[] {RIGHT_DIFFERENCE_IDX, fruitBoxCol, LEFT_DIFFERENCE_IDX, -fruitBoxCol};
 
-        int idx = -1;
+        int idx = 0;
         for (int i = 0; i < fruitBoxRow; i++) {
             fruitStatesArr[i] = Arrays.stream(br.readLine().split(" ")).mapToInt(Integer::parseInt).toArray();
             for (int j = 0; j < fruitBoxCol; j++) {
-                idx++;
                 if (fruitStatesArr[i][j] == RIPEN_NUM) {
                     bfsFruitIdxueue.offer(idx);
                 }
+                idx++;
             }
         }
 
