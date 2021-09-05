@@ -137,24 +137,24 @@
 ## 📝 스터디 내용 📝
 > [Eighteen 문제집](https://www.acmicpc.net/group/workbook/list/9797)
 
-### [구현](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study1%20-%20Implementation)
+### [구현](Study1%20-%20Implementation)
 
-### [스택, 큐, 덱](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study2%20-%20Stack%2C%20Queue%2C%20Deque)
-> 발표: [진홍](https://github.com/Eighteeen/Algorithm_Study/blob/main/Study2%20-%20Stack%2C%20Queue%2C%20Deque/reference/kjh.pdf)
+### [스택, 큐, 덱](Study2%20-%20Stack%2C%20Queue%2C%20Deque)
+> 발표: [진홍](Study2%20-%20Stack%2C%20Queue%2C%20Deque/reference/kjh.pdf)
 
-> 정리: [승빈](https://github.com/Eighteeen/Algorithm_Study/blob/main/Study2%20-%20Stack%2C%20Queue%2C%20Deque/reference/wsb.pdf) [예은](https://github.com/Eighteeen/Algorithm_Study/blob/main/Study2%20-%20Stack%2C%20Queue%2C%20Deque/reference/lye.pdf)
+> 정리: [승빈](Study2%20-%20Stack%2C%20Queue%2C%20Deque/reference/wsb.pdf) [예은](Study2%20-%20Stack%2C%20Queue%2C%20Deque/reference/lye.pdf)
 
-### [재귀](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study3%20-%20Recursion)
-> 발표: [승빈](https://github.com/Eighteeen/Algorithm_Study/blob/main/Study3%20-%20Recursion/reference/wsb.pdf)
+### [재귀](Study3%20-%20Recursion)
+> 발표: [승빈](Study3%20-%20Recursion/reference/wsb.pdf)
 
-> 정리: [진홍](https://github.com/Eighteeen/Algorithm_Study/blob/main/Study3%20-%20Recursion/reference/kjh.pdf)
+> 정리: [진홍](Study3%20-%20Recursion/reference/kjh.pdf)
 
-### [비트마스킹](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study4%20-%20Bitmask)
-> 발표: [진홍](https://github.com/Eighteeen/Algorithm_Study/tree/main/Study4%20-%20Bitmask/reference/kjh.pdf)
+### [비트마스킹](Study4%20-%20Bitmask)
+> 발표: [진홍](Study4%20-%20Bitmask/reference/kjh.pdf)
 
-> 정리: [승빈](https://github.com/Eighteeen/Algorithm_Study/tree/main/Study4%20-%20Bitmask/reference/wsb.pdf)
+> 정리: [승빈](Study4%20-%20Bitmask/reference/wsb.pdf)
 
-### [트리](https://github.com/deepredk/BCU_Algorithm_Study/tree/main/Study5%20-%20Tree)
-> 발표: [수경](https://github.com/Eighteeen/Algorithm_Study/tree/main/Study5%20-%20Tree/reference/hsk.pdf)
+### [트리](Study5%20-%20Tree)
+> 발표: [수경](Study5%20-%20Tree/reference/hsk.pdf)
 
-> 정리: [진홍](https://github.com/Eighteeen/Algorithm_Study/tree/main/Study5%20-%20Tree/reference/kjh.pdf) [승빈](https://github.com/Eighteeen/Algorithm_Study/tree/main/Study5%20-%20Tree/reference/wsb.pdf)
+> 정리: [진홍](Study5%20-%20Tree/reference/kjh.pdf) [승빈](Study5%20-%20Tree/reference/wsb.pdf)
