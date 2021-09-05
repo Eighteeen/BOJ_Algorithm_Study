@@ -47,6 +47,8 @@
 [<sub>![Silver2]</sub> 연결 요소의 개수](https://www.acmicpc.net/problem/11724) |
 [<sub>![Silver1]</sub> 미로 탐색](https://www.acmicpc.net/problem/2178) |
 [<sub>![Silver1]</sub> 토마토](https://www.acmicpc.net/problem/7576) |
+[<sub>![Silver1]</sub> 맥주 마시면서 걸어가기](https://www.acmicpc.net/problem/9205) | 
+[<sub>![Silver1]</sub> 단지번호붙이기](https://www.acmicpc.net/problem/2667) |
 
 ## 쉬어갔던 문제
 [<sub>![Bronze3]</sub> 별 찍기 - 6](https://www.acmicpc.net/problem/2443) |
