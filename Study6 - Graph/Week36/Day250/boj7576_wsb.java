@@ -3,19 +3,20 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
+//// 깔끄미요
 class Main {
     static int fruitBoxMaxSize;
     static int fruitBoxCol;
     static int[][] fruitStatesArr;
 
-    //// bfsFruitIdxQueue를 잘못쓰신거죵? ㄱㅇㅇ,,
+    //// bfsFruitIdxQueue를 잘못쓰신거죵? ㄱㅇㅇ,, / 일관성있게 오타낸거보면 변수 자동완성 쓰시는건가?
     //// differenceIdxsToAdjSpace 는 diffIdxsToAdjSpace로 길이를 줄여도 괜찮을 것 같아요(difference약자가 diff입니다.)
     //// 밑에 다른 difference도 변경하는게 어떨까용?
     static Queue<Integer> bfsFruitIdxueue;
     static int[] differenceIdxsToAdjSpace;
 
     //// RIGHT_DIFFERENCE_IDX, LEFT_DIFFERENCE_IDX 변수명들이 너무 길어서 조금 보기 힘들었던 것 같아요..
-    //// 변경하지 않아도 되지만 그냥 1, -1을 안쓰고 전역으로 변경한 이유가 있을까요?(궁금)
+    //// 변경하지 않아도 되지만 그냥 1, -1을 안쓰고 전역으로 변경한 이유가 있을까요?(궁금) 
     static final int RIGHT_DIFFERENCE_IDX = 1, LEFT_DIFFERENCE_IDX = -1;
     static final int RIPEN_NUM = 1, UNRIPEN_NUM = 0, EMPTY_NUM = -1;
 
