@@ -54,7 +54,7 @@ const getDayOfTomatoesRipeByBFS = () => {
   return dayOfTomatoesRipe - 1;
 };
 
-//// 깔끔요
+//// 깔끔요 : 22 완전 깔끔
 const [M, N] = input().split(' ').map(Number);
 let boxOfTomatoes = Array.from(new Array(N), () => input().split(' ').map(Number));
 
