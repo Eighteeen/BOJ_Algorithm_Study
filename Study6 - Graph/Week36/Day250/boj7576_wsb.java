@@ -10,6 +10,7 @@ class Main {
 
     //// bfsFruitIdxQueue를 잘못쓰신거죵? ㄱㅇㅇ,,
     //// differenceIdxsToAdjSpace 는 diffIdxsToAdjSpace로 길이를 줄여도 괜찮을 것 같아요(difference약자가 diff입니다.)
+    //// 밑에 다른 difference도 변경하는게 어떨까용?
     static Queue<Integer> bfsFruitIdxueue;
     static int[] differenceIdxsToAdjSpace;
 
