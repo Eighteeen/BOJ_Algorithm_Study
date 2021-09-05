@@ -4,12 +4,11 @@ import java.io.InputStreamReader;
 import java.util.*;
 
 class Main {
-    static final int BEER_POWER_DISTANCE = 1000;
-
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringBuilder sb = new StringBuilder();
         
+        final int BEER_POWER_DISTANCE = 1000;
         int t = Integer.parseInt(br.readLine());
         while (t-- > 0) {
             int n = Integer.parseInt(br.readLine());
