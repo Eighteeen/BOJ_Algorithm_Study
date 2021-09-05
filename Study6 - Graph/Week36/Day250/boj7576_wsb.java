@@ -8,9 +8,13 @@ class Main {
     static int fruitBoxCol;
     static int[][] fruitStatesArr;
 
+    //// bfsFruitIdxQueue를 잘못쓰신거죵? ㄱㅇㅇ,,
+    //// differenceIdxsToAdjSpace 는 diffIdxsToAdjSpace로 길이를 줄여도 괜찮을 것 같아요(difference약자가 diff입니다.)
     static Queue<Integer> bfsFruitIdxueue;
     static int[] differenceIdxsToAdjSpace;
 
+    //// RIGHT_DIFFERENCE_IDX, LEFT_DIFFERENCE_IDX 변수명들이 너무 길어서 조금 보기 힘들었던 것 같아요..
+    //// 변경하지 않아도 되지만 그냥 1, -1을 안쓰고 전역으로 변경한 이유가 있을까요?(궁금)
     static final int RIGHT_DIFFERENCE_IDX = 1, LEFT_DIFFERENCE_IDX = -1;
     static final int RIPEN_NUM = 1, UNRIPEN_NUM = 0, EMPTY_NUM = -1;
 

@@ -7,6 +7,7 @@ import java.util.Queue;
 import java.util.LinkedList;
 import java.util.Arrays;
 
+//// 깔끔해요
 class Main {
   static int[][] tomatoBoxes;
 
@@ -59,6 +60,8 @@ class Main {
         if (isOutOfIndex) {
           continue;
         }
+        //// isNoBox는 토마토가 들어있지 않은 칸을 말하는 것 같은데 "박스가 없는", "박스가 아닌" 으로 읽혀요!
+        //// isNoTomatoInBox나 isNotExistInBox는 어떨까요?
         boolean isNoBox = tomatoBoxes[aroundY][aroundX] == -1;
         if (isNoBox) {
           continue;
