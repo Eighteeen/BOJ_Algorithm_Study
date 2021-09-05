@@ -24,7 +24,7 @@ class Main {
 
         fruitStatesArr = new int[fruitBoxRow][];
         bfsFruitIdxueue = new LinkedList<>();
-        differenceIdxsToAdjSpace = new int[] {1, fruitBoxCol, -1, -fruitBoxCol};
+        differenceIdxsToAdjSpace = new int[] {RIGHT_DIFFERENCE_IDX, fruitBoxCol, LEFT_DIFFERENCE_IDX, -fruitBoxCol};
 
         int idx = -1;
         for (int i = 0; i < fruitBoxRow; i++) {
