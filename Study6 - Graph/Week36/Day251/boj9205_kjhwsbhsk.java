@@ -29,7 +29,7 @@ class Main {
             sb.append(beerStreet.isArrivedAtDestination(0, maxPlace - 1) ? "happy\n" : "sad\n");
         }
 
-        System.out.println(sb);
+        System.out.print(sb);
         br.close();
     }
 }
