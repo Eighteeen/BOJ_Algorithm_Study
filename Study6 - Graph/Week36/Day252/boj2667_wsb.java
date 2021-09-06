@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
-//// 깔끔
+//// 깔끔 : 22
 class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -78,7 +78,7 @@ class Village extends Graph<Object> {
         return list;
     }
 
-    //// 요것도 오타?
+    //// 요것도 오타? : 22 전체적으로 오타를 내신듯 ㄱㅇㅇ,,
     private int getNumOfHouseInComlex(Vertex<Object> house) {
         if (house.isVisited()) return 0;
         house.visit();

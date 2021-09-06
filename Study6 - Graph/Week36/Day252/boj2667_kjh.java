@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.ArrayList;
 import java.util.Comparator;
 
+//// ㄲㄲ
 class Main {
   static boolean[] visited;
   static List<Integer>[] adjacencyList;
@@ -20,6 +21,7 @@ class Main {
           continue;
         }
         
+        //// 이런 방법도 있네요. 새로워요!
         int current = i * MAP_SIZE + j;
         adjacencyList[current] = new ArrayList<>();
         
