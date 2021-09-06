@@ -9,7 +9,7 @@ class Main {
     static int fruitBoxCol;
     static int[][] fruitStatesArr;
 
-    //// bfsFruitIdxQueue를 잘못쓰신거죵? ㄱㅇㅇ,, / 일관성있게 오타낸거보면 변수 자동완성 쓰시는건가?
+    //// bfsFruitIdxQueue를 잘못쓰신거죵? ㄱㅇㅇ,, : 22 일관성있게 오타낸거보면 변수 자동완성 쓰시는건가?
     //// differenceIdxsToAdjSpace 는 diffIdxsToAdjSpace로 길이를 줄여도 괜찮을 것 같아요(difference약자가 diff입니다.)
     //// 밑에 다른 difference도 변경하는게 어떨까용?
     static Queue<Integer> bfsFruitIdxueue;
