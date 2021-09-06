@@ -64,4 +64,4 @@ for (let i = 0; i < N; i++) {
 console.log(numOfComplexes);
 console.log(cntOfHouseInComplexes.sort((a, b) => a - b).join('\n'));
 
-//// 깔끔
+//// 깔끔 : 22

@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.ArrayList;
 import java.util.Comparator;
 
-//// ㄲㄲ
+//// ㄲㄲ : 22
 class Main {
   static boolean[] visited;
   static List<Integer>[] adjacencyList;
@@ -21,7 +21,7 @@ class Main {
           continue;
         }
         
-        //// 이런 방법도 있네요. 새로워요!
+        //// 이런 방법도 있네요. 새로워요! : 22 어짜피 양방향이니까 왼쪽, 위쪽만..? 생각도 못 했어요. 굿굿!
         int current = i * MAP_SIZE + j;
         adjacencyList[current] = new ArrayList<>();
         
