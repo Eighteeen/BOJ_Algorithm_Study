@@ -25,6 +25,7 @@ class Main {
                 if (mapSections[i][j] != houseFlag) continue;
                 village.setVertex(idx);
 
+                //// 왼쪽과 위쪽만 체크해서 양방향 연결해도 갠춘해요
                 for (int k = 0; k < 4; k++) {
                     int nx = i + dx[k], ny = j + dy[k];
                     if (nx < 0 || nx >= N || ny < 0 || ny >= N) continue;
@@ -76,6 +77,7 @@ class Village extends Graph<Object> {
         return list;
     }
 
+    //// 요것도 오타?
     private int getNumOfHouseInComlex(Vertex<Object> house) {
         if (house.isVisited()) return 0;
         house.visit();

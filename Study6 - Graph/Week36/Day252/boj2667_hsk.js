@@ -47,6 +47,7 @@ const getCntOfHouseInComplexes = (startX, startY) => {
 };
 
 const N = parseInt(input());
+//// 이렇게 하면 자동으로 N만큼 input() 받아오는거에요??
 let map = Array.from(new Array(N), () => input().split('').map(Number));
 let numOfComplexes = 0;
 let cntOfHouseInComplexes = [];
@@ -62,3 +63,5 @@ for (let i = 0; i < N; i++) {
 
 console.log(numOfComplexes);
 console.log(cntOfHouseInComplexes.sort((a, b) => a - b).join('\n'));
+
+//// 깔끔
