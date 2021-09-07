@@ -14,9 +14,9 @@ const input = (() => {
   return () => stdin[line++];
 })();
 
-const getMinTimeToVertex = (startVertex) => {
+const getMinTimeToEndVertex = (startVertex) => {
   const visitedVertices = new Array(N + 1).fill(false);
-  let minTimeToEndVertices = new Array(N + 1).fill(0);
+  let minTimeToVertices = new Array(N + 1).fill(0);
 
   const queue = [startVertex];
   let queueCursor = 0;
@@ -30,12 +30,12 @@ const getMinTimeToVertex = (startVertex) => {
       if (visitedVertices[nextVertex]) continue;
       visitedVertices[nextVertex] = true;
 
-      minTimeToEndVertices[nextVertex] = minTimeToEndVertices[vertex] + 1;
+      minTimeToVertices[nextVertex] = minTimeToVertices[vertex] + 1;
       queue.push(nextVertex);
     }
   }
 
-  return minTimeToEndVertices[E];
+  return minTimeToVertices[E];
 };
 
 const [N, M] = input().split(' ').map(Number);
@@ -53,4 +53,4 @@ for (let i = 2; i <= N; i++) {
   graph[i - 1].push(i);
 }
 
-console.log(getMinTimeToVertex(S));
+console.log(getMinTimeToEndVertex(S));
