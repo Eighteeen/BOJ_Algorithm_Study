@@ -15,3 +15,4 @@ for (let i = 1; i <= N; i++) {
 }
 
 console.log(divisorArr[K - 1] ? divisorArr[K - 1] : 0);
+//// ㄲㄲ
