@@ -50,6 +50,7 @@
 [<sub>![Silver1]</sub> 맥주 마시면서 걸어가기](https://www.acmicpc.net/problem/9205) | 
 [<sub>![Silver1]</sub> 단지번호붙이기](https://www.acmicpc.net/problem/2667) |
 [<sub>![Silver2]</sub> 텔레포트 정거장](https://www.acmicpc.net/problem/18232) |
+[<sub>![Silver1]</sub> 토마토](https://www.acmicpc.net/problem/7569) | 
 
 ## 쉬어갔던 문제
 [<sub>![Bronze3]</sub> 별 찍기 - 6](https://www.acmicpc.net/problem/2443) |
