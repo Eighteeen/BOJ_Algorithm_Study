@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+//// ㄲㄲ , TARGET_RANK 일 때 멈추는 방법 좋네용
 class Main {
   public static void main(String[] args) throws Exception {
     final int TARGET_NUMBER = Input.nextInt();
