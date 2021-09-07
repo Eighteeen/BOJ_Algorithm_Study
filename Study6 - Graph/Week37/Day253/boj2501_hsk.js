@@ -15,4 +15,5 @@ for (let i = 1; i <= N; i++) {
 }
 
 console.log(divisorArr[K - 1] ? divisorArr[K - 1] : 0);
-//// ㄲㄲ
+//// ㄲㄲ : 22
+//// K 가 작은 숫자일 때 최적화가 이루어지지 않아서 아쉽기는 합니다.
