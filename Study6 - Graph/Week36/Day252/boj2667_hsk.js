@@ -48,6 +48,7 @@ const getCntOfHouseInComplexes = (startX, startY) => {
 
 const N = parseInt(input());
 //// 이렇게 하면 자동으로 N만큼 input() 받아오는거에요??
+//// => 네네 그렇습니당. 그래서 요즘 자주써요~
 let map = Array.from(new Array(N), () => input().split('').map(Number));
 let numOfComplexes = 0;
 let cntOfHouseInComplexes = [];
