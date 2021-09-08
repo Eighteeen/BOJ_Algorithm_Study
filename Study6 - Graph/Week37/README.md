@@ -21,7 +21,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 2501    | [<sub>![Bronze3]</sub> 약수 구하기](https://www.acmicpc.net/problem/2501) | [진홍](Day253/boj2501_kjh.java) [승빈](Day253/boj2501_wsb.java) [수경](Day253/boj2501_hsk.js) | 진홍 승빈 수경 |
+| 백준   | 2501    | [<sub>![Bronze3]</sub> 약수 구하기](https://www.acmicpc.net/problem/2501) | [진홍](Day253/boj2501_kjh.java) [승빈](Day253/boj2501_wsb.java) [수경](Day253/boj2501_hsk.js) | 진홍 승빈 [수경](Day253/boj2501_hsk.js) |
 
 ## [254일차](Day254)
 
