@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Queue;
 import java.util.LinkedList;
 
-//// 깔끔
+//// 깔끔 : 22
 class Main {
   static List<Integer>[] adjacencyList;
 
