@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.Queue;
 import java.util.LinkedList;
 
+//// 깔끔
 class Main {
   static List<Integer>[] adjacencyList;
 

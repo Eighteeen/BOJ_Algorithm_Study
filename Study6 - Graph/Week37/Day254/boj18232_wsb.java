@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
+//// 깔끔
 class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -82,6 +83,7 @@ class Graph<T> {
         }
     }
 
+    //// 오 드디어 while문으로 하셨네용 , 혹시 minmMovement도 minMovement 오탄가요,,?
     public int getMinMovement(int fromVertexIdx, int toVertexIdx) {
         Queue<Vertex<T>> bfsVertexQueue = new LinkedList<>();
         int[] minmMovement = new int[maxSize + 1];
