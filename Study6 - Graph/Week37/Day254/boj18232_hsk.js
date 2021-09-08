@@ -54,3 +54,5 @@ for (let i = 2; i <= N; i++) {
 }
 
 console.log(getMinTimeToEndVertex(S));
+
+//// 깔끔
