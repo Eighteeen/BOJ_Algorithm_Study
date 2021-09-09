@@ -7,6 +7,7 @@ import java.util.Queue;
 import java.util.LinkedList;
 import java.util.Arrays;
 
+//// 깔끔
 class Main {
   static int[][][] tomatoBoxes;
 

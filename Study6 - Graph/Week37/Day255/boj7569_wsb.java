@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
+//// 깔끔
 class Main {
     static int fruitStoreMaxSize;
     static int fruitBoxCol, fruitBoxRow, fruitBoxHeight;
