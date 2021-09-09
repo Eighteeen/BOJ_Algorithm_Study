@@ -68,6 +68,7 @@ class Main {
             int fruitColIdx = fruitCoordinate.getY();
 
             //// 71~82, 84~95, 97~108 코드 중복이 좀 심한 것 같습니다. dz, dy, dx를 이용하시는건 어떨까요?
+            //// : 22
             for (int i = -1; i <= 1; i++) {
                 if (i == 0) continue;
                 if (i == -1 && fruitHeightIdx == 0) continue;
