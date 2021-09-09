@@ -29,7 +29,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 18232 | [<sub>![Silver2]</sub> 텔레포트 정거장](https://www.acmicpc.net/problem/18232) | [진홍](Day254/boj18232_kjh.java) [승빈](Day254/boj18232_wsb.java) [수경](Day254/boj18232_hsk.js) | [진홍](Day254/boj18232_kjh.java) 승빈 [수경](Day254/boj18232_hsk.js) |
+| 백준   | 18232 | [<sub>![Silver2]</sub> 텔레포트 정거장](https://www.acmicpc.net/problem/18232) | [진홍](Day254/boj18232_kjh.java) [승빈](Day254/boj18232_wsb.java) [수경](Day254/boj18232_hsk.js) | [진홍](Day254/boj18232_kjh.java) [승빈](Day254/boj18232_wsb_fb.java) [수경](Day254/boj18232_hsk.js) |
 
 ## [255일차](Day255)
 
