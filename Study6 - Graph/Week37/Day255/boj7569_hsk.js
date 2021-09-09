@@ -72,4 +72,4 @@ for (let i = 0; i < H; i++) {
 
 console.log(getDayOfTomatoesRipeByBFS());
 
-//// 깔끔
+//// 깔끔 : 22
