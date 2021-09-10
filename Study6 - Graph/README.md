@@ -59,3 +59,4 @@
 [<sub>![Bronze5]</sub> 저작권](https://www.acmicpc.net/problem/2914) |
 [<sub>![Bronze3]</sub> 약수 구하기](https://www.acmicpc.net/problem/2501) |
 [<sub>![Bronze3]</sub> 삼각형과 세 변](https://www.acmicpc.net/problem/5073) |
+[<sub>![Bronze3]</sub> 다면체](https://www.acmicpc.net/problem/10569) |
