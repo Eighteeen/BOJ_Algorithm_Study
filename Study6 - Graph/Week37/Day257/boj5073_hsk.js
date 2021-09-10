@@ -20,7 +20,7 @@ while (1) {
 
   let [sideA, sideB, sideC] = sides;
 
-  if (sideA + sideB + sideC === 0) break;
+  if (!sideA && !sideB && !sideC) break;
 
   if (sideC >= sideA + sideB) console.log('Invalid');
   else {
