@@ -14,6 +14,7 @@ class Main {
 
         //// 와우.. 블록 하나하나에 초마다 상태가 변하게 하는? 말로 표현하기가 어렵네요
         //// 무튼 처음에는 이해하기 어려웠는데 이해하고 보니 정말 참신하게 푸신 것 같습니다 리스펙
+        //// : 22 깔끔해요
         int[][] bombTimesArr = new int[R][C];
         final int WAIT_NORMAL_TIME = -2, NORMAL_TIME = -1, WAIT_BOMD_TIME = 2, BOMB_TIME = 3;
 
