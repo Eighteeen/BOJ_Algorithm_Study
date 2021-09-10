@@ -47,6 +47,7 @@ const explodeBombs = () => {
   }
 };
 
+//// 와우 몇천초 전부 실행해도 시간 초과 안나는군요
 const setMapOverTime = (time) => {
   if (time === 1) {
     pushBombsCoordinatesInQueue();
@@ -68,3 +69,4 @@ for (let i = 1; i <= N; i++) {
 }
 
 console.log(map.map((item) => item.join('')).join('\n'));
+//// 깔끔하고 이해하기 쉽습니다
