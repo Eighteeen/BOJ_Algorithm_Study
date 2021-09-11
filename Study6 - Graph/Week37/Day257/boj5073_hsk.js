@@ -31,4 +31,4 @@ while (1) {
     else console.log('Isosceles');
   }
 }
-//// 깔끔
+//// 깔끔 :22
