@@ -24,4 +24,4 @@ while True:
         break;
     print(getTriangleType(sides))
 
-## 깔끔
+## 깔끔 : 22
