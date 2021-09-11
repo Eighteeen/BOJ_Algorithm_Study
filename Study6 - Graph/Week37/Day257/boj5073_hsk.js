@@ -22,6 +22,8 @@ while (1) {
 
   if (!sideA && !sideB && !sideC) break;
 
+  //// 사소하지만 Scalene의 경우가 Isosceles보다 연산을 더 많이 해야 해서
+  //// else if로 Scalene을 연산하고 else로 Isosceles로 푼 것이 조금 아쉽습니다.
   if (sideC >= sideA + sideB) console.log('Invalid');
   else {
     if (sideA === sideB && sideB === sideC) console.log('Equilateral');
@@ -29,3 +31,4 @@ while (1) {
     else console.log('Isosceles');
   }
 }
+//// 깔끔
