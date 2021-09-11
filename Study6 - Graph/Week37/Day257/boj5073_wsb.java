@@ -16,14 +16,14 @@ class Main {
 
             int maxSide = Math.max(side1 , Math.max(side2, side3));
             int sumSide = side1 + side2 + side3;
-            if (sumSide - maxSide =< maxSide) {
+            if (sumSide - maxSide <= maxSide) {
                 sb.append("Invalid").append("\n");
                 continue;
             }
 
             boolean isSameSide1And2 = side1 == side2, isSameSide2And3 = side2 == side3;
             if (isSameSide1And2 && isSameSide2And3) sb.append("Equilateral").append("\n");
-            else if (isSameSide1And2 || isSameSide2And3) sb.append("Isosceles").append("\n");
+            else if (isSameSide1And2 || isSameSide2And3 || side1 == side3) sb.append("Isosceles").append("\n");
             else sb.append("Scalene").append("\n");
         }
 
