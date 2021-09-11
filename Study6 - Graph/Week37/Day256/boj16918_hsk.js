@@ -69,4 +69,4 @@ for (let i = 1; i <= N; i++) {
 }
 
 console.log(map.map((item) => item.join('')).join('\n'));
-//// 깔끔하고 이해하기 쉽습니다
+//// 깔끔하고 이해하기 쉽습니다 : 22

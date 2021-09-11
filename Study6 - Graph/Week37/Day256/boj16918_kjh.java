@@ -24,7 +24,7 @@ class Main {
       return;
     }
     
-    //// 이런 방법도 있네요! 알아가요! 신기방기
+    //// 이런 방법도 있네요! 알아가요! 신기방기 : 22 최적화 대박
     int[] iterateMinute = new int[] { 2, 3, 2, 5 };
     int optimizedMinute = iterateMinute[(TARGET_MINUTE - 2) % 4];
 
