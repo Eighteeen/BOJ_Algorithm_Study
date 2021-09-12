@@ -53,7 +53,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 5073 | [<sub>![Bronze3]</sub> 삼각형과 세 변](https://www.acmicpc.net/problem/5073) | [진홍](Day257/boj5073_kjh.py) [승빈](Day257/boj5073_wsb.java) [수경](Day257/boj5073_hsk.js) | 진홍 승빈 수경 |
+| 백준   | 5073 | [<sub>![Bronze3]</sub> 삼각형과 세 변](https://www.acmicpc.net/problem/5073) | [진홍](Day257/boj5073_kjh.py) [승빈](Day257/boj5073_wsb.java) [수경](Day257/boj5073_hsk.js) | 진홍 승빈 [수경](Day257/boj5073_hsk_fb.js) |
 
 ## [258일차](Day258) 
 
@@ -61,7 +61,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | Pair Programming    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준 | 10569 | [<sub>![Bronze3]</sub> 다면체](https://www.acmicpc.net/problem/10569) | [진홍](Day258/boj10569_kjh.py) [승빈](Day258/boj10569_wsb.java) [수경](Day258/boj10569_hsk.js) | 진홍 승빈 수경 |
+| 백준 | 10569 | [<sub>![Bronze3]</sub> 다면체](https://www.acmicpc.net/problem/10569) | [진홍](Day258/boj10569_kjh.py) [승빈](Day258/boj10569_wsb.java) [수경](Day258/boj10569_hsk.js) | 진홍 승빈  [수경](Day258/boj10569_hsk_fb.js) |
 
 
 ## [259일차](Day259)
