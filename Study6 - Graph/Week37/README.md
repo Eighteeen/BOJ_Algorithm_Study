@@ -61,7 +61,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | Pair Programming    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준 | 10569 | [<sub>![Bronze3]</sub> 다면체](https://www.acmicpc.net/problem/10569) | [진홍](Day258/boj10569_kjh.py) [승빈](Day258/boj10569_wsb.java) [수경](Day258/boj10569_hsk.js) | 진홍 승빈  [수경](Day258/boj10569_hsk_fb.js) |
+| 백준 | 10569 | [<sub>![Bronze3]</sub> 다면체](https://www.acmicpc.net/problem/10569) | [진홍](Day258/boj10569_kjh.py) [승빈](Day258/boj10569_wsb.java) [수경](Day258/boj10569_hsk.js) | 진홍 승빈 수경 |
 
 
 ## [259일차](Day259)
@@ -70,4 +70,4 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 5339    | [<sub>![Bronze5]</sub> 콜센터](https://www.acmicpc.net/problem/5339) | 진홍 승빈 [수경](Day159/boj5339_hsk.js) | 진홍 승빈 수경 |
+| 백준   | 5339    | [<sub>![Bronze5]</sub> 콜센터](https://www.acmicpc.net/problem/5339) | 진홍 승빈 [수경](Day259/boj5339_hsk.js) | 진홍 승빈 수경 |
