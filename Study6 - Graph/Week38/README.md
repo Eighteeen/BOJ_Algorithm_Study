@@ -13,7 +13,7 @@
 [Gold5]: https://user-images.githubusercontent.com/33937365/126247627-2979d4d5-915a-4c4e-adb7-c171f9bafe28.png
 <!-- tier 리스트 E -->
 
-# WeekN
+# Week38
 
 ## [260일차](Day260)
 
@@ -21,7 +21,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 14716 | [<sub>![Silver1]</sub> 현수막](https://www.acmicpc.net/problem/14716) | 진홍 승빈 [수경](Day260/boj14716_hsk.js) | 진홍 승빈 수경 |
+| 백준   | 14716 | [<sub>![Silver1]</sub> 현수막](https://www.acmicpc.net/problem/14716) | [진홍](Day260/boj14716_kjh.java) 승빈 [수경](Day260/boj14716_hsk.js) | 진홍 승빈 수경 |
 
 ## [261일차](Day261)
 
