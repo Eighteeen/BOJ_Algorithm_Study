@@ -17,4 +17,4 @@ for (let i = 0; i < T; i++) {
   const [V, E] = input().split(' ').map(Number);
   console.log(2 - V + E);
 }
-//// ㄲㄲ
+//// ㄲㄲ :22
