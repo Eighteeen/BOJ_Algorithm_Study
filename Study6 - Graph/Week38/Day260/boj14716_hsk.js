@@ -55,4 +55,4 @@ for (let i = 0; i < M; i++) {
 }
 
 console.log(cntOfWord);
-//// 깔끔!
+//// 깔끔! :22
