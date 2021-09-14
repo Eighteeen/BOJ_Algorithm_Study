@@ -4,7 +4,7 @@ import java.util.StringTokenizer;
 import java.util.List;
 import java.util.ArrayList;
 
-//// 깔끔
+//// 깔끔 : 22
 class Main {
   static boolean[][] visited;
   static List<Coordinate>[][] adjacencyList;
