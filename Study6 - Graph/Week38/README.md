@@ -33,11 +33,11 @@
 
 ## [262일차](Day262)
 
-> [그래프 기본](https://www.acmicpc.net/group/workbook/view/9797/37434)
+> [그래프 활용](https://www.acmicpc.net/group/workbook/view/9797/37434)
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 4963    | [<sub>![Silver2]</sub> 섬의 개수](https://www.acmicpc.net/problem/4963) | 진홍 승빈 수경 | 진홍 승빈 수경 |
+| 백준   | 14502    | [<sub>![Gold5]</sub> 연구소](https://www.acmicpc.net/problem/14502) | [진홍](Day262/boj4963_kjh.java) 승빈 수경 | 진홍 승빈 수경 |
 
 ## [263일차](Day263)
 
