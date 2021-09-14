@@ -29,7 +29,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 7287 | [<sub>![Bronze5]</sub> 등록](https://www.acmicpc.net/problem/7287) | 진홍 [승빈](Day261/boj7287_wsb.java) [수경](Day261/boj7287_hsk.js) | 진홍 승빈 수경 |
+| 백준   | 7287 | [<sub>![Bronze5]</sub> 등록](https://www.acmicpc.net/problem/7287) | [진홍](Day261/boj7287_kjh.py) [승빈](Day261/boj7287_wsb.java) [수경](Day261/boj7287_hsk.js) | 진홍 승빈 수경 |
 
 ## [262일차](Day262)
 
