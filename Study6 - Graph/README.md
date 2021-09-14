@@ -53,6 +53,7 @@
 [<sub>![Silver1]</sub> 토마토](https://www.acmicpc.net/problem/7569) | 
 [<sub>![Silver1]</sub> 봄버맨](https://www.acmicpc.net/problem/16918) |
 [<sub>![Silver1]</sub> 현수막](https://www.acmicpc.net/problem/14716) |
+[<sub>![Gold5]</sub> 연구소](https://www.acmicpc.net/problem/14502) |
 
 ## 쉬어갔던 문제
 [<sub>![Bronze3]</sub> 별 찍기 - 6](https://www.acmicpc.net/problem/2443) |
