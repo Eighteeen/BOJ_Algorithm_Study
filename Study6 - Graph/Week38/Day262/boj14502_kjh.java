@@ -8,7 +8,8 @@ import java.util.Queue;
 class Main {
   static int ROW_SIZE;
   static int COLUMN_SIZE;
-  static boolean[] visited;
+  static boolean[][] visited;
+  static int nothingCount;
 
   static int NOTHING = 0;
   static int WALL = 1;
@@ -29,16 +30,19 @@ class Main {
           viruses.add(new Coordinate(y, x));
           visited[y][x] = true;
         }
+        if (map[y][x] == NOTHING) {
+          nothingCount++;
+        }
       }
     }
 
     List<Coordinate> candidatesThreeWall = getCandidatesThreeWall(map, viruses);
 
-    int maxSafeSize = getMaxSafeSizeForAllCandidates(map, candidates);
+    int maxSafeSize = getMaxSafeSizeForAllCandidates(map, viruses, candidates);
     System.out.print(maxSafeSize);
   }
 
-    static List<Coordinate> getCandidatesThreeWall(int[][] map, List<Coordinate> viruses) {
+  static List<Coordinate> getCandidatesThreeWall(int[][] map, List<Coordinate> viruses) {
     int[] dy = new int[] { -1, 0, 0, 1 };
     int[] dx = new int[] { 0, -1, 1, 0};
 
@@ -80,15 +84,62 @@ class Main {
     for (int i = 0; i < candidates.size() - 2; i++) {
       for (int j = i + 1; j < candidates.size() - 1; j++) {
         for (int k = j + 1; k < candidates.size(); k++) {
-          maxSafeSize = Math.max(maxSafeSize, getSafeSizeWithThreeWall(map, candidates.get(i), candidates.get(j), candidates.get(k));
+          maxSafeSize = Math.max(maxSafeSize, getSafeSizeWithThreeWall(map, candidates.get(i), candidates.get(j), candidates.get(k)));
         }
       }
     }
-    return maxSafeSize
+    return maxSafeSize;
   }
 
-  static int getSafeSizeWithThreeWall(int[][] map, Coordinate wall1, Coordinate wall2, Coordinate wall3) {
-    
+  static int getSafeSizeWithThreeWall(int[][] map, List<Coordinate> viruses, Coordinate wall1, Coordinate wall2, Coordinate wall3) {
+    int infectedCount = 0;
+
+    int[][] newMap = new int[ROW_SIZE][COLUMN_SIZE];
+    for (int y = 0; y < ROW_SIZE; y++) {
+      for (int x = 0; x < COLUMN_SIZE; x++) {
+        newMap[y][x] = map[y][x];
+      }
+    }
+    newMap[wall1.y][wall1.x] = WALL;
+    newMap[wall2.y][wall2.x] = WALL;
+    newMap[wall3.y][wall3.x] = WALL;
+
+    int[] dy = new int[] { -1, 0, 0, 1 };
+    int[] dx = new int[] { 0, -1, 1, 0};
+
+    boolean[][] visited = new boolean[ROW_SIZE][COLUMN_SIZE];
+    Queue<Coordinate> queue = new Queue<>();
+    for (Coordinate virus : viruses) {
+      queue.add(virus);
+      visited[virus.y][virus.x] = true;
+    }
+
+    List<Coordinate> candidates = new ArrayList<>();
+    while (queue.size() > 0) {
+      Coordinate coordinate = queue.poll();
+      int y = coordinate.y;
+      int x = coordinate.x;
+
+      for (int i = 0; i < 4; i++) {
+        int aroundY = y + dy[i];
+        int aroundX = x + dx[i];
+        
+        boolean outOfIndex = y < 0 || x < 0 || y >= ROW_SIZE || x >= COLUMN_SIZE;
+        if (outOfIndex) {
+          continue;
+        }
+        if (visited[aroundY][aroundX]) {
+          continue;
+        }
+        if (map[aroundY][aroundX] != NOTHING) {
+          continue;
+        }
+        infectedCount++;
+        visited[aroundY][aroundX] = true;
+      }
+    }
+
+    return nothingCount - infectedCount;
   }
 }
 
