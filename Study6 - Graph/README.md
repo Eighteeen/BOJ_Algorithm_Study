@@ -64,3 +64,4 @@
 [<sub>![Bronze3]</sub> 다면체](https://www.acmicpc.net/problem/10569) |
 [<sub>![Bronze5]</sub> 콜센터](https://www.acmicpc.net/problem/5339) |
 [<sub>![Bronze5]</sub> 등록](https://www.acmicpc.net/problem/7287) |
+[<sub>![Bronze3]</sub> 접시 안의 원](https://www.acmicpc.net/problem/16483) |
