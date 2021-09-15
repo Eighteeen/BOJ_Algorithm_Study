@@ -4,6 +4,7 @@ import java.util.StringTokenizer;
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Queue;
+import java.util.LinkedList;
 
 class Main {
   static int ROW_SIZE;
@@ -23,7 +24,7 @@ class Main {
     int[][] map = new int[ROW_SIZE][COLUMN_SIZE];
     visited = new boolean[ROW_SIZE][COLUMN_SIZE];
     
-    for (int y = 0; y < ROW_SIZE * COLUMN_SIZE; y++) {
+    for (int y = 0; y < ROW_SIZE; y++) {
       for (int x = 0; x < COLUMN_SIZE; x++) {
         map[y][x] = Input.nextInt();
         if (map[y][x] == VIRUS) {
@@ -38,7 +39,7 @@ class Main {
 
     List<Coordinate> candidatesThreeWall = getCandidatesThreeWall(map, viruses);
 
-    int maxSafeSize = getMaxSafeSizeForAllCandidates(map, viruses, candidates);
+    int maxSafeSize = getMaxSafeSizeForAllCandidates(map, viruses, candidatesThreeWall);
     System.out.print(maxSafeSize);
   }
 
@@ -46,7 +47,7 @@ class Main {
     int[] dy = new int[] { -1, 0, 0, 1 };
     int[] dx = new int[] { 0, -1, 1, 0};
 
-    Queue<Coordinate> queue = new Queue<>();
+    Queue<Coordinate> queue = new LinkedList<>();
     for (Coordinate virus : viruses) {
       queue.add(virus);
     }
@@ -61,7 +62,7 @@ class Main {
         int aroundY = y + dy[i];
         int aroundX = x + dx[i];
         
-        boolean outOfIndex = y < 0 || x < 0 || y >= ROW_SIZE || x >= COLUMN_SIZE;
+        boolean outOfIndex = aroundY < 0 || aroundX < 0 || aroundY >= ROW_SIZE || aroundX >= COLUMN_SIZE;
         if (outOfIndex) {
           continue;
         }
@@ -72,6 +73,7 @@ class Main {
           continue;
         }
         candidates.add(new Coordinate(aroundY, aroundX));
+        queue.add(new Coordinate(aroundY, aroundX));
         visited[aroundY][aroundX] = true;
       }
     }
@@ -79,12 +81,13 @@ class Main {
     return candidates;
   }
 
-  static int getMaxSafeSizeForAllCandidates(int[][] map, List<Coordinate> candidates) {
+  static int getMaxSafeSizeForAllCandidates(int[][] map, List<Coordinate> viruses, List<Coordinate> candidates) {
     int maxSafeSize = 0;
     for (int i = 0; i < candidates.size() - 2; i++) {
       for (int j = i + 1; j < candidates.size() - 1; j++) {
         for (int k = j + 1; k < candidates.size(); k++) {
-          maxSafeSize = Math.max(maxSafeSize, getSafeSizeWithThreeWall(map, candidates.get(i), candidates.get(j), candidates.get(k)));
+          int safeSize = getSafeSizeWithThreeWall(map, viruses, candidates.get(i), candidates.get(j), candidates.get(k));
+          maxSafeSize = Math.max(maxSafeSize, safeSize);
         }
       }
     }
@@ -108,13 +111,12 @@ class Main {
     int[] dx = new int[] { 0, -1, 1, 0};
 
     boolean[][] visited = new boolean[ROW_SIZE][COLUMN_SIZE];
-    Queue<Coordinate> queue = new Queue<>();
+    Queue<Coordinate> queue = new LinkedList<>();
     for (Coordinate virus : viruses) {
       queue.add(virus);
       visited[virus.y][virus.x] = true;
     }
 
-    List<Coordinate> candidates = new ArrayList<>();
     while (queue.size() > 0) {
       Coordinate coordinate = queue.poll();
       int y = coordinate.y;
@@ -124,22 +126,23 @@ class Main {
         int aroundY = y + dy[i];
         int aroundX = x + dx[i];
         
-        boolean outOfIndex = y < 0 || x < 0 || y >= ROW_SIZE || x >= COLUMN_SIZE;
+        boolean outOfIndex = aroundY < 0 || aroundX < 0 || aroundY >= ROW_SIZE || aroundX >= COLUMN_SIZE;
         if (outOfIndex) {
           continue;
         }
         if (visited[aroundY][aroundX]) {
           continue;
         }
-        if (map[aroundY][aroundX] != NOTHING) {
+        if (newMap[aroundY][aroundX] != NOTHING) {
           continue;
         }
         infectedCount++;
         visited[aroundY][aroundX] = true;
+        queue.add(new Coordinate(aroundY, aroundX));
       }
     }
 
-    return nothingCount - infectedCount;
+    return nothingCount - infectedCount - 3; 
   }
 }
 
@@ -150,6 +153,10 @@ class Coordinate {
   public Coordinate(int y, int x) {
     this.y = y;
     this.x = x;
+  }
+
+  public String toString() {
+    return "(" + y + ", " + x +  ")";
   }
 }
 
