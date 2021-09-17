@@ -8,7 +8,7 @@ class Main {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         int T = Integer.parseInt(br.readLine());
-        //// 띠용
+        //// 띠용 : 22 진짜 띠용,,
         System.out.println(T * T / 4);
 
         br.close();
