@@ -1,3 +1,6 @@
+// 문제 실패 : 시간 초과에서 계속 벗어나지 못 함.
+// 줄일 수 있는 방법이 떠올랐는데 시간 부족으로 아직 방법 적용을 못 함
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -5,7 +8,7 @@ import java.util.*;
 
 class Main {
     static int labRow, labCol;
-    static final int SAFE_FLAG = 0, WALL_FLAG = 1, VIRUS_FLAG = 3, ADD_WALL_NUM = 3;
+    static final int SAFE_FLAG = 0, WALL_FLAG = 1, VIRUS_FLAG = 2, ADD_WALL_NUM = 3;
     static List<Coordinate> virusCoordinates;
     static List<Coordinate> safeCoordinates;
 
@@ -38,6 +41,7 @@ class Main {
             boolean isAlreadyExistSomething = false;
             List<Coordinate> addWallCoordinates = new ArrayList<>();
 
+            int cntAddWall = 0;
             for (int j = 0; j < labSize; j++) {
                 if ((i & (1 << j)) == 0) continue;
 
@@ -46,16 +50,22 @@ class Main {
                     isAlreadyExistSomething = true;
                     break;
                 }
+
                 addWallCoordinates.add(Coordinate.twoPointOf(x, y));
+                if (++cntAddWall == ADD_WALL_NUM) break;
             }
 
             if (isAlreadyExistSomething) continue;
 
-            int[][] copyLabStates = labStates.clone();
+            copyLabStates = deepCopy(labStates);
             for (Coordinate addWallCoordinate : addWallCoordinates) {
                 copyLabStates[addWallCoordinate.getX()][addWallCoordinate.getY()] = WALL_FLAG;
             }
-            spreadVirus(copyLabStates);
+
+            isVisited = new boolean[labRow][labCol];
+            for (Coordinate virusCoordinate : virusCoordinates) {
+                spreadVirus(virusCoordinate);
+            }
 
             maxSafeSpace = Math.max(maxSafeSpace, getNumOfSafeSpace(copyLabStates));
         }
@@ -64,29 +74,23 @@ class Main {
         br.close();
     }
 
-    static void spreadVirus(int[][] labStates) {
-        int[] dx = {-1, 0, 1, 0}, dy = {0, 1, 0, -1};
-        boolean[][] isVisited = new boolean[labRow][labCol];
-        
-        Queue<Coordinate> coordinateQueue = new LinkedList<>();
-        for (Coordinate virusCoordinate : virusCoordinates) {
-            coordinateQueue.offer(virusCoordinate);
-        }
+    // 문제 푸는 중
+    static boolean[][] isVisited;
+    static int[][] copyLabStates;
+    static int[] dx = {-1, 0, 1, 0}, dy = {0, 1, 0, -1};
+    
+    static void spreadVirus(Coordinate virusCoordinate) {
+        int x = virusCoordinate.getX(), y = virusCoordinate.getY();
+        if (isVisited[x][y]) return;
 
-        while (!coordinateQueue.isEmpty()) {
-            Coordinate coordinate = coordinateQueue.poll();
-            int x = coordinate.getX(), y = coordinate.getY();
+        isVisited[x][y] = true;
+        copyLabStates[x][y] = VIRUS_FLAG;
 
-            if (isVisited[x][y]) continue;
-            isVisited[x][y] = true;
-            labStates[x][y] = VIRUS_FLAG;
-
-            for (int i = 0; i < 4; i++) {
-                int nx = x + dx[i], ny = y + dy[i];
-                if (nx < 0 || nx == labRow || ny < 0 || ny == labCol) continue;
-                if (labStates[nx][ny] != SAFE_FLAG) continue;
-                coordinateQueue.offer(Coordinate.twoPointOf(nx, ny));
-            }
+        for (int i = 0; i < 4; i++) {
+            int nx = x + dx[i], ny = y + dy[i];
+            if (nx < 0 || nx == labRow || ny < 0 || ny == labCol) continue;
+            if (isVisited[nx][ny] || copyLabStates[nx][ny] != SAFE_FLAG) continue;
+            spreadVirus(Coordinate.twoPointOf(nx, ny));
         }
     }
 
@@ -97,6 +101,17 @@ class Main {
             if (labStates[x][y] == SAFE_FLAG) cnt++;
         }
         return cnt;
+    }
+
+    static int[][] deepCopy(int[][] arr) {
+        int row = arr.length, col = arr[0].length;
+        int[][] copyArr = new int[row][col];
+
+        for (int i = 0; i < row; i++) {
+            System.arraycopy(arr[i], 0, copyArr[i], 0, col);
+        }
+
+        return copyArr;
     }
 }
 
@@ -114,4 +129,4 @@ class Coordinate {
 
     public int getX() { return x; }
     public int getY() { return y; }
-}
+} 
