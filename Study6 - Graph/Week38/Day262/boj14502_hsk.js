@@ -14,15 +14,17 @@ const input = (() => {
   return () => stdin[line++];
 })();
 
+//// 'DFS로 벽을 짓는다'만으로는 함수의 의도를 온전히 못 표현한 것 같습니당
 const buildWallByDFS = (cntOfWall) => {
   if (cntOfWall === 3) {
     spreadVirusInMap();
     return;
   }
-
+  
   for (let i = 0; i < N; i++) {
     for (let j = 0; j < M; j++) {
       if (map[i][j] === BLANK) {
+        //// 이욜 재귀를 활용한 브루트포스~
         map[i][j] = WALL;
         buildWallByDFS(cntOfWall + 1);
         map[i][j] = BLANK;
@@ -69,6 +71,8 @@ const spreadVirusInMap = () => {
   getMaxSafetyBoundary(virusMap);
 };
 
+//// 감염을 모두 시키고나서 호출돼야만 의미가 있는 함수라서 안전지대를 찾는 함수라기보단 감염되지 않은 타일의 수를 세는 함수인 것 같습니다
+//// 그리고 전역변수에 대입을 하는거라 리턴값이 있을 것 같은 get보단 fill, set, update 등을 사용하는게 좋을 것 같아요
 const getMaxSafetyBoundary = (virusMap) => {
   let cntOfBLANK = 0;
   for (let i = 0; i < N; i++) {
@@ -83,9 +87,12 @@ const getMaxSafetyBoundary = (virusMap) => {
 const [N, M] = input().split(' ').map(Number);
 let map = Array.from(new Array(N), () => input().split(' ').map(Number));
 
+//// 이욜 상수 한번에 선언...
 const [BLANK, WALL, VIRUS] = [0, 1, 2];
 let maxSafetyBoundary = 0;
 
+
+//// 아래의 2중 for문 빼고 buildWallByDFS(0); 해도 맞았습니다 나오네용
 for (let i = 0; i < N; i++) {
   for (let j = 0; j < M; j++) {
     if (map[i][j] === BLANK) {
