@@ -6,6 +6,8 @@ import java.util.ArrayList;
 import java.util.Queue;
 import java.util.LinkedList;
 
+//// 이번문제 이해도 잘됐고 함수명, 변수명도 잘 적용하신 것 같아요
+//// 그래프 활용도 잘하셨고 BFS도 깔끔해용
 class Main {
   static int ROW_SIZE;
   static int COLUMN_SIZE;
@@ -103,6 +105,8 @@ class Main {
         newMap[y][x] = map[y][x];
       }
     }
+
+    //// 진짜 벽 세운 것 같은 ,, 느낌
     newMap[wall1.y][wall1.x] = WALL;
     newMap[wall2.y][wall2.x] = WALL;
     newMap[wall3.y][wall3.x] = WALL;
@@ -142,6 +146,7 @@ class Main {
       }
     }
 
+    //// 개수를 이렇게 셀 수도 있네요 배워가요
     return nothingCount - infectedCount - 3; 
   }
 }
