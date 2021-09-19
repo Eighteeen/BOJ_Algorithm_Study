@@ -68,3 +68,4 @@
 [<sub>![Bronze5]</sub> 등록](https://www.acmicpc.net/problem/7287) |
 [<sub>![Bronze3]</sub> 접시 안의 원](https://www.acmicpc.net/problem/16483) |
 [<sub>![Bronze5]</sub> 나부 함대 데이터](https://www.acmicpc.net/problem/9654) |
+[<sub>![Silver2]</sub> NFC West vs North](https://www.acmicpc.net/problem/10170) |
