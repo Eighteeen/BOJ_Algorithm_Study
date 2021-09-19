@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
-//// 깔끔
+//// 깔끔 : 22
 class Main {
     static int[] dx = {-1, 0, 1, 0}, dy = {0, 1, 0, -1};
 
@@ -75,6 +75,7 @@ class Coordinate {
     public int getX() { return x; }
     public int getY() { return y; }
 
+    //// equals는 어디에 쓰는건가요??
     @Override
     public boolean equals(Object obj){
         if(this == obj) return true;
