@@ -61,7 +61,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | Pair Programming    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준 | 9654 | [<sub>![Bronze5]</sub> 나부 함대 데이터](https://www.acmicpc.net/problem/9654) | [진홍](Day265/boj9654_kjh.py) 승빈 [수경](Day265/boj9654_hsk.js) | 진홍 승빈 수경 |
+| 백준 | 9654 | [<sub>![Bronze5]</sub> 나부 함대 데이터](https://www.acmicpc.net/problem/9654) | [진홍](Day265/boj9654_kjh.py) [승빈](Day265/boj9654_wsb.java) [수경](Day265/boj9654_hsk.js) | 진홍 승빈 수경 |
 
 
 ## [266일차](Day266)
