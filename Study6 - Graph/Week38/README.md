@@ -45,7 +45,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 16483 | [<sub>![Bronze3]</sub> 접시 안의 원](https://www.acmicpc.net/problem/16483) | [진홍](Day263/boj16483_kjh.py) [승빈](Day263/boj16483_wsb.py) [수경](Day263/boj16483_hsk.js) | 진홍 승빈 [수경](Day263/boj16483_hsk.js) |
+| 백준   | 16483 | [<sub>![Bronze3]</sub> 접시 안의 원](https://www.acmicpc.net/problem/16483) | [진홍](Day263/boj16483_kjh.py) [승빈](Day263/boj16483_wsb.py) [수경](Day263/boj16483_hsk.js) | [진홍](Day263/boj16483_kjh.py) 승빈 [수경](Day263/boj16483_hsk.js) |
 
 ## [264일차](Day264)
 
