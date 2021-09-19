@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.ArrayList;
 import java.util.stream.Stream;
 
+//// 깔끔
 class Main {
   static boolean[][] visited;
 
