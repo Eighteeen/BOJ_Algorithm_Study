@@ -1,4 +1,4 @@
 T = int(input())
 print(round((T / 2) ** 2))
 
-## Very Simple
+## Very Simple : 22

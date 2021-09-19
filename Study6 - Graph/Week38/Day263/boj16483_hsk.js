@@ -9,4 +9,4 @@ const input = (() => {
 const T = parseInt(input());
 console.log(Math.round(Math.pow(T / 2, 2)));
 
-//// 깔끔
+//// 깔끔 : 22
