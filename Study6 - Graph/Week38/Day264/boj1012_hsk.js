@@ -55,7 +55,7 @@ const getLeastWorms = (cabbages) => {
   return cntOfWorms;
 };
 
-//// 깔끔
+//// 깔끔 :22
 const T = parseInt(input());
 for (let i = 0; i < T; i++) {
   const [M, N, K] = input().split(' ').map(Number);

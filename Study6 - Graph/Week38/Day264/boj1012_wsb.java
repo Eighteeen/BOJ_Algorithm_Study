@@ -61,6 +61,7 @@ class Main {
 class Coordinate {
     private int x, y;
 
+    //// 이욜..
     public static Coordinate twoPointOf(int x, int y) {
         return new Coordinate(x, y);
     }
