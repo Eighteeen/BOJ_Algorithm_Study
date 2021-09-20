@@ -76,6 +76,7 @@ class Coordinate {
     public int getY() { return y; }
 
     //// equals는 어디에 쓰는건가요??
+    //// -> cabbageCoordinates에서 객체를 확인할 때 쓰이고 있습니다! (remove)
     @Override
     public boolean equals(Object obj){
         if(this == obj) return true;
