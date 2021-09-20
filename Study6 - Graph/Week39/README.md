@@ -23,7 +23,7 @@
 
 | 사이트 | 번호 | 문제                                       | 답안           | 피드백 반영 답안 |
 | ------ | ---- | ------------------------------------------ | -------------- | ---------------- |
-| 백준   | 10170 | [<sub>![Bronze5]</sub> NFC West vs North](https://www.acmicpc.net/problem/10170) | [진홍](Day267/boj10170_kjh.py) 승빈 수경 | 진홍 승빈 수경   |
+| 백준   | 10170 | [<sub>![Bronze5]</sub> NFC West vs North](https://www.acmicpc.net/problem/10170) | [진홍](Day267/boj10170_kjh.py) 승빈 [수경](Day267/boj10170_hsk.js) | 진홍 승빈 수경   |
 
 ## [268일차](Day268)
 
