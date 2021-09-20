@@ -1,5 +1,5 @@
-// 문제 실패 : 시간 초과에서 계속 벗어나지 못 함.
-// 줄일 수 있는 방법이 떠올랐는데 시간 부족으로 아직 방법 적용을 못 함
+// 비트마스킹으로 조합해서 시간초과 오지게 나다가 safeCoordinates 안에서만 조합하니까 시간초과 안 남 (쥐엔장)
+// 배운 것을 활용한다고 꼭 좋은 건 아니다...
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -8,9 +8,11 @@ import java.util.*;
 
 class Main {
     static int labRow, labCol;
-    static final int SAFE_FLAG = 0, WALL_FLAG = 1, VIRUS_FLAG = 2, ADD_WALL_NUM = 3;
-    static List<Coordinate> virusCoordinates;
-    static List<Coordinate> safeCoordinates;
+    static int[][] labStates;
+    static boolean[][] isVisited;
+
+    static final int SAFE_FLAG = 0, WALL_FLAG = 1, VIRUS_FLAG = 2;
+    static int[] dx = {-1, 0, 1, 0}, dy = {0, 1, 0, -1};
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -19,9 +21,9 @@ class Main {
         labRow = Integer.parseInt(mapInfo[0]);
         labCol = Integer.parseInt(mapInfo[1]);
 
-        virusCoordinates = new ArrayList<>();
-        safeCoordinates = new ArrayList<>();
-        int[][] labStates = new int[labRow][];
+        List<Coordinate> virusCoordinates = new ArrayList<>(), safeCoordinates = new ArrayList<>();
+        labStates = new int[labRow][];
+
         for (int i = 0; i < labRow; i++) {
             labStates[i] = Arrays.stream(br.readLine().split(" ")).mapToInt(Integer::parseInt).toArray();
             for (int j = 0; j < labCol; j++) {
@@ -30,88 +32,64 @@ class Main {
             }
         }
 
-        int maxSafeSpace = 0;
-
-        int labSize = labRow * labCol;
-        long labBitmaskRange = (1L << labSize);
-        if (labBitmaskRange == 1) labBitmaskRange = Long.MAX_VALUE;
-        for (long i = 1; i < labBitmaskRange; i++) {
-            if (Long.bitCount(i) != ADD_WALL_NUM) continue;
-
-            boolean isAlreadyExistSomething = false;
-            List<Coordinate> addWallCoordinates = new ArrayList<>();
-
-            int cntAddWall = 0;
-            for (int j = 0; j < labSize; j++) {
-                if ((i & (1 << j)) == 0) continue;
-
-                int x = j / labCol, y = j % labCol;
-                if (labStates[x][y] != SAFE_FLAG) {
-                    isAlreadyExistSomething = true;
-                    break;
-                }
-
-                addWallCoordinates.add(Coordinate.twoPointOf(x, y));
-                if (++cntAddWall == ADD_WALL_NUM) break;
-            }
-
-            if (isAlreadyExistSomething) continue;
-
-            copyLabStates = deepCopy(labStates);
-            for (Coordinate addWallCoordinate : addWallCoordinates) {
-                copyLabStates[addWallCoordinate.getX()][addWallCoordinate.getY()] = WALL_FLAG;
-            }
-
-            isVisited = new boolean[labRow][labCol];
-            for (Coordinate virusCoordinate : virusCoordinates) {
-                spreadVirus(virusCoordinate);
-            }
-
-            maxSafeSpace = Math.max(maxSafeSpace, getNumOfSafeSpace(copyLabStates));
-        }
-
-        System.out.println(maxSafeSpace);
+        System.out.println(getMaxSafeSpaceAfterStandThreeWalls(virusCoordinates, safeCoordinates));
         br.close();
     }
 
-    // 문제 푸는 중
-    static boolean[][] isVisited;
-    static int[][] copyLabStates;
-    static int[] dx = {-1, 0, 1, 0}, dy = {0, 1, 0, -1};
-    
+    static int getMaxSafeSpaceAfterStandThreeWalls(List<Coordinate> virusCoordinates, List<Coordinate> safeCoordinates) {
+        int maxSafeSpace = 0;
+        int safeSpaceSize = safeCoordinates.size();
+
+        for (int i = 0; i < safeSpaceSize - 2; i++) {
+            Coordinate coordinate1 = safeCoordinates.get(i);
+            int x1 = coordinate1.getX(), y1 = coordinate1.getY();
+
+            for (int j = i + 1; j < safeSpaceSize - 1; j++) {
+                Coordinate coordinate2 = safeCoordinates.get(j);
+                int x2 = coordinate2.getX(), y2 = coordinate2.getY();
+
+                for (int k = j + 1; k < safeSpaceSize; k++) {
+                    Coordinate coordinate3 = safeCoordinates.get(k);
+                    int x3 = coordinate3.getX(), y3 = coordinate3.getY();
+
+                    labStates[x1][y1] = labStates[x2][y2] = labStates[x3][y3] = WALL_FLAG;
+
+                    isVisited = new boolean[labRow][labCol];
+                    for (Coordinate virusCoordinate : virusCoordinates) {
+                        spreadVirus(virusCoordinate);
+                    }
+
+                    maxSafeSpace = Math.max(maxSafeSpace, getNumOfSafeSpaceAndReset(safeCoordinates));
+                }
+            }
+        }
+
+        return maxSafeSpace;
+    }
+
     static void spreadVirus(Coordinate virusCoordinate) {
         int x = virusCoordinate.getX(), y = virusCoordinate.getY();
         if (isVisited[x][y]) return;
 
         isVisited[x][y] = true;
-        copyLabStates[x][y] = VIRUS_FLAG;
+        labStates[x][y] = VIRUS_FLAG;
 
         for (int i = 0; i < 4; i++) {
             int nx = x + dx[i], ny = y + dy[i];
             if (nx < 0 || nx == labRow || ny < 0 || ny == labCol) continue;
-            if (isVisited[nx][ny] || copyLabStates[nx][ny] != SAFE_FLAG) continue;
-            spreadVirus(Coordinate.twoPointOf(nx, ny));
+            if (isVisited[nx][ny]) continue;
+            if (labStates[nx][ny] == SAFE_FLAG) spreadVirus(Coordinate.twoPointOf(nx, ny));
         }
     }
 
-    static int getNumOfSafeSpace(int[][] labStates) {
+    static int getNumOfSafeSpaceAndReset(List<Coordinate> originalSafeCoordinates) {
         int cnt = 0;
-        for (Coordinate safeCoordinate : safeCoordinates) {
-            int x = safeCoordinate.getX(), y = safeCoordinate.getY();
+        for (Coordinate coordinate : originalSafeCoordinates) {
+            int x = coordinate.getX(), y = coordinate.getY();
             if (labStates[x][y] == SAFE_FLAG) cnt++;
+            labStates[x][y] = SAFE_FLAG;
         }
         return cnt;
-    }
-
-    static int[][] deepCopy(int[][] arr) {
-        int row = arr.length, col = arr[0].length;
-        int[][] copyArr = new int[row][col];
-
-        for (int i = 0; i < row; i++) {
-            System.arraycopy(arr[i], 0, copyArr[i], 0, col);
-        }
-
-        return copyArr;
     }
 }
 
