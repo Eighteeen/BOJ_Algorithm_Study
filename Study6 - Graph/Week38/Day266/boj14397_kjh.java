@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-//// 깔끔
+//// 깔끔 : 22
 class Main {
   public static void main(String[] args) throws Exception {
     final int ROW_SIZE = Input.nextInt();
@@ -20,6 +20,7 @@ class Main {
     System.out.print(beachLength);
   }
 
+  //// dy 를 2차원으로 선언할 필요는 없어보입니다.
   static int getBeachLength(boolean[][] isWater) {
     int[][] dy = new int[2][6];
     int[][] dx = new int[2][6];

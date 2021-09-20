@@ -47,4 +47,4 @@ const [N, M] = input().split(' ').map(Number);
 const map = Array.from(new Array(N), () => input().split(''));
 
 console.log(getLenOfBeach());
-//// 깔끔
+//// 깔끔 : 22
