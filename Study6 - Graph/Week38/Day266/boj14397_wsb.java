@@ -7,6 +7,7 @@ class Main {
     static int mapRow, mapCol;
     static char WATER_FLAG = '.', LAND_FLAG = '#';
     static int[] dx = {-1, -1, 0, 1, 1, 0};
+    //// 올.. 간단한 초기화법 배워가요
     static int[][] dy = {{-1, 0, 1, 0, -1, -1}, {0, 1, 1, 1, 0, -1}};
 
     public static void main(String[] args) throws IOException {
