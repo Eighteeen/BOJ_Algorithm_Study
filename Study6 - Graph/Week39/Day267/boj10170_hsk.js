@@ -11,3 +11,4 @@ Green Bay      8   7  1
 Chicago        8   8  0
 Detroit        7   9  0
 Minnesota      5  10  1`);
+//// 깔끔
