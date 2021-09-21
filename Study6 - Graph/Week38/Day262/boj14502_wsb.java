@@ -11,6 +11,9 @@ class Main {
     static int[][] labStates;
     static boolean[][] isVisited;
 
+    //// SAFE_FLAG 는 빈 공간(BLANK)인데  무조건 바이러스가 퍼지지 않는(안전한) 곳이라는 의미로 쓰이지는 않기 때문에
+    //// NOTHING, BLANK를 사용하시는 건 어떨까요?
+    //// safeCoordinates도 마찬가지로 벽을 세울 수 있는 후보군(candidates) 같은 표현이 나을 것 같아요 
     static final int SAFE_FLAG = 0, WALL_FLAG = 1, VIRUS_FLAG = 2;
     static int[] dx = {-1, 0, 1, 0}, dy = {0, 1, 0, -1};
 
