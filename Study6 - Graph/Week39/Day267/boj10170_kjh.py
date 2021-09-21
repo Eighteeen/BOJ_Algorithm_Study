@@ -12,4 +12,4 @@ Chicago        8   8  0
 Detroit        7   9  0
 Minnesota      5  10  1''' )
 
-## ㄲㄲ
+## ㄲㄲ : 22
