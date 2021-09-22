@@ -37,7 +37,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 14502    | [<sub>![Gold5]</sub> 연구소](https://www.acmicpc.net/problem/14502) | [진홍](Day262/boj14502_kjh.java) [승빈](Day262/boj14502_wsb.java) [수경](Day262/boj14502_hsk.js) | [진홍](Day262/boj14502_kjh.java) 승빈 [수경](Day262/boj14502_hsk.js) |
+| 백준   | 14502    | [<sub>![Gold5]</sub> 연구소](https://www.acmicpc.net/problem/14502) | [진홍](Day262/boj14502_kjh.java) [승빈](Day262/boj14502_wsb.java) [수경](Day262/boj14502_hsk.js) | [진홍](Day262/boj14502_kjh.java) [승빈](Day262/boj14502_wsb_fb.java) [수경](Day262/boj14502_hsk.js) |
 
 ## [263일차](Day263)
 
