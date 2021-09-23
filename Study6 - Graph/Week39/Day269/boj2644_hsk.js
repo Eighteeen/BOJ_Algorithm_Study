@@ -43,7 +43,7 @@ const N = parseInt(input());
 const [targetVertexA, targetVertexB] = input().split(' ').map(Number);
 const numOfRelationship = parseInt(input());
 //// 한 가족 뿐만 아니라 여러 가족일 수 있어서 familyTree라는 표현은 어색해보여요. (Tree는 루트가 있으니)
-//// Tree는 Graph로 바꾸면 좋을 것 같고, family는 복수형을 사용하거나 더 포괄적인 표현을 써도 좋을 것 같습니다!
+//// Tree는 Graph로 바꾸면 좋을 것 같고, family는 복수형을 사용하거나 더 포괄적인 표현을 써도 좋을 것 같습니다! :22
 const familyTree = Array.from(new Array(N + 1), () => new Array());
 
 for (let i = 0; i < numOfRelationship; i++) {
