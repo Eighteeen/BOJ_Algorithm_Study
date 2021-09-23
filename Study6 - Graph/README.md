@@ -57,6 +57,7 @@
 [<sub>![Silver2]</sub> 유기농 배추](https://www.acmicpc.net/problem/1012) |
 [<sub>![Silver5]</sub> 해변](https://www.acmicpc.net/problem/14397) |
 [<sub>![Silver2]</sub> 촌수계산](https://www.acmicpc.net/problem/2644) |
+[<sub>![Silver2]</sub> 점프 점프](https://www.acmicpc.net/problem/14248) | 
 
 ## 쉬어갔던 문제
 [<sub>![Bronze3]</sub> 별 찍기 - 6](https://www.acmicpc.net/problem/2443) |
