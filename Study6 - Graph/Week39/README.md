@@ -59,11 +59,11 @@
 
 ## [272일차](Day272) : Pairing Day
 
-> [문제집설명](문제집링크)
+> [그래프 활용](https://www.acmicpc.net/group/workbook/view/9797/37744)
 
 | 사이트 | 번호 | 문제                                       | 답안         | Pair Programming                       |
 | ------ | ---- | ------------------------------------------ | ------------ | -------------------------------------- |
-| 백준   | 0    | [<sub>![Unrated]</sub> 문제이름](문제링크) | 진홍승빈수경 | Driver 🚗 이름 & Navigator 🧭 이름이름 |
+| 백준   | 5014 | [<sub>![Gold5]</sub> 스타트링크](https://www.acmicpc.net/problem/5014) | 진홍승빈수경 | Driver 🚗 수경 & Navigator 🧭 진홍승빈 |
 
 
 ## [273일차](Day273)
