@@ -39,7 +39,7 @@
 
 | 사이트 | 번호 | 문제                                       | 답안           | 피드백 반영 답안 |
 | ------ | ---- | ------------------------------------------ | -------------- | ---------------- |
-| 백준   | 2644 | [<sub>![Silver2]</sub> 촌수계산](https://www.acmicpc.net/problem/2644) | [진홍](Day269/boj2644_kjh.java) [승빈](Day269/boj2644_wsb.java) [수경](Day269/boj2644_hsk.js) | [진홍](Day269/boj2644_kjh.java) 승빈 [수경](Day269/boj2644_hsk.js)   |
+| 백준   | 2644 | [<sub>![Silver2]</sub> 촌수계산](https://www.acmicpc.net/problem/2644) | [진홍](Day269/boj2644_kjh.java) [승빈](Day269/boj2644_wsb.java) [수경](Day269/boj2644_hsk.js) | [진홍](Day269/boj2644_kjh.java) 승빈 [수경](Day269/boj2644_hsk_fb.js)   |
 
 ## [270일차](Day270)
 
@@ -55,7 +55,7 @@
 
 | 사이트 | 번호 | 문제                                       | 답안           | 피드백 반영 답안 |
 | ------ | ---- | ------------------------------------------ | -------------- | ---------------- |
-| 백준   | 14248    | [<sub>![Silver2]</sub> 점프 점프](https://www.acmicpc.net/problem/14248) | [진홍](Day271/boj14248_kjh.java) 승빈 수경 | 진홍 승빈 수경   |
+| 백준   | 14248    | [<sub>![Silver2]</sub> 점프 점프](https://www.acmicpc.net/problem/14248) | [진홍](Day271/boj14248_kjh.java) 승빈 [수경](Day271/boj14248_hsk.js) | 진홍 승빈 수경   |
 
 ## [272일차](Day272) : Pairing Day
 
