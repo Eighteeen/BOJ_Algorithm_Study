@@ -19,3 +19,5 @@ for (let i = 0; i < 5; i++) {
   sum += parseInt(input());
 }
 console.log(sum);
+
+//// 깔끔
