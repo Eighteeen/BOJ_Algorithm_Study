@@ -20,4 +20,4 @@ for (let i = 0; i < 5; i++) {
 }
 console.log(sum);
 
-//// 깔끔
+//// 깔끔 : 22
