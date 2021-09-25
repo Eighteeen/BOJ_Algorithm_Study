@@ -36,6 +36,8 @@ class Main {
     int count = 1;
 
     Queue<Integer> queue = new LinkedList<>();
+    //// 굳이 adjacencyList[stoneStartIdx]에 있는 걸 미리 큐에 넣어놓을 필요가 있나? 라고 느껴져요.
+    //// 그냥 queue.add(stoneStartIdx)로 간단히 추가해주고 while문으로 로직을 수행하는 게 나을 것 같습니다.
     for (Integer adjacency : adjacencyList[stoneStartIdx]) {
       visited[adjacency] = true;
       queue.add(adjacency);
