@@ -59,6 +59,7 @@
 [<sub>![Silver2]</sub> 촌수계산](https://www.acmicpc.net/problem/2644) |
 [<sub>![Silver2]</sub> 점프 점프](https://www.acmicpc.net/problem/14248) |
 [<sub>![Gold5]</sub> 스타트링크](https://www.acmicpc.net/problem/5014) |
+[<sub>![Silver1]</sub> 경로 찾기](https://www.acmicpc.net/problem/11403) |
 
 ## 쉬어갔던 문제
 [<sub>![Bronze3]</sub> 별 찍기 - 6](https://www.acmicpc.net/problem/2443) |
