@@ -38,4 +38,4 @@ let visitedStones = new Array(N).fill(false);
 traversalInStonesByBFS(S - 1);
 console.log(visitedStones.filter((isVisited) => isVisited).length);
 
-//// 왕 깔끔
+//// 왕 깔끔 :2
