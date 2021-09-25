@@ -21,7 +21,7 @@ class Main {
     }
 
     static int getMaxNumOfCanVisit(int fromIdx) {
-        if (isOutsideStoneBridge(fromIdx) || visited[fromIdx]) return 0;
+        if (visited[fromIdx]) return 0;
         visited[fromIdx] = true;
 
         int visitCnt = 0;
