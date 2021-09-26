@@ -12,7 +12,7 @@ class Main {
         final int EXIST_EDGE_FLAG = 1;
 
         graphSize = Integer.parseInt(br.readLine());
-        isExistEdges = new boolean[graphSize][];
+        isExistEdges = new boolean[graphSize][graphSize];
         for (int i = 0; i < graphSize; i++) {
             int[] inputArr = Arrays.stream(br.readLine().split(" ")).mapToInt(Integer::parseInt).toArray();
             for (int j = 0; j < graphSize; j++) {
@@ -20,9 +20,9 @@ class Main {
             }
         }
 
-        setGraph();
+        setIsExistEdges();
 
-        System.out.println(getStringOfIsExistEdges());
+        System.out.print(getStringOfIsExistEdges());
         br.close();
     }
 
@@ -40,8 +40,8 @@ class Main {
     static String getStringOfIsExistEdges() {
         StringBuilder sb = new StringBuilder();
 
-        for (int[] isExistEdgeLine : isExistEdges) {
-            for (int isExist : isExistEdgeLine) {
+        for (boolean[] isExistEdgeLine : isExistEdges) {
+            for (boolean isExist : isExistEdgeLine) {
                 sb.append(isExist ? 1 : 0).append(" ");
             }
             sb.append("\n");
