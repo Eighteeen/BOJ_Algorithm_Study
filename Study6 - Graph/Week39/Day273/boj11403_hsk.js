@@ -31,3 +31,4 @@ for (let k = 0; k < N; k++) {
 }
 
 console.log(graph.map((vertices) => vertices.join(' ')).join('\n'));
+//// 깔끔
