@@ -4,6 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
+//// 깔끔무난
 class Main {
   public static void main(String[] args) throws Exception {
     final int VERTEX_AMOUNT = Input.nextInt();
