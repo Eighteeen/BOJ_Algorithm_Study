@@ -22,6 +22,7 @@ const graph = Array.from(new Array(N), () => input().split(' ').map(Number));
 
 for (let k = 0; k < N; k++) {
   for (let i = 0; i < N; i++) {
+    //// 올.. 이러면 더 간단하네요
     for (let j = 0; j < N; j++) {
       if (graph[i][j]) continue;
       if (graph[i][k] && graph[k][j]) graph[i][j] = 1;
