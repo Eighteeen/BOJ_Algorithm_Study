@@ -48,3 +48,4 @@ while (N !== 1) {
 
 console.log(result.length - 1);
 console.log(result.join(' '));
+//// 깔끔!

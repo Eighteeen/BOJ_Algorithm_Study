@@ -22,6 +22,8 @@ class Main {
     System.out.print(solution);
   }
 
+  //// while문 안의 if문에서 current를 연산해주는 부분이 꽤나 있어서 변수로 저장하고 써주는 것은 어떨까요?
+  //// 연산도 줄여지고 소스도 더 정돈된 느낌일 것 같아요
   static List<Integer> getLeastOperated(int number) {
     int[] from = new int[number + 1];
 
