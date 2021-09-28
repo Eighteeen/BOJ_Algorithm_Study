@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
+//// 깔끔
 class Main {
     static int graphSize;
     static int[] beforeCalcNums;
@@ -13,6 +14,7 @@ class Main {
 
         graphSize = Integer.parseInt(br.readLine());
 
+        //// 매개변수로 from, to 구분 good 
         sb.append(getMinNumOfCalc(1, graphSize))
             .append("\n")
             .append(getWayToMake(graphSize, 1));

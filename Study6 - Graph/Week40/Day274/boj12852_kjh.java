@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.Queue;
 import java.util.LinkedList;
 
+//// 깔끔
 class Main {
   public static void main(String[] args) throws Exception {
     final int NUMBER_TO_MAKE_ONE = Input.nextInt();
