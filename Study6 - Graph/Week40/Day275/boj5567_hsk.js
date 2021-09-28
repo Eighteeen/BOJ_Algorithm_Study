@@ -49,5 +49,5 @@ for (let i = 0; i < M; i++) {
   friendshipGraph[friendB].push(friendA);
 }
 
-const distanceArr = getDistanceArrByBFS(1).filter((distance) => distance === 1 || distance === 2);
-console.log(distanceArr.length);
+const numOfInvitedToWedding = getDistanceArrByBFS(1).filter((distance) => distance === 1 || distance === 2);
+console.log(numOfInvitedToWedding.length);
