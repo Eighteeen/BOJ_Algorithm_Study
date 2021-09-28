@@ -62,6 +62,7 @@
 [<sub>![Silver1]</sub> 경로 찾기](https://www.acmicpc.net/problem/11403) |
 [<sub>![Silver1]</sub> 1로 만들기 2](https://www.acmicpc.net/problem/12852) |
 [<sub>![Silver1]</sub> 결혼식](https://www.acmicpc.net/problem/5567) |
+[<sub>![Silver1]</sub> 숨바꼭질](https://www.acmicpc.net/problem/1697) |
 
 ## 쉬어갔던 문제
 [<sub>![Bronze3]</sub> 별 찍기 - 6](https://www.acmicpc.net/problem/2443) |
