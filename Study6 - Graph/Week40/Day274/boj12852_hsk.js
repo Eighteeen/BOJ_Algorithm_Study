@@ -6,6 +6,7 @@ const input = (() => {
   return () => stdin[line++];
 })();
 
+//// 1부터 하는 방식 신기하네요
 const calcNumByBFS = (startNum) => {
   const checkedNums = new Array(N + 1).fill(false);
   const queue = [startNum];

@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
-//// 깔끔
+//// 깔끔 :2
 class Main {
     static int graphSize;
     static int[] beforeCalcNums;
@@ -36,6 +36,7 @@ class Main {
             int current = bfsCalcNumQueue.poll();
             if (current == to) break;
 
+            //// 올.. 배워갑니다
             int[] nextNums = {getNumForCalc1(current), getNumForCalc2(current), getNumForCalc3(current)};
             for (int next : nextNums) {
                 if (next > to || isVisited[next]) continue;
