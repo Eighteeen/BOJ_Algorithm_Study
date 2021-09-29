@@ -12,7 +12,7 @@ class Main {
         String[] locationInfo = br.readLine().split(" ");
         int N = Integer.parseInt(locationInfo[0]);
         int K = Integer.parseInt(locationInfo[1]);
-        graphSize = getTeleportPoint(Math.max(N, K));
+        graphSize = getForwardPoint(Math.max(N, K));
 
         System.out.println(getMinTimeToGo(N, K));
         br.close();
