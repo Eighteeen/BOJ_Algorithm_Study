@@ -8,7 +8,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 import java.util.Queue;
 import java.util.LinkedList;
 
-//// 깔끔해요
+//// 깔끔해요 : 22
 class Main {
   static Vertex[] vertices;
 

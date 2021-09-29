@@ -17,6 +17,7 @@ const input = (() => {
 })();
 
 //// ByBFS는 없어도 될 정보인 것 같고, DistanceArr는 이름의 의미를 알기 어렵습니다
+//// distance는 복수형을 쓰면 알아보기 더 편할 것 같습니다!
 const getDistanceArrByBFS = (startVertex) => {
   const visitedVertices = new Array(N + 1).fill(false);
   let distance = new Array(N + 1).fill(0);
@@ -50,5 +51,6 @@ for (let i = 0; i < M; i++) {
   friendshipGraph[friendB].push(friendA);
 }
 
+//// filter 하는 부분을 함수로 빼셔서 함수 이름도 지으시면 알아보기 편하고 getDistanceArrByBFS 에 대한 피드백도 반영될 것 같아요!
 const numOfInvitedToWedding = getDistanceArrByBFS(1).filter((distance) => distance === 1 || distance === 2);
 console.log(numOfInvitedToWedding.length);
