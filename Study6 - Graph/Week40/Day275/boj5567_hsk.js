@@ -16,6 +16,7 @@ const input = (() => {
   return () => stdin[line++];
 })();
 
+//// ByBFS는 없어도 될 정보인 것 같고, DistanceArr는 이름의 의미를 알기 어렵습니다
 const getDistanceArrByBFS = (startVertex) => {
   const visitedVertices = new Array(N + 1).fill(false);
   let distance = new Array(N + 1).fill(0);
