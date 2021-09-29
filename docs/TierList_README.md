@@ -1,5 +1,6 @@
 <!-- tier 리스트 S -->
 [Unrated]: https://user-images.githubusercontent.com/33937365/126247607-85783912-c11a-4d50-ac36-8cc7dcb75cd2.png
+[NotRated]: https://user-images.githubusercontent.com/33937365/135189055-c3508249-b361-4948-8c36-a74b690cd346.png
 [Bronze5]: https://user-images.githubusercontent.com/33937365/126247611-e362d727-17a4-4737-a232-5827e185ab7c.png
 [Bronze4]: https://user-images.githubusercontent.com/33937365/126247612-89cbc675-e1d4-43a2-950b-1cb014dca697.png
 [Bronze3]: https://user-images.githubusercontent.com/33937365/126247613-b8408610-7bc4-40f8-804f-a30a45ddbb68.png
