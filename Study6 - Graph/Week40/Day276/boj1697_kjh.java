@@ -4,6 +4,7 @@ import java.util.StringTokenizer;
 import java.util.Queue;
 import java.util.LinkedList;
 
+//// 깔끔
 class Main {
   public static void main(String[] args) throws Exception {
     final int START_POINT = Input.nextInt();
