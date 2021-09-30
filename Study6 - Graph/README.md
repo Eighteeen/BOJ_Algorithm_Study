@@ -79,4 +79,4 @@
 [<sub>![Bronze5]</sub> NFC West vs North](https://www.acmicpc.net/problem/10170) |
 [<sub>![Bronze5]</sub> 와이버스 부릉부릉](https://www.acmicpc.net/problem/14645) |
 [<sub>![Bronze5]</sub> 카드 게임](https://www.acmicpc.net/problem/5522) |
-[<sub>![NotRated]</sub> 생일 출력하기](https://www.acmicpc.net/problem/2555) |
+[<sub>![Bronze2]</sub> 저항](https://www.acmicpc.net/problem/1076)
