@@ -6,6 +6,8 @@ const input = (() => {
   return () => stdin[line++];
 })();
 
+//// 함수 이름에서 sister로 추상화했으면 startNum도 조금 추상화해서 표현하는게 좋을 것 같슴다
+//// startNum이랑 endNum 전부 매개변수로써 쓰이는 게 적절할 것 같아요
 const getLeastTimeToFindSister = (startNum) => {
   const visitedVertices = new Array(N + 1).fill(false);
   const leastTimeToFindSister = [];

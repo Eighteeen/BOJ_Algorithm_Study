@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
-//// 깔끔
+//// 깔끔 :2
 class Main {
     static int graphSize;
 
@@ -15,6 +15,7 @@ class Main {
         int K = Integer.parseInt(locationInfo[1]);
         graphSize = getForwardPoint(Math.max(N, K));
 
+        //// Go가다보다는 Arrive도착하다가 더 자연스러울 것 같슴다
         System.out.println(getMinTimeToGo(N, K));
         br.close();
     }
