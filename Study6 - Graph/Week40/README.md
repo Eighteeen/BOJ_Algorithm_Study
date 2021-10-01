@@ -62,11 +62,11 @@
 
 ## [279일차](Day279) : Pairing Day
 
-> [문제집설명](문제집링크)
+> [그래프 활용](https://www.acmicpc.net/group/workbook/view/9797/37994)
 
 | 사이트 | 번호 | 문제                 | 답안                | Pair Programming    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 0    | [<sub>![Unrated]</sub> 문제이름](문제링크) | 진홍승빈수경 | Driver 🚗 이름 & Navigator 🧭 이름이름 |
+| 백준   | 2206 | [<sub>![Gold4]</sub> 벽 부수고 이동하기](https://www.acmicpc.net/problem/2206) | 진홍승빈수경 | Driver 🚗 진홍 & Navigator 🧭 승빈수경 |
 
 ## [280일차](Day280)
 
