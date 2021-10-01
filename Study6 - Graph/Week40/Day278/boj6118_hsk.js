@@ -42,10 +42,10 @@ const getDistanceFromStartVertex = (startVertex) => {
 const [N, M] = input().split(' ').map(Number);
 const graph = Array.from(new Array(N + 1), () => new Array());
 for (let i = 0; i < M; i++) {
-  const [A, B] = input().split(' ').map(Number);
+  const [vertexA, vertexB] = input().split(' ').map(Number);
 
-  graph[A].push(B);
-  graph[B].push(A);
+  graph[vertexA].push(vertexB);
+  graph[vertexB].push(vertexA);
 }
 
 let distanceFromOne = getDistanceFromStartVertex(1);
