@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-//// 깔끔
+//// 깔끔 : 22
 class Main {
     static String[] resistanceColors = {"black", "brown", "red", "orange", "yellow", "green", "blue", "violet", "grey", "white"};
 
@@ -17,6 +17,7 @@ class Main {
         br.close();
     }
 
+    //// getMultiplicandResistanceVlaue : Value 오타용~
     static long getResistanceNum(String firstColor, String secondColor, String multiplierColor) {
         int multiplicand = getMultiplicandResistanceVlaue(firstColor, secondColor);
         int multiplier = getMultiplierResistanceValue(multiplierColor);
