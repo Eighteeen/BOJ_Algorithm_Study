@@ -58,7 +58,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 6118 | [<sub>![Silver1]</sub> 숨바꼭질](https://www.acmicpc.net/problem/6118) | [진홍](Day278/boj6118_kjh.java) 승빈 [수경](Day278/boj6118_hsk.js) | 진홍 승빈 수경 |
+| 백준   | 6118 | [<sub>![Silver1]</sub> 숨바꼭질](https://www.acmicpc.net/problem/6118) | [진홍](Day278/boj6118_kjh.java) [승빈](Day278/boj6118_wsb.java) [수경](Day278/boj6118_hsk.js) | 진홍 승빈 수경 |
 
 ## [279일차](Day279) : Pairing Day
 
