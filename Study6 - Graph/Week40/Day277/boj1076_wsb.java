@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+//// 깔끔
 class Main {
     static String[] resistanceColors = {"black", "brown", "red", "orange", "yellow", "green", "blue", "violet", "grey", "white"};
 
