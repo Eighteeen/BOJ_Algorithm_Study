@@ -8,6 +8,7 @@ import java.util.Queue;
 import java.util.Arrays;
 import java.util.stream.Stream;
 
+//// 깔끔
 class Main {
   public static void main(String[] args) throws Exception {
     final int VERTEX_AMOUNT = Input.nextInt();
