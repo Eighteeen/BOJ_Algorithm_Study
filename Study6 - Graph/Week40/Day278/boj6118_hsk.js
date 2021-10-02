@@ -54,4 +54,5 @@ let maxDistance = Math.max.apply(null, distanceFromOne);
 let maxDistanceVertexNum = distanceFromOne.indexOf(maxDistance);
 let cntOfMaxDistance = distanceFromOne.filter((distance) => distance === maxDistance).length;
 
+//// 깔끔
 console.log(maxDistanceVertexNum, maxDistance, cntOfMaxDistance);
