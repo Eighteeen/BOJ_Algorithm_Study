@@ -50,7 +50,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 1076 | [<sub>![Bronze2]</sub> 저항](https://www.acmicpc.net/problem/1076) | [진홍](Day277/boj1076_kjh.java) [승빈](Day277/boj1076_wsb.java) [수경](Day277/boj1076_hsk.js) | [진홍](Day277/boj1076_kjh.java) 승빈 수경 |
+| 백준   | 1076 | [<sub>![Bronze2]</sub> 저항](https://www.acmicpc.net/problem/1076) | [진홍](Day277/boj1076_kjh.java) [승빈](Day277/boj1076_wsb.java) [수경](Day277/boj1076_hsk.js) | [진홍](Day277/boj1076_kjh.java) 승빈 [수경](Day277/boj1076_hsk.js) |
 
 ## [278일차](Day278)
 
