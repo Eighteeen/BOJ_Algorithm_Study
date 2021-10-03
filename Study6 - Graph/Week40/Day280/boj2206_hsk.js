@@ -20,7 +20,7 @@ const getShortestDistance = (startX, startY, isBroke) => {
   const shortestDistance = Array.from(new Array(N), () => new Array());
   for (let i = 0; i < N; i++) {
     for (let j = 0; j < M; j++) {
-      shortestDistance[i][j] = new Array(2).fill(0);
+      shortestDistance[i][j] = new Array(2).fill(isBroke);
     }
   }
 
