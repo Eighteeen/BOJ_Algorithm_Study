@@ -5,6 +5,7 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 
+//// 무난 깔끔해요
 class Main {
   public static void main(String[] args) throws Exception {
     final int ROW_SIZE = Input.nextInt();
@@ -28,6 +29,7 @@ class Main {
     Queue<WallMapPoint> queue = new LinkedList<>();
     queue.add(new WallMapPoint(0, 0));
 
+    //// shortestDistance를 초기화해서 반환하는 함수가 따로 있으면 더 깔끔할 것 같아요!
     int[][][] shortestDistance = new int[2][map.length][map[0].length];
     for (int i = 0; i < 2; i++) {
       for (int j = 0; j < shortestDistance[0].length; j++) {

@@ -17,6 +17,7 @@ const input = (() => {
 })();
 
 const getShortestDistance = (startX, startY, isBrokeWall) => {
+  //// isBrokeWall로 초기화해서 shortestDistance 자체를 반환하는 함수가 따로 있으면 좋을 것 같아요!
   const shortestDistance = Array.from(new Array(N), () => new Array());
   for (let i = 0; i < N; i++) {
     for (let j = 0; j < M; j++) {
@@ -63,3 +64,4 @@ const [N, M] = input().split(' ').map(Number);
 const map = Array.from(new Array(N), () => input().split('').map(Number));
 
 console.log(getShortestDistance(0, 0, 0));
+//// 깔끔해요
