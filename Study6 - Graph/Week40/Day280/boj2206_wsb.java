@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
+//// 깔끔
 class Main {
     static int MAP_ROW, MAP_COL;
     static boolean[][] wallMap;
@@ -68,6 +69,7 @@ class Main {
                 if (isBreakWallPath(currentPoint, nextPoint)) nextPoint.breakWall();
                 if (isVisited(nextPoint)) continue;
 
+                //// 함수로 분리해내서 깔끔해졌네요. 근데 거리를설정한다setDistance로는 함수의 동작을 추측하기 어려운 것 같아요
                 setDistance(currentPoint, nextPoint);
                 pointQueue.offer(nextPoint);
             }

@@ -43,6 +43,7 @@ const getShortestDistance = (startX, startY, isBrokeWall) => {
 
       if (nx < 0 || nx >= N || ny < 0 || ny >= M) continue;
 
+      //// 첫 단어가 동사고, 상태보단 동작을 표현하고 있어서 좀 함수명스러운거같슴다
       let moveWithoutBrokeWall = !map[nx][ny] && !shortestDistance[nx][ny][isBrokeWall];
       if (moveWithoutBrokeWall) {
         queue.push([nx, ny, isBrokeWall]);
@@ -64,4 +65,4 @@ const [N, M] = input().split(' ').map(Number);
 const map = Array.from(new Array(N), () => input().split('').map(Number));
 
 console.log(getShortestDistance(0, 0, 0));
-//// 깔끔해요
+//// 깔끔해요 :2
