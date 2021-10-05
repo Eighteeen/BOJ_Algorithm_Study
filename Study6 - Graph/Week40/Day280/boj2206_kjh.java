@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 
-//// 무난 깔끔해요
+//// 무난 깔끔해요 : 22
 class Main {
   public static void main(String[] args) throws Exception {
     final int ROW_SIZE = Input.nextInt();
