@@ -6,7 +6,6 @@
 [Bronze3]: https://user-images.githubusercontent.com/33937365/126247613-b8408610-7bc4-40f8-804f-a30a45ddbb68.png
 [Bronze2]: https://user-images.githubusercontent.com/33937365/126247614-d85dc6ff-a520-4c00-82bd-eb593b156bd8.png
 [Bronze1]: https://user-images.githubusercontent.com/33937365/126247616-04b2ab30-9891-4b7b-8cb4-38e99b97e834.png
-
 <!-- tier 리스트 E -->
 
 # Week41
