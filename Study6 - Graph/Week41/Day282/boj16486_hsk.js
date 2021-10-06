@@ -16,4 +16,4 @@ const d1 = Number(input());
 const d2 = Number(input());
 
 console.log(2 * d1 + 2 * PI * d2);
-//// 깔끔
+//// 깔끔 : 22
