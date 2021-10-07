@@ -1,7 +1,7 @@
 import java.text.SimpleDateFormat;
 import java.util.TimeZone;
 
-//// 깔끔
+//// 깔끔 : 22
 class Main {
     public static void main(String[] args) {
         SimpleDateFormat format = new SimpleDateFormat("yyyy\nMM\ndd");
