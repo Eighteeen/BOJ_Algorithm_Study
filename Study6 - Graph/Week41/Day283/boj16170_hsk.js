@@ -7,4 +7,4 @@ const day = date.getDate();
 console.log(year);
 console.log(month);
 console.log(day);
-//// 깔끔
+//// 깔끔 : 22
