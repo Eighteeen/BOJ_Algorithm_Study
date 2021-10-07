@@ -24,7 +24,7 @@
 
 | 사이트 | 번호 | 문제                                       | 답안           | 피드백 반영 답안 |
 | ------ | ---- | ------------------------------------------ | -------------- | ---------------- |
-| 백준   | 16486 | [<sub>![Bronze4]</sub> 운동장 한 바퀴](https://www.acmicpc.net/problem/16486) | [진홍](Day282/boj16486_kjh.py) [승빈](Day282/boj16486_wsb.java) [수경](Day282/boj16486_hsk.js) | [진홍](Day282/boj16486_kjh.py) 승빈 수경   |
+| 백준   | 16486 | [<sub>![Bronze4]</sub> 운동장 한 바퀴](https://www.acmicpc.net/problem/16486) | [진홍](Day282/boj16486_kjh.py) [승빈](Day282/boj16486_wsb.java) [수경](Day282/boj16486_hsk.js) | [진홍](Day282/boj16486_kjh.py) 승빈 [수경](Day282/boj16486_hsk.js)   |
 
 ## [283일차](Day283)
 
