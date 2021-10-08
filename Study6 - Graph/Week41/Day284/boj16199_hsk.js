@@ -35,3 +35,5 @@ const age = STANDARD_YEAR - BIRTH_YEAR;
 
 const [manAge, countAge, yearAge] = [getManAge(), age + 1, age];
 console.log(manAge + '\n' + countAge + '\n' + yearAge);
+
+//// 깔끔
