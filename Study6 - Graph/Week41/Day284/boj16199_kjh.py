@@ -11,3 +11,5 @@ yeon_age = now_year - birthday_year
 print(man_age)
 print(seneun_age)
 print(yeon_age)
+
+## 깔끔
