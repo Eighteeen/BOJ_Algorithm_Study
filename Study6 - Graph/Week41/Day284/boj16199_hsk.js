@@ -11,6 +11,7 @@ const input = (() => {
   return () => stdin[line++];
 })();
 
+//// 조건문들을 충분히 줄일 수 있을 것 같습니다.
 const getManAge = () => {
   let manAge = 0;
 
