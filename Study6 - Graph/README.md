@@ -88,3 +88,4 @@
 [<sub>![Bronze4]</sub> 나이 계산하기](https://www.acmicpc.net/problem/16199) |
 [<sub>![Bronze2]</sub> 백설 공주와 일곱 난쟁이](https://www.acmicpc.net/problem/3040) |
 [<sub>![Bronze5]</sub> A+B - 9](https://www.acmicpc.net/problem/15740) |
+[<sub>![Bronze4]</sub> TV 크기](https://www.acmicpc.net/problem/1297) |
