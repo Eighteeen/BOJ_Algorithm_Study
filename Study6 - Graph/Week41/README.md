@@ -40,7 +40,7 @@
 
 | 사이트 | 번호 | 문제                                       | 답안           | 피드백 반영 답안 |
 | ------ | ---- | ------------------------------------------ | -------------- | ---------------- |
-| 백준   | 16199 | [<sub>![Bronze4]</sub> 나이 계산하기](https://www.acmicpc.net/problem/16199) | [진홍](Day284/boj16199_kjh.py) [승빈](Day284/boj16199_wsb.java) [수경](Day284/boj16199_hsk.js) | 진홍 승빈 수경   |
+| 백준   | 16199 | [<sub>![Bronze4]</sub> 나이 계산하기](https://www.acmicpc.net/problem/16199) | [진홍](Day284/boj16199_kjh.py) [승빈](Day284/boj16199_wsb.java) [수경](Day284/boj16199_hsk.js) | 진홍 승빈 [수경](Day284/boj16199_hsk.js)   |
 
 ## [285일차](Day285)
 
