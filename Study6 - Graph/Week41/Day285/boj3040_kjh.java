@@ -4,7 +4,7 @@ import java.util.StringTokenizer;
 import java.util.List;
 import java.util.ArrayList;
 
-//// 깔끔
+//// 깔끔 : 22
 class Main {
   public static void main(String[] args) throws Exception {
     List<Integer> dwarfNums = new ArrayList<>();
@@ -16,7 +16,7 @@ class Main {
       sumOfDwarfNums += dwarfNum;
     }
 
-    //// 오 이렇게 조합할 수도 있네요 알아가요~~
+    //// 오 이렇게 조합할 수도 있네요 알아가요~~ : 22
     for (int i = 0; i < 8; i++) {
       for (int j = 1; j < 9; j++) {
         boolean foundFakeDwarfs = sumOfDwarfNums - dwarfNums.get(i) - dwarfNums.get(j) == 100;

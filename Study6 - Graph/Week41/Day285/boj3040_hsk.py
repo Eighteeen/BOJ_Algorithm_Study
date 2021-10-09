@@ -14,3 +14,4 @@ for combInDwarf in combinations(numOfDwarfs, 2):
 
 result = "\n".join(map(str,numOfDwarfs))
 print(result)
+## combinations 함수가 있는 지 몰랐어요. 활용 굿굿 깔끔!
