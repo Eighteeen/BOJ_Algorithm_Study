@@ -30,7 +30,7 @@ class Main {
         for (int i = start; i < range; i++) {
             if (Integer.bitCount(i) != SNOW_WHITE_DWARFS) continue;
 
-            //// (i & (1 << j)) == 0 이 무엇을 나타내는지 변수로 설정해주었으면 
+            //// (i & (1 << j)) == 0 이 무엇을 나타내는지 변수로 설정해주었으면 :22
             //// 굳이 해석하지 않아도 이해할 수 있을 것 같아요.
             int sum = 0;
             for (int j = 0; j < MINE_DWARFS; j++) {
