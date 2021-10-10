@@ -56,7 +56,7 @@
 
 | 사이트 | 번호 | 문제                                       | 답안           | 피드백 반영 답안 |
 | ------ | ---- | ------------------------------------------ | -------------- | ---------------- |
-| 백준   | 15740    | [<sub>![Bronze5]</sub> A+B - 9](https://www.acmicpc.net/problem/15740) | [진홍](Day286/boj15740_kjh.py) [승빈](Day286/boj15740_wsb.java) [수경](Day286/boj15740_hsk.js) | 진홍 [승빈](Day286/boj15740_wsb.java) 수경   |
+| 백준   | 15740    | [<sub>![Bronze5]</sub> A+B - 9](https://www.acmicpc.net/problem/15740) | [진홍](Day286/boj15740_kjh.py) [승빈](Day286/boj15740_wsb.java) [수경](Day286/boj15740_hsk.js) | 진홍 [승빈](Day286/boj15740_wsb.java) [수경](Day286/boj15740_hsk.js)   |
 
 
 ## [287일차](Day287)
