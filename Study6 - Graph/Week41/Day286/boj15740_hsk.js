@@ -8,4 +8,4 @@ const [A, B] = (
   .map(BigInt);
 
 console.log((A + B).toString());
-//// 깔끔
+//// 깔끔 :2
