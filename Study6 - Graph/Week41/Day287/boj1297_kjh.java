@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+//// 깔끔
 class Main {
   public static void main(String[] args) throws Exception {
     final int DIAGNOAL_LENGTH = Input.nextInt();
@@ -17,6 +18,8 @@ class Main {
     System.out.printf("%d %d", height, width);
   }
 
+  //// square은 함수 이름으로 오해가 있을 수 있을 것 같아요.
+  //// square 단어를 이용하고 싶다면 getSquared나, power 단어를 이용하는 것도 좋을 것 같아요.
   static int square(int num) {
     return num * num;
   }
