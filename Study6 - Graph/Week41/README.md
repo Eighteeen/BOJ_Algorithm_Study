@@ -48,8 +48,8 @@
 
 | 사이트 | 번호 | 문제                                       | 답안           | 피드백 반영 답안 |
 | ------ | ---- | ------------------------------------------ | -------------- | ---------------- |
-| 백준   | 3040 | [<sub>![Bronze2]</sub> 백설 공주와 일곱 난쟁이](https://www.acmicpc.net/problem/3040) | [진홍](Day285/boj3040_kjh.java) [승빈](Day285/boj3040_wsb.java) [수경](Day285/boj3040_hsk.py) | 진홍 승빈 수경   |
-
+| 백준   | 3040 | [<sub>![Bronze2]</sub> 백설 공주와 일곱 난쟁이](https://www.acmicpc.net/problem/3040) | [진홍](Day285/boj3040_kjh.java) [승빈](Day285/boj3040_wsb.java) [수경](Day285/boj3040_hsk.py) | 진홍 승빈 [수경](Day285/boj3040_hsk.py)   |
+b
 ## [286일차](Day286)
 
 > [쉬어가는 문제](https://www.acmicpc.net/group/workbook/view/9797/38210)
@@ -65,4 +65,4 @@
 
 | 사이트 | 번호 | 문제                                       | 답안           | 피드백 반영 답안 |
 | ------ | ---- | ------------------------------------------ | -------------- | ---------------- |
-| 백준   | 1297 | [<sub>![Bronze4]</sub> TV 크기](https://www.acmicpc.net/problem/1297) | 진홍 승빈 수경 | 진홍 승빈 수경   |
+| 백준   | 1297 | [<sub>![Bronze4]</sub> TV 크기](https://www.acmicpc.net/problem/1297) | 진홍 승빈 [수경](Day287/boj1297_hsk.js) | 진홍 승빈 수경   |
