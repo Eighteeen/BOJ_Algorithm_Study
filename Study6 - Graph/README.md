@@ -89,3 +89,4 @@
 [<sub>![Bronze2]</sub> 백설 공주와 일곱 난쟁이](https://www.acmicpc.net/problem/3040) |
 [<sub>![Bronze5]</sub> A+B - 9](https://www.acmicpc.net/problem/15740) |
 [<sub>![Bronze4]</sub> TV 크기](https://www.acmicpc.net/problem/1297) |
+[<sub>![Bronze3]</sub> 별 찍기 - 3](https://www.acmicpc.net/problem/2440) |
