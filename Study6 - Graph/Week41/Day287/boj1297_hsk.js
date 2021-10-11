@@ -14,4 +14,4 @@ const x = (W_RATIO * D_LENGTH) / D_RATIO;
 const y = (H_RATIO * D_LENGTH) / D_RATIO;
 
 console.log(Math.floor(y), Math.floor(x));
-//// 깔끔
+//// 깔끔 :22
