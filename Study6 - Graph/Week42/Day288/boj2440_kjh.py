@@ -1,4 +1,4 @@
-## 깔끔
+## 깔끔 : 22
 n = int(input())
 
 for i in range(n, 0, -1):
