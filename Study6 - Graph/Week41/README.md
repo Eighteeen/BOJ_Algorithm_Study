@@ -65,4 +65,4 @@
 
 | 사이트 | 번호 | 문제                                       | 답안           | 피드백 반영 답안 |
 | ------ | ---- | ------------------------------------------ | -------------- | ---------------- |
-| 백준   | 1297 | [<sub>![Bronze4]</sub> TV 크기](https://www.acmicpc.net/problem/1297) | [진홍](Day287/boj1297_kjh.java) [승빈](Day287/boj1297_wsb.java) [수경](Day287/boj1297_hsk.js) | [진홍](Day287/boj1297_kjh_fb.java) 승빈 수경   |
+| 백준   | 1297 | [<sub>![Bronze4]</sub> TV 크기](https://www.acmicpc.net/problem/1297) | [진홍](Day287/boj1297_kjh.java) [승빈](Day287/boj1297_wsb.java) [수경](Day287/boj1297_hsk.js) | [진홍](Day287/boj1297_kjh_fb.java) 승빈 [수경](Day287/boj1297_hsk.js)   |
