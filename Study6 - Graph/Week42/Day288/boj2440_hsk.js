@@ -14,3 +14,4 @@ const N = parseInt(input());
 for (let i = N; i > 0; i--) {
   console.log(drawStar(i));
 }
+//// 깔끔
