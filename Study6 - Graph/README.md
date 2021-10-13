@@ -91,3 +91,4 @@
 [<sub>![Bronze4]</sub> TV 크기](https://www.acmicpc.net/problem/1297) |
 [<sub>![Bronze3]</sub> 별 찍기 - 3](https://www.acmicpc.net/problem/2440) |
 [<sub>![Bronze3]</sub> 세 막대](https://www.acmicpc.net/problem/14215) |
+[<sub>![Bronze3]</sub> 고급 수학](https://www.acmicpc.net/problem/7510) |
