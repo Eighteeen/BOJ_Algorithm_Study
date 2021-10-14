@@ -3,7 +3,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 import java.util.Arrays;
 
-//// 깔끔
+//// 깔끔 : 22 이렇게 간단하게 생각하지 못 했어요 배워갑니다
 class Main {
   public static void main(String[] args) throws Exception {
     int[] lengthsOfSides = new int[3];

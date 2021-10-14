@@ -11,4 +11,4 @@ sides.sort((a, b) => a - b);
 
 const perimeter = sides[0] + sides[1] + Math.min(sides[2], sides[0] + sides[1] - 1);
 console.log(perimeter);
-//// 깔끔
+//// 깔끔 : 22 이렇게 간단하게 생각하지 못 했어요 배워갑니다
