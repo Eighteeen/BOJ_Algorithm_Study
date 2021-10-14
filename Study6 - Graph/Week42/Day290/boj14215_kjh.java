@@ -3,6 +3,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 import java.util.Arrays;
 
+//// 깔끔
 class Main {
   public static void main(String[] args) throws Exception {
     int[] lengthsOfSides = new int[3];
