@@ -17,6 +17,7 @@ for (let i = 1; i <= TEST_CASE; i++) {
   const sides = input().split(' ').map(Number);
   sides.sort((a, b) => a - b);
 
+  //// hypotenuse빗변 이욜
   const [sideA, sideB, hypotenuse] = sides;
 
   let isrightTriangle = Math.pow(hypotenuse, 2) === Math.pow(sideA, 2) + Math.pow(sideB, 2);
@@ -24,3 +25,4 @@ for (let i = 1; i <= TEST_CASE; i++) {
   console.log(`Scenario #${i}:`);
   isrightTriangle ? console.log('yes\n') : console.log('no\n');
 }
+//// 깔끔
