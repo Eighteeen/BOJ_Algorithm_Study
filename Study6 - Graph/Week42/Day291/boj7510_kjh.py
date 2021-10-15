@@ -12,4 +12,4 @@ for i in range(T):
   
   print()
 
-## 깔끔
+## 깔끔 : 22
