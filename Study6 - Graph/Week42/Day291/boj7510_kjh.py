@@ -11,3 +11,5 @@ for i in range(T):
     print("no")
   
   print()
+
+## 깔끔
