@@ -8,3 +8,4 @@ const input = (() => {
 
 const word = input();
 console.log(word.charCodeAt() - '가'.charCodeAt() + 1);
+//// 깔끔
