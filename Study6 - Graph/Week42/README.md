@@ -46,7 +46,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 2052    | [<sub>![Bronze3]</sub> 지수연산](https://www.acmicpc.net/problem/2052) | [진홍](Day292/boj2052_kjh.py) [승빈](Day292/boj2052_wsb.java) [수경](Day292/boj2052_hsk.py) | 진홍 승빈  [수경](Day292/boj2052_hsk.py) |
+| 백준   | 2052    | [<sub>![Bronze3]</sub> 지수연산](https://www.acmicpc.net/problem/2052) | [진홍](Day292/boj2052_kjh.py) [승빈](Day292/boj2052_wsb.java) [수경](Day292/boj2052_hsk.py) | 진홍 [승빈](Day292/boj2052_wsb.java)  [수경](Day292/boj2052_hsk.py) |
 
 ## [293일차](Day293)
 
