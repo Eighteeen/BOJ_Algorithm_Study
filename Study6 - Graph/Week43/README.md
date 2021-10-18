@@ -9,7 +9,7 @@
 [Silver5]: https://user-images.githubusercontent.com/33937365/126247618-38c5c905-672b-4d75-808e-8a7d45ea577d.png
 <!-- tier 리스트 E -->
 
-# WeekN
+# Week43
 
 ## [295일차](Day295)
 
