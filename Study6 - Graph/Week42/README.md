@@ -54,7 +54,7 @@
 
 | 사이트 | 번호 | 문제                                       | 답안           | 피드백 반영 답안 |
 | ------ | ---- | ------------------------------------------ | -------------- | ---------------- |
-| 백준   | 11283 | [<sub>![Bronze5]</sub> 한글 2](https://www.acmicpc.net/problem/11283) | [진홍](Day293/boj11283_kjh.py) [승빈](Day293/boj11283_wsb.java) [수경](Day293/boj11283_hsk.js) | 진홍 승빈 수경   |
+| 백준   | 11283 | [<sub>![Bronze5]</sub> 한글 2](https://www.acmicpc.net/problem/11283) | [진홍](Day293/boj11283_kjh.py) [승빈](Day293/boj11283_wsb.java) [수경](Day293/boj11283_hsk.js) | [진홍](Day293/boj11283_kjh.py) 승빈 수경   |
 
 ## [294일차](Day294)
 
