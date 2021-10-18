@@ -96,4 +96,4 @@
 [<sub>![Bronze3]</sub> 지수연산](https://www.acmicpc.net/problem/2052) |
 [<sub>![Bronze5]</sub> 한글 2](https://www.acmicpc.net/problem/11283) |
 [<sub>![Bronze5]</sub> 큰 수 (BIG)](https://www.acmicpc.net/problem/14928) |
-[<sub>![Unrated]</sub> 최댓값](https://www.acmicpc.net/problem/2566) |
+[<sub>![Bronze3]</sub> 최댓값](https://www.acmicpc.net/problem/2566) |
