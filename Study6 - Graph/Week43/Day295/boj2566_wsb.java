@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
+//// 끔깔
 class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -24,6 +25,8 @@ class Main {
             }
         }
 
+        //// StringBuilder는 습관되신건가요
+        //// printf만 쓴거랑 크게 차이 없을거같은데
         sb.append(maxNum)
             .append("\n")
             .append(maxNumRow)
