@@ -62,4 +62,4 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 14928 | [<sub>![Bronze5]</sub> 큰 수 (BIG)](https://www.acmicpc.net/problem/14928) | [진홍](Day294/boj14928_kjh.py) [승빈](Day294/boj14928_wsb.java) [수경](Day294/boj14928_hsk.py) | 진홍 [승빈](Day294/boj14928_wsb.java) 수경 |
+| 백준   | 14928 | [<sub>![Bronze5]</sub> 큰 수 (BIG)](https://www.acmicpc.net/problem/14928) | [진홍](Day294/boj14928_kjh.py) [승빈](Day294/boj14928_wsb.java) [수경](Day294/boj14928_hsk.py) | 진홍 [승빈](Day294/boj14928_wsb.java) [수경](Day294/boj14928_hsk.py)
