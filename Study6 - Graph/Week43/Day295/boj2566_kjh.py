@@ -12,4 +12,4 @@ for i in range(9):
 
 print(max_value)
 print(max_row, max_col)
-//// 깔끔
+## 깔끔 : 22

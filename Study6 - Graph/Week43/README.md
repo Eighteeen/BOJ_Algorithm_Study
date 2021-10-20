@@ -25,15 +25,15 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 23234 | [<sub>![Bronze5]</sub> The World Responds](https://www.acmicpc.net/problem/23234) | [진홍](Day296/boj23234_kjh.py) [승빈](Day296/boj23234_wsb.java) 수경 | 진홍 승빈 수경 |
+| 백준   | 23234 | [<sub>![Bronze5]</sub> The World Responds](https://www.acmicpc.net/problem/23234) | [진홍](Day296/boj23234_kjh.py) [승빈](Day296/boj23234_wsb.java) [수경](Day296/boj23234_hsk.js) | 진홍 승빈 수경 |
 
 ## [297일차](Day297)
 
-> [쉬어가는 문제](문제집링크)
+> [쉬어가는 문제](https://www.acmicpc.net/group/workbook/view/9797/38440)
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 0    | [<sub>![Unrated]</sub> 문제이름](문제링크) | 진홍 승빈 수경 | 진홍 승빈 수경 |
+| 백준   | 20254 | [<sub>![Bronze5]</sub> Site Score](https://www.acmicpc.net/problem/20254) | 진홍 승빈 수경 | 진홍 승빈 수경 |
 
 ## [298일차](Day298)
 
