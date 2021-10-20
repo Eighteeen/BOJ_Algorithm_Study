@@ -1,3 +1,3 @@
 print('The world says hello!')
 
-## 깔끔
+## 깔끔 : 22

@@ -27,6 +27,7 @@ class Main {
 
         //// StringBuilder는 습관되신건가요
         //// printf만 쓴거랑 차이 없을거같은데
+        //// -> 네 습관화된 것 같네요 말 그대로 별로 차이가 없을 것 같으니 유지하겠습니다.
         sb.append(maxNum)
             .append("\n")
             .append(maxNumRow)
