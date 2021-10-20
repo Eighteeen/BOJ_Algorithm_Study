@@ -4,3 +4,4 @@ const [UR, TR, UO, TO] = (
 ).split(' ');
 
 console.log(56 * UR + 24 * TR + 14 * UO + 6 * TO);
+//// 깔끔
