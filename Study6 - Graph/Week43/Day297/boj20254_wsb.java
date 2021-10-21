@@ -10,7 +10,7 @@ class Main {
         int[] scores = Arrays.stream(br.readLine().split(" ")).mapToInt(Integer::parseInt).toArray();
         int[] rules = {56, 24, 14, 6};
 
-        //// 더 깔끔
+        //// 더 깔끔 : 22
         int sum = 0;
         for (int i = 0; i < 4; i++) {
             sum += rules[i] * scores[i];
