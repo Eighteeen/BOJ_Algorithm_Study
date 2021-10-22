@@ -33,7 +33,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 20254 | [<sub>![Bronze5]</sub> Site Score](https://www.acmicpc.net/problem/20254) | [진홍](Day297/boj20254_kjh.py) [승빈](Day297/boj20254_wsb.java) [수경](Day297/boj20254_hsk.js) | [진홍](Day297/boj20254_kjh.py) 승빈 [수경](Day297/boj20254_hsk.js) |
+| 백준   | 20254 | [<sub>![Bronze5]</sub> Site Score](https://www.acmicpc.net/problem/20254) | [진홍](Day297/boj20254_kjh.py) [승빈](Day297/boj20254_wsb.java) [수경](Day297/boj20254_hsk.js) | [진홍](Day297/boj20254_kjh.py) 승빈 [수경](Day297/boj20254_hsk.js)
 
 ## [298일차](Day298)
 
@@ -49,7 +49,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 6763 | [<sub>![Bronze4]</sub> Speed fines are not fine!](https://www.acmicpc.net/problem/6763) | [진홍](Day299/boj6763_kjh.py) 승빈 수경 | 진홍 승빈 수경 |
+| 백준   | 6763 | [<sub>![Bronze4]</sub> Speed fines are not fine!](https://www.acmicpc.net/problem/6763) | [진홍](Day299/boj6763_kjh.py) 승빈 [수경](Day299/boj6763_hsk.js) | 진홍 승빈 수경 |
 
 ## [300일차](Day300)
 
