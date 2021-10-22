@@ -16,3 +16,4 @@ else:
   fine = 500
 
 print('You are speeding and your fine is $%d.' % fine)
+## 깔끔
