@@ -4,6 +4,7 @@ import java.io.InputStreamReader;
 import java.text.SimpleDateFormat;
 import java.util.TimeZone;
 
+//// 깔끔
 class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
