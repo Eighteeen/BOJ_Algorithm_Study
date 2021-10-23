@@ -29,7 +29,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 10699    | [<sub>![Bronze5]</sub> 오늘 날짜](https://www.acmicpc.net/problem/10699) | [진홍](Day298/boj10699_kjh.py) [승빈](Day298/boj10699_wsb.java) [수경](Day298/boj10699_hsk.js) | 진홍 [승빈](Day298/boj10699_wsb.java) [수경](Day298/boj10699_hsk.js)
+| 백준   | 10699    | [<sub>![Bronze5]</sub> 오늘 날짜](https://www.acmicpc.net/problem/10699) | [진홍](Day298/boj10699_kjh.py) [승빈](Day298/boj10699_wsb.java) [수경](Day298/boj10699_hsk.js) | [진홍](Day298/boj10699_kjh.py) [승빈](Day298/boj10699_wsb.java) [수경](Day298/boj10699_hsk.js)
 
 ## [299일차](Day299)
 
