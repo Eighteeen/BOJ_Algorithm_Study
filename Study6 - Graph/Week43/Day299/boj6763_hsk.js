@@ -25,4 +25,4 @@ const diffOfSpeed = speedOfCar - speedLimit;
 diffOfSpeed <= 0
   ? console.log(`Congratulations, you are within the speed limit!`)
   : console.log(`You are speeding and your fine is $${getFineOfSpeed(diffOfSpeed)}.`);
-//// 깔끔
+//// 깔끔 :2
