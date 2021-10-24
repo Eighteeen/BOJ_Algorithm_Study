@@ -19,3 +19,4 @@ while (1) {
 
   console.log(numA > numB ? 'Yes' : 'No');
 }
+//// 깔끔
