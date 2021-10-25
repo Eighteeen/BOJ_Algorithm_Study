@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-//// ㄱㄱ ㄱㄱ
+//// ㄱㄱ ㄱㄱ : 22
 class Main {
     static final int OPEN_YEAR = 1946;
     public static void main(String[] args) throws IOException {
