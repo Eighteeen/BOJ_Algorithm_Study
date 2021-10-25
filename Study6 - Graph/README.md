@@ -104,3 +104,4 @@
 [<sub>![Bronze3]</sub> 크냐?](https://www.acmicpc.net/problem/4101) |
 [<sub>![Bronze5]</sub> 홍익대학교](https://www.acmicpc.net/problem/16394) |
 [<sub>![Bronze3]</sub> 사분면](https://www.acmicpc.net/problem/9610) |
+[<sub>![Bronze3]</sub> 세 수](https://www.acmicpc.net/problem/10817) |
