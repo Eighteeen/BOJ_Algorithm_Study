@@ -25,4 +25,4 @@ for i in range(4):
 
 print('AXIS: {}'.format(points_quadrant[4]))
 
-## 오 깔끔
+## 오 깔끔 : 22

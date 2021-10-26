@@ -65,4 +65,4 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 16394    | [<sub>![Bronze5]</sub> 홍익대학교](https://www.acmicpc.net/problem/16394) | [진홍](Day301/boj19634_kjh.py) [승빈](Day301/boj16394_wsb.java)  [수경](Day301/boj16394_hsk.js) | [진홍](Day301/boj19634_kjh.py) 승빈 [수경](Day301/boj16394_hsk.js) |
+| 백준   | 16394    | [<sub>![Bronze5]</sub> 홍익대학교](https://www.acmicpc.net/problem/16394) | [진홍](Day301/boj19634_kjh.py) [승빈](Day301/boj16394_wsb.java)  [수경](Day301/boj16394_hsk.js) | [진홍](Day301/boj19634_kjh.py) [승빈](Day301/boj16394_wsb.java) [수경](Day301/boj16394_hsk.js) |

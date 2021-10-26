@@ -33,4 +33,4 @@ console.log(`Q2: ${Q2}`);
 console.log(`Q3: ${Q3}`);
 console.log(`Q4: ${Q4}`);
 console.log(`AXIS: ${AXIS}`);
-/// 끔깔
+/// 끔깔 : 22
