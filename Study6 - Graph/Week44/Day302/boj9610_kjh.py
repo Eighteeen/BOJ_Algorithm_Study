@@ -24,3 +24,5 @@ for i in range(4):
   print('Q{}: {}'.format(i+1, points_quadrant[i]))
 
 print('AXIS: {}'.format(points_quadrant[4]))
+
+## 오 깔끔
