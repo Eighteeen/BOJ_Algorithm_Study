@@ -6,4 +6,4 @@ const nums = (process.platform === 'linux' ? fs.readFileSync('/dev/stdin').toStr
 nums.sort((a, b) => b - a);
 
 console.log(nums[1]);
-//// 깔끔
+//// 깔끔 :2
