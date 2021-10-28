@@ -17,3 +17,5 @@ if type(operator) is str:
 else:
   operator = get_operator(b, c, a)
   print('{}={}{}{}'.format(a, b, operator, c))
+
+## 오깔끔

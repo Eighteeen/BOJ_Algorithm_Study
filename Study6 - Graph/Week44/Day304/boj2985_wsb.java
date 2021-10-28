@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
+//// 깔끔
 class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -34,6 +35,6 @@ class Main {
         if (operand1 - operand2 == result) return '-';
         if (operand1 * operand2 == result) return '*';
         if (operand1 / operand2 == result && operand1 % operand2 == 0) return '/';
-        return 'N'; //// 널 문자 등이 더 직관적인 것 같습니다
+        return 'N'; //// 널 문자 등이 더 직관적인 것 같습니다 : 22
     }
 }
