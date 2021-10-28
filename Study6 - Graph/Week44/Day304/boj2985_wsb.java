@@ -34,6 +34,6 @@ class Main {
         if (operand1 - operand2 == result) return '-';
         if (operand1 * operand2 == result) return '*';
         if (operand1 / operand2 == result && operand1 % operand2 == 0) return '/';
-        return 'N';
+        return 'N'; //// 널 문자 등이 더 직관적인 것 같습니다
     }
 }
