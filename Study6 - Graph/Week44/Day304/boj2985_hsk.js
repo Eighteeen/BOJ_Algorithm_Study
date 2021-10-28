@@ -26,4 +26,4 @@ if (operator === undefined) {
 } else {
   console.log(`${numA}${operator}${numB}=${numC}`);
 }
-//// 깔끔
+//// 깔끔 : 22
