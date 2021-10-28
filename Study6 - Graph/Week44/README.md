@@ -29,7 +29,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 10817 | [<sub>![Bronze3]</sub> 세 수](https://www.acmicpc.net/problem/10817) | [진홍](Day303/boj10817_kjh.py) [승빈](Day303/boj10817_wsb.java) [수경](Day303/boj10817_hsk.js) | [진홍](Day303/boj10817_kjh.py) 승빈 수경 |
+| 백준   | 10817 | [<sub>![Bronze3]</sub> 세 수](https://www.acmicpc.net/problem/10817) | [진홍](Day303/boj10817_kjh.py) [승빈](Day303/boj10817_wsb.java) [수경](Day303/boj10817_hsk.js) | [진홍](Day303/boj10817_kjh.py) 승빈 [수경](Day303/boj10817_hsk.js) |
 
 ## [304일차](Day304)
 
