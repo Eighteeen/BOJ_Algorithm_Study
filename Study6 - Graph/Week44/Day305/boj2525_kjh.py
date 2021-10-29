@@ -7,4 +7,4 @@ hour = hour % 24
 
 print(hour, minute)
 
-# ㄲㄲ
+# ㄲㄲ : 22

@@ -21,4 +21,4 @@ minute += parseInt(time % 60);
 hour += parseInt(minute / 60);
 
 console.log(hour % 24, minute % 60);
-//// ㄲㄲ
+//// ㄲㄲ : 22
