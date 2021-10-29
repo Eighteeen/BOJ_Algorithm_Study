@@ -109,3 +109,4 @@
 [<sub>![Bronze3]</sub> 세 수](https://www.acmicpc.net/problem/2985) |
 [<sub>![Bronze4]</sub> 오븐 시계](https://www.acmicpc.net/problem/2525) |
 [<sub>![Bronze1]</sub> 그대로 출력하기 2](https://www.acmicpc.net/problem/11719) |
+[<sub>![Bronze4]</sub> 감정이입](https://www.acmicpc.net/problem/14623) |
