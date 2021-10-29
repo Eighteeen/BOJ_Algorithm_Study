@@ -45,7 +45,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 2525 | [<sub>![Bronze4]</sub> 오븐 시계](https://www.acmicpc.net/problem/2525) | [진홍](Day305/boj2525_kjh.py) [승빈](Day305/boj2525_wsb.java) [수경](Day305/boj2525_hsk.js) | 진홍 [승빈](Day305/boj2525_wsb.java) 수경 |
+| 백준   | 2525 | [<sub>![Bronze4]</sub> 오븐 시계](https://www.acmicpc.net/problem/2525) | [진홍](Day305/boj2525_kjh.py) [승빈](Day305/boj2525_wsb.java) [수경](Day305/boj2525_hsk.js) | 진홍 [승빈](Day305/boj2525_wsb.java) [수경](Day305/boj2525_hsk.js) |
 
 ## [306일차](Day306)
 
