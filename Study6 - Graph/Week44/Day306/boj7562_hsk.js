@@ -53,3 +53,4 @@ for (let i = 0; i < TEST_CASE; i++) {
   const cntOfMinDistanceInChessboard = getMinDistance(lenOfChessBoard, startPoint, endPoint);
   console.log(cntOfMinDistanceInChessboard);
 }
+//// 깔끔
