@@ -53,7 +53,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 7562 | [<sub>![Silver2]</sub> 나이트의 이동](https://www.acmicpc.net/problem/7562) | [진홍](Day306/boj7562_kjh.java) [승빈](Day306/boj7562_wsb.java) [수경](Day306/boj7562_hsk.js) | 진홍 승빈 수경 |
+| 백준   | 7562 | [<sub>![Silver2]</sub> 나이트의 이동](https://www.acmicpc.net/problem/7562) | [진홍](Day306/boj7562_kjh.java) [승빈](Day306/boj7562_wsb.java) [수경](Day306/boj7562_hsk.js) | 진홍 승빈 [수경](Day306/boj7562_hsk.js) |
 
 ## [307일차](Day307)
 
@@ -69,4 +69,4 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 14623 | [<sub>![Bronze4]</sub> 감정이입](https://www.acmicpc.net/problem/14623) | 진홍 승빈 수경 | 진홍 승빈 수경 |
+| 백준   | 14623 | [<sub>![Bronze4]</sub> 감정이입](https://www.acmicpc.net/problem/14623) | 진홍 승빈 [수경](Day308/boj14623_hsk.js) | 진홍 승빈 수경 |
