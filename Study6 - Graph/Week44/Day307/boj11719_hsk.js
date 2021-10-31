@@ -8,4 +8,4 @@ Baekjoon
    Online Judge    `;
 
 console.log(input);
-//// 깔끔
+//// 깔끔 :2
