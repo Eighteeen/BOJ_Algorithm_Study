@@ -14,3 +14,4 @@ const input = (() => {
 const binary1 = BigInt('0b' + input());
 const binary2 = BigInt('0b' + input());
 console.log((binary1 * binary2).toString(2).toString());
+//// ㄲㄲ
