@@ -67,7 +67,6 @@
 [<sub>![Silver1]</sub> 숨바꼭질](https://www.acmicpc.net/problem/6118) |
 [<sub>![Gold4]</sub> 벽 부수고 이동하기](https://www.acmicpc.net/problem/2206) |
 [<sub>![Silver2]</sub> 나이트의 이동](https://www.acmicpc.net/problem/7562) |
-[<sub>![Silver2]</sub> 섬의 개수](https://www.acmicpc.net/problem/4963) |
 
 ## 쉬어갔던 문제
 [<sub>![Bronze3]</sub> 별 찍기 - 6](https://www.acmicpc.net/problem/2443) |
@@ -112,3 +111,4 @@
 [<sub>![Bronze1]</sub> 그대로 출력하기 2](https://www.acmicpc.net/problem/11719) |
 [<sub>![Bronze4]</sub> 감정이입](https://www.acmicpc.net/problem/14623) |
 [<sub>![Bronze5]</sub> 세금](https://www.acmicpc.net/problem/20492) |
+[<sub>![Bronze3]</sub> 팩토리얼](https://www.acmicpc.net/problem/10872) |
