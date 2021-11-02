@@ -9,4 +9,4 @@ const input = (() => {
 const N = Number(input());
 console.log(N - N * 0.22);
 console.log(N * 0.8 + N * 0.2 - N * 0.2 * 0.22);
-//// 깔끔
+//// 깔끔 : 22

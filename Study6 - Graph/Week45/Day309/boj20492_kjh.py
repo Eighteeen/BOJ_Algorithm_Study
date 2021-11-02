@@ -5,4 +5,4 @@ case2 = int(prize - (prize * 0.2 * 0.22))
 
 print(case1, case2)
 
-# 깔끔
+# 깔끔 : 22

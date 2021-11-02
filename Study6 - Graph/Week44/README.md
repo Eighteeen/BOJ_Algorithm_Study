@@ -69,4 +69,4 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 14623 | [<sub>![Bronze4]</sub> 감정이입](https://www.acmicpc.net/problem/14623) | [진홍](Day307/boj14623_kjh.py) [승빈](Day308/boj14623_wsb.java) [수경](Day308/boj14623_hsk.js) | [진홍](Day307/boj14623_kjh.py) 승빈 [수경](Day308/boj14623_hsk.js) |
+| 백준   | 14623 | [<sub>![Bronze4]</sub> 감정이입](https://www.acmicpc.net/problem/14623) | [진홍](Day307/boj14623_kjh.py) [승빈](Day308/boj14623_wsb.java) [수경](Day308/boj14623_hsk.js) | [진홍](Day307/boj14623_kjh.py) [승빈](Day308/boj14623_wsb.java) [수경](Day308/boj14623_hsk.js) |
