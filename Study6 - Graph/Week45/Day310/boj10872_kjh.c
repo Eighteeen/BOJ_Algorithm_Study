@@ -12,3 +12,5 @@ int main() {
     printf("%d", fact(num));
     return 0;
 }
+
+// 깔끔
