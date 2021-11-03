@@ -8,3 +8,4 @@ const factorial = (num) => {
 };
 
 console.log(factorial(N));
+//// ㄲㄲ
