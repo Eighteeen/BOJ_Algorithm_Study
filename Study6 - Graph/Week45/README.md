@@ -23,7 +23,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 20492    | [<sub>![Bronze5]</sub> 세금](https://www.acmicpc.net/problem/20492) | [진홍](Day309/boj20492_kjh.py) [승빈](Day309/boj20492_wsb.java) [수경](Day309/boj20492_hsk.js) | [진홍](Day309/boj20492_kjh.py) 승빈 [수경](Day309/boj20492_hsk.js) |
+| 백준   | 20492    | [<sub>![Bronze5]</sub> 세금](https://www.acmicpc.net/problem/20492) | [진홍](Day309/boj20492_kjh.py) [승빈](Day309/boj20492_wsb.java) [수경](Day309/boj20492_hsk.js) | [진홍](Day309/boj20492_kjh.py) 승빈 [수경](Day309/boj20492_hsk.js)
 
 ## [310일차](Day310)
 
@@ -39,7 +39,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 4963 | [<sub>![Silver2]</sub> 섬의 개수](https://www.acmicpc.net/problem/4963) | [진홍](Day311/boj4963_kjh.java) 승빈 수경 | 진홍 승빈 수경 |
+| 백준   | 4963 | [<sub>![Silver2]</sub> 섬의 개수](https://www.acmicpc.net/problem/4963) | [진홍](Day311/boj4963_kjh.java) 승빈 [수경](Day311/boj4963_hsk.js) | 진홍 승빈 수경 |
 
 ## [312일차](Day312)
 
