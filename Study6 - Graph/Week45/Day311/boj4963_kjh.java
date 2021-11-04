@@ -32,7 +32,7 @@ class Main {
           int current = i * columnSize + j;
           adjacencyList[current] = new ArrayList<>();
           
-          //// 예전에 푸신 것 같은데 dx, dy로  설정해서 푸는게 훨씬 깔끔했을 것 같아요!!
+          //// 예전에 푸신 것 같은데 dx, dy로  설정해서 푸는게 훨씬 깔끔했을 것 같아요!! : 22 한번에 알아보기 힘들었어요
           boolean isLeftConnected = current - 1 >= 0 && j >= 1 && adjacencyList[current - 1] != null;
           if (isLeftConnected) {
             adjacencyList[current].add(current - 1);

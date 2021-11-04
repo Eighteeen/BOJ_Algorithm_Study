@@ -80,3 +80,4 @@ while (1) {
 
   console.log(cntOfIsland);
 }
+//// 깔끔
