@@ -47,7 +47,7 @@ class Graph<T> {
     private Graph(T[][] graph) {
         col = graph.length;
         row = graph[0].length;
-        this.graph = deepCopy(graph);
+        this.graph = deepCopy(graph); //// 깊은 복사는 왜 한거에요??
     }
 
     public int getNumOfComponent(T componentFlag, int[] dx, int[] dy) {

@@ -34,6 +34,7 @@ const input = (() => {
   return () => stdin[line++];
 })();
 
+//// 함수 첫 단어는 동사로 해주세요!
 const traversalInMap = (map, startX, startY, row, col) => {
   const queue = [[startX, startY]];
   let queueCursor = 0;
