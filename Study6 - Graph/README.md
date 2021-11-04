@@ -68,6 +68,7 @@
 [<sub>![Gold4]</sub> 벽 부수고 이동하기](https://www.acmicpc.net/problem/2206) |
 [<sub>![Silver2]</sub> 나이트의 이동](https://www.acmicpc.net/problem/7562) |
 [<sub>![Silver2]</sub> 섬의 개수](https://www.acmicpc.net/problem/4963) |
+[<sub>![Silver3]</sub> 한동이는 공부가 하기 싫어](https://www.acmicpc.net/problem/3182) |
 
 ## 쉬어갔던 문제
 [<sub>![Bronze3]</sub> 별 찍기 - 6](https://www.acmicpc.net/problem/2443) |
