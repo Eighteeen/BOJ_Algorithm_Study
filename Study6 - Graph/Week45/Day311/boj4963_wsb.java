@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
+//// 깔끔해요
 class Main {
     static final int[] dx = {-1, -1, 0, 1, 1, 1, 0, -1};
     static final int[] dy = {0, 1, 1, 1, 0, -1, -1, -1};
@@ -47,7 +48,7 @@ class Graph<T> {
     private Graph(T[][] graph) {
         col = graph.length;
         row = graph[0].length;
-        this.graph = deepCopy(graph); //// 깊은 복사는 왜 한거에요??
+        this.graph = deepCopy(graph); //// 깊은 복사는 왜 한거에요?? : 22
     }
 
     public int getNumOfComponent(T componentFlag, int[] dx, int[] dy) {
