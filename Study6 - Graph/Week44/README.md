@@ -61,7 +61,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 11719    | [<sub>![Bronze1]</sub> 그대로 출력하기 2](https://www.acmicpc.net/problem/11719) | [진홍](Day307/boj11719_kjh) [승빈](Day307/boj11719_wsb.java) [수경](Day307/boj11719_hsk.js) | [진홍](Day307/boj11719_kjh) [승빈](Day307/boj11719_wsb.java) [수경](Day307/boj11719_hsk.js) |
+| 백준   | 11719    | [<sub>![Bronze1]</sub> 그대로 출력하기 2](https://www.acmicpc.net/problem/11719) | [진홍](Day307/boj11719_kjh.py) [승빈](Day307/boj11719_wsb.java) [수경](Day307/boj11719_hsk.js) | [진홍](Day307/boj11719_kjh) [승빈](Day307/boj11719_wsb.java) [수경](Day307/boj11719_hsk.js) |
 
 ## [308일차](Day308)
 
