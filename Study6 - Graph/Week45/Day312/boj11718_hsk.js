@@ -7,4 +7,4 @@ Baekjoon
 Online Judge`;
 
 console.log(input);
-//// ㄲㄲ
+//// ㄲㄲ : 22
