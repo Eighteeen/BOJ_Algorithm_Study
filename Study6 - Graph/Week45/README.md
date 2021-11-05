@@ -39,7 +39,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 4963 | [<sub>![Silver2]</sub> 섬의 개수](https://www.acmicpc.net/problem/4963) | [진홍](Day311/boj4963_kjh.java) [승빈](Day311/boj4963_wsb.java) [수경](Day311/boj4963_hsk.js) | 진홍 승빈 [수경](Day311/boj4963_hsk_fb.js) |
+| 백준   | 4963 | [<sub>![Silver2]</sub> 섬의 개수](https://www.acmicpc.net/problem/4963) | [진홍](Day311/boj4963_kjh.java) [승빈](Day311/boj4963_wsb.java) [수경](Day311/boj4963_hsk.js) | [진홍](Day311/boj4963_kjh.java) 승빈 [수경](Day311/boj4963_hsk_fb.js) |
 
 ## [312일차](Day312)
 
