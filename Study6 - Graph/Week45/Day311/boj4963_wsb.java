@@ -49,6 +49,9 @@ class Graph<T> {
         col = graph.length;
         row = graph[0].length;
         this.graph = deepCopy(graph); //// 깊은 복사는 왜 한거에요?? : 22
+        //// => 현재 문제로만 봤을 때는 graph 데이터가 변경되지 않지만
+            //// 추후에 Graph 클래스를 이용시에 데이터가 변경되는 일이 있다면
+            //// 원본 데이터에 손상이 가는 것을 막기 위함으로 깊은 복사를 이용했습니다.
     }
 
     public int getNumOfComponent(T componentFlag, int[] dx, int[] dy) {
