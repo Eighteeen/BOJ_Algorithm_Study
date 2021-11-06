@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-//// 깔끔해요
+//// 깔끔해요 :2
 class Main {
     static int[] answers;
 
