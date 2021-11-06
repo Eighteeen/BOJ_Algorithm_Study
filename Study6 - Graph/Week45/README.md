@@ -47,7 +47,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 11718 | [<sub>![Bronze3]</sub> 그대로 출력하기](https://www.acmicpc.net/problem/11718) | [진홍](Day312/boj11718_kjh.py) [승빈](Day312/boj11718_wsb.java) [수경](Day312/boj11718_hsk.js) | 진홍 [승빈](Day312/boj11718_wsb.java) 수경 |
+| 백준   | 11718 | [<sub>![Bronze3]</sub> 그대로 출력하기](https://www.acmicpc.net/problem/11718) | [진홍](Day312/boj11718_kjh.py) [승빈](Day312/boj11718_wsb.java) [수경](Day312/boj11718_hsk.js) | 진홍 [승빈](Day312/boj11718_wsb.java) [수경](Day312/boj11718_hsk.js) |
 
 ## [313일차](Day313)
 
@@ -63,12 +63,12 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 1058 | [<sub>![Silver2]</sub> 친구](https://www.acmicpc.net/problem/1058) | 진홍 승빈 수경 | 진홍 승빈 수경 |
+| 백준   | 1058 | [<sub>![Silver2]</sub> 친구](https://www.acmicpc.net/problem/1058) | 진홍 승빈 [수경](Day314/boj1058_hsk.js) | 진홍 승빈 수경 |
 
 ## [315일차](Day315) : Pairing Day
 
-> [문제집설명](문제집링크)
+> [그래프 기본](https://www.acmicpc.net/group/workbook/view/9797/38794)
 
 | 사이트 | 번호 | 문제                 | 답안                | Pair Programming    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 0    | [<sub>![Unrated]</sub> 문제이름](문제링크) | 진홍승빈수경 | Driver 🚗 이름 & Navigator 🧭 이름이름 |
+| 백준   | 14221 | [<sub>![Silver1]</sub> 편의점](https://www.acmicpc.net/problem/14221) | 진홍승빈수경 | Driver 🚗 진홍 & Navigator 🧭 승빈수경 |
