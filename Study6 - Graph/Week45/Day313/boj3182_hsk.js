@@ -53,4 +53,4 @@ for (let i = 1; i <= N; i++) {
 
 let maxCntOfSenior = Math.max.apply(null, cntOfSeniors);
 console.log(cntOfSeniors.findIndex((value) => value === maxCntOfSenior) + 1);
-//// 깔끔
+//// 깔끔 : 22
