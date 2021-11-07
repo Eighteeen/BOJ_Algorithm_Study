@@ -26,6 +26,7 @@ class Main {
         br.close();
     }
 
+    //// 왕 짱깔끔해여,,,ㄷㄷ
     static int getMaxNumOfKnowPeople() {
         int maxNum = 0;
 

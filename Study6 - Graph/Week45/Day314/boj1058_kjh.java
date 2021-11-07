@@ -28,6 +28,7 @@ class Main {
     System.out.print(maxTwoDashFriends);
   }
 
+  //// 왕 깔끔해여
   static int getTwoDashFriends(List<Integer>[] friends, int index) {
     int twoDashFriends = 0;
     
