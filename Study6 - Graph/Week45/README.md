@@ -55,7 +55,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 3182    | [<sub>![Silver3]</sub> 한동이는 공부가 하기 싫어](https://www.acmicpc.net/problem/3182) | [진홍](Day313/boj3182_kjh.java) [승빈](Day313/boj3182_wsb.java) [수경](Day313/boj3182_hsk.js) | 진홍 [승빈](Day313/boj3182_wsb.java) [수경](Day313/boj3182_hsk.js) |
+| 백준   | 3182    | [<sub>![Silver3]</sub> 한동이는 공부가 하기 싫어](https://www.acmicpc.net/problem/3182) | [진홍](Day313/boj3182_kjh.java) [승빈](Day313/boj3182_wsb.java) [수경](Day313/boj3182_hsk.js) | [진홍](Day313/boj3182_kjh.java) [승빈](Day313/boj3182_wsb.java) [수경](Day313/boj3182_hsk.js) |
 
 ## [314일차](Day314)
 
