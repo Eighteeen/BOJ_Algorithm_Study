@@ -47,5 +47,5 @@ for (let i = 0; i < N; i++) {
 }
 
 console.log(maxCntOfFriends);
-//// 깔끔
+//// 깔끔 :2
 //// 다른 방법이라 흥미로웠어요
