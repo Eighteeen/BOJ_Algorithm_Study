@@ -22,6 +22,7 @@ class Main {
 
     static int getMinKickCntOfSameScores(int myScore, int otherScore) {
         if (myScore == otherScore) return 0;
+        if (myScore > otherScore) return Integer.MAX_VALUE;
 
         return 1 + Math.min(getMinKickCntOfSameScores(myScore * 2, otherScore + 3),
             getMinKickCntOfSameScores(myScore + 1, otherScore));
