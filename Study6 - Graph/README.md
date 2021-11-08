@@ -117,3 +117,4 @@
 [<sub>![Bronze5]</sub> 세금](https://www.acmicpc.net/problem/20492) |
 [<sub>![Bronze3]</sub> 팩토리얼](https://www.acmicpc.net/problem/10872) |
 [<sub>![Bronze3]</sub> 그대로 출력하기](https://www.acmicpc.net/problem/11718) |
+[<sub>![Bronze3]</sub> 네 번째 수](https://www.acmicpc.net/problem/2997) |
