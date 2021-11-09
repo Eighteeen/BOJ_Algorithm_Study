@@ -31,7 +31,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 2997 | [<sub>![Bronze3]</sub> 네 번째 수](https://www.acmicpc.net/problem/2997) | [진홍](Day317/boj2997_kjh.py) 승빈 [수경](Day317/boj2997_hsk.js) | 진홍 승빈 수경 |
+| 백준   | 2997 | [<sub>![Bronze3]</sub> 네 번째 수](https://www.acmicpc.net/problem/2997) | [진홍](Day317/boj2997_kjh.py) [승빈](Day317/boj2997_wsb.java) [수경](Day317/boj2997_hsk.js) | 진홍 승빈 수경 |
 
 ## [318일차](Day318)
 

@@ -39,4 +39,4 @@ for (let i = 0; i < TEST_CASE; i++) {
   const cntOfKick = getCntOfKick(S, T);
   console.log(cntOfKick);
 }
-//// 깔끔!
+//// 깔끔! : 22
