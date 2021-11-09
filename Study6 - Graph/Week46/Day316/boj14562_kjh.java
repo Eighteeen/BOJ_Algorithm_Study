@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+//// 깔끔해용
 class Main {
   static final int MAX_VALUE = 100000000;
 
