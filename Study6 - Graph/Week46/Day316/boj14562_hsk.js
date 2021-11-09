@@ -16,6 +16,7 @@ const input = (() => {
   return () => stdin[line++];
 })();
 
+//// 아하 BFS가 문제 의도였구나~
 const getCntOfKick = (S, T) => {
   const queue = [];
   queue.push([S, T, 0]);
@@ -38,3 +39,4 @@ for (let i = 0; i < TEST_CASE; i++) {
   const cntOfKick = getCntOfKick(S, T);
   console.log(cntOfKick);
 }
+//// 깔끔!
