@@ -15,3 +15,4 @@ if (diffPair1 > diffPair2) {
 } else {
   console.log(nums[2] + diffPair1);
 }
+//// 다들 비슷하군요
