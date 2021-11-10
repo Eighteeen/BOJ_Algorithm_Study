@@ -16,3 +16,4 @@ if (diffPair1 > diffPair2) {
   console.log(nums[2] + diffPair1);
 }
 //// 다들 비슷하군요
+//// 깔끔
