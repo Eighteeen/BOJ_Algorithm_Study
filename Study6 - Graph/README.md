@@ -119,3 +119,4 @@
 [<sub>![Bronze3]</sub> 팩토리얼](https://www.acmicpc.net/problem/10872) |
 [<sub>![Bronze3]</sub> 그대로 출력하기](https://www.acmicpc.net/problem/11718) |
 [<sub>![Bronze3]</sub> 네 번째 수](https://www.acmicpc.net/problem/2997) |
+[<sub>![Bronze3]</sub> 히스토그램](https://www.acmicpc.net/problem/13752) |
