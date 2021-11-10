@@ -9,4 +9,4 @@ elif frontDiff > backDiff:
   print(a + backDiff)
 elif frontDiff < backDiff:
   print(b + frontDiff)
-## 깔끔
+## 깔끔 : 22
