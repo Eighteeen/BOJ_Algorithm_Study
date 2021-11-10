@@ -72,6 +72,7 @@
 [<sub>![Silver2]</sub> 친구](https://www.acmicpc.net/problem/1058) |
 [<sub>![Silver1]</sub> 편의점](https://www.acmicpc.net/problem/14221) |
 [<sub>![Silver3]</sub> 태권왕](https://www.acmicpc.net/problem/14562) |
+[<sub>![Silver2]</sub> 숫자판 점프](https://www.acmicpc.net/problem/2210) | 
 
 ## 쉬어갔던 문제
 [<sub>![Bronze3]</sub> 별 찍기 - 6](https://www.acmicpc.net/problem/2443) |
