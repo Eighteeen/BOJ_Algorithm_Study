@@ -14,7 +14,7 @@ const input = (() => {
   return () => stdin[line++];
 })();
 
-const getNumInBoard = (startX, startY) => {
+const addMakedNums = (startX, startY) => {
   const queue = [[startX, startY, board[startX][startY]]];
   let dx = [0, 0, 1, -1];
   let dy = [1, -1, 0, 0];
@@ -43,7 +43,7 @@ let numsOfMaked = new Set([]);
 
 for (let i = 0; i < 5; i++) {
   for (let j = 0; j < 5; j++) {
-    getNumInBoard(i, j);
+    addMakedNums(i, j);
   }
 }
 console.log(numsOfMaked.size);
