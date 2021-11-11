@@ -34,7 +34,6 @@ const addMakedNums = (startX, startY) => {
         numsOfMaked.add(connectedNum);
       } else {
         queue.push([nx, ny, connectedNum]);
-        console.log(queue);
       }
     }
   }
