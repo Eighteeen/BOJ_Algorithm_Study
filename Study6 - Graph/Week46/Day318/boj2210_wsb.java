@@ -4,6 +4,7 @@ import java.io.InputStreamReader;
 import java.util.*;
 import java.util.stream.Collectors;
 
+//// 깔끔
 class Main {
     static final int LEN = 5;
     static final int MAKE_LEN = 6;
