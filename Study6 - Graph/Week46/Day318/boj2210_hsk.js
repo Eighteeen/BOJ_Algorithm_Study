@@ -19,6 +19,7 @@ const addMakedNums = (startX, startY) => {
   let dx = [0, 0, 1, -1];
   let dy = [1, -1, 0, 0];
 
+  //// BFS 까리하네요. 생각도 못했는데 배워갑니다
   while (queue.length) {
     const [x, y, num] = queue.shift();
 
@@ -33,6 +34,7 @@ const addMakedNums = (startX, startY) => {
         numsOfMaked.add(connectedNum);
       } else {
         queue.push([nx, ny, connectedNum]);
+        console.log(queue);
       }
     }
   }

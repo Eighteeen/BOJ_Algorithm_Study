@@ -35,6 +35,7 @@ class Main {
         return nums;
     }
 
+    //// Str->Integer가 필수적인 문제는 아닌 거 같아요!
     static Set<Integer> getMoveMakeNumSet(int movement, Coordinate coordinate) {
         return getMoveMakeNumStrSet(movement, coordinate).stream().map(Integer::valueOf).collect(Collectors.toSet());
     }
