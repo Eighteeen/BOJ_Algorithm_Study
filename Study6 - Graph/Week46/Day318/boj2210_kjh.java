@@ -25,7 +25,7 @@ class Main {
     System.out.print(combinations.size());
   }
   
-  //// 깔끔해요
+  //// 깔끔해요 : 22
   static void makeCombinations(int y, int x, int size, String combination) {
     if (size == 6) {
       combinations.add(combination);
