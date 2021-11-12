@@ -74,6 +74,7 @@
 [<sub>![Silver3]</sub> 태권왕](https://www.acmicpc.net/problem/14562) |
 [<sub>![Silver2]</sub> 숫자판 점프](https://www.acmicpc.net/problem/2210) |
 [<sub>![Silver1]</sub> 신아를 만나러](https://www.acmicpc.net/problem/6146) |
+[<sub>![Gold5]</sub> 인구 이동](https://www.acmicpc.net/problem/16234) |
 
 ## 쉬어갔던 문제
 [<sub>![Bronze3]</sub> 별 찍기 - 6](https://www.acmicpc.net/problem/2443) |
