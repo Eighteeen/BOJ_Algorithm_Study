@@ -39,7 +39,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 2210 | [<sub>![Silver2]</sub> 숫자판 점프](https://www.acmicpc.net/problem/2210) | [진홍](Day318/boj2210_kjh.java) [승빈](Day318/boj2210_wsb.java) [수경](Day318/boj2210_hsk.js) | 진홍 승빈 수경 |
+| 백준   | 2210 | [<sub>![Silver2]</sub> 숫자판 점프](https://www.acmicpc.net/problem/2210) | [진홍](Day318/boj2210_kjh.java) [승빈](Day318/boj2210_wsb.java) [수경](Day318/boj2210_hsk.js) | [진홍](Day318/boj2210_kjh.java) 승빈 수경 |
 
 ## [319일차](Day319)
 
