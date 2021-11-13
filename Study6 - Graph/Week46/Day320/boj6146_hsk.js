@@ -17,6 +17,7 @@ const input = (() => {
   return () => stdin[line++];
 })();
 
+//// 깔끔
 const getLeastDistances = (startX, startY) => {
   const queue = [[startX, startY]];
   let queueCursor = 0;
