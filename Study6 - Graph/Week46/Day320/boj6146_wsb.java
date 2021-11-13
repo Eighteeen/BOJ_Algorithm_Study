@@ -7,10 +7,10 @@ class Main {
     static final int dLen = 4;
     static final int[] dx = {-1, 0, 1, 0}, dy = {0, 1, 0, -1};
     static int mapXsize, mapYsize;
+    static boolean[][] puddleMap;
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringBuilder sb = new StringBuilder();
 
         String[] streetInfo = br.readLine().split(" ");
         int X = Integer.parseInt(streetInfo[0]), Y = Integer.parseInt(streetInfo[1]);
@@ -18,9 +18,8 @@ class Main {
 
         int minX = 0, maxX = 0;
         int minY = 0, maxY = 0;
-
         List<Coordinate> puddleCoordinates = new ArrayList<>();
-
+        
         for (int i = 0; i < N; i++) {
             String[] puddleInfo = br.readLine().split(" ");
             int puddleX = Integer.parseInt(puddleInfo[0]);
@@ -34,21 +33,57 @@ class Main {
             maxY = Math.max(maxY, puddleY);
         }
 
-        minX--;
-        minY--;
-        maxX++;
-        maxY++;
+        setMapSize(--minX, ++maxX, --minY, ++maxY);
+        makePuddleMap(puddleCoordinates, minX, minY);
+
+        System.out.println(
+            getMinDistanceAvoidPuddle(
+                getCoordinateInPuddleMap(0, 0, minX, minY),
+                getCoordinateInPuddleMap(X, Y, minX, minY)
+            )
+        );
+        br.close();
+    }
+
+    static void setMapSize(int minX, int maxX, int minY, int maxY) {
         mapXsize = Math.abs(minX) + Math.abs(maxX) + 1;
         mapYsize = Math.abs(minY) + Math.abs(maxY) + 1;
+    }
 
-        boolean[][] toSinaStreet = new boolean[mapXsize][mapYsize];
+    static void makePuddleMap(List<Coordinate> puddleCoordinates, int minX, int minY) {
+        puddleMap = new boolean[mapXsize][mapYsize];
         for (Coordinate puddleCoordinate : puddleCoordinates) {
             int x = puddleCoordinate.getX(), y = puddleCoordinate.getY();
-            // x = Math.abs(minX) 
+            puddleMap[x - minX][y - minY] = true;
+        }
+    }
+
+    static Coordinate getCoordinateInPuddleMap(int x, int y, int minX, int minY) {
+        return Coordinate.twoPointOf(x - minX, y - minY);
+    }
+
+    static int getMinDistanceAvoidPuddle(Coordinate from, Coordinate to) {
+        Queue<Coordinate> bfsQueue = new LinkedList<>();
+        int[][] minMovements = new int[mapXsize][mapYsize];
+        bfsQueue.offer(from);
+
+        while (!bfsQueue.isEmpty()) {
+            Coordinate current = bfsQueue.poll();
+            if (current.equals(to)) break;
+
+            int x = current.getX(), y = current.getY();
+            for (int i = 0; i < dLen; i++) {
+                int nx = x + dx[i], ny = y + dy[i];
+                if (isOutOfSize(mapXsize, nx) ||
+                    isOutOfSize(mapYsize, ny) ||
+                    puddleMap[nx][ny] ||
+                    minMovements[nx][ny] > 0) continue;
+                minMovements[nx][ny] = minMovements[x][y] + 1;
+                bfsQueue.offer(Coordinate.twoPointOf(nx, ny));
+            }
         }
 
-        System.out.println(sb);
-        br.close();
+        return minMovements[to.getX()][to.getY()];
     }
 
     static boolean isOutOfSize(int size, int point) {
