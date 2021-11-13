@@ -18,4 +18,4 @@ const TEST_CASE = parseInt(input());
 for (let i = 0; i < TEST_CASE; i++) {
   console.log('='.repeat(parseInt(input())));
 }
-//// 끌끔
+//// 끌끔 : 22
