@@ -4,6 +4,7 @@ import java.util.StringTokenizer;
 import java.util.Queue;
 import java.util.LinkedList;
 
+//// 오 왕깔끔
 class Main {
   static int MAP_SIZE = 1001;
   static boolean DRY_GROUND = false;
