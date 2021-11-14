@@ -14,26 +14,26 @@ const input = (() => {
   return () => stdin[line++];
 })();
 
-const isAbleToPronounce = (sentence) => {
-  const visitedElements = new Array(sentence.length + 1).fill(false);
+const isAbleToPronounce = (word) => {
+  const visitedElementsInWord = new Array(word.length + 1).fill(false);
   const queue = [0];
   let queueCursor = 0;
 
-  visitedElements[0] = true;
+  visitedElementsInWord[0] = true;
   while (queue.length > queueCursor) {
     const idx = queue[queueCursor++];
 
-    if (idx === sentence.length) return true;
+    if (idx === word.length) return true;
 
-    let oneWord = sentence[idx];
-    let twoWord = sentence[idx] + sentence[idx + 1];
+    let oneChar = word[idx];
+    let twoChar = word[idx] + word[idx + 1];
     for (let i = 0; i < elements.length; i++) {
-      if (oneWord === elements[i] && !visitedElements[idx + 1]) {
-        visitedElements[idx + 1] = true;
+      if (oneChar === elements[i] && !visitedElementsInWord[idx + 1]) {
+        visitedElementsInWord[idx + 1] = true;
         queue.push(idx + 1);
       }
-      if (twoWord === elements[i] && !visitedElements[idx + 2]) {
-        visitedElements[idx + 2] = true;
+      if (twoChar === elements[i] && !visitedElementsInWord[idx + 2]) {
+        visitedElementsInWord[idx + 2] = true;
         queue.push(idx + 2);
       }
     }
@@ -161,6 +161,6 @@ const elements = [
 const TEST_CASE = Number(input());
 
 for (let i = 0; i < TEST_CASE; i++) {
-  const sentence = input();
-  console.log(isAbleToPronounce(sentence) ? 'YES' : 'NO');
+  const word = input();
+  console.log(isAbleToPronounce(word) ? 'YES' : 'NO');
 }
