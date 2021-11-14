@@ -5,13 +5,17 @@ import java.util.Queue;
 import java.util.LinkedList;
 
 //// 오 왕깔끔
+//// 처음부터 사이즈를 전부 잡고 시작하니 간단하게 구현할 수 있군요. 또 다른 방법 알아갑니다!
 class Main {
   static int MAP_SIZE = 1001;
+  //// DRY_GROUND는 지워도 될 듯 해요
   static boolean DRY_GROUND = false;
   static boolean WET_GROUND = true;
   
   static int COMPLEMENT = 500;
 
+  //// 함수로 분리했으면 더 좋았겠지만,
+    //// 변수명이랑 로직들이 명확해서 함수 분리가 없는데도 술술 읽히고 깔끔한 느낌이 났어요!
   public static void main(String[] args) throws Exception {
     final int DESTINATION_Y = Input.nextInt() + COMPLEMENT;
     final int DESTINATION_X = Input.nextInt() + COMPLEMENT;

@@ -18,6 +18,7 @@ const input = (() => {
 })();
 
 //// 깔끔
+//// 처음부터 사이즈를 전부 잡고 시작하니 간단하게 구현할 수 있군요. 또 다른 방법 알아갑니다!
 const getLeastDistances = (startX, startY) => {
   const queue = [[startX, startY]];
   let queueCursor = 0;
