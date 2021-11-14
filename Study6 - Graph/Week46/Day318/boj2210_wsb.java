@@ -37,6 +37,8 @@ class Main {
     }
 
     //// Str->Integer가 필수적인 문제는 아닌 거 같아요!
+    //// => 해당 문제에서는 필수적인 요소는 아니지만,
+        //// 프로그램 자체의 활용적 부분에서 Integer로 바꾸는 방법을 선택했기 때문에 해당 코드를 유지하겠습니다.
     static Set<Integer> getMoveMakeNumSet(int movement, Coordinate coordinate) {
         return getMoveMakeNumStrSet(movement, coordinate).stream().map(Integer::valueOf).collect(Collectors.toSet());
     }
