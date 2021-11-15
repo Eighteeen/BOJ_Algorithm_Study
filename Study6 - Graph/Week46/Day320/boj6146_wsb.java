@@ -18,6 +18,7 @@ class Main {
 
         int minX = 0, maxX = 0;
         int minY = 0, maxY = 0;
+        //// 클래스 이름에서도 이미 드러나는데 변수 이름에서도 Coordinate를 또 쓰는건 동어반복 느낌이 나는 것 같습니다
         List<Coordinate> puddleCoordinates = new ArrayList<>();
         
         for (int i = 0; i < N; i++) {
@@ -33,11 +34,13 @@ class Main {
             maxY = Math.max(maxY, puddleY);
         }
 
+        //// 와우 최적화 하셨군요
         setMapSize(--minX, ++maxX, --minY, ++maxY);
         makePuddleMap(puddleCoordinates, minX, minY);
 
         System.out.println(
             getMinDistanceAvoidPuddle(
+                //// 요 함수가 어떤 역할을 하는지 알기 어려웠어요. 좌표 두개를 넣으면 좌표가 나온다? 어떤 좌표가 나온다는거지?
                 getCoordinateInPuddleMap(0, 0, minX, minY),
                 getCoordinateInPuddleMap(X, Y, minX, minY)
             )
