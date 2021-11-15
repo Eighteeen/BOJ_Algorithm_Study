@@ -18,7 +18,7 @@ class Main {
 
         int minX = 0, maxX = 0;
         int minY = 0, maxY = 0;
-        //// 클래스 이름에서도 이미 드러나는데 변수 이름에서도 Coordinate를 또 쓰는건 동어반복 느낌이 나는 것 같습니다
+        //// 클래스 이름에서도 이미 드러나는데 변수 이름에서도 Coordinate를 또 쓰는건 동어반복인 것 같습니다
         List<Coordinate> puddleCoordinates = new ArrayList<>();
         
         for (int i = 0; i < N; i++) {
