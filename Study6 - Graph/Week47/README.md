@@ -23,7 +23,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 17204 | [<sub>![Silver3]</sub> 죽음의 게임](https://www.acmicpc.net/problem/17204) | [진홍](Day323/boj17204_kjh.java) 승빈 [수경](Day323/boj17204_hsk.js) | 진홍 승빈 수경 |
+| 백준   | 17204 | [<sub>![Silver3]</sub> 죽음의 게임](https://www.acmicpc.net/problem/17204) | [진홍](Day323/boj17204_kjh.java) [승빈](Day323/boj17204_wsb.java) [수경](Day323/boj17204_hsk.js) | 진홍 승빈 수경 |
 
 ## [324일차](Day324)
 
