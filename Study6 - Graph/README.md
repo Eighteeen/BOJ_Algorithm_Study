@@ -125,3 +125,4 @@
 [<sub>![Bronze3]</sub> 그대로 출력하기](https://www.acmicpc.net/problem/11718) |
 [<sub>![Bronze3]</sub> 네 번째 수](https://www.acmicpc.net/problem/2997) |
 [<sub>![Bronze3]</sub> 히스토그램](https://www.acmicpc.net/problem/13752) |
+[<sub>![Bronze3]</sub> 별 찍기 -5](https://www.acmicpc.net/problem/2442) |
