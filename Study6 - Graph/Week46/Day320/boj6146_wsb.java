@@ -34,7 +34,7 @@ class Main {
             maxY = Math.max(maxY, puddleY);
         }
 
-        //// 와우 최적화 하셨군요
+        //// 와우 최적화 하셨군요 : 22
         setMapSize(--minX, ++maxX, --minY, ++maxY);
         makePuddleMap(puddleCoordinates, minX, minY);
 
