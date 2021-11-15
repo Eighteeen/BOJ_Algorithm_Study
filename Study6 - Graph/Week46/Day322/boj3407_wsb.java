@@ -4,6 +4,7 @@ import java.io.InputStreamReader;
 import java.util.*;
 
 class Main {
+    //// 한 단어와 두 단어 설정을 나눠서 깔끔해보이네여
     static final Set<Character> ONE_LETTER_SYMBOLS = Set.of('h', 'b', 'c', 'n', 'o', 'f', 'p', 's', 'k', 'v', 'y', 'i', 'w', 'u');
     static final Set<String> TWO_LETTER_SYMBOLS = Set.of(
         "ba", "ca" , "ga", "la", "na", "pa", "ra", "ta", "db", "nb", "pb", "rb", "sb", "tb", "yb", "ac",
@@ -36,6 +37,7 @@ class Main {
         return isPossibleSpeakCheckWord(0);
     }
 
+    //// 깔끔해요,, 
     static boolean isPossibleSpeakCheckWord(int start) {
         if (start >= checkWord.length()) return true;
         if (visited[start]) return false;
