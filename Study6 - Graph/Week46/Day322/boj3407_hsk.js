@@ -14,6 +14,7 @@ const input = (() => {
   return () => stdin[line++];
 })();
 
+//// 무난 깔끔!
 const isAbleToPronounce = (word) => {
   const visitedElementsInWord = new Array(word.length + 1).fill(false);
   const queue = [0];
