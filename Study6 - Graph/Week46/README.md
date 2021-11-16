@@ -71,4 +71,4 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 3407 | [<sub>![Silver2]</sub> 맹세](https://www.acmicpc.net/problem/3407) | *[진홍](Day322/boj3407_kjh.java)* [승빈](Day322/boj3407_wsb.java) [수경](Day322/boj3407_hsk.js) | 진홍 *[진홍](Day322/boj3407_kjh_fb.java)* [수경](Day322/boj3407_hsk.js) |
+| 백준   | 3407 | [<sub>![Silver2]</sub> 맹세](https://www.acmicpc.net/problem/3407) | *[진홍](Day322/boj3407_kjh.java)* [승빈](Day322/boj3407_wsb.java) [수경](Day322/boj3407_hsk.js) | *[진홍](Day322/boj3407_kjh_fb.java)* [승빈](Day322/boj3407_wsb.java) [수경](Day322/boj3407_hsk.js) |
