@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+//// 무난합니다
 class Main {
     static int[] pickNums;
     static boolean[] visited;
@@ -28,6 +29,7 @@ class Main {
         return getDeathNum(0) - 1;
     }
 
+    //// DFS를 선호하시는군요
     static int getDeathNum(int pickNum) {
         if (visited[pickNum]) return 0;
         if (pickNum == deathIdx) return 1;

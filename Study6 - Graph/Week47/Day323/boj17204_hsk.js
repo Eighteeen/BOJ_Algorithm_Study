@@ -45,3 +45,4 @@ for (let i = 0; i < N; i++) {
 }
 
 console.log(getLeastDistances(0));
+//// 굿굿
