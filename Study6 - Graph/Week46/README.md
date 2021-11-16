@@ -55,7 +55,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 6146 | [<sub>![Silver1]</sub> 신아를 만나러](https://www.acmicpc.net/problem/6146) | [진홍](Day320/boj6146_kjh.java) [승빈](Day320/boj6146_wsb.java) [수경](Day320/boj6146_hsk.js) | [진홍](Day320/boj6146_kjh_fb.java) 승빈 [수경](Day320/boj6146_hsk.js) |
+| 백준   | 6146 | [<sub>![Silver1]</sub> 신아를 만나러](https://www.acmicpc.net/problem/6146) | [진홍](Day320/boj6146_kjh.java) [승빈](Day320/boj6146_wsb.java) [수경](Day320/boj6146_hsk.js) | [진홍](Day320/boj6146_kjh_fb.java) [승빈](Day320/boj6146_wsb_fb.java) [수경](Day320/boj6146_hsk.js) |
 
 ## [321일차](Day321) : Pairing Day
 
