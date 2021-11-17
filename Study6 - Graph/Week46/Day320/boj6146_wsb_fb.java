@@ -27,7 +27,7 @@ class Main {
             int puddleX = Integer.parseInt(puddleInfo[0]);
             int puddleY = Integer.parseInt(puddleInfo[1]);
 
-            puddleCoordinates.add(Coordinate.twoPointOf(puddleX, puddleY));
+            puddle.add(Coordinate.twoPointOf(puddleX, puddleY));
 
             minX = Math.min(minX, puddleX);
             maxX = Math.max(maxX, puddleX);
