@@ -77,6 +77,7 @@
 [<sub>![Gold5]</sub> 인구 이동](https://www.acmicpc.net/problem/16234) |
 [<sub>![Silver2]</sub> 맹세](https://www.acmicpc.net/problem/3407) |
 [<sub>![Silver3]</sub> 죽음의 게임](https://www.acmicpc.net/problem/17204) |
+[<sub>![Silver1]</sub> A → B](https://www.acmicpc.net/problem/16953) |
 
 ## 쉬어갔던 문제
 [<sub>![Bronze3]</sub> 별 찍기 - 6](https://www.acmicpc.net/problem/2443) |
