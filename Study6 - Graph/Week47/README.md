@@ -31,7 +31,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 2442 | [<sub>![Bronze3]</sub> 별 찍기 -5](https://www.acmicpc.net/problem/2442) | [진홍](Day324/boj2442_kjh.py) [승빈](Day324/boj2442_wsb.java) [수경](Day324/boj2442_hsk.js) | [진홍](Day324/boj2442_kjh.py) 승빈 [수경](Day324/boj2442_hsk.js)
+| 백준   | 2442 | [<sub>![Bronze3]</sub> 별 찍기 -5](https://www.acmicpc.net/problem/2442) | [진홍](Day324/boj2442_kjh.py) [승빈](Day324/boj2442_wsb.java) [수경](Day324/boj2442_hsk.js) | [진홍](Day324/boj2442_kjh.py) [승빈](Day324/boj2442_wsb.java) [수경](Day324/boj2442_hsk.js)
 
 ## [325일차](Day325)
 
@@ -47,7 +47,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 5554 | [<sub>![Bronze5]</sub> 심부름 가는 길](https://www.acmicpc.net/problem/5554) | [진홍](Day326/boj5554_kjh.py) 승빈 [수경](Day326/boj5554_hsk.js) | 진홍 승빈 수경 |
+| 백준   | 5554 | [<sub>![Bronze5]</sub> 심부름 가는 길](https://www.acmicpc.net/problem/5554) | [진홍](Day326/boj5554_kjh.py) [승빈](Day326/boj5554_wsb.java) [수경](Day326/boj5554_hsk.js) | 진홍 승빈 수경 |
 
 ## [327일차](Day327)
 
