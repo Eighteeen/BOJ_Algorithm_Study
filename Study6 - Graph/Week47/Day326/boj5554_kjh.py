@@ -5,3 +5,5 @@ for i in range(4):
 
 print(elapsedMinutes // 60)
 print(elapsedMinutes % 60)
+
+# ㄲㄲ
