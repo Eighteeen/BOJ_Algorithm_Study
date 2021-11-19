@@ -39,7 +39,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 15894    | [<sub>![Bronze5]</sub> 수학은 체육과목 입니다](https://www.acmicpc.net/problem/15894) | [진홍](Day325/boj15894_kjh.py) [승빈](Day325/boj15894_wsb.java) [수경](Day325/boj15894_hsk.js) | [진홍](Day325/boj15894_kjh.py) 승빈 수경 |
+| 백준   | 15894    | [<sub>![Bronze5]</sub> 수학은 체육과목 입니다](https://www.acmicpc.net/problem/15894) | [진홍](Day325/boj15894_kjh.py) [승빈](Day325/boj15894_wsb.java) [수경](Day325/boj15894_hsk.js) | [진홍](Day325/boj15894_kjh.py) 승빈 [수경](Day325/boj15894_hsk.js) |
 
 ## [326일차](Day326)
 
