@@ -18,7 +18,7 @@ const getLeastCntOfOperation = (numOfStart, numOfTarget) => {
       else nextNum = 10 * num + 1;
 
       if (nextNum <= numOfTarget) {
-        queue.push([nextNum, cntOfOperation + 1]);
+        queue.push([nextNum, cntOfOperation + 1]); //// 부럽다..
       }
     }
   }
@@ -26,3 +26,4 @@ const getLeastCntOfOperation = (numOfStart, numOfTarget) => {
 };
 
 console.log(getLeastCntOfOperation(A, B));
+//// 깔끔
