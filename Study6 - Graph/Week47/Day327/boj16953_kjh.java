@@ -6,6 +6,7 @@ import java.util.LinkedList;
 import java.util.Map;
 import java.util.HashMap;
 
+//// 깔끔
 class Main {
   public static void main(String[] args) throws Exception {
     final int A = Input.nextInt();

@@ -7,7 +7,7 @@ class Main {
     static boolean[] visited;
     static final int MAX_NUM = 1000000000;
 
-    //// 무난쓰
+    //// 무난쓰 : 22
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
