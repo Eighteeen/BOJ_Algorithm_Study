@@ -26,4 +26,4 @@ const getLeastCntOfOperation = (numOfStart, numOfTarget) => {
 };
 
 console.log(getLeastCntOfOperation(A, B));
-//// 깔끔
+//// 깔끔 : 22
