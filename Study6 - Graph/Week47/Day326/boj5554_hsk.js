@@ -14,4 +14,4 @@ const totalSeconds = seconds.reduce((sum, sec) => sum + sec);
 
 console.log(parseInt(totalSeconds / 60));
 console.log(parseInt(totalSeconds % 60));
-//// 깔
+//// 깔 : 22
