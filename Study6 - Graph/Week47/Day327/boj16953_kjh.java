@@ -6,7 +6,7 @@ import java.util.LinkedList;
 import java.util.Map;
 import java.util.HashMap;
 
-//// 깔끔 : 22 역시 이런 문제는 bfs가 빠르네요
+//// 깔끔 : 22 같은 java니 시간 비교하기 쉬웠는데 역시 이런 문제는 bfs가 빠르네요
 class Main {
   public static void main(String[] args) throws Exception {
     final int A = Input.nextInt();
