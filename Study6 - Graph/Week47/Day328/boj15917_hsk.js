@@ -20,7 +20,7 @@ const input = (() => {
   return () => stdin[line++];
 })();
 
-//// 자바스크립트 스타일 가이드에 따르면 함수 첫글자는 소문자
+//// 자바스크립트 스타일 가이드에 따르면 함수 첫글자는 소문자 : 22
 const CanExpressedAsPower = (num) => {
   //// 조건문 그대로 return해도 돼용
   if ((num & -num) === num) return true;
@@ -34,3 +34,4 @@ for (let i = 0; i < Q; i++) {
   result.push(CanExpressedAsPower(a) ? 1 : 0);
 }
 console.log(result.join('\n'));
+//// 깔끔
