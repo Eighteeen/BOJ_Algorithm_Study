@@ -63,7 +63,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 15917 | [<sub>![Bronze3]</sub> 노솔브 방지문제야!!](https://www.acmicpc.net/problem/15917) | [진홍](Day328/boj15917_kjh.java) [승빈](Day328/boj15917_wsb.java) [수경](Day328/boj15917_hsk.js) | 진홍 승빈 수경 |
+| 백준   | 15917 | [<sub>![Bronze3]</sub> 노솔브 방지문제야!!](https://www.acmicpc.net/problem/15917) | [진홍](Day328/boj15917_kjh.java) [승빈](Day328/boj15917_wsb.java) [수경](Day328/boj15917_hsk.js) | 진홍 승빈 [수경](Day328/boj15917_hsk_fb.js) |
 
 ## [329일차](Day329)
 
