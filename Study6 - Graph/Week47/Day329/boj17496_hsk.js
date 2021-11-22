@@ -4,4 +4,4 @@ const [N, T, C, P] = (process.platform === 'linux' ? fs.readFileSync('/dev/stdin
   .map(Number);
 
 console.log(Math.floor((N - 1) / T) * C * P);
-//// ㄲㄲ
+//// ㄲㄲ : 22
