@@ -71,4 +71,4 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 17496 | [<sub>![Bronze5]</sub> 스타후르츠](https://www.acmicpc.net/problem/17496) | [진홍](Day329/boj17496_kjh.java) [승빈](Day329/boj17496_wsb.java) [수경](Day329/boj17496_hsk.js) | [진홍](Day329/boj17496_kjh.java) 승빈 수경 |
+| 백준   | 17496 | [<sub>![Bronze5]</sub> 스타후르츠](https://www.acmicpc.net/problem/17496) | [진홍](Day329/boj17496_kjh.java) [승빈](Day329/boj17496_wsb.java) [수경](Day329/boj17496_hsk.js) | [진홍](Day329/boj17496_kjh.java) 승빈 [수경](Day329/boj17496_hsk.js) |
