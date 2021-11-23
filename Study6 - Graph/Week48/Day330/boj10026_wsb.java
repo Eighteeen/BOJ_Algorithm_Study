@@ -13,7 +13,7 @@ class Main {
     static int[] dy = {0, 1, 0, -1};
 
     //// 와우 지니어스
-    //// 메인 깔끔해요 이렇게 할수도있군
+    //// 메인 깔끔해요 이렇게 할수도있군 : 22 동감해요!
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringBuilder sb = new StringBuilder();
