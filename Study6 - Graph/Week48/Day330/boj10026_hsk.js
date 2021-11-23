@@ -44,6 +44,7 @@ const board = Array.from(new Array(N), () => input().split(''));
 const boardRGWeakness = Array.from(new Array(N), () => new Array(N).fill('B'));
 let visited = Array.from(new Array(N), () => new Array(N).fill(false));
 
+//// 이런 방법도 있군요
 for (let i = 0; i < N; i++) {
   for (let j = 0; j < N; j++) {
     if (board[i][j] === 'R' || board[i][j] === 'G') boardRGWeakness[i][j] = 'R';
@@ -72,4 +73,4 @@ for (let i = 0; i < N; i++) {
 }
 
 console.log(cntOfSectionInBoard, cntOfSectionInboardRGWeakness);
-//// 깔꼼..
+//// 깔꼼.. : 22

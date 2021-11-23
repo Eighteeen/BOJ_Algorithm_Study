@@ -3,8 +3,8 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 // 클린코드에서 boolean 매개변수는 치졸하다고 해서 나눠봤는데 영.. 좋은지 잘 모르겠네요
-//// boolean 매개변수를 사용하지 않고도 깔끔하게 풀 수 있었을 것 같아요! 중복되는 느낌이 강하네요
-//// 그래도 깔끔해요
+//// boolean 매개변수를 사용하지 않고도 깔끔하게 풀 수 있었을 것 같아요! 중복되는 느낌이 강하네요 : 22 좀 더 정리되면 좋을 것 같아요
+//// 그래도 깔끔해요 : 22 그럼에도 불구하고 엄청나게 거슬리는 점은 없었습니다
 class Main {
   static final int[] dy = { 0, -1, 0, 1 };
   static final int[] dx = { -1, 0, 1, 0 };
