@@ -72,4 +72,4 @@ for (let i = 0; i < N; i++) {
 }
 
 console.log(cntOfSectionInBoard, cntOfSectionInboardRGWeakness);
-//// 깔꼼
+//// 깔꼼..
