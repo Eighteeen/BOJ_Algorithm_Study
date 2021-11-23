@@ -134,3 +134,4 @@
 [<sub>![Bronze5]</sub> 스타후르츠](https://www.acmicpc.net/problem/17496) |
 [<sub>![Bronze5]</sub> 파티가 끝나고 난 뒤](https://www.acmicpc.net/problem/2845) |
 [<sub>![Bronze5]</sub> 달달함이 넘쳐흘러](https://www.acmicpc.net/problem/17256) |
+[<sub>![Bronze4]</sub> 폰 노이만과 파리](https://www.acmicpc.net/problem/14924) |
