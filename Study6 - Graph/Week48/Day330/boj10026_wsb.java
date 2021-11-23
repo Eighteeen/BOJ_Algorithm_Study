@@ -12,6 +12,8 @@ class Main {
     static int[] dx = {-1, 0, 1, 0};
     static int[] dy = {0, 1, 0, -1};
 
+    //// 와우 지니어스
+    //// 메인 깔끔해요 이렇게 할수도있군
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringBuilder sb = new StringBuilder();
