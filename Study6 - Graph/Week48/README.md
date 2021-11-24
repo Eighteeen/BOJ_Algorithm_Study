@@ -23,7 +23,7 @@
 
 | 사이트 | 번호  | 문제                                                          | 답안           | 피드백 반영 답안 |
 | ------ | ----- | ------------------------------------------------------------- | -------------- | ---------------- |
-| 백준   | 10026 | [<sub>![Gold5]</sub> 적록색약](https://www.acmicpc.net/problem/10026) | [진홍](Day330/boj10026_kjh.java) [승빈](Day330/boj10026_wsb.java) [수경](Day330/boj10026_hsk.js) | [진홍](Day330/boj10026_kjh.java) 승빈 [수경](Day330/boj10026_hsk.js)
+| 백준   | 10026 | [<sub>![Gold5]</sub> 적록색약](https://www.acmicpc.net/problem/10026) | [진홍](Day330/boj10026_kjh.java) [승빈](Day330/boj10026_wsb.java) [수경](Day330/boj10026_hsk.js) | [진홍](Day330/boj10026_kjh_fb.java) 승빈 [수경](Day330/boj10026_hsk.js)
 
 ## [331일차](Day331)
 
