@@ -17,3 +17,4 @@ const AccurateParticipants = L * P;
 
 let diffParticipantsInArticle = numsOfParticipantsInArticle.map((value) => value - AccurateParticipants);
 console.log(...diffParticipantsInArticle);
+//// ㄲㄲ
