@@ -15,3 +15,4 @@ const [ax, ay, az] = input().split(' ').map(Number);
 const [cx, cy, cz] = input().split(' ').map(Number);
 
 console.log(cx - az, parseInt(cy / ay), cz - ax);
+//// ㄲㄲ
