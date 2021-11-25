@@ -79,6 +79,7 @@
 [<sub>![Silver3]</sub> 죽음의 게임](https://www.acmicpc.net/problem/17204) |
 [<sub>![Silver1]</sub> A → B](https://www.acmicpc.net/problem/16953) |
 [<sub>![Gold5]</sub> 적록색약](https://www.acmicpc.net/problem/10026) |
+[<sub>![Gold4]</sub> 알파벳](https://www.acmicpc.net/problem/1987) |
 
 ## 쉬어갔던 문제
 [<sub>![Bronze3]</sub> 별 찍기 - 6](https://www.acmicpc.net/problem/2443) |
