@@ -3,4 +3,4 @@ cx, cy, cz = map(int, input().split(' '))
 
 print(cx-az, cy//ay, cz-ax)
 
-# ㄲㄲ
+# ㄲㄲ : 22
