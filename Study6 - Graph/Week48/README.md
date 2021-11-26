@@ -39,7 +39,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 17256 | [<sub>![Bronze5]</sub> 달달함이 넘쳐흘러](https://www.acmicpc.net/problem/17256) | [진홍](Day332/boj17256_kjh.py) [승빈](Day332/boj17256_wsb.java) [수경](Day332/boj17256_hsk.js) | [진홍](Day332/boj17256_kjh.py) 승빈 수경 |
+| 백준   | 17256 | [<sub>![Bronze5]</sub> 달달함이 넘쳐흘러](https://www.acmicpc.net/problem/17256) | [진홍](Day332/boj17256_kjh.py) [승빈](Day332/boj17256_wsb.java) [수경](Day332/boj17256_hsk.js) | [진홍](Day332/boj17256_kjh.py) 승빈 [수경](Day332/boj17256_hsk.js) |
 
 ## [333일차](Day333)
 
@@ -55,7 +55,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 1837    | [<sub>![Bronze3]</sub> 암호제작](https://www.acmicpc.net/problem/1837) | [진홍](Day334/boj1837_kjh.py) 승빈 수경 | 진홍 승빈 수경 |
+| 백준   | 1837    | [<sub>![Bronze3]</sub> 암호제작](https://www.acmicpc.net/problem/1837) | [진홍](Day334/boj1837_kjh.py) 승빈 [수경](Day334/boj1837_hsk.js) | 진홍 승빈 수경 |
 
 ## [335일차](Day335)
 
