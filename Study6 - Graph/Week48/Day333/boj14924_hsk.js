@@ -4,3 +4,4 @@ const [S, T, D] = (process.platform === 'linux' ? fs.readFileSync('/dev/stdin').
   .map(Number);
 
 console.log((D / (S * 2)) * T);
+//// ㄲㄲ
