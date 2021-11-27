@@ -11,4 +11,4 @@ for (let i = BigInt(2); i < K; i++) {
 }
 
 console.log('GOOD');
-//// GOOD
+//// GOOD :2
