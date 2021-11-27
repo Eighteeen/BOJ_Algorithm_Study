@@ -63,7 +63,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 3003 | [<sub>![Bronze5]</sub> 킹, 퀸, 룩, 비숍, 나이트, 폰](https://www.acmicpc.net/problem/3003) | [진홍](Day335/boj3003_kjh.js) [승빈](Day335/boj3003_wsb.java) 수경 | 진홍 승빈 수경 |
+| 백준   | 3003 | [<sub>![Bronze5]</sub> 킹, 퀸, 룩, 비숍, 나이트, 폰](https://www.acmicpc.net/problem/3003) | [진홍](Day335/boj3003_kjh.js) [승빈](Day335/boj3003_wsb.java) [수경](Day335/boj3003_hsk.js) | 진홍 승빈 수경 |
 
 ## [336일차](Day336) : Pairing Day
 
