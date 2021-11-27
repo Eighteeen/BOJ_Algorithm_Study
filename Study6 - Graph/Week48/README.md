@@ -47,7 +47,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 14924 | [<sub>![Bronze4]</sub> 폰 노이만과 파리](https://www.acmicpc.net/problem/14924) | [진홍](Day333/boj14924_kjh.py) [승빈](Day333/boj14924_wsb.java) [수경](Day333/boj14924_hsk.js) | 진홍 [승빈](Day333/boj14924_wsb.java) 수경 |
+| 백준   | 14924 | [<sub>![Bronze4]</sub> 폰 노이만과 파리](https://www.acmicpc.net/problem/14924) | [진홍](Day333/boj14924_kjh.py) [승빈](Day333/boj14924_wsb.java) [수경](Day333/boj14924_hsk.js) | [진홍](Day333/boj14924_kjh_fb.py) [승빈](Day333/boj14924_wsb.java) 수경 |
 
 ## [334일차](Day334)
 
