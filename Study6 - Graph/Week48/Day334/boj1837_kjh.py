@@ -11,3 +11,5 @@ if min_prime == 0:
   print("GOOD")
 else:
   print("BAD", min_prime)
+
+## GOOD
