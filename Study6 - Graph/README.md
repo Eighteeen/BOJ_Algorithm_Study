@@ -136,3 +136,4 @@
 [<sub>![Bronze5]</sub> 달달함이 넘쳐흘러](https://www.acmicpc.net/problem/17256) |
 [<sub>![Bronze4]</sub> 폰 노이만과 파리](https://www.acmicpc.net/problem/14924) |
 [<sub>![Bronze3]</sub> 암호제작](https://www.acmicpc.net/problem/1837) |
+[<sub>![Bronze5]</sub> 킹, 퀸, 룩, 비숍, 나이트, 폰](https://www.acmicpc.net/problem/3003) |
