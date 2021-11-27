@@ -12,4 +12,4 @@ if min_prime == 0:
 else:
   print("BAD", min_prime)
 
-## GOOD
+## GOOD : 22
