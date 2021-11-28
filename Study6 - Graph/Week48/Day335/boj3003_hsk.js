@@ -8,4 +8,4 @@ const whiteChessPieces = (
 const CHESS = [1, 1, 2, 2, 2, 8];
 const result = whiteChessPieces.map((piece, idx) => CHESS[idx] - piece);
 console.log(...result);
-//// 깔끔
+//// 깔끔 :2
