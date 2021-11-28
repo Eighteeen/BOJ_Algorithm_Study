@@ -80,7 +80,6 @@
 [<sub>![Silver1]</sub> A → B](https://www.acmicpc.net/problem/16953) |
 [<sub>![Gold5]</sub> 적록색약](https://www.acmicpc.net/problem/10026) |
 [<sub>![Gold5]</sub> 보물섬](https://www.acmicpc.net/problem/2589) |
-[<sub>![Gold4]</sub> 알파벳](https://www.acmicpc.net/problem/1987) |
 
 ## 쉬어갔던 문제
 [<sub>![Bronze3]</sub> 별 찍기 - 6](https://www.acmicpc.net/problem/2443) |
@@ -139,3 +138,4 @@
 [<sub>![Bronze4]</sub> 폰 노이만과 파리](https://www.acmicpc.net/problem/14924) |
 [<sub>![Bronze3]</sub> 암호제작](https://www.acmicpc.net/problem/1837) |
 [<sub>![Bronze5]</sub> 킹, 퀸, 룩, 비숍, 나이트, 폰](https://www.acmicpc.net/problem/3003) |
+[<sub>![Bronze3]</sub> 부호](https://www.acmicpc.net/problem/1247) |
