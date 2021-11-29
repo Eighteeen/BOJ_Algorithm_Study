@@ -20,13 +20,13 @@
 
 # Week49
 
-## [336일차](Day336)
+## [337일차](Day337)
 
 > [쉬어가는 문제](https://www.acmicpc.net/group/workbook/view/9797/39296)
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 1247    | [<sub>![Bronze3]</sub> 부호](https://www.acmicpc.net/problem/1247) | 진홍 승빈 수경 | 진홍 승빈 수경 |
+| 백준   | 1247    | [<sub>![Bronze3]</sub> 부호](https://www.acmicpc.net/problem/1247) | 진홍 승빈 [수경](Day337/boj1247_hsk.py) | 진홍 승빈 수경 |
 
 ## [일차](Day)
 
