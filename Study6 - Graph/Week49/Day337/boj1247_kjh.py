@@ -15,4 +15,4 @@ for i in range(3):
   else:
     print('+')
     
-## 깔끔
+## 깔끔 : 22
