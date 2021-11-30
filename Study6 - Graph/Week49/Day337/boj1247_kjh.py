@@ -14,3 +14,5 @@ for i in range(3):
     print('-')
   else:
     print('+')
+    
+## 깔끔
