@@ -9,4 +9,4 @@ const input = (() => {
 const N = parseInt(input());
 const nthWord = String.fromCharCode(N + 44031);
 console.log(nthWord);
-//// ㄲㄲ
+//// ㄲㄲ : 22
