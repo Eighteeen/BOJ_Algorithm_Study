@@ -141,4 +141,4 @@
 [<sub>![Bronze3]</sub> 부호](https://www.acmicpc.net/problem/1247) |
 [<sub>![Bronze4]</sub> 한글](https://www.acmicpc.net/problem/11282) |
 [<sub>![Bronze3]</sub> 영수증](https://www.acmicpc.net/problem/5565) |
-[<sub>![Bronze2]]</sub> 나누기](https://www.acmicpc.net/problem/1075) |
+[<sub>![Bronze2]</sub> 나누기](https://www.acmicpc.net/problem/1075) |
