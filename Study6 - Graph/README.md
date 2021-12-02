@@ -142,3 +142,4 @@
 [<sub>![Bronze4]</sub> 한글](https://www.acmicpc.net/problem/11282) |
 [<sub>![Bronze4]</sub> 사파리월드](https://www.acmicpc.net/problem/2420) |
 [<sub>![Bronze2]</sub> 나누기](https://www.acmicpc.net/problem/1075) |
+[<sub>![Bronze4]</sub> 파일 옮기기](https://www.acmicpc.net/problem/11943) |
