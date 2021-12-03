@@ -9,4 +9,5 @@ for num in range(begin_num, end_num+1):
     print("{:02d}".format(num % 100))
     break;
   
-## ㄲㄲ
+## ㄲㄲ : 22
+## 세미콜론 빼는 거 어때요

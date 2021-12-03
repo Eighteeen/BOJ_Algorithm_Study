@@ -19,3 +19,4 @@ if (remainder === F) {
 } else {
   console.log('0' + remainder);
 }
+//// 깔끔
