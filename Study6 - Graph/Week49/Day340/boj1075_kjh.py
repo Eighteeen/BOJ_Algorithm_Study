@@ -8,3 +8,5 @@ for num in range(begin_num, end_num+1):
   if num % F == 0:
     print("{:02d}".format(num % 100))
     break;
+  
+## ㄲㄲ
