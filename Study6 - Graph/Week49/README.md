@@ -32,7 +32,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 2420 | [<sub>![Bronze4]</sub> 사파리월드](https://www.acmicpc.net/problem/2420) | [진홍](Day339/boj2420_kjh.py) [승빈](Day339/boj2420_wsb.java) [수경](Day339/boj2420_hsk.js) | [진홍](Day339/boj2420_kjh.py) 승빈 [수경](Day339/boj2420_hsk.js)
+| 백준   | 2420 | [<sub>![Bronze4]</sub> 사파리월드](https://www.acmicpc.net/problem/2420) | [진홍](Day339/boj2420_kjh.py) [승빈](Day339/boj2420_wsb.java) [수경](Day339/boj2420_hsk.js) | [진홍](Day339/boj2420_kjh.py) [승빈](Day339/boj2420_wsb.java) [수경](Day339/boj2420_hsk.js)
 
 ## [340일차](Day340)
 
