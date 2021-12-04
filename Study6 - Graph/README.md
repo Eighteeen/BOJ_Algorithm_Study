@@ -144,3 +144,4 @@
 [<sub>![Bronze2]</sub> 나누기](https://www.acmicpc.net/problem/1075) |
 [<sub>![Bronze4]</sub> 파일 옮기기](https://www.acmicpc.net/problem/11943) |
 [<sub>![Bronze4]</sub> Winning Score](https://www.acmicpc.net/problem/17009) |
+[<sub>![Bronze3]</sub> 플러그](https://www.acmicpc.net/problem/2010) |
