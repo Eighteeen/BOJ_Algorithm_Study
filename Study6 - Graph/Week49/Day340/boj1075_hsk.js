@@ -12,6 +12,7 @@ const numToBeRemoved = Math.floor(N / 100) * 100;
 const remainder = F - (numToBeRemoved % F);
 
 //// 팁: console.log(String(remainder).padStart(2, '0')); 한줄로 가능!
+//// => 헐.. 대박 알아가요!! 팁이라 그냥 넘어갈게욧!
 if (remainder === F) {
   console.log('00');
 } else if (remainder >= 10) {
