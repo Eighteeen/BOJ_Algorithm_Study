@@ -15,3 +15,4 @@ const [A, B] = input().split(' ').map(Number);
 const [C, D] = input().split(' ').map(Number);
 
 console.log(Math.min(A + D, B + C));
+//// ㄲㄲ
