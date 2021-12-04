@@ -10,7 +10,8 @@ class Main {
         String numStr = br.readLine();
         int F = Integer.parseInt(br.readLine());
 
-        //// 100으로 나눈 몫을 구하고 100을 곱하면 더 간단합니다!
+        //// 100으로 나눈 몫을 구하고 100을 곱하면 더 간단합니다! 
+        //// => 큰 차이 없어 보여서 그대로 유지하겠습니다
         int dividend = Integer.parseInt(numStr.substring(0, numStr.length() - 2) + "00");
         while (dividend % F != 0) {
             dividend++;

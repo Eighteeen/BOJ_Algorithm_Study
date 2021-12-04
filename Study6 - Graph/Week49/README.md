@@ -40,7 +40,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 1075    | [<sub>![Bronze2]</sub> 나누기](https://www.acmicpc.net/problem/1075) | [진홍](Day340/boj1075_kjh.py) [승빈](Day340/boj1075_wsb.java) [수경](Day340/boj1075_hsk.js) | [진홍](Day340/boj1075_kjh_fb.py) 승빈 수경 |
+| 백준   | 1075    | [<sub>![Bronze2]</sub> 나누기](https://www.acmicpc.net/problem/1075) | [진홍](Day340/boj1075_kjh.py) [승빈](Day340/boj1075_wsb.java) [수경](Day340/boj1075_hsk.js) | [진홍](Day340/boj1075_kjh_fb.py) [승빈](Day340/boj1075_wsb.java) 수경 |
 
 ## [341일차](Day341)
 
@@ -56,7 +56,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 17009 | [<sub>![Bronze4]</sub> Winning Score](https://www.acmicpc.net/problem/17009) | [진홍](Day342/boj17009_kjh.py) 승빈 수경 | 진홍 승빈 수경 |
+| 백준   | 17009 | [<sub>![Bronze4]</sub> Winning Score](https://www.acmicpc.net/problem/17009) | [진홍](Day342/boj17009_kjh.py) [승빈](Day342/boj17009_wsb.java) 수경 | 진홍 승빈 수경 |
 
 ## [343일차](Day343)
 
