@@ -10,3 +10,5 @@ elif score[0] < score[1]:
   print('B')
 else:
   print('T')
+  
+## ㄲㄲ
