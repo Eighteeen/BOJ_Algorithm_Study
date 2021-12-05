@@ -11,4 +11,4 @@ elif score[0] < score[1]:
 else:
   print('T')
   
-## ㄲㄲ
+## ㄲㄲ : 22
