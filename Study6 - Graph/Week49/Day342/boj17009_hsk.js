@@ -30,3 +30,4 @@ if (score.apple > score.banana) {
 } else {
   console.log('T');
 }
+//// ㄲㄲ
