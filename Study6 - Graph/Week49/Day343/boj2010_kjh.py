@@ -10,4 +10,4 @@ for i in range(multitaps):
 
 print(plugs - (multitaps - 1))
 
-## ㄲㄲ
+## ㄲㄲ : 22
