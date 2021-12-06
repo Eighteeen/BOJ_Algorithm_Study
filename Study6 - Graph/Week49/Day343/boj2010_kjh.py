@@ -9,3 +9,5 @@ for i in range(multitaps):
   plugs += int(input())
 
 print(plugs - (multitaps - 1))
+
+## ㄲㄲ
