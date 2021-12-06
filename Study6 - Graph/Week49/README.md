@@ -56,7 +56,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 17009 | [<sub>![Bronze4]</sub> Winning Score](https://www.acmicpc.net/problem/17009) | [진홍](Day342/boj17009_kjh.py) [승빈](Day342/boj17009_wsb.java) [수경](Day342/boj17009_hsk.js) | [진홍](Day342/boj17009_kjh.py) 승빈 수경 |
+| 백준   | 17009 | [<sub>![Bronze4]</sub> Winning Score](https://www.acmicpc.net/problem/17009) | [진홍](Day342/boj17009_kjh.py) [승빈](Day342/boj17009_wsb.java) [수경](Day342/boj17009_hsk.js) | [진홍](Day342/boj17009_kjh.py) 승빈 [수경](Day342/boj17009_hsk.js) |
 
 ## [343일차](Day343)
 
