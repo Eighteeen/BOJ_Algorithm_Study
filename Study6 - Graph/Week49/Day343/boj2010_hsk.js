@@ -18,3 +18,4 @@ for (let i = 0; i < N; i++) {
   totalOfComputer += parseInt(input());
 }
 console.log(totalOfComputer - (N - 1));
+//// ㄲㄲ
