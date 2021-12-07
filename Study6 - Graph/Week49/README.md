@@ -64,4 +64,4 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 2010    | [<sub>![Bronze3]</sub> 플러그](https://www.acmicpc.net/problem/2010) | [진홍](Day343/boj2010_kjh.py) [승빈](Day343/boj2010_wsb.java) [수경](Day343/boj2010_hsk.js) | [진홍](Day343/boj2010_kjh.py) 승빈 [수경](Day343/boj2010_hsk.js) |
+| 백준   | 2010    | [<sub>![Bronze3]</sub> 플러그](https://www.acmicpc.net/problem/2010) | [진홍](Day343/boj2010_kjh.py) [승빈](Day343/boj2010_wsb.java) [수경](Day343/boj2010_hsk.js) | [진홍](Day343/boj2010_kjh.py) [승빈](Day343/boj2010_wsb.java) [수경](Day343/boj2010_hsk.js) |
