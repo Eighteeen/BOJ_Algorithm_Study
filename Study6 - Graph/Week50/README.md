@@ -24,7 +24,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 21300 | [<sub>![Bronze5]</sub> Bottle Return](https://www.acmicpc.net/problem/21300) | [진홍](Day345/boj21300_kjh.py) 승빈 수경 | 진홍 승빈 수경 |
+| 백준   | 21300 | [<sub>![Bronze5]</sub> Bottle Return](https://www.acmicpc.net/problem/21300) | [진홍](Day345/boj21300_kjh.py) 승빈 [수경](Day345/boj21300_hsk.js) | 진홍 승빈 수경 |
 
 ## [346일차](Day346)
 
