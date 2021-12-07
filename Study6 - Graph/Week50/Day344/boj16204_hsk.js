@@ -4,3 +4,4 @@ const [N, M, K] = (process.platform === 'linux' ? fs.readFileSync('/dev/stdin').
   .map(Number);
 
 console.log(Math.min(M, K) + Math.min(N - M, N - K));
+//// ㄲㄲ
