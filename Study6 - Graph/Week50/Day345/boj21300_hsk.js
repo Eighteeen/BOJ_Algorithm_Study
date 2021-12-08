@@ -3,7 +3,9 @@ const bottles = (process.platform === 'linux' ? fs.readFileSync('/dev/stdin').to
   .split(' ')
   .map(Number);
 
+//// 이욜 reduce 사용~
 const totalOfBottles = bottles.reduce((sum, curVal) => {
   return sum + curVal;
 }, 0);
 console.log(totalOfBottles * 5);
+//// ㄲㄲ
