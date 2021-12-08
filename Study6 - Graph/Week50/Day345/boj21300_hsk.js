@@ -8,4 +8,4 @@ const totalOfBottles = bottles.reduce((sum, curVal) => {
   return sum + curVal;
 }, 0);
 console.log(totalOfBottles * 5);
-//// ㄲㄲ
+//// ㄲㄲ : 22
