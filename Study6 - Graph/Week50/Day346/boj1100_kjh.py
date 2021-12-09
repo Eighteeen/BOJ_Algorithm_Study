@@ -8,3 +8,5 @@ for i in range(8):
       horse_on_white += 1
 
 print(horse_on_white)
+
+## ㄲㄲ
