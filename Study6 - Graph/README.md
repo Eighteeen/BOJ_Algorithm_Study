@@ -149,3 +149,4 @@
 [<sub>![Bronze5]</sub> Bottle Return](https://www.acmicpc.net/problem/21300) |
 [<sub>![Bronze2]</sub> 하얀 칸](https://www.acmicpc.net/problem/1100) |
 [<sub>![Bronze4]</sub> 체스판 조각](https://www.acmicpc.net/problem/3004) |
+[<sub>![Bronze4]</sub> 베시와 데이지](https://www.acmicpc.net/problem/16431) |
