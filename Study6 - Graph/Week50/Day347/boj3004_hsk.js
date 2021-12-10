@@ -5,3 +5,4 @@ let row = parseInt(N / 2) + 1;
 let col = N - row + 2;
 
 console.log(row * col);
+//// ㄲㄲ
