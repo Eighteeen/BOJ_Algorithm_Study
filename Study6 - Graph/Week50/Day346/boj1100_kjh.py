@@ -9,4 +9,4 @@ for i in range(8):
 
 print(horse_on_white)
 
-## ㄲㄲ
+## ㄲㄲ : 22

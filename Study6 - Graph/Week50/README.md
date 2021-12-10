@@ -24,7 +24,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 21300 | [<sub>![Bronze5]</sub> Bottle Return](https://www.acmicpc.net/problem/21300) | [진홍](Day345/boj21300_kjh.py) [승빈](Day345/boj21300_wsb.java) [수경](Day345/boj21300_hsk.js) | [진홍](Day345/boj21300_kjh.py) 승빈  [수경](Day345/boj21300_hsk.js) |
+| 백준   | 21300 | [<sub>![Bronze5]</sub> Bottle Return](https://www.acmicpc.net/problem/21300) | [진홍](Day345/boj21300_kjh.py) [승빈](Day345/boj21300_wsb.java) [수경](Day345/boj21300_hsk.js) | [진홍](Day345/boj21300_kjh.py) [승빈](Day345/boj21300_wsb.java)  [수경](Day345/boj21300_hsk.js) |
 
 ## [346일차](Day346)
 
@@ -40,7 +40,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 3004 | [<sub>![Bronze4]</sub> 체스판 조각](https://www.acmicpc.net/problem/3004) | [진홍](Day347/boj3004_kjh.py) 승빈 [수경](Day347/boj3004_hsk.js) | 진홍 승빈 수경 |
+| 백준   | 3004 | [<sub>![Bronze4]</sub> 체스판 조각](https://www.acmicpc.net/problem/3004) | [진홍](Day347/boj3004_kjh.py) [승빈](Day347/boj3004_wsb.java) [수경](Day347/boj3004_hsk.js) | 진홍 승빈 수경 |
 
 ## [348일차](Day348)
 
