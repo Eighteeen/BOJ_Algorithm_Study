@@ -40,7 +40,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 3004 | [<sub>![Bronze4]</sub> 체스판 조각](https://www.acmicpc.net/problem/3004) | [진홍](Day347/boj3004_kjh.py) [승빈](Day347/boj3004_wsb.java) [수경](Day347/boj3004_hsk.js) | [진홍](Day347/boj3004_kjh.py) 승빈 [수경](Day347/boj3004_hsk.js) |
+| 백준   | 3004 | [<sub>![Bronze4]</sub> 체스판 조각](https://www.acmicpc.net/problem/3004) | [진홍](Day347/boj3004_kjh.py) [승빈](Day347/boj3004_wsb.java) [수경](Day347/boj3004_hsk.js) | [진홍](Day347/boj3004_kjh.py) [승빈](Day347/boj3004_wsb.java) [수경](Day347/boj3004_hsk.js) |
 
 ## [348일차](Day348)
 
@@ -56,7 +56,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 1212    | [<sub>![Bronze3]</sub> 8진수 2진수](https://www.acmicpc.net/problem/1212) | [진홍](Day349/boj1212_kjh.py) 승빈 [수경](Day349/boj1212_hsk.js) | 진홍 승빈 수경 |
+| 백준   | 1212    | [<sub>![Bronze3]</sub> 8진수 2진수](https://www.acmicpc.net/problem/1212) | [진홍](Day349/boj1212_kjh.py) [승빈](Day349/boj1212_wsb.java) [수경](Day349/boj1212_hsk.js) | 진홍 승빈 수경 |
 
 ## [350일차](Day350)
 

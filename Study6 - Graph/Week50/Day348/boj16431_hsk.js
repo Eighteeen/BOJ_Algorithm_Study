@@ -27,4 +27,4 @@ if (distanceOfB < distanceOfD) {
   result = 'daisy';
 }
 console.log(result);
-//// ㄲㄲ
+//// ㄲㄲ : 22

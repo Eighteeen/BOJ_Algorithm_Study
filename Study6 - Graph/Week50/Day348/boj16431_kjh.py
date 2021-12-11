@@ -12,4 +12,4 @@ elif daisy_distance < bessie_distance:
 else:
   print('tie')
   
-## ㄲㄲ
+## ㄲㄲ : 22
