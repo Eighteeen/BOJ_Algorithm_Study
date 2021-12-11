@@ -19,6 +19,7 @@ const [Jr, Jc] = input().split(' ').map(Number);
 const distanceOfB = Math.max(Math.abs(Jr - Br), Math.abs(Jc - Bc));
 const distanceOfD = Math.abs(Jr - Dr) + Math.abs(Jc - Dc);
 
+//// 올 미리 초기화하는 아이디어 굿
 let result = 'tie';
 if (distanceOfB < distanceOfD) {
   result = 'bessie';
@@ -26,3 +27,4 @@ if (distanceOfB < distanceOfD) {
   result = 'daisy';
 }
 console.log(result);
+//// ㄲㄲ
