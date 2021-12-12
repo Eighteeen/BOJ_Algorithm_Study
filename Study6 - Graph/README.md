@@ -152,3 +152,4 @@
 [<sub>![Bronze4]</sub> 베시와 데이지](https://www.acmicpc.net/problem/16431) |
 [<sub>![Bronze3]</sub> 8진수 2진수](https://www.acmicpc.net/problem/1212) |
 [<sub>![Bronze4]</sub> 과자](https://www.acmicpc.net/problem/10156) |
+[<sub>![Bronze3]</sub> 길면 기차, 기차는 빨라, 빠른 것은 비행기](https://www.acmicpc.net/problem/9493) |
