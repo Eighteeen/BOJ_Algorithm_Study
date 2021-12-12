@@ -13,3 +13,4 @@ num.forEach((char, idx) => {
 });
 
 console.log(result);
+//// ㄲㄲ
