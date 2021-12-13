@@ -3,7 +3,9 @@ while True:
   if distance + speed_of_train + speed_of_plane == 0:
     break;
 
-  diff_seconds = distance * (1/speed_of_train - 1/speed_of_plane) * 60 * 60
+  diff_speed = (1/speed_of_train - 1/speed_of_plane)
+
+  diff_seconds = distance * diff_speed * 60 * 60
   diff_seconds = round(diff_seconds)
   
   diff_minutes = diff_seconds // 60
