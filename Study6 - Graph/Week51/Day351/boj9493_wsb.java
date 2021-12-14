@@ -19,7 +19,7 @@ class Main {
 
             double trainTime = M / (double) A * ONE_HOUR_SECONDS;
             double planeTime = M / (double) B * ONE_HOUR_SECONDS;
-            int differenceTime = (int) trainTime - planeTime;
+            int differenceTime = (int) Math.round(trainTime - planeTime);
 
             int differenceHours = differenceTime / ONE_HOUR_SECONDS;
             int differenceMinutes = differenceTime % ONE_HOUR_SECONDS / ONE_MINUTE_SECONDS;
