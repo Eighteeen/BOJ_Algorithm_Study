@@ -15,3 +15,5 @@ while True:
   diff_minutes = diff_minutes % 60
 
   print("{}:{:02d}:{:02d}".format(diff_hours, diff_minutes, diff_seconds))
+## 깔끔
+## 세미콜론 불-편

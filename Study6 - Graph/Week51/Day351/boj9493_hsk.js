@@ -25,7 +25,7 @@ while (1) {
   const durationOfB = (M / B) * HOUR_TO_SECONDS;
   const diff = Math.round(Math.abs(durationOfA - durationOfB));
 
-  //// 지금도 좋긴한데 가독성이 약간 떨어지는거같아요 ㅠ
+  //// 지금도 좋긴한데 가독성이 약간 떨어지는거같아요 : 22 변수 활용하면 좋을 것 같아요
   console.log(
     `${Math.floor(diff / HOUR_TO_SECONDS, 2)}:${matchDigits(
       Math.floor((diff % HOUR_TO_SECONDS) / MINUTE_TO_SECONDS),
