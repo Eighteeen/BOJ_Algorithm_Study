@@ -64,4 +64,4 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 10156 | [<sub>![Bronze4]</sub> 과자](https://www.acmicpc.net/problem/10156) | [진홍](Day350/boj10156_kjh.py) [승빈](Day350/boj10156_wsb.java) [수경](Day350/boj10156_hsk.js) | 진홍 승빈 수경 |
+| 백준   | 10156 | [<sub>![Bronze4]</sub> 과자](https://www.acmicpc.net/problem/10156) | [진홍](Day350/boj10156_kjh.py) [승빈](Day350/boj10156_wsb.java) [수경](Day350/boj10156_hsk.js) | 진홍 승빈 [수경](Day350/boj10156_hsk.js) |
