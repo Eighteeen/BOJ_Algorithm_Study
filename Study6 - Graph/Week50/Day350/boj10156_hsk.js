@@ -5,4 +5,4 @@ const [K, N, M] = (process.platform === 'linux' ? fs.readFileSync('/dev/stdin').
 
 const totalPrice = K * N;
 console.log(totalPrice > M ? totalPrice - M : 0);
-//// ㄲㄲ!
+//// ㄲㄲ! : 22
