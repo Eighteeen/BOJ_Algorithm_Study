@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+//// 깔끄음
 class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -19,6 +20,7 @@ class Main {
         } else if (diceResult2 == diceResult3) {
             prizeMoney = 1000 + diceResult2 * 100;
         } else {
+            //// 아 java는 max가 2개만 비교 가능하군여,,
             prizeMoney = Math.max(diceResult1, Math.max(diceResult2, diceResult3)) * 100;
         }
 

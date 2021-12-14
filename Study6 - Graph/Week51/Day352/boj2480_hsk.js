@@ -4,7 +4,7 @@ const dice = (process.platform === 'linux' ? fs.readFileSync('/dev/stdin').toStr
   .map(Number);
 
 const calcPrizeMoney = (value1, value2, value3) => {
-  if (value1 === value2 && value1 === value3 && value2 === value3) {
+  if (value1 === value2 && value1 === value3) {
     return 10000 + value1 * 1000;
   } else if (value1 === value2) {
     return 1000 + 100 * value1;
