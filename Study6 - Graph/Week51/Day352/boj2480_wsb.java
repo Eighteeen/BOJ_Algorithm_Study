@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-//// 깔끄음
+//// 깔끄음 :2
 class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -15,7 +15,7 @@ class Main {
         int prizeMoney = 0;
         if (diceResult1 == diceResult2 && diceResult2 == diceResult3) {
             prizeMoney = 10000 + diceResult1 * 1000;
-        } else if (diceResult1 == diceResult2 || diceResult1 == diceResult3) {
+        } else if (diceResult1 == diceResult2 || diceResult1 == diceResult3) { //// 이열 or
             prizeMoney = 1000 + diceResult1 * 100;
         } else if (diceResult2 == diceResult3) {
             prizeMoney = 1000 + diceResult2 * 100;
