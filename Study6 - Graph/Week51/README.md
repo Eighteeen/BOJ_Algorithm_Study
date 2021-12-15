@@ -25,7 +25,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 9493 | [<sub>![Bronze3]</sub> 길면 기차, 기차는 빨라, 빠른 것은 비행기](https://www.acmicpc.net/problem/9493) | [진홍](Day351/boj9493_kjh.py) [승빈](Day351/boj9493_wsb.java) [수경](Day351/boj9493_hsk.js) | [진홍](Day351/boj9493_kjh_fb.py) 승빈 [수경](Day351/boj9493_hsk_fb.js) |
+| 백준   | 9493 | [<sub>![Bronze3]</sub> 길면 기차, 기차는 빨라, 빠른 것은 비행기](https://www.acmicpc.net/problem/9493) | [진홍](Day351/boj9493_kjh.py) [승빈](Day351/boj9493_wsb.java) [수경](Day351/boj9493_hsk.js) | [진홍](Day351/boj9493_kjh_fb.py) [승빈](Day351/boj9493_wsb.java) [수경](Day351/boj9493_hsk_fb.js) |
 
 ## [352일차](Day352)
 
@@ -41,7 +41,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 17362 | [<sub>![Bronze4]</sub> 수학은 체육과목 입니다 2](https://www.acmicpc.net/problem/17362) | [진홍](Day353/boj17362_kjh.py) 승빈 [수경](Day353/boj17362_hsk.js) | 진홍 승빈 수경 |
+| 백준   | 17362 | [<sub>![Bronze4]</sub> 수학은 체육과목 입니다 2](https://www.acmicpc.net/problem/17362) | [진홍](Day353/boj17362_kjh.py) [승빈](Day353/boj17362_wsb.java) [수경](Day353/boj17362_hsk.js) | 진홍 승빈 수경 |
 
 ## [354일차](Day354)
 

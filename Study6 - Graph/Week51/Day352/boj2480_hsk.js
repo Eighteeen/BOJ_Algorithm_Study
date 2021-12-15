@@ -18,4 +18,4 @@ const calcPrizeMoney = (value1, value2, value3) => {
 };
 
 console.log(calcPrizeMoney(...dice));
-//// ㄲㄲ
+//// ㄲㄲ : 22

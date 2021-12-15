@@ -16,4 +16,4 @@ elif prize_level == 2:
 else:
   print(10000 + prize_dice * 1000)
 
-# for문 활용 매우 깔끄음
+# for문 활용 매우 깔끄음 : 22
