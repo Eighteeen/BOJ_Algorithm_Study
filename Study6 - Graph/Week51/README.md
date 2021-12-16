@@ -33,7 +33,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 2480    | [<sub>![Bronze4]</sub> 주사위 세개](https://www.acmicpc.net/problem/2480) | [진홍](Day352/boj2480_kjh.py) [승빈](Day352/boj2480_wsb.java) [수경](Day352/boj2480_hsk.js) | 진홍 승빈 수경 |
+| 백준   | 2480    | [<sub>![Bronze4]</sub> 주사위 세개](https://www.acmicpc.net/problem/2480) | [진홍](Day352/boj2480_kjh.py) [승빈](Day352/boj2480_wsb.java) [수경](Day352/boj2480_hsk.js) | 진홍 승빈 [수경](Day352/boj2480_hsk.js) |
 
 ## [353일차](Day353)
 
@@ -49,7 +49,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 1864 | [<sub>![Bronze3]</sub> 문어 숫자](https://www.acmicpc.net/problem/1864) | [진홍](Day354/boj1864_kjh.py) 승빈 수경 | 진홍 승빈 수경 |
+| 백준   | 1864 | [<sub>![Bronze3]</sub> 문어 숫자](https://www.acmicpc.net/problem/1864) | [진홍](Day354/boj1864_kjh.py) 승빈 [수경](Day354/boj1864_hsk.js) | 진홍 승빈 수경 |
 
 ## [355일차](Day355)
 
