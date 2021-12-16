@@ -11,4 +11,4 @@ else if (N === 4 || N === 6) result = 4;
 else result = 5;
 
 console.log(result);
-//// ㄲㄲ
+//// ㄲㄲ : 22

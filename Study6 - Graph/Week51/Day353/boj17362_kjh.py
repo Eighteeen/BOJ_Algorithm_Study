@@ -7,4 +7,4 @@ if N <= 5:
 else:
   print(iteration[(N - 6) % 8])
 
-## ㄲㄲ
+## ㄲㄲ : 22
