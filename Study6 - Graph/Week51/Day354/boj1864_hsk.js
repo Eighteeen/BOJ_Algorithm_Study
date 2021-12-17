@@ -41,3 +41,4 @@ while (1) {
 }
 
 console.log(result.join('\n'));
+//// ㄲㄲ
