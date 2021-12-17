@@ -1,4 +1,5 @@
 // 문제 실패 : 반례가 떠오르지 않음
+// 같은 코드로 python으로 제출했을 시 정답
 const fs = require('fs');
 const stdin = (
   process.platform === 'linux'
