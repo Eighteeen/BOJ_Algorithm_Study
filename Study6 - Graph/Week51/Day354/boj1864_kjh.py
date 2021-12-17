@@ -21,3 +21,5 @@ while True:
     decimal_number += (8 ** i) * octopus_digit[number]
 
   print(decimal_number)
+  
+## 깔끔
