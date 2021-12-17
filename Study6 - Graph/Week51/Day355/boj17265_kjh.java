@@ -8,7 +8,6 @@ class Main {
 
   static int mapSize;
   static char[][] map;
-  static boolean[][] visited;
 
   static int[] dy = { 0, 1 };
   static int[] dx = { 1, 0 };
@@ -22,8 +21,7 @@ class Main {
         map[i][j] = Input.nextChar();
       }
     }
-
-    visited = new boolean[mapSize][mapSize];
+    
     updateMinMaxResult(0, 0, '+', 0);
 
     System.out.printf("%d %d", maxResult, minResult);
@@ -51,7 +49,6 @@ class Main {
     }
 
 
-    visited[y][x] = true;
     for (int i = 0; i < 2; i++) {
       int aroundY = y + dy[i];
       int aroundX = x + dx[i];
@@ -60,13 +57,9 @@ class Main {
       if (outOfIndex) {
         continue;
       }
-      if (visited[aroundY][aroundX]) {
-        continue;
-      }
 
       updateMinMaxResult(aroundY, aroundX, operator, result);
     }
-    visited[y][x] = false;
   }
 }
 
