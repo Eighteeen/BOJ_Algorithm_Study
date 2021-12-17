@@ -80,6 +80,7 @@
 [<sub>![Silver1]</sub> A → B](https://www.acmicpc.net/problem/16953) |
 [<sub>![Gold5]</sub> 적록색약](https://www.acmicpc.net/problem/10026) |
 [<sub>![Gold5]</sub> 보물섬](https://www.acmicpc.net/problem/2589) |
+[<sub>![Gold5]</sub> 나의 인생에는 수학과 함께](https://www.acmicpc.net/problem/17265) |
 
 ## 쉬어갔던 문제
 [<sub>![Bronze3]</sub> 별 찍기 - 6](https://www.acmicpc.net/problem/2443) |
@@ -156,4 +157,3 @@
 [<sub>![Bronze4]</sub> 주사위 세개](https://www.acmicpc.net/problem/2480) |
 [<sub>![Bronze4]</sub> 수학은 체육과목 입니다 2](https://www.acmicpc.net/problem/17362) |
 [<sub>![Bronze3]</sub> 문어 숫자](https://www.acmicpc.net/problem/1864) |
-[<sub>![Bronze5]</sub> Next in line](https://www.acmicpc.net/problem/6749) |

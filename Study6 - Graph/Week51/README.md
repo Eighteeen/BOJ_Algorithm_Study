@@ -53,11 +53,11 @@
 
 ## [355일차](Day355)
 
-> [쉬어가는 문제](https://www.acmicpc.net/group/workbook/view/9797/39698)
+> [그래프 활용](https://www.acmicpc.net/group/workbook/view/9797/39698)
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 6749    | [<sub>![Bronze5]</sub> Next in line](https://www.acmicpc.net/problem/6749) | 진홍 승빈 수경 | 진홍 승빈 수경 |
+| 백준   | 17265    | [<sub>![Gold5]</sub> 나의 인생에는 수학과 함께](https://www.acmicpc.net/problem/17265) | 진홍 승빈 수경 | 진홍 승빈 수경 |
 
 ## [356일차](Day356) : Pairing Day
 
