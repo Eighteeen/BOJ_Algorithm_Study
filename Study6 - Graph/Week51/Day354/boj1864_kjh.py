@@ -22,4 +22,4 @@ while True:
 
   print(decimal_number)
   
-## 깔끔
+## 깔끔 : 22
