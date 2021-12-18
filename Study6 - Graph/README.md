@@ -158,3 +158,4 @@
 [<sub>![Bronze4]</sub> 수학은 체육과목 입니다 2](https://www.acmicpc.net/problem/17362) |
 [<sub>![Bronze3]</sub> 문어 숫자](https://www.acmicpc.net/problem/1864) |
 [<sub>![Bronze4]</sub> 수도요금](https://www.acmicpc.net/problem/10707) |
+[<sub>![Bronze4]</sub> SASA 모형을 만들어보자](https://www.acmicpc.net/problem/23825) |
