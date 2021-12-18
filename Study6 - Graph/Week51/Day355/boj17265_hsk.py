@@ -17,7 +17,7 @@ def setMinMaxValueInMap(x, y, curResult, operation):
         maxOfCalculation = max(maxOfCalculation, curResult)
         minOfCalculation = min(minOfCalculation, curResult)
         return
-      
+
     for i in range(2):
         nx = x + dx[i]
         ny = y + dy[i]
@@ -30,7 +30,7 @@ def setMinMaxValueInMap(x, y, curResult, operation):
             setMinMaxValueInMap(nx, ny, calculationResult, operation)
         else:
             setMinMaxValueInMap(nx, ny, curResult, map[nx][ny])
-      
+
 
 N = int(input())
 map = list(input().split() for _ in range(N))
