@@ -81,6 +81,7 @@
 [<sub>![Gold5]</sub> 적록색약](https://www.acmicpc.net/problem/10026) |
 [<sub>![Gold5]</sub> 보물섬](https://www.acmicpc.net/problem/2589) |
 [<sub>![Gold5]</sub> 나의 인생에는 수학과 함께](https://www.acmicpc.net/problem/17265) |
+[<sub>![Gold5]</sub> 회장뽑기](https://www.acmicpc.net/problem/2660) |
 
 ## 쉬어갔던 문제
 [<sub>![Bronze3]</sub> 별 찍기 - 6](https://www.acmicpc.net/problem/2443) |

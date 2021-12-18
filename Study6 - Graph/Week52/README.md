@@ -16,24 +16,17 @@
 [Gold3]: https://user-images.githubusercontent.com/33937365/126247630-80fb15af-debc-451d-a937-6c9c6bfa693b.png
 [Gold2]: https://user-images.githubusercontent.com/33937365/126247633-7112f6a6-57da-4d1d-953f-5414ba8ffc3d.png
 [Gold1]: https://user-images.githubusercontent.com/33937365/126247635-42bd3af9-e129-4379-b44a-22d75de3def6.png
-[Platinum5]: https://user-images.githubusercontent.com/33937365/126247636-763e3bc4-43a9-4724-8ce1-c2288aecb636.png
-[Platinum4]: https://user-images.githubusercontent.com/33937365/126247637-af30d243-2771-4966-b0bb-0901b9fd4989.png
-[Platinum3]: https://user-images.githubusercontent.com/33937365/126247640-cfd654db-86d8-42a9-8d1b-0f3494758330.png
-[Platinum2]: https://user-images.githubusercontent.com/33937365/126247641-3e60e9a6-5116-4005-a87d-bfb59969c87a.png
-[Platinum1]: https://user-images.githubusercontent.com/33937365/126247643-23bba5ac-52c4-442a-a88a-2eb8998f6446.png
-[Diamond5]: https://user-images.githubusercontent.com/33937365/126247645-870445bf-25d9-45ce-9c07-a25949ffad21.png
-[Diamond4]: https://user-images.githubusercontent.com/33937365/126247646-b2d7e328-c205-448d-a5bf-c6294c07edaa.png
-[Diamond3]: https://user-images.githubusercontent.com/33937365/126247647-db568f94-882f-410c-bd1b-63d49c87623c.png
-[Diamond2]: https://user-images.githubusercontent.com/33937365/126247648-52f92f07-0fb9-4b1d-a344-6e9b81d81044.png
-[Diamond1]: https://user-images.githubusercontent.com/33937365/126247649-4d068f63-f5e1-40df-910e-dceeb2b7de99.png
-[Ruby5]: https://user-images.githubusercontent.com/33937365/126247652-94013ea7-9a96-4068-b922-01535c85801d.png
-[Ruby4]: https://user-images.githubusercontent.com/33937365/126247655-a10f7077-6341-416e-938c-b500b7022aca.png
-[Ruby3]: https://user-images.githubusercontent.com/33937365/126247656-d0e16a36-5080-4585-a465-4e4f5302beef.png
-[Ruby2]: https://user-images.githubusercontent.com/33937365/126247659-1d249660-02a2-4a95-966f-074f99df70fe.png
-[Ruby1]: https://user-images.githubusercontent.com/33937365/126247660-8e0d236d-eaef-42b3-8983-28f9e6c94ff9.png
 <!-- tier 리스트 E -->
 
-# WeekN
+# Week52
+
+## [358일차](Day358)
+
+> [그래프 활용](https://www.acmicpc.net/group/workbook/view/9797/39725)
+
+| 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
+| ------ | ---- | -------------------- | ------------------- | ------------------- |
+| 백준   | 2660    | [<sub>![Gold5]</sub> 회장뽑기](https://www.acmicpc.net/problem/2660) | 진홍 승빈 수경 | 진홍 승빈 수경 |
 
 ## [일차](Day)
 
@@ -45,15 +38,7 @@
 
 ## [일차](Day)
 
-> [문제집설명](문제집링크)
-
-| 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
-| ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 0    | [<sub>![Unrated]</sub> 문제이름](문제링크) | 진홍 승빈 수경 | 진홍 승빈 수경 |
-
-## [일차](Day)
-
-> [문제집설명](문제집링크)
+> [쉬어가는 문제](문제집링크)
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
