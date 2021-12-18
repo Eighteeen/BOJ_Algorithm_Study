@@ -12,7 +12,7 @@ def calcByOperation(preVal, curVal, op):
     return result
 
 def setMinMaxValueInMap(x, y, curResult, operation):
-    global maxOfCalculation, minOfCalculation
+    global maxOfCalculation, minOfCalculation ## 오...
     if x == N - 1 and y == N - 1:
         maxOfCalculation = max(maxOfCalculation, curResult)
         minOfCalculation = min(minOfCalculation, curResult)
@@ -33,10 +33,12 @@ def setMinMaxValueInMap(x, y, curResult, operation):
 
 
 N = int(input())
-map = list(input().split() for _ in range(N))
+map = list(input().split() for _ in range(N)) ## 욜..
 
 dx, dy = [1, 0] , [0, 1]
 maxOfCalculation, minOfCalculation = -(5 ** 20), 5 ** 20
 
 setMinMaxValueInMap(0, 0, int(map[0][0]), '')
 print(maxOfCalculation, minOfCalculation)
+
+## 깔끔합니다
