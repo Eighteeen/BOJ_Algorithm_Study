@@ -15,4 +15,4 @@ const waterFeeOfX = xFee * P;
 const waterFeeOfY = yUsage < P ? yBaseFee + yFee * (P - yUsage) : yBaseFee;
 
 console.log(Math.min(waterFeeOfX, waterFeeOfY));
-//// ㄲㄲ
+//// ㄲㄲ : 22
