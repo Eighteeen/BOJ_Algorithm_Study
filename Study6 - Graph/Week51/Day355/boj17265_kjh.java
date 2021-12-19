@@ -2,6 +2,9 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+//// 전체적으로 깔끔하지만 main에서 updateMinMaxResult에 대한
+  //// 로직을 파악하고 있어야 하는 점이 (operator가 꼭 + 혹은 - 이여야 한다는 점이 어색해보임) 아쉽고,
+  //// updateMinMaxResult 에서 함수분리가 이루어 지면 좋을 것 같습니다.
 class Main {
   static int maxResult = Integer.MIN_VALUE;
   static int minResult = Integer.MAX_VALUE;

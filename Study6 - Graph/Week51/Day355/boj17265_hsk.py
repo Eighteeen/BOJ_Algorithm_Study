@@ -41,4 +41,4 @@ maxOfCalculation, minOfCalculation = -(5 ** 20), 5 ** 20
 setMinMaxValueInMap(0, 0, int(map[0][0]), '')
 print(maxOfCalculation, minOfCalculation)
 
-## 깔끔합니다
+## 깔끔합니다 : 22
