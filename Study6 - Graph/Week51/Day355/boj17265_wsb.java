@@ -25,10 +25,14 @@ class Main {
         }
 
         destination = Coordinate.twoPointOf(mapSize - 1, mapSize - 1);
-        setResultInMap(Coordinate.twoPointOf(0, 0), null, null);
+        setResultInMap(Coordinate.twoPointOf(0, 0));
 
         System.out.println(String.format("%d %d", maxResult, minResult));
         br.close();
+    }
+
+    static void setResultInMap(Coordinate start) {
+        setResultInMap(start, null, null);
     }
 
     static void setResultInMap(Coordinate start, Integer operand, Character operator) {
