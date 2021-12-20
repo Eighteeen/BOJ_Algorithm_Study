@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-//// 깔끔
+//// 깔끔 :2
 class Main {
     static int mapSize;
     static char[][] map;
@@ -25,6 +25,7 @@ class Main {
             map[i] = stringArrayToCharArray(mapInfo);
         }
 
+        //// 두two 점Point 은 아닌거같아유
         destination = Coordinate.twoPointOf(mapSize - 1, mapSize - 1);
         setResultInMap(Coordinate.twoPointOf(0, 0));
 
