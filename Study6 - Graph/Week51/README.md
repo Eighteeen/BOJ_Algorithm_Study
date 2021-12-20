@@ -65,7 +65,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | Pair Programming    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 10707 | [<sub>![Bronze4]</sub> 수도요금](https://www.acmicpc.net/problem/10707) | [진홍](Day356/boj10707_kjh.py) [승빈](Day356/boj10707_wsb.java) [수경](Day356/boj10707_hsk.js) | 진홍 승빈 [수경](Day356/boj10707_hsk.js) |
+| 백준   | 10707 | [<sub>![Bronze4]</sub> 수도요금](https://www.acmicpc.net/problem/10707) | [진홍](Day356/boj10707_kjh.py) [승빈](Day356/boj10707_wsb.java) [수경](Day356/boj10707_hsk.js) | [진홍](Day356/boj10707_kjh.py) 승빈 [수경](Day356/boj10707_hsk.js) |
 
 ## [357일차](Day357)
 
