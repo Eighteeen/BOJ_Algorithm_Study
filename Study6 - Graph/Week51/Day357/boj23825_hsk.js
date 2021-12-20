@@ -6,3 +6,4 @@ const [numOfblockS, numOfblockA] = (
   .map(Number);
 
 console.log(Math.floor(Math.min(numOfblockS, numOfblockA) / 2));
+//// 끔
