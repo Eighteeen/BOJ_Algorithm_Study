@@ -60,7 +60,9 @@ for (let i = 1; i <= numOfMember; i++) {
     pointOfChairman = pointOfCandidate;
   }
 }
+//// pointOfChairman 갱신하고 candidateOfChairman를 다시 초기화 해주는 부분에서
+  //// 자바스크립트 문법을 깔끔하게 활용해서 보기 편안하네요 굿
 
 console.log(pointOfChairman, candidateOfChairman.length);
 console.log(...candidateOfChairman);
-//// 깔끔
+//// 깔끔 : 22

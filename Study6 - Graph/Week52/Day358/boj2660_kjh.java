@@ -9,7 +9,7 @@ import java.util.Queue;
 import java.util.LinkedList;
 import java.util.Arrays;
 
-//// 깔끔해요
+//// 깔끔해요 : 22
 class Main {
   public static void main(String[] args) throws Exception {
     final int MEMBER_AMOUNT = Input.nextInt();
