@@ -17,6 +17,7 @@ const input = (() => {
   return () => stdin[line++];
 })();
 
+//// 올 걍 이름 이렇게 지어도 괜찮겠네요
 const getMaxDistance = (startVertex) => {
   const distance = new Array(numOfMember + 1).fill(0);
   const visitedVertices = new Array(numOfMember + 1).fill(false);
@@ -62,3 +63,4 @@ for (let i = 1; i <= numOfMember; i++) {
 
 console.log(pointOfChairman, candidateOfChairman.length);
 console.log(...candidateOfChairman);
+//// 깔끔
