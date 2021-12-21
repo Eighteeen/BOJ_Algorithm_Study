@@ -46,7 +46,9 @@ class Main {
         br.close();
     }
 
-    //// 이 함수가 하는 일이 뭔지 감도 안 잡혀요..
+    //// 이 함수가 하는 일이 뭔지 감도 안 잡혀요 ㅠㅠ
+    //// '어떻게' 설정하는건지를 함수 이름에 표현하거나, throughKScore도 좀 더 구체적으로 이름짓거나, throughKScore가 memberScores[i][j]가 작은게 어떤 상황인지 boolean으로 설명하는 방법이 생각나고
+    //// 모든 방법을 사용해도 설명이 힘들다면 주석으로라도 대강 설명해줬으면 좋았을 것 같습니다!
     static void setMemberScores() {
         for (int k = 1; k <= memberSize; k++) {
             for (int i = 1; i <= memberSize; i++) {
@@ -60,7 +62,7 @@ class Main {
         }
     }
 
-    //// 설정set하는건 알겠는데 '어떻게 설정하는지'가 설명된다면 좋을거같아요 setOne
+    //// 설정set하는건 알겠는데 '어떻게 설정하는지'가 설명된다면 좋을거같아요 setOne식으로
     static void setMemberFriendsScores(int member1, int member2) {
         memberScores[member1][member2] = memberScores[member2][member1] = 1;
     }
