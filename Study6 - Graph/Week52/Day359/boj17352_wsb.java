@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
+
 //// 깔끔쓰
 class Main {
     static List<Integer>[] adjacentIslands;
