@@ -42,7 +42,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 5543 | [<sub>![Bronze4]</sub> 상근날드](https://www.acmicpc.net/problem/5543) | [진홍](Day360/boj5543_kjh.py) [승빈](Day360/boj5543_wsb.java) 수경 | 진홍 승빈 수경 |
+| 백준   | 5543 | [<sub>![Bronze4]</sub> 상근날드](https://www.acmicpc.net/problem/5543) | [진홍](Day360/boj5543_kjh.py) [승빈](Day360/boj5543_wsb.java) [수경](Day360/boj5543_hsk.js) | 진홍 승빈 수경 |
 
 ## [361일차](Day361)
 
