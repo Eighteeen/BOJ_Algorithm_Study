@@ -29,6 +29,8 @@ class Main {
     }
   }
 
+  //// 함수명이 약간 어색하게 느껴져요 이전에 방문을 해서 true인 경우가 있는데,
+    //// 이런 경우에는 방문하지 않은 정점이라는 함수뜻에서 혼돈이 생기는 것 같습니다.
   static boolean isThereAnyNotVisitedVertex(List<Integer>[] adjacencyList, int startVertex) {
     if (visited[startVertex]) {
       return false;
