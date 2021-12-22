@@ -43,4 +43,5 @@ for (let i = 0; i < N - 2; i++) {
   graphOfIslands[islandB].push(islandA);
 }
 
+//// 올.. 그냥 하나만 방문시도해도 충분하네요 배워갑니다
 console.log(1, getNotVisitedNumOfIsland(1));
