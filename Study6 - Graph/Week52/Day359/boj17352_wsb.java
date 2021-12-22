@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
-//// 깔끔쓰
+//// 깔끔쓰 : 22
 class Main {
     static List<Integer>[] adjacentIslands;
     static boolean[] visited;
