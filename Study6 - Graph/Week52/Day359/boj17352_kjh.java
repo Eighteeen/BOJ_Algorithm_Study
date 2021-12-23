@@ -24,13 +24,13 @@ class Main {
     }
 
     for (int num = 1; num <= VERTEX_AMOUNT; num++) {
-      if (isThereAnyNotVisitedVertex(adjacencyList, num)) {
+      if (tryDFSAndReturnWhetherAnyNodeSearched(adjacencyList, num)) {
         System.out.printf("%d ", num);
       }
     }
   }
 
-  static boolean isThereAnyNotVisitedVertex(List<Integer>[] adjacencyList, int startVertex) {
+  static boolean tryDFSAndReturnWhetherAnyNodeSearched(List<Integer>[] adjacencyList, int startVertex) {
     if (visited[startVertex]) {
       return false;
     }
@@ -40,7 +40,7 @@ class Main {
       if (visited[adjacency]) {
         continue;
       }
-      isThereAnyNotVisitedVertex(adjacencyList, adjacency);
+      tryDFSAndReturnWhetherAnyNodeSearched(adjacencyList, adjacency);
     }
     
     return true;
