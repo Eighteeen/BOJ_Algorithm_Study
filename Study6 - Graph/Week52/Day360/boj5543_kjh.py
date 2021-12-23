@@ -7,3 +7,5 @@ for i in range(2):
   beverage = min(beverage, int(input()))
 
 print(burger+beverage-50)
+
+## 깔끔
