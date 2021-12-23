@@ -163,4 +163,3 @@
 [<sub>![Bronze4]</sub> 수도요금](https://www.acmicpc.net/problem/10707) |
 [<sub>![Bronze4]</sub> SASA 모형을 만들어보자](https://www.acmicpc.net/problem/23825) |
 [<sub>![Bronze4]</sub> 상근날드](https://www.acmicpc.net/problem/5543) |
-[<sub>![Bronze5]</sub> Next in line](https://www.acmicpc.net/problem/6749) |
