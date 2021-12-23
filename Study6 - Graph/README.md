@@ -84,6 +84,7 @@
 [<sub>![Gold5]</sub> 회장뽑기](https://www.acmicpc.net/problem/2660) |
 [<sub>![Gold5]</sub> 여러분의 다리가 되어 드리겠습니다!](https://www.acmicpc.net/problem/17352) |
 [<sub>![Gold4]</sub> 키 순서](https://www.acmicpc.net/problem/2458) |
+[<sub>![Gold5]</sub> 떡장수와 호랑이](https://www.acmicpc.net/problem/16432) |
 
 ## 쉬어갔던 문제
 [<sub>![Bronze3]</sub> 별 찍기 - 6](https://www.acmicpc.net/problem/2443) |
