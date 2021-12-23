@@ -8,4 +8,4 @@ for i in range(2):
 
 print(burger+beverage-50)
 
-## 깔끔
+## 깔끔 : 22
