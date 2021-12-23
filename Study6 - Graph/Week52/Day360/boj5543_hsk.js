@@ -15,3 +15,4 @@ const minPriceOfBurger = Math.min(upperBurger, middleBurger, lowerBugger);
 const minPriceOfBeverage = Math.min(coke, cider);
 
 console.log(minPriceOfBurger + minPriceOfBeverage - 50);
+//// 깔끔
