@@ -34,7 +34,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 17352 | [<sub>![Gold5]</sub> 여러분의 다리가 되어 드리겠습니다!](https://www.acmicpc.net/problem/17352) | [진홍](Day359/boj17352_kjh.java) [승빈](Day359/boj17352_wsb.java) [수경](Day359/boj17352_hsk.js) | 진홍 승빈 수경 |
+| 백준   | 17352 | [<sub>![Gold5]</sub> 여러분의 다리가 되어 드리겠습니다!](https://www.acmicpc.net/problem/17352) | [진홍](Day359/boj17352_kjh.java) [승빈](Day359/boj17352_wsb.java) [수경](Day359/boj17352_hsk.js) | [진홍](Day359/boj17352_kjh.java) 승빈 수경 |
 
 ## [360일차](Day360)
 
