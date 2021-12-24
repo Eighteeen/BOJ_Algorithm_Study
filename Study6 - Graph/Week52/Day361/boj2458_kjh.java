@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+//// 깔끔
 class Main {
   public static void main(String[] args) throws Exception {
     final int STUDENT_AMOUNT = Input.nextInt();
@@ -36,6 +37,7 @@ class Main {
     System.out.print(allComparableStudents);
   }
 
+  //// 이런 방법도 있었네요 배워가요
   static void updateComparableMatrixByFloyd(boolean[][] comparableMatrix) {
     int STUDENT_AMOUNT = comparableMatrix.length - 1;
 

@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
-//// 깔꼼
+//// 깔꼼 : 22
 class Main {
     static boolean[][] isKnowWhoTallerState;
 
@@ -51,6 +51,7 @@ class Main {
         isKnowWhoTallerState[smallStudent][tallStudent] = true;
     }
 
+    //// 이런 방법도 있었네요 배워가요
     static void setIsKnowWhoTallerStateByFloydWarshall(int size) {
         for (int k = 1; k < size; k++) {
             for (int i = 1; i < size; i++) {
