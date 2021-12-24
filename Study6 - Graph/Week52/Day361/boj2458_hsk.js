@@ -35,7 +35,7 @@ const setComparabletallArr = (comparableStudentNum) => {
       }
     }
   }
-};//// 이 아래는 줄바꿈 하나 있는게 가독성 더 좋은 거 같아요!
+};//// 이 아래는 줄바꿈 하나 있는게 가독성 더 좋은 거 같아요! : 22
 const [N, M] = input().split(' ').map(Number);
 //// 올 변수이름 영감 받아갑니다
 const comparableTallArr = Array.from(Array(N + 1), () => new Array(N + 1).fill(false));
@@ -62,3 +62,4 @@ for (let studentNum = 1; studentNum <= N; studentNum++) {
 }
 
 console.log(totalCntOfcomparableTall);
+//// 전체적으로 쉽게 후루룩 읽혔어요

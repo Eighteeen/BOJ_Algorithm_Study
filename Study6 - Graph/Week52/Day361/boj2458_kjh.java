@@ -21,6 +21,7 @@ class Main {
     for (int i = 1; i <= STUDENT_AMOUNT; i++) {
       int comparableCount = 0;
       for (int j = 1; j <= STUDENT_AMOUNT; j++) {
+        //// or로 처리할 수 있는데도 밑에 조건문을 굳이 나눈 이유가 있나요?
         if (comparableMatrix[i][j]) {
           comparableCount++;
         }
@@ -41,6 +42,7 @@ class Main {
   static void updateComparableMatrixByFloyd(boolean[][] comparableMatrix) {
     int STUDENT_AMOUNT = comparableMatrix.length - 1;
 
+    //// 오 인덱스 변수명 자체를 의미있는 이름으로 하니까 쉽게 읽히네요 굿
     for (int waypoint = 1; waypoint <= STUDENT_AMOUNT; waypoint++) {
       for (int begin = 1; begin <= STUDENT_AMOUNT; begin++) {
         for (int end = 1; end <= STUDENT_AMOUNT; end++) {
