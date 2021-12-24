@@ -16,6 +16,7 @@ const input = (() => {
   return () => stdin[line++];
 })();
 
+//// BFS로도 풀 수 있군요
 const setComparabletallArr = (comparableStudentNum) => {
   const visited = new Array(N + 1).fill(false);
   const queue = [comparableStudentNum];
@@ -34,8 +35,9 @@ const setComparabletallArr = (comparableStudentNum) => {
       }
     }
   }
-};
+};//// 이 아래는 줄바꿈 하나 있는게 가독성 더 좋은 거 같아요!
 const [N, M] = input().split(' ').map(Number);
+//// 올 변수이름 영감 받아갑니다
 const comparableTallArr = Array.from(Array(N + 1), () => new Array(N + 1).fill(false));
 for (let i = 0; i < M; i++) {
   const [shortStudent, tallStudent] = input().split(' ').map(Number);

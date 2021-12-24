@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
+//// 깔꼼
 class Main {
     static boolean[][] isKnowWhoTallerState;
 
@@ -56,6 +57,7 @@ class Main {
                 if (!isKnowWhoTallerState[i][k]) continue;
                 for (int j = 1; j < size; j++) {
                     if (isKnowWhoTallerState[i][j]) continue;
+                    //// 소크라테스?
                     boolean isKnowSocreThroughK = isKnowWhoTallerState[i][k] && isKnowWhoTallerState[k][j];
                     if (isKnowSocreThroughK) {
                         isKnowWhoTallerState[i][j] = true;
