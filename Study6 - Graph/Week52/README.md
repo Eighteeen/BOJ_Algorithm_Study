@@ -62,16 +62,16 @@
 
 ## [363일차](Day363) : Pairing Day
 
-> [문제집설명](https://www.acmicpc.net/group/workbook/view/9797/39928)
+> [그래프 활용](https://www.acmicpc.net/group/workbook/view/9797/39928)
 
 | 사이트 | 번호 | 문제                 | 답안                | Pair Programming    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 11967 | [<sub>![Gold3]</sub> 불켜기](https://www.acmicpc.net/problem/11967) | 진홍승빈수경 | Driver 🚗 진홍 & Navigator 🧭 수경승빈 |
+| 백준   | 11967 | [<sub>![Gold3]</sub> 불켜기](https://www.acmicpc.net/problem/11967) | *[진홍승빈수경](Day363/boj11967_kjhwsbhsk.java)* | Driver 🚗 진홍 & Navigator 🧭 수경승빈 |
 
 ## [364일차](Day364)
 
-> [문제집설명](문제집링크)
+> [그래프 활용](https://www.acmicpc.net/group/workbook/view/9797/39936)
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 0    | [<sub>![Unrated]</sub> 문제이름](문제링크) | 진홍 승빈 수경 | 진홍 승빈 수경 |
+| 백준   | 11967    | [<sub>![Gold3]</sub> 불켜기](https://www.acmicpc.net/problem/11967) | 진홍 승빈 수경 | 진홍 승빈 수경 |
