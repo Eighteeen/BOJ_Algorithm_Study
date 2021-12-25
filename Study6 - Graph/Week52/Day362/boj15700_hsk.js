@@ -3,5 +3,5 @@ const [N, M] = (process.platform === 'linux' ? fs.readFileSync('/dev/stdin').toS
   .split(' ')
   .map(BigInt);
 
-//// ㄲㄲ
+//// ㄲㄲ : 22
 console.log(BigInt((N * M) / BigInt(2)).toString());
