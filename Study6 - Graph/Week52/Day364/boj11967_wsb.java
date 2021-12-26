@@ -36,24 +36,26 @@ class Main {
             buttonsInRoom.get(room).add(button);
         }
 
-        System.out.println(getMaxRoomsLightOn(Coordinate.twoPointOf(1, 1)));
+        System.out.println(getMaxOfTurnOnLightRooms(Coordinate.twoPointOf(1, 1)));
         br.close();
     }
 
-    static int getMaxRoomsLightOn(Coordinate from) {
-        turnOnLightAllRooms(from);
-
-        int numOfRoomsLightOn = 0;
-        for (int i = 1; i <= barnSize; i++) {
-            for (int j = 1; j <= barnSize; j++) {
-                if (roomsLightOn[i][j]) numOfRoomsLightOn++;
-            }
-        }
-        
-        return numOfRoomsLightOn;
+    static int getMaxOfTurnOnLightRooms(Coordinate from) {
+        turnOnLightAllPossibleRooms(from);
+        return getNumOfLightOnRooms();
     }
 
-    static void turnOnLightAllRooms(Coordinate from) {
+    static int getNumOfLightOnRooms() {
+        int cnt = 0;
+        for (int i = 1; i <= barnSize; i++) {
+            for (int j = 1; j <= barnSize; j++) {
+                if (roomsLightOn[i][j]) cnt++;
+            }
+        }
+        return cnt;
+    }
+
+    static void turnOnLightAllPossibleRooms(Coordinate from) {
         roomsLightOn = new boolean[barnSize + 1][barnSize + 1];
         int[][] visited = new int[barnSize + 1][barnSize + 1];;
         final int VISIT_LATER = 1, VISITED = 2;
