@@ -2,7 +2,10 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.*;
 
+//// 깔끔
 class Main {
+  //// 주석보다는 visited를 "몇번째 날, 몇번째 떡"의 의미를 담을 수 있도록 작성했으면 좋았을 것 같습니다.
+  //// (주석을 써서 말한거고 안썼으면 피드백 안달았을 것 같아요)
   static int[] choosingCakes;
   static boolean[][] visited; // 몇번째 날, 몇번째 떡
   static int[] chosenCakes;

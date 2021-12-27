@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
+//// 깔끔
 class Main {
     static final int RICE_CAKE_TYPE_MAX = 9;
 
@@ -43,6 +44,7 @@ class Main {
         br.close();
     }
 
+    //// 단어 어감상 date보다 day가 잘어울렸을 것 같아요
     static boolean isSetUpRiceCakeTypesForTiger(int date) {
         if (date > marketPeriod) return true;
 
