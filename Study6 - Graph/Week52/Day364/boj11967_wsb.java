@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
+//// 깔끔해용~
 class Main {
     static int barnSize;
     static boolean[][] roomsLightOn;
@@ -60,6 +61,7 @@ class Main {
         int[][] visited = new int[barnSize + 1][barnSize + 1];;
         final int VISIT_LATER = 1, VISITED = 2;
 
+        //// Set활용 good~
         Queue<Coordinate> bfsQueue = new LinkedList<>();
         Set<Coordinate> yetVisitedRooms = new HashSet<>();
 
