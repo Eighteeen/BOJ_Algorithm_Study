@@ -58,7 +58,7 @@ class Main {
 
     static void turnOnLightAllPossibleRooms(Coordinate from) {
         roomsLightOn = new boolean[barnSize + 1][barnSize + 1];
-        int[][] visited = new int[barnSize + 1][barnSize + 1];;
+        int[][] visited = new int[barnSize + 1][barnSize + 1];
         final int VISIT_LATER = 1, VISITED = 2;
 
         //// Set활용 good~

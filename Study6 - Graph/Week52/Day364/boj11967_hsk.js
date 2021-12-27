@@ -35,6 +35,8 @@ const getMaxRoomsLightOn = () => {
         lightOnInRoom[roomX][roomY] = LIGHT_ON;
         roomsLightOn += 1;
 
+        //// nextRoom 과 nextCurrRoom 변수 의미 구분이 한번에 파악이 안 돼서 아쉬웠어요.
+          //// nextLightOnRoom 정도로 작명하면 명확한 의미 구분이 될 것 같습니다.
         for (let i = 0; i < 4; i++) {
           let nextRoomX = roomX + dx[i];
           let nextRoomY = roomY + dy[i];
