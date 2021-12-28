@@ -37,4 +37,5 @@ for (let i = 1; i <= N; i++) {
 
 printRiceCakesForTiger(0, 0, []);
 console.log(-1);
-//// 깔끔
+//// 깔끔 : 22
+//// console.log(-1); 실행 안 되는 거 넘 신기
