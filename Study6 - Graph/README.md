@@ -87,6 +87,7 @@
 [<sub>![Gold3]</sub> 불켜기](https://www.acmicpc.net/problem/11967) |
 [<sub>![Gold5]</sub> 떡장수와 호랑이](https://www.acmicpc.net/problem/16432) |
 [<sub>![Gold5]</sub> 이모티콘](https://www.acmicpc.net/problem/14226) |
+[<sub>![Gold5]</sub> 파이프 옮기기 1](https://www.acmicpc.net/problem/17070) |
 
 ## 쉬어갔던 문제
 [<sub>![Bronze3]</sub> 별 찍기 - 6](https://www.acmicpc.net/problem/2443) |
