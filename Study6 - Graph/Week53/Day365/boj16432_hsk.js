@@ -37,3 +37,4 @@ for (let i = 1; i <= N; i++) {
 
 printRiceCakesForTiger(0, 0, []);
 console.log(-1);
+//// 깔끔
