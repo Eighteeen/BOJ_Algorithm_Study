@@ -7,7 +7,7 @@ class Main {
   //// 주석보다는 visited를 "몇번째 날, 몇번째 떡"의 의미를 담을 수 있도록 작성했으면 좋았을 것 같습니다. : 22
   //// (주석을 써서 말한거고 안썼으면 피드백 안달았을 것 같아요) : 22
   static int[] choosingCakes;
-  static boolean[][] visited; // 몇번째 날, 몇번째 떡
+  static boolean[][] visited;
   static int[] chosenCakes;
   
   public static void main(String[] args) throws Exception {
