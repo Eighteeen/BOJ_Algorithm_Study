@@ -4,22 +4,22 @@ import java.io.InputStreamReader;
 import java.util.*;
 
 class Main {
+    static int screenSize;
+    static Queue<Coordinate> bfsQueue;
+    static int[][] minTimes;
+    static boolean[][] visited;
+
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         int S = Integer.parseInt(br.readLine());
 
-        System.out.println(getMinTimeOfMakeToEoticon(S + 1, 1, S));
+        System.out.println(getMinTimeOfMakeToEmoticon(1, S));
         br.close();
     }
 
-    static int getMinTimeOfMakeToEoticon(int size, int from, int to) {
-        Queue<Coordinate> bfsQueue = new LinkedList<>();
-        int[][] minTimes = new int[size + 1][size + 1];
-        boolean[][] visited = new boolean[size + 1][size + 1];
-
-        bfsQueue.offer(Coordinate.twoPointOf(from, 0));
-        visited[from][0] = true;
+    static int getMinTimeOfMakeToEmoticon(int from, int to) {
+        initForMakeToEmoticon(from, to);
 
         while (!bfsQueue.isEmpty()) {
             Coordinate current = bfsQueue.poll();
@@ -32,31 +32,35 @@ class Main {
             int nextTime = minTimes[currentScreen][currentClipboard] + 1;
 
             int copyClipboard = currentScreen;
-            if (!(isOutOfSize(currentScreen, copyClipboard, size) ||
-                visited[currentScreen][copyClipboard])) {
-                    visited[currentScreen][copyClipboard] = true;
-                    minTimes[currentScreen][copyClipboard] = nextTime;
-                    bfsQueue.offer(Coordinate.twoPointOf(currentScreen, copyClipboard));
-            }
+            makeEmoticon(currentScreen, copyClipboard, nextTime);
 
             int pasteScreen = currentScreen + currentClipboard;
-            if (!(isOutOfSize(pasteScreen, currentClipboard, size) ||
-            visited[pasteScreen][currentClipboard])) {
-                visited[pasteScreen][currentClipboard] = true;
-                minTimes[pasteScreen][currentClipboard] = nextTime;
-                bfsQueue.offer(Coordinate.twoPointOf(pasteScreen, currentClipboard));
-            }
+            makeEmoticon(pasteScreen, currentClipboard, nextTime);
 
             int deleteScreen = currentScreen - 1;
-            if (!(isOutOfSize(deleteScreen, currentClipboard, size) ||
-                visited[deleteScreen][currentClipboard])) {
-                    visited[deleteScreen][currentClipboard] = true;
-                    minTimes[deleteScreen][currentClipboard] = nextTime;
-                    bfsQueue.offer(Coordinate.twoPointOf(deleteScreen, currentClipboard));
-            }
+            makeEmoticon(deleteScreen, currentClipboard, nextTime);
         }
 
         return -1;
+    }
+
+    static void initForMakeToEmoticon(int from, int to) {
+        screenSize = to + 1;
+        bfsQueue = new LinkedList<>();
+        minTimes = new int[screenSize + 1][screenSize + 1];
+        visited = new boolean[screenSize + 1][screenSize + 1];
+
+        bfsQueue.offer(Coordinate.twoPointOf(from, 0));
+        visited[from][0] = true;
+    }
+
+    static void makeEmoticon(int screen, int clipboard, int makeTime) {
+        if (!(isOutOfSize(screen, clipboard, screenSize) ||
+            visited[screen][clipboard])) {
+                visited[screen][clipboard] = true;
+                minTimes[screen][clipboard] = makeTime;
+                bfsQueue.offer(Coordinate.twoPointOf(screen, clipboard));
+        }
     }
 
     static boolean isOutOfSize(int x, int y, int size) {
