@@ -26,7 +26,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 16432 | [<sub>![Gold5]</sub> 떡장수와 호랑이](https://www.acmicpc.net/problem/16432) | [진홍](Day365/boj16432_kjh.java) [승빈](Day365/boj16432_wsb.java) [수경](Day365/boj16432_hsk.js) | [진홍](Day365/boj16432_kjh_fb.java) 승빈 수경 |
+| 백준   | 16432 | [<sub>![Gold5]</sub> 떡장수와 호랑이](https://www.acmicpc.net/problem/16432) | [진홍](Day365/boj16432_kjh.java) [승빈](Day365/boj16432_wsb.java) [수경](Day365/boj16432_hsk.js) | [진홍](Day365/boj16432_kjh_fb.java) 승빈 [수경](Day365/boj16432_hsk.js) |
 
 ## [366일차](Day366)
 
