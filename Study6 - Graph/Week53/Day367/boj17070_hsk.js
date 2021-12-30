@@ -51,4 +51,4 @@ let cntOfWaysToMovePipe = 0;
 countWaysToMovePipe(0, 1, 0);
 
 console.log(cntOfWaysToMovePipe);
-//// 깔끔
+//// 깔끔 : 22

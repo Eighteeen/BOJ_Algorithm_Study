@@ -3,6 +3,7 @@ import java.io.InputStreamReader;
 import java.util.*;
 
 //// 변수명 함수명이 길어서 복잡해 보였지만 그 덕분에 이해하기 훨씬 쉬웠어요~
+  //// : 22 하지만 작명을 조금 간단히 나타내서 한 눈에 보이면 좋겠다 하는 아쉬움도 있었습니다.
 class Main {
   static int MAP_SIZE;
 
