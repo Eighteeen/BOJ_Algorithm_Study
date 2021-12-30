@@ -19,6 +19,7 @@ class Main {
         br.close();
     }
 
+    //// from, to로는 약간 설명이 부족한 느낌적느낌
     static int getMinTimeOfMakeToEmoticon(int from, int to) {
         initForMakeToEmoticon(from, to);
 
@@ -32,7 +33,7 @@ class Main {
 
             int nextTime = minTimes[currentScreen][currentClipboard] + 1;
 
-            //// 함수 하나로 매개변수를 다르게 해서 더욱 한눈에 알아볼 수 있었어요
+            //// 함수 하나로 매개변수를 다르게 해서 더욱 한눈에 알아볼 수 있었어요 :22
             int copyClipboard = currentScreen;
             makeEmoticon(currentScreen, copyClipboard, nextTime);
 
