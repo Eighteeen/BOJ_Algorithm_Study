@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.*;
 
+//// 깔끔해욧
 class Main {
   public static void main(String[] args) throws Exception {
     final int REQUIRED_EMOJIS = Input.nextInt();
@@ -23,6 +24,7 @@ class Main {
         return current.requiredTime; 
       }
 
+      //// 조건문이 무엇을 나타나는지 변수를 지정했으면 알아보기 쉬웠을 것 같아요
       if (!visited[current.emojis][current.emojis]) {
         queue.add(new TypingInfo(current.emojis, current.emojis, current.requiredTime + 1));
       }

@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
+//// 깔끔해욧
 class Main {
     static int screenSize;
     static Queue<Coordinate> bfsQueue;
@@ -31,6 +32,7 @@ class Main {
 
             int nextTime = minTimes[currentScreen][currentClipboard] + 1;
 
+            //// 함수 하나로 매개변수를 다르게 해서 더욱 한눈에 알아볼 수 있었어요
             int copyClipboard = currentScreen;
             makeEmoticon(currentScreen, copyClipboard, nextTime);
 
