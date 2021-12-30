@@ -89,6 +89,7 @@
 [<sub>![Gold5]</sub> 이모티콘](https://www.acmicpc.net/problem/14226) |
 [<sub>![Gold5]</sub> 파이프 옮기기 1](https://www.acmicpc.net/problem/17070) |
 [<sub>![Gold4]</sub> 여행 가자](https://www.acmicpc.net/problem/1976) |
+[<sub>![Silver2]</sub> 양](https://www.acmicpc.net/problem/3184) |
 
 ## 쉬어갔던 문제
 [<sub>![Bronze3]</sub> 별 찍기 - 6](https://www.acmicpc.net/problem/2443) |
