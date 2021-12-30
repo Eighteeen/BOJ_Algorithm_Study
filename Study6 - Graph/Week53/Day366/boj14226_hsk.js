@@ -18,7 +18,7 @@ const setMinTimeToMakeEmoticon = () => {
   while (queue.length) {
     const [screenCnt, clipboardCnt] = queue.shift();
 
-    //// 욜 boolean 변수 이름으로 설명해줘서 이해하기 편했어요
+    //// 욜 boolean 변수 이름으로 설명해줘서 이해하기 편했어요 : 22
     let isSave = timeCalcArr[screenCnt][screenCnt] === TIME_INIT_VALUE;
     if (isSave) {
       timeCalcArr[screenCnt][screenCnt] = timeCalcArr[screenCnt][clipboardCnt] + 1;
