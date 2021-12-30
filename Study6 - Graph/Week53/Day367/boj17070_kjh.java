@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.*;
 
+//// 변수명 함수명이 길어서 복잡해 보였지만 그 덕분에 이해하기 훨씬 쉬웠어요~
 class Main {
   static int MAP_SIZE;
 

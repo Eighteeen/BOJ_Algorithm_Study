@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
+//// 낄끔해요
 class Main {
     static final int HORIZONTAL = 0, VERTICAL = 1, DIAGONAL = 2;
 
