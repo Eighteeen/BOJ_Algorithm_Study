@@ -44,3 +44,4 @@ const TIME_INIT_VALUE = -1;
 const timeCalcArr = Array.from(new Array(S + 1), () => new Array(S + 1).fill(TIME_INIT_VALUE));
 setMinTimeToMakeEmoticon();
 console.log(getMinTimeToMakeEmoticon());
+//// 깔끔
