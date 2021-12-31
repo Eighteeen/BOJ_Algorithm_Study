@@ -36,6 +36,7 @@ class Main {
     System.out.print("YES");
   }
 
+  //// bfs를 사용해서 컴포넌트적으로 접근하는 방법 신기하네요! 다른 방법도 알아갑니다~
   static int getGroupNumberOfCity(int cityIndex) {
     if (groupNumberOfEachCity[cityIndex] > 0) {
       return groupNumberOfEachCity[cityIndex];
