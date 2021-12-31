@@ -42,7 +42,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 17070    | [<sub>![Gold5]</sub> 파이프 옮기기 1](https://www.acmicpc.net/problem/17070) | [진홍](Day367/boj17070_kjh.java) [승빈](Day367/boj17070_wsb.java) [수경](Day367/boj17070_hsk.js) | 진홍 승빈 수경 |
+| 백준   | 17070    | [<sub>![Gold5]</sub> 파이프 옮기기 1](https://www.acmicpc.net/problem/17070) | [진홍](Day367/boj17070_kjh.java) [승빈](Day367/boj17070_wsb.java) [수경](Day367/boj17070_hsk.js) | 진홍 승빈 [수경](Day367/boj17070_hsk.js) |
 
 ## [368일차](Day368)
 
