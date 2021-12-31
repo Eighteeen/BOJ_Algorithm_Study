@@ -34,7 +34,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 14226 | [<sub>![Gold5]</sub> 이모티콘](https://www.acmicpc.net/problem/14226) | [진홍](Day366/boj14226_kjh.java) [승빈](Day366/boj14226_wsb.java) [수경](Day366/boj14226_hsk.js) | [진홍](Day366/boj14226_kjh.java) 승빈 [수경](Day366/boj14226_hsk.js) |
+| 백준   | 14226 | [<sub>![Gold5]</sub> 이모티콘](https://www.acmicpc.net/problem/14226) | [진홍](Day366/boj14226_kjh.java) [승빈](Day366/boj14226_wsb.java) [수경](Day366/boj14226_hsk.js) | [진홍](Day366/boj14226_kjh.java) [승빈](Day366/boj14226_wsb_fb.java) [수경](Day366/boj14226_hsk.js) |
 
 ## [367일차](Day367)
 
