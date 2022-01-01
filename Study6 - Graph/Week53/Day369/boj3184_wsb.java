@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
-//// ㄲㄲㅆ
+//// ㄲㄲㅆ : 22
 class Main {
     static final char EMPTY = '.', FENCE = '#';
     static final char SHEEP = 'o', WOLF = 'v';

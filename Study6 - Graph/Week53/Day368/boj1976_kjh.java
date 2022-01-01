@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.*;
 
+//// 깔끔
 class Main {
   static int[] groupNumberOfEachCity;
   static int groupNumbering;

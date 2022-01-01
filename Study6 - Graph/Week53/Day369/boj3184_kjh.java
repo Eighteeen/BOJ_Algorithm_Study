@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.*;
 
+//// 깔끔
 class Main {
   public static void main(String[] args) throws Exception {
     int YARD_ROWS = Input.nextInt();
