@@ -7,8 +7,8 @@ class Main {
     static final char EMPTY = '.', FENCE = '#';
     static final char SHEEP = 'o', WOLF = 'v';
 
-    static int dLen = 4;
-    static int[] dx = {-1, 0, 1, 0}, dy = {0, 1, 0, -1};
+    static final int dLen = 4;
+    static final int[] dx = {-1, 0, 1, 0}, dy = {0, 1, 0, -1};
 
     static int gardenRow, gardenCol;
     static char[][] gardenState;
