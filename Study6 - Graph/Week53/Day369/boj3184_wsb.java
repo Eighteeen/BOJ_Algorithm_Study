@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
+//// ㄲㄲㅆ
 class Main {
     static final char EMPTY = '.', FENCE = '#';
     static final char SHEEP = 'o', WOLF = 'v';
@@ -46,6 +47,8 @@ class Main {
         }
     }
 
+    //// 요거 그냥 fightSheepAndWolfInsideFence(int)에 합쳐져도 될거같아요
+    //// 매개변수 없는걸로 두고 분리해서 얻는게 딱히 없는거같슴다
     static void fightSheepAndWolfInsideFence() {
         if (sheepCntInsideFence > wolfCntInsideFence) sheepCnt += sheepCntInsideFence;
         else wolfCnt += wolfCntInsideFence;
