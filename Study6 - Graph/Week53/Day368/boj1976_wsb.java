@@ -3,6 +3,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
+//// 플로이드 와샬까지 쓰셨군요
+//// 무난합니다
 class Main {
     static boolean[][] isPossibleTravelCities;
 

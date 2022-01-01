@@ -50,4 +50,4 @@ const startCountry = travelPlan[0] - 1;
 setIsVisitedCountries(startCountry);
 
 console.log(getIsVisitedAllCountries() ? 'YES' : 'NO');
-//// 간단하게 구현하신 것 같아요 깔끔
+//// 간단하게 구현하신 것 같아요 깔끔 :2
