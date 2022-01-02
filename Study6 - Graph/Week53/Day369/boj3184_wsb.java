@@ -49,6 +49,8 @@ class Main {
 
     //// 요거 그냥 fightSheepAndWolfInsideFence(int)에 합쳐져도 될거같아요
     //// 매개변수 없는걸로 두고 분리해서 얻는게 딱히 없는거같슴다
+    //// => fightSheepAndWolfInsideFence(Coordinate) 말씀하신 것 같은데
+        //// 재귀로 계속해서 연산하는 것보다 마지막에 한번만 연산하고 싶었기 때문에 동일한 이유로 유지하겠습니다. 
     static void fightSheepAndWolfInsideFence() {
         if (sheepCntInsideFence > wolfCntInsideFence) sheepCnt += sheepCntInsideFence;
         else wolfCnt += wolfCntInsideFence;
