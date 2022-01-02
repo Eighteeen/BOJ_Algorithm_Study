@@ -50,7 +50,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 1976 | [<sub>![Gold4]</sub> 여행 가자](https://www.acmicpc.net/problem/1976) | [진홍](Day368/boj1976_kjh.java) [승빈](Day368/boj1976_wsb.java) [수경](Day368/boj1976_hsk.js) | 진홍 승빈 [수경](Day368/boj1976_hsk.js) |
+| 백준   | 1976 | [<sub>![Gold4]</sub> 여행 가자](https://www.acmicpc.net/problem/1976) | [진홍](Day368/boj1976_kjh.java) [승빈](Day368/boj1976_wsb.java) [수경](Day368/boj1976_hsk.js) | [진홍](Day368/boj1976_kjh.java) 승빈 [수경](Day368/boj1976_hsk.js) |
 
 ## [369일차](Day369)
 
@@ -58,7 +58,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 3184 | [<sub>![Silver2]</sub> 양](https://www.acmicpc.net/problem/3184) | [진홍](Day369/boj3184_kjh.java) [승빈](Day369/boj3184_wsb.java) [수경](Day369/boj3184_hsk.js) | 진홍 승빈 수경 |
+| 백준   | 3184 | [<sub>![Silver2]</sub> 양](https://www.acmicpc.net/problem/3184) | [진홍](Day369/boj3184_kjh.java) [승빈](Day369/boj3184_wsb.java) [수경](Day369/boj3184_hsk.js) | [진홍](Day369/boj3184_kjh.java) [승빈](Day369/boj3184_wsb.java) 승빈 수경 |
 
 ## [370일차](Day370) : The Last Day
 
