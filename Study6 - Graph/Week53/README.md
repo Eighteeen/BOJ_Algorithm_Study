@@ -56,7 +56,7 @@
 
 > [그래프 기본](https://www.acmicpc.net/group/workbook/view/9797/40056)
 
-| 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
+| 사이트 | 번호 | 문제                 | 답안                 | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
 | 백준   | 3184 | [<sub>![Silver2]</sub> 양](https://www.acmicpc.net/problem/3184) | [진홍](Day369/boj3184_kjh.java) [승빈](Day369/boj3184_wsb.java) [수경](Day369/boj3184_hsk.js) | [진홍](Day369/boj3184_kjh.java) [승빈](Day369/boj3184_wsb.java) [수경](Day369/boj3184_hsk.js) |
 
@@ -72,4 +72,4 @@
 
 | 회고 |
 | ------ |
-| 진홍 [승빈](Day371/wsb.md) [수경](Day371/hsk.md) |
+| [진홍](Day371/kjh.md) [승빈](Day371/wsb.md) [수경](Day371/hsk.md) |
