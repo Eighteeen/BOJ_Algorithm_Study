@@ -58,7 +58,7 @@
 
 | 사이트 | 번호 | 문제                 | 답안                | 피드백 반영 답안    |
 | ------ | ---- | -------------------- | ------------------- | ------------------- |
-| 백준   | 3184 | [<sub>![Silver2]</sub> 양](https://www.acmicpc.net/problem/3184) | [진홍](Day369/boj3184_kjh.java) [승빈](Day369/boj3184_wsb.java) [수경](Day369/boj3184_hsk.js) | [진홍](Day369/boj3184_kjh.java) [승빈](Day369/boj3184_wsb.java) 수경 |
+| 백준   | 3184 | [<sub>![Silver2]</sub> 양](https://www.acmicpc.net/problem/3184) | [진홍](Day369/boj3184_kjh.java) [승빈](Day369/boj3184_wsb.java) [수경](Day369/boj3184_hsk.js) | [진홍](Day369/boj3184_kjh.java) [승빈](Day369/boj3184_wsb.java) [수경](Day369/boj3184_hsk.js) |
 
 ## [370일차](Day370) : The Last Day
 
