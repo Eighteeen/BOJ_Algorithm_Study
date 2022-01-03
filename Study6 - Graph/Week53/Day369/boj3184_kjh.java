@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.*;
 
-//// 깔끔
+//// 깔끔 : 22
 class Main {
   public static void main(String[] args) throws Exception {
     int YARD_ROWS = Input.nextInt();
@@ -24,6 +24,8 @@ class Main {
   }
 }
 
+//// Yard로 따로 class 를 만들었는데 ., #, o, v를 하드코딩해서 아쉬워요.
+  //// final 멤버로 선언해두면 좋을 것 같아요.
 class Yard {
   private char[][] yard;
   private int wolves;

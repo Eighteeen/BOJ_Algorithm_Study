@@ -77,4 +77,4 @@ for (let i = 0; i < R; i++) {
   }
 }
 console.log(totalSurvivingSheep, totalWolves);
-//// ㄲㄲ
+//// ㄲㄲ : 22
