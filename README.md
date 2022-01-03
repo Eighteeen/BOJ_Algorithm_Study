@@ -33,7 +33,7 @@
       <br />
       Java
       <br/>
-      Day01 ~
+      Day01 ~ Day370
     </td>
     <td align="center">
       <a href="https://solved.ac/wsb0722">
@@ -42,7 +42,7 @@
       <br />
       Java
       <br/>
-      Day01 ~
+      Day01 ~ Day370
     </td>
     <td align="center">
       <a href="https://solved.ac/hsk10271">
@@ -51,7 +51,7 @@
       <br />
       node.js
       <br/>
-      Day146 ~ 
+      Day146 ~ Day370
     </td>
   </tr>
 </table>
